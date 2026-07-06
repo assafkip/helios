@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FundVision — cyber VC signals</title>
+<style>
+  :root {
+    --paper: #f7f5f1;
+    --card: #fffefb;
+    --ink: #1b1a17;
+    --ink-soft: #55524b;
+    --ink-faint: #928d82;
+    --line: #e7e2d8;
+    --line-soft: #efeadf;
+    --hard: #b23a2e;
+    --soft: #7a7568;
+    --accent: #1b1a17;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--paper); color: var(--ink);
+    font-family: var(--sans); font-size: 15px; line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ---- Masthead ---- */
+  .masthead {
+    border-bottom: 1px solid var(--ink);
+    background: var(--paper);
+    position: sticky; top: 0; z-index: 20;
+  }
+  .masthead .inner { max-width: 900px; margin: 0 auto; padding: 22px 24px 16px; }
+  .kicker { font-size: 11px; letter-spacing: .22em; text-transform: uppercase; color: var(--ink-faint); }
+  .title-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; margin-top: 4px; }
+  h1 { font-family: var(--serif); font-weight: 600; font-size: 34px; line-height: 1; margin: 0; letter-spacing: -0.01em; }
+  .dek { font-family: var(--serif); font-style: italic; color: var(--ink-soft); font-size: 15px; }
+  .count { font-size: 12px; color: var(--ink-faint); white-space: nowrap; padding-bottom: 3px; }
+  .count b { color: var(--ink); font-weight: 600; }
+
+  /* ---- Controls ---- */
+  .controls { max-width: 900px; margin: 0 auto; padding: 14px 24px; display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; }
+  .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; background: var(--card); }
+  .seg button {
+    font-family: var(--sans); font-size: 12.5px; padding: 6px 15px; border: none; background: none;
+    color: var(--ink-soft); cursor: pointer; letter-spacing: .02em;
+  }
+  .seg button.on { background: var(--ink); color: var(--paper); }
+  .seg button:not(.on):hover { background: var(--line-soft); }
+  .search { display: flex; align-items: center; gap: 8px; margin-left: auto; border-bottom: 1px solid var(--line); padding: 5px 2px; }
+  .search input { border: none; background: none; outline: none; font-family: var(--serif); font-size: 15px; color: var(--ink); width: 210px; }
+  .search input::placeholder { color: var(--ink-faint); font-style: italic; }
+  .selects { display: flex; gap: 10px; }
+  select {
+    font-family: var(--sans); font-size: 12.5px; color: var(--ink); background: var(--card);
+    border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; cursor: pointer;
+  }
+
+  /* ---- Feed ---- */
+  .feed { max-width: 900px; margin: 0 auto; padding: 8px 24px 80px; }
+  .item {
+    display: block; text-decoration: none; color: inherit;
+    padding: 24px 0; border-bottom: 1px solid var(--line-soft);
+    transition: padding-left .16s ease;
+  }
+  .item:hover { padding-left: 8px; }
+  .item .head { display: flex; align-items: baseline; justify-content: space-between; gap: 14px; }
+  .who { font-family: var(--serif); font-size: 22px; font-weight: 600; letter-spacing: -0.01em; }
+  .item:hover .who { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  .firm { color: var(--ink-faint); font-weight: 400; font-size: 16px; font-family: var(--serif); font-style: italic; }
+  .badge {
+    flex: none; font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase;
+    padding: 3px 9px; border-radius: 999px; font-weight: 600; white-space: nowrap;
+  }
+  .badge.hard { background: var(--hard); color: #fff; }
+  .badge.soft { background: none; color: var(--soft); border: 1px solid var(--line); }
+  .excerpt { font-family: var(--serif); font-size: 16.5px; line-height: 1.55; color: var(--ink-soft); margin: 9px 0 0; max-width: 62ch; }
+  .foot { display: flex; align-items: center; gap: 12px; margin-top: 12px; font-size: 12px; color: var(--ink-faint); }
+  .theme { font-size: 11px; letter-spacing: .04em; padding: 2px 9px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink-soft); }
+  .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--ink-faint); }
+  .conf-high { color: var(--hard); }
+  .via { margin-left: auto; }
+  .item:hover .via { color: var(--ink); }
+  .via::after { content: " \2197"; }
+
+  /* ---- States ---- */
+  .skel { padding: 24px 0; border-bottom: 1px solid var(--line-soft); }
+  .sk { height: 14px; border-radius: 4px; background: linear-gradient(90deg,#eeeade 25%,#e4dfd2 50%,#eeeade 75%); background-size: 200% 100%; animation: sh 1.4s infinite; margin-bottom: 10px; }
+  @keyframes sh { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+  .state { padding: 80px 24px; text-align: center; color: var(--ink-faint); }
+  .state .big { font-family: var(--serif); font-size: 22px; color: var(--ink); margin-bottom: 8px; }
+  .state.err .big { color: var(--hard); }
+  .state code { font-family: ui-monospace, Menlo, monospace; font-size: 13px; background: var(--card); border: 1px solid var(--line); padding: 2px 7px; border-radius: 4px; color: var(--ink); }
+
+  @media (max-width: 640px) {
+    h1 { font-size: 27px; }
+    .who { font-size: 19px; }
+    .search { margin-left: 0; width: 100%; }
+    .search input { width: 100%; }
+    .selects { width: 100%; }
+    select { flex: 1; }
+  }
+</style>
+</head>
+<body>
+<div class="masthead">
+  <div class="inner">
+    <div class="kicker">Cyber VC intelligence · refreshed hourly</div>
+    <div class="title-row">
+      <h1>FundVision</h1>
+      <span class="count"><b id="shown">0</b> signals</span>
+    </div>
+    <div class="dek">Who is funding, hiring, and talking in security — read the room before the room reads you.</div>
+  </div>
+  <div class="controls">
+    <div class="seg" id="typeSeg">
+      <button data-type="all" class="on">All</button>
+      <button data-type="hard">Hard</button>
+      <button data-type="soft">Soft</button>
+    </div>
+    <div class="selects">
+      <select id="firmSel"><option value="">All firms</option></select>
+      <select id="themeSel"><option value="">All themes</option></select>
+    </div>
+    <label class="search">
+      <input id="q" type="search" placeholder="search a person, firm, phrase…" autocomplete="off">
+    </label>
+  </div>
+</div>
+
+<div class="feed" id="feed"></div>
+
+<script>
+const state = { all: [], type: "all", firm: "", theme: "", q: "" };
+const el = id => document.getElementById(id);
+const esc = s => (s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const prettyCat = c => (c||"").replace(/_/g, " ");
+
+function relTime(dateStr) {
+  if (!dateStr) return "";
+  const d = new Date(dateStr);
+  if (isNaN(d)) return esc(dateStr);
+  const days = Math.floor((Date.now() - d.getTime()) / 86400000);
+  if (days <= 0) return "today";
+  if (days === 1) return "yesterday";
+  if (days < 30) return days + " days ago";
+  return d.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+}
+
+function showSkeleton() {
+  el("feed").innerHTML = Array.from({length: 6}).map(() =>
+    `<div class="skel"><div class="sk" style="width:${30+Math.floor(Math.random()*30)}%"></div>
+     <div class="sk" style="width:${60+Math.floor(Math.random()*30)}%"></div>
+     <div class="sk" style="width:40%"></div></div>`).join("");
+}
+
+function buildControls() {
+  const firms = [...new Set(state.all.map(x => x.firm).filter(Boolean))].sort((a,b) => a.localeCompare(b));
+  el("firmSel").innerHTML = `<option value="">All firms</option>` +
+    firms.map(f => `<option value="${esc(f)}">${esc(f)}</option>`).join("");
+
+  const themeCount = {};
+  state.all.forEach(x => { if (x.signal_category) themeCount[x.signal_category] = (themeCount[x.signal_category]||0)+1; });
+  const themes = Object.keys(themeCount).sort((a,b) => themeCount[b]-themeCount[a]);
+  el("themeSel").innerHTML = `<option value="">All themes</option>` +
+    themes.map(t => `<option value="${esc(t)}">${esc(prettyCat(t))} (${themeCount[t]})</option>`).join("");
+
+  el("typeSeg").querySelectorAll("button").forEach(b => b.onclick = () => {
+    state.type = b.dataset.type;
+    el("typeSeg").querySelectorAll("button").forEach(x => x.classList.toggle("on", x === b));
+    render();
+  });
+  el("firmSel").onchange = e => { state.firm = e.target.value; render(); };
+  el("themeSel").onchange = e => { state.theme = e.target.value; render(); };
+}
+
+function matches(x) {
+  if (state.type !== "all" && x.signal_type !== state.type) return false;
+  if (state.firm && x.firm !== state.firm) return false;
+  if (state.theme && x.signal_category !== state.theme) return false;
+  if (state.q) {
+    const hay = [x.person_name, x.firm, x.summary, x.excerpt, x.signal_category].join(" ").toLowerCase();
+    if (!hay.includes(state.q)) return false;
+  }
+  return true;
+}
+
+function itemHtml(x) {
+  const type = x.signal_type === "hard" ? "hard" : "soft";
+  const badge = type === "hard" ? "Hard signal" : "Soft signal";
+  const conf = (x.confidence || "").toLowerCase();
+  const confClass = conf === "high" ? "conf-high" : "";
+  const body = x.excerpt || x.summary || "";
+  const via = x.source_type ? esc(x.source_type) : "source";
+  return `<a class="item" href="${esc(x.source_url||'#')}" target="_blank" rel="noopener">
+    <div class="head">
+      <div class="who">${esc(x.person_name || "Unknown")}${x.firm ? ` <span class="firm">— ${esc(x.firm)}</span>` : ""}</div>
+      <span class="badge ${type}">${badge}</span>
+    </div>
+    ${body ? `<p class="excerpt">${esc(body)}</p>` : ""}
+    <div class="foot">
+      ${x.signal_category ? `<span class="theme">${esc(prettyCat(x.signal_category))}</span>` : ""}
+      <span class="dot"></span>
+      <span>${relTime(x.source_date)}</span>
+      ${conf ? `<span class="dot"></span><span class="${confClass}">${esc(conf)} confidence</span>` : ""}
+      <span class="via">${via}</span>
+    </div>
+  </a>`;
+}
+
+function render() {
+  const list = state.all.filter(matches);
+  list.sort((a,b) => (b.source_date||"").localeCompare(a.source_date||""));
+  el("shown").textContent = list.length;
+  if (!list.length) {
+    el("feed").innerHTML = `<div class="state"><div class="big">Nothing matches yet</div>
+      <div>Clear a filter or the search to see the whole room.</div></div>`;
+    return;
+  }
+  el("feed").innerHTML = list.map(itemHtml).join("");
+}
+
+el("q").addEventListener("input", e => { state.q = e.target.value.trim().toLowerCase(); render(); });
+
+async function load() {
+  showSkeleton();
+  try {
+    const res = await fetch("signals-data.json", { cache: "no-store" });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const data = await res.json();
+    state.all = Array.isArray(data) ? data : (data.signals || []);
+    if (!state.all.length) {
+      el("feed").innerHTML = `<div class="state"><div class="big">The room is quiet</div>
+        <div>No signals written yet. Run <code>python scripts/live_monitor.py</code>.</div></div>`;
+      return;
+    }
+    buildControls();
+    render();
+  } catch (err) {
+    el("feed").innerHTML = `<div class="state err"><div class="big">Could not load the feed</div>
+      <div>${esc(err.message)} — expected <code>signals-data.json</code> beside this page.</div></div>`;
+  }
+}
+load();
+</script>
+</body>
+</html>

@@ -77,6 +77,8 @@
     border: 1px solid var(--line); border-radius: 10px; padding: 9px 13px; cursor: pointer;
   }
   select:hover { border-color: var(--line-2); }
+  .area { font-weight: 700; color: var(--ink); background: var(--surface-2); border-color: var(--line-2); padding-right: 30px; }
+  .area:hover, .area:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow); outline: none; }
   .search { display: flex; align-items: center; gap: 9px; margin-left: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 9px 14px; min-width: 240px; }
   .search:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow); }
   .search svg { flex: none; }
@@ -130,14 +132,15 @@
 <div class="nav">
   <div class="inner">
     <div class="logo"><span class="dot"></span>Fund<b>Vision</b></div>
-    <span class="tag">cyber VC signals · live</span>
+    <span class="tag">your area</span>
+    <select id="areaSel" class="area" aria-label="Choose your area"></select>
     <div class="live"><span class="live-dot"></span><span class="n" id="shown">0</span>&nbsp;tracked</div>
   </div>
 </div>
 
 <div class="hero">
-  <h1>See who's <span class="hl">funding, hiring, and moving</span> in cyber.</h1>
-  <p>Every hard signal and hot take from the VCs and voices shaping security. Refreshed hourly, straight from the source.</p>
+  <h1>See who's <span class="hl">funding, hiring, and moving</span> in <span id="areaWord">cyber</span>.</h1>
+  <p>Every hard signal and hot take from the VCs and voices shaping your space. Refreshed hourly, straight from the source.</p>
 </div>
 
 <div class="controls">
@@ -157,7 +160,7 @@
 <div class="feed" id="feed"></div>
 
 <script>
-const state = { all: [], type: "all", firm: "", theme: "", q: "" };
+const state = { all: [], vertical: "cyber", verticals: [], type: "all", firm: "", theme: "", q: "" };
 const el = id => document.getElementById(id);
 const esc = s => (s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const prettyCat = c => (c||"").replace(/_/g, " ");
@@ -247,16 +250,45 @@ function render() {
 
 el("q").addEventListener("input", e => { state.q = e.target.value.trim().toLowerCase(); render(); });
 
+function updateAreaWord() {
+  const v = state.verticals.find(x => x.id === state.vertical);
+  el("areaWord").textContent = v ? v.label.toLowerCase() : state.vertical;
+}
+
+async function loadVerticals() {
+  try {
+    const res = await fetch("verticals.json", { cache: "no-store" });
+    if (!res.ok) throw new Error("no registry");
+    const d = await res.json();
+    state.verticals = (d.verticals || []).filter(v => v.id && v.label);
+  } catch { state.verticals = [{ id: "cyber", label: "Cybersecurity" }]; }
+  const saved = localStorage.getItem("fv_vertical");
+  if (saved && state.verticals.some(v => v.id === saved)) state.vertical = saved;
+  const sel = el("areaSel");
+  sel.innerHTML = state.verticals.map(v => `<option value="${esc(v.id)}">${esc(v.label)}</option>`).join("");
+  sel.value = state.vertical;
+  updateAreaWord();
+  sel.onchange = () => {
+    state.vertical = sel.value;
+    localStorage.setItem("fv_vertical", state.vertical);
+    state.type = "all"; state.firm = ""; state.theme = ""; state.q = "";
+    el("q").value = "";
+    el("typeSeg").querySelectorAll("button").forEach(b => b.classList.toggle("on", b.dataset.type === "all"));
+    updateAreaWord();
+    load();
+  };
+}
+
 async function load() {
   showSkeleton();
   try {
-    const res = await fetch("signals-data.json", { cache: "no-store" });
+    const res = await fetch(`signals-${state.vertical}.json`, { cache: "no-store" });
     if (!res.ok) throw new Error("HTTP " + res.status);
     const data = await res.json();
     state.all = Array.isArray(data) ? data : (data.signals || []);
     if (!state.all.length) {
       el("feed").innerHTML = `<div class="state"><div class="big">The room is quiet</div>
-        <div>No signals written yet. Run <code>python scripts/live_monitor.py</code>.</div></div>`;
+        <div>No signals for this area yet. Run <code>python scripts/live_monitor.py --vertical ${esc(state.vertical)}</code>.</div></div>`;
       return;
     }
     buildControls();
@@ -266,7 +298,7 @@ async function load() {
       <div>${esc(err.message)} — expected <code>signals-data.json</code> beside this page.</div></div>`;
   }
 }
-load();
+loadVerticals().then(load);
 </script>
 </body>
 </html>

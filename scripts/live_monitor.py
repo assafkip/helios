@@ -52,20 +52,36 @@ PULLPUSH_BASE = "https://api.pullpush.io"
 HTTP_TIMEOUT = 20
 USER_AGENT = "vc-signals/1.0 (+https://ktlystlabs.com)"
 
-# Paths - relative to github-pages directory
+# Paths - relative to repo root, scoped to the selected vertical
 SCRIPT_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 DATA_DIR = PROJECT_ROOT / "data"
 
-VC_WATCHLIST_PATH = DATA_DIR / "vc_watchlist.json"
-MEDIA_VOICES_PATH = DATA_DIR / "cyber_media_voices.json"
-INDUSTRY_SOURCES_PATH = DATA_DIR / "industry_sources.json"
-SIGNALS_OUTPUT_PATH = PROJECT_ROOT / "signals-data.json"
-MONITOR_STATE_PATH = DATA_DIR / "monitor_state.json"
 
-# Outreach tracker - optional repo-local file for pipeline contact matching.
-# Standalone: lives inside this repo's data dir; absent by default (enrichment no-ops).
-OUTREACH_TRACKER_PATH = DATA_DIR / "outreach-tracker.json"
+def _resolve_vertical():
+    """Pick the vertical from --vertical <id> (default 'cyber'). Read from argv before
+    argparse so the module-level paths below resolve; argparse in main() validates the
+    same flag for --help and error messages."""
+    argv = sys.argv
+    if "--vertical" in argv:
+        i = argv.index("--vertical")
+        if i + 1 < len(argv):
+            return argv[i + 1]
+    return "cyber"
+
+
+VERTICAL = _resolve_vertical()
+VDIR = DATA_DIR / VERTICAL
+
+VC_WATCHLIST_PATH = VDIR / "vc_watchlist.json"
+MEDIA_VOICES_PATH = VDIR / "media_voices.json"
+INDUSTRY_SOURCES_PATH = VDIR / "industry_sources.json"
+SIGNALS_OUTPUT_PATH = PROJECT_ROOT / f"signals-{VERTICAL}.json"
+MONITOR_STATE_PATH = VDIR / "monitor_state.json"
+
+# Outreach tracker - optional per-vertical file for pipeline contact matching.
+# Standalone: lives inside this vertical's data dir; absent by default (enrichment no-ops).
+OUTREACH_TRACKER_PATH = VDIR / "outreach-tracker.json"
 
 
 def reddit_feed_entries(feed_url: str, fetch_json=None, limit: int = 10) -> List[Dict]:
@@ -813,6 +829,8 @@ def main():
     parser = argparse.ArgumentParser(description="Live VC Signal Monitor")
     parser.add_argument("--dry-run", action="store_true", help="Don't save signals, just print them")
     parser.add_argument("--verbose", "-v", action="store_true", help="Verbose output")
+    parser.add_argument("--vertical", default="cyber",
+                        help="Vertical id to run (reads data/<vertical>/, writes signals-<vertical>.json). Default: cyber")
     args = parser.parse_args()
 
     monitor = FeedMonitor(dry_run=args.dry_run, verbose=args.verbose)

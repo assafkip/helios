@@ -6,129 +6,152 @@
 <title>FundVision — cyber VC signals</title>
 <style>
   :root {
-    --paper: #f7f5f1;
-    --card: #fffefb;
-    --ink: #1b1a17;
-    --ink-soft: #55524b;
-    --ink-faint: #928d82;
-    --line: #e7e2d8;
-    --line-soft: #efeadf;
-    --hard: #b23a2e;
-    --soft: #7a7568;
-    --accent: #1b1a17;
-    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    --bg: #08080c;
+    --surface: #101018;
+    --surface-2: #16161f;
+    --line: #23232e;
+    --line-2: #2d2d3a;
+    --ink: #f5f5f8;
+    --ink-dim: #a0a0ae;
+    --ink-faint: #64646f;
+    --accent: #7c6cff;
+    --accent-glow: #7c6cff44;
+    --hard: #c6ff3d;
+    --hard-ink: #0a0a0f;
     --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; }
+  ::selection { background: var(--accent); color: #fff; }
   body {
-    background: var(--paper); color: var(--ink);
-    font-family: var(--sans); font-size: 15px; line-height: 1.5;
+    background:
+      radial-gradient(900px 420px at 82% -8%, #2a1f6b33, transparent 60%),
+      radial-gradient(700px 360px at 8% -4%, #123a5533, transparent 55%),
+      var(--bg);
+    background-attachment: fixed;
+    color: var(--ink); font-family: var(--sans); font-size: 15px; line-height: 1.5;
     -webkit-font-smoothing: antialiased;
   }
+  /* dark scrollbars everywhere */
+  * { scrollbar-width: thin; scrollbar-color: var(--line-2) transparent; }
+  *::-webkit-scrollbar { width: 10px; height: 10px; }
+  *::-webkit-scrollbar-track { background: transparent; }
+  *::-webkit-scrollbar-thumb { background: var(--line-2); border-radius: 6px; border: 2px solid var(--bg); }
+  *::-webkit-scrollbar-thumb:hover { background: #3b3b4c; }
 
-  /* ---- Masthead ---- */
-  .masthead {
-    border-bottom: 1px solid var(--ink);
-    background: var(--paper);
-    position: sticky; top: 0; z-index: 20;
+  /* ---- Nav ---- */
+  .nav {
+    position: sticky; top: 0; z-index: 30;
+    backdrop-filter: blur(14px); background: #08080ccc;
+    border-bottom: 1px solid var(--line);
   }
-  .masthead .inner { max-width: 900px; margin: 0 auto; padding: 22px 24px 16px; }
-  .kicker { font-size: 11px; letter-spacing: .22em; text-transform: uppercase; color: var(--ink-faint); }
-  .title-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; margin-top: 4px; }
-  h1 { font-family: var(--serif); font-weight: 600; font-size: 34px; line-height: 1; margin: 0; letter-spacing: -0.01em; }
-  .dek { font-family: var(--serif); font-style: italic; color: var(--ink-soft); font-size: 15px; }
-  .count { font-size: 12px; color: var(--ink-faint); white-space: nowrap; padding-bottom: 3px; }
-  .count b { color: var(--ink); font-weight: 600; }
+  .nav .inner { max-width: 1160px; margin: 0 auto; padding: 16px 28px; display: flex; align-items: center; gap: 18px; }
+  .logo { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 19px; letter-spacing: -0.02em; }
+  .logo .dot { width: 11px; height: 11px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 16px var(--accent); }
+  .logo b { color: var(--accent); font-weight: 800; }
+  .tag { font-size: 12px; color: var(--ink-faint); border-left: 1px solid var(--line-2); padding-left: 14px; }
+  .live { margin-left: auto; display: flex; align-items: center; gap: 9px; font-family: var(--mono); font-size: 12px; color: var(--ink-dim); }
+  .live .n { color: var(--ink); font-weight: 700; font-variant-numeric: tabular-nums; }
+  .live .live-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--hard); box-shadow: 0 0 10px var(--hard); animation: blink 2s infinite; }
+  @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+
+  /* ---- Hero strip ---- */
+  .hero { max-width: 1160px; margin: 0 auto; padding: 40px 28px 20px; }
+  .hero h1 { font-size: 40px; line-height: 1.02; font-weight: 850; letter-spacing: -0.03em; margin: 0 0 10px; max-width: 16ch; }
+  .hero h1 .hl { color: var(--accent); }
+  .hero p { color: var(--ink-dim); font-size: 16px; margin: 0; max-width: 52ch; }
 
   /* ---- Controls ---- */
-  .controls { max-width: 900px; margin: 0 auto; padding: 14px 24px; display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; }
-  .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; background: var(--card); }
+  .controls { max-width: 1160px; margin: 0 auto; padding: 22px 28px 10px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; position: sticky; top: 65px; z-index: 20; }
+  .seg { display: inline-flex; gap: 4px; padding: 4px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
   .seg button {
-    font-family: var(--sans); font-size: 12.5px; padding: 6px 15px; border: none; background: none;
-    color: var(--ink-soft); cursor: pointer; letter-spacing: .02em;
+    font-family: var(--sans); font-size: 13px; font-weight: 600; padding: 7px 16px; border: none;
+    background: none; color: var(--ink-dim); cursor: pointer; border-radius: 8px; transition: all .14s;
   }
-  .seg button.on { background: var(--ink); color: var(--paper); }
-  .seg button:not(.on):hover { background: var(--line-soft); }
-  .search { display: flex; align-items: center; gap: 8px; margin-left: auto; border-bottom: 1px solid var(--line); padding: 5px 2px; }
-  .search input { border: none; background: none; outline: none; font-family: var(--serif); font-size: 15px; color: var(--ink); width: 210px; }
-  .search input::placeholder { color: var(--ink-faint); font-style: italic; }
-  .selects { display: flex; gap: 10px; }
+  .seg button:hover { color: var(--ink); }
+  .seg button.on { background: var(--accent); color: #fff; box-shadow: 0 4px 16px var(--accent-glow); }
+  .seg button[data-type="hard"].on { background: var(--hard); color: var(--hard-ink); box-shadow: 0 4px 16px #c6ff3d44; }
   select {
-    font-family: var(--sans); font-size: 12.5px; color: var(--ink); background: var(--card);
-    border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; cursor: pointer;
+    font-family: var(--sans); font-size: 13px; font-weight: 500; color: var(--ink); background: var(--surface);
+    border: 1px solid var(--line); border-radius: 10px; padding: 9px 13px; cursor: pointer;
   }
+  select:hover { border-color: var(--line-2); }
+  .search { display: flex; align-items: center; gap: 9px; margin-left: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 9px 14px; min-width: 240px; }
+  .search:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow); }
+  .search svg { flex: none; }
+  .search input { border: none; background: none; outline: none; color: var(--ink); font-family: var(--sans); font-size: 14px; width: 100%; }
+  .search input::placeholder { color: var(--ink-faint); }
 
-  /* ---- Feed ---- */
-  .feed { max-width: 900px; margin: 0 auto; padding: 8px 24px 80px; }
+  /* ---- Feed grid ---- */
+  .feed { max-width: 1160px; margin: 0 auto; padding: 14px 28px 90px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
   .item {
-    display: block; text-decoration: none; color: inherit;
-    padding: 24px 0; border-bottom: 1px solid var(--line-soft);
-    transition: padding-left .16s ease;
+    display: flex; flex-direction: column; text-decoration: none; color: inherit;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 20px;
+    transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease; position: relative; overflow: hidden;
   }
-  .item:hover { padding-left: 8px; }
-  .item .head { display: flex; align-items: baseline; justify-content: space-between; gap: 14px; }
-  .who { font-family: var(--serif); font-size: 22px; font-weight: 600; letter-spacing: -0.01em; }
-  .item:hover .who { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
-  .firm { color: var(--ink-faint); font-weight: 400; font-size: 16px; font-family: var(--serif); font-style: italic; }
-  .badge {
-    flex: none; font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase;
-    padding: 3px 9px; border-radius: 999px; font-weight: 600; white-space: nowrap;
-  }
-  .badge.hard { background: var(--hard); color: #fff; }
-  .badge.soft { background: none; color: var(--soft); border: 1px solid var(--line); }
-  .excerpt { font-family: var(--serif); font-size: 16.5px; line-height: 1.55; color: var(--ink-soft); margin: 9px 0 0; max-width: 62ch; }
-  .foot { display: flex; align-items: center; gap: 12px; margin-top: 12px; font-size: 12px; color: var(--ink-faint); }
-  .theme { font-size: 11px; letter-spacing: .04em; padding: 2px 9px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink-soft); }
-  .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--ink-faint); }
+  .item::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--accent); opacity: 0; transition: opacity .16s; }
+  .item.hard::before { background: var(--hard); }
+  .item:hover { transform: translateY(-3px); border-color: var(--line-2); box-shadow: 0 12px 40px #00000066; }
+  .item:hover::before { opacity: 1; }
+  .head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+  .who { font-size: 17px; font-weight: 750; letter-spacing: -0.01em; line-height: 1.25; }
+  .firm { display: block; font-size: 13px; font-weight: 500; color: var(--ink-faint); margin-top: 2px; }
+  .badge { flex: none; font-size: 10px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; padding: 4px 10px; border-radius: 999px; }
+  .badge.hard { background: var(--hard); color: var(--hard-ink); }
+  .badge.soft { background: var(--surface-2); color: var(--ink-dim); border: 1px solid var(--line-2); }
+  .excerpt { font-size: 14.5px; line-height: 1.5; color: var(--ink-dim); margin: 13px 0 0; flex: 1; }
+  .foot { display: flex; align-items: center; gap: 10px; margin-top: 16px; font-size: 12px; color: var(--ink-faint); font-family: var(--mono); }
+  .theme { font-family: var(--sans); font-size: 11px; font-weight: 600; letter-spacing: .02em; padding: 3px 10px; border: 1px solid var(--line-2); border-radius: 999px; color: var(--accent); background: #7c6cff10; }
+  .dot { width: 3px; height: 3px; border-radius: 50%; background: var(--ink-faint); }
   .conf-high { color: var(--hard); }
-  .via { margin-left: auto; }
-  .item:hover .via { color: var(--ink); }
+  .via { margin-left: auto; color: var(--ink-faint); font-weight: 600; }
+  .item:hover .via { color: var(--accent); }
   .via::after { content: " \2197"; }
 
   /* ---- States ---- */
-  .skel { padding: 24px 0; border-bottom: 1px solid var(--line-soft); }
-  .sk { height: 14px; border-radius: 4px; background: linear-gradient(90deg,#eeeade 25%,#e4dfd2 50%,#eeeade 75%); background-size: 200% 100%; animation: sh 1.4s infinite; margin-bottom: 10px; }
+  .skel { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 20px; }
+  .sk { height: 14px; border-radius: 5px; background: linear-gradient(90deg,#16161f 25%,#22222e 50%,#16161f 75%); background-size: 200% 100%; animation: sh 1.4s infinite; margin-bottom: 11px; }
   @keyframes sh { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
-  .state { padding: 80px 24px; text-align: center; color: var(--ink-faint); }
-  .state .big { font-family: var(--serif); font-size: 22px; color: var(--ink); margin-bottom: 8px; }
-  .state.err .big { color: var(--hard); }
-  .state code { font-family: ui-monospace, Menlo, monospace; font-size: 13px; background: var(--card); border: 1px solid var(--line); padding: 2px 7px; border-radius: 4px; color: var(--ink); }
+  .state { grid-column: 1 / -1; padding: 80px 24px; text-align: center; color: var(--ink-faint); }
+  .state .big { font-size: 22px; font-weight: 750; color: var(--ink); margin-bottom: 8px; }
+  .state.err .big { color: #ff5470; }
+  .state code { font-family: var(--mono); font-size: 13px; background: var(--surface); border: 1px solid var(--line); padding: 2px 7px; border-radius: 6px; color: var(--ink); }
 
-  @media (max-width: 640px) {
-    h1 { font-size: 27px; }
-    .who { font-size: 19px; }
+  @media (max-width: 760px) {
+    .feed { grid-template-columns: 1fr; }
+    .hero h1 { font-size: 30px; }
+    .controls { position: static; }
     .search { margin-left: 0; width: 100%; }
-    .search input { width: 100%; }
-    .selects { width: 100%; }
-    select { flex: 1; }
   }
 </style>
 </head>
 <body>
-<div class="masthead">
+<div class="nav">
   <div class="inner">
-    <div class="kicker">Cyber VC intelligence · refreshed hourly</div>
-    <div class="title-row">
-      <h1>FundVision</h1>
-      <span class="count"><b id="shown">0</b> signals</span>
-    </div>
-    <div class="dek">Who is funding, hiring, and talking in security — read the room before the room reads you.</div>
+    <div class="logo"><span class="dot"></span>Fund<b>Vision</b></div>
+    <span class="tag">cyber VC signals · live</span>
+    <div class="live"><span class="live-dot"></span><span class="n" id="shown">0</span>&nbsp;tracked</div>
   </div>
-  <div class="controls">
-    <div class="seg" id="typeSeg">
-      <button data-type="all" class="on">All</button>
-      <button data-type="hard">Hard</button>
-      <button data-type="soft">Soft</button>
-    </div>
-    <div class="selects">
-      <select id="firmSel"><option value="">All firms</option></select>
-      <select id="themeSel"><option value="">All themes</option></select>
-    </div>
-    <label class="search">
-      <input id="q" type="search" placeholder="search a person, firm, phrase…" autocomplete="off">
-    </label>
+</div>
+
+<div class="hero">
+  <h1>See who's <span class="hl">funding, hiring, and moving</span> in cyber.</h1>
+  <p>Every hard signal and hot take from the VCs and voices shaping security. Refreshed hourly, straight from the source.</p>
+</div>
+
+<div class="controls">
+  <div class="seg" id="typeSeg">
+    <button data-type="all" class="on">All</button>
+    <button data-type="hard">Hard</button>
+    <button data-type="soft">Soft</button>
   </div>
+  <select id="firmSel"><option value="">All firms</option></select>
+  <select id="themeSel"><option value="">All themes</option></select>
+  <label class="search">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#64646f" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+    <input id="q" type="search" placeholder="search a person, firm, phrase…" autocomplete="off">
+  </label>
 </div>
 
 <div class="feed" id="feed"></div>
@@ -146,15 +169,15 @@ function relTime(dateStr) {
   const days = Math.floor((Date.now() - d.getTime()) / 86400000);
   if (days <= 0) return "today";
   if (days === 1) return "yesterday";
-  if (days < 30) return days + " days ago";
+  if (days < 30) return days + "d ago";
   return d.toLocaleDateString("en-US", { month: "short", day: "numeric" });
 }
 
 function showSkeleton() {
   el("feed").innerHTML = Array.from({length: 6}).map(() =>
-    `<div class="skel"><div class="sk" style="width:${30+Math.floor(Math.random()*30)}%"></div>
-     <div class="sk" style="width:${60+Math.floor(Math.random()*30)}%"></div>
-     <div class="sk" style="width:40%"></div></div>`).join("");
+    `<div class="skel"><div class="sk" style="width:55%"></div>
+     <div class="sk" style="width:90%"></div><div class="sk" style="width:70%"></div>
+     <div class="sk" style="width:35%"></div></div>`).join("");
 }
 
 function buildControls() {
@@ -190,22 +213,21 @@ function matches(x) {
 
 function itemHtml(x) {
   const type = x.signal_type === "hard" ? "hard" : "soft";
-  const badge = type === "hard" ? "Hard signal" : "Soft signal";
+  const badge = type === "hard" ? "Hard" : "Soft";
   const conf = (x.confidence || "").toLowerCase();
   const confClass = conf === "high" ? "conf-high" : "";
   const body = x.excerpt || x.summary || "";
   const via = x.source_type ? esc(x.source_type) : "source";
-  return `<a class="item" href="${esc(x.source_url||'#')}" target="_blank" rel="noopener">
+  return `<a class="item ${type}" href="${esc(x.source_url||'#')}" target="_blank" rel="noopener">
     <div class="head">
-      <div class="who">${esc(x.person_name || "Unknown")}${x.firm ? ` <span class="firm">— ${esc(x.firm)}</span>` : ""}</div>
+      <div class="who">${esc(x.person_name || "Unknown")}${x.firm ? `<span class="firm">${esc(x.firm)}</span>` : ""}</div>
       <span class="badge ${type}">${badge}</span>
     </div>
     ${body ? `<p class="excerpt">${esc(body)}</p>` : ""}
     <div class="foot">
       ${x.signal_category ? `<span class="theme">${esc(prettyCat(x.signal_category))}</span>` : ""}
-      <span class="dot"></span>
       <span>${relTime(x.source_date)}</span>
-      ${conf ? `<span class="dot"></span><span class="${confClass}">${esc(conf)} confidence</span>` : ""}
+      ${conf ? `<span class="dot"></span><span class="${confClass}">${esc(conf)}</span>` : ""}
       <span class="via">${via}</span>
     </div>
   </a>`;

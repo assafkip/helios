@@ -275,6 +275,49 @@ RELEVANCE_KEYWORDS = [
     "enterprise", "raise", "funding"
 ]
 
+# Generic, vertical-neutral taxonomy for NON-cyber verticals. The cyber vertical keeps
+# the security-specific tables above; every other vertical uses these so its theme
+# dropdown never shows security categories (threat_intelligence, soc_pain, etc.).
+GENERIC_HARD_KEYWORDS = {
+    "new_fund_raised": [
+        "raised", "closes fund", "new fund", "fund announcement",
+        "million fund", "billion fund", "announces fund", "fund raise"
+    ],
+    "new_investment": [
+        "led the", "led seed", "led series", "invested in", "portfolio company",
+        "backs", "invests", "funding round", "announces investment",
+        "seed round", "series a", "series b", "raises $"
+    ],
+    "actively_looking": [
+        "looking for", "seeking", "open to meeting", "pitch me",
+        "office hours", "want to meet", "interested in"
+    ],
+    "new_thesis": [
+        "our thesis", "investment thesis", "why we invested",
+        "our investment in", "partnering with"
+    ]
+}
+
+# Order matters: specific categories first, market_commentary is the catch-all last.
+GENERIC_SOFT_KEYWORDS = {
+    "portfolio_win": [
+        "acquisition", "acquired", "exit", "ipo", "valuation",
+        "unicorn", "milestone", "congratulations"
+    ],
+    "sector_pain": [
+        "problem", "pain point", "broken", "friction", "challenge",
+        "struggle", "hard to", "overwhelmed", "bottleneck"
+    ],
+    "deep_dive": [
+        "deep dive", "breakdown", "teardown", "how it works",
+        "explainer", "a guide to", "primer"
+    ],
+    "market_commentary": [
+        "trend", "trends", "landscape", "market", "outlook", "prediction",
+        "future of", "state of", "commentary", "take", "why", "what"
+    ]
+}
+
 
 class FeedMonitor:
     """Monitors RSS feeds and detects signals."""
@@ -282,6 +325,16 @@ class FeedMonitor:
     def __init__(self, dry_run: bool = False, verbose: bool = False):
         self.dry_run = dry_run
         self.verbose = verbose
+        # Cyber keeps the security-specific taxonomy; all other verticals use the
+        # generic VC taxonomy so security theme names never leak into their dropdown.
+        if VERTICAL == "cyber":
+            self.hard_keywords = HARD_SIGNAL_KEYWORDS
+            self.soft_keywords = SOFT_SIGNAL_KEYWORDS
+            self.default_soft_category = "security_trend_commentary"
+        else:
+            self.hard_keywords = GENERIC_HARD_KEYWORDS
+            self.soft_keywords = GENERIC_SOFT_KEYWORDS
+            self.default_soft_category = "market_commentary"
         self.vc_watchlist = self._load_watchlist()
         self.media_voices = self._load_media_voices()
         self.industry_sources = self._load_industry_sources()
@@ -431,12 +484,12 @@ class FeedMonitor:
         text_lower = text.lower()
 
         # Check hard signals first (higher priority)
-        for category, keywords in HARD_SIGNAL_KEYWORDS.items():
+        for category, keywords in self.hard_keywords.items():
             if any(kw in text_lower for kw in keywords):
                 return ("hard", category)
 
         # Check soft signals
-        for category, keywords in SOFT_SIGNAL_KEYWORDS.items():
+        for category, keywords in self.soft_keywords.items():
             if any(kw in text_lower for kw in keywords):
                 return ("soft", category)
 
@@ -607,7 +660,7 @@ class FeedMonitor:
         if not signal_type and is_industry_source:
             # Default to soft/market signal for industry sources
             signal_type = "soft"
-            signal_category = "security_trend_commentary"
+            signal_category = self.default_soft_category
 
         if not signal_type:
             return None

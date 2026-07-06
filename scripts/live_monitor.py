@@ -318,6 +318,43 @@ GENERIC_SOFT_KEYWORDS = {
     ]
 }
 
+# Relevance is vertical-aware. Cyber keeps its security-term gate (RELEVANCE_KEYWORDS
+# above). Every other vertical keeps content that is either a venture/funding signal
+# (GENERIC_VC_RELEVANCE) OR on-topic for that vertical (RELEVANCE_BY_VERTICAL) — so a
+# non-security VC's post is no longer dropped by a security filter. This is the fix for
+# "built for cyber, now serving every vertical": the keyword layer is parameterized, not
+# hardcoded to security.
+GENERIC_VC_RELEVANCE = [
+    "raised", "fund", "funding", "invest", "investment", "investor", "seed", "series",
+    "backs", "led ", "portfolio", "thesis", "acqui", "acquisition", "valuation",
+    "round", "venture", "startup", "founder", "capital", "term sheet", "cap table",
+    "ipo", "exit", "unicorn"
+]
+RELEVANCE_BY_VERTICAL = {
+    "fintech": ["fintech", "payments", "payment", "banking", "bank", "lending", "loan",
+                "credit", "neobank", "embedded finance", "stablecoin", "crypto", "wallet",
+                "bnpl", "insurtech", "wealthtech", "regtech", "open banking", "card",
+                "remittance", "money", "financial"],
+    "ai-ml": ["ai", "a.i.", "ml", "machine learning", "llm", "model", "inference", "gpu",
+              "agent", "genai", "generative", "foundation model", "neural", "training",
+              "dataset", "openai", "anthropic", "compute", "fine-tun", "rag"],
+    "healthtech": ["health", "healthcare", "clinical", "patient", "biotech", "bio",
+                   "pharma", "medical", "drug", "fda", "digital health", "care",
+                   "hospital", "diagnostic", "therapeutic", "medtech", "genomic"],
+    "climate": ["climate", "energy", "carbon", "emission", "renewable", "solar", "battery",
+                "grid", "ev", "clean", "decarbon", "sustainab", "hydrogen", "fusion",
+                "nuclear", "geothermal", "electrif", "cleantech"],
+    "edtech": ["edtech", "education", "learning", "student", "school", "university",
+               "course", "curriculum", "teacher", "academic", "tutoring", "upskill",
+               "reskill", "workforce", "credential"],
+    "marketing-ads": ["marketing", "advertising", "ad ", "ads", "advertis", "brand",
+                      "adtech", "martech", "campaign", "media buying", "cmo", "dtc",
+                      "commerce", "attribution", "creator", "influencer", "seo", "retail media"],
+    "space-tech": ["space", "satellite", "launch", "orbit", "rocket", "spacecraft",
+                   "aerospace", "defense", "lunar", "propulsion", "constellation",
+                   "payload", "nasa", "spacex", "in-orbit", "earth observation"],
+}
+
 
 class FeedMonitor:
     """Monitors RSS feeds and detects signals."""
@@ -331,10 +368,12 @@ class FeedMonitor:
             self.hard_keywords = HARD_SIGNAL_KEYWORDS
             self.soft_keywords = SOFT_SIGNAL_KEYWORDS
             self.default_soft_category = "security_trend_commentary"
+            self.relevance_keywords = RELEVANCE_KEYWORDS
         else:
             self.hard_keywords = GENERIC_HARD_KEYWORDS
             self.soft_keywords = GENERIC_SOFT_KEYWORDS
             self.default_soft_category = "market_commentary"
+            self.relevance_keywords = GENERIC_VC_RELEVANCE + RELEVANCE_BY_VERTICAL.get(VERTICAL, [])
         self.vc_watchlist = self._load_watchlist()
         self.media_voices = self._load_media_voices()
         self.industry_sources = self._load_industry_sources()
@@ -472,9 +511,9 @@ class FeedMonitor:
         return False
 
     def _is_relevant(self, text: str) -> bool:
-        """Check if content is relevant to cybersecurity/VC space."""
+        """Check if content is relevant to this vertical (or the VC/funding space)."""
         text_lower = text.lower()
-        return any(kw in text_lower for kw in RELEVANCE_KEYWORDS)
+        return any(kw in text_lower for kw in self.relevance_keywords)
 
     def _detect_signal_type(self, text: str) -> Tuple[Optional[str], Optional[str]]:
         """

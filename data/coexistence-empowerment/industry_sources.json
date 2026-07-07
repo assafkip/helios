@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "created": "2026-07-07",
+    "last_updated": "2026-07-07",
+    "description": "Impact / empowerment / social-enterprise publications for the coexistence-empowerment vertical. All feeds verified live 2026-07-07. Pure RSS, no social scraping.",
+    "schema_version": "1.0"
+  },
+  "sources": [
+    {
+      "source_name": "ImpactAlpha",
+      "source_type": "news",
+      "category": "impact_investing_news",
+      "rss_feeds": [
+        "https://impactalpha.com/feed/"
+      ],
+      "topics": [
+        "impact investing",
+        "blended finance",
+        "catalytic capital",
+        "inclusive economy"
+      ],
+      "priority": 1,
+      "notes": "Primary impact-investing trade outlet. Deals, funds, and thesis coverage."
+    },
+    {
+      "source_name": "Stanford Social Innovation Review",
+      "source_type": "news",
+      "category": "social_innovation",
+      "rss_feeds": [
+        "https://ssir.org/site/rss_2.0"
+      ],
+      "topics": [
+        "social innovation",
+        "social enterprise",
+        "empowerment",
+        "systems change"
+      ],
+      "priority": 1,
+      "notes": "Academic-adjacent social innovation review. Empowerment and social-impact depth."
+    },
+    {
+      "source_name": "Pioneers Post",
+      "source_type": "news",
+      "category": "social_enterprise_news",
+      "rss_feeds": [
+        "https://www.pioneerspost.com/feed"
+      ],
+      "topics": [
+        "social enterprise",
+        "impact investing",
+        "purpose economy",
+        "social entrepreneurs"
+      ],
+      "priority": 1,
+      "notes": "UK social-enterprise and impact-investing news."
+    },
+    {
+      "source_name": "Impact Investor",
+      "source_type": "news",
+      "category": "impact_investing_news",
+      "rss_feeds": [
+        "https://impact-investor.com/feed/"
+      ],
+      "topics": [
+        "impact investing",
+        "impact funds",
+        "sustainable finance",
+        "ESG"
+      ],
+      "priority": 2,
+      "notes": "European impact-investing publication covering funds and deals."
+    },
+    {
+      "source_name": "NextBillion",
+      "source_type": "news",
+      "category": "inclusive_business",
+      "rss_feeds": [
+        "https://nextbillion.net/feed/"
+      ],
+      "topics": [
+        "inclusive business",
+        "base of the pyramid",
+        "financial inclusion",
+        "development"
+      ],
+      "priority": 2,
+      "notes": "Inclusive-business and emerging-market enterprise coverage (William Davidson Institute)."
+    },
+    {
+      "source_name": "Social Enterprise UK",
+      "source_type": "news",
+      "category": "social_enterprise_news",
+      "rss_feeds": [
+        "https://www.socialenterprise.org.uk/feed/"
+      ],
+      "topics": [
+        "social enterprise",
+        "empowerment",
+        "underserved communities",
+        "policy"
+      ],
+      "priority": 2,
+      "notes": "UK social-enterprise membership body. Sector and policy signal."
+    },
+    {
+      "source_name": "ESG News",
+      "source_type": "news",
+      "category": "esg_news",
+      "rss_feeds": [
+        "https://esgnews.com/feed/"
+      ],
+      "topics": [
+        "ESG",
+        "sustainable investing",
+        "impact",
+        "social objective"
+      ],
+      "priority": 3,
+      "notes": "High-volume ESG feed. Relevance gate keeps only impact/empowerment items."
+    },
+    {
+      "source_name": "ESG Today",
+      "source_type": "news",
+      "category": "esg_news",
+      "rss_feeds": [
+        "https://www.esgtoday.com/feed/"
+      ],
+      "topics": [
+        "ESG",
+        "sustainable finance",
+        "impact funds",
+        "social investment"
+      ],
+      "priority": 3,
+      "notes": "ESG news feed. Relevance gate keeps only impact/empowerment items."
+    }
+  ]
+}

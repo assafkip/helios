@@ -354,6 +354,12 @@ RELEVANCE_BY_VERTICAL = {
     "space-tech": ["space", "satellite", "launch", "orbit", "rocket", "spacecraft",
                    "aerospace", "defense", "lunar", "propulsion", "constellation",
                    "payload", "nasa", "spacex", "in-orbit", "earth observation"],
+    "coexistence-empowerment": ["impact", "impact investing", "coexistence", "co-existence",
+                   "empower", "empowerment", "social enterprise", "social entrepreneur",
+                   "blended finance", "catalytic capital", "social impact", "social objective",
+                   "underserved", "inclusion", "inclusive", "financial inclusion", "equity",
+                   "peace", "peacebuilding", "marginalized", "base of the pyramid",
+                   "development finance", "esg", "sustainable", "purpose"],
 }
 
 

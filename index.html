@@ -195,7 +195,17 @@
   .apulse .chip { font-size: 12px; color: var(--accent); background: #6f8fca15; border: 1px solid #6f8fca30; padding: 3px 10px; border-radius: 999px; }
   .apulse .sep { color: var(--ink-faint); }
 
-  .controls { position: sticky; top: 66px; z-index: 20; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin: 22px 0 18px; padding: 12px; background: rgba(8,8,12,.72); backdrop-filter: blur(12px); border: 1px solid var(--line); border-radius: 14px; }
+  .controls { position: sticky; top: 66px; z-index: 20; display: flex; flex-direction: column; gap: 12px; margin: 22px 0 18px; padding: 12px; background: rgba(8,8,12,.8); backdrop-filter: blur(12px); border: 1px solid var(--line); border-radius: 14px; }
+  .controls-bar { display: flex; gap: 12px; align-items: center; }
+  .controls-bar .search { flex: 1; min-width: 0; width: auto; margin-left: 0; }
+  .filtoggle { flex: none; display: inline-flex; align-items: center; gap: 8px; font-family: var(--sans); font-size: 13px; font-weight: 600; color: var(--ink-dim); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 9px 15px; cursor: pointer; white-space: nowrap; transition: color .15s, border-color .15s; }
+  .filtoggle:hover { color: var(--ink); border-color: var(--line-2); }
+  .filtoggle .fcount { background: var(--accent); color: #0a0a0f; font-family: var(--mono); font-size: 10px; font-weight: 700; padding: 1px 7px; border-radius: 999px; }
+  .filtoggle .chev { font-size: 11px; transition: transform .22s; }
+  .controls.open .filtoggle { color: var(--ink); border-color: var(--accent); }
+  .controls.open .filtoggle .chev { transform: rotate(180deg); }
+  .controls-panel { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; overflow: hidden; max-height: 0; opacity: 0; transition: max-height .3s ease, opacity .2s ease; }
+  .controls.open .controls-panel { max-height: 260px; opacity: 1; }
   .seg { display: inline-flex; gap: 4px; padding: 4px; background: var(--surface); border: 1px solid var(--line); border-radius: 11px; }
   .seg button { font-family: var(--sans); font-size: 13px; font-weight: 600; padding: 7px 15px; border: none; background: none; color: var(--ink-dim); cursor: pointer; border-radius: 8px; transition: all .14s; }
   .seg button:hover { color: var(--ink); }
@@ -344,25 +354,30 @@
       <div class="topinv" id="topInvestor"></div>
       <div class="apulse" id="apulse"></div>
     </div>
-    <div class="controls">
-      <div class="seg" id="typeSeg">
-        <button data-type="all" class="on">All</button>
-        <button data-type="hard">Hard</button>
-        <button data-type="soft">Soft</button>
+    <div class="controls" id="controls">
+      <div class="controls-bar">
+        <label class="search">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#64646f" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          <input id="q" type="search" placeholder="search a person, firm, phrase…" autocomplete="off">
+        </label>
+        <button class="filtoggle" id="filToggle" type="button">Filters <span class="fcount" id="filCount" style="display:none"></span> <span class="chev">&#9662;</span></button>
       </div>
-      <select id="whenSel">
-        <option value="0">All time</option>
-        <option value="1">Today</option>
-        <option value="7">Last 7 days</option>
-        <option value="14">Last 14 days</option>
-        <option value="30">Last 30 days</option>
-      </select>
-      <select id="firmSel"><option value="">All firms</option></select>
-      <select id="themeSel"><option value="">All themes</option></select>
-      <label class="search">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#64646f" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-        <input id="q" type="search" placeholder="search a person, firm, phrase…" autocomplete="off">
-      </label>
+      <div class="controls-panel" id="filPanel">
+        <div class="seg" id="typeSeg">
+          <button data-type="all" class="on">All</button>
+          <button data-type="hard">Hard</button>
+          <button data-type="soft">Soft</button>
+        </div>
+        <select id="whenSel">
+          <option value="0">All time</option>
+          <option value="1">Today</option>
+          <option value="7">Last 7 days</option>
+          <option value="14">Last 14 days</option>
+          <option value="30">Last 30 days</option>
+        </select>
+        <select id="firmSel"><option value="">All firms</option></select>
+        <select id="themeSel"><option value="">All themes</option></select>
+      </div>
     </div>
     <div class="feed" id="feed"></div>
   </section>
@@ -520,6 +535,7 @@ async function openArea(id) {
   state.vertical = id;
   state.type = "all"; state.firm = ""; state.theme = ""; state.q = ""; state.when = 0;
   el("whenSel").value = "0";
+  el("controls").classList.remove("open");
   document.body.classList.add("in-area");
   el("areaName").textContent = v.label;
   el("areaBig").textContent = v.label.split(" ")[0];
@@ -609,6 +625,7 @@ function itemHtml(x) {
 }
 
 function renderFeed() {
+  updateFilterCount();
   const list = state.all.filter(matches);
   list.sort((a, b) => (b.source_date || "").localeCompare(a.source_date || ""));
   if (!list.length) {
@@ -627,6 +644,11 @@ function renderFeed() {
   el("feed").innerHTML = chunks.join("");
 }
 el("q").addEventListener("input", e => { state.q = e.target.value.trim().toLowerCase(); renderFeed(); });
+el("filToggle").onclick = () => el("controls").classList.toggle("open");
+function updateFilterCount() {
+  const n = (state.type !== "all" ? 1 : 0) + (state.firm ? 1 : 0) + (state.theme ? 1 : 0) + (state.when ? 1 : 0);
+  const b = el("filCount"); b.textContent = n; b.style.display = n ? "" : "none";
+}
 
 /* ---- volumetric prism light (canvas, no deps) ---- */
 (function () {

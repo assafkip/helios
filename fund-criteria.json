@@ -1,0 +1,953 @@
+{
+  "generated": "2026-07-07T18:00:20Z",
+  "verticals": {
+    "cyber": {
+      "label": "Cybersecurity",
+      "fund_count": 42,
+      "covered_count": 41,
+      "wants": [
+        {
+          "tag": "security_native_team",
+          "label": "Security-native team / DNA",
+          "count": 7,
+          "funds": [
+            "Cyberstarts",
+            "YL Ventures",
+            "Team8",
+            "Ballistic Ventures",
+            "Ten Eleven Ventures",
+            "ForgePoint Capital",
+            "SYN Ventures"
+          ]
+        },
+        {
+          "tag": "ai_native",
+          "label": "AI-native, not a wrapper",
+          "count": 4,
+          "funds": [
+            "Rain Capital",
+            "Glilot Capital",
+            "SYN Ventures",
+            "Lightspeed Venture Partners"
+          ]
+        },
+        {
+          "tag": "agentic_ai",
+          "label": "Agentic AI in the product",
+          "count": 3,
+          "funds": [
+            "Boldstart Ventures",
+            "Greylock",
+            "Index Ventures"
+          ]
+        },
+        {
+          "tag": "autonomous_systems",
+          "label": "Autonomous / self-running systems",
+          "count": 1,
+          "funds": [
+            "Boldstart Ventures"
+          ]
+        },
+        {
+          "tag": "distributed_systems",
+          "label": "Distributed-systems depth",
+          "count": 1,
+          "funds": [
+            "Amplify Partners"
+          ]
+        },
+        {
+          "tag": "founder_first",
+          "label": "Founder they want to back early",
+          "count": 1,
+          "funds": [
+            "Independent (ex-YL Ventures)"
+          ]
+        }
+      ],
+      "sector": [
+        {
+          "tag": "cloud_infra",
+          "label": "Cloud / infrastructure",
+          "count": 24,
+          "funds": [
+            "Cyberstarts",
+            "YL Ventures",
+            "Team8",
+            "Ballistic Ventures",
+            "Rain Capital",
+            "NightDragon",
+            "Ten Eleven Ventures",
+            "ForgePoint Capital",
+            "Glilot Capital",
+            "Hyperplane",
+            "Decibel Partners",
+            "Work-Bench",
+            "Accel",
+            "Lightspeed Venture Partners",
+            "Sequoia Capital",
+            "Acrew Capital",
+            "Amplify Partners",
+            "Theory Ventures",
+            "Khosla Ventures",
+            "Battery Ventures",
+            "Essence VC",
+            "Costanoa Ventures",
+            "Foundation Capital"
+          ]
+        },
+        {
+          "tag": "enterprise",
+          "label": "Enterprise buyers",
+          "count": 21,
+          "funds": [
+            "Boldstart Ventures",
+            "Decibel Partners",
+            "First Round Capital",
+            "Work-Bench",
+            "CRV",
+            "Lightspeed Venture Partners",
+            "Greylock",
+            "Acrew Capital",
+            "Pear VC",
+            "Uncork Capital",
+            "Zetta Venture Partners",
+            "Theory Ventures",
+            "Bessemer Venture Partners",
+            "Accel",
+            "Costanoa Ventures",
+            "Felicis Ventures",
+            "Vertex Ventures Israel",
+            "Mango Capital",
+            "Foundation Capital",
+            "General Catalyst",
+            "SignalFire"
+          ]
+        },
+        {
+          "tag": "soc_detection",
+          "label": "Detection / SOC / threat intel",
+          "count": 16,
+          "funds": [
+            "Cyberstarts",
+            "YL Ventures",
+            "Team8",
+            "Ballistic Ventures",
+            "Rain Capital",
+            "NightDragon",
+            "Ten Eleven Ventures",
+            "ForgePoint Capital",
+            "Glilot Capital",
+            "SYN Ventures",
+            "Hyperplane",
+            "Boldstart Ventures",
+            "Decibel Partners",
+            "First Round Capital",
+            "Lightspeed Venture Partners",
+            "Index Ventures"
+          ]
+        },
+        {
+          "tag": "ai_security",
+          "label": "AI security",
+          "count": 15,
+          "funds": [
+            "Cyberstarts",
+            "YL Ventures",
+            "Team8",
+            "Ballistic Ventures",
+            "Rain Capital",
+            "NightDragon",
+            "Ten Eleven Ventures",
+            "ForgePoint Capital",
+            "Glilot Capital",
+            "SYN Ventures",
+            "Hyperplane",
+            "Boldstart Ventures",
+            "Lightspeed Venture Partners",
+            "Greylock",
+            "Zetta Venture Partners"
+          ]
+        },
+        {
+          "tag": "data",
+          "label": "Data platforms",
+          "count": 3,
+          "funds": [
+            "Amplify Partners",
+            "Theory Ventures",
+            "SignalFire"
+          ]
+        }
+      ],
+      "stage": [
+        {
+          "tag": "seed",
+          "label": "Seed",
+          "count": 7,
+          "funds": [
+            "Independent (ex-YL Ventures)",
+            "First Round Capital",
+            "Greylock",
+            "Pear VC",
+            "Uncork Capital",
+            "Mango Capital",
+            "General Catalyst"
+          ]
+        },
+        {
+          "tag": "early_stage",
+          "label": "Early stage (seed / A)",
+          "count": 5,
+          "funds": [
+            "Independent (ex-YL Ventures)",
+            "Boldstart Ventures",
+            "Greylock",
+            "Pear VC",
+            "Index Ventures"
+          ]
+        },
+        {
+          "tag": "growth",
+          "label": "Growth",
+          "count": 1,
+          "funds": [
+            "Accel"
+          ]
+        }
+      ],
+      "geo": [
+        {
+          "tag": "israel",
+          "label": "Israel",
+          "count": 4,
+          "funds": [
+            "YL Ventures",
+            "Hyperplane",
+            "Bessemer Venture Partners",
+            "Vertex Ventures Israel"
+          ]
+        }
+      ]
+    },
+    "fintech": {
+      "label": "Fintech / Payments",
+      "fund_count": 9,
+      "covered_count": 7,
+      "wants": [
+        {
+          "tag": "embedded_finance",
+          "label": "Embedded finance ('every company is fintech')",
+          "count": 3,
+          "funds": [
+            "Andreessen Horowitz",
+            "Better Tomorrow Ventures",
+            "Generative Ventures (Fintech Blueprint)"
+          ]
+        },
+        {
+          "tag": "distribution_advantage",
+          "label": "Network effects / distribution advantage",
+          "count": 2,
+          "funds": [
+            "Benchmark",
+            "Angel Investor"
+          ]
+        },
+        {
+          "tag": "regulated_market",
+          "label": "Comfort operating in regulated markets",
+          "count": 2,
+          "funds": [
+            "QED Investors",
+            "Andreessen Horowitz"
+          ]
+        },
+        {
+          "tag": "ai_native",
+          "label": "AI-native, not a wrapper",
+          "count": 1,
+          "funds": [
+            "Generative Ventures (Fintech Blueprint)"
+          ]
+        },
+        {
+          "tag": "founder_first",
+          "label": "Founder they want to back early",
+          "count": 1,
+          "funds": [
+            "Better Tomorrow Ventures"
+          ]
+        },
+        {
+          "tag": "operator_dna",
+          "label": "Operator-built, hands-on company building",
+          "count": 1,
+          "funds": [
+            "QED Investors"
+          ]
+        }
+      ],
+      "sector": [
+        {
+          "tag": "cloud_infra",
+          "label": "Cloud / infrastructure",
+          "count": 3,
+          "funds": [
+            "Andreessen Horowitz",
+            "Generative Ventures (Fintech Blueprint)",
+            "Not Boring Capital"
+          ]
+        },
+        {
+          "tag": "ai_security",
+          "label": "AI security",
+          "count": 1,
+          "funds": [
+            "Generative Ventures (Fintech Blueprint)"
+          ]
+        }
+      ],
+      "stage": [
+        {
+          "tag": "early_stage",
+          "label": "Early stage (seed / A)",
+          "count": 3,
+          "funds": [
+            "QED Investors",
+            "Generative Ventures (Fintech Blueprint)",
+            "Benchmark"
+          ]
+        },
+        {
+          "tag": "pre_seed",
+          "label": "Pre-seed",
+          "count": 1,
+          "funds": [
+            "Better Tomorrow Ventures"
+          ]
+        },
+        {
+          "tag": "seed",
+          "label": "Seed",
+          "count": 1,
+          "funds": [
+            "Better Tomorrow Ventures"
+          ]
+        }
+      ],
+      "geo": [
+        {
+          "tag": "europe",
+          "label": "Europe",
+          "count": 1,
+          "funds": [
+            "QED Investors"
+          ]
+        }
+      ]
+    },
+    "ai-ml": {
+      "label": "AI / ML Infra",
+      "fund_count": 11,
+      "covered_count": 11,
+      "wants": [
+        {
+          "tag": "applied_ai",
+          "label": "AI-first (AI is the product, not a feature)",
+          "count": 6,
+          "funds": [
+            "Andreessen Horowitz",
+            "Angel / Investor",
+            "Sequoia Capital",
+            "Air Street Capital",
+            "Radical Ventures",
+            "Menlo Ventures"
+          ]
+        },
+        {
+          "tag": "quantified_outcomes",
+          "label": "Quantified outcomes (hard numbers)",
+          "count": 3,
+          "funds": [
+            "Sequoia Capital",
+            "Insight Partners",
+            "SaaStr Fund"
+          ]
+        },
+        {
+          "tag": "ai_native",
+          "label": "AI-native, not a wrapper",
+          "count": 2,
+          "funds": [
+            "Andreessen Horowitz",
+            "Sequoia Capital"
+          ]
+        },
+        {
+          "tag": "proprietary_data",
+          "label": "A proprietary data advantage",
+          "count": 2,
+          "funds": [
+            "Theory Ventures",
+            "Sequoia Capital"
+          ]
+        },
+        {
+          "tag": "distribution_advantage",
+          "label": "Network effects / distribution advantage",
+          "count": 1,
+          "funds": [
+            "Benchmark"
+          ]
+        },
+        {
+          "tag": "domain_expertise",
+          "label": "Deep domain expertise as the moat",
+          "count": 1,
+          "funds": [
+            "Sequoia Capital"
+          ]
+        }
+      ],
+      "sector": [
+        {
+          "tag": "cloud_infra",
+          "label": "Cloud / infrastructure",
+          "count": 5,
+          "funds": [
+            "Andreessen Horowitz",
+            "Theory Ventures",
+            "Air Street Capital",
+            "Radical Ventures",
+            "Menlo Ventures"
+          ]
+        },
+        {
+          "tag": "ai_security",
+          "label": "AI security",
+          "count": 2,
+          "funds": [
+            "Andreessen Horowitz",
+            "Sequoia Capital"
+          ]
+        },
+        {
+          "tag": "data",
+          "label": "Data platforms",
+          "count": 1,
+          "funds": [
+            "Theory Ventures"
+          ]
+        },
+        {
+          "tag": "enterprise",
+          "label": "Enterprise buyers",
+          "count": 1,
+          "funds": [
+            "Menlo Ventures"
+          ]
+        }
+      ],
+      "stage": [
+        {
+          "tag": "early_stage",
+          "label": "Early stage (seed / A)",
+          "count": 3,
+          "funds": [
+            "Theory Ventures",
+            "Radical Ventures",
+            "Benchmark"
+          ]
+        },
+        {
+          "tag": "growth",
+          "label": "Growth",
+          "count": 3,
+          "funds": [
+            "Menlo Ventures",
+            "Insight Partners",
+            "SaaStr Fund"
+          ]
+        },
+        {
+          "tag": "pre_seed",
+          "label": "Pre-seed",
+          "count": 2,
+          "funds": [
+            "Air Street Capital",
+            "Radical Ventures"
+          ]
+        },
+        {
+          "tag": "seed",
+          "label": "Seed",
+          "count": 2,
+          "funds": [
+            "Air Street Capital",
+            "Radical Ventures"
+          ]
+        }
+      ],
+      "geo": []
+    },
+    "healthtech": {
+      "label": "Healthtech / Bio",
+      "fund_count": 5,
+      "covered_count": 4,
+      "wants": [
+        {
+          "tag": "ai_native",
+          "label": "AI-native, not a wrapper",
+          "count": 2,
+          "funds": [
+            "Andreessen Horowitz",
+            "Sequoia Capital"
+          ]
+        },
+        {
+          "tag": "applied_ai",
+          "label": "AI-first (AI is the product, not a feature)",
+          "count": 2,
+          "funds": [
+            "Andreessen Horowitz",
+            "Sequoia Capital"
+          ]
+        },
+        {
+          "tag": "clinical_evidence",
+          "label": "Robust clinical evidence",
+          "count": 2,
+          "funds": [
+            "Rock Health",
+            "Venrock"
+          ]
+        },
+        {
+          "tag": "reimbursement_path",
+          "label": "A clear reimbursement path",
+          "count": 2,
+          "funds": [
+            "Rock Health",
+            "Venrock"
+          ]
+        },
+        {
+          "tag": "domain_expertise",
+          "label": "Deep domain expertise as the moat",
+          "count": 1,
+          "funds": [
+            "Sequoia Capital"
+          ]
+        },
+        {
+          "tag": "proprietary_data",
+          "label": "A proprietary data advantage",
+          "count": 1,
+          "funds": [
+            "Sequoia Capital"
+          ]
+        }
+      ],
+      "sector": [
+        {
+          "tag": "ai_security",
+          "label": "AI security",
+          "count": 2,
+          "funds": [
+            "Andreessen Horowitz",
+            "Sequoia Capital"
+          ]
+        },
+        {
+          "tag": "cloud_infra",
+          "label": "Cloud / infrastructure",
+          "count": 1,
+          "funds": [
+            "Andreessen Horowitz"
+          ]
+        }
+      ],
+      "stage": [
+        {
+          "tag": "early_stage",
+          "label": "Early stage (seed / A)",
+          "count": 2,
+          "funds": [
+            "Rock Health",
+            "Venrock"
+          ]
+        }
+      ],
+      "geo": []
+    },
+    "climate": {
+      "label": "Climate / Energy",
+      "fund_count": 6,
+      "covered_count": 3,
+      "wants": [
+        {
+          "tag": "decarbonization_impact",
+          "label": "Measurable CO2 impact",
+          "count": 2,
+          "funds": [
+            "MCJ Collective (My Climate Journey)",
+            "Lowercarbon Capital"
+          ]
+        },
+        {
+          "tag": "cost_competitive",
+          "label": "Cost-competitive without subsidies",
+          "count": 1,
+          "funds": [
+            "Lowercarbon Capital"
+          ]
+        },
+        {
+          "tag": "hard_science",
+          "label": "Deep science / hard-tech depth",
+          "count": 1,
+          "funds": [
+            "Lowercarbon Capital"
+          ]
+        },
+        {
+          "tag": "unit_economics",
+          "label": "Unit economics from day one",
+          "count": 1,
+          "funds": [
+            "Lowercarbon Capital"
+          ]
+        }
+      ],
+      "sector": [
+        {
+          "tag": "hardware_industrial",
+          "label": "Hardware / industrial",
+          "count": 1,
+          "funds": [
+            "Lowercarbon Capital"
+          ]
+        }
+      ],
+      "stage": [
+        {
+          "tag": "early_stage",
+          "label": "Early stage (seed / A)",
+          "count": 2,
+          "funds": [
+            "MCJ Collective (My Climate Journey)",
+            "Distilled (climate tech)"
+          ]
+        }
+      ],
+      "geo": []
+    },
+    "edtech": {
+      "label": "Edtech",
+      "fund_count": 4,
+      "covered_count": 2,
+      "wants": [
+        {
+          "tag": "efficacy_outcomes",
+          "label": "Proven learning outcomes",
+          "count": 2,
+          "funds": [
+            "Reach Capital",
+            "GSV Ventures"
+          ]
+        },
+        {
+          "tag": "quantified_outcomes",
+          "label": "Quantified outcomes (hard numbers)",
+          "count": 2,
+          "funds": [
+            "Reach Capital",
+            "GSV Ventures"
+          ]
+        }
+      ],
+      "sector": [
+        {
+          "tag": "cloud_infra",
+          "label": "Cloud / infrastructure",
+          "count": 1,
+          "funds": [
+            "Reach Capital"
+          ]
+        },
+        {
+          "tag": "data",
+          "label": "Data platforms",
+          "count": 1,
+          "funds": [
+            "GSV Ventures"
+          ]
+        }
+      ],
+      "stage": [
+        {
+          "tag": "early_stage",
+          "label": "Early stage (seed / A)",
+          "count": 1,
+          "funds": [
+            "Reach Capital"
+          ]
+        },
+        {
+          "tag": "growth",
+          "label": "Growth",
+          "count": 1,
+          "funds": [
+            "Reach Capital"
+          ]
+        }
+      ],
+      "geo": []
+    },
+    "marketing-ads": {
+      "label": "Marketing / Ads",
+      "fund_count": 8,
+      "covered_count": 8,
+      "wants": [
+        {
+          "tag": "product_led_growth",
+          "label": "Product-led growth",
+          "count": 4,
+          "funds": [
+            "Andreessen Horowitz",
+            "Angel / Lenny's Newsletter",
+            "SaaStr Fund",
+            "Growth Unhinged / OpenView (Tremont)"
+          ]
+        },
+        {
+          "tag": "distribution_advantage",
+          "label": "Network effects / distribution advantage",
+          "count": 3,
+          "funds": [
+            "Andreessen Horowitz",
+            "MKT1 Capital"
+          ]
+        },
+        {
+          "tag": "quantified_outcomes",
+          "label": "Quantified outcomes (hard numbers)",
+          "count": 1,
+          "funds": [
+            "SaaStr Fund"
+          ]
+        },
+        {
+          "tag": "unit_economics",
+          "label": "Unit economics from day one",
+          "count": 1,
+          "funds": [
+            "Matrix Partners (For Entrepreneurs)"
+          ]
+        }
+      ],
+      "sector": [],
+      "stage": [
+        {
+          "tag": "growth",
+          "label": "Growth",
+          "count": 7,
+          "funds": [
+            "Matrix Partners (For Entrepreneurs)",
+            "Andreessen Horowitz",
+            "Angel / Lenny's Newsletter",
+            "SparkToro",
+            "SaaStr Fund",
+            "Growth Unhinged / OpenView (Tremont)"
+          ]
+        },
+        {
+          "tag": "early_stage",
+          "label": "Early stage (seed / A)",
+          "count": 1,
+          "funds": [
+            "MKT1 Capital"
+          ]
+        }
+      ],
+      "geo": []
+    },
+    "space-tech": {
+      "label": "Space Tech",
+      "fund_count": 5,
+      "covered_count": 3,
+      "wants": [
+        {
+          "tag": "dual_use_defense",
+          "label": "Dual-use / defense demand",
+          "count": 2,
+          "funds": [
+            "Seraphim",
+            "Founders Fund"
+          ]
+        },
+        {
+          "tag": "hard_science",
+          "label": "Deep science / hard-tech depth",
+          "count": 2,
+          "funds": [
+            "Seraphim",
+            "Founders Fund"
+          ]
+        },
+        {
+          "tag": "proprietary_data",
+          "label": "A proprietary data advantage",
+          "count": 1,
+          "funds": [
+            "Space Capital"
+          ]
+        }
+      ],
+      "sector": [
+        {
+          "tag": "cloud_infra",
+          "label": "Cloud / infrastructure",
+          "count": 1,
+          "funds": [
+            "Space Capital"
+          ]
+        },
+        {
+          "tag": "data",
+          "label": "Data platforms",
+          "count": 1,
+          "funds": [
+            "Space Capital"
+          ]
+        },
+        {
+          "tag": "hardware_industrial",
+          "label": "Hardware / industrial",
+          "count": 1,
+          "funds": [
+            "Seraphim"
+          ]
+        }
+      ],
+      "stage": [
+        {
+          "tag": "early_stage",
+          "label": "Early stage (seed / A)",
+          "count": 1,
+          "funds": [
+            "Space Capital"
+          ]
+        }
+      ],
+      "geo": [
+        {
+          "tag": "europe",
+          "label": "Europe",
+          "count": 1,
+          "funds": [
+            "Seraphim"
+          ]
+        }
+      ]
+    },
+    "coexistence-empowerment": {
+      "label": "Coexistence / Empowerment",
+      "fund_count": 5,
+      "covered_count": 5,
+      "wants": [
+        {
+          "tag": "social_impact_objective",
+          "label": "A measurable social-impact objective",
+          "count": 5,
+          "funds": [
+            "Sadara Ventures",
+            "Takwin Ventures",
+            "50:50 Startups",
+            "Bridges Fund Management",
+            "Better Society Capital"
+          ]
+        },
+        {
+          "tag": "international_market_path",
+          "label": "A path to international markets",
+          "count": 1,
+          "funds": [
+            "Sadara Ventures"
+          ]
+        }
+      ],
+      "sector": [
+        {
+          "tag": "enterprise",
+          "label": "Enterprise buyers",
+          "count": 1,
+          "funds": [
+            "Better Society Capital"
+          ]
+        }
+      ],
+      "stage": [
+        {
+          "tag": "early_stage",
+          "label": "Early stage (seed / A)",
+          "count": 3,
+          "funds": [
+            "Sadara Ventures",
+            "Takwin Ventures",
+            "50:50 Startups"
+          ]
+        },
+        {
+          "tag": "growth",
+          "label": "Growth",
+          "count": 3,
+          "funds": [
+            "Takwin Ventures",
+            "Bridges Fund Management",
+            "Better Society Capital"
+          ]
+        },
+        {
+          "tag": "seed",
+          "label": "Seed",
+          "count": 1,
+          "funds": [
+            "Sadara Ventures"
+          ]
+        }
+      ],
+      "geo": [
+        {
+          "tag": "europe",
+          "label": "Europe",
+          "count": 2,
+          "funds": [
+            "Bridges Fund Management",
+            "Better Society Capital"
+          ]
+        },
+        {
+          "tag": "israel",
+          "label": "Israel",
+          "count": 2,
+          "funds": [
+            "Takwin Ventures",
+            "50:50 Startups"
+          ]
+        },
+        {
+          "tag": "mena",
+          "label": "MENA",
+          "count": 2,
+          "funds": [
+            "Sadara Ventures",
+            "50:50 Startups"
+          ]
+        }
+      ]
+    }
+  }
+}

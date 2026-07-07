@@ -1,0 +1,286 @@
+{
+  "vertical": "fintech",
+  "fund_count": 9,
+  "covered_count": 7,
+  "funds": [
+    {
+      "fund": "QED Investors",
+      "person": "QED Investors",
+      "urls": [
+        "https://www.qedinvestors.com/blog/fintech-investor-interview-nigel-morris"
+      ],
+      "tags": {
+        "geo": [
+          "europe"
+        ],
+        "stage": [
+          "early_stage"
+        ],
+        "wants": [
+          "operator_dna",
+          "regulated_market",
+          "unit_economics"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "early_stage",
+          "matched": "Early-stage",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "geo",
+          "tag": "europe",
+          "matched": "UK",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "unit_economics",
+          "matched": "unit economic",
+          "field": "notes"
+        },
+        {
+          "family": "wants",
+          "tag": "regulated_market",
+          "matched": "regulated",
+          "field": "notes"
+        },
+        {
+          "family": "wants",
+          "tag": "operator_dna",
+          "matched": "Operator",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Andreessen Horowitz",
+      "person": "Andreessen Horowitz (a16z / Future)",
+      "urls": [
+        "https://a16z.com/fintech/"
+      ],
+      "tags": {
+        "sector": [
+          "cloud_infra"
+        ],
+        "wants": [
+          "embedded_finance",
+          "regulated_market"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "sector",
+          "tag": "cloud_infra",
+          "matched": "infrastructure",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "embedded_finance",
+          "matched": "embedded finance",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "regulated_market",
+          "matched": "regulated",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Better Tomorrow Ventures",
+      "person": "Sheel Mohnot / Jake Gibson",
+      "urls": [
+        "https://www.btv.vc/"
+      ],
+      "tags": {
+        "stage": [
+          "pre_seed",
+          "seed"
+        ],
+        "wants": [
+          "embedded_finance",
+          "founder_first"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "seed",
+          "matched": "seed",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "stage",
+          "tag": "pre_seed",
+          "matched": "Pre-seed",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "founder_first",
+          "matched": "founder-first",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "embedded_finance",
+          "matched": "everything is fintech",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Generative Ventures (Fintech Blueprint)",
+      "person": "Lex Sokolin",
+      "urls": [
+        "https://lex.substack.com/"
+      ],
+      "tags": {
+        "sector": [
+          "ai_security",
+          "cloud_infra"
+        ],
+        "stage": [
+          "early_stage"
+        ],
+        "wants": [
+          "ai_native",
+          "embedded_finance"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "early_stage",
+          "matched": "early stage",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "sector",
+          "tag": "ai_security",
+          "matched": "AI-native",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "sector",
+          "tag": "cloud_infra",
+          "matched": "infrastructure",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "ai_native",
+          "matched": "AI-native",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "embedded_finance",
+          "matched": "embedded finance",
+          "field": "thesis_alignment"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Not Boring Capital",
+      "person": "Packy McCormick",
+      "urls": [
+        "https://www.notboring.co/"
+      ],
+      "tags": {
+        "sector": [
+          "cloud_infra"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "sector",
+          "tag": "cloud_infra",
+          "matched": "infrastructure",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Benchmark",
+      "person": "Sarah Tavel",
+      "urls": [
+        "https://sarahtavel.substack.com/"
+      ],
+      "tags": {
+        "stage": [
+          "early_stage"
+        ],
+        "wants": [
+          "distribution_advantage"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "early_stage",
+          "matched": "Early-stage",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "distribution_advantage",
+          "matched": "network effect",
+          "field": "thesis_alignment"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Cornerstone Advisors (Fintech Snark Tank)",
+      "person": "Ron Shevlin",
+      "urls": [
+        "https://ronshevlin.substack.com/"
+      ],
+      "tags": {},
+      "evidence": [],
+      "covered": false
+    },
+    {
+      "fund": "The Generalist / Generalist Capital",
+      "person": "Mario Gabriele",
+      "urls": [
+        "https://www.generalist.com/"
+      ],
+      "tags": {},
+      "evidence": [],
+      "covered": false
+    },
+    {
+      "fund": "Angel Investor",
+      "person": "Kevin Kwok",
+      "urls": [
+        "https://kwokchain.com/"
+      ],
+      "tags": {
+        "wants": [
+          "distribution_advantage"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "wants",
+          "tag": "distribution_advantage",
+          "matched": "network effect",
+          "field": "thesis_alignment"
+        }
+      ],
+      "covered": true
+    }
+  ]
+}

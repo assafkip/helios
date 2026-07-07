@@ -1,0 +1,147 @@
+{
+  "vertical": "space-tech",
+  "fund_count": 5,
+  "covered_count": 3,
+  "funds": [
+    {
+      "fund": "Space Capital",
+      "person": "Space Capital",
+      "urls": [
+        "https://www.spacecapital.com/"
+      ],
+      "tags": {
+        "sector": [
+          "cloud_infra",
+          "data"
+        ],
+        "stage": [
+          "early_stage"
+        ],
+        "wants": [
+          "proprietary_data"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "early_stage",
+          "matched": "Early-stage",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "sector",
+          "tag": "cloud_infra",
+          "matched": "infrastructure",
+          "field": "notes"
+        },
+        {
+          "family": "sector",
+          "tag": "data",
+          "matched": "data platform",
+          "field": "notes"
+        },
+        {
+          "family": "wants",
+          "tag": "proprietary_data",
+          "matched": "proprietary",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Seraphim",
+      "person": "Seraphim Space",
+      "urls": [
+        "https://seraphim.vc/"
+      ],
+      "tags": {
+        "geo": [
+          "europe"
+        ],
+        "sector": [
+          "hardware_industrial"
+        ],
+        "wants": [
+          "dual_use_defense",
+          "hard_science"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "wants",
+          "tag": "dual_use_defense",
+          "matched": "defence",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "geo",
+          "tag": "europe",
+          "matched": "London",
+          "field": "notes"
+        },
+        {
+          "family": "sector",
+          "tag": "hardware_industrial",
+          "matched": "hardware",
+          "field": "notes"
+        },
+        {
+          "family": "wants",
+          "tag": "hard_science",
+          "matched": "Deep-tech",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Space Ambition",
+      "person": "Space Ambition",
+      "urls": [
+        "https://www.spaceambition.org/"
+      ],
+      "tags": {},
+      "evidence": [],
+      "covered": false
+    },
+    {
+      "fund": "SpaceDotBiz",
+      "person": "Ian Vorbach",
+      "urls": [
+        "https://www.spacedotbiz.com/"
+      ],
+      "tags": {},
+      "evidence": [],
+      "covered": false
+    },
+    {
+      "fund": "Founders Fund",
+      "person": "Founders Fund",
+      "urls": [
+        "https://foundersfund.com/"
+      ],
+      "tags": {
+        "wants": [
+          "dual_use_defense",
+          "hard_science"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "wants",
+          "tag": "dual_use_defense",
+          "matched": "defense",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "hard_science",
+          "matched": "Deep-tech",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    }
+  ]
+}

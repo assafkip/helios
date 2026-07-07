@@ -1,0 +1,200 @@
+{
+  "vertical": "healthtech",
+  "fund_count": 5,
+  "covered_count": 4,
+  "funds": [
+    {
+      "fund": "Rock Health",
+      "person": "Rock Health",
+      "urls": [
+        "https://rockhealth.com/insights/assessing-the-clinical-robustness-of-digital-health-startups/"
+      ],
+      "tags": {
+        "stage": [
+          "early_stage"
+        ],
+        "wants": [
+          "clinical_evidence",
+          "reimbursement_path",
+          "technical_rigor"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "early_stage",
+          "matched": "Early-stage",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "clinical_evidence",
+          "matched": "clinical robustness",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "reimbursement_path",
+          "matched": "reimbursement",
+          "field": "notes"
+        },
+        {
+          "family": "wants",
+          "tag": "technical_rigor",
+          "matched": "rigorous",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Andreessen Horowitz",
+      "person": "Andreessen Horowitz (a16z / Future)",
+      "urls": [
+        "https://a16z.com/bio-health/"
+      ],
+      "tags": {
+        "sector": [
+          "ai_security",
+          "cloud_infra"
+        ],
+        "wants": [
+          "ai_native",
+          "applied_ai"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "sector",
+          "tag": "cloud_infra",
+          "matched": "infrastructure",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "sector",
+          "tag": "ai_security",
+          "matched": "AI-native",
+          "field": "notes"
+        },
+        {
+          "family": "wants",
+          "tag": "ai_native",
+          "matched": "AI-native",
+          "field": "notes"
+        },
+        {
+          "family": "wants",
+          "tag": "applied_ai",
+          "matched": "application layer",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Sequoia Capital",
+      "person": "Sequoia Capital",
+      "urls": [
+        "https://sequoiacap.com/article/services-the-new-software/"
+      ],
+      "tags": {
+        "sector": [
+          "ai_security"
+        ],
+        "wants": [
+          "ai_native",
+          "applied_ai",
+          "domain_expertise",
+          "proprietary_data",
+          "quantified_outcomes"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "sector",
+          "tag": "ai_security",
+          "matched": "AI-native",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "ai_native",
+          "matched": "AI-native",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "quantified_outcomes",
+          "matched": "outcomes",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "proprietary_data",
+          "matched": "proprietary data",
+          "field": "notes"
+        },
+        {
+          "family": "wants",
+          "tag": "applied_ai",
+          "matched": "work outcome",
+          "field": "notes"
+        },
+        {
+          "family": "wants",
+          "tag": "domain_expertise",
+          "matched": "domain expertise",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Venrock",
+      "person": "Venrock",
+      "urls": [
+        "https://www.venrock.com/"
+      ],
+      "tags": {
+        "stage": [
+          "early_stage"
+        ],
+        "wants": [
+          "clinical_evidence",
+          "reimbursement_path"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "early_stage",
+          "matched": "early-stage",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "clinical_evidence",
+          "matched": "clinical evidence",
+          "field": "notes"
+        },
+        {
+          "family": "wants",
+          "tag": "reimbursement_path",
+          "matched": "reimbursement",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Second Opinion",
+      "person": "Christina Farr",
+      "urls": [
+        "https://www.secondopinion.health/"
+      ],
+      "tags": {},
+      "evidence": [],
+      "covered": false
+    }
+  ]
+}

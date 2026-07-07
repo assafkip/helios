@@ -1,0 +1,252 @@
+{
+  "vertical": "marketing-ads",
+  "fund_count": 8,
+  "covered_count": 8,
+  "funds": [
+    {
+      "fund": "Matrix Partners (For Entrepreneurs)",
+      "person": "David Skok",
+      "urls": [
+        "https://www.forentrepreneurs.com/saas-metrics-2/"
+      ],
+      "tags": {
+        "stage": [
+          "growth"
+        ],
+        "wants": [
+          "unit_economics"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "growth",
+          "matched": "growth",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "unit_economics",
+          "matched": "unit economic",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Andreessen Horowitz",
+      "person": "Andrew Chen",
+      "urls": [
+        "https://andrewchen.com/"
+      ],
+      "tags": {
+        "stage": [
+          "growth"
+        ],
+        "wants": [
+          "distribution_advantage",
+          "product_led_growth"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "growth",
+          "matched": "growth",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "product_led_growth",
+          "matched": "product-led",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "distribution_advantage",
+          "matched": "Network effect",
+          "field": "thesis_alignment"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Angel / Lenny's Newsletter",
+      "person": "Lenny Rachitsky",
+      "urls": [
+        "https://www.lennysnewsletter.com/"
+      ],
+      "tags": {
+        "stage": [
+          "growth"
+        ],
+        "wants": [
+          "product_led_growth"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "growth",
+          "matched": "growth",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "product_led_growth",
+          "matched": "Product-led",
+          "field": "thesis_alignment"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Andreessen Horowitz",
+      "person": "Andreessen Horowitz (a16z / Future)",
+      "urls": [
+        "https://a16z.com/"
+      ],
+      "tags": {
+        "stage": [
+          "growth"
+        ],
+        "wants": [
+          "distribution_advantage"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "growth",
+          "matched": "growth",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "distribution_advantage",
+          "matched": "network effect",
+          "field": "thesis_alignment"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "SparkToro",
+      "person": "Rand Fishkin",
+      "urls": [
+        "https://sparktoro.com/"
+      ],
+      "tags": {
+        "stage": [
+          "growth"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "growth",
+          "matched": "growth",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "MKT1 Capital",
+      "person": "Emily Kramer / Kathleen Estreich",
+      "urls": [
+        "https://www.mkt1.co/"
+      ],
+      "tags": {
+        "stage": [
+          "early_stage"
+        ],
+        "wants": [
+          "distribution_advantage"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "early_stage",
+          "matched": "Early-stage",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "distribution_advantage",
+          "matched": "GTM",
+          "field": "thesis_alignment"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "SaaStr Fund",
+      "person": "Jason Lemkin",
+      "urls": [
+        "https://www.saastr.com/"
+      ],
+      "tags": {
+        "stage": [
+          "growth"
+        ],
+        "wants": [
+          "product_led_growth",
+          "quantified_outcomes"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "growth",
+          "matched": "growth",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "product_led_growth",
+          "matched": "product-led",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "quantified_outcomes",
+          "matched": "quantified",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Growth Unhinged / OpenView (Tremont)",
+      "person": "Kyle Poyar",
+      "urls": [
+        "https://www.growthunhinged.com/"
+      ],
+      "tags": {
+        "stage": [
+          "growth"
+        ],
+        "wants": [
+          "product_led_growth"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "growth",
+          "matched": "growth",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "product_led_growth",
+          "matched": "Product-led",
+          "field": "thesis_alignment"
+        }
+      ],
+      "covered": true
+    }
+  ]
+}

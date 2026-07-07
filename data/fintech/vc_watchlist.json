@@ -1,76 +1,100 @@
 {
+  "metadata": {
+    "created": "2026-01-30",
+    "last_updated": "2026-07-07",
+    "description": "Fintech / payments investors. Thesis notes populated from primary sources (recon 2026-07-07) so fund-criteria can tag them.",
+    "default_keywords": "fintech, payments, embedded finance, financial infrastructure"
+  },
   "watchlist": [
     {
       "person_name": "QED Investors",
       "firm": "QED Investors",
-      "rss_feeds": [
-        "https://www.qedinvestors.com/blog/rss.xml"
-      ],
-      "last_checked": "2026-07-07T16:27:36.759988"
+      "website_or_blog_url": "https://www.qedinvestors.com/blog/fintech-investor-interview-nigel-morris",
+      "priority": 1,
+      "thesis_alignment": "Early-stage disruptive financial services in the US, UK and Latin America.",
+      "notes": "Operator-led fintech specialist founded by Capital One co-founders (Nigel Morris). Early-stage, ~$5M initial checks out of a $1.05B fund. Ports Capital One's fanatical focus on unit economics and hypothesis-driven experimentation. Will company-build from day zero. Comfort operating in regulated financial services. Portfolio: Nubank, Credit Karma, SoFi, Klarna, Avant.",
+      "rss_feeds": ["https://www.qedinvestors.com/blog/rss.xml"],
+      "last_checked": "2026-07-07T02:44:44.792855"
     },
     {
       "person_name": "Andreessen Horowitz (a16z / Future)",
       "firm": "Andreessen Horowitz",
-      "rss_feeds": [
-        "https://future.com/feed/"
-      ],
-      "last_checked": "2026-07-07T16:27:36.759988"
+      "website_or_blog_url": "https://a16z.com/fintech/",
+      "priority": 1,
+      "thesis_alignment": "Financial infrastructure and embedded finance platforms.",
+      "notes": "Thesis: every company will be a fintech company; embedded finance meets customers where they already are, at 5-10x conversion vs traditional acquisition. Infrastructure-focused, typically later stage. Comfort with regulated financial services and licensing.",
+      "rss_feeds": ["https://future.com/feed/"],
+      "last_checked": "2026-07-07T02:44:44.792855"
     },
     {
       "person_name": "Sheel Mohnot / Jake Gibson",
       "firm": "Better Tomorrow Ventures",
-      "rss_feeds": [
-        "https://bettertomorrow.substack.com/feed"
-      ],
+      "website_or_blog_url": "https://www.btv.vc/",
+      "priority": 1,
+      "thesis_alignment": "Pre-seed and seed fintech, founder-first.",
+      "notes": "Pre-seed and seed fintech specialist ($300M across three funds). Thesis: everything is fintech, vertical SaaS increasingly earns its revenue from payments and financial services. At pre-seed the founder is the most critical factor.",
+      "rss_feeds": ["https://bettertomorrow.substack.com/feed"],
       "last_checked": "2026-07-07T00:58:59.005121"
     },
     {
       "person_name": "Lex Sokolin",
       "firm": "Generative Ventures (Fintech Blueprint)",
-      "rss_feeds": [
-        "https://lex.substack.com/feed"
-      ],
+      "website_or_blog_url": "https://lex.substack.com/",
+      "priority": 2,
+      "thesis_alignment": "AI-native financial infrastructure and embedded finance, early stage.",
+      "notes": "Author of the Fintech Blueprint. Thesis centers on AI-native financial infrastructure and embedded finance at the early stage.",
+      "rss_feeds": ["https://lex.substack.com/feed"],
       "last_checked": "2026-07-07T00:58:59.005121"
     },
     {
       "person_name": "Packy McCormick",
       "firm": "Not Boring Capital",
-      "rss_feeds": [
-        "https://www.notboring.co/feed"
-      ],
-      "last_checked": "2026-07-07T16:27:36.759988"
+      "website_or_blog_url": "https://www.notboring.co/",
+      "priority": 2,
+      "thesis_alignment": "Generalist, narrative-driven, ambitious founders.",
+      "notes": "Generalist fund by Packy McCormick (Not Boring). Backs ambitious founders across fintech, crypto and infrastructure; narrative-driven investing.",
+      "rss_feeds": ["https://www.notboring.co/feed"],
+      "last_checked": "2026-07-07T02:44:44.792855"
     },
     {
       "person_name": "Sarah Tavel",
       "firm": "Benchmark",
-      "rss_feeds": [
-        "https://sarahtavel.substack.com/feed"
-      ],
+      "website_or_blog_url": "https://sarahtavel.substack.com/",
+      "priority": 2,
+      "thesis_alignment": "Early-stage marketplaces and network effects.",
+      "notes": "Benchmark GP. Marketplaces and consumer thesis built on network effects (the hierarchy of marketplaces). Early stage, not fintech-exclusive.",
+      "rss_feeds": ["https://sarahtavel.substack.com/feed"],
       "last_checked": "2026-07-07T00:58:59.005121"
     },
     {
       "person_name": "Ron Shevlin",
       "firm": "Cornerstone Advisors (Fintech Snark Tank)",
-      "rss_feeds": [
-        "https://ronshevlin.substack.com/feed"
-      ],
+      "website_or_blog_url": "https://ronshevlin.substack.com/",
+      "priority": 3,
+      "thesis_alignment": "Fintech analyst and commentator, not a primary check-writer.",
+      "notes": "Fintech analyst and commentator (Fintech Snark Tank / Cornerstone Advisors). A market voice rather than a fund; tracked for intelligence, not deal flow.",
+      "rss_feeds": ["https://ronshevlin.substack.com/feed"],
       "last_checked": "2026-07-07T00:58:59.005121"
     },
     {
       "person_name": "Mario Gabriele",
       "firm": "The Generalist / Generalist Capital",
-      "rss_feeds": [
-        "https://www.generalist.com/feed"
-      ],
-      "last_checked": "2026-07-07T16:27:36.759988"
+      "website_or_blog_url": "https://www.generalist.com/",
+      "priority": 3,
+      "thesis_alignment": "Research-led investing across tech and fintech.",
+      "notes": "The Generalist. Deep research-led investing across tech and fintech.",
+      "rss_feeds": ["https://www.generalist.com/feed"],
+      "last_checked": "2026-07-07T02:44:44.792855"
     },
     {
       "person_name": "Kevin Kwok",
       "firm": "Angel Investor",
-      "rss_feeds": [
-        "https://kwokchain.com/feed/"
-      ],
-      "last_checked": "2026-07-07T16:27:36.759988"
+      "website_or_blog_url": "https://kwokchain.com/",
+      "priority": 3,
+      "thesis_alignment": "Angel, network effects and platform strategy.",
+      "notes": "Angel investor known for network-effects and platform-strategy essays.",
+      "rss_feeds": ["https://kwokchain.com/feed/"],
+      "last_checked": "2026-07-07T02:44:44.792855"
     }
   ]
 }

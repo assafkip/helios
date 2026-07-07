@@ -1,0 +1,446 @@
+{
+  "vertical": "ai-ml",
+  "fund_count": 11,
+  "covered_count": 11,
+  "funds": [
+    {
+      "fund": "Andreessen Horowitz",
+      "person": "Andreessen Horowitz (a16z / Future)",
+      "urls": [
+        "https://a16z.com/ai/"
+      ],
+      "tags": {
+        "sector": [
+          "ai_security",
+          "cloud_infra"
+        ],
+        "wants": [
+          "ai_native",
+          "applied_ai"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "sector",
+          "tag": "cloud_infra",
+          "matched": "infrastructure",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "applied_ai",
+          "matched": "application layer",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "sector",
+          "tag": "ai_security",
+          "matched": "AI-native",
+          "field": "notes"
+        },
+        {
+          "family": "wants",
+          "tag": "ai_native",
+          "matched": "AI-native",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Angel / Investor",
+      "person": "Elad Gil",
+      "urls": [
+        "https://blog.eladgil.com/"
+      ],
+      "tags": {
+        "wants": [
+          "applied_ai"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "wants",
+          "tag": "applied_ai",
+          "matched": "essential to the product",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Theory Ventures",
+      "person": "Tomasz Tunguz",
+      "urls": [
+        "https://tomtunguz.com/"
+      ],
+      "tags": {
+        "sector": [
+          "cloud_infra",
+          "data"
+        ],
+        "stage": [
+          "early_stage"
+        ],
+        "wants": [
+          "proprietary_data"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "early_stage",
+          "matched": "early stage",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "sector",
+          "tag": "cloud_infra",
+          "matched": "infrastructure",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "sector",
+          "tag": "data",
+          "matched": "Data-driven",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "proprietary_data",
+          "matched": "proprietary data",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Sequoia Capital",
+      "person": "Sequoia Capital",
+      "urls": [
+        "https://sequoiacap.com/article/services-the-new-software/"
+      ],
+      "tags": {
+        "sector": [
+          "ai_security"
+        ],
+        "wants": [
+          "ai_native",
+          "applied_ai",
+          "domain_expertise",
+          "proprietary_data",
+          "quantified_outcomes"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "sector",
+          "tag": "ai_security",
+          "matched": "AI-native",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "ai_native",
+          "matched": "AI-native",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "applied_ai",
+          "matched": "application layer",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "quantified_outcomes",
+          "matched": "outcomes",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "proprietary_data",
+          "matched": "proprietary data",
+          "field": "notes"
+        },
+        {
+          "family": "wants",
+          "tag": "domain_expertise",
+          "matched": "domain expertise",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Air Street Capital",
+      "person": "Nathan Benaich",
+      "urls": [
+        "https://press.airstreet.com/p/fund-iii"
+      ],
+      "tags": {
+        "sector": [
+          "cloud_infra"
+        ],
+        "stage": [
+          "pre_seed",
+          "seed"
+        ],
+        "wants": [
+          "applied_ai",
+          "dual_use_defense"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "seed",
+          "matched": "seed",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "stage",
+          "tag": "pre_seed",
+          "matched": "pre-seed",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "applied_ai",
+          "matched": "AI-first",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "sector",
+          "tag": "cloud_infra",
+          "matched": "infrastructure",
+          "field": "notes"
+        },
+        {
+          "family": "wants",
+          "tag": "dual_use_defense",
+          "matched": "defense",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Radical Ventures",
+      "person": "Radical Ventures",
+      "urls": [
+        "https://radical.vc/"
+      ],
+      "tags": {
+        "sector": [
+          "cloud_infra"
+        ],
+        "stage": [
+          "early_stage",
+          "pre_seed",
+          "seed"
+        ],
+        "wants": [
+          "applied_ai"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "seed",
+          "matched": "seed",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "stage",
+          "tag": "pre_seed",
+          "matched": "pre-seed",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "stage",
+          "tag": "early_stage",
+          "matched": "Series A",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "applied_ai",
+          "matched": "AI eats software",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "sector",
+          "tag": "cloud_infra",
+          "matched": "infrastructure",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Menlo Ventures",
+      "person": "Menlo Ventures",
+      "urls": [
+        "https://menlovc.com/"
+      ],
+      "tags": {
+        "sector": [
+          "cloud_infra",
+          "enterprise"
+        ],
+        "stage": [
+          "growth"
+        ],
+        "wants": [
+          "applied_ai"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "sector",
+          "tag": "cloud_infra",
+          "matched": "infrastructure",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "sector",
+          "tag": "enterprise",
+          "matched": "Enterprise",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "stage",
+          "tag": "growth",
+          "matched": "growth",
+          "field": "notes"
+        },
+        {
+          "family": "wants",
+          "tag": "applied_ai",
+          "matched": "application layer",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Insight Partners",
+      "person": "Insight Partners",
+      "urls": [
+        "https://www.insightpartners.com/"
+      ],
+      "tags": {
+        "stage": [
+          "growth"
+        ],
+        "wants": [
+          "quantified_outcomes"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "growth",
+          "matched": "Growth",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "quantified_outcomes",
+          "matched": "quantified",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Founders Fund",
+      "person": "Founders Fund",
+      "urls": [
+        "https://foundersfund.com/"
+      ],
+      "tags": {
+        "wants": [
+          "hard_science"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "wants",
+          "tag": "hard_science",
+          "matched": "deep tech",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "SaaStr Fund",
+      "person": "Jason Lemkin",
+      "urls": [
+        "https://www.saastr.com/"
+      ],
+      "tags": {
+        "stage": [
+          "growth"
+        ],
+        "wants": [
+          "product_led_growth",
+          "quantified_outcomes"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "growth",
+          "matched": "growth",
+          "field": "notes"
+        },
+        {
+          "family": "wants",
+          "tag": "product_led_growth",
+          "matched": "product-led",
+          "field": "notes"
+        },
+        {
+          "family": "wants",
+          "tag": "quantified_outcomes",
+          "matched": "quantified",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Benchmark",
+      "person": "Sarah Tavel",
+      "urls": [
+        "https://sarahtavel.substack.com/"
+      ],
+      "tags": {
+        "stage": [
+          "early_stage"
+        ],
+        "wants": [
+          "distribution_advantage"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "early_stage",
+          "matched": "Early-stage",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "distribution_advantage",
+          "matched": "network effect",
+          "field": "thesis_alignment"
+        }
+      ],
+      "covered": true
+    }
+  ]
+}

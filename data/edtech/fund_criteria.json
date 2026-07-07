@@ -1,0 +1,117 @@
+{
+  "vertical": "edtech",
+  "fund_count": 4,
+  "covered_count": 2,
+  "funds": [
+    {
+      "fund": "Reach Capital",
+      "person": "Reach Capital",
+      "urls": [
+        "https://www.reachcapital.com/industries/learning/"
+      ],
+      "tags": {
+        "sector": [
+          "cloud_infra"
+        ],
+        "stage": [
+          "early_stage",
+          "growth"
+        ],
+        "wants": [
+          "efficacy_outcomes",
+          "quantified_outcomes"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "early_stage",
+          "matched": "Early-stage",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "efficacy_outcomes",
+          "matched": "measurable learning",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "quantified_outcomes",
+          "matched": "outcomes",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "stage",
+          "tag": "growth",
+          "matched": "growth",
+          "field": "notes"
+        },
+        {
+          "family": "sector",
+          "tag": "cloud_infra",
+          "matched": "infrastructure",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "GSV Ventures",
+      "person": "GSV Ventures",
+      "urls": [
+        "https://www.gsvventures.com/"
+      ],
+      "tags": {
+        "sector": [
+          "data"
+        ],
+        "wants": [
+          "efficacy_outcomes",
+          "quantified_outcomes"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "wants",
+          "tag": "efficacy_outcomes",
+          "matched": "return on education",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "sector",
+          "tag": "data",
+          "matched": "data-driven",
+          "field": "notes"
+        },
+        {
+          "family": "wants",
+          "tag": "quantified_outcomes",
+          "matched": "outcomes",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Edtech Insiders",
+      "person": "Alex Sarlin / Ben Kornell",
+      "urls": [
+        "https://www.edtechinsiders.org/"
+      ],
+      "tags": {},
+      "evidence": [],
+      "covered": false
+    },
+    {
+      "fund": "Education thinker / investor-adjacent",
+      "person": "Michael B. Horn",
+      "urls": [
+        "https://michaelbhorn.com/"
+      ],
+      "tags": {},
+      "evidence": [],
+      "covered": false
+    }
+  ]
+}

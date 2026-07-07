@@ -1,0 +1,139 @@
+{
+  "vertical": "climate",
+  "fund_count": 6,
+  "covered_count": 3,
+  "funds": [
+    {
+      "fund": "Sightline Climate",
+      "person": "Sightline Climate (CTVC)",
+      "urls": [
+        "https://sightlineclimate.com/"
+      ],
+      "tags": {},
+      "evidence": [],
+      "covered": false
+    },
+    {
+      "fund": "MCJ Collective (My Climate Journey)",
+      "person": "Jason Jacobs",
+      "urls": [
+        "https://www.mcjcollective.com/"
+      ],
+      "tags": {
+        "stage": [
+          "early_stage"
+        ],
+        "wants": [
+          "decarbonization_impact"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "early_stage",
+          "matched": "Early-stage",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "wants",
+          "tag": "decarbonization_impact",
+          "matched": "decarboniz",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Lowercarbon Capital",
+      "person": "Lowercarbon Capital",
+      "urls": [
+        "https://lowercarbon.com/"
+      ],
+      "tags": {
+        "sector": [
+          "hardware_industrial"
+        ],
+        "wants": [
+          "cost_competitive",
+          "decarbonization_impact",
+          "hard_science",
+          "unit_economics"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "wants",
+          "tag": "cost_competitive",
+          "matched": "make real money",
+          "field": "thesis_alignment"
+        },
+        {
+          "family": "sector",
+          "tag": "hardware_industrial",
+          "matched": "hardware",
+          "field": "notes"
+        },
+        {
+          "family": "wants",
+          "tag": "hard_science",
+          "matched": "deep-tech",
+          "field": "notes"
+        },
+        {
+          "family": "wants",
+          "tag": "decarbonization_impact",
+          "matched": "measurable CO2",
+          "field": "notes"
+        },
+        {
+          "family": "wants",
+          "tag": "unit_economics",
+          "matched": "unit economic",
+          "field": "notes"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Climate Drift (accelerator)",
+      "person": "Climate Drift",
+      "urls": [
+        "https://www.climatedrift.com/"
+      ],
+      "tags": {},
+      "evidence": [],
+      "covered": false
+    },
+    {
+      "fund": "Distilled (climate tech)",
+      "person": "Distilled",
+      "urls": [
+        "https://www.distilledventures.com/"
+      ],
+      "tags": {
+        "stage": [
+          "early_stage"
+        ]
+      },
+      "evidence": [
+        {
+          "family": "stage",
+          "tag": "early_stage",
+          "matched": "Early-stage",
+          "field": "thesis_alignment"
+        }
+      ],
+      "covered": true
+    },
+    {
+      "fund": "Climate Papa",
+      "person": "Climate Papa",
+      "urls": [
+        "https://www.climatepapa.com/"
+      ],
+      "tags": {},
+      "evidence": [],
+      "covered": false
+    }
+  ]
+}

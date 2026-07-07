@@ -70,6 +70,13 @@
   .live { margin-left: auto; display: flex; align-items: center; gap: 9px; font-family: var(--mono); font-size: 12px; color: var(--ink-dim); }
   .live .n { color: var(--ink); font-weight: 700; }
   .live .live-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--hard); box-shadow: 0 0 10px var(--hard); animation: blink 2s infinite; }
+  /* GitHub star CTA — social proof once stars land */
+  .ghstar { display: inline-flex; align-items: center; gap: 7px; margin-left: 14px; font-family: var(--sans); font-size: 12.5px; font-weight: 600; color: var(--ink-dim); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 6px 13px; text-decoration: none; transition: color .15s, border-color .15s, background .15s; }
+  .ghstar:hover { color: var(--ink); border-color: var(--hard); background: var(--surface-2); }
+  .ghstar .ghmark { flex: none; }
+  .ghstar .ghcount { font-family: var(--mono); color: var(--hard); font-weight: 700; }
+  .ghstar .ghcount:empty { display: none; }
+  @media (max-width: 560px) { .ghstar .ghtxt { display: none; } }
   @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
 
   .wrap { max-width: 1240px; margin: 0 auto; padding: 0 30px; }
@@ -367,6 +374,10 @@
   <div class="logo"><span class="dot"></span>Helios</div>
   <button class="back" id="back"><span>&larr;</span> all markets</button>
   <div class="live"><span class="live-dot"></span><span class="n" id="tracked">0</span>&nbsp;signals live</div>
+  <a class="ghstar" id="ghStar" href="https://github.com/assafkip/fundvision" target="_blank" rel="noopener" title="Star Helios on GitHub" aria-label="Star Helios on GitHub">
+    <svg class="ghmark" width="15" height="15" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+    <span class="ghtxt">Star</span><span class="ghcount" id="ghCount"></span>
+  </a>
 </div>
 
 <main class="wrap">
@@ -906,6 +917,17 @@ async function boot() {
   if (id && state.verticals.some(v => v.id === id)) openArea(id);
 }
 boot();
+
+/* Live GitHub star count on the header CTA. Public API, unauthenticated (60/hr
+   per IP). Fails silent — the button still links through if the count can't load. */
+(function () {
+  const el = document.getElementById("ghCount");
+  if (!el) return;
+  fetch("https://api.github.com/repos/assafkip/fundvision", { cache: "no-store" })
+    .then(r => r.ok ? r.json() : null)
+    .then(d => { if (d && d.stargazers_count > 0) el.textContent = d.stargazers_count; })
+    .catch(() => {});
+})();
 </script>
 </body>
 </html>

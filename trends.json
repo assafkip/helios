@@ -1,32 +1,32 @@
 {
-  "generated": "2026-07-07T01:09:55Z",
+  "generated": "2026-07-07T02:44:59Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 502,
-      "recent7": 272,
+      "total": 526,
+      "recent7": 296,
       "sparkline": [
         41,
         63,
         101,
-        272
+        296
       ],
-      "momentum_pct": 169,
+      "momentum_pct": 193,
       "momentum_basis": "window",
       "hard_count": 26,
-      "hard_ratio": 0.052,
-      "talk_count": 462,
-      "whitespace_score": 17.8,
+      "hard_ratio": 0.049,
+      "talk_count": 484,
+      "whitespace_score": 18.6,
       "rising": [
         {
           "term": "security",
-          "count": 127,
-          "delta": 76
+          "count": 130,
+          "delta": 79
         },
         {
           "term": "data",
-          "count": 53,
-          "delta": 37
+          "count": 56,
+          "delta": 40
         },
         {
           "term": "google",
@@ -34,13 +34,13 @@
           "delta": 32
         },
         {
-          "term": "vulnerabilities",
-          "count": 34,
-          "delta": 23
+          "term": "ransomware",
+          "count": 28,
+          "delta": 24
         },
         {
-          "term": "ransomware",
-          "count": 27,
+          "term": "vulnerabilities",
+          "count": 34,
           "delta": 23
         },
         {
@@ -49,13 +49,13 @@
           "delta": 21
         },
         {
-          "term": "malware",
-          "count": 27,
+          "term": "intelligence",
+          "count": 33,
           "delta": 20
         },
         {
-          "term": "based",
-          "count": 25,
+          "term": "malware",
+          "count": 27,
           "delta": 20
         }
       ],
@@ -63,7 +63,7 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 20
+          "count": 30
         },
         {
           "name": "CISA Feeds",
@@ -71,53 +71,53 @@
           "count": 20
         },
         {
+          "name": "Reddit Cybersecurity",
+          "firm": "community",
+          "count": 16
+        },
+        {
           "name": "Security Newsletters",
           "firm": "substack",
           "count": 15
         },
         {
-          "name": "Reddit Cybersecurity",
-          "firm": "community",
-          "count": 13
+          "name": "SANS Internet Storm Center",
+          "firm": "research",
+          "count": 10
         },
         {
           "name": "ProductHunt",
           "firm": "producthunt",
-          "count": 10
-        },
-        {
-          "name": "Eva Galperin",
-          "firm": "Electronic Frontier Foundation (EFF)",
           "count": 10
         }
       ]
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 107,
-      "recent7": 61,
+      "total": 108,
+      "recent7": 62,
       "sparkline": [
         8,
         10,
         25,
-        61
+        62
       ],
-      "momentum_pct": 144,
+      "momentum_pct": 148,
       "momentum_basis": "window",
       "hard_count": 6,
       "hard_ratio": 0.056,
-      "talk_count": 92,
-      "whitespace_score": 15.3,
+      "talk_count": 93,
+      "whitespace_score": 15.5,
       "rising": [
+        {
+          "term": "payments",
+          "count": 18,
+          "delta": 16
+        },
         {
           "term": "financial",
           "count": 16,
           "delta": 15
-        },
-        {
-          "term": "payments",
-          "count": 16,
-          "delta": 14
         },
         {
           "term": "klarna",
@@ -362,20 +362,20 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 94,
-      "recent7": 65,
+      "total": 97,
+      "recent7": 68,
       "sparkline": [
         4,
         4,
         18,
-        65
+        68
       ],
-      "momentum_pct": 261,
+      "momentum_pct": 278,
       "momentum_basis": "window",
       "hard_count": 2,
       "hard_ratio": 0.021,
-      "talk_count": 86,
-      "whitespace_score": 43.0,
+      "talk_count": 89,
+      "whitespace_score": 44.5,
       "rising": [
         {
           "term": "energy",
@@ -389,8 +389,8 @@
         },
         {
           "term": "tesla",
-          "count": 13,
-          "delta": 13
+          "count": 15,
+          "delta": 15
         },
         {
           "term": "climate",
@@ -422,7 +422,7 @@
         {
           "name": "CleanTechnica",
           "firm": "CleanTechnica",
-          "count": 10
+          "count": 12
         },
         {
           "name": "Canary Media",
@@ -730,18 +730,18 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 272,
-        "momentum_pct": 169,
+        "recent7": 296,
+        "momentum_pct": 193,
         "momentum_basis": "window",
-        "total": 502,
+        "total": 526,
         "sparkline": [
           41,
           63,
           101,
-          272
+          296
         ],
-        "hard_ratio": 0.052,
-        "whitespace_score": 17.8
+        "hard_ratio": 0.049,
+        "whitespace_score": 18.6
       },
       {
         "id": "ai-ml",
@@ -760,6 +760,22 @@
         "whitespace_score": 12.3
       },
       {
+        "id": "climate",
+        "label": "Climate / Energy",
+        "recent7": 68,
+        "momentum_pct": 278,
+        "momentum_basis": "window",
+        "total": 97,
+        "sparkline": [
+          4,
+          4,
+          18,
+          68
+        ],
+        "hard_ratio": 0.021,
+        "whitespace_score": 44.5
+      },
+      {
         "id": "space-tech",
         "label": "Space Tech",
         "recent7": 65,
@@ -776,36 +792,20 @@
         "whitespace_score": 19.8
       },
       {
-        "id": "climate",
-        "label": "Climate / Energy",
-        "recent7": 65,
-        "momentum_pct": 261,
-        "momentum_basis": "window",
-        "total": 94,
-        "sparkline": [
-          4,
-          4,
-          18,
-          65
-        ],
-        "hard_ratio": 0.021,
-        "whitespace_score": 43.0
-      },
-      {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 61,
-        "momentum_pct": 144,
+        "recent7": 62,
+        "momentum_pct": 148,
         "momentum_basis": "window",
-        "total": 107,
+        "total": 108,
         "sparkline": [
           8,
           10,
           25,
-          61
+          62
         ],
         "hard_ratio": 0.056,
-        "whitespace_score": 15.3
+        "whitespace_score": 15.5
       },
       {
         "id": "marketing-ads",
@@ -859,13 +859,13 @@
     "rising": [
       {
         "term": "security",
-        "count": 133,
-        "delta": 75
+        "count": 136,
+        "delta": 78
       },
       {
         "term": "data",
-        "count": 98,
-        "delta": 70
+        "count": 101,
+        "delta": 73
       },
       {
         "term": "google",
@@ -879,7 +879,12 @@
       },
       {
         "term": "intelligence",
-        "count": 49,
+        "count": 53,
+        "delta": 39
+      },
+      {
+        "term": "model",
+        "count": 39,
         "delta": 35
       },
       {
@@ -901,11 +906,6 @@
         "term": "launch",
         "count": 35,
         "delta": 32
-      },
-      {
-        "term": "model",
-        "count": 35,
-        "delta": 31
       }
     ],
     "highlights": [
@@ -1030,6 +1030,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 1157
+    "total_signals": 1185
   }
 }

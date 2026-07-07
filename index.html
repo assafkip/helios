@@ -205,6 +205,16 @@
   .apulse .stat .up { color: var(--hard); }
   .apulse .chip { font-size: 12px; color: var(--accent); background: #6f8fca15; border: 1px solid #6f8fca30; padding: 3px 10px; border-radius: 999px; }
   .apulse .sep { color: var(--ink-faint); }
+  /* Sector stat band — big scannable numbers under the hero (what's moving) */
+  .statband { position: relative; z-index: 1; display: flex; flex-wrap: wrap; gap: 14px; margin-top: 26px; }
+  .stile { flex: 1; min-width: 132px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; transition: border-color .15s; }
+  .stile.wide { flex: 1.7; min-width: 200px; }
+  .stile:hover { border-color: var(--line-2); }
+  .stile .sn { font-family: var(--mono); font-size: 30px; font-weight: 700; color: var(--ink); line-height: 1; letter-spacing: -.02em; }
+  .stile .sn.a { color: var(--hard); }
+  .stile .sn.name { font-family: var(--serif); font-size: 23px; font-weight: 500; letter-spacing: -.01em; }
+  .stile .sl { font-family: var(--mono); font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-faint); margin-top: 9px; }
+  @media (max-width: 560px) { .stile { min-width: calc(50% - 7px); } }
   /* What these funds want — deterministic criteria rollup (fund-criteria.json) */
   .wants { margin-top: 30px; padding-top: 26px; border-top: 1px solid var(--line); }
   .wants-k { font-family: var(--mono); font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: #c9a86a; margin-bottom: 5px; }
@@ -424,6 +434,7 @@
       <h1 id="areaName"></h1>
       <div class="topinv" id="topInvestor"></div>
       <div class="apulse" id="apulse"></div>
+      <div class="statband" id="statBand"></div>
       <div class="alertsub" id="alertSub"></div>
     </div>
     <section class="does" id="doesSec" style="display:none">
@@ -602,6 +613,28 @@ function topInvestorToday() {
 }
 
 /* ---- one area (drill in) ---- */
+/* Sector stat band — the "what's moving right now" pulse as big scannable tiles.
+   Real numbers from trends.json + the top tracked investor. */
+function renderStatBand(id) {
+  const box = el("statBand");
+  const v = state.trends && state.trends.verticals && state.trends.verticals[id];
+  if (!box) return;
+  if (!v) { box.innerHTML = ""; return; }
+  const heat = Math.round((v.hard_ratio || 0) * 100);
+  const ws = v.whitespace_score;
+  const wsTxt = (ws >= 10 ? Math.round(ws) : ws) + "×";
+  const tiles = [
+    { n: v.recent7, l: "signals this week" },
+    { n: heat + "%", l: "deal heat", a: true },
+    { n: wsTxt, l: "buzz vs funding" },
+  ];
+  if (v.exit_count) tiles.push({ n: v.exit_count, l: "exits", a: true });
+  let html = tiles.map(t => `<div class="stile"><div class="sn${t.a ? " a" : ""}">${t.n}</div><div class="sl">${t.l}</div></div>`).join("");
+  const ti = topInvestorToday();
+  if (ti) html += `<div class="stile wide"><div class="sn name">${esc(ti.name)}</div><div class="sl">top investor${ti.firm ? " · " + esc(ti.firm) : ""}</div></div>`;
+  box.innerHTML = html;
+}
+
 function areaPulse(id) {
   const v = state.trends && state.trends.verticals[id];
   if (!v) return "";
@@ -662,17 +695,15 @@ function renderDoes(label) {
   const sec = el("doesSec"), box = el("doesBody"), cov = el("doesCov");
   const fi = state.fundIntent;
   if (!sec) return;
-  if (!fi || !fi.coverage) { sec.style.display = "none"; return; }
+  const funds = (fi && fi.by_vertical && fi.by_vertical[label]) || [];
+  // Hide the panel entirely until this sector has attributed funds — a wall of
+  // "nothing here yet" text reads worse than not showing the panel at all.
+  if (!fi || !fi.coverage || !funds.length) { sec.style.display = "none"; return; }
   sec.style.display = "";
   const c = fi.coverage;
   let covLine = `${c.deal_rows_seen} deal rows seen · ${c.deal_rows_attributed} attributed to a named investor · ${c.funds_tracked} funds with ${fi.min_recurrence}+ deals · updated ${c.update_cadence || "hourly"}`;
   if (c.fetchable_pct != null) covLine += ` · ${c.fetchable_pct}% of deal links fetchable`;
   cov.textContent = covLine;
-  const funds = (fi.by_vertical && fi.by_vertical[label]) || [];
-  if (!funds.length) {
-    box.innerHTML = `<div class="does-empty">No fund in this sector has ${fi.min_recurrence}+ announced deals attributed yet. Investor names live in article bodies; body-level attribution recovers them as the feed accumulates. Funds with no press or blog presence stay invisible here. By design, this reads deals, not bios.</div>`;
-    return;
-  }
   box.innerHTML = funds.slice(0, 8).map(f => `
     <div class="did">
       <div class="did-head">
@@ -735,6 +766,7 @@ async function openArea(id) {
     renderFeed();
     const ti = topInvestorToday();
     el("topInvestor").innerHTML = ti ? `<span class="k">Top investor ${ti.scope}</span> <b>${esc(ti.name)}</b>${ti.firm ? ` &middot; ${esc(ti.firm)}` : ""} <span class="n">${ti.count} signal${ti.count > 1 ? "s" : ""}</span>` : "";
+    renderStatBand(id);
     if (window.fieldSetDensity) window.fieldSetDensity(state.all.length);
   } catch (err) {
     el("feed").innerHTML = `<div class="state"><div class="big">Could not load this area</div><div>${esc(err.message)}</div></div>`;

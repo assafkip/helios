@@ -87,6 +87,12 @@
   .lede h1 { font-size: clamp(36px, 5.5vw, 60px); font-weight: 850; letter-spacing: -.03em; line-height: 1.02; margin: 10px 0 0; max-width: 20ch; }
   .lede h1 .hl { color: var(--accent); }
   .lede p { color: var(--ink-dim); font-size: 15px; margin: 14px 0 0; max-width: 60ch; }
+  /* "See the markets" CTA — top-right of the hero, guides the eye down to the grid */
+  .lede .jump { position: absolute; top: 58px; right: 0; display: inline-flex; align-items: center; gap: 10px; font-family: var(--sans); font-size: 14px; font-weight: 600; color: var(--ink-dim); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 11px 20px; text-decoration: none; transition: color .16s, border-color .16s, background .16s; }
+  .lede .jump:hover { color: var(--ink); border-color: var(--hard); background: var(--surface-2); }
+  .lede .jump svg { animation: jbob 1.8s ease-in-out infinite; }
+  @keyframes jbob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(3px); } }
+  @media (max-width: 720px) { .lede .jump { position: static; margin-top: 20px; } }
 
   /* "Moving today" — who's investing right now (the hook) */
   .today { padding: 20px 0 46px; }
@@ -396,6 +402,10 @@
     <div class="kicker">Live venture &amp; market intelligence · refreshed hourly</div>
     <h1>Every dollar leaves a <em>trace</em>.</h1>
     <p>Eight sectors, tracked from the source. Each row below is a live market. <span class="hl">Click any row</span> to drop into its feed.</p>
+    <a class="jump" href="#grid" aria-label="Jump down to the markets">
+      See the markets
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+    </a>
   </div>
 
   <!-- LANDING: who's investing today -->

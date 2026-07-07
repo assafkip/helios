@@ -111,10 +111,23 @@
   .rbar .rt { font-size: 14px; color: var(--ink); }
   .rbar .rtrack { height: 7px; margin-top: 7px; border-radius: 4px; background: linear-gradient(90deg, var(--accent), #7ab6ff); box-shadow: 0 0 14px -3px var(--accent); min-width: 8px; }
   .rbar .rn { font-family: var(--mono); font-size: 12px; color: var(--ink-faint); }
-  .wsdot { cursor: pointer; transition: r .15s; }
-  .wsdot:hover { r: 9; }
-  .wslabel { font-family: var(--mono); font-size: 11px; fill: var(--ink-dim); pointer-events: none; }
-  .wsaxis { font-family: var(--mono); font-size: 10px; letter-spacing: .1em; fill: var(--ink-faint); text-transform: uppercase; pointer-events: none; }
+  .wslegend { display: flex; gap: 18px; margin: -6px 0 16px; font-size: 12px; color: var(--ink-faint); }
+  .wslegend .lg { display: inline-block; width: 12px; height: 7px; border-radius: 3px; margin-right: 7px; vertical-align: middle; }
+  .wslegend .lg.buzz { background: var(--accent); }
+  .wslegend .lg.money { background: var(--hard); }
+  .wsrow { display: grid; grid-template-columns: 96px 1fr; gap: 14px; align-items: center; padding: 9px 0; cursor: pointer; border-radius: 8px; }
+  .wsrow:hover { background: #ffffff06; }
+  .wsname { font-size: 13px; color: var(--ink-dim); }
+  .wsrow:hover .wsname { color: var(--ink); }
+  .wsbars { display: flex; flex-direction: column; gap: 5px; }
+  .wsb { height: 7px; border-radius: 4px; min-width: 3px; }
+  .wsb.buzz { background: linear-gradient(90deg, var(--accent), #7ab6ff); box-shadow: 0 0 12px -3px var(--accent); }
+  .wsb.money { background: var(--hard); box-shadow: 0 0 10px -3px var(--hard); }
+  .topinv { position: relative; z-index: 1; display: inline-flex; align-items: center; gap: 10px; margin-top: 16px; padding: 9px 16px; background: rgba(43,140,255,.1); border: 1px solid rgba(43,140,255,.35); border-radius: 999px; font-size: 14px; }
+  .topinv .k { font-family: var(--mono); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+  .topinv b { font-weight: 750; }
+  .topinv .n { font-family: var(--mono); font-size: 12px; color: var(--ink-faint); }
+  .topinv:empty { display: none; }
 
   /* ---- Area (drill) view ---- */
   .area { display: none; padding-bottom: 100px; }
@@ -229,9 +242,10 @@
       <div id="risingBars"></div>
     </div>
     <div class="panel">
-      <h2>Whitespace map · talk vs money</h2>
+      <h2>Where the gap is · buzz vs funding</h2>
+      <div class="wslegend"><span><i class="lg buzz"></i>buzz &middot; attention</span><span><i class="lg money"></i>funding</span></div>
       <div id="wsmap"></div>
-      <p class="cap">Each dot is a market. Up = more attention, right = more funding. The top-left is the gap — lots of talk, little money. Click a dot to open it.</p>
+      <p class="cap" id="wsCap"></p>
     </div>
   </section>
 
@@ -240,6 +254,7 @@
     <div class="ahero">
       <div class="bigword" id="areaBig"></div>
       <h1 id="areaName"></h1>
+      <div class="topinv" id="topInvestor"></div>
       <div class="apulse" id="apulse"></div>
     </div>
     <div class="controls">
@@ -347,25 +362,37 @@ function renderIntel() {
 
   const ranked = o.momentum_ranked || [];
   if (!ranked.length) { el("wsmap").innerHTML = ""; return; }
-  const W = 520, H = 300, pl = 16, pr = 20, pt = 18, pb = 30;
-  const xMax = Math.max(...ranked.map(m => m.hard_ratio), 0.01);
-  const yMax = Math.max(...ranked.map(m => m.total), 1);
-  const px = v => pl + (v / xMax) * (W - pl - pr);
-  const py = v => (H - pb) - Math.sqrt(v / yMax) * (H - pt - pb);
-  const dots = ranked.map(m => {
-    const x = px(m.hard_ratio), y = py(m.total), short = m.label.split(" ")[0];
-    return `<circle class="wsdot" data-area="${esc(m.id)}" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="6" fill="#2b8cff" opacity=".92"/>
-      <text class="wslabel" x="${(x + 10).toFixed(1)}" y="${(y + 3.5).toFixed(1)}">${esc(short)}</text>`;
-  }).join("");
-  el("wsmap").innerHTML = `<svg viewBox="0 0 ${W} ${H}" style="width:100%;height:auto;display:block">
-    <rect x="${pl}" y="${pt}" width="${((W - pl - pr) / 2).toFixed(0)}" height="${((H - pt - pb) / 2).toFixed(0)}" fill="#2b8cff12"/>
-    <text class="wsaxis" x="${pl + 6}" y="${pt + 16}">the gap</text>
-    <line x1="${pl}" y1="${H - pb}" x2="${W - pr}" y2="${H - pb}" stroke="#2d2d3a"/>
-    <line x1="${pl}" y1="${pt}" x2="${pl}" y2="${H - pb}" stroke="#2d2d3a"/>
-    <text class="wsaxis" x="${W - pr - 92}" y="${H - 8}">more funded &rarr;</text>
-    ${dots}
-  </svg>`;
-  document.querySelectorAll(".wsdot").forEach(d => d.onclick = () => openArea(d.dataset.area));
+  const maxT = Math.max(...ranked.map(m => m.total), 1);
+  const maxH = Math.max(...ranked.map(m => m.hard_ratio), 0.01);
+  const rows = ranked.map(m => {
+    const buzz = m.total / maxT, money = m.hard_ratio / maxH;
+    return { m, buzz, money, gap: buzz - money };
+  }).sort((a, b) => b.gap - a.gap);
+  el("wsmap").innerHTML = rows.map(r =>
+    `<div class="wsrow" data-area="${esc(r.m.id)}">
+      <span class="wsname">${esc(r.m.label.split(" ")[0])}</span>
+      <span class="wsbars">
+        <span class="wsb buzz" style="width:${Math.max(4, Math.round(r.buzz * 100))}%"></span>
+        <span class="wsb money" style="width:${Math.max(2, Math.round(r.money * 100))}%"></span>
+      </span>
+    </div>`).join("");
+  document.querySelectorAll(".wsrow").forEach(d => d.onclick = () => openArea(d.dataset.area));
+  const top = rows[0];
+  el("wsCap").innerHTML = `Ranked by the gap. A long blue bar over a short green one means attention is running ahead of capital — an early lane. <b>Biggest gap now: ${esc(top.m.label)}.</b>`;
+}
+
+/* today's most active named investor in the open area (falls back to this week) */
+function topInvestorToday() {
+  const vc = state.all.filter(x => x.source_kind === "vc");
+  const named = state.all.filter(x => x.firm && !["news", "press"].includes((x.firm || "").toLowerCase()));
+  const base = vc.length ? vc : named;   // prefer real investors; fall back to named voices
+  let pool = base.filter(x => daysAgo(x.source_date) <= 0), scope = "today";
+  if (pool.length < 1) { pool = base.filter(x => daysAgo(x.source_date) <= 7); scope = "this week"; }
+  if (!pool.length) return null;
+  const c = {}, label = {};
+  pool.forEach(x => { const k = x.person_name + "|" + x.firm; c[k] = (c[k] || 0) + 1; label[k] = { name: x.person_name, firm: x.firm }; });
+  const top = Object.keys(c).sort((a, b) => c[b] - c[a])[0];
+  return { ...label[top], count: c[top], scope };
 }
 
 /* ---- one area (drill in) ---- */
@@ -389,6 +416,7 @@ async function openArea(id) {
   el("areaName").textContent = v.label;
   el("areaBig").textContent = v.label.split(" ")[0];
   el("apulse").innerHTML = areaPulse(id);
+  el("topInvestor").innerHTML = "";
   el("typeSeg").querySelectorAll("button").forEach(b => b.classList.toggle("on", b.dataset.type === "all"));
   el("q").value = "";
   el("feed").innerHTML = Array.from({length: 6}).map(() => `<div class="skel"><div class="sk" style="width:55%"></div><div class="sk" style="width:90%"></div><div class="sk" style="width:40%"></div></div>`).join("");
@@ -401,6 +429,8 @@ async function openArea(id) {
     state.all = Array.isArray(data) ? data : (data.signals || []);
     buildControls();
     renderFeed();
+    const ti = topInvestorToday();
+    el("topInvestor").innerHTML = ti ? `<span class="k">Top investor ${ti.scope}</span> <b>${esc(ti.name)}</b>${ti.firm ? ` &middot; ${esc(ti.firm)}` : ""} <span class="n">${ti.count} signal${ti.count > 1 ? "s" : ""}</span>` : "";
     if (window.fieldSetDensity) window.fieldSetDensity(state.all.length);
   } catch (err) {
     el("feed").innerHTML = `<div class="state"><div class="big">Could not load this area</div><div>${esc(err.message)}</div></div>`;

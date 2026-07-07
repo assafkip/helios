@@ -178,6 +178,7 @@ class Signal:
     # Pipeline contact matching
     matched_contacts: List[Dict] = None  # Contacts from outreach tracker that match this signal
     has_pipeline_match: bool = False  # Quick flag for UI filtering
+    source_kind: str = "industry"  # vc | media | industry — which list the source came from
 
     def __post_init__(self):
         if self.matched_contacts is None:
@@ -673,7 +674,7 @@ class FeedMonitor:
                 logger.warning(f"Error fetching {url}: {e}")
         return None
 
-    def _process_feed_entry(self, entry: Dict, feed_url: str, person_hint: str = None, firm_hint: str = None) -> Optional[Signal]:
+    def _process_feed_entry(self, entry: Dict, feed_url: str, person_hint: str = None, firm_hint: str = None, source_kind: str = "industry") -> Optional[Signal]:
         """Process a single feed entry and create a signal if relevant."""
         title = entry.get("title", "")
         summary = entry.get("summary", entry.get("description", ""))
@@ -779,7 +780,8 @@ class FeedMonitor:
             source_date=source_date,
             confidence=self._determine_confidence(full_text, signal_type),
             suggested_outreach_window=self._determine_outreach_window(signal_type, signal_category),
-            source_timestamp=source_timestamp
+            source_timestamp=source_timestamp,
+            source_kind=source_kind
         )
 
         # Enrich with pipeline contact matches
@@ -788,7 +790,7 @@ class FeedMonitor:
         return signal
 
     async def _process_feeds_for_source(self, session: aiohttp.ClientSession,
-                                        feeds: List[str], person: str, firm: str) -> List[Signal]:
+                                        feeds: List[str], person: str, firm: str, source_kind: str = "industry") -> List[Signal]:
         """Process all feeds for a single source (person/firm)."""
         signals = []
         feeds_fetched = 0
@@ -813,7 +815,7 @@ class FeedMonitor:
 
             # Process entries (last 10)
             for entry in entries[:10]:
-                signal = self._process_feed_entry(entry, feed_url, person, firm)
+                signal = self._process_feed_entry(entry, feed_url, person, firm, source_kind)
                 if signal:
                     signals.append(signal)
                     if self.verbose:
@@ -841,7 +843,8 @@ class FeedMonitor:
                     task = self._process_feeds_for_source(
                         session, feeds,
                         vc.get("person_name", ""),
-                        vc.get("firm", "")
+                        vc.get("firm", ""),
+                        source_kind="vc"
                     )
                     feed_tasks.append(task)
 
@@ -852,7 +855,8 @@ class FeedMonitor:
                     task = self._process_feeds_for_source(
                         session, feeds,
                         voice.get("person_name", ""),
-                        voice.get("outlet_or_primary_affiliation", "")
+                        voice.get("outlet_or_primary_affiliation", ""),
+                        source_kind="media"
                     )
                     feed_tasks.append(task)
 
@@ -863,7 +867,8 @@ class FeedMonitor:
                     task = self._process_feeds_for_source(
                         session, feeds,
                         source.get("source_name", ""),  # Use source name as person_name
-                        source.get("source_type", "")   # Use source type as firm
+                        source.get("source_type", ""),   # Use source type as firm
+                        source_kind="industry"
                     )
                     feed_tasks.append(task)
 

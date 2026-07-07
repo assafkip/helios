@@ -239,6 +239,9 @@
   .toprow #todaySec { display: block; }
   .toprow #intel { grid-template-columns: 1fr; gap: 30px; border-left: 1px solid rgba(45,45,58,.4); padding-left: 48px; }
   .toprow #intel .panel + .panel { border-left: none; padding-left: 0; border-top: 1px solid rgba(45,45,58,.4); padding-top: 26px; }
+  /* Left column stacks Moving today + "where the gap is" with a matching separator */
+  .toprow .tr-left { display: flex; flex-direction: column; }
+  .toprow .tr-left #gapPanel { border-top: 1px solid rgba(45,45,58,.4); padding-top: 26px; margin-top: 4px; }
   @media (max-width: 820px) { .toprow { grid-template-columns: 1fr; gap: 34px; } .toprow #intel { border-left: none; padding-left: 0; } }
 
   .controls { position: sticky; top: 66px; z-index: 20; display: flex; flex-direction: column; gap: 12px; margin: 22px 0 18px; padding: 12px; background: rgba(8,8,12,.8); backdrop-filter: blur(12px); border: 1px solid var(--line); border-radius: 14px; }
@@ -382,11 +385,11 @@
 
   <!-- LANDING: cross-market intelligence -->
   <section class="intel" id="intel">
-    <div class="panel">
+    <div class="panel" id="risingPanel">
       <h2>Rising across every market</h2>
       <div id="risingBars"></div>
     </div>
-    <div class="panel">
+    <div class="panel" id="gapPanel">
       <h2>Where the gap is · buzz vs funding</h2>
       <div class="wslegend"><span><i class="lg buzz"></i>buzz &middot; attention</span><span><i class="lg money"></i>funding</span></div>
       <div id="wsmap"></div>
@@ -877,11 +880,20 @@ async function boot() {
   try { const r = await fetch("form-d-signals.json", { cache: "no-store" }); state.formD = await r.json(); } catch { state.formD = null; }
   el("tracked").textContent = (state.trends.overall && state.trends.overall.total_signals) || "";
   renderGrid();
-  // move hot-investors + trends into the two-column top row (above the grid)
+  // Two-column top row above the grid.
+  // Left: "Moving today" + "Where the gap is" under it.
+  // Right: "Fresh dry powder" on top + "Rising across every market".
   (function () {
     var tr = el("toprow"), t = el("todaySec"), i = el("intel");
-    if (tr && t) tr.appendChild(t);
-    if (tr && i) tr.appendChild(i);
+    var gap = el("gapPanel"), dry = el("dryPanel");
+    if (!tr || !t || !i) return;
+    if (dry) i.insertBefore(dry, i.firstElementChild);  // dry powder to top of right col
+    var left = document.createElement("div");
+    left.className = "tr-left";
+    left.appendChild(t);
+    if (gap) left.appendChild(gap);                      // gap under moving today (left col)
+    tr.appendChild(left);
+    tr.appendChild(i);
   })();
   renderToday();
   renderIntel();

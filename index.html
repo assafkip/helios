@@ -221,6 +221,11 @@
   .did-count { font-family: var(--mono); font-size: 12px; color: var(--accent); white-space: nowrap; }
   .did-thesis { font-size: 13px; color: var(--ink-dim); margin: 6px 0 0; }
   .does-empty { font-size: 13px; color: var(--ink-faint); max-width: 62ch; line-height: 1.5; }
+  /* Fresh dry powder — SEC Form D private-fund filings (form-d-signals.json) */
+  .dry-item { display: block; padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 14px; color: var(--ink-dim); text-decoration: none; }
+  .dry-item:last-child { border-bottom: 0; }
+  .dry-item:hover { color: var(--accent); }
+  .dry-item .d { font-family: var(--mono); font-size: 11px; color: var(--ink-faint); margin-right: 8px; }
   /* Overview top row: hot investors + trends, side by side above the grid */
   .toprow { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; padding: 20px 0 40px; }
   body.in-area .toprow { display: none; }
@@ -381,6 +386,11 @@
       <div id="wsmap"></div>
       <p class="cap" id="wsCap"></p>
     </div>
+    <div class="panel" id="dryPanel" style="display:none">
+      <h2>Fresh dry powder · funds that just raised</h2>
+      <p class="cap" id="dryCap"></p>
+      <div id="dryList"></div>
+    </div>
   </section>
 
   <!-- DRILL: one area -->
@@ -432,7 +442,7 @@
 </main>
 
 <script>
-const state = { verticals: [], trends: null, fundCriteria: null, fundIntent: null, vertical: null, all: [], type: "all", firm: "", theme: "", q: "", when: 0 };
+const state = { verticals: [], trends: null, fundCriteria: null, fundIntent: null, formD: null, vertical: null, all: [], type: "all", firm: "", theme: "", q: "", when: 0 };
 const el = id => document.getElementById(id);
 const esc = s => (s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const prettyCat = c => (c||"").replace(/_/g, " ");
@@ -577,6 +587,21 @@ function areaPulse(id) {
   return `<span class="stat"><b>${v.recent7}</b> this week</span><span class="sep">·</span>
     <span class="stat">deal heat <b>${heat}%</b></span>${exits}<span class="sep">·</span>
     ${rising}${movers ? `<span class="sep">·</span><span class="stat">movers: <b>${movers}</b></span>` : ""}`;
+}
+
+/* "Fresh dry powder" — SEC Form D private-fund filings (form-d-signals.json).
+   A fund filing Form D just raised capital it now has to deploy. Names the fund,
+   not its deals — a fund-formation signal, so it lives on the home, not per-sector. */
+function renderDryPowder() {
+  const panel = el("dryPanel");
+  const fd = state.formD;
+  if (!panel || !fd || !fd.signals || !fd.signals.length) { if (panel) panel.style.display = "none"; return; }
+  panel.style.display = "";
+  el("dryCap").textContent = `${fd.count} private funds filed Form D recently. Fresh capital looking for a home. Source: SEC EDGAR.`;
+  el("dryList").innerHTML = fd.signals.slice(0, 8).map(s => `
+    <a class="dry-item" href="${esc(s.source_url)}" target="_blank" rel="noopener">
+      <span class="d">${esc(s.source_date)}</span>${esc(s.person_name)}
+    </a>`).join("");
 }
 
 /* "What these funds actually do" — revealed thesis from announced deals (fund-intent.json).
@@ -815,6 +840,7 @@ async function boot() {
   try { const r = await fetch("trends.json", { cache: "no-store" }); state.trends = await r.json(); } catch { state.trends = { verticals: {}, overall: { momentum_ranked: [], total_signals: 0 } }; }
   try { const r = await fetch("fund-criteria.json", { cache: "no-store" }); state.fundCriteria = await r.json(); } catch { state.fundCriteria = { verticals: {} }; }
   try { const r = await fetch("fund-intent.json", { cache: "no-store" }); state.fundIntent = await r.json(); } catch { state.fundIntent = null; }
+  try { const r = await fetch("form-d-signals.json", { cache: "no-store" }); state.formD = await r.json(); } catch { state.formD = null; }
   el("tracked").textContent = (state.trends.overall && state.trends.overall.total_signals) || "";
   renderGrid();
   // move hot-investors + trends into the two-column top row (above the grid)
@@ -825,6 +851,7 @@ async function boot() {
   })();
   renderToday();
   renderIntel();
+  renderDryPowder();
   const id = location.hash.replace("#", "");
   if (id && state.verticals.some(v => v.id === id)) openArea(id);
 }

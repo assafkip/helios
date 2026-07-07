@@ -51,10 +51,15 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/derive_fund_intent.py
 
+      - name: Mine SEC Form D dry-powder signals
+        # Free gov data; degrades to leaving form-d-signals.json unchanged if
+        # EDGAR is unreachable. No key needed.
+        run: python scripts/fetch_form_d.py || echo "form D fetch failed, continuing"
+
       - name: Check for changes
         id: check_changes
         run: |
-          git add -A signals-*.json trends.json trends-history.json fund-intent.json investor-cache.json data/
+          git add -A signals-*.json trends.json trends-history.json fund-intent.json investor-cache.json form-d-signals.json data/
           git diff --cached --quiet || echo "changes=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push if changed

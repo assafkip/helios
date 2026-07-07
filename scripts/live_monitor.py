@@ -186,6 +186,17 @@ class Signal:
 
 
 # Hard signal keywords - direct investment/fundraising activity
+# Exit events (M&A / IPO) mined from the feeds we already read. An exit in a
+# sector is a VC-appetite signal, so it is its own HARD category — not buried in
+# the soft portfolio catch-all. Phrases are tight on purpose: bare "exit" would
+# fire on "exit node" / "exit strategy", and bare "ipo" on unrelated substrings.
+EXIT_KEYWORDS = [
+    "acquires", "acquired by", "acquisition of", "to acquire", "to be acquired",
+    "merges with", "merger with", "goes public", "initial public offering",
+    "files for ipo", " ipo", "public offering", "buyout", "taken private",
+    "take-private", "bought by",
+]
+
 HARD_SIGNAL_KEYWORDS = {
     "new_fund_raised": [
         "raised", "closes fund", "new fund", "fund announcement",
@@ -196,6 +207,8 @@ HARD_SIGNAL_KEYWORDS = {
         "backs", "invests", "funding round", "announces investment",
         "seed round", "series a", "series b"
     ],
+    # After investment categories so a genuine raise wins; a pure M&A/IPO falls here.
+    "exit_signal": EXIT_KEYWORDS,
     "actively_looking": [
         "looking for", "seeking", "open to meeting", "pitch me",
         "office hours", "want to meet", "interested in"
@@ -222,9 +235,10 @@ SOFT_SIGNAL_KEYWORDS = {
         "detection gaps", "visibility", "blind spots", "coverage gaps",
         "missed threats", "evasion", "detection engineering"
     ],
+    # Exit events (acquisition/IPO) are now the hard exit_signal category above.
+    # This soft catch-all keeps only the non-exit "win" language.
     "portfolio_adjacent_win": [
-        "acquisition", "acquired", "exit", "ipo", "valuation",
-        "unicorn", "portfolio", "congratulations"
+        "valuation", "unicorn", "portfolio", "congratulations"
     ],
     # Detection Engineering focus
     "detection_engineering": [
@@ -289,6 +303,8 @@ GENERIC_HARD_KEYWORDS = {
         "backs", "invests", "funding round", "announces investment",
         "seed round", "series a", "series b", "raises $"
     ],
+    # After investment categories so a genuine raise wins; a pure M&A/IPO falls here.
+    "exit_signal": EXIT_KEYWORDS,
     "actively_looking": [
         "looking for", "seeking", "open to meeting", "pitch me",
         "office hours", "want to meet", "interested in"
@@ -301,9 +317,9 @@ GENERIC_HARD_KEYWORDS = {
 
 # Order matters: specific categories first, market_commentary is the catch-all last.
 GENERIC_SOFT_KEYWORDS = {
+    # Exit events (acquisition/IPO) are now the hard exit_signal category above.
     "portfolio_win": [
-        "acquisition", "acquired", "exit", "ipo", "valuation",
-        "unicorn", "milestone", "congratulations"
+        "valuation", "unicorn", "milestone", "congratulations"
     ],
     "sector_pain": [
         "problem", "pain point", "broken", "friction", "challenge",

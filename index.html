@@ -573,8 +573,9 @@ function areaPulse(id) {
   const rising = (v.rising || []).slice(0, 4).map(r => `<span class="chip">${esc(r.term)}</span>`).join("");
   const movers = (v.movers || []).slice(0, 3).map(m => esc(m.name)).join(", ");
   const heat = Math.round((v.hard_ratio || 0) * 100);
+  const exits = v.exit_count ? `<span class="sep">·</span><span class="stat">exits <b>${v.exit_count}</b></span>` : "";
   return `<span class="stat"><b>${v.recent7}</b> this week</span><span class="sep">·</span>
-    <span class="stat">deal heat <b>${heat}%</b></span><span class="sep">·</span>
+    <span class="stat">deal heat <b>${heat}%</b></span>${exits}<span class="sep">·</span>
     ${rising}${movers ? `<span class="sep">·</span><span class="stat">movers: <b>${movers}</b></span>` : ""}`;
 }
 

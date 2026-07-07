@@ -34,6 +34,9 @@ HARD_CATEGORIES = {
     "new_investment", "new_fund_raised", "new_security_investment",
     "actively_looking", "new_thesis", "new_thesis_statement",
 }
+# Exit events (M&A / IPO) mined from the same feeds. An exit in a sector reads as
+# VC appetite, tracked separately from deal heat (an exit is not an investment).
+EXIT_CATEGORIES = {"exit_signal"}
 TALK_CATEGORIES = {
     "market_commentary", "sector_pain", "deep_dive",
     "security_trend_commentary", "problem_post_soc_pain",
@@ -175,6 +178,7 @@ def compute_vertical(signals, today):
     buckets, momentum = sparkline_and_momentum(signals, today)
     hard = sum(1 for s in signals if s.get("signal_category") in HARD_CATEGORIES)
     talk = sum(1 for s in signals if s.get("signal_category") in TALK_CATEGORIES)
+    exits = sum(1 for s in signals if s.get("signal_category") in EXIT_CATEGORIES)
     hard_ratio = round(hard / total, 3) if total else 0
     whitespace = round(talk / hard, 1) if hard else float(talk)
     return {
@@ -185,6 +189,7 @@ def compute_vertical(signals, today):
         "momentum_basis": "window",
         "hard_count": hard,
         "hard_ratio": hard_ratio,
+        "exit_count": exits,
         "talk_count": talk,
         "whitespace_score": whitespace,
         "rising": rising_topics(signals, today),

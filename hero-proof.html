@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FundVision — hero proof</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #f3ecdd;            /* warm cream, couture */
+    --ink-dim: #b9b2a4;
+    --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+    --sans: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { height: 100%; }
+  body { background: #05060a; color: var(--ink); font-family: var(--sans); overflow: hidden; }
+
+  #light { position: fixed; inset: 0; z-index: 0; }
+  /* cinematic vignette + film grain over the light */
+  .veil { position: fixed; inset: 0; z-index: 1; pointer-events: none;
+    background: radial-gradient(120% 90% at 50% 42%, transparent 38%, rgba(5,6,10,.72) 100%); }
+  .grain { position: fixed; inset: -50%; z-index: 2; pointer-events: none; opacity: .05; mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    animation: grain 6s steps(6) infinite; }
+  @keyframes grain { 0%{transform:translate(0,0)} 20%{transform:translate(-4%,3%)} 40%{transform:translate(3%,-5%)} 60%{transform:translate(-3%,2%)} 80%{transform:translate(5%,-2%)} 100%{transform:translate(0,0)} }
+
+  header { position: fixed; top: 0; left: 0; right: 0; z-index: 10; display: flex; align-items: center; justify-content: space-between; padding: 30px 42px; }
+  .logo { font-family: var(--serif); font-weight: 600; font-size: 22px; letter-spacing: .01em; }
+  .logo b { font-style: italic; font-weight: 500; }
+  .nav { display: flex; gap: 30px; font-family: var(--sans); font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: var(--ink-dim); }
+  .nav span { cursor: pointer; }
+
+  /* vertical couture spine, like their "Y GOOD I" */
+  .spine { position: fixed; z-index: 5; left: 50%; top: 50%; transform: translate(-50%,-50%);
+    font-family: var(--serif); font-weight: 300; font-size: clamp(140px, 30vw, 420px); line-height: .8;
+    letter-spacing: .04em; writing-mode: vertical-rl; text-orientation: upright;
+    color: rgba(243,236,221,.10); pointer-events: none; user-select: none; white-space: nowrap; }
+
+  main { position: relative; z-index: 6; height: 100%; display: flex; flex-direction: column; justify-content: center; padding: 0 42px; }
+  .manifesto { max-width: 660px; }
+  .manifesto h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(40px, 6vw, 92px); line-height: 1.0; letter-spacing: -.015em; }
+  .manifesto h1 em { font-style: italic; font-weight: 300; }
+  .manifesto p { font-family: var(--sans); font-weight: 400; font-size: clamp(15px, 1.4vw, 19px); color: var(--ink-dim); margin-top: 26px; max-width: 34ch; line-height: 1.5; }
+
+  .foot { position: fixed; z-index: 6; left: 42px; bottom: 34px; display: flex; align-items: center; gap: 12px; font-family: var(--sans); font-size: 13px; color: var(--ink-dim); }
+  .foot .dot { width: 7px; height: 7px; border-radius: 50%; background: #c6ff3d; box-shadow: 0 0 12px #c6ff3d; }
+  .foot b { color: var(--ink); font-weight: 600; }
+  .enter { position: fixed; z-index: 6; right: 42px; bottom: 34px; display: flex; align-items: center; gap: 12px; font-family: var(--sans); font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-dim); }
+  .enter .ring { width: 46px; height: 46px; border: 1px solid rgba(243,236,221,.3); border-radius: 50%; display: grid; place-items: center; }
+</style>
+</head>
+<body>
+<canvas id="light"></canvas>
+<div class="veil"></div>
+<div class="grain"></div>
+
+<header>
+  <div class="logo">Fund<b>Vision</b></div>
+  <nav class="nav"><span>Markets</span><span>Today</span><span>About</span></nav>
+</header>
+
+<div class="spine">SIGNAL</div>
+
+<main>
+  <div class="manifesto">
+    <h1>Every dollar<br>leaves a<br><em>trace</em>.</h1>
+    <p>Live venture &amp; market intelligence across eight sectors. See who's moving — before the room does.</p>
+  </div>
+</main>
+
+<div class="foot"><span class="dot"></span><b>1,157</b>&nbsp;signals live</div>
+<div class="enter"><span>Enter</span><span class="ring">&darr;</span></div>
+
+<script>
+/* volumetric prism light — drifting saturated blooms, additive blend */
+const c = document.getElementById("light"), ctx = c.getContext("2d");
+let w, h, dpr, t = 0;
+function resize() { dpr = Math.min(devicePixelRatio || 1, 2); w = c.width = innerWidth * dpr; h = c.height = innerHeight * dpr; }
+resize(); addEventListener("resize", resize);
+
+// saturated prism palette — bigger travel, faster flow, pulsing (much more movement)
+const blobs = [
+  { col: [43, 140, 255], x: .40, y: .44, r: .54, ax: .14, ay: .12, sp: .22, ph: 0.0, psp: .38 },
+  { col: [31, 107, 255], x: .58, y: .50, r: .56, ax: .16, ay: .13, sp: .18, ph: 1.1, psp: .30 },
+  { col: [23, 212, 230], x: .50, y: .36, r: .42, ax: .17, ay: .12, sp: .28, ph: 2.3, psp: .48 },
+  { col: [58, 180, 255], x: .62, y: .46, r: .38, ax: .15, ay: .15, sp: .25, ph: 3.4, psp: .42 },
+  { col: [43, 224, 192], x: .32, y: .58, r: .30, ax: .13, ay: .12, sp: .20, ph: 4.2, psp: .35 },
+  { col: [198, 255, 61], x: .70, y: .60, r: .22, ax: .14, ay: .14, sp: .23, ph: 5.1, psp: .40 },
+  { col: [26, 60, 200], x: .48, y: .50, r: .64, ax: .11, ay: .10, sp: .14, ph: 0.6, psp: .24 }
+];
+
+function frame() {
+  t += 0.008;
+  ctx.globalCompositeOperation = "source-over";
+  ctx.fillStyle = "#05060a";
+  ctx.fillRect(0, 0, w, h);
+  ctx.globalCompositeOperation = "lighter";
+  for (const b of blobs) {
+    const a = t * b.sp * 6.2832 + b.ph;
+    const cx = (b.x + Math.sin(a) * b.ax + Math.cos(a * 0.6) * b.ax * 0.5) * w;
+    const cy = (b.y + Math.cos(a * 1.1) * b.ay + Math.sin(a * 0.7) * b.ay * 0.5) * h;
+    const pulse = 1 + Math.sin(t * b.psp * 6.2832 + b.ph) * 0.22;
+    const rad = b.r * pulse * Math.max(w, h);
+    const al = 0.30 + Math.sin(t * b.psp * 6.2832 + b.ph * 1.7) * 0.08;
+    const g = ctx.createRadialGradient(cx, cy, 0, cx, cy, rad);
+    const [r, gg, bl] = b.col;
+    g.addColorStop(0, `rgba(${r},${gg},${bl},${al})`);
+    g.addColorStop(0.45, `rgba(${r},${gg},${bl},${al * 0.33})`);
+    g.addColorStop(1, `rgba(${r},${gg},${bl},0)`);
+    ctx.fillStyle = g;
+    ctx.beginPath(); ctx.arc(cx, cy, rad, 0, 6.2832); ctx.fill();
+  }
+  // bright core — a breathing subject that sweeps through the light
+  const coreX = w * (0.52 + Math.sin(t * 1.4) * 0.06), coreY = h * (0.46 + Math.cos(t * 1.05) * 0.05);
+  const coreR = Math.max(w, h) * (0.20 + Math.sin(t * 0.8) * 0.04);
+  const core = ctx.createRadialGradient(coreX, coreY, 0, coreX, coreY, coreR);
+  core.addColorStop(0, "rgba(255,255,255,0.18)");
+  core.addColorStop(0.5, "rgba(200,210,255,0.06)");
+  core.addColorStop(1, "rgba(255,255,255,0)");
+  ctx.fillStyle = core;
+  ctx.beginPath(); ctx.arc(coreX, coreY, coreR, 0, 6.2832); ctx.fill();
+  requestAnimationFrame(frame);
+}
+frame();
+</script>
+</body>
+</html>

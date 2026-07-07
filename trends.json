@@ -1,23 +1,23 @@
 {
-  "generated": "2026-07-07T22:15:25Z",
+  "generated": "2026-07-07T22:46:34Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 803,
-      "recent7": 567,
+      "total": 818,
+      "recent7": 582,
       "sparkline": [
         43,
         63,
         105,
-        567
+        582
       ],
-      "momentum_pct": 440,
+      "momentum_pct": 454,
       "momentum_basis": "window",
       "hard_count": 37,
-      "hard_ratio": 0.046,
+      "hard_ratio": 0.045,
       "exit_count": 0,
-      "talk_count": 744,
-      "whitespace_score": 20.1,
+      "talk_count": 759,
+      "whitespace_score": 20.5,
       "rising": [
         {
           "term": "security",
@@ -26,12 +26,17 @@
         },
         {
           "term": "data",
-          "count": 91,
-          "delta": 75
+          "count": 93,
+          "delta": 77
         },
         {
           "term": "cyber",
-          "count": 68,
+          "count": 69,
+          "delta": 48
+        },
+        {
+          "term": "x2026",
+          "count": 47,
           "delta": 47
         },
         {
@@ -40,9 +45,9 @@
           "delta": 45
         },
         {
-          "term": "x2026",
-          "count": 45,
-          "delta": 45
+          "term": "threat",
+          "count": 62,
+          "delta": 44
         },
         {
           "term": "cybersecurity",
@@ -50,21 +55,16 @@
           "delta": 44
         },
         {
-          "term": "threat",
-          "count": 61,
-          "delta": 43
-        },
-        {
           "term": "prnewswire",
-          "count": 39,
-          "delta": 39
+          "count": 43,
+          "delta": 43
         }
       ],
       "movers": [
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 110
+          "count": 115
         },
         {
           "name": "Reddit Cybersecurity",
@@ -187,21 +187,21 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 166,
-      "recent7": 100,
+      "total": 167,
+      "recent7": 101,
       "sparkline": [
         12,
         15,
         34,
-        100
+        101
       ],
-      "momentum_pct": 194,
+      "momentum_pct": 197,
       "momentum_basis": "window",
       "hard_count": 12,
       "hard_ratio": 0.072,
       "exit_count": 0,
-      "talk_count": 151,
-      "whitespace_score": 12.6,
+      "talk_count": 152,
+      "whitespace_score": 12.7,
       "rising": [
         {
           "term": "anthropic",
@@ -224,6 +224,11 @@
           "delta": 18
         },
         {
+          "term": "model",
+          "count": 17,
+          "delta": 16
+        },
+        {
           "term": "utils",
           "count": 16,
           "delta": 16
@@ -232,11 +237,6 @@
           "term": "sqlite utils",
           "count": 16,
           "delta": 16
-        },
-        {
-          "term": "model",
-          "count": 16,
-          "delta": 15
         },
         {
           "term": "google",
@@ -366,21 +366,21 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 136,
-      "recent7": 107,
+      "total": 137,
+      "recent7": 108,
       "sparkline": [
         4,
         4,
         18,
-        107
+        108
       ],
-      "momentum_pct": 494,
+      "momentum_pct": 500,
       "momentum_basis": "window",
       "hard_count": 5,
-      "hard_ratio": 0.037,
+      "hard_ratio": 0.036,
       "exit_count": 0,
-      "talk_count": 124,
-      "whitespace_score": 24.8,
+      "talk_count": 125,
+      "whitespace_score": 25.0,
       "rising": [
         {
           "term": "energy",
@@ -642,21 +642,21 @@
     },
     "space-tech": {
       "label": "Space Tech",
-      "total": 141,
-      "recent7": 89,
+      "total": 142,
+      "recent7": 90,
       "sparkline": [
         5,
         15,
         30,
-        89
+        90
       ],
-      "momentum_pct": 197,
+      "momentum_pct": 200,
       "momentum_basis": "window",
-      "hard_count": 5,
-      "hard_ratio": 0.035,
+      "hard_count": 6,
+      "hard_ratio": 0.042,
       "exit_count": 0,
       "talk_count": 123,
-      "whitespace_score": 24.6,
+      "whitespace_score": 20.5,
       "rising": [
         {
           "term": "space",
@@ -675,8 +675,8 @@
         },
         {
           "term": "satellite",
-          "count": 32,
-          "delta": 31
+          "count": 34,
+          "delta": 33
         },
         {
           "term": "rocket",
@@ -689,26 +689,26 @@
           "delta": 18
         },
         {
-          "term": "aerospace",
-          "count": 14,
+          "term": "orbit",
+          "count": 15,
           "delta": 14
         },
         {
-          "term": "moon",
+          "term": "aerospace",
           "count": 14,
-          "delta": 13
+          "delta": 14
         }
       ],
       "movers": [
         {
-          "name": "Payload",
-          "firm": "Payload Space",
+          "name": "SpaceNews",
+          "firm": "SpaceNews",
           "count": 17
         },
         {
-          "name": "SpaceNews",
-          "firm": "SpaceNews",
-          "count": 16
+          "name": "Payload",
+          "firm": "Payload Space",
+          "count": 17
         },
         {
           "name": "European Spaceflight",
@@ -799,18 +799,18 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 567,
-        "momentum_pct": 440,
+        "recent7": 582,
+        "momentum_pct": 454,
         "momentum_basis": "window",
-        "total": 803,
+        "total": 818,
         "sparkline": [
           43,
           63,
           105,
-          567
+          582
         ],
-        "hard_ratio": 0.046,
-        "whitespace_score": 20.1
+        "hard_ratio": 0.045,
+        "whitespace_score": 20.5
       },
       {
         "id": "fintech",
@@ -831,50 +831,50 @@
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 107,
-        "momentum_pct": 494,
+        "recent7": 108,
+        "momentum_pct": 500,
         "momentum_basis": "window",
-        "total": 136,
+        "total": 137,
         "sparkline": [
           4,
           4,
           18,
-          107
+          108
         ],
-        "hard_ratio": 0.037,
-        "whitespace_score": 24.8
+        "hard_ratio": 0.036,
+        "whitespace_score": 25.0
       },
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 100,
-        "momentum_pct": 194,
+        "recent7": 101,
+        "momentum_pct": 197,
         "momentum_basis": "window",
-        "total": 166,
+        "total": 167,
         "sparkline": [
           12,
           15,
           34,
-          100
+          101
         ],
         "hard_ratio": 0.072,
-        "whitespace_score": 12.6
+        "whitespace_score": 12.7
       },
       {
         "id": "space-tech",
         "label": "Space Tech",
-        "recent7": 89,
-        "momentum_pct": 197,
+        "recent7": 90,
+        "momentum_pct": 200,
         "momentum_basis": "window",
-        "total": 141,
+        "total": 142,
         "sparkline": [
           5,
           15,
           30,
-          89
+          90
         ],
-        "hard_ratio": 0.035,
-        "whitespace_score": 24.6
+        "hard_ratio": 0.042,
+        "whitespace_score": 20.5
       },
       {
         "id": "marketing-ads",
@@ -949,8 +949,8 @@
       },
       {
         "term": "data",
-        "count": 149,
-        "delta": 121
+        "count": 151,
+        "delta": 123
       },
       {
         "term": "google",
@@ -959,28 +959,28 @@
       },
       {
         "term": "energy",
-        "count": 74,
-        "delta": 72
+        "count": 75,
+        "delta": 73
       },
       {
         "term": "million",
-        "count": 69,
-        "delta": 69
+        "count": 70,
+        "delta": 70
       },
       {
         "term": "global",
-        "count": 65,
-        "delta": 59
+        "count": 69,
+        "delta": 63
       },
       {
         "term": "based",
-        "count": 63,
-        "delta": 55
+        "count": 64,
+        "delta": 56
       },
       {
         "term": "cyber",
-        "count": 75,
-        "delta": 54
+        "count": 76,
+        "delta": 55
       },
       {
         "term": "intelligence",
@@ -1115,6 +1115,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 1743
+    "total_signals": 1761
   }
 }

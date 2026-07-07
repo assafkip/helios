@@ -53,7 +53,8 @@
   *::-webkit-scrollbar { width: 10px; height: 10px; }
   *::-webkit-scrollbar-thumb { background: var(--line-2); border-radius: 6px; border: 2px solid var(--bg); }
 
-  #field { position: fixed; inset: 0; z-index: 0; pointer-events: none; }
+  #field { position: absolute; top: 0; left: 0; width: 100%; height: 54vh; min-height: 400px; max-height: 640px; z-index: 0; pointer-events: none;
+    -webkit-mask-image: linear-gradient(180deg, #000 0, #000 40%, transparent 100%); mask-image: linear-gradient(180deg, #000 0, #000 40%, transparent 100%); }
   .vlabel { position: fixed; right: 16px; top: 50%; transform: translateY(-50%); writing-mode: vertical-rl; z-index: 3; font-family: var(--mono); font-size: 10.5px; letter-spacing: .34em; text-transform: uppercase; color: var(--ink-faint); opacity: .5; pointer-events: none; }
   main, .topbar { position: relative; z-index: 1; }
 
@@ -254,10 +255,7 @@
   }
 
   /* ===== couture re-skin (earcouture direction): light veil + Fraunces display ===== */
-  .veil { position: fixed; inset: 0; z-index: 1; pointer-events: none; background: radial-gradient(130% 115% at 50% 28%, transparent 26%, rgba(6,7,12,.5) 70%, rgba(6,7,12,.9) 100%); }
-  .grain { position: fixed; inset: -50%; z-index: 2; pointer-events: none; opacity: .04; mix-blend-mode: overlay;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-    animation: grain 6s steps(6) infinite; }
+  .veil, .grain { display: none; }  /* light is hero-only now; no full-page overlays behind content */
   @keyframes grain { 0%{transform:translate(0,0)} 20%{transform:translate(-4%,3%)} 40%{transform:translate(3%,-5%)} 60%{transform:translate(-3%,2%)} 80%{transform:translate(5%,-2%)} 100%{transform:translate(0,0)} }
   main { z-index: 3; }
   .logo { font-family: var(--serif); font-weight: 600; letter-spacing: 0; }
@@ -630,8 +628,8 @@ el("q").addEventListener("input", e => { state.q = e.target.value.trim().toLower
   const ctx = c.getContext("2d");
   const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
   let w, h, dpr, t = 0;
-  function resize() { dpr = Math.min(window.devicePixelRatio || 1, 2); w = c.width = innerWidth * dpr; h = c.height = innerHeight * dpr; c.style.width = innerWidth + "px"; c.style.height = innerHeight + "px"; }
-  resize(); addEventListener("resize", resize);
+  function resize() { dpr = Math.min(window.devicePixelRatio || 1, 2); const bw = c.clientWidth || innerWidth, bh = c.clientHeight || Math.round(innerHeight * 0.54); w = c.width = bw * dpr; h = c.height = bh * dpr; }
+  addEventListener("resize", () => { resize(); draw(); });
   const blobs = [
     { col: [43,140,255], x:.40,y:.42, r:.52, ax:.14,ay:.12, sp:.22, ph:0.0, psp:.38 },
     { col: [31,107,255], x:.60,y:.52, r:.54, ax:.16,ay:.13, sp:.18, ph:1.1, psp:.30 },
@@ -641,8 +639,7 @@ el("q").addEventListener("input", e => { state.q = e.target.value.trim().toLower
     { col: [198,255,61], x:.74,y:.62, r:.20, ax:.14,ay:.14, sp:.23, ph:5.1, psp:.40 },
     { col: [26,60,200],  x:.48,y:.50, r:.62, ax:.11,ay:.10, sp:.14, ph:0.6, psp:.24 }
   ];
-  function frame() {
-    t += 0.008;
+  function draw() {
     ctx.globalCompositeOperation = "source-over";
     ctx.fillStyle = "#06070c"; ctx.fillRect(0, 0, w, h);
     ctx.globalCompositeOperation = "lighter";
@@ -667,10 +664,9 @@ el("q").addEventListener("input", e => { state.q = e.target.value.trim().toLower
     core.addColorStop(0.5, "rgba(200,220,255,0.05)");
     core.addColorStop(1, "rgba(255,255,255,0)");
     ctx.fillStyle = core; ctx.beginPath(); ctx.arc(coreX, coreY, coreR, 0, 6.2832); ctx.fill();
-    if (!reduce) requestAnimationFrame(frame);
   }
-  window.fieldSetDensity = function () {};  // light is ambient now; no-op keeps callers safe
-  frame();
+  window.fieldSetDensity = function () {};  // static light; no-op keeps callers safe
+  t = 8; resize(); draw();
 })();
 
 /* ---- scroll reveals ---- */

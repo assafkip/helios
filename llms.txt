@@ -1,29 +1,34 @@
-# FundVision
+# Helios
 
-> A live feed of who's funding, hiring, and moving across tech verticals. Pick your area — cybersecurity, fintech, AI/ML, healthtech, climate, edtech, marketing, or space tech — and get hourly VC and market signals straight from the source. Built by Assaf Kipnis (KTLYST Labs / ASK Consulting).
+> A live feed of what VC funds actually do, derived from their announced deals across tech and impact verticals. Pick your sector and see who is funding, raising, exiting, and actively looking, refreshed hourly from free, ToS-clean sources. Built by Assaf Kipnis (KTLYST Labs / ASK Consulting).
 
 ## What this is
-FundVision watches the VCs, operators, and media voices of a chosen vertical and surfaces two kinds of signal: hard signals (new funds, new investments, actively looking, new thesis) and soft signals (market commentary, sector pain, portfolio wins, deep dives). Pure RSS, refreshed hourly, no login.
+Helios reads the VCs, operators, and media voices of a chosen sector and surfaces two kinds of signal: hard signals (new funds, new investments, actively looking, new thesis, M&A/IPO exits) and soft signals (market commentary, sector pain, portfolio wins, deep dives). It goes past what a fund bio says to its revealed thesis: the pattern of deals it has actually announced. Refreshed hourly, no login, free to read.
 
-## Areas
-- Cybersecurity
-- Fintech / Payments
-- AI / ML Infra
-- Healthtech / Bio
-- Climate / Energy
-- Edtech
-- Marketing / Ads
-- Space Tech
+## What makes it different
+- Revealed thesis (DO, not SAY): each fund's focus is derived from its announced deals in the live feed, not from a hand-typed bio. Investor attribution is recovered from article bodies, then verified against the source so a name that is not literally in the text is dropped.
+- Exit signals: M&A and IPO events mined from the same feeds, read as a demand signal for a sector.
+- Fresh dry powder: SEC EDGAR Form D filings surface private funds that just raised capital they now have to deploy.
+- Sector alerts: a per-sector feed a founder can subscribe to and get pinged when a fund in their space makes a move.
+
+## Sectors
+Cybersecurity, Fintech / Payments, AI / ML Infra, Healthtech / Bio, Climate / Energy, Edtech, Marketing / Ads, Space Tech, and Coexistence / Empowerment.
+
+## Sources
+Free, aggregatable, ToS-clean feeds and APIs: RSS, news APIs, firm blogs, newsletters, and SEC/gov filings (EDGAR Form D). No paywalled data, no login.
+
+## Who it is for
+Founders raising a round who want to target the funds actually writing checks in their sector, not the ones whose bios say they might.
 
 ## Key pages
-- [Live feed](https://fundvision.askconsulting.io/): pick an area, then filter hard vs soft, by firm, by theme, or search.
+- [Live feed](https://helios.ktlystlabs.com/): pick a sector, then filter hard vs soft, by firm, by theme, or search. Each sector has a stat band (what is moving now) and a subscribable alert feed.
+
+## Category
+A venture and market-signal feed for founders and operators. Not a CRM and not a database, a live reading of what funds actually do in your space, updated hourly.
 
 ## Team
 - Assaf Kipnis, Founder. KTLYST Labs / ASK Consulting.
 
-## Category
-A venture and market-signal feed for operators and investors. Not a CRM and not a database — a live reading of who is moving in your space, updated hourly.
-
 ## Contact
 - Email: cole@ktlystlabs.com
-- Website: https://fundvision.askconsulting.io
+- Website: https://helios.ktlystlabs.com

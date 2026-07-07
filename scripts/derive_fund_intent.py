@@ -101,13 +101,14 @@ def collect_deals(rows_by_sector, today, cache=None, fetcher=None, llm=None):
     deals_by_fund = defaultdict(list)
     seen = 0
     attributed = 0
+    stats = {"fetch_attempts": 0, "fetch_ok": 0}
     for sector_label, rows in rows_by_sector.items():
         for row in rows:
             if row.get("signal_category") not in DEAL_CATEGORIES:
                 continue
             seen += 1
             investors = extract_investors(
-                row, fetcher=fetcher, llm=llm, cache=cache).get("investors", [])
+                row, fetcher=fetcher, llm=llm, cache=cache, stats=stats).get("investors", [])
             if investors:
                 attributed += 1
             for firm in investors:
@@ -121,7 +122,7 @@ def collect_deals(rows_by_sector, today, cache=None, fetcher=None, llm=None):
                     "summary": row.get("summary") or "",
                     "url": row.get("source_url") or "",
                 })
-    return deals_by_fund, seen, attributed
+    return deals_by_fund, seen, attributed, stats
 
 
 def _sector_ranking(deals):
@@ -166,7 +167,7 @@ def derive_intents(rows_by_sector, today, min_recurrence=2, cache=None,
     """
     if isinstance(today, datetime):
         today = today.date()
-    deals_by_fund, seen, attributed = collect_deals(
+    deals_by_fund, seen, attributed, stats = collect_deals(
         rows_by_sector, today, cache=cache, fetcher=fetcher, llm=llm)
 
     funds = []
@@ -198,12 +199,22 @@ def derive_intents(rows_by_sector, today, min_recurrence=2, cache=None,
         })
 
     funds.sort(key=lambda f: (f["coverage"], f["recent90"]), reverse=True)
+
+    # Live fetchable rate — only meaningful when the fetch path actually ran.
+    # None when regex-only (no fetch happened), so the UI omits it rather than
+    # claiming a coverage number this run did not measure.
+    attempts = stats.get("fetch_attempts", 0)
+    fetchable_pct = round(stats["fetch_ok"] / attempts * 100) if attempts else None
+
     return {
         "min_recurrence": min_recurrence,
         "coverage": {
             "deal_rows_seen": seen,
             "deal_rows_attributed": attributed,
             "funds_tracked": len(funds),
+            "fetch_attempts": attempts,
+            "fetchable_pct": fetchable_pct,
+            "update_cadence": "hourly",
         },
         "funds": funds,
     }

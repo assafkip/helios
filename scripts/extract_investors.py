@@ -134,11 +134,15 @@ def save_cache(cache):
     json.dump(cache, open(CACHE_PATH, "w"), indent=2)
 
 
-def extract_investors(row, fetcher=None, llm=None, cache=None):
+def extract_investors(row, fetcher=None, llm=None, cache=None, stats=None):
     """
     Resolve investors for one deal row. Regex-first (free); article fetch + LLM
     fallback only when regex is empty and both are wired. Returns
     {"investors": [...], "method": "regex|llm|cache|none"}.
+
+    stats (optional mutable dict): counts fetch_attempts / fetch_ok so the caller
+    can report a LIVE fetchable rate instead of a hardcoded claim. Only touched
+    when the fetch path actually runs.
     """
     url = row.get("source_url") or ""
     if cache is not None and url in cache:
@@ -151,6 +155,10 @@ def extract_investors(row, fetcher=None, llm=None, cache=None):
     llm_ran = False
     if not names and fetcher and llm and url:
         body = fetcher(url)
+        if stats is not None:
+            stats["fetch_attempts"] = stats.get("fetch_attempts", 0) + 1
+            if body:
+                stats["fetch_ok"] = stats.get("fetch_ok", 0) + 1
         if body:
             llm_ran = True
             raw = [normalize_firm(n) for n in llm(body)]

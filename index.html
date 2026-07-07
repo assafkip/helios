@@ -588,7 +588,9 @@ function renderDoes(label) {
   if (!fi || !fi.coverage) { sec.style.display = "none"; return; }
   sec.style.display = "";
   const c = fi.coverage;
-  cov.textContent = `${c.deal_rows_seen} deal rows seen · ${c.deal_rows_attributed} attributed to a named investor · ${c.funds_tracked} funds with ${fi.min_recurrence}+ deals`;
+  let covLine = `${c.deal_rows_seen} deal rows seen · ${c.deal_rows_attributed} attributed to a named investor · ${c.funds_tracked} funds with ${fi.min_recurrence}+ deals · updated ${c.update_cadence || "hourly"}`;
+  if (c.fetchable_pct != null) covLine += ` · ${c.fetchable_pct}% of deal links fetchable`;
+  cov.textContent = covLine;
   const funds = (fi.by_vertical && fi.by_vertical[label]) || [];
   if (!funds.length) {
     box.innerHTML = `<div class="does-empty">No fund in this sector has ${fi.min_recurrence}+ announced deals attributed yet. Investor names live in article bodies; body-level attribution recovers them as the feed accumulates. Funds with no press or blog presence stay invisible here — by design, this reads deals, not bios.</div>`;

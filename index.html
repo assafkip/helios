@@ -9,6 +9,9 @@
 <meta name="author" content="KTLYST Labs">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://fundvision.askconsulting.io/">
 <meta property="og:title" content="FundVision — cyber VC signals, your area">
@@ -30,7 +33,9 @@
     --line: #23232e; --line-2: #2d2d3a;
     --ink: #f5f5f8; --ink-dim: #a0a0ae; --ink-faint: #64646f;
     --accent: #2b8cff; --accent-glow: #2b8cff44; --hard: #c6ff3d; --hard-ink: #0a0a0f;
-    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+    --cream: #f3ecdd;
     --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   }
   * { box-sizing: border-box; }
@@ -247,6 +252,25 @@
     .topinv { font-size: 13px; padding: 8px 14px; }
     .back { padding: 7px 13px; }
   }
+
+  /* ===== couture re-skin (earcouture direction): light veil + Fraunces display ===== */
+  .veil { position: fixed; inset: 0; z-index: 1; pointer-events: none; background: radial-gradient(130% 115% at 50% 28%, transparent 26%, rgba(6,7,12,.5) 70%, rgba(6,7,12,.9) 100%); }
+  .grain { position: fixed; inset: -50%; z-index: 2; pointer-events: none; opacity: .04; mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    animation: grain 6s steps(6) infinite; }
+  @keyframes grain { 0%{transform:translate(0,0)} 20%{transform:translate(-4%,3%)} 40%{transform:translate(3%,-5%)} 60%{transform:translate(-3%,2%)} 80%{transform:translate(5%,-2%)} 100%{transform:translate(0,0)} }
+  main { z-index: 3; }
+  .logo { font-family: var(--serif); font-weight: 600; letter-spacing: 0; }
+  .logo b { font-style: italic; font-weight: 500; }
+  .lede .kicker { color: var(--ink-faint); }
+  .lede h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(40px, 6.2vw, 88px); line-height: 1.0; letter-spacing: -.015em; color: var(--cream); max-width: 16ch; }
+  .lede h1 em, .lede h1 .hl { font-style: italic; font-weight: 300; color: var(--cream); background: none; }
+  .lede p { color: var(--ink-dim); }
+  .mname { font-family: var(--serif); font-weight: 500; letter-spacing: -.01em; color: var(--cream); font-size: clamp(24px, 3.4vw, 40px); }
+  .mrow:hover .mname { color: #fff; }
+  .ahero h1 { font-family: var(--serif); font-weight: 500; color: var(--cream); }
+  .ahero .bigword { font-family: var(--serif); font-weight: 300; }
+  .tdwho { font-family: var(--serif); font-weight: 500; }
 </style>
 <script>
   !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug getPageViewId captureTraceFeedback captureTraceMetric".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
@@ -256,6 +280,8 @@
 </head>
 <body>
 <canvas id="field" aria-hidden="true"></canvas>
+<div class="veil" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
 <div class="vlabel">FundVision · live</div>
 
 <!-- shared SVG defs: the glow + gradient the sparklines are drawn with -->
@@ -279,9 +305,9 @@
 <main class="wrap">
   <!-- LANDING: markets grid -->
   <div class="lede">
-    <div class="kicker">Live venture &amp; market signals · refreshed hourly</div>
-    <h1>The market, <span class="hl">alive</span>. Pick a lane, read the room.</h1>
-    <p>Eight sectors, tracked from the source. Each row is a live market — momentum, this week's volume, what people are talking about. <span class="hl">Click any row</span> to drop into its feed.</p>
+    <div class="kicker">Live venture &amp; market intelligence · refreshed hourly</div>
+    <h1>Every dollar leaves a <em>trace</em>.</h1>
+    <p>Eight sectors, tracked from the source. Each row below is a live market. <span class="hl">Click any row</span> to drop into its feed.</p>
   </div>
 
   <!-- LANDING: who's investing today -->
@@ -598,32 +624,53 @@ function renderFeed() {
 }
 el("q").addEventListener("input", e => { state.q = e.target.value.trim().toLowerCase(); renderFeed(); });
 
-/* ---- living signal field (canvas, no deps) ---- */
+/* ---- volumetric prism light (canvas, no deps) ---- */
 (function () {
   const c = el("field"); if (!c) return;
   const ctx = c.getContext("2d");
   const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const V = "43,140,255", L = "198,255,61";
-  let w, h, dpr, parts = [], target = 80;
+  let w, h, dpr, t = 0;
   function resize() { dpr = Math.min(window.devicePixelRatio || 1, 2); w = c.width = innerWidth * dpr; h = c.height = innerHeight * dpr; c.style.width = innerWidth + "px"; c.style.height = innerHeight + "px"; }
-  function seed(n) { parts = []; for (let i = 0; i < n; i++) parts.push({ x: Math.random() * w, y: Math.random() * h, vx: (Math.random() - .5) * .10 * dpr, vy: (Math.random() - .5) * .10 * dpr, r: (Math.random() * 1.5 + .6) * dpr, lime: Math.random() < .12 }); }
+  resize(); addEventListener("resize", resize);
+  const blobs = [
+    { col: [43,140,255], x:.40,y:.42, r:.52, ax:.14,ay:.12, sp:.22, ph:0.0, psp:.38 },
+    { col: [31,107,255], x:.60,y:.52, r:.54, ax:.16,ay:.13, sp:.18, ph:1.1, psp:.30 },
+    { col: [23,212,230], x:.52,y:.34, r:.40, ax:.17,ay:.12, sp:.28, ph:2.3, psp:.48 },
+    { col: [58,180,255], x:.66,y:.46, r:.36, ax:.15,ay:.15, sp:.25, ph:3.4, psp:.42 },
+    { col: [43,224,192], x:.30,y:.60, r:.28, ax:.13,ay:.12, sp:.20, ph:4.2, psp:.35 },
+    { col: [198,255,61], x:.74,y:.62, r:.20, ax:.14,ay:.14, sp:.23, ph:5.1, psp:.40 },
+    { col: [26,60,200],  x:.48,y:.50, r:.62, ax:.11,ay:.10, sp:.14, ph:0.6, psp:.24 }
+  ];
   function frame() {
-    ctx.clearRect(0, 0, w, h);
-    const md = 150 * dpr;
-    for (let i = 0; i < parts.length; i++) {
-      const a = parts[i]; a.x += a.vx; a.y += a.vy;
-      if (a.x < 0 || a.x > w) a.vx *= -1; if (a.y < 0 || a.y > h) a.vy *= -1;
-      for (let j = i + 1; j < parts.length; j++) {
-        const b = parts[j], dx = a.x - b.x, dy = a.y - b.y, d2 = dx * dx + dy * dy;
-        if (d2 < md * md) { const al = (1 - Math.sqrt(d2) / md) * .14; ctx.strokeStyle = "rgba(" + V + "," + al + ")"; ctx.lineWidth = dpr * .6; ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke(); }
-      }
+    t += 0.008;
+    ctx.globalCompositeOperation = "source-over";
+    ctx.fillStyle = "#06070c"; ctx.fillRect(0, 0, w, h);
+    ctx.globalCompositeOperation = "lighter";
+    for (const b of blobs) {
+      const a = t * b.sp * 6.2832 + b.ph;
+      const cx = (b.x + Math.sin(a) * b.ax + Math.cos(a * 0.6) * b.ax * 0.5) * w;
+      const cy = (b.y + Math.cos(a * 1.1) * b.ay + Math.sin(a * 0.7) * b.ay * 0.5) * h;
+      const pulse = 1 + Math.sin(t * b.psp * 6.2832 + b.ph) * 0.22;
+      const rad = b.r * pulse * Math.max(w, h);
+      const al = 0.22 + Math.sin(t * b.psp * 6.2832 + b.ph * 1.7) * 0.07;
+      const g = ctx.createRadialGradient(cx, cy, 0, cx, cy, rad);
+      const [r, gg, bl] = b.col;
+      g.addColorStop(0, "rgba(" + r + "," + gg + "," + bl + "," + al + ")");
+      g.addColorStop(0.45, "rgba(" + r + "," + gg + "," + bl + "," + (al * 0.33) + ")");
+      g.addColorStop(1, "rgba(" + r + "," + gg + "," + bl + ",0)");
+      ctx.fillStyle = g; ctx.beginPath(); ctx.arc(cx, cy, rad, 0, 6.2832); ctx.fill();
     }
-    for (const p of parts) { ctx.fillStyle = "rgba(" + (p.lime ? L : V) + "," + (p.lime ? .55 : .6) + ")"; ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, 6.3); ctx.fill(); }
+    const coreX = w * (0.54 + Math.sin(t * 1.4) * 0.06), coreY = h * (0.42 + Math.cos(t * 1.05) * 0.05);
+    const coreR = Math.max(w, h) * (0.18 + Math.sin(t * 0.8) * 0.04);
+    const core = ctx.createRadialGradient(coreX, coreY, 0, coreX, coreY, coreR);
+    core.addColorStop(0, "rgba(255,255,255,0.13)");
+    core.addColorStop(0.5, "rgba(200,220,255,0.05)");
+    core.addColorStop(1, "rgba(255,255,255,0)");
+    ctx.fillStyle = core; ctx.beginPath(); ctx.arc(coreX, coreY, coreR, 0, 6.2832); ctx.fill();
     if (!reduce) requestAnimationFrame(frame);
   }
-  window.fieldSetDensity = function (count) { const n = Math.max(45, Math.min(115, Math.round(45 + (count || 0) * .12))); if (Math.abs(n - target) > 8) { target = n; seed(n); } };
-  resize(); seed(target); frame();
-  let rz; addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(() => { resize(); seed(parts.length); }, 150); });
+  window.fieldSetDensity = function () {};  // light is ambient now; no-op keeps callers safe
+  frame();
 })();
 
 /* ---- scroll reveals ---- */

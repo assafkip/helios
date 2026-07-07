@@ -234,9 +234,18 @@
     .rev.in { opacity: 1; transform: none; }
   }
   @media (max-width: 720px) {
+    .wrap { padding: 0 18px; }
+    .topbar { padding: 15px 18px; }
+    .vlabel { display: none; }
+    .intel { grid-template-columns: 1fr; gap: 34px; }
     .feed { grid-template-columns: 1fr; }
-    .grid { grid-template-columns: 1fr; }
     .search { margin-left: 0; width: 100%; }
+    .controls { top: 58px; }
+    .lede { padding: 34px 0 20px; }
+    .today { padding: 8px 0 34px; }
+    body.in-area .live { display: none; }
+    .topinv { font-size: 13px; padding: 8px 14px; }
+    .back { padding: 7px 13px; }
   }
 </style>
 <script>

@@ -29,7 +29,7 @@
     --bg: #08080c; --surface: #101018; --surface-2: #16161f;
     --line: #23232e; --line-2: #2d2d3a;
     --ink: #f5f5f8; --ink-dim: #a0a0ae; --ink-faint: #64646f;
-    --accent: #7c6cff; --accent-glow: #7c6cff44; --hard: #c6ff3d; --hard-ink: #0a0a0f;
+    --accent: #2b8cff; --accent-glow: #2b8cff44; --hard: #c6ff3d; --hard-ink: #0a0a0f;
     --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   }
@@ -38,7 +38,7 @@
   html { scroll-behavior: smooth; }
   ::selection { background: var(--accent); color: #fff; }
   body {
-    background: radial-gradient(1100px 520px at 82% -10%, #2a1f6b33, transparent 60%),
+    background: radial-gradient(1100px 520px at 82% -10%, #15357c33, transparent 60%),
                 radial-gradient(760px 380px at 6% -6%, #123a5533, transparent 55%), var(--bg);
     background-attachment: fixed;
     color: var(--ink); font-family: var(--sans); font-size: 15px; line-height: 1.5;
@@ -80,7 +80,7 @@
     background: rgba(19,19,27,.5); backdrop-filter: blur(12px); border: 1px solid rgba(45,45,58,.6);
     cursor: pointer; display: flex; flex-direction: column; justify-content: space-between;
     transition: transform .32s cubic-bezier(.2,.7,.2,1), border-color .3s, box-shadow .3s; }
-  .tile:hover { transform: translateY(-6px); border-color: rgba(124,108,255,.6); box-shadow: 0 26px 64px #00000085, 0 0 46px -14px var(--accent); }
+  .tile:hover { transform: translateY(-6px); border-color: rgba(43,140,255,.6); box-shadow: 0 26px 64px #00000085, 0 0 46px -14px var(--accent); }
   @media (prefers-reduced-motion: no-preference) {
     .tile { animation: tileIn .55s cubic-bezier(.2,.7,.2,1) both; }
     .tile:nth-child(1){animation-delay:.02s} .tile:nth-child(2){animation-delay:.07s}
@@ -96,10 +96,25 @@
   .tile .tnum { text-align: right; font-family: var(--mono); font-size: 34px; font-weight: 800; line-height: 1; }
   .tile .tnum small { display: block; font-size: 9px; letter-spacing: .14em; color: var(--ink-faint); font-weight: 600; margin-top: 4px; }
   .tile .tfoot { position: relative; z-index: 1; display: flex; align-items: center; gap: 10px; }
-  .tile .trising { font-size: 12px; color: var(--accent); background: #7c6cff18; border: 1px solid #7c6cff30; padding: 3px 10px; border-radius: 999px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 62%; }
+  .tile .trising { font-size: 12px; color: var(--accent); background: #2b8cff18; border: 1px solid #2b8cff30; padding: 3px 10px; border-radius: 999px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 62%; }
   .tile .theat { margin-left: auto; font-family: var(--mono); font-size: 11px; color: var(--ink-dim); white-space: nowrap; }
   .tile .theat b { color: var(--hard); }
   .tile .go { position: absolute; top: 22px; right: 24px; }
+
+  /* ---- Market intelligence band (landing) ---- */
+  .intel { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; padding-bottom: 100px; }
+  body.in-area .intel { display: none; }
+  .panel { background: rgba(19,19,27,.5); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(45,45,58,.6); border-radius: 20px; padding: 24px 26px; }
+  .panel h2 { font-size: 13px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--ink-dim); margin: 0 0 20px; }
+  .panel .cap { color: var(--ink-faint); font-size: 12.5px; line-height: 1.5; margin: 16px 0 0; }
+  .rbar { display: grid; grid-template-columns: 1fr auto; gap: 14px; align-items: center; padding: 7px 0; }
+  .rbar .rt { font-size: 14px; color: var(--ink); }
+  .rbar .rtrack { height: 7px; margin-top: 7px; border-radius: 4px; background: linear-gradient(90deg, var(--accent), #7ab6ff); box-shadow: 0 0 14px -3px var(--accent); min-width: 8px; }
+  .rbar .rn { font-family: var(--mono); font-size: 12px; color: var(--ink-faint); }
+  .wsdot { cursor: pointer; transition: r .15s; }
+  .wsdot:hover { r: 9; }
+  .wslabel { font-family: var(--mono); font-size: 11px; fill: var(--ink-dim); pointer-events: none; }
+  .wsaxis { font-family: var(--mono); font-size: 10px; letter-spacing: .1em; fill: var(--ink-faint); text-transform: uppercase; pointer-events: none; }
 
   /* ---- Area (drill) view ---- */
   .area { display: none; padding-bottom: 100px; }
@@ -112,7 +127,7 @@
   .apulse .stat { font-family: var(--mono); }
   .apulse .stat b { color: var(--ink); }
   .apulse .stat .up { color: var(--hard); }
-  .apulse .chip { font-size: 12px; color: var(--accent); background: #7c6cff15; border: 1px solid #7c6cff30; padding: 3px 10px; border-radius: 999px; }
+  .apulse .chip { font-size: 12px; color: var(--accent); background: #2b8cff15; border: 1px solid #2b8cff30; padding: 3px 10px; border-radius: 999px; }
   .apulse .sep { color: var(--ink-faint); }
 
   .controls { position: sticky; top: 66px; z-index: 20; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin: 22px 0 18px; padding: 12px; background: rgba(8,8,12,.72); backdrop-filter: blur(12px); border: 1px solid var(--line); border-radius: 14px; }
@@ -129,6 +144,9 @@
   .search input::placeholder { color: var(--ink-faint); }
 
   .feed { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+  .datehead { grid-column: 1 / -1; font-family: var(--mono); font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-faint); margin: 20px 0 2px; padding-top: 10px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; align-items: baseline; }
+  .datehead:first-child { margin-top: 0; padding-top: 0; border-top: none; }
+  .datehead .dn { color: var(--ink-dim); }
   .item { display: flex; flex-direction: column; text-decoration: none; color: inherit;
     background: rgba(19,19,27,.7); border: 1px solid rgba(45,45,58,.65); border-radius: 16px; padding: 20px;
     transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease; position: relative; overflow: hidden; }
@@ -144,7 +162,7 @@
   .badge.soft { background: var(--surface-2); color: var(--ink-dim); border: 1px solid var(--line-2); }
   .excerpt { font-size: 14.5px; line-height: 1.5; color: var(--ink-dim); margin: 13px 0 0; flex: 1; }
   .foot { display: flex; align-items: center; gap: 10px; margin-top: 16px; font-size: 12px; color: var(--ink-faint); font-family: var(--mono); }
-  .theme { font-family: var(--sans); font-size: 11px; font-weight: 600; padding: 3px 10px; border: 1px solid var(--line-2); border-radius: 999px; color: var(--accent); background: #7c6cff10; }
+  .theme { font-family: var(--sans); font-size: 11px; font-weight: 600; padding: 3px 10px; border: 1px solid var(--line-2); border-radius: 999px; color: var(--accent); background: #2b8cff10; }
   .dot { width: 3px; height: 3px; border-radius: 50%; background: var(--ink-faint); }
   .conf-high { color: var(--hard); }
   .via { margin-left: auto; color: var(--ink-faint); font-weight: 600; }
@@ -180,8 +198,8 @@
 <!-- shared SVG defs: the glow + gradient the sparklines are drawn with -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
   <linearGradient id="fvArea" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#7c6cff" stop-opacity=".38"/>
-    <stop offset="1" stop-color="#7c6cff" stop-opacity="0"/>
+    <stop offset="0" stop-color="#2b8cff" stop-opacity=".38"/>
+    <stop offset="1" stop-color="#2b8cff" stop-opacity="0"/>
   </linearGradient>
   <filter id="fvGlow" x="-20%" y="-40%" width="140%" height="180%">
     <feGaussianBlur stdDeviation="2.2" result="b"/>
@@ -204,6 +222,19 @@
   </div>
   <div class="grid" id="grid"></div>
 
+  <!-- LANDING: cross-market intelligence -->
+  <section class="intel" id="intel">
+    <div class="panel">
+      <h2>Rising across every market</h2>
+      <div id="risingBars"></div>
+    </div>
+    <div class="panel">
+      <h2>Whitespace map · talk vs money</h2>
+      <div id="wsmap"></div>
+      <p class="cap">Each dot is a market. Up = more attention, right = more funding. The top-left is the gap — lots of talk, little money. Click a dot to open it.</p>
+    </div>
+  </section>
+
   <!-- DRILL: one area -->
   <section class="area" id="area">
     <div class="ahero">
@@ -217,6 +248,13 @@
         <button data-type="hard">Hard</button>
         <button data-type="soft">Soft</button>
       </div>
+      <select id="whenSel">
+        <option value="0">All time</option>
+        <option value="1">Today</option>
+        <option value="7">Last 7 days</option>
+        <option value="14">Last 14 days</option>
+        <option value="30">Last 30 days</option>
+      </select>
       <select id="firmSel"><option value="">All firms</option></select>
       <select id="themeSel"><option value="">All themes</option></select>
       <label class="search">
@@ -229,20 +267,32 @@
 </main>
 
 <script>
-const state = { verticals: [], trends: null, vertical: null, all: [], type: "all", firm: "", theme: "", q: "" };
+const state = { verticals: [], trends: null, vertical: null, all: [], type: "all", firm: "", theme: "", q: "", when: 0 };
 const el = id => document.getElementById(id);
 const esc = s => (s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const prettyCat = c => (c||"").replace(/_/g, " ");
 
+function daysAgo(dateStr) {
+  const d = new Date(dateStr);
+  if (isNaN(d)) return 9999;
+  return Math.max(0, Math.floor((Date.now() - d.getTime()) / 86400000));
+}
 function relTime(dateStr) {
   if (!dateStr) return "";
-  const d = new Date(dateStr);
-  if (isNaN(d)) return esc(dateStr);
-  const days = Math.floor((Date.now() - d.getTime()) / 86400000);
+  const days = daysAgo(dateStr);
   if (days <= 0) return "today";
   if (days === 1) return "yesterday";
   if (days < 30) return days + "d ago";
-  return d.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+  const d = new Date(dateStr);
+  return isNaN(d) ? esc(dateStr) : d.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+}
+function dateBucket(dateStr) {
+  const days = daysAgo(dateStr);
+  if (days <= 0) return "Today";
+  if (days === 1) return "Yesterday";
+  if (days <= 7) return "This week";
+  if (days <= 14) return "Last 2 weeks";
+  return "Earlier";
 }
 
 /* glowing sparkline path (stretched, non-scaling stroke) */
@@ -259,7 +309,7 @@ function sparkSVG(pts, cls) {
   const p = sparkPaths(pts);
   return `<svg class="${cls}" viewBox="0 0 ${p.W} ${p.H}" preserveAspectRatio="none">
     <path d="${p.area}" fill="url(#fvArea)"/>
-    <path d="${p.line}" fill="none" stroke="#7c6cff" stroke-width="3" vector-effect="non-scaling-stroke" filter="url(#fvGlow)" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="${p.line}" fill="none" stroke="#2b8cff" stroke-width="3" vector-effect="non-scaling-stroke" filter="url(#fvGlow)" stroke-linecap="round" stroke-linejoin="round"/>
     <circle cx="${p.last[0].toFixed(1)}" cy="${p.last[1].toFixed(1)}" r="7" fill="#c6ff3d"/>
   </svg>`;
 }
@@ -286,6 +336,38 @@ function renderGrid() {
   document.querySelectorAll(".tile").forEach(t => t.onclick = () => openArea(t.dataset.area));
 }
 
+/* ---- cross-market intelligence: rising bars + whitespace scatter ---- */
+function renderIntel() {
+  const o = (state.trends && state.trends.overall) || {};
+  const rising = o.rising || [];
+  const maxR = Math.max(...rising.map(r => r.count), 1);
+  el("risingBars").innerHTML = rising.slice(0, 8).map(r =>
+    `<div class="rbar"><div><div class="rt">${esc(r.term)}</div><div class="rtrack" style="width:${Math.max(8, Math.round(r.count / maxR * 100))}%"></div></div><span class="rn">${r.count}</span></div>`
+  ).join("") || `<div class="cap">Not enough recent text to rank yet.</div>`;
+
+  const ranked = o.momentum_ranked || [];
+  if (!ranked.length) { el("wsmap").innerHTML = ""; return; }
+  const W = 520, H = 300, pl = 16, pr = 20, pt = 18, pb = 30;
+  const xMax = Math.max(...ranked.map(m => m.hard_ratio), 0.01);
+  const yMax = Math.max(...ranked.map(m => m.total), 1);
+  const px = v => pl + (v / xMax) * (W - pl - pr);
+  const py = v => (H - pb) - Math.sqrt(v / yMax) * (H - pt - pb);
+  const dots = ranked.map(m => {
+    const x = px(m.hard_ratio), y = py(m.total), short = m.label.split(" ")[0];
+    return `<circle class="wsdot" data-area="${esc(m.id)}" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="6" fill="#2b8cff" opacity=".92"/>
+      <text class="wslabel" x="${(x + 10).toFixed(1)}" y="${(y + 3.5).toFixed(1)}">${esc(short)}</text>`;
+  }).join("");
+  el("wsmap").innerHTML = `<svg viewBox="0 0 ${W} ${H}" style="width:100%;height:auto;display:block">
+    <rect x="${pl}" y="${pt}" width="${((W - pl - pr) / 2).toFixed(0)}" height="${((H - pt - pb) / 2).toFixed(0)}" fill="#2b8cff12"/>
+    <text class="wsaxis" x="${pl + 6}" y="${pt + 16}">the gap</text>
+    <line x1="${pl}" y1="${H - pb}" x2="${W - pr}" y2="${H - pb}" stroke="#2d2d3a"/>
+    <line x1="${pl}" y1="${pt}" x2="${pl}" y2="${H - pb}" stroke="#2d2d3a"/>
+    <text class="wsaxis" x="${W - pr - 92}" y="${H - 8}">more funded &rarr;</text>
+    ${dots}
+  </svg>`;
+  document.querySelectorAll(".wsdot").forEach(d => d.onclick = () => openArea(d.dataset.area));
+}
+
 /* ---- one area (drill in) ---- */
 function areaPulse(id) {
   const v = state.trends && state.trends.verticals[id];
@@ -301,7 +383,8 @@ function areaPulse(id) {
 async function openArea(id) {
   const v = state.verticals.find(x => x.id === id) || { id, label: id };
   state.vertical = id;
-  state.type = "all"; state.firm = ""; state.theme = ""; state.q = "";
+  state.type = "all"; state.firm = ""; state.theme = ""; state.q = ""; state.when = 0;
+  el("whenSel").value = "0";
   document.body.classList.add("in-area");
   el("areaName").textContent = v.label;
   el("areaBig").textContent = v.label.split(" ")[0];
@@ -352,12 +435,14 @@ function buildControls() {
   });
   el("firmSel").onchange = e => { state.firm = e.target.value; renderFeed(); };
   el("themeSel").onchange = e => { state.theme = e.target.value; renderFeed(); };
+  el("whenSel").onchange = e => { state.when = +e.target.value; renderFeed(); };
 }
 
 function matches(x) {
   if (state.type !== "all" && x.signal_type !== state.type) return false;
   if (state.firm && x.firm !== state.firm) return false;
   if (state.theme && x.signal_category !== state.theme) return false;
+  if (state.when && daysAgo(x.source_date) > state.when) return false;
   if (state.q) {
     const hay = [x.person_name, x.firm, x.summary, x.excerpt, x.signal_category].join(" ").toLowerCase();
     if (!hay.includes(state.q)) return false;
@@ -389,10 +474,19 @@ function renderFeed() {
   const list = state.all.filter(matches);
   list.sort((a, b) => (b.source_date || "").localeCompare(a.source_date || ""));
   if (!list.length) {
-    el("feed").innerHTML = `<div class="state"><div class="big">Nothing matches yet</div><div>Clear a filter or the search to see the whole room.</div></div>`;
+    el("feed").innerHTML = `<div class="state"><div class="big">Nothing matches yet</div><div>Widen the date range or clear a filter to see the whole room.</div></div>`;
     return;
   }
-  el("feed").innerHTML = list.map(itemHtml).join("");
+  // aggregate by date: emit a header when the day bucket changes
+  let html = "", bucket = null, bcount = 0, chunks = [];
+  const flush = () => { if (bucket !== null) chunks.push(`<div class="datehead"><span>${bucket}</span><span class="dn">${bcount}</span></div>` + html); html = ""; bcount = 0; };
+  for (const x of list) {
+    const b = dateBucket(x.source_date);
+    if (b !== bucket) { flush(); bucket = b; }
+    html += itemHtml(x); bcount++;
+  }
+  flush();
+  el("feed").innerHTML = chunks.join("");
 }
 el("q").addEventListener("input", e => { state.q = e.target.value.trim().toLowerCase(); renderFeed(); });
 
@@ -401,7 +495,7 @@ el("q").addEventListener("input", e => { state.q = e.target.value.trim().toLower
   const c = el("field"); if (!c) return;
   const ctx = c.getContext("2d");
   const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const V = "124,108,255", L = "198,255,61";
+  const V = "43,140,255", L = "198,255,61";
   let w, h, dpr, parts = [], target = 80;
   function resize() { dpr = Math.min(window.devicePixelRatio || 1, 2); w = c.width = innerWidth * dpr; h = c.height = innerHeight * dpr; c.style.width = innerWidth + "px"; c.style.height = innerHeight + "px"; }
   function seed(n) { parts = []; for (let i = 0; i < n; i++) parts.push({ x: Math.random() * w, y: Math.random() * h, vx: (Math.random() - .5) * .10 * dpr, vy: (Math.random() - .5) * .10 * dpr, r: (Math.random() * 1.5 + .6) * dpr, lime: Math.random() < .12 }); }
@@ -439,6 +533,7 @@ async function boot() {
   try { const r = await fetch("trends.json", { cache: "no-store" }); state.trends = await r.json(); } catch { state.trends = { verticals: {}, overall: { momentum_ranked: [], total_signals: 0 } }; }
   el("tracked").textContent = (state.trends.overall && state.trends.overall.total_signals) || "";
   renderGrid();
+  renderIntel();
   const id = location.hash.replace("#", "");
   if (id && state.verticals.some(v => v.id === id)) openArea(id);
 }

@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-09T17:20:47Z",
+  "generated": "2026-07-09T19:40:07Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 113,
-    "deal_rows_attributed": 62,
-    "funds_tracked": 36,
-    "fetch_attempts": 15,
-    "fetchable_pct": 13,
+    "deal_rows_seen": 118,
+    "deal_rows_attributed": 63,
+    "funds_tracked": 37,
+    "fetch_attempts": 18,
+    "fetchable_pct": 28,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -356,6 +356,52 @@
           "date": "2026-07-07",
           "summary": "Savi\u2019s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
           "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/"
+        }
+      ]
+    },
+    {
+      "fund": "Nvidia",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 3,
+      "recent90": 3,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-09",
+          "summary": "Paris-based AI voice startup Gradium raises $100M seed, backed by Nvidia",
+          "url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-08",
+          "summary": "Nvidia backs voice AI startup Gradium, bringing seed round to over $100m",
+          "url": "https://sifted.eu/articles/gradium-nvidia-30m-extension-seed/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-04",
+          "summary": "What is Mistral AI? Everything to know about the OpenAI competitor",
+          "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
         }
       ]
     },
@@ -1023,41 +1069,6 @@
       ]
     },
     {
-      "fund": "Nvidia",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 2,
-      "recent90": 2,
-      "prior30": 0,
-      "last_deal_days": 1,
-      "deals": [
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-07-08",
-          "summary": "Nvidia backs voice AI startup Gradium, bringing seed round to over $100m",
-          "url": "https://sifted.eu/articles/gradium-nvidia-30m-extension-seed/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-04",
-          "summary": "What is Mistral AI? Everything to know about the OpenAI competitor",
-          "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
-        }
-      ]
-    },
-    {
       "fund": "Insight Partners",
       "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -1219,6 +1230,41 @@
           "date": "2026-07-09",
           "summary": "Popular open source AI developer tool Ollama raises $65M, grows to nearly 9M users",
           "url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/"
+        }
+      ]
+    },
+    {
+      "fund": "DST Global Partners",
+      "thesis": "Revealed focus: AI / ML Infra and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-09",
+          "summary": "Paris-based AI voice startup Gradium raises $100M seed, backed by Nvidia",
+          "url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-07",
+          "summary": "Google Backs Proxima\u2019s Record $468 Million Raise in Race to First Fusion Power Plant",
+          "url": "https://www.esgtoday.com/google-backs-proximas-record-468-million-raise-in-race-to-first-fusion-power-plant/?utm_source=rss&utm_medium=rss&utm_campaign=google-backs-proximas-record-468-million-raise-in-race-to-first-fusion-power-plant"
         }
       ]
     },
@@ -1412,6 +1458,13 @@
         "recent30": 3
       },
       {
+        "fund": "Nvidia",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "Intel",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -1517,13 +1570,6 @@
         "recent30": 2
       },
       {
-        "fund": "Nvidia",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
         "fund": "Insight Partners",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -1569,10 +1615,10 @@
       },
       {
         "fund": "Nvidia",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
         "sector_count": 1,
-        "recent30": 2
+        "recent30": 3
       },
       {
         "fund": "Google",
@@ -1654,6 +1700,13 @@
         "recent30": 3
       },
       {
+        "fund": "Nvidia",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "Intel",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -1759,6 +1812,13 @@
         "recent30": 2
       },
       {
+        "fund": "DST Global Partners",
+        "thesis": "Revealed focus: AI / ML Infra and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "Startup Has Just Raised VC",
         "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -1784,6 +1844,13 @@
       {
         "fund": "Google",
         "thesis": "Revealed focus: Fintech / Payments and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "DST Global Partners",
+        "thesis": "Revealed focus: AI / ML Infra and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,
         "recent30": 2

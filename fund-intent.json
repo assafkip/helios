@@ -1,15 +1,67 @@
 {
-  "generated": "2026-07-09T23:09:03Z",
+  "generated": "2026-07-10T02:39:24Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 131,
-    "deal_rows_attributed": 65,
+    "deal_rows_seen": 132,
+    "deal_rows_attributed": 66,
     "funds_tracked": 37,
-    "fetch_attempts": 19,
-    "fetchable_pct": 16,
+    "fetch_attempts": 17,
+    "fetchable_pct": 6,
     "update_cadence": "hourly"
   },
   "funds": [
+    {
+      "fund": "Nvidia",
+      "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
+      "coverage": 4,
+      "sectors": [
+        {
+          "label": "Fintech / Payments",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 4,
+      "recent90": 4,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-10",
+          "summary": "Nvidia Joins $100 Million Bet on Gradium Voice AI",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/nvidia-joins-100-million-bet-on-gradium-voice-ai/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-09",
+          "summary": "Paris-based AI voice startup Gradium raises $100M seed, backed by Nvidia",
+          "url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-08",
+          "summary": "Nvidia backs voice AI startup Gradium, bringing seed round to over $100m",
+          "url": "https://sifted.eu/articles/gradium-nvidia-30m-extension-seed/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-04",
+          "summary": "What is Mistral AI? Everything to know about the OpenAI competitor",
+          "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
+        }
+      ]
+    },
     {
       "fund": "Lockheed Martin Ventures",
       "thesis": "Revealed focus: Space Tech. 4 attributed deal(s), 4 in the last 30d.",
@@ -24,7 +76,7 @@
       "recent30": 4,
       "recent90": 4,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Space Tech",
@@ -76,7 +128,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -122,7 +174,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -168,7 +220,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -214,7 +266,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -255,7 +307,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 2,
+      "last_deal_days": 3,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -296,7 +348,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 2,
+      "last_deal_days": 3,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -337,7 +389,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 2,
+      "last_deal_days": 3,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -356,52 +408,6 @@
           "date": "2026-07-07",
           "summary": "Savi\u2019s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
           "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/"
-        }
-      ]
-    },
-    {
-      "fund": "Nvidia",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
-      "coverage": 3,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 3,
-      "recent90": 3,
-      "prior30": 0,
-      "last_deal_days": 0,
-      "deals": [
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-07-09",
-          "summary": "Paris-based AI voice startup Gradium raises $100M seed, backed by Nvidia",
-          "url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-07-08",
-          "summary": "Nvidia backs voice AI startup Gradium, bringing seed round to over $100m",
-          "url": "https://sifted.eu/articles/gradium-nvidia-30m-extension-seed/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-04",
-          "summary": "What is Mistral AI? Everything to know about the OpenAI competitor",
-          "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
         }
       ]
     },
@@ -419,7 +425,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -455,7 +461,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Space Tech",
@@ -491,7 +497,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Space Tech",
@@ -527,7 +533,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -562,7 +568,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -597,7 +603,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -632,7 +638,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -667,7 +673,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -702,7 +708,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -737,7 +743,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -772,7 +778,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -807,7 +813,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -842,7 +848,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -877,7 +883,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -912,7 +918,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -947,7 +953,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -982,7 +988,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1017,7 +1023,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1052,7 +1058,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -1087,7 +1093,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 7,
+      "last_deal_days": 8,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1122,7 +1128,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 2,
+      "last_deal_days": 3,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -1157,7 +1163,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 3,
+      "last_deal_days": 4,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -1187,7 +1193,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -1217,7 +1223,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -1252,7 +1258,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -1287,7 +1293,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -1322,7 +1328,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -1352,7 +1358,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -1370,27 +1376,55 @@
     }
   ],
   "by_vertical": {
-    "Space Tech": [
+    "Fintech / Payments": [
       {
-        "fund": "Lockheed Martin Ventures",
-        "thesis": "Revealed focus: Space Tech. 4 attributed deal(s), 4 in the last 30d.",
+        "fund": "Paradigm",
+        "thesis": "Revealed focus: Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 3,
+        "recent30": 3
+      },
+      {
+        "fund": "Nvidia",
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
         "coverage": 4,
-        "sector_count": 4,
+        "sector_count": 2,
         "recent30": 4
       },
       {
-        "fund": "Starboard Star Venture Capital",
-        "thesis": "Revealed focus: Space Tech. 3 attributed deal(s), 3 in the last 30d.",
+        "fund": "Radical Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
-        "sector_count": 3,
+        "sector_count": 1,
         "recent30": 3
       },
       {
-        "fund": "Green Sands Equity",
-        "thesis": "Revealed focus: Space Tech. 3 attributed deal(s), 3 in the last 30d.",
+        "fund": "Nvidia Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
-        "sector_count": 3,
+        "sector_count": 1,
         "recent30": 3
+      },
+      {
+        "fund": "Intel Capital",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
+        "fund": "Dell Technologies Capital",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
+        "fund": "Google",
+        "thesis": "Revealed focus: Fintech / Payments and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
       },
       {
         "fund": "Thrive Capital",
@@ -1430,6 +1464,13 @@
         "recent30": 2
       },
       {
+        "fund": "Nvidia",
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 4
+      },
+      {
         "fund": "Radical Ventures",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
@@ -1452,13 +1493,6 @@
       },
       {
         "fund": "Dell Technologies Capital",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 3
-      },
-      {
-        "fund": "Nvidia",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
         "sector_count": 1,
@@ -1577,64 +1611,6 @@
         "recent30": 2
       }
     ],
-    "Fintech / Payments": [
-      {
-        "fund": "Paradigm",
-        "thesis": "Revealed focus: Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 3,
-        "recent30": 3
-      },
-      {
-        "fund": "Radical Ventures",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 3
-      },
-      {
-        "fund": "Nvidia Ventures",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 3
-      },
-      {
-        "fund": "Intel Capital",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 3
-      },
-      {
-        "fund": "Dell Technologies Capital",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 3
-      },
-      {
-        "fund": "Nvidia",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 3
-      },
-      {
-        "fund": "Google",
-        "thesis": "Revealed focus: Fintech / Payments and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Thrive Capital",
-        "thesis": "Revealed focus: Fintech / Payments and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      }
-    ],
     "AI / ML Infra": [
       {
         "fund": "Theory Ventures",
@@ -1649,6 +1625,13 @@
         "coverage": 2,
         "sector_count": 2,
         "recent30": 2
+      },
+      {
+        "fund": "Nvidia",
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 4
       },
       {
         "fund": "Radical Ventures",
@@ -1695,13 +1678,6 @@
       {
         "fund": "Resolute Ventures",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 3
-      },
-      {
-        "fund": "Nvidia",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
         "sector_count": 1,
         "recent30": 3
@@ -1821,6 +1797,36 @@
       {
         "fund": "Startup Has Just Raised VC",
         "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      }
+    ],
+    "Space Tech": [
+      {
+        "fund": "Lockheed Martin Ventures",
+        "thesis": "Revealed focus: Space Tech. 4 attributed deal(s), 4 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 4,
+        "recent30": 4
+      },
+      {
+        "fund": "Starboard Star Venture Capital",
+        "thesis": "Revealed focus: Space Tech. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 3,
+        "recent30": 3
+      },
+      {
+        "fund": "Green Sands Equity",
+        "thesis": "Revealed focus: Space Tech. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 3,
+        "recent30": 3
+      },
+      {
+        "fund": "Thrive Capital",
+        "thesis": "Revealed focus: Fintech / Payments and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,
         "recent30": 2

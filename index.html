@@ -677,6 +677,13 @@ function renderAlerts(id, label) {
   const btn = el("rssBtn");
   btn.onclick = (e) => {
     e.preventDefault();
+    // The ONE conversion moment this page has. Without this event the funnel is
+    // blind between $pageview and revenue (funnel-decision finding 2026-07-11:
+    // 261 visitors/7d, zero measurable conversions). Guarded: posthog can be
+    // absent under ad-blockers; the copy still works, it just goes uncounted.
+    if (window.posthog && typeof posthog.capture === "function") {
+      posthog.capture("alert_feed_copied", { vertical: id, vertical_label: label });
+    }
     navigator.clipboard.writeText(feedUrl).then(() => {
       el("rssCopied").style.display = "";
       setTimeout(() => { const c = el("rssCopied"); if (c) c.style.display = "none"; }, 4000);

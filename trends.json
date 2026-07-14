@@ -1,85 +1,85 @@
 {
-  "generated": "2026-07-14T05:27:15Z",
+  "generated": "2026-07-14T07:57:20Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 2642,
-      "recent7": 1749,
+      "total": 2688,
+      "recent7": 1793,
       "sparkline": [
         66,
-        110,
-        648,
-        1749
+        111,
+        649,
+        1793
       ],
-      "momentum_pct": 213,
+      "momentum_pct": 218,
       "momentum_basis": "7d",
-      "hard_count": 116,
+      "hard_count": 117,
       "hard_ratio": 0.044,
-      "exit_count": 5,
-      "talk_count": 2488,
-      "whitespace_score": 21.4,
+      "exit_count": 6,
+      "talk_count": 2532,
+      "whitespace_score": 21.6,
       "rising": [
         {
           "term": "security",
-          "count": 577,
-          "delta": 505
+          "count": 591,
+          "delta": 519
         },
         {
           "term": "x2026",
-          "count": 313,
-          "delta": 313
+          "count": 319,
+          "delta": 319
         },
         {
           "term": "prnewswire",
-          "count": 288,
-          "delta": 288
+          "count": 292,
+          "delta": 292
         },
         {
           "term": "cybersecurity",
-          "count": 272,
-          "delta": 262
+          "count": 276,
+          "delta": 266
         },
         {
           "term": "x2019",
-          "count": 183,
-          "delta": 183
+          "count": 184,
+          "delta": 184
         },
         {
           "term": "cyber",
-          "count": 183,
+          "count": 185,
+          "delta": 167
+        },
+        {
+          "term": "data",
+          "count": 202,
           "delta": 165
         },
         {
           "term": "removed",
-          "count": 162,
-          "delta": 162
-        },
-        {
-          "term": "data",
-          "count": 197,
-          "delta": 160
+          "count": 164,
+          "delta": 164
         }
       ],
       "movers": [
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 798
+          "count": 809
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 367
+          "count": 376
         },
         {
           "name": "Security Conferences",
           "firm": "conference",
-          "count": 83
+          "count": 89
         },
         {
           "name": "ProductHunt",
           "firm": "producthunt",
-          "count": 74
+          "count": 83
         },
         {
           "name": "Security Affairs",
@@ -95,26 +95,26 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 447,
-      "recent7": 279,
+      "total": 448,
+      "recent7": 280,
       "sparkline": [
         10,
         25,
         122,
-        279
+        280
       ],
-      "momentum_pct": 164,
+      "momentum_pct": 165,
       "momentum_basis": "7d",
       "hard_count": 44,
       "hard_ratio": 0.098,
       "exit_count": 10,
-      "talk_count": 371,
-      "whitespace_score": 8.4,
+      "talk_count": 372,
+      "whitespace_score": 8.5,
       "rising": [
         {
           "term": "financial",
-          "count": 111,
-          "delta": 110
+          "count": 112,
+          "delta": 111
         },
         {
           "term": "bank",
@@ -279,21 +279,21 @@
     },
     "healthtech": {
       "label": "Healthtech / Bio",
-      "total": 176,
-      "recent7": 76,
+      "total": 178,
+      "recent7": 78,
       "sparkline": [
         6,
         16,
         67,
-        76
+        78
       ],
-      "momentum_pct": 76,
+      "momentum_pct": 78,
       "momentum_basis": "7d",
       "hard_count": 9,
       "hard_ratio": 0.051,
       "exit_count": 2,
-      "talk_count": 159,
-      "whitespace_score": 17.7,
+      "talk_count": 161,
+      "whitespace_score": 17.9,
       "rising": [
         {
           "term": "health",
@@ -345,7 +345,7 @@
         {
           "name": "The Healthcare Blog",
           "firm": "The Healthcare Blog",
-          "count": 6
+          "count": 7
         },
         {
           "name": "Digital Health Wire",
@@ -789,34 +789,34 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 1749,
-        "momentum_pct": 213,
+        "recent7": 1793,
+        "momentum_pct": 218,
         "momentum_basis": "7d",
-        "total": 2642,
+        "total": 2688,
         "sparkline": [
           66,
-          110,
-          648,
-          1749
+          111,
+          649,
+          1793
         ],
         "hard_ratio": 0.044,
-        "whitespace_score": 21.4
+        "whitespace_score": 21.6
       },
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 279,
-        "momentum_pct": 164,
+        "recent7": 280,
+        "momentum_pct": 165,
         "momentum_basis": "7d",
-        "total": 447,
+        "total": 448,
         "sparkline": [
           10,
           25,
           122,
-          279
+          280
         ],
         "hard_ratio": 0.098,
-        "whitespace_score": 8.4
+        "whitespace_score": 8.5
       },
       {
         "id": "ai-ml",
@@ -869,18 +869,18 @@
       {
         "id": "healthtech",
         "label": "Healthtech / Bio",
-        "recent7": 76,
-        "momentum_pct": 76,
+        "recent7": 78,
+        "momentum_pct": 78,
         "momentum_basis": "7d",
-        "total": 176,
+        "total": 178,
         "sparkline": [
           6,
           16,
           67,
-          76
+          78
         ],
         "hard_ratio": 0.051,
-        "whitespace_score": 17.7
+        "whitespace_score": 17.9
       },
       {
         "id": "edtech",
@@ -934,28 +934,28 @@
     "rising": [
       {
         "term": "security",
-        "count": 590,
-        "delta": 510
+        "count": 604,
+        "delta": 524
       },
       {
         "term": "x2026",
-        "count": 313,
-        "delta": 313
+        "count": 319,
+        "delta": 319
       },
       {
         "term": "prnewswire",
-        "count": 288,
-        "delta": 288
+        "count": 292,
+        "delta": 292
       },
       {
         "term": "cybersecurity",
-        "count": 274,
-        "delta": 263
+        "count": 278,
+        "delta": 267
       },
       {
         "term": "data",
-        "count": 312,
-        "delta": 252
+        "count": 317,
+        "delta": 257
       },
       {
         "term": "million",
@@ -964,22 +964,22 @@
       },
       {
         "term": "x2019",
-        "count": 183,
-        "delta": 183
+        "count": 184,
+        "delta": 184
       },
       {
         "term": "cyber",
-        "count": 189,
-        "delta": 169
+        "count": 191,
+        "delta": 171
+      },
+      {
+        "term": "removed",
+        "count": 165,
+        "delta": 165
       },
       {
         "term": "firm",
         "count": 167,
-        "delta": 163
-      },
-      {
-        "term": "removed",
-        "count": 163,
         "delta": 163
       }
     ],
@@ -1105,6 +1105,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 4618
+    "total_signals": 4667
   }
 }

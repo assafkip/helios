@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-16T09:11:30Z",
+  "generated": "2026-07-16T11:37:54Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 203,
-    "deal_rows_attributed": 103,
-    "funds_tracked": 58,
-    "fetch_attempts": 21,
-    "fetchable_pct": 5,
+    "deal_rows_seen": 210,
+    "deal_rows_attributed": 108,
+    "funds_tracked": 60,
+    "fetch_attempts": 25,
+    "fetchable_pct": 20,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -1167,6 +1167,41 @@
       ]
     },
     {
+      "fund": "Sequoia Capital",
+      "thesis": "Revealed focus: Cybersecurity and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-16",
+          "summary": "The Billion-Dollar Seed Isn\u2019t The Deal You Think It Is",
+          "url": "https://news.crunchbase.com/venture/billion-dollar-seed-ai-biotech-mcdonald-bison/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-15",
+          "summary": "A SpaceX vet raised $65M to pull wire harnesses out of the Cold War era",
+          "url": "https://techcrunch.com/2026/07/15/a-spacex-vet-raised-65m-to-pull-wire-harnesses-out-of-the-cold-war-era/"
+        }
+      ]
+    },
+    {
       "fund": "Breachway Capital",
       "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -1877,6 +1912,41 @@
       ]
     },
     {
+      "fund": "LocalGlobe",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-16",
+          "summary": "Munich robotics startup Microagi raises $55m, Germany\u2019s largest ever seed round",
+          "url": "https://sifted.eu/articles/munich-robotics-startup-microagi-raises-55m-germanys-largest-ever-seed-round/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-04",
+          "summary": "What is Mistral AI? Everything to know about the OpenAI competitor",
+          "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
+        }
+      ]
+    },
+    {
       "fund": "FirstMark",
       "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -2230,6 +2300,13 @@
         "recent30": 3
       },
       {
+        "fund": "Sequoia Capital",
+        "thesis": "Revealed focus: Cybersecurity and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "Founders Fund",
         "thesis": "Revealed focus: Cybersecurity and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -2449,6 +2526,13 @@
         "recent30": 2
       },
       {
+        "fund": "Sequoia Capital",
+        "thesis": "Revealed focus: Cybersecurity and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "Tencent",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -2559,6 +2643,13 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 2
+      },
+      {
+        "fund": "LocalGlobe",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
       }
     ],
     "Fintech / Payments": [
@@ -2624,6 +2715,13 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 3
+      },
+      {
+        "fund": "LocalGlobe",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
       },
       {
         "fund": "Thrive Capital",

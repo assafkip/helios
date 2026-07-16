@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-16T11:37:54Z",
+  "generated": "2026-07-16T13:42:56Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 210,
-    "deal_rows_attributed": 108,
-    "funds_tracked": 60,
-    "fetch_attempts": 25,
-    "fetchable_pct": 20,
+    "deal_rows_seen": 215,
+    "deal_rows_attributed": 111,
+    "funds_tracked": 61,
+    "fetch_attempts": 24,
+    "fetchable_pct": 17,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -2012,6 +2012,41 @@
       ]
     },
     {
+      "fund": "Carta",
+      "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Marketing / Ads",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-16",
+          "summary": "The Bay Area Now Takes 51% of Every AI Venture Dollar. And 53% of Every B2B Dollar.",
+          "url": "https://www.saastr.com/the-bay-area-now-takes-51-of-every-ai-venture-dollar-and-53-of-every-b2b-dollar/"
+        },
+        {
+          "sector": "Marketing / Ads",
+          "date": "2026-07-16",
+          "summary": "The Bay Area Now Takes 51% of Every AI Venture Dollar. And 53% of Every B2B Dollar.",
+          "url": "https://www.saastr.com/the-bay-area-now-takes-51-of-every-ai-venture-dollar-and-53-of-every-b2b-dollar/"
+        }
+      ]
+    },
+    {
       "fund": "Theory Ventures",
       "thesis": "Revealed focus: AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -2950,6 +2985,13 @@
         "recent30": 2
       },
       {
+        "fund": "Carta",
+        "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "DST Global Partners",
         "thesis": "Revealed focus: AI / ML Infra and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -3060,6 +3102,13 @@
       }
     ],
     "Marketing / Ads": [
+      {
+        "fund": "Carta",
+        "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
       {
         "fund": "Startup Has Just Raised VC",
         "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 2 attributed deal(s), 2 in the last 30d.",

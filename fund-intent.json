@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-20T09:57:23Z",
+  "generated": "2026-07-20T12:17:17Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 245,
-    "deal_rows_attributed": 126,
+    "deal_rows_seen": 249,
+    "deal_rows_attributed": 129,
     "funds_tracked": 70,
-    "fetch_attempts": 27,
-    "fetchable_pct": 4,
+    "fetch_attempts": 29,
+    "fetchable_pct": 7,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -65,6 +65,69 @@
           "date": "2026-07-08",
           "summary": "Nvidia backs voice AI startup Gradium, bringing seed round to over $100m",
           "url": "https://sifted.eu/articles/gradium-nvidia-30m-extension-seed/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-04",
+          "summary": "What is Mistral AI? Everything to know about the OpenAI competitor",
+          "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
+        }
+      ]
+    },
+    {
+      "fund": "Andreessen Horowitz",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
+      "coverage": 5,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 5,
+      "recent90": 5,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-20",
+          "summary": "Mexico Extends Its Venture Lead Over Brazil As More Global VCs Enter Latin America",
+          "url": "https://news.crunchbase.com/venture/mexico-leads-latin-america-funding-q2-2026/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-15",
+          "summary": "A SpaceX vet raised $65M to pull wire harnesses out of the Cold War era",
+          "url": "https://techcrunch.com/2026/07/15/a-spacex-vet-raised-65m-to-pull-wire-harnesses-out-of-the-cold-war-era/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-10",
+          "summary": "The Fed wants AI investor Marc Andreessen to help figure out if AI can tame inflation",
+          "url": "https://the-decoder.com/the-fed-wants-ai-investor-marc-andreessen-to-help-figure-out-if-ai-can-tame-inflation/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-09",
+          "summary": "Fleek Raises $25 Million to Scale Second-Hand Fashion Market with AI",
+          "url": "https://www.esgtoday.com/fleek-raises-25-million-to-help-scale-the-second-hand-fashion-market-with-ai/?utm_source=rss&utm_medium=rss&utm_campaign=fleek-raises-25-million-to-help-scale-the-second-hand-fashion-market-with-ai"
         },
         {
           "sector": "Cybersecurity",
@@ -182,6 +245,100 @@
           "date": "2026-07-08",
           "summary": "Venus Aerospace raises $90M Series B to build a new kind of rocket engine",
           "url": "https://techcrunch.com/2026/07/08/venus-aerospace-raises-90m-series-b-to-build-a-new-kind-of-rocket-engine/"
+        }
+      ]
+    },
+    {
+      "fund": "Founders Fund",
+      "thesis": "Revealed focus: Cybersecurity and Space Tech. 4 attributed deal(s), 4 in the last 30d.",
+      "coverage": 4,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 3,
+          "weight": 3.0
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 4,
+      "recent90": 4,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-20",
+          "summary": "Mexico Extends Its Venture Lead Over Brazil As More Global VCs Enter Latin America",
+          "url": "https://news.crunchbase.com/venture/mexico-leads-latin-america-funding-q2-2026/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-17",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: No Summer Doldrums As Dollars Still Flow To AI",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-15",
+          "summary": "A SpaceX vet raised $65M to pull wire harnesses out of the Cold War era",
+          "url": "https://techcrunch.com/2026/07/15/a-spacex-vet-raised-65m-to-pull-wire-harnesses-out-of-the-cold-war-era/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-07",
+          "summary": "Bitmine Immersion Technologies (BMNR) kondigt aan dat het bezit aan ETH 5,74 miljoen tokens heeft bereikt en dat het totale bezit aan cryptovaluta en geldmiddelen 11,1 miljard dollar bedraagt",
+          "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-kondigt-aan-dat-het-bezit-aan-eth-5-74-miljoen-tokens-heeft-bereikt-en-dat-het-totale-bezit-aan-cryptovaluta-en-geldmiddelen-11-1-miljard-dollar-bedraagt-302819108.html"
+        }
+      ]
+    },
+    {
+      "fund": "Sequoia Capital",
+      "thesis": "Revealed focus: Cybersecurity and Space Tech. 4 attributed deal(s), 4 in the last 30d.",
+      "coverage": 4,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 3,
+          "weight": 3.0
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 4,
+      "recent90": 4,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-20",
+          "summary": "Mexico Extends Its Venture Lead Over Brazil As More Global VCs Enter Latin America",
+          "url": "https://news.crunchbase.com/venture/mexico-leads-latin-america-funding-q2-2026/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-17",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: No Summer Doldrums As Dollars Still Flow To AI",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-16",
+          "summary": "The Billion-Dollar Seed Isn\u2019t The Deal You Think It Is",
+          "url": "https://news.crunchbase.com/venture/billion-dollar-seed-ai-biotech-mcdonald-bison/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-15",
+          "summary": "A SpaceX vet raised $65M to pull wire harnesses out of the Cold War era",
+          "url": "https://techcrunch.com/2026/07/15/a-spacex-vet-raised-65m-to-pull-wire-harnesses-out-of-the-cold-war-era/"
         }
       ]
     },
@@ -389,141 +546,43 @@
       ]
     },
     {
-      "fund": "Andreessen Horowitz",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 4 in the last 30d.",
-      "coverage": 4,
+      "fund": "Tencent",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s), 3 in the last 30d.",
+      "coverage": 3,
       "sectors": [
         {
           "label": "Cybersecurity",
-          "count": 1,
-          "weight": 1.0
+          "count": 2,
+          "weight": 2.0
         },
         {
           "label": "AI / ML Infra",
           "count": 1,
           "weight": 1.0
-        },
-        {
-          "label": "Space Tech",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 1,
-          "weight": 1.0
         }
       ],
-      "recent30": 4,
-      "recent90": 4,
+      "recent30": 3,
+      "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 5,
+      "last_deal_days": 0,
       "deals": [
         {
-          "sector": "Space Tech",
-          "date": "2026-07-15",
-          "summary": "A SpaceX vet raised $65M to pull wire harnesses out of the Cold War era",
-          "url": "https://techcrunch.com/2026/07/15/a-spacex-vet-raised-65m-to-pull-wire-harnesses-out-of-the-cold-war-era/"
+          "sector": "Cybersecurity",
+          "date": "2026-07-20",
+          "summary": "Mexico Extends Its Venture Lead Over Brazil As More Global VCs Enter Latin America",
+          "url": "https://news.crunchbase.com/venture/mexico-leads-latin-america-funding-q2-2026/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-14",
+          "summary": "DeepSeek reportedly in talks to raise $1.5B, then IPO",
+          "url": "https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo/"
         },
         {
           "sector": "AI / ML Infra",
-          "date": "2026-07-10",
-          "summary": "The Fed wants AI investor Marc Andreessen to help figure out if AI can tame inflation",
-          "url": "https://the-decoder.com/the-fed-wants-ai-investor-marc-andreessen-to-help-figure-out-if-ai-can-tame-inflation/"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-07-09",
-          "summary": "Fleek Raises $25 Million to Scale Second-Hand Fashion Market with AI",
-          "url": "https://www.esgtoday.com/fleek-raises-25-million-to-help-scale-the-second-hand-fashion-market-with-ai/?utm_source=rss&utm_medium=rss&utm_campaign=fleek-raises-25-million-to-help-scale-the-second-hand-fashion-market-with-ai"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-04",
-          "summary": "What is Mistral AI? Everything to know about the OpenAI competitor",
-          "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
-        }
-      ]
-    },
-    {
-      "fund": "Sequoia Capital",
-      "thesis": "Revealed focus: Cybersecurity and Space Tech. 3 attributed deal(s), 3 in the last 30d.",
-      "coverage": 3,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 2,
-          "weight": 2.0
-        },
-        {
-          "label": "Space Tech",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 3,
-      "recent90": 3,
-      "prior30": 0,
-      "last_deal_days": 3,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-17",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: No Summer Doldrums As Dollars Still Flow To AI",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-16",
-          "summary": "The Billion-Dollar Seed Isn\u2019t The Deal You Think It Is",
-          "url": "https://news.crunchbase.com/venture/billion-dollar-seed-ai-biotech-mcdonald-bison/"
-        },
-        {
-          "sector": "Space Tech",
-          "date": "2026-07-15",
-          "summary": "A SpaceX vet raised $65M to pull wire harnesses out of the Cold War era",
-          "url": "https://techcrunch.com/2026/07/15/a-spacex-vet-raised-65m-to-pull-wire-harnesses-out-of-the-cold-war-era/"
-        }
-      ]
-    },
-    {
-      "fund": "Founders Fund",
-      "thesis": "Revealed focus: Cybersecurity and Space Tech. 3 attributed deal(s), 3 in the last 30d.",
-      "coverage": 3,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 2,
-          "weight": 2.0
-        },
-        {
-          "label": "Space Tech",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 3,
-      "recent90": 3,
-      "prior30": 0,
-      "last_deal_days": 3,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-17",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: No Summer Doldrums As Dollars Still Flow To AI",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
-        },
-        {
-          "sector": "Space Tech",
-          "date": "2026-07-15",
-          "summary": "A SpaceX vet raised $65M to pull wire harnesses out of the Cold War era",
-          "url": "https://techcrunch.com/2026/07/15/a-spacex-vet-raised-65m-to-pull-wire-harnesses-out-of-the-cold-war-era/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-07",
-          "summary": "Bitmine Immersion Technologies (BMNR) kondigt aan dat het bezit aan ETH 5,74 miljoen tokens heeft bereikt en dat het totale bezit aan cryptovaluta en geldmiddelen 11,1 miljard dollar bedraagt",
-          "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-kondigt-aan-dat-het-bezit-aan-eth-5-74-miljoen-tokens-heeft-bereikt-en-dat-het-totale-bezit-aan-cryptovaluta-en-geldmiddelen-11-1-miljard-dollar-bedraagt-302819108.html"
+          "date": "2026-07-14",
+          "summary": "DeepSeek needs more cash just weeks after closing its first $7 billion round",
+          "url": "https://the-decoder.com/deepseek-needs-more-cash-just-weeks-after-closing-its-first-7-billion-round/"
         }
       ]
     },
@@ -1591,41 +1650,6 @@
       ]
     },
     {
-      "fund": "Tencent",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 2,
-      "recent90": 2,
-      "prior30": 0,
-      "last_deal_days": 6,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-14",
-          "summary": "DeepSeek reportedly in talks to raise $1.5B, then IPO",
-          "url": "https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-07-14",
-          "summary": "DeepSeek needs more cash just weeks after closing its first $7 billion round",
-          "url": "https://the-decoder.com/deepseek-needs-more-cash-just-weeks-after-closing-its-first-7-billion-round/"
-        }
-      ]
-    },
-    {
       "fund": "Robot",
       "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -2671,6 +2695,20 @@
         "recent30": 5
       },
       {
+        "fund": "Founders Fund",
+        "thesis": "Revealed focus: Cybersecurity and Space Tech. 4 attributed deal(s), 4 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 3,
+        "recent30": 4
+      },
+      {
+        "fund": "Sequoia Capital",
+        "thesis": "Revealed focus: Cybersecurity and Space Tech. 4 attributed deal(s), 4 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 3,
+        "recent30": 4
+      },
+      {
         "fund": "Index Ventures",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 4 in the last 30d.",
         "coverage": 4,
@@ -2690,6 +2728,13 @@
         "coverage": 6,
         "sector_count": 2,
         "recent30": 6
+      },
+      {
+        "fund": "Andreessen Horowitz",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 2,
+        "recent30": 5
       },
       {
         "fund": "Intel Capital",
@@ -2713,15 +2758,8 @@
         "recent30": 4
       },
       {
-        "fund": "Sequoia Capital",
-        "thesis": "Revealed focus: Cybersecurity and Space Tech. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 2,
-        "recent30": 3
-      },
-      {
-        "fund": "Founders Fund",
-        "thesis": "Revealed focus: Cybersecurity and Space Tech. 3 attributed deal(s), 3 in the last 30d.",
+        "fund": "Tencent",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
         "sector_count": 2,
         "recent30": 3
@@ -2839,13 +2877,6 @@
         "recent30": 5
       },
       {
-        "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 4 in the last 30d.",
-        "coverage": 4,
-        "sector_count": 1,
-        "recent30": 4
-      },
-      {
         "fund": "Sequoia",
         "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
@@ -2903,13 +2934,6 @@
       },
       {
         "fund": "Menlo Ventures",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Tencent",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,
@@ -3165,6 +3189,13 @@
         "recent30": 2
       },
       {
+        "fund": "Andreessen Horowitz",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 5
+      },
+      {
         "fund": "Intel Capital",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 4 in the last 30d.",
         "coverage": 4,
@@ -3186,11 +3217,11 @@
         "recent30": 4
       },
       {
-        "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 4 in the last 30d.",
-        "coverage": 4,
+        "fund": "Tencent",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
         "sector_count": 1,
-        "recent30": 4
+        "recent30": 3
       },
       {
         "fund": "Insight Partners",
@@ -3278,13 +3309,6 @@
       },
       {
         "fund": "Menlo Ventures",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Tencent",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,
@@ -3389,22 +3413,6 @@
         "recent30": 2
       }
     ],
-    "Healthtech / Bio": [
-      {
-        "fund": "Khosla Ventures",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s), 5 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 1,
-        "recent30": 5
-      },
-      {
-        "fund": "Sequoia",
-        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 3
-      }
-    ],
     "Space Tech": [
       {
         "fund": "Lockheed Martin Ventures",
@@ -3443,24 +3451,24 @@
       },
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 4 in the last 30d.",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 5
+      },
+      {
+        "fund": "Founders Fund",
+        "thesis": "Revealed focus: Cybersecurity and Space Tech. 4 attributed deal(s), 4 in the last 30d.",
         "coverage": 4,
         "sector_count": 1,
         "recent30": 4
       },
       {
         "fund": "Sequoia Capital",
-        "thesis": "Revealed focus: Cybersecurity and Space Tech. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
+        "thesis": "Revealed focus: Cybersecurity and Space Tech. 4 attributed deal(s), 4 in the last 30d.",
+        "coverage": 4,
         "sector_count": 1,
-        "recent30": 3
-      },
-      {
-        "fund": "Founders Fund",
-        "thesis": "Revealed focus: Cybersecurity and Space Tech. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 3
+        "recent30": 4
       },
       {
         "fund": "General Catalyst",
@@ -3508,10 +3516,10 @@
       },
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 4 in the last 30d.",
-        "coverage": 4,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
         "sector_count": 1,
-        "recent30": 4
+        "recent30": 5
       },
       {
         "fund": "Prelude Ventures",
@@ -3561,6 +3569,22 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 2
+      }
+    ],
+    "Healthtech / Bio": [
+      {
+        "fund": "Khosla Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 5
+      },
+      {
+        "fund": "Sequoia",
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
       }
     ],
     "Climate / Energy": [

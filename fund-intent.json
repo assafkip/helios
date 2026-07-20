@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-20T17:58:04Z",
+  "generated": "2026-07-20T19:46:09Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 254,
-    "deal_rows_attributed": 133,
-    "funds_tracked": 70,
-    "fetch_attempts": 29,
-    "fetchable_pct": 3,
+    "deal_rows_seen": 257,
+    "deal_rows_attributed": 134,
+    "funds_tracked": 71,
+    "fetch_attempts": 31,
+    "fetchable_pct": 6,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -1321,6 +1321,41 @@
           "date": "2026-07-08",
           "summary": "Venus Aerospace raises $90M Series B to build a new kind of rocket engine",
           "url": "https://techcrunch.com/2026/07/08/venus-aerospace-raises-90m-series-b-to-build-a-new-kind-of-rocket-engine/"
+        }
+      ]
+    },
+    {
+      "fund": "Forerunner",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-20",
+          "summary": "Natural Raises $30M Series A to Build Payments Infrastructure for AI Agents",
+          "url": "https://www.prnewswire.com/news-releases/natural-raises-30m-series-a-to-build-payments-infrastructure-for-ai-agents-302829855.html"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-20",
+          "summary": "Natural raises $30M to reinvent payments for AI agents \u2014 and take on Stripe",
+          "url": "https://techcrunch.com/2026/07/20/natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe/"
         }
       ]
     },
@@ -2905,6 +2940,13 @@
         "recent30": 3
       },
       {
+        "fund": "Forerunner",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "Goldman Sachs Alternatives",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -3129,6 +3171,13 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 3
+      },
+      {
+        "fund": "Forerunner",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
       },
       {
         "fund": "Goldman Sachs Alternatives",

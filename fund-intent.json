@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-20T06:15:02Z",
+  "generated": "2026-07-20T09:57:23Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 244,
-    "deal_rows_attributed": 125,
+    "deal_rows_seen": 245,
+    "deal_rows_attributed": 126,
     "funds_tracked": 70,
-    "fetch_attempts": 26,
-    "fetchable_pct": 0,
+    "fetch_attempts": 27,
+    "fetchable_pct": 4,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -71,6 +71,64 @@
           "date": "2026-07-04",
           "summary": "What is Mistral AI? Everything to know about the OpenAI competitor",
           "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
+        }
+      ]
+    },
+    {
+      "fund": "Khosla Ventures",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s), 5 in the last 30d.",
+      "coverage": 5,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 3,
+          "weight": 3.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 5,
+      "recent90": 5,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-07-20",
+          "summary": "Bunkerhill Lands Series B to Turn Ideas Into Action",
+          "url": "https://digitalhealthwire.com/bunkerhill-raises-series-b-to-turn-ideas-into-action/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-17",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: No Summer Doldrums As Dollars Still Flow To AI",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-15",
+          "summary": "Robotics startup Monumental raises $32m backed by Khosla Ventures",
+          "url": "https://sifted.eu/articles/monumental-robots-fundraise-raises-32m-backed-by-khosla-ventures/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-10",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-07",
+          "summary": "AI law startup Norm raises $120M, hits unicorn valuation",
+          "url": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/"
         }
       ]
     },
@@ -171,53 +229,6 @@
           "date": "2026-07-04",
           "summary": "What is Mistral AI? Everything to know about the OpenAI competitor",
           "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
-        }
-      ]
-    },
-    {
-      "fund": "Khosla Ventures",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 4 in the last 30d.",
-      "coverage": 4,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 3,
-          "weight": 3.0
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 4,
-      "recent90": 4,
-      "prior30": 0,
-      "last_deal_days": 3,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-17",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: No Summer Doldrums As Dollars Still Flow To AI",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-07-15",
-          "summary": "Robotics startup Monumental raises $32m backed by Khosla Ventures",
-          "url": "https://sifted.eu/articles/monumental-robots-fundraise-raises-32m-backed-by-khosla-ventures/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-10",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
-          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-07",
-          "summary": "AI law startup Norm raises $120M, hits unicorn valuation",
-          "url": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/"
         }
       ]
     },
@@ -513,6 +524,52 @@
           "date": "2026-07-07",
           "summary": "Bitmine Immersion Technologies (BMNR) kondigt aan dat het bezit aan ETH 5,74 miljoen tokens heeft bereikt en dat het totale bezit aan cryptovaluta en geldmiddelen 11,1 miljard dollar bedraagt",
           "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-kondigt-aan-dat-het-bezit-aan-eth-5-74-miljoen-tokens-heeft-bereikt-en-dat-het-totale-bezit-aan-cryptovaluta-en-geldmiddelen-11-1-miljard-dollar-bedraagt-302819108.html"
+        }
+      ]
+    },
+    {
+      "fund": "Sequoia",
+      "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 3 attributed deal(s), 3 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Climate / Energy",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 3,
+      "recent90": 3,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-07-20",
+          "summary": "Bunkerhill Lands Series B to Turn Ideas Into Action",
+          "url": "https://digitalhealthwire.com/bunkerhill-raises-series-b-to-turn-ideas-into-action/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-17",
+          "summary": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
+          "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-07-17",
+          "summary": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
+          "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/"
         }
       ]
     },
@@ -1270,41 +1327,6 @@
           "date": "2026-06-30",
           "summary": "SpaceX\u2019s $60B Cursor deal and 3 coding AI startups worth watching",
           "url": "https://www.cbinsights.com/research/weekly-tech-recap-june-22/"
-        }
-      ]
-    },
-    {
-      "fund": "Sequoia",
-      "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 2 attributed deal(s), 2 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Climate / Energy",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 2,
-      "recent90": 2,
-      "prior30": 0,
-      "last_deal_days": 3,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-17",
-          "summary": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
-          "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-07-17",
-          "summary": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
-          "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/"
         }
       ]
     },
@@ -2642,14 +2664,14 @@
   "by_vertical": {
     "Cybersecurity": [
       {
-        "fund": "Index Ventures",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 4 in the last 30d.",
-        "coverage": 4,
+        "fund": "Khosla Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
         "sector_count": 3,
-        "recent30": 4
+        "recent30": 5
       },
       {
-        "fund": "Khosla Ventures",
+        "fund": "Index Ventures",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 4 in the last 30d.",
         "coverage": 4,
         "sector_count": 3,
@@ -2824,6 +2846,13 @@
         "recent30": 4
       },
       {
+        "fund": "Sequoia",
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "Prelude Ventures",
         "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
@@ -2847,13 +2876,6 @@
       {
         "fund": "Goldman Sachs Alternatives",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Sequoia",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,
         "recent30": 2
@@ -3036,14 +3058,14 @@
         "recent30": 2
       },
       {
-        "fund": "Index Ventures",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 4 in the last 30d.",
-        "coverage": 4,
+        "fund": "Khosla Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
         "sector_count": 1,
-        "recent30": 4
+        "recent30": 5
       },
       {
-        "fund": "Khosla Ventures",
+        "fund": "Index Ventures",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 4 in the last 30d.",
         "coverage": 4,
         "sector_count": 1,
@@ -3367,6 +3389,22 @@
         "recent30": 2
       }
     ],
+    "Healthtech / Bio": [
+      {
+        "fund": "Khosla Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 5
+      },
+      {
+        "fund": "Sequoia",
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      }
+    ],
     "Space Tech": [
       {
         "fund": "Lockheed Martin Ventures",
@@ -3527,18 +3565,18 @@
     ],
     "Climate / Energy": [
       {
-        "fund": "Prelude Ventures",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 3 attributed deal(s), 3 in the last 30d.",
+        "fund": "Sequoia",
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
         "sector_count": 1,
         "recent30": 3
       },
       {
-        "fund": "Sequoia",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
+        "fund": "Prelude Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
         "sector_count": 1,
-        "recent30": 2
+        "recent30": 3
       },
       {
         "fund": "Lululemon",

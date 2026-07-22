@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-22T13:43:27Z",
+  "generated": "2026-07-22T15:38:13Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 300,
-    "deal_rows_attributed": 153,
-    "funds_tracked": 76,
-    "fetch_attempts": 33,
-    "fetchable_pct": 3,
+    "deal_rows_seen": 305,
+    "deal_rows_attributed": 157,
+    "funds_tracked": 77,
+    "fetch_attempts": 36,
+    "fetchable_pct": 11,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -2783,6 +2783,36 @@
       ]
     },
     {
+      "fund": "Mirova",
+      "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 2,
+          "weight": 2.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-22",
+          "summary": "Mirova Invests $172M in Yanara\u2019s Australia Expansion",
+          "url": "https://esgnews.com/mirova-invests-172m-in-yanaras-australia-expansion/?utm_source=rss&utm_medium=rss&utm_campaign=mirova-invests-172m-in-yanaras-australia-expansion"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-21",
+          "summary": "Mirova Invests \u20ac150 Million in Clean Energy Developer Yanara",
+          "url": "https://www.esgtoday.com/mirova-invests-e150-million-in-clean-energy-developer-yanara/?utm_source=rss&utm_medium=rss&utm_campaign=mirova-invests-e150-million-in-clean-energy-developer-yanara"
+        }
+      ]
+    },
+    {
       "fund": "Axpo",
       "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -3760,6 +3790,13 @@
       }
     ],
     "Coexistence / Empowerment": [
+      {
+        "fund": "Mirova",
+        "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 2
+      },
       {
         "fund": "Axpo",
         "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",

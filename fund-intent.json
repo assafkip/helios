@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-22T21:02:46Z",
+  "generated": "2026-07-22T22:59:06Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 309,
-    "deal_rows_attributed": 159,
+    "deal_rows_seen": 310,
+    "deal_rows_attributed": 160,
     "funds_tracked": 79,
-    "fetch_attempts": 33,
-    "fetchable_pct": 0,
+    "fetch_attempts": 34,
+    "fetchable_pct": 3,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -198,6 +198,64 @@
           "date": "2026-07-07",
           "summary": "AI law startup Norm raises $120M, hits unicorn valuation",
           "url": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/"
+        }
+      ]
+    },
+    {
+      "fund": "Insight Partners",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 4 in the last 30d.",
+      "coverage": 5,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 2,
+          "weight": 1.5
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 4,
+      "recent90": 5,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-22",
+          "summary": "Passionfroot Raises $15 Million to Connect B2B Tech Companies With Vetted Creators",
+          "url": "https://www.pymnts.com/news/b2b-payments/2026/passionfroot-raises-15-million-dollars-connect-b2b-tech-companies-with-vetted-creators/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-22",
+          "summary": "Passionfroot raises $15M to expand its B2B creator marketplace to the US",
+          "url": "https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-10",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-02",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: AI, Energy And Biotech Lead The Way",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-biotech-joulent/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-06-16",
+          "summary": "The next generation of analytics: Why we invested in Golden Analytics",
+          "url": "https://www.insightpartners.com/ideas/why-we-invested-in-golden-analytics/"
         }
       ]
     },
@@ -444,53 +502,6 @@
           "date": "2026-07-04",
           "summary": "What is Mistral AI? Everything to know about the OpenAI competitor",
           "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
-        }
-      ]
-    },
-    {
-      "fund": "Insight Partners",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 3 in the last 30d.",
-      "coverage": 4,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 2,
-          "weight": 2.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 2,
-          "weight": 1.5
-        }
-      ],
-      "recent30": 3,
-      "recent90": 4,
-      "prior30": 1,
-      "last_deal_days": 0,
-      "deals": [
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-07-22",
-          "summary": "Passionfroot raises $15M to expand its B2B creator marketplace to the US",
-          "url": "https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-10",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
-          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-02",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: AI, Energy And Biotech Lead The Way",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-biotech-joulent/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-06-16",
-          "summary": "The next generation of analytics: Why we invested in Golden Analytics",
-          "url": "https://www.insightpartners.com/ideas/why-we-invested-in-golden-analytics/"
         }
       ]
     },
@@ -3061,18 +3072,18 @@
         "recent30": 6
       },
       {
+        "fund": "Insight Partners",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 4 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 2,
+        "recent30": 4
+      },
+      {
         "fund": "Sequoia",
         "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 4 attributed deal(s), 4 in the last 30d.",
         "coverage": 4,
         "sector_count": 2,
         "recent30": 4
-      },
-      {
-        "fund": "Insight Partners",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 3 in the last 30d.",
-        "coverage": 4,
-        "sector_count": 2,
-        "recent30": 3
       },
       {
         "fund": "Intel Capital",
@@ -3435,10 +3446,10 @@
       },
       {
         "fund": "Insight Partners",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 3 in the last 30d.",
-        "coverage": 4,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 4 in the last 30d.",
+        "coverage": 5,
         "sector_count": 2,
-        "recent30": 3
+        "recent30": 4
       },
       {
         "fund": "Teleport",
@@ -3900,6 +3911,13 @@
         "coverage": 5,
         "sector_count": 1,
         "recent30": 5
+      },
+      {
+        "fund": "Insight Partners",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 4 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 4
       },
       {
         "fund": "Index Ventures",

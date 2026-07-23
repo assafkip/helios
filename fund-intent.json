@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-23T15:06:39Z",
+  "generated": "2026-07-23T17:17:53Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 320,
-    "deal_rows_attributed": 163,
-    "funds_tracked": 79,
-    "fetch_attempts": 38,
+    "deal_rows_seen": 323,
+    "deal_rows_attributed": 165,
+    "funds_tracked": 80,
+    "fetch_attempts": 37,
     "fetchable_pct": 8,
     "update_cadence": "hourly"
   },
@@ -155,6 +155,75 @@
       ]
     },
     {
+      "fund": "Insight Partners",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 6 attributed deal(s), 5 in the last 30d.",
+      "coverage": 6,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 2,
+          "weight": 1.5
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 5,
+      "recent90": 6,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-07-23",
+          "summary": "Assured Health Secures $19M to Get Providers In-Network Faster with Agentic AI",
+          "url": "https://medcitynews.com/2026/07/assured-health-healthcare-credentialing/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-22",
+          "summary": "Passionfroot Raises $15 Million to Connect B2B Tech Companies With Vetted Creators",
+          "url": "https://www.pymnts.com/news/b2b-payments/2026/passionfroot-raises-15-million-dollars-connect-b2b-tech-companies-with-vetted-creators/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-22",
+          "summary": "Passionfroot raises $15M to expand its B2B creator marketplace to the US",
+          "url": "https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-10",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-02",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: AI, Energy And Biotech Lead The Way",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-biotech-joulent/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-06-16",
+          "summary": "The next generation of analytics: Why we invested in Golden Analytics",
+          "url": "https://www.insightpartners.com/ideas/why-we-invested-in-golden-analytics/"
+        }
+      ]
+    },
+    {
       "fund": "Khosla Ventures",
       "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s), 5 in the last 30d.",
       "coverage": 5,
@@ -209,64 +278,6 @@
           "date": "2026-07-07",
           "summary": "AI law startup Norm raises $120M, hits unicorn valuation",
           "url": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/"
-        }
-      ]
-    },
-    {
-      "fund": "Insight Partners",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 4 in the last 30d.",
-      "coverage": 5,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 2,
-          "weight": 2.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 2,
-          "weight": 1.5
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 4,
-      "recent90": 5,
-      "prior30": 1,
-      "last_deal_days": 1,
-      "deals": [
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-07-22",
-          "summary": "Passionfroot Raises $15 Million to Connect B2B Tech Companies With Vetted Creators",
-          "url": "https://www.pymnts.com/news/b2b-payments/2026/passionfroot-raises-15-million-dollars-connect-b2b-tech-companies-with-vetted-creators/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-07-22",
-          "summary": "Passionfroot raises $15M to expand its B2B creator marketplace to the US",
-          "url": "https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-10",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
-          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-02",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: AI, Energy And Biotech Lead The Way",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-biotech-joulent/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-06-16",
-          "summary": "The next generation of analytics: Why we invested in Golden Analytics",
-          "url": "https://www.insightpartners.com/ideas/why-we-invested-in-golden-analytics/"
         }
       ]
     },
@@ -1642,6 +1653,41 @@
           "date": "2026-07-16",
           "summary": "Applied Computing wants to give oil and gas operators an AI model for the entire plant",
           "url": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/"
+        }
+      ]
+    },
+    {
+      "fund": "First Round Capital",
+      "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-07-23",
+          "summary": "Assured Health Secures $19M to Get Providers In-Network Faster with Agentic AI",
+          "url": "https://medcitynews.com/2026/07/assured-health-healthcare-credentialing/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-16",
+          "summary": "The Billion-Dollar Seed Isn\u2019t The Deal You Think It Is",
+          "url": "https://news.crunchbase.com/venture/billion-dollar-seed-ai-biotech-mcdonald-bison/"
         }
       ]
     },
@@ -3084,10 +3130,10 @@
       },
       {
         "fund": "Insight Partners",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 4 in the last 30d.",
-        "coverage": 5,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 6 attributed deal(s), 5 in the last 30d.",
+        "coverage": 6,
         "sector_count": 2,
-        "recent30": 4
+        "recent30": 5
       },
       {
         "fund": "Sequoia",
@@ -3300,6 +3346,13 @@
         "recent30": 2
       },
       {
+        "fund": "First Round Capital",
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "Menlo Ventures",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -3457,10 +3510,10 @@
       },
       {
         "fund": "Insight Partners",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 4 in the last 30d.",
-        "coverage": 5,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 6 attributed deal(s), 5 in the last 30d.",
+        "coverage": 6,
         "sector_count": 2,
-        "recent30": 4
+        "recent30": 5
       },
       {
         "fund": "Teleport",
@@ -3759,18 +3812,18 @@
         "recent30": 7
       },
       {
+        "fund": "Insight Partners",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 6 attributed deal(s), 5 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 1,
+        "recent30": 5
+      },
+      {
         "fund": "Khosla Ventures",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s), 5 in the last 30d.",
         "coverage": 5,
         "sector_count": 1,
         "recent30": 5
-      },
-      {
-        "fund": "Insight Partners",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 4 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 1,
-        "recent30": 4
       },
       {
         "fund": "Index Ventures",
@@ -4024,6 +4077,13 @@
     ],
     "Healthtech / Bio": [
       {
+        "fund": "Insight Partners",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 6 attributed deal(s), 5 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 1,
+        "recent30": 5
+      },
+      {
         "fund": "Khosla Ventures",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s), 5 in the last 30d.",
         "coverage": 5,
@@ -4036,6 +4096,13 @@
         "coverage": 4,
         "sector_count": 1,
         "recent30": 4
+      },
+      {
+        "fund": "First Round Capital",
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
       }
     ],
     "Climate / Energy": [

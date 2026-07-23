@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-23T17:17:53Z",
+  "generated": "2026-07-23T19:10:22Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 323,
-    "deal_rows_attributed": 165,
+    "deal_rows_seen": 325,
+    "deal_rows_attributed": 167,
     "funds_tracked": 80,
-    "fetch_attempts": 37,
-    "fetchable_pct": 8,
+    "fetch_attempts": 34,
+    "fetchable_pct": 0,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -220,6 +220,59 @@
           "date": "2026-06-16",
           "summary": "The next generation of analytics: Why we invested in Golden Analytics",
           "url": "https://www.insightpartners.com/ideas/why-we-invested-in-golden-analytics/"
+        }
+      ]
+    },
+    {
+      "fund": "Battery Ventures",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
+      "coverage": 5,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 3,
+          "weight": 3.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 2,
+          "weight": 2.0
+        }
+      ],
+      "recent30": 5,
+      "recent90": 5,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-23",
+          "summary": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+          "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-23",
+          "summary": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+          "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-10",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-08",
+          "summary": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
+          "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-08",
+          "summary": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
+          "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/"
         }
       ]
     },
@@ -798,47 +851,6 @@
           "date": "2026-07-07",
           "summary": "This startup pits dealerships against each other to bid on your used car",
           "url": "https://techcrunch.com/2026/07/07/this-startup-is-pitting-dealerships-against-each-other-to-bid-on-your-used-car/"
-        }
-      ]
-    },
-    {
-      "fund": "Battery Ventures",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s), 3 in the last 30d.",
-      "coverage": 3,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 2,
-          "weight": 2.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 3,
-      "recent90": 3,
-      "prior30": 0,
-      "last_deal_days": 13,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-10",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
-          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-08",
-          "summary": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
-          "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-07-08",
-          "summary": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
-          "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/"
         }
       ]
     },
@@ -3080,6 +3092,13 @@
   "by_vertical": {
     "Cybersecurity": [
       {
+        "fund": "Battery Ventures",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 3,
+        "recent30": 5
+      },
+      {
         "fund": "Khosla Ventures",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s), 5 in the last 30d.",
         "coverage": 5,
@@ -3165,13 +3184,6 @@
       },
       {
         "fund": "Tencent",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 2,
-        "recent30": 3
-      },
-      {
-        "fund": "Battery Ventures",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
         "sector_count": 2,
@@ -3516,6 +3528,13 @@
         "recent30": 5
       },
       {
+        "fund": "Battery Ventures",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 2,
+        "recent30": 5
+      },
+      {
         "fund": "Teleport",
         "thesis": "Revealed focus: AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -3559,13 +3578,6 @@
       },
       {
         "fund": "Tencent",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 3
-      },
-      {
-        "fund": "Battery Ventures",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
         "sector_count": 1,

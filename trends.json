@@ -1,38 +1,38 @@
 {
-  "generated": "2026-07-25T06:14:14Z",
+  "generated": "2026-07-25T09:00:15Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 6550,
-      "recent7": 2042,
+      "total": 6580,
+      "recent7": 2071,
       "sparkline": [
         163,
         1773,
-        2375,
-        2042
+        2376,
+        2071
       ],
-      "momentum_pct": 47,
+      "momentum_pct": 48,
       "momentum_basis": "7d",
       "hard_count": 262,
       "hard_ratio": 0.04,
       "exit_count": 23,
-      "talk_count": 6196,
-      "whitespace_score": 23.6,
+      "talk_count": 6226,
+      "whitespace_score": 23.8,
       "rising": [
         {
           "term": "security",
-          "count": 914,
-          "delta": 426
+          "count": 920,
+          "delta": 432
         },
         {
           "term": "x2026",
-          "count": 615,
-          "delta": 394
+          "count": 616,
+          "delta": 395
         },
         {
           "term": "prnewswire",
-          "count": 599,
-          "delta": 386
+          "count": 602,
+          "delta": 389
         },
         {
           "term": "cybersecurity",
@@ -41,8 +41,8 @@
         },
         {
           "term": "removed",
-          "count": 342,
-          "delta": 220
+          "count": 343,
+          "delta": 221
         },
         {
           "term": "x2019",
@@ -64,17 +64,17 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1565
+          "count": 1577
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 767
+          "count": 770
         },
         {
           "name": "ProductHunt",
           "firm": "producthunt",
-          "count": 176
+          "count": 184
         },
         {
           "name": "Security Conferences",
@@ -187,20 +187,20 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 695,
-      "recent7": 181,
+      "total": 696,
+      "recent7": 182,
       "sparkline": [
         55,
         187,
         225,
-        181
+        182
       ],
       "momentum_pct": 35,
       "momentum_basis": "7d",
       "hard_count": 51,
       "hard_ratio": 0.073,
       "exit_count": 11,
-      "talk_count": 612,
+      "talk_count": 613,
       "whitespace_score": 12.0,
       "rising": [
         {
@@ -229,6 +229,11 @@
           "delta": 35
         },
         {
+          "term": "anthropic",
+          "count": 77,
+          "delta": 30
+        },
+        {
           "term": "kimi",
           "count": 30,
           "delta": 30
@@ -236,11 +241,6 @@
         {
           "term": "openai",
           "count": 104,
-          "delta": 29
-        },
-        {
-          "term": "anthropic",
-          "count": 76,
           "delta": 29
         }
       ],
@@ -263,7 +263,7 @@
         {
           "name": "Shawn Wang (swyx) / Alessio Fanelli",
           "firm": "Latent Space",
-          "count": 13
+          "count": 14
         },
         {
           "name": "Tomasz Tunguz",
@@ -795,18 +795,18 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2042,
-        "momentum_pct": 47,
+        "recent7": 2071,
+        "momentum_pct": 48,
         "momentum_basis": "7d",
-        "total": 6550,
+        "total": 6580,
         "sparkline": [
           163,
           1773,
-          2375,
-          2042
+          2376,
+          2071
         ],
         "hard_ratio": 0.04,
-        "whitespace_score": 23.6
+        "whitespace_score": 23.8
       },
       {
         "id": "fintech",
@@ -843,15 +843,15 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 181,
+        "recent7": 182,
         "momentum_pct": 35,
         "momentum_basis": "7d",
-        "total": 695,
+        "total": 696,
         "sparkline": [
           55,
           187,
           225,
-          181
+          182
         ],
         "hard_ratio": 0.073,
         "whitespace_score": 12.0
@@ -940,18 +940,18 @@
     "rising": [
       {
         "term": "security",
-        "count": 978,
-        "delta": 480
+        "count": 984,
+        "delta": 486
       },
       {
         "term": "x2026",
-        "count": 615,
-        "delta": 394
+        "count": 616,
+        "delta": 395
       },
       {
         "term": "prnewswire",
-        "count": 599,
-        "delta": 386
+        "count": 602,
+        "delta": 389
       },
       {
         "term": "cybersecurity",
@@ -965,8 +965,8 @@
       },
       {
         "term": "removed",
-        "count": 342,
-        "delta": 219
+        "count": 343,
+        "delta": 220
       },
       {
         "term": "firm",
@@ -980,8 +980,8 @@
       },
       {
         "term": "platform",
-        "count": 299,
-        "delta": 175
+        "count": 300,
+        "delta": 176
       },
       {
         "term": "every",
@@ -1111,6 +1111,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 10718
+    "total_signals": 10749
   }
 }

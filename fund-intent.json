@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-25T23:57:55Z",
+  "generated": "2026-07-26T02:52:45Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 344,
-    "deal_rows_attributed": 176,
-    "funds_tracked": 87,
-    "fetch_attempts": 35,
-    "fetchable_pct": 0,
+    "deal_rows_seen": 345,
+    "deal_rows_attributed": 177,
+    "funds_tracked": 90,
+    "fetch_attempts": 36,
+    "fetchable_pct": 3,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -44,7 +44,7 @@
       "recent30": 8,
       "recent90": 8,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -115,7 +115,7 @@
       "recent30": 6,
       "recent90": 6,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -156,6 +156,70 @@
       ]
     },
     {
+      "fund": "Sequoia Capital",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 6 attributed deal(s), 6 in the last 30d.",
+      "coverage": 6,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 4,
+          "weight": 4.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 6,
+      "recent90": 6,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-26",
+          "summary": "Ant\u2019s $1.2 Billion A Round Tops This Weeks Fundings and Acquisitions",
+          "url": "https://www.crowdfundinsider.com/2026/07/293681-ants-1-2b-a-round-tops-this-weeks-fundings-and-acquisitions/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-24",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Physical AI Startup Atoms Leads In Varied Week For Large Deals",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-20",
+          "summary": "Mexico Extends Its Venture Lead Over Brazil As More Global VCs Enter Latin America",
+          "url": "https://news.crunchbase.com/venture/mexico-leads-latin-america-funding-q2-2026/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-17",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: No Summer Doldrums As Dollars Still Flow To AI",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-16",
+          "summary": "The Billion-Dollar Seed Isn\u2019t The Deal You Think It Is",
+          "url": "https://news.crunchbase.com/venture/billion-dollar-seed-ai-biotech-mcdonald-bison/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-15",
+          "summary": "A SpaceX vet raised $65M to pull wire harnesses out of the Cold War era",
+          "url": "https://techcrunch.com/2026/07/15/a-spacex-vet-raised-65m-to-pull-wire-harnesses-out-of-the-cold-war-era/"
+        }
+      ]
+    },
+    {
       "fund": "Nvidia",
       "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 6 attributed deal(s), 6 in the last 30d.",
       "coverage": 6,
@@ -179,7 +243,7 @@
       "recent30": 6,
       "recent90": 6,
       "prior30": 0,
-      "last_deal_days": 9,
+      "last_deal_days": 10,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -248,7 +312,7 @@
       "recent30": 5,
       "recent90": 6,
       "prior30": 1,
-      "last_deal_days": 2,
+      "last_deal_days": 3,
       "deals": [
         {
           "sector": "Healthtech / Bio",
@@ -289,59 +353,6 @@
       ]
     },
     {
-      "fund": "Sequoia Capital",
-      "thesis": "Revealed focus: Cybersecurity and Space Tech. 5 attributed deal(s), 5 in the last 30d.",
-      "coverage": 5,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 4,
-          "weight": 4.0
-        },
-        {
-          "label": "Space Tech",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 5,
-      "recent90": 5,
-      "prior30": 0,
-      "last_deal_days": 1,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-24",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Physical AI Startup Atoms Leads In Varied Week For Large Deals",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-20",
-          "summary": "Mexico Extends Its Venture Lead Over Brazil As More Global VCs Enter Latin America",
-          "url": "https://news.crunchbase.com/venture/mexico-leads-latin-america-funding-q2-2026/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-17",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: No Summer Doldrums As Dollars Still Flow To AI",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-16",
-          "summary": "The Billion-Dollar Seed Isn\u2019t The Deal You Think It Is",
-          "url": "https://news.crunchbase.com/venture/billion-dollar-seed-ai-biotech-mcdonald-bison/"
-        },
-        {
-          "sector": "Space Tech",
-          "date": "2026-07-15",
-          "summary": "A SpaceX vet raised $65M to pull wire harnesses out of the Cold War era",
-          "url": "https://techcrunch.com/2026/07/15/a-spacex-vet-raised-65m-to-pull-wire-harnesses-out-of-the-cold-war-era/"
-        }
-      ]
-    },
-    {
       "fund": "Khosla Ventures",
       "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s), 5 in the last 30d.",
       "coverage": 5,
@@ -365,7 +376,7 @@
       "recent30": 5,
       "recent90": 5,
       "prior30": 0,
-      "last_deal_days": 5,
+      "last_deal_days": 6,
       "deals": [
         {
           "sector": "Healthtech / Bio",
@@ -418,7 +429,7 @@
       "recent30": 5,
       "recent90": 5,
       "prior30": 0,
-      "last_deal_days": 15,
+      "last_deal_days": 16,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -476,7 +487,7 @@
       "recent30": 4,
       "recent90": 4,
       "prior30": 0,
-      "last_deal_days": 3,
+      "last_deal_days": 4,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -523,7 +534,7 @@
       "recent30": 4,
       "recent90": 4,
       "prior30": 0,
-      "last_deal_days": 5,
+      "last_deal_days": 6,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -552,6 +563,53 @@
       ]
     },
     {
+      "fund": "Forerunner",
+      "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
+      "coverage": 4,
+      "sectors": [
+        {
+          "label": "Fintech / Payments",
+          "count": 3,
+          "weight": 3.0
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 4,
+      "recent90": 4,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-26",
+          "summary": "Ant\u2019s $1.2 Billion A Round Tops This Weeks Fundings and Acquisitions",
+          "url": "https://www.crowdfundinsider.com/2026/07/293681-ants-1-2b-a-round-tops-this-weeks-fundings-and-acquisitions/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-20",
+          "summary": "Natural Raises $30M Series A to Build Payments Infrastructure for AI Agents",
+          "url": "https://www.prnewswire.com/news-releases/natural-raises-30m-series-a-to-build-payments-infrastructure-for-ai-agents-302829855.html"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-20",
+          "summary": "Natural raises $30M to reinvent payments for AI agents \u2014 and take on Stripe",
+          "url": "https://techcrunch.com/2026/07/20/natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-20",
+          "summary": "Natural Raises $30 Million to Build Payment Rails for AI Agents",
+          "url": "https://www.pymnts.com/news/investment-tracker/2026/natural-raises-30-million-to-build-payment-rails-for-ai-agents/"
+        }
+      ]
+    },
+    {
       "fund": "Index Ventures",
       "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 4 in the last 30d.",
       "coverage": 4,
@@ -570,7 +628,7 @@
       "recent30": 4,
       "recent90": 4,
       "prior30": 0,
-      "last_deal_days": 8,
+      "last_deal_days": 9,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -622,7 +680,7 @@
       "recent30": 4,
       "recent90": 4,
       "prior30": 0,
-      "last_deal_days": 15,
+      "last_deal_days": 16,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -674,7 +732,7 @@
       "recent30": 4,
       "recent90": 4,
       "prior30": 0,
-      "last_deal_days": 15,
+      "last_deal_days": 16,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -726,7 +784,7 @@
       "recent30": 4,
       "recent90": 4,
       "prior30": 0,
-      "last_deal_days": 15,
+      "last_deal_days": 16,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -773,7 +831,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -814,7 +872,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 5,
+      "last_deal_days": 6,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -837,17 +895,22 @@
       ]
     },
     {
-      "fund": "Forerunner",
-      "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s), 3 in the last 30d.",
+      "fund": "Menlo Ventures",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
       "coverage": 3,
       "sectors": [
         {
-          "label": "Fintech / Payments",
-          "count": 2,
-          "weight": 2.0
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
         },
         {
-          "label": "Cybersecurity",
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "AI / ML Infra",
           "count": 1,
           "weight": 1.0
         }
@@ -855,25 +918,25 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 5,
+      "last_deal_days": 0,
       "deals": [
         {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-26",
+          "summary": "Ant\u2019s $1.2 Billion A Round Tops This Weeks Fundings and Acquisitions",
+          "url": "https://www.crowdfundinsider.com/2026/07/293681-ants-1-2b-a-round-tops-this-weeks-fundings-and-acquisitions/"
+        },
+        {
           "sector": "Cybersecurity",
-          "date": "2026-07-20",
-          "summary": "Natural Raises $30M Series A to Build Payments Infrastructure for AI Agents",
-          "url": "https://www.prnewswire.com/news-releases/natural-raises-30m-series-a-to-build-payments-infrastructure-for-ai-agents-302829855.html"
+          "date": "2026-07-16",
+          "summary": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+          "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/"
         },
         {
-          "sector": "Fintech / Payments",
-          "date": "2026-07-20",
-          "summary": "Natural raises $30M to reinvent payments for AI agents \u2014 and take on Stripe",
-          "url": "https://techcrunch.com/2026/07/20/natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-07-20",
-          "summary": "Natural Raises $30 Million to Build Payment Rails for AI Agents",
-          "url": "https://www.pymnts.com/news/investment-tracker/2026/natural-raises-30-million-to-build-payment-rails-for-ai-agents/"
+          "sector": "AI / ML Infra",
+          "date": "2026-07-16",
+          "summary": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+          "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/"
         }
       ]
     },
@@ -891,7 +954,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 10,
+      "last_deal_days": 11,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -932,7 +995,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 15,
+      "last_deal_days": 16,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -973,7 +1036,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 15,
+      "last_deal_days": 16,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1014,7 +1077,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 15,
+      "last_deal_days": 16,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1055,7 +1118,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 15,
+      "last_deal_days": 16,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1096,7 +1159,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 10,
+      "last_deal_days": 11,
       "deals": [
         {
           "sector": "Space Tech",
@@ -1142,7 +1205,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 15,
+      "last_deal_days": 16,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1188,7 +1251,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 15,
+      "last_deal_days": 16,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1234,7 +1297,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 17,
+      "last_deal_days": 18,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1275,7 +1338,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 18,
+      "last_deal_days": 19,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1316,7 +1379,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 18,
+      "last_deal_days": 19,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1357,7 +1420,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 18,
+      "last_deal_days": 19,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1393,7 +1456,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 16,
+      "last_deal_days": 17,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -1429,7 +1492,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 17,
+      "last_deal_days": 18,
       "deals": [
         {
           "sector": "Space Tech",
@@ -1465,7 +1528,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 17,
+      "last_deal_days": 18,
       "deals": [
         {
           "sector": "Space Tech",
@@ -1501,7 +1564,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1531,7 +1594,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1566,7 +1629,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1579,6 +1642,41 @@
           "date": "2026-07-21",
           "summary": "Bucking EV slowdown, Sila raises $300M to expand battery materials factory",
           "url": "https://techcrunch.com/2026/07/21/bucking-ev-slowdown-sila-raises-300m-to-expand-battery-materials-factory/"
+        }
+      ]
+    },
+    {
+      "fund": "Tiger Global",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-26",
+          "summary": "Ant\u2019s $1.2 Billion A Round Tops This Weeks Fundings and Acquisitions",
+          "url": "https://www.crowdfundinsider.com/2026/07/293681-ants-1-2b-a-round-tops-this-weeks-fundings-and-acquisitions/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-24",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Physical AI Startup Atoms Leads In Varied Week For Large Deals",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms/"
         }
       ]
     },
@@ -1596,7 +1694,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1609,6 +1707,41 @@
           "date": "2026-07-10",
           "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
           "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
+        }
+      ]
+    },
+    {
+      "fund": "Cyberstarts",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-26",
+          "summary": "Ant\u2019s $1.2 Billion A Round Tops This Weeks Fundings and Acquisitions",
+          "url": "https://www.crowdfundinsider.com/2026/07/293681-ants-1-2b-a-round-tops-this-weeks-fundings-and-acquisitions/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-24",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Physical AI Startup Atoms Leads In Varied Week For Large Deals",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms/"
         }
       ]
     },
@@ -1626,7 +1759,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 2,
+      "last_deal_days": 3,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1661,7 +1794,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 2,
+      "last_deal_days": 3,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1696,7 +1829,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 4,
+      "last_deal_days": 5,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1726,7 +1859,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 8,
+      "last_deal_days": 9,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1761,7 +1894,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 8,
+      "last_deal_days": 9,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1796,7 +1929,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 9,
+      "last_deal_days": 10,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1831,7 +1964,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 9,
+      "last_deal_days": 10,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1866,7 +1999,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 9,
+      "last_deal_days": 10,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1901,7 +2034,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 2,
+      "last_deal_days": 3,
       "deals": [
         {
           "sector": "Healthtech / Bio",
@@ -1914,41 +2047,6 @@
           "date": "2026-07-16",
           "summary": "The Billion-Dollar Seed Isn\u2019t The Deal You Think It Is",
           "url": "https://news.crunchbase.com/venture/billion-dollar-seed-ai-biotech-mcdonald-bison/"
-        }
-      ]
-    },
-    {
-      "fund": "Menlo Ventures",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 2,
-      "recent90": 2,
-      "prior30": 0,
-      "last_deal_days": 9,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-16",
-          "summary": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
-          "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-07-16",
-          "summary": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
-          "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/"
         }
       ]
     },
@@ -1966,7 +2064,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 10,
+      "last_deal_days": 11,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1996,7 +2094,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 10,
+      "last_deal_days": 11,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -2026,7 +2124,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 10,
+      "last_deal_days": 11,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -2056,7 +2154,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 10,
+      "last_deal_days": 11,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -2091,7 +2189,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 12,
+      "last_deal_days": 13,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -2126,7 +2224,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 12,
+      "last_deal_days": 13,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -2161,7 +2259,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 8,
+      "last_deal_days": 9,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -2196,7 +2294,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 4,
+      "last_deal_days": 5,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -2231,7 +2329,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 15,
+      "last_deal_days": 16,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -2266,7 +2364,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 15,
+      "last_deal_days": 16,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -2301,7 +2399,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 15,
+      "last_deal_days": 16,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -2336,7 +2434,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 17,
+      "last_deal_days": 18,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -2371,7 +2469,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 17,
+      "last_deal_days": 18,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -2406,7 +2504,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 17,
+      "last_deal_days": 18,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -2441,7 +2539,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 17,
+      "last_deal_days": 18,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -2476,7 +2574,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 17,
+      "last_deal_days": 18,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -2511,7 +2609,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 17,
+      "last_deal_days": 18,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -2546,7 +2644,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 17,
+      "last_deal_days": 18,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -2581,7 +2679,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 17,
+      "last_deal_days": 18,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -2616,7 +2714,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 17,
+      "last_deal_days": 18,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -2651,7 +2749,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 9,
+      "last_deal_days": 10,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -2686,7 +2784,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 9,
+      "last_deal_days": 10,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -2721,7 +2819,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 3,
+      "last_deal_days": 4,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -2734,6 +2832,36 @@
           "date": "2026-07-02",
           "summary": "The Week\u2019s 10 Biggest Funding Rounds: AI, Energy And Biotech Lead The Way",
           "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-biotech-joulent/"
+        }
+      ]
+    },
+    {
+      "fund": "Hummingbird",
+      "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Fintech / Payments",
+          "count": 2,
+          "weight": 2.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-26",
+          "summary": "Ant\u2019s $1.2 Billion A Round Tops This Weeks Fundings and Acquisitions",
+          "url": "https://www.crowdfundinsider.com/2026/07/293681-ants-1-2b-a-round-tops-this-weeks-fundings-and-acquisitions/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-16",
+          "summary": "Munich robotics startup Microagi raises $55m, Germany\u2019s largest ever seed round",
+          "url": "https://sifted.eu/articles/munich-robotics-startup-microagi-raises-55m-germanys-largest-ever-seed-round/"
         }
       ]
     },
@@ -2756,7 +2884,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -2786,7 +2914,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 5,
+      "last_deal_days": 6,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -2816,7 +2944,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 5,
+      "last_deal_days": 6,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -2851,7 +2979,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 3,
+      "last_deal_days": 4,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -2881,7 +3009,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 10,
+      "last_deal_days": 11,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -2916,7 +3044,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 19,
+      "last_deal_days": 20,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -2951,7 +3079,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 9,
+      "last_deal_days": 10,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -2981,7 +3109,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 9,
+      "last_deal_days": 10,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -3011,7 +3139,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 16,
+      "last_deal_days": 17,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -3041,7 +3169,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 16,
+      "last_deal_days": 17,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -3076,7 +3204,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 16,
+      "last_deal_days": 17,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -3111,7 +3239,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 17,
+      "last_deal_days": 18,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -3141,7 +3269,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 7,
+      "last_deal_days": 8,
       "deals": [
         {
           "sector": "Space Tech",
@@ -3171,7 +3299,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 8,
+      "last_deal_days": 9,
       "deals": [
         {
           "sector": "Space Tech",
@@ -3201,7 +3329,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 3,
+      "last_deal_days": 4,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -3231,7 +3359,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 11,
+      "last_deal_days": 12,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -3261,7 +3389,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 11,
+      "last_deal_days": 12,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -3291,7 +3419,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 11,
+      "last_deal_days": 12,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -3321,7 +3449,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 16,
+      "last_deal_days": 17,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -3349,10 +3477,10 @@
       },
       {
         "fund": "Sequoia Capital",
-        "thesis": "Revealed focus: Cybersecurity and Space Tech. 5 attributed deal(s), 5 in the last 30d.",
-        "coverage": 5,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 6 attributed deal(s), 6 in the last 30d.",
+        "coverage": 6,
         "sector_count": 4,
-        "recent30": 5
+        "recent30": 6
       },
       {
         "fund": "Andreessen Horowitz",
@@ -3573,7 +3701,14 @@
       },
       {
         "fund": "Forerunner",
-        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s), 3 in the last 30d.",
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 4
+      },
+      {
+        "fund": "Menlo Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
         "sector_count": 1,
         "recent30": 3
@@ -3602,6 +3737,20 @@
       {
         "fund": "Sutter Hill Ventures",
         "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Tiger Global",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Cyberstarts",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,
         "recent30": 2
@@ -3651,13 +3800,6 @@
       {
         "fund": "First Round Capital",
         "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Menlo Ventures",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,
         "recent30": 2
@@ -3875,6 +4017,13 @@
         "recent30": 3
       },
       {
+        "fund": "Menlo Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "BlackRock",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
@@ -3939,13 +4088,6 @@
       },
       {
         "fund": "Databricks Ventures",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Menlo Ventures",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,
@@ -4066,6 +4208,13 @@
     ],
     "Fintech / Payments": [
       {
+        "fund": "Forerunner",
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 3,
+        "recent30": 4
+      },
+      {
         "fund": "Paradigm",
         "thesis": "Revealed focus: Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
@@ -4080,11 +4229,11 @@
         "recent30": 6
       },
       {
-        "fund": "Forerunner",
-        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
+        "fund": "Hummingbird",
+        "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
         "sector_count": 2,
-        "recent30": 3
+        "recent30": 2
       },
       {
         "fund": "Elefund",
@@ -4113,6 +4262,13 @@
         "coverage": 8,
         "sector_count": 1,
         "recent30": 8
+      },
+      {
+        "fund": "Sequoia Capital",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 6 attributed deal(s), 6 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 1,
+        "recent30": 6
       },
       {
         "fund": "Insight Partners",
@@ -4157,6 +4313,13 @@
         "recent30": 4
       },
       {
+        "fund": "Menlo Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "Google",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
@@ -4169,6 +4332,20 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 3
+      },
+      {
+        "fund": "Tiger Global",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Cyberstarts",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
       },
       {
         "fund": "Goldman Sachs Alternatives",
@@ -4265,10 +4442,10 @@
       },
       {
         "fund": "Sequoia Capital",
-        "thesis": "Revealed focus: Cybersecurity and Space Tech. 5 attributed deal(s), 5 in the last 30d.",
-        "coverage": 5,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 6 attributed deal(s), 6 in the last 30d.",
+        "coverage": 6,
         "sector_count": 1,
-        "recent30": 5
+        "recent30": 6
       },
       {
         "fund": "Founders Fund",

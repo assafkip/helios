@@ -1,23 +1,23 @@
 {
-  "generated": "2026-08-01T20:47:24Z",
+  "generated": "2026-08-01T21:52:02Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 9031,
-      "recent7": 2237,
+      "total": 9042,
+      "recent7": 2248,
       "sparkline": [
         1779,
         2383,
         2269,
-        2237
+        2248
       ],
       "momentum_pct": 34,
       "momentum_basis": "7d",
       "hard_count": 363,
       "hard_ratio": 0.04,
       "exit_count": 36,
-      "talk_count": 8543,
-      "whitespace_score": 23.5,
+      "talk_count": 8554,
+      "whitespace_score": 23.6,
       "rising": [
         {
           "term": "openai",
@@ -36,8 +36,8 @@
         },
         {
           "term": "security",
-          "count": 1008,
-          "delta": 101
+          "count": 1012,
+          "delta": 105
         },
         {
           "term": "models",
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1583
+          "count": 1592
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 812
+          "count": 813
         },
         {
           "name": "ProductHunt",
@@ -187,20 +187,20 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 910,
-      "recent7": 205,
+      "total": 911,
+      "recent7": 206,
       "sparkline": [
         187,
         225,
         191,
-        205
+        206
       ],
       "momentum_pct": 29,
       "momentum_basis": "7d",
       "hard_count": 66,
-      "hard_ratio": 0.073,
+      "hard_ratio": 0.072,
       "exit_count": 13,
-      "talk_count": 806,
+      "talk_count": 807,
       "whitespace_score": 12.2,
       "rising": [
         {
@@ -248,7 +248,7 @@
         {
           "name": "Simon Willison",
           "firm": "simonwillison.net",
-          "count": 34
+          "count": 35
         },
         {
           "name": "Jason Lemkin",
@@ -780,18 +780,18 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2237,
+        "recent7": 2248,
         "momentum_pct": 34,
         "momentum_basis": "7d",
-        "total": 9031,
+        "total": 9042,
         "sparkline": [
           1779,
           2383,
           2269,
-          2237
+          2248
         ],
         "hard_ratio": 0.04,
-        "whitespace_score": 23.5
+        "whitespace_score": 23.6
       },
       {
         "id": "fintech",
@@ -828,17 +828,17 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 205,
+        "recent7": 206,
         "momentum_pct": 29,
         "momentum_basis": "7d",
-        "total": 910,
+        "total": 911,
         "sparkline": [
           187,
           225,
           191,
-          205
+          206
         ],
-        "hard_ratio": 0.073,
+        "hard_ratio": 0.072,
         "whitespace_score": 12.2
       },
       {
@@ -935,8 +935,8 @@
       },
       {
         "term": "security",
-        "count": 1087,
-        "delta": 143
+        "count": 1091,
+        "delta": 147
       },
       {
         "term": "openai",
@@ -1096,6 +1096,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 14552
+    "total_signals": 14564
   }
 }

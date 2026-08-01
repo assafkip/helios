@@ -1,28 +1,28 @@
 {
-  "generated": "2026-08-01T06:25:41Z",
+  "generated": "2026-08-01T09:03:31Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 8865,
-      "recent7": 2072,
+      "total": 8894,
+      "recent7": 2100,
       "sparkline": [
         1779,
         2383,
-        2268,
-        2072
+        2269,
+        2100
       ],
       "momentum_pct": 32,
       "momentum_basis": "7d",
       "hard_count": 359,
       "hard_ratio": 0.04,
       "exit_count": 35,
-      "talk_count": 8383,
+      "talk_count": 8412,
       "whitespace_score": 23.4,
       "rising": [
         {
           "term": "openai",
-          "count": 193,
-          "delta": 159
+          "count": 194,
+          "delta": 160
         },
         {
           "term": "hugging",
@@ -41,13 +41,13 @@
         },
         {
           "term": "security",
-          "count": 972,
-          "delta": 65
+          "count": 982,
+          "delta": 75
         },
         {
           "term": "cybersecurity",
-          "count": 533,
-          "delta": 62
+          "count": 535,
+          "delta": 64
         },
         {
           "term": "lab",
@@ -64,17 +64,17 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1496
+          "count": 1505
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 788
+          "count": 792
         },
         {
           "name": "ProductHunt",
           "firm": "producthunt",
-          "count": 181
+          "count": 190
         },
         {
           "name": "Security Conferences",
@@ -95,20 +95,20 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 1386,
-      "recent7": 336,
+      "total": 1387,
+      "recent7": 337,
       "sparkline": [
         288,
         328,
         357,
-        336
+        337
       ],
       "momentum_pct": 34,
       "momentum_basis": "7d",
       "hard_count": 125,
       "hard_ratio": 0.09,
       "exit_count": 46,
-      "talk_count": 1161,
+      "talk_count": 1162,
       "whitespace_score": 9.3,
       "rising": [
         {
@@ -187,20 +187,20 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 894,
-      "recent7": 189,
+      "total": 896,
+      "recent7": 191,
       "sparkline": [
         187,
         225,
         191,
-        189
+        191
       ],
       "momentum_pct": 27,
       "momentum_basis": "7d",
       "hard_count": 64,
-      "hard_ratio": 0.072,
+      "hard_ratio": 0.071,
       "exit_count": 13,
-      "talk_count": 792,
+      "talk_count": 794,
       "whitespace_score": 12.4,
       "rising": [
         {
@@ -239,8 +239,8 @@
           "delta": 18
         },
         {
-          "term": "security",
-          "count": 28,
+          "term": "google",
+          "count": 71,
           "delta": 15
         }
       ],
@@ -622,21 +622,21 @@
     },
     "space-tech": {
       "label": "Space Tech",
-      "total": 685,
-      "recent7": 152,
+      "total": 686,
+      "recent7": 153,
       "sparkline": [
         163,
         147,
         143,
-        152
+        153
       ],
       "momentum_pct": 29,
       "momentum_basis": "7d",
-      "hard_count": 44,
-      "hard_ratio": 0.064,
+      "hard_count": 45,
+      "hard_ratio": 0.066,
       "exit_count": 9,
       "talk_count": 611,
-      "whitespace_score": 13.9,
+      "whitespace_score": 13.6,
       "rising": [
         {
           "term": "red",
@@ -669,13 +669,13 @@
           "delta": 12
         },
         {
-          "term": "nasa",
-          "count": 72,
-          "delta": 10
+          "term": "worlds",
+          "count": 13,
+          "delta": 11
         },
         {
-          "term": "mission",
-          "count": 50,
+          "term": "nasa",
+          "count": 72,
           "delta": 10
         }
       ],
@@ -780,15 +780,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2072,
+        "recent7": 2100,
         "momentum_pct": 32,
         "momentum_basis": "7d",
-        "total": 8865,
+        "total": 8894,
         "sparkline": [
           1779,
           2383,
-          2268,
-          2072
+          2269,
+          2100
         ],
         "hard_ratio": 0.04,
         "whitespace_score": 23.4
@@ -796,15 +796,15 @@
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 336,
+        "recent7": 337,
         "momentum_pct": 34,
         "momentum_basis": "7d",
-        "total": 1386,
+        "total": 1387,
         "sparkline": [
           288,
           328,
           357,
-          336
+          337
         ],
         "hard_ratio": 0.09,
         "whitespace_score": 9.3
@@ -828,34 +828,34 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 189,
+        "recent7": 191,
         "momentum_pct": 27,
         "momentum_basis": "7d",
-        "total": 894,
+        "total": 896,
         "sparkline": [
           187,
           225,
           191,
-          189
+          191
         ],
-        "hard_ratio": 0.072,
+        "hard_ratio": 0.071,
         "whitespace_score": 12.4
       },
       {
         "id": "space-tech",
         "label": "Space Tech",
-        "recent7": 152,
+        "recent7": 153,
         "momentum_pct": 29,
         "momentum_basis": "7d",
-        "total": 685,
+        "total": 686,
         "sparkline": [
           163,
           147,
           143,
-          152
+          153
         ],
-        "hard_ratio": 0.064,
-        "whitespace_score": 13.9
+        "hard_ratio": 0.066,
+        "whitespace_score": 13.6
       },
       {
         "id": "healthtech",
@@ -935,8 +935,13 @@
       },
       {
         "term": "openai",
-        "count": 332,
-        "delta": 125
+        "count": 335,
+        "delta": 128
+      },
+      {
+        "term": "security",
+        "count": 1059,
+        "delta": 115
       },
       {
         "term": "models",
@@ -944,19 +949,14 @@
         "delta": 111
       },
       {
-        "term": "security",
-        "count": 1049,
-        "delta": 105
-      },
-      {
         "term": "cybersecurity",
-        "count": 567,
-        "delta": 92
+        "count": 569,
+        "delta": 94
       },
       {
         "term": "platform",
-        "count": 318,
-        "delta": 57
+        "count": 319,
+        "delta": 58
       },
       {
         "term": "health",
@@ -1096,6 +1096,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 14341
+    "total_signals": 14374
   }
 }

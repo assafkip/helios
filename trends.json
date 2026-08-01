@@ -1,23 +1,23 @@
 {
-  "generated": "2026-08-01T16:01:22Z",
+  "generated": "2026-08-01T17:57:52Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 8978,
-      "recent7": 2184,
+      "total": 9000,
+      "recent7": 2206,
       "sparkline": [
         1779,
         2383,
         2269,
-        2184
+        2206
       ],
-      "momentum_pct": 33,
+      "momentum_pct": 34,
       "momentum_basis": "7d",
       "hard_count": 363,
       "hard_ratio": 0.04,
       "exit_count": 36,
-      "talk_count": 8491,
-      "whitespace_score": 23.4,
+      "talk_count": 8513,
+      "whitespace_score": 23.5,
       "rising": [
         {
           "term": "openai",
@@ -36,8 +36,8 @@
         },
         {
           "term": "security",
-          "count": 1004,
-          "delta": 97
+          "count": 1006,
+          "delta": 99
         },
         {
           "term": "models",
@@ -46,8 +46,8 @@
         },
         {
           "term": "cybersecurity",
-          "count": 543,
-          "delta": 72
+          "count": 544,
+          "delta": 73
         },
         {
           "term": "lab",
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1549
+          "count": 1559
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 806
+          "count": 810
         },
         {
           "name": "ProductHunt",
@@ -95,20 +95,20 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 1398,
-      "recent7": 348,
+      "total": 1399,
+      "recent7": 349,
       "sparkline": [
         288,
         328,
         357,
-        348
+        349
       ],
       "momentum_pct": 35,
       "momentum_basis": "7d",
       "hard_count": 126,
       "hard_ratio": 0.09,
       "exit_count": 47,
-      "talk_count": 1170,
+      "talk_count": 1171,
       "whitespace_score": 9.3,
       "rising": [
         {
@@ -187,20 +187,20 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 903,
-      "recent7": 198,
+      "total": 905,
+      "recent7": 200,
       "sparkline": [
         187,
         225,
         191,
-        198
+        200
       ],
-      "momentum_pct": 28,
+      "momentum_pct": 29,
       "momentum_basis": "7d",
       "hard_count": 64,
       "hard_ratio": 0.071,
       "exit_count": 13,
-      "talk_count": 801,
+      "talk_count": 803,
       "whitespace_score": 12.5,
       "rising": [
         {
@@ -540,21 +540,21 @@
     },
     "marketing-ads": {
       "label": "Marketing / Ads",
-      "total": 409,
-      "recent7": 85,
+      "total": 410,
+      "recent7": 86,
       "sparkline": [
         95,
         94,
         95,
-        85
+        86
       ],
-      "momentum_pct": 26,
+      "momentum_pct": 27,
       "momentum_basis": "7d",
       "hard_count": 9,
       "hard_ratio": 0.022,
       "exit_count": 3,
-      "talk_count": 392,
-      "whitespace_score": 43.6,
+      "talk_count": 393,
+      "whitespace_score": 43.7,
       "rising": [
         {
           "term": "brand",
@@ -569,6 +569,11 @@
         {
           "term": "brands",
           "count": 32,
+          "delta": 9
+        },
+        {
+          "term": "product",
+          "count": 12,
           "delta": 9
         },
         {
@@ -590,11 +595,6 @@
           "term": "social",
           "count": 16,
           "delta": 8
-        },
-        {
-          "term": "product",
-          "count": 11,
-          "delta": 8
         }
       ],
       "movers": [
@@ -609,13 +609,13 @@
           "count": 14
         },
         {
-          "name": "Rand Fishkin",
-          "firm": "SparkToro",
-          "count": 3
-        },
-        {
           "name": "Lenny Rachitsky",
           "firm": "Angel / Lenny's Newsletter",
+          "count": 4
+        },
+        {
+          "name": "Rand Fishkin",
+          "firm": "SparkToro",
           "count": 3
         }
       ]
@@ -780,31 +780,31 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2184,
-        "momentum_pct": 33,
+        "recent7": 2206,
+        "momentum_pct": 34,
         "momentum_basis": "7d",
-        "total": 8978,
+        "total": 9000,
         "sparkline": [
           1779,
           2383,
           2269,
-          2184
+          2206
         ],
         "hard_ratio": 0.04,
-        "whitespace_score": 23.4
+        "whitespace_score": 23.5
       },
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 348,
+        "recent7": 349,
         "momentum_pct": 35,
         "momentum_basis": "7d",
-        "total": 1398,
+        "total": 1399,
         "sparkline": [
           288,
           328,
           357,
-          348
+          349
         ],
         "hard_ratio": 0.09,
         "whitespace_score": 9.3
@@ -828,15 +828,15 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 198,
-        "momentum_pct": 28,
+        "recent7": 200,
+        "momentum_pct": 29,
         "momentum_basis": "7d",
-        "total": 903,
+        "total": 905,
         "sparkline": [
           187,
           225,
           191,
-          198
+          200
         ],
         "hard_ratio": 0.071,
         "whitespace_score": 12.5
@@ -876,18 +876,18 @@
       {
         "id": "marketing-ads",
         "label": "Marketing / Ads",
-        "recent7": 85,
-        "momentum_pct": 26,
+        "recent7": 86,
+        "momentum_pct": 27,
         "momentum_basis": "7d",
-        "total": 409,
+        "total": 410,
         "sparkline": [
           95,
           94,
           95,
-          85
+          86
         ],
         "hard_ratio": 0.022,
-        "whitespace_score": 43.6
+        "whitespace_score": 43.7
       },
       {
         "id": "edtech",
@@ -935,23 +935,23 @@
       },
       {
         "term": "security",
-        "count": 1083,
-        "delta": 139
+        "count": 1085,
+        "delta": 141
       },
       {
         "term": "openai",
-        "count": 339,
-        "delta": 132
+        "count": 341,
+        "delta": 134
       },
       {
         "term": "models",
-        "count": 255,
-        "delta": 113
+        "count": 256,
+        "delta": 114
       },
       {
         "term": "cybersecurity",
-        "count": 577,
-        "delta": 102
+        "count": 578,
+        "delta": 103
       },
       {
         "term": "platform",
@@ -959,14 +959,14 @@
         "delta": 61
       },
       {
+        "term": "million",
+        "count": 363,
+        "delta": 60
+      },
+      {
         "term": "hacker",
         "count": 101,
         "delta": 59
-      },
-      {
-        "term": "million",
-        "count": 361,
-        "delta": 58
       },
       {
         "term": "health",
@@ -984,6 +984,18 @@
         "date": "2026-08-01",
         "vertical": "AI / ML Infra",
         "vid": "ai-ml",
+        "days": 0,
+        "hard": 0
+      },
+      {
+        "person": "Lenny Rachitsky",
+        "firm": "Angel / Lenny's Newsletter",
+        "summary": "\ud83e\udde0 Community Wisdom: Getting started with open source models, making a U.S. business trip worth it, preparing for a possible layoff, when marketing can\u2019t keep up with product, and more",
+        "category": "market_commentary",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-started",
+        "date": "2026-08-01",
+        "vertical": "Marketing / Ads",
+        "vid": "marketing-ads",
         "days": 0,
         "hard": 0
       },
@@ -1082,20 +1094,8 @@
         "vid": "marketing-ads",
         "days": 4,
         "hard": 0
-      },
-      {
-        "person": "Radical Ventures",
-        "firm": "Radical Ventures",
-        "summary": "Conversation on The Rise of NeoLabs",
-        "category": "market_commentary",
-        "url": "https://radical.vc/conversation-on-the-rise-of-neolabs/?utm_source=rss&utm_medium=rss&utm_campaign=conversation-on-the-rise-of-neolabs",
-        "date": "2026-07-27",
-        "vertical": "AI / ML Infra",
-        "vid": "ai-ml",
-        "days": 5,
-        "hard": 0
       }
     ],
-    "total_signals": 14485
+    "total_signals": 14511
   }
 }

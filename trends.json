@@ -1,22 +1,22 @@
 {
-  "generated": "2026-08-02T17:59:12Z",
+  "generated": "2026-08-02T19:17:28Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 9234,
-      "recent7": 2215,
+      "total": 9251,
+      "recent7": 2232,
       "sparkline": [
         1989,
         2414,
         2236,
-        2215
+        2232
       ],
       "momentum_pct": 33,
       "momentum_basis": "7d",
-      "hard_count": 366,
+      "hard_count": 367,
       "hard_ratio": 0.04,
       "exit_count": 36,
-      "talk_count": 8742,
+      "talk_count": 8758,
       "whitespace_score": 23.9,
       "rising": [
         {
@@ -45,14 +45,14 @@
           "delta": 81
         },
         {
-          "term": "lab",
-          "count": 108,
-          "delta": 52
+          "term": "cybersecurity",
+          "count": 553,
+          "delta": 53
         },
         {
-          "term": "cybersecurity",
-          "count": 549,
-          "delta": 49
+          "term": "lab",
+          "count": 109,
+          "delta": 53
         },
         {
           "term": "holidays",
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1569
+          "count": 1579
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 797
+          "count": 802
         },
         {
           "name": "ProductHunt",
@@ -84,7 +84,7 @@
         {
           "name": "Security Affairs",
           "firm": "blog",
-          "count": 56
+          "count": 57
         },
         {
           "name": "Ping Li",
@@ -279,20 +279,20 @@
     },
     "healthtech": {
       "label": "Healthtech / Bio",
-      "total": 501,
-      "recent7": 121,
+      "total": 502,
+      "recent7": 122,
       "sparkline": [
         102,
         110,
         119,
-        121
+        122
       ],
       "momentum_pct": 33,
       "momentum_basis": "7d",
       "hard_count": 29,
       "hard_ratio": 0.058,
       "exit_count": 13,
-      "talk_count": 452,
+      "talk_count": 453,
       "whitespace_score": 15.6,
       "rising": [
         {
@@ -312,8 +312,8 @@
         },
         {
           "term": "drug",
-          "count": 53,
-          "delta": 13
+          "count": 54,
+          "delta": 14
         },
         {
           "term": "panel",
@@ -331,8 +331,8 @@
           "delta": 12
         },
         {
-          "term": "health tech",
-          "count": 14,
+          "term": "lilly",
+          "count": 17,
           "delta": 11
         }
       ],
@@ -340,7 +340,7 @@
         {
           "name": "STAT News",
           "firm": "STAT",
-          "count": 106
+          "count": 107
         },
         {
           "name": "MedCity News",
@@ -371,20 +371,20 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 925,
-      "recent7": 221,
+      "total": 926,
+      "recent7": 222,
       "sparkline": [
         203,
         221,
         210,
-        221
+        222
       ],
-      "momentum_pct": 31,
+      "momentum_pct": 32,
       "momentum_basis": "7d",
       "hard_count": 42,
       "hard_ratio": 0.045,
       "exit_count": 5,
-      "talk_count": 865,
+      "talk_count": 866,
       "whitespace_score": 20.6,
       "rising": [
         {
@@ -432,7 +432,7 @@
         {
           "name": "CleanTechnica",
           "firm": "CleanTechnica",
-          "count": 167
+          "count": 168
         },
         {
           "name": "Utility Dive",
@@ -780,15 +780,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2215,
+        "recent7": 2232,
         "momentum_pct": 33,
         "momentum_basis": "7d",
-        "total": 9234,
+        "total": 9251,
         "sparkline": [
           1989,
           2414,
           2236,
-          2215
+          2232
         ],
         "hard_ratio": 0.04,
         "whitespace_score": 23.9
@@ -812,15 +812,15 @@
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 221,
-        "momentum_pct": 31,
+        "recent7": 222,
+        "momentum_pct": 32,
         "momentum_basis": "7d",
-        "total": 925,
+        "total": 926,
         "sparkline": [
           203,
           221,
           210,
-          221
+          222
         ],
         "hard_ratio": 0.045,
         "whitespace_score": 20.6
@@ -860,15 +860,15 @@
       {
         "id": "healthtech",
         "label": "Healthtech / Bio",
-        "recent7": 121,
+        "recent7": 122,
         "momentum_pct": 33,
         "momentum_basis": "7d",
-        "total": 501,
+        "total": 502,
         "sparkline": [
           102,
           110,
           119,
-          121
+          122
         ],
         "hard_ratio": 0.058,
         "whitespace_score": 15.6
@@ -944,19 +944,24 @@
         "delta": 107
       },
       {
+        "term": "cybersecurity",
+        "count": 587,
+        "delta": 83
+      },
+      {
         "term": "hacker",
         "count": 122,
         "delta": 83
       },
       {
-        "term": "cybersecurity",
-        "count": 583,
-        "delta": 79
-      },
-      {
         "term": "health",
         "count": 210,
         "delta": 58
+      },
+      {
+        "term": "security",
+        "count": 1072,
+        "delta": 57
       },
       {
         "term": "million",
@@ -967,11 +972,6 @@
         "term": "management",
         "count": 150,
         "delta": 55
-      },
-      {
-        "term": "lab",
-        "count": 132,
-        "delta": 52
       }
     ],
     "highlights": [
@@ -1096,6 +1096,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 14797
+    "total_signals": 14816
   }
 }

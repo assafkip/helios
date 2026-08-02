@@ -1,22 +1,22 @@
 {
-  "generated": "2026-08-02T14:59:38Z",
+  "generated": "2026-08-02T16:05:11Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 9198,
-      "recent7": 2179,
+      "total": 9213,
+      "recent7": 2194,
       "sparkline": [
         1989,
         2414,
         2236,
-        2179
+        2194
       ],
       "momentum_pct": 32,
       "momentum_basis": "7d",
       "hard_count": 366,
       "hard_ratio": 0.04,
       "exit_count": 36,
-      "talk_count": 8707,
+      "talk_count": 8721,
       "whitespace_score": 23.8,
       "rising": [
         {
@@ -50,13 +50,13 @@
           "delta": 52
         },
         {
-          "term": "holidays",
-          "count": 48,
-          "delta": 47
+          "term": "cybersecurity",
+          "count": 548,
+          "delta": 48
         },
         {
-          "term": "hacker holidays",
-          "count": 47,
+          "term": "teams",
+          "count": 95,
           "delta": 47
         }
       ],
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1548
+          "count": 1559
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 786
+          "count": 789
         },
         {
           "name": "ProductHunt",
@@ -187,20 +187,20 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 925,
-      "recent7": 210,
+      "total": 926,
+      "recent7": 211,
       "sparkline": [
         199,
         219,
         189,
-        210
+        211
       ],
       "momentum_pct": 30,
       "momentum_basis": "7d",
       "hard_count": 66,
       "hard_ratio": 0.071,
       "exit_count": 13,
-      "talk_count": 820,
+      "talk_count": 821,
       "whitespace_score": 12.4,
       "rising": [
         {
@@ -220,8 +220,8 @@
         },
         {
           "term": "models",
-          "count": 102,
-          "delta": 30
+          "count": 103,
+          "delta": 31
         },
         {
           "term": "opus",
@@ -279,26 +279,26 @@
     },
     "healthtech": {
       "label": "Healthtech / Bio",
-      "total": 500,
-      "recent7": 120,
+      "total": 501,
+      "recent7": 121,
       "sparkline": [
         102,
         110,
         119,
-        120
+        121
       ],
-      "momentum_pct": 32,
+      "momentum_pct": 33,
       "momentum_basis": "7d",
-      "hard_count": 28,
-      "hard_ratio": 0.056,
+      "hard_count": 29,
+      "hard_ratio": 0.058,
       "exit_count": 13,
       "talk_count": 452,
-      "whitespace_score": 16.1,
+      "whitespace_score": 15.6,
       "rising": [
         {
           "term": "health",
-          "count": 128,
-          "delta": 42
+          "count": 131,
+          "delta": 45
         },
         {
           "term": "healthcare",
@@ -326,14 +326,14 @@
           "delta": 12
         },
         {
-          "term": "hospitals",
-          "count": 13,
-          "delta": 11
+          "term": "tech",
+          "count": 16,
+          "delta": 12
         },
         {
-          "term": "ldquo",
-          "count": 12,
-          "delta": 10
+          "term": "health tech",
+          "count": 14,
+          "delta": 11
         }
       ],
       "movers": [
@@ -345,7 +345,7 @@
         {
           "name": "MedCity News",
           "firm": "MedCity News",
-          "count": 53
+          "count": 54
         },
         {
           "name": "The Healthcare Blog",
@@ -371,20 +371,20 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 922,
-      "recent7": 218,
+      "total": 923,
+      "recent7": 219,
       "sparkline": [
         203,
         221,
         210,
-        218
+        219
       ],
       "momentum_pct": 31,
       "momentum_basis": "7d",
       "hard_count": 42,
       "hard_ratio": 0.046,
       "exit_count": 5,
-      "talk_count": 862,
+      "talk_count": 863,
       "whitespace_score": 20.5,
       "rising": [
         {
@@ -432,7 +432,7 @@
         {
           "name": "CleanTechnica",
           "firm": "CleanTechnica",
-          "count": 164
+          "count": 165
         },
         {
           "name": "Utility Dive",
@@ -780,15 +780,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2179,
+        "recent7": 2194,
         "momentum_pct": 32,
         "momentum_basis": "7d",
-        "total": 9198,
+        "total": 9213,
         "sparkline": [
           1989,
           2414,
           2236,
-          2179
+          2194
         ],
         "hard_ratio": 0.04,
         "whitespace_score": 23.8
@@ -812,15 +812,15 @@
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 218,
+        "recent7": 219,
         "momentum_pct": 31,
         "momentum_basis": "7d",
-        "total": 922,
+        "total": 923,
         "sparkline": [
           203,
           221,
           210,
-          218
+          219
         ],
         "hard_ratio": 0.046,
         "whitespace_score": 20.5
@@ -828,15 +828,15 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 210,
+        "recent7": 211,
         "momentum_pct": 30,
         "momentum_basis": "7d",
-        "total": 925,
+        "total": 926,
         "sparkline": [
           199,
           219,
           189,
-          210
+          211
         ],
         "hard_ratio": 0.071,
         "whitespace_score": 12.4
@@ -860,18 +860,18 @@
       {
         "id": "healthtech",
         "label": "Healthtech / Bio",
-        "recent7": 120,
-        "momentum_pct": 32,
+        "recent7": 121,
+        "momentum_pct": 33,
         "momentum_basis": "7d",
-        "total": 500,
+        "total": 501,
         "sparkline": [
           102,
           110,
           119,
-          120
+          121
         ],
-        "hard_ratio": 0.056,
-        "whitespace_score": 16.1
+        "hard_ratio": 0.058,
+        "whitespace_score": 15.6
       },
       {
         "id": "marketing-ads",
@@ -940,8 +940,8 @@
       },
       {
         "term": "models",
-        "count": 253,
-        "delta": 104
+        "count": 254,
+        "delta": 105
       },
       {
         "term": "hacker",
@@ -950,18 +950,18 @@
       },
       {
         "term": "cybersecurity",
-        "count": 578,
-        "delta": 74
+        "count": 582,
+        "delta": 78
+      },
+      {
+        "term": "health",
+        "count": 210,
+        "delta": 58
       },
       {
         "term": "million",
         "count": 362,
         "delta": 57
-      },
-      {
-        "term": "health",
-        "count": 207,
-        "delta": 55
       },
       {
         "term": "management",
@@ -981,6 +981,18 @@
         "summary": "Jason\u2019s Takes on This Week\u2019s 20VC: The Toggle Is a Permission Grant, The Blame Test Decides the Deal, and Why Five Years of Price Increases Is a Countdown",
         "category": "market_commentary",
         "url": "https://www.saastr.com/jasons-takes-on-this-weeks-20vc-the-toggle-is-a-permission-grant-the-blame-test-decides-the-deal-and-why-five-years-of-price-increases-is-a-countdown/",
+        "date": "2026-08-02",
+        "vertical": "AI / ML Infra",
+        "vid": "ai-ml",
+        "days": 0,
+        "hard": 0
+      },
+      {
+        "person": "Radical Ventures",
+        "firm": "Radical Ventures",
+        "summary": "A Functional Taxonomy of World Models",
+        "category": "market_commentary",
+        "url": "https://radical.vc/a-functional-taxonomy-of-world-models/?utm_source=rss&utm_medium=rss&utm_campaign=a-functional-taxonomy-of-world-models",
         "date": "2026-08-02",
         "vertical": "AI / ML Infra",
         "vid": "ai-ml",
@@ -1082,20 +1094,8 @@
         "vid": "ai-ml",
         "days": 5,
         "hard": 0
-      },
-      {
-        "person": "Rand Fishkin",
-        "firm": "SparkToro",
-        "summary": "NEW: Brand Affinity is Now Live in SparkToro Reports",
-        "category": "market_commentary",
-        "url": "https://sparktoro.com/blog/new-brand-affinity-is-now-live-in-sparktoro-reports/",
-        "date": "2026-07-28",
-        "vertical": "Marketing / Ads",
-        "vid": "marketing-ads",
-        "days": 5,
-        "hard": 0
       }
     ],
-    "total_signals": 14755
+    "total_signals": 14773
   }
 }

@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-04T21:08:51Z",
+  "generated": "2026-08-04T23:00:06Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 499,
-    "deal_rows_attributed": 236,
+    "deal_rows_seen": 500,
+    "deal_rows_attributed": 237,
     "funds_tracked": 128,
     "fetch_attempts": 42,
     "fetchable_pct": 2,
@@ -530,6 +530,76 @@
       ]
     },
     {
+      "fund": "Sequoia",
+      "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 7 attributed deal(s), 7 in the last 30d.",
+      "coverage": 7,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 3,
+          "weight": 3.0
+        },
+        {
+          "label": "Climate / Energy",
+          "count": 3,
+          "weight": 3.0
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 7,
+      "recent90": 7,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-04",
+          "summary": "Microreactor startup Valar Atomics raises $1B",
+          "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-03",
+          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
+          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-03",
+          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
+          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-22",
+          "summary": "Glow exits stealth with $180 million to secure the AI-enabled endpoint",
+          "url": "https://www.helpnetsecurity.com/2026/07/22/glow-launches-with-180-million-funding/"
+        },
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-07-20",
+          "summary": "Bunkerhill Lands Series B to Turn Ideas Into Action",
+          "url": "https://digitalhealthwire.com/bunkerhill-raises-series-b-to-turn-ideas-into-action/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-17",
+          "summary": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
+          "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-07-17",
+          "summary": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
+          "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/"
+        }
+      ]
+    },
+    {
       "fund": "Sequoia Capital",
       "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 7 attributed deal(s), 7 in the last 30d.",
       "coverage": 7,
@@ -601,70 +671,6 @@
           "date": "2026-07-15",
           "summary": "A SpaceX vet raised $65M to pull wire harnesses out of the Cold War era",
           "url": "https://techcrunch.com/2026/07/15/a-spacex-vet-raised-65m-to-pull-wire-harnesses-out-of-the-cold-war-era/"
-        }
-      ]
-    },
-    {
-      "fund": "Sequoia",
-      "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 6 attributed deal(s), 6 in the last 30d.",
-      "coverage": 6,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 3,
-          "weight": 3.0
-        },
-        {
-          "label": "Climate / Energy",
-          "count": 2,
-          "weight": 2.0
-        },
-        {
-          "label": "Healthtech / Bio",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 6,
-      "recent90": 6,
-      "prior30": 0,
-      "last_deal_days": 1,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-03",
-          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
-          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-08-03",
-          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
-          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-22",
-          "summary": "Glow exits stealth with $180 million to secure the AI-enabled endpoint",
-          "url": "https://www.helpnetsecurity.com/2026/07/22/glow-launches-with-180-million-funding/"
-        },
-        {
-          "sector": "Healthtech / Bio",
-          "date": "2026-07-20",
-          "summary": "Bunkerhill Lands Series B to Turn Ideas Into Action",
-          "url": "https://digitalhealthwire.com/bunkerhill-raises-series-b-to-turn-ideas-into-action/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-17",
-          "summary": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
-          "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-07-17",
-          "summary": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
-          "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/"
         }
       ]
     },
@@ -5357,10 +5363,10 @@
       },
       {
         "fund": "Sequoia",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 6 attributed deal(s), 6 in the last 30d.",
-        "coverage": 6,
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 7 attributed deal(s), 7 in the last 30d.",
+        "coverage": 7,
         "sector_count": 3,
-        "recent30": 6
+        "recent30": 7
       },
       {
         "fund": "General Catalyst",
@@ -6511,10 +6517,10 @@
     "Climate / Energy": [
       {
         "fund": "Sequoia",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 6 attributed deal(s), 6 in the last 30d.",
-        "coverage": 6,
-        "sector_count": 2,
-        "recent30": 6
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 7 attributed deal(s), 7 in the last 30d.",
+        "coverage": 7,
+        "sector_count": 3,
+        "recent30": 7
       },
       {
         "fund": "Valor Equity Partners",
@@ -6715,18 +6721,18 @@
         "recent30": 8
       },
       {
-        "fund": "Sequoia Capital",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 7 attributed deal(s), 7 in the last 30d.",
+        "fund": "Sequoia",
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 7 attributed deal(s), 7 in the last 30d.",
         "coverage": 7,
         "sector_count": 1,
         "recent30": 7
       },
       {
-        "fund": "Sequoia",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 6 attributed deal(s), 6 in the last 30d.",
-        "coverage": 6,
+        "fund": "Sequoia Capital",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 7 attributed deal(s), 7 in the last 30d.",
+        "coverage": 7,
         "sector_count": 1,
-        "recent30": 6
+        "recent30": 7
       },
       {
         "fund": "Kleiner Perkins",

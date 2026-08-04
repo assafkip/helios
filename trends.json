@@ -1,23 +1,23 @@
 {
-  "generated": "2026-08-04T04:10:33Z",
+  "generated": "2026-08-04T07:36:05Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 9664,
-      "recent7": 1920,
+      "total": 9705,
+      "recent7": 1959,
       "sparkline": [
         2169,
-        2402,
-        2253,
-        1920
+        2403,
+        2254,
+        1959
       ],
-      "momentum_pct": 25,
+      "momentum_pct": 26,
       "momentum_basis": "7d",
       "hard_count": 386,
       "hard_ratio": 0.04,
       "exit_count": 40,
-      "talk_count": 9142,
-      "whitespace_score": 23.7,
+      "talk_count": 9183,
+      "whitespace_score": 23.8,
       "rising": [
         {
           "term": "openai",
@@ -41,8 +41,8 @@
         },
         {
           "term": "models",
-          "count": 123,
-          "delta": 59
+          "count": 125,
+          "delta": 61
         },
         {
           "term": "holidays",
@@ -55,31 +55,31 @@
           "delta": 54
         },
         {
-          "term": "room",
-          "count": 91,
-          "delta": 41
+          "term": "tryhackme",
+          "count": 156,
+          "delta": 46
         }
       ],
       "movers": [
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1499
+          "count": 1513
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 751
+          "count": 755
         },
         {
           "name": "ProductHunt",
           "firm": "producthunt",
-          "count": 161
+          "count": 168
         },
         {
           "name": "Security Conferences",
           "firm": "conference",
-          "count": 142
+          "count": 147
         },
         {
           "name": "Security Affairs",
@@ -704,26 +704,26 @@
     },
     "coexistence-empowerment": {
       "label": "Coexistence / Empowerment",
-      "total": 313,
-      "recent7": 61,
+      "total": 314,
+      "recent7": 62,
       "sparkline": [
         45,
         65,
         75,
-        61
+        62
       ],
-      "momentum_pct": 24,
+      "momentum_pct": 25,
       "momentum_basis": "7d",
-      "hard_count": 49,
-      "hard_ratio": 0.157,
+      "hard_count": 50,
+      "hard_ratio": 0.159,
       "exit_count": 21,
       "talk_count": 238,
-      "whitespace_score": 4.9,
+      "whitespace_score": 4.8,
       "rising": [
         {
           "term": "energy",
-          "count": 67,
-          "delta": 20
+          "count": 68,
+          "delta": 21
         },
         {
           "term": "carbon",
@@ -775,18 +775,18 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 1920,
-        "momentum_pct": 25,
+        "recent7": 1959,
+        "momentum_pct": 26,
         "momentum_basis": "7d",
-        "total": 9664,
+        "total": 9705,
         "sparkline": [
           2169,
-          2402,
-          2253,
-          1920
+          2403,
+          2254,
+          1959
         ],
         "hard_ratio": 0.04,
-        "whitespace_score": 23.7
+        "whitespace_score": 23.8
       },
       {
         "id": "fintech",
@@ -903,18 +903,18 @@
       {
         "id": "coexistence-empowerment",
         "label": "Coexistence / Empowerment",
-        "recent7": 61,
-        "momentum_pct": 24,
+        "recent7": 62,
+        "momentum_pct": 25,
         "momentum_basis": "7d",
-        "total": 313,
+        "total": 314,
         "sparkline": [
           45,
           65,
           75,
-          61
+          62
         ],
-        "hard_ratio": 0.157,
-        "whitespace_score": 4.9
+        "hard_ratio": 0.159,
+        "whitespace_score": 4.8
       }
     ],
     "rising": [
@@ -949,6 +949,11 @@
         "delta": 54
       },
       {
+        "term": "tryhackme",
+        "count": 156,
+        "delta": 46
+      },
+      {
         "term": "opus",
         "count": 59,
         "delta": 44
@@ -957,11 +962,6 @@
         "term": "rogue",
         "count": 57,
         "delta": 43
-      },
-      {
-        "term": "tryhackme",
-        "count": 150,
-        "delta": 40
       },
       {
         "term": "sandbox",
@@ -1091,6 +1091,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 15497
+    "total_signals": 15539
   }
 }

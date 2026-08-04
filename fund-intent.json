@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-04T04:10:40Z",
+  "generated": "2026-08-04T07:36:09Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 489,
-    "deal_rows_attributed": 230,
-    "funds_tracked": 123,
-    "fetch_attempts": 41,
-    "fetchable_pct": 5,
+    "deal_rows_seen": 490,
+    "deal_rows_attributed": 231,
+    "funds_tracked": 128,
+    "fetch_attempts": 40,
+    "fetchable_pct": 2,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -1112,6 +1112,58 @@
       ]
     },
     {
+      "fund": "Valor Equity Partners",
+      "thesis": "Revealed focus: Climate / Energy and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
+      "coverage": 4,
+      "sectors": [
+        {
+          "label": "Climate / Energy",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 4,
+      "recent90": 4,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-04",
+          "summary": "Home Battery Startup Base Power Raises $1 Billion at $13 Billion Valuation",
+          "url": "https://www.esgtoday.com/home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-03",
+          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
+          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-03",
+          "summary": "Base Power raises $1B to roll out its giant new home battery",
+          "url": "https://electrek.co/2026/08/03/base-power-raises-1b-to-roll-out-its-giant-new-home-battery/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-03",
+          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
+          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
+        }
+      ]
+    },
+    {
       "fund": "G2 Venture Partners",
       "thesis": "Revealed focus: Cybersecurity and Coexistence / Empowerment. 4 attributed deal(s), 4 in the last 30d.",
       "coverage": 4,
@@ -1815,43 +1867,59 @@
       ]
     },
     {
-      "fund": "Valor Equity Partners",
-      "thesis": "Revealed focus: Climate / Energy and Cybersecurity. 3 attributed deal(s), 3 in the last 30d.",
-      "coverage": 3,
+      "fund": "Thrive Capital",
+      "thesis": "Revealed focus: Fintech / Payments and Healthtech / Bio. 4 attributed deal(s), 3 in the last 30d.",
+      "coverage": 4,
       "sectors": [
         {
-          "label": "Climate / Energy",
-          "count": 2,
-          "weight": 2.0
-        },
-        {
-          "label": "Cybersecurity",
+          "label": "Fintech / Payments",
           "count": 1,
           "weight": 1.0
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 0.5
         }
       ],
       "recent30": 3,
-      "recent90": 3,
-      "prior30": 0,
-      "last_deal_days": 1,
+      "recent90": 4,
+      "prior30": 1,
+      "last_deal_days": 0,
       "deals": [
         {
-          "sector": "Cybersecurity",
-          "date": "2026-08-03",
-          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
-          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-04",
+          "summary": "Home Battery Startup Base Power Raises $1 Billion at $13 Billion Valuation",
+          "url": "https://www.esgtoday.com/home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation"
         },
         {
-          "sector": "Climate / Energy",
-          "date": "2026-08-03",
-          "summary": "Base Power raises $1B to roll out its giant new home battery",
-          "url": "https://electrek.co/2026/08/03/base-power-raises-1b-to-roll-out-its-giant-new-home-battery/"
+          "sector": "Healthtech / Bio",
+          "date": "2026-08-02",
+          "summary": "4 Notable Health Tech Funding Announcements in July",
+          "url": "https://medcitynews.com/2026/08/4-notable-health-tech-funding-announcements-in-july/"
         },
         {
-          "sector": "Climate / Energy",
-          "date": "2026-08-03",
-          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
-          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
+          "sector": "Fintech / Payments",
+          "date": "2026-07-06",
+          "summary": "Thrive Holdings Raises $2 Billion to Buy and Rewire Services Firms With AI",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/thrive-holdings-raises-2-billion-to-buy-and-rewire-services-firms-with-ai/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-06-27",
+          "summary": "FTC gives Musk the OK to acquire SpaceX alumni startup Mesh",
+          "url": "https://techcrunch.com/2026/06/26/ftc-gives-musk-the-ok-to-acquire-spacex-alumni-startup-mesh/"
         }
       ]
     },
@@ -2599,48 +2667,166 @@
       ]
     },
     {
-      "fund": "Thrive Capital",
-      "thesis": "Revealed focus: Fintech / Payments and Healthtech / Bio. 3 attributed deal(s), 2 in the last 30d.",
+      "fund": "CapitalG",
+      "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 3 attributed deal(s), 3 in the last 30d.",
       "coverage": 3,
       "sectors": [
         {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 1.0
+          "label": "Space Tech",
+          "count": 2,
+          "weight": 2.0
         },
         {
-          "label": "Healthtech / Bio",
+          "label": "Coexistence / Empowerment",
           "count": 1,
           "weight": 1.0
+        }
+      ],
+      "recent30": 3,
+      "recent90": 3,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-04",
+          "summary": "Home Battery Startup Base Power Raises $1 Billion at $13 Billion Valuation",
+          "url": "https://www.esgtoday.com/home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-31",
+          "summary": "K2 Space Raises $500M Series D at $6.8B Valuation",
+          "url": "https://payloadspace.com/k2-space-raises-500m-series-d-at-6-8b-valuation/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-30",
+          "summary": "K2 Space raises $500 million for commercial, defense satellite expansion",
+          "url": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/"
+        }
+      ]
+    },
+    {
+      "fund": "Altimeter",
+      "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 3 attributed deal(s), 3 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Space Tech",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 3,
+      "recent90": 3,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-04",
+          "summary": "Home Battery Startup Base Power Raises $1 Billion at $13 Billion Valuation",
+          "url": "https://www.esgtoday.com/home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-31",
+          "summary": "K2 Space Raises $500M Series D at $6.8B Valuation",
+          "url": "https://payloadspace.com/k2-space-raises-500m-series-d-at-6-8b-valuation/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-30",
+          "summary": "K2 Space raises $500 million for commercial, defense satellite expansion",
+          "url": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/"
+        }
+      ]
+    },
+    {
+      "fund": "Sands Capital",
+      "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 3 attributed deal(s), 3 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Space Tech",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 3,
+      "recent90": 3,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-04",
+          "summary": "Home Battery Startup Base Power Raises $1 Billion at $13 Billion Valuation",
+          "url": "https://www.esgtoday.com/home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-31",
+          "summary": "K2 Space Raises $500M Series D at $6.8B Valuation",
+          "url": "https://payloadspace.com/k2-space-raises-500m-series-d-at-6-8b-valuation/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-30",
+          "summary": "K2 Space raises $500 million for commercial, defense satellite expansion",
+          "url": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/"
+        }
+      ]
+    },
+    {
+      "fund": "Lightspeed",
+      "thesis": "Revealed focus: Coexistence / Empowerment and Space Tech. 3 attributed deal(s), 3 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 2,
+          "weight": 2.0
         },
         {
           "label": "Space Tech",
           "count": 1,
-          "weight": 0.5
+          "weight": 1.0
         }
       ],
-      "recent30": 2,
+      "recent30": 3,
       "recent90": 3,
-      "prior30": 1,
-      "last_deal_days": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
       "deals": [
         {
-          "sector": "Healthtech / Bio",
-          "date": "2026-08-02",
-          "summary": "4 Notable Health Tech Funding Announcements in July",
-          "url": "https://medcitynews.com/2026/08/4-notable-health-tech-funding-announcements-in-july/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-07-06",
-          "summary": "Thrive Holdings Raises $2 Billion to Buy and Rewire Services Firms With AI",
-          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/thrive-holdings-raises-2-billion-to-buy-and-rewire-services-firms-with-ai/"
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-04",
+          "summary": "Home Battery Startup Base Power Raises $1 Billion at $13 Billion Valuation",
+          "url": "https://www.esgtoday.com/home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation"
         },
         {
           "sector": "Space Tech",
-          "date": "2026-06-27",
-          "summary": "FTC gives Musk the OK to acquire SpaceX alumni startup Mesh",
-          "url": "https://techcrunch.com/2026/06/26/ftc-gives-musk-the-ok-to-acquire-spacex-alumni-startup-mesh/"
+          "date": "2026-07-30",
+          "summary": "K2 Space raises $500 million for commercial, defense satellite expansion",
+          "url": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-07",
+          "summary": "Google Backs Proxima\u2019s Record $468 Million Raise in Race to First Fusion Power Plant",
+          "url": "https://www.esgtoday.com/google-backs-proximas-record-468-million-raise-in-race-to-first-fusion-power-plant/?utm_source=rss&utm_medium=rss&utm_campaign=google-backs-proximas-record-468-million-raise-in-race-to-first-fusion-power-plant"
         }
       ]
     },
@@ -3587,6 +3773,41 @@
       ]
     },
     {
+      "fund": "Coatue",
+      "thesis": "Revealed focus: Cybersecurity and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-04",
+          "summary": "Home Battery Startup Base Power Raises $1 Billion at $13 Billion Valuation",
+          "url": "https://www.esgtoday.com/home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-10",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
+        }
+      ]
+    },
+    {
       "fund": "Prime Movers Lab",
       "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -4432,6 +4653,41 @@
       ]
     },
     {
+      "fund": "D1 Capital Partners",
+      "thesis": "Revealed focus: Fintech / Payments and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-04",
+          "summary": "Home Battery Startup Base Power Raises $1 Billion at $13 Billion Valuation",
+          "url": "https://www.esgtoday.com/home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-06",
+          "summary": "Thrive Holdings Raises $2 Billion to Buy and Rewire Services Firms With AI",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/thrive-holdings-raises-2-billion-to-buy-and-rewire-services-firms-with-ai/"
+        }
+      ]
+    },
+    {
       "fund": "Carta",
       "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -4662,6 +4918,76 @@
       ]
     },
     {
+      "fund": "Ribbit",
+      "thesis": "Revealed focus: Climate / Energy and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Climate / Energy",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-04",
+          "summary": "Home Battery Startup Base Power Raises $1 Billion at $13 Billion Valuation",
+          "url": "https://www.esgtoday.com/home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-03",
+          "summary": "Base Power raises $1B to roll out its giant new home battery",
+          "url": "https://electrek.co/2026/08/03/base-power-raises-1b-to-roll-out-its-giant-new-home-battery/"
+        }
+      ]
+    },
+    {
+      "fund": "Addition",
+      "thesis": "Revealed focus: Climate / Energy and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Climate / Energy",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-04",
+          "summary": "Home Battery Startup Base Power Raises $1 Billion at $13 Billion Valuation",
+          "url": "https://www.esgtoday.com/home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-03",
+          "summary": "Base Power raises $1B to roll out its giant new home battery",
+          "url": "https://electrek.co/2026/08/03/base-power-raises-1b-to-roll-out-its-giant-new-home-battery/"
+        }
+      ]
+    },
+    {
       "fund": "ICONIQ",
       "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -4688,131 +5014,6 @@
           "date": "2026-07-30",
           "summary": "K2 Space raises $500 million for commercial, defense satellite expansion",
           "url": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/"
-        }
-      ]
-    },
-    {
-      "fund": "CapitalG",
-      "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Space Tech",
-          "count": 2,
-          "weight": 2.0
-        }
-      ],
-      "recent30": 2,
-      "recent90": 2,
-      "prior30": 0,
-      "last_deal_days": 4,
-      "deals": [
-        {
-          "sector": "Space Tech",
-          "date": "2026-07-31",
-          "summary": "K2 Space Raises $500M Series D at $6.8B Valuation",
-          "url": "https://payloadspace.com/k2-space-raises-500m-series-d-at-6-8b-valuation/"
-        },
-        {
-          "sector": "Space Tech",
-          "date": "2026-07-30",
-          "summary": "K2 Space raises $500 million for commercial, defense satellite expansion",
-          "url": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/"
-        }
-      ]
-    },
-    {
-      "fund": "Altimeter",
-      "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Space Tech",
-          "count": 2,
-          "weight": 2.0
-        }
-      ],
-      "recent30": 2,
-      "recent90": 2,
-      "prior30": 0,
-      "last_deal_days": 4,
-      "deals": [
-        {
-          "sector": "Space Tech",
-          "date": "2026-07-31",
-          "summary": "K2 Space Raises $500M Series D at $6.8B Valuation",
-          "url": "https://payloadspace.com/k2-space-raises-500m-series-d-at-6-8b-valuation/"
-        },
-        {
-          "sector": "Space Tech",
-          "date": "2026-07-30",
-          "summary": "K2 Space raises $500 million for commercial, defense satellite expansion",
-          "url": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/"
-        }
-      ]
-    },
-    {
-      "fund": "Sands Capital",
-      "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Space Tech",
-          "count": 2,
-          "weight": 2.0
-        }
-      ],
-      "recent30": 2,
-      "recent90": 2,
-      "prior30": 0,
-      "last_deal_days": 4,
-      "deals": [
-        {
-          "sector": "Space Tech",
-          "date": "2026-07-31",
-          "summary": "K2 Space Raises $500M Series D at $6.8B Valuation",
-          "url": "https://payloadspace.com/k2-space-raises-500m-series-d-at-6-8b-valuation/"
-        },
-        {
-          "sector": "Space Tech",
-          "date": "2026-07-30",
-          "summary": "K2 Space raises $500 million for commercial, defense satellite expansion",
-          "url": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/"
-        }
-      ]
-    },
-    {
-      "fund": "Lightspeed",
-      "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Space Tech",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 2,
-      "recent90": 2,
-      "prior30": 0,
-      "last_deal_days": 5,
-      "deals": [
-        {
-          "sector": "Space Tech",
-          "date": "2026-07-30",
-          "summary": "K2 Space raises $500 million for commercial, defense satellite expansion",
-          "url": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-07-07",
-          "summary": "Google Backs Proxima\u2019s Record $468 Million Raise in Race to First Fusion Power Plant",
-          "url": "https://www.esgtoday.com/google-backs-proximas-record-468-million-raise-in-race-to-first-fusion-power-plant/?utm_source=rss&utm_medium=rss&utm_campaign=google-backs-proximas-record-468-million-raise-in-race-to-first-fusion-power-plant"
         }
       ]
     },
@@ -4908,6 +5109,36 @@
           "date": "2026-07-10",
           "summary": "Adaptive Insurance Raises $5M For Climate Risk Cover",
           "url": "https://seraphim.vc/news/adaptive-insurance-5m-climate-risk-cover/"
+        }
+      ]
+    },
+    {
+      "fund": "Trust Ventures",
+      "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 2,
+          "weight": 2.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-04",
+          "summary": "Home Battery Startup Base Power Raises $1 Billion at $13 Billion Valuation",
+          "url": "https://www.esgtoday.com/home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-31",
+          "summary": "Thermal Battery Provider Antora Raises $550 Million to Power Industry, Data Centers",
+          "url": "https://www.esgtoday.com/thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers/?utm_source=rss&utm_medium=rss&utm_campaign=thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers"
         }
       ]
     },
@@ -5380,6 +5611,13 @@
         "recent30": 5
       },
       {
+        "fund": "Valor Equity Partners",
+        "thesis": "Revealed focus: Climate / Energy and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 4
+      },
+      {
         "fund": "Eclipse",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 4 in the last 30d.",
         "coverage": 4,
@@ -5413,13 +5651,6 @@
         "coverage": 4,
         "sector_count": 1,
         "recent30": 4
-      },
-      {
-        "fund": "Valor Equity Partners",
-        "thesis": "Revealed focus: Climate / Energy and Cybersecurity. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 3
       },
       {
         "fund": "FirstMark",
@@ -5585,6 +5816,13 @@
       {
         "fund": "USV",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Coatue",
+        "thesis": "Revealed focus: Cybersecurity and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,
         "recent30": 2
@@ -5872,6 +6110,13 @@
         "recent30": 4
       },
       {
+        "fund": "Thrive Capital",
+        "thesis": "Revealed focus: Fintech / Payments and Healthtech / Bio. 4 attributed deal(s), 3 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "Cyberstarts",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
@@ -5884,13 +6129,6 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 3
-      },
-      {
-        "fund": "Thrive Capital",
-        "thesis": "Revealed focus: Fintech / Payments and Healthtech / Bio. 3 attributed deal(s), 2 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 2
       },
       {
         "fund": "Tiger Global",
@@ -5944,6 +6182,13 @@
       {
         "fund": "Northzone",
         "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "D1 Capital Partners",
+        "thesis": "Revealed focus: Fintech / Payments and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,
         "recent30": 2
@@ -6262,10 +6507,10 @@
       },
       {
         "fund": "Valor Equity Partners",
-        "thesis": "Revealed focus: Climate / Energy and Cybersecurity. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
+        "thesis": "Revealed focus: Climate / Energy and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
+        "coverage": 4,
         "sector_count": 2,
-        "recent30": 3
+        "recent30": 4
       },
       {
         "fund": "Nvidia",
@@ -6392,6 +6637,20 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 2
+      },
+      {
+        "fund": "Ribbit",
+        "thesis": "Revealed focus: Climate / Energy and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Addition",
+        "thesis": "Revealed focus: Climate / Energy and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
       }
     ],
     "Healthtech / Bio": [
@@ -6473,6 +6732,13 @@
         "recent30": 4
       },
       {
+        "fund": "Thrive Capital",
+        "thesis": "Revealed focus: Fintech / Payments and Healthtech / Bio. 4 attributed deal(s), 3 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "Sixth Street Growth",
         "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
@@ -6485,13 +6751,6 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 3
-      },
-      {
-        "fund": "Thrive Capital",
-        "thesis": "Revealed focus: Fintech / Payments and Healthtech / Bio. 3 attributed deal(s), 2 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 2
       },
       {
         "fund": "Kindred Ventures",
@@ -6559,28 +6818,28 @@
         "recent30": 3
       },
       {
-        "fund": "ICONIQ",
-        "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 2,
-        "recent30": 2
-      },
-      {
         "fund": "CapitalG",
-        "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
+        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
         "sector_count": 2,
-        "recent30": 2
+        "recent30": 3
       },
       {
         "fund": "Altimeter",
-        "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
+        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
         "sector_count": 2,
-        "recent30": 2
+        "recent30": 3
       },
       {
         "fund": "Sands Capital",
+        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 2,
+        "recent30": 3
+      },
+      {
+        "fund": "ICONIQ",
         "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 2,
@@ -6629,6 +6888,13 @@
         "recent30": 4
       },
       {
+        "fund": "Thrive Capital",
+        "thesis": "Revealed focus: Fintech / Payments and Healthtech / Bio. 4 attributed deal(s), 3 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "First Round Capital",
         "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
@@ -6636,11 +6902,11 @@
         "recent30": 3
       },
       {
-        "fund": "Thrive Capital",
-        "thesis": "Revealed focus: Fintech / Payments and Healthtech / Bio. 3 attributed deal(s), 2 in the last 30d.",
+        "fund": "Lightspeed",
+        "thesis": "Revealed focus: Coexistence / Empowerment and Space Tech. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
         "sector_count": 1,
-        "recent30": 2
+        "recent30": 3
       },
       {
         "fund": "Lightspeed Venture Partners",
@@ -6648,13 +6914,6 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 1
-      },
-      {
-        "fund": "Lightspeed",
-        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
       },
       {
         "fund": "Congruent Ventures",
@@ -6678,6 +6937,20 @@
         "coverage": 4,
         "sector_count": 2,
         "recent30": 4
+      },
+      {
+        "fund": "Lightspeed",
+        "thesis": "Revealed focus: Coexistence / Empowerment and Space Tech. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 2,
+        "recent30": 3
+      },
+      {
+        "fund": "Trust Ventures",
+        "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 2
       },
       {
         "fund": "Mirova",
@@ -6729,11 +7002,25 @@
         "recent30": 5
       },
       {
+        "fund": "Valor Equity Partners",
+        "thesis": "Revealed focus: Climate / Energy and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 4
+      },
+      {
         "fund": "Eclipse",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 4 in the last 30d.",
         "coverage": 4,
         "sector_count": 1,
         "recent30": 4
+      },
+      {
+        "fund": "Thrive Capital",
+        "thesis": "Revealed focus: Fintech / Payments and Healthtech / Bio. 4 attributed deal(s), 3 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 3
       },
       {
         "fund": "Ribbit Capital",
@@ -6748,6 +7035,34 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 3
+      },
+      {
+        "fund": "CapitalG",
+        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
+        "fund": "Altimeter",
+        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
+        "fund": "Sands Capital",
+        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
+        "fund": "Coatue",
+        "thesis": "Revealed focus: Cybersecurity and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
       },
       {
         "fund": "East X Ventures",
@@ -6792,6 +7107,13 @@
         "recent30": 2
       },
       {
+        "fund": "D1 Capital Partners",
+        "thesis": "Revealed focus: Fintech / Payments and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "DST Global Partners",
         "thesis": "Revealed focus: AI / ML Infra and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -6799,8 +7121,15 @@
         "recent30": 2
       },
       {
-        "fund": "Lightspeed",
-        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+        "fund": "Ribbit",
+        "thesis": "Revealed focus: Climate / Energy and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Addition",
+        "thesis": "Revealed focus: Climate / Energy and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,
         "recent30": 2

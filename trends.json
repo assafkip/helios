@@ -1,23 +1,23 @@
 {
-  "generated": "2026-08-05T06:29:38Z",
+  "generated": "2026-08-05T09:34:42Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 10086,
-      "recent7": 1952,
+      "total": 10130,
+      "recent7": 1992,
       "sparkline": [
         2227,
-        2391,
-        2239,
-        1952
+        2393,
+        2241,
+        1992
       ],
-      "momentum_pct": 25,
+      "momentum_pct": 26,
       "momentum_basis": "7d",
       "hard_count": 397,
       "hard_ratio": 0.039,
       "exit_count": 45,
-      "talk_count": 9543,
-      "whitespace_score": 24.0,
+      "talk_count": 9587,
+      "whitespace_score": 24.1,
       "rising": [
         {
           "term": "hacker",
@@ -26,8 +26,13 @@
         },
         {
           "term": "openai",
-          "count": 161,
-          "delta": 69
+          "count": 163,
+          "delta": 71
+        },
+        {
+          "term": "tryhackme",
+          "count": 170,
+          "delta": 59
         },
         {
           "term": "holidays",
@@ -35,24 +40,19 @@
           "delta": 59
         },
         {
+          "term": "room",
+          "count": 108,
+          "delta": 58
+        },
+        {
           "term": "hacker holidays",
           "count": 58,
           "delta": 58
         },
         {
-          "term": "tryhackme",
-          "count": 167,
-          "delta": 56
-        },
-        {
-          "term": "room",
-          "count": 106,
-          "delta": 56
-        },
-        {
           "term": "water",
-          "count": 68,
-          "delta": 40
+          "count": 70,
+          "delta": 42
         },
         {
           "term": "hotel",
@@ -64,51 +64,51 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1510
+          "count": 1520
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 744
+          "count": 750
         },
         {
           "name": "ProductHunt",
           "firm": "producthunt",
-          "count": 150
+          "count": 157
         },
         {
           "name": "Security Conferences",
           "firm": "conference",
-          "count": 144
+          "count": 146
         },
         {
           "name": "Security Affairs",
           "firm": "blog",
-          "count": 55
+          "count": 56
         },
         {
           "name": "Ping Li",
           "firm": "Accel",
-          "count": 40
+          "count": 42
         }
       ]
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 1571,
-      "recent7": 300,
+      "total": 1585,
+      "recent7": 314,
       "sparkline": [
         341,
         349,
         349,
-        300
+        314
       ],
-      "momentum_pct": 24,
+      "momentum_pct": 25,
       "momentum_basis": "7d",
-      "hard_count": 146,
+      "hard_count": 147,
       "hard_ratio": 0.093,
       "exit_count": 58,
-      "talk_count": 1307,
+      "talk_count": 1319,
       "whitespace_score": 9.0,
       "rising": [
         {
@@ -132,23 +132,23 @@
           "delta": 14
         },
         {
+          "term": "ceo",
+          "count": 44,
+          "delta": 14
+        },
+        {
+          "term": "agents",
+          "count": 38,
+          "delta": 14
+        },
+        {
           "term": "charter",
           "count": 19,
           "delta": 14
         },
         {
-          "term": "agents",
-          "count": 37,
-          "delta": 13
-        },
-        {
           "term": "management",
           "count": 20,
-          "delta": 13
-        },
-        {
-          "term": "ibm",
-          "count": 13,
           "delta": 13
         }
       ],
@@ -156,7 +156,7 @@
         {
           "name": "Sifted",
           "firm": "Sifted",
-          "count": 37
+          "count": 38
         },
         {
           "name": "Tearsheet",
@@ -279,21 +279,21 @@
     },
     "healthtech": {
       "label": "Healthtech / Bio",
-      "total": 552,
-      "recent7": 99,
+      "total": 556,
+      "recent7": 103,
       "sparkline": [
         99,
         105,
         130,
-        99
+        103
       ],
-      "momentum_pct": 22,
+      "momentum_pct": 23,
       "momentum_basis": "7d",
       "hard_count": 31,
       "hard_ratio": 0.056,
       "exit_count": 15,
-      "talk_count": 499,
-      "whitespace_score": 16.1,
+      "talk_count": 503,
+      "whitespace_score": 16.2,
       "rising": [
         {
           "term": "fda",
@@ -340,7 +340,7 @@
         {
           "name": "STAT News",
           "firm": "STAT",
-          "count": 99
+          "count": 103
         },
         {
           "name": "MedCity News",
@@ -371,20 +371,20 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 1007,
-      "recent7": 183,
+      "total": 1009,
+      "recent7": 185,
       "sparkline": [
         219,
         206,
         226,
-        183
+        185
       ],
-      "momentum_pct": 22,
+      "momentum_pct": 23,
       "momentum_basis": "7d",
       "hard_count": 49,
       "hard_ratio": 0.049,
       "exit_count": 5,
-      "talk_count": 940,
+      "talk_count": 942,
       "whitespace_score": 19.2,
       "rising": [
         {
@@ -442,7 +442,7 @@
         {
           "name": "Canary Media",
           "firm": "Canary Media",
-          "count": 29
+          "count": 30
         },
         {
           "name": "Latitude Media",
@@ -463,26 +463,46 @@
     },
     "edtech": {
       "label": "Edtech",
-      "total": 432,
-      "recent7": 63,
+      "total": 439,
+      "recent7": 70,
       "sparkline": [
         94,
         88,
         85,
-        63
+        70
       ],
-      "momentum_pct": 17,
+      "momentum_pct": 19,
       "momentum_basis": "7d",
       "hard_count": 10,
       "hard_ratio": 0.023,
       "exit_count": 0,
-      "talk_count": 417,
-      "whitespace_score": 41.7,
+      "talk_count": 424,
+      "whitespace_score": 42.4,
       "rising": [
         {
           "term": "medical",
           "count": 9,
           "delta": 8
+        },
+        {
+          "term": "johanna",
+          "count": 11,
+          "delta": 7
+        },
+        {
+          "term": "alonso",
+          "count": 11,
+          "delta": 7
+        },
+        {
+          "term": "johanna alonso",
+          "count": 11,
+          "delta": 7
+        },
+        {
+          "term": "board",
+          "count": 9,
+          "delta": 7
         },
         {
           "term": "coursera",
@@ -497,26 +517,6 @@
         {
           "term": "california",
           "count": 15,
-          "delta": 6
-        },
-        {
-          "term": "johanna",
-          "count": 10,
-          "delta": 6
-        },
-        {
-          "term": "alonso",
-          "count": 10,
-          "delta": 6
-        },
-        {
-          "term": "johanna alonso",
-          "count": 10,
-          "delta": 6
-        },
-        {
-          "term": "know",
-          "count": 9,
           "delta": 6
         }
       ],
@@ -540,21 +540,21 @@
     },
     "marketing-ads": {
       "label": "Marketing / Ads",
-      "total": 459,
-      "recent7": 81,
+      "total": 460,
+      "recent7": 82,
       "sparkline": [
         90,
         94,
         92,
-        81
+        82
       ],
       "momentum_pct": 22,
       "momentum_basis": "7d",
       "hard_count": 9,
       "hard_ratio": 0.02,
       "exit_count": 4,
-      "talk_count": 441,
-      "whitespace_score": 49.0,
+      "talk_count": 442,
+      "whitespace_score": 49.1,
       "rising": [
         {
           "term": "app",
@@ -564,6 +564,11 @@
         {
           "term": "creator",
           "count": 15,
+          "delta": 8
+        },
+        {
+          "term": "product",
+          "count": 12,
           "delta": 8
         },
         {
@@ -579,11 +584,6 @@
         {
           "term": "billion",
           "count": 16,
-          "delta": 7
-        },
-        {
-          "term": "product",
-          "count": 11,
           "delta": 7
         },
         {
@@ -609,13 +609,13 @@
           "count": 14
         },
         {
-          "name": "Lenny Rachitsky",
-          "firm": "Angel / Lenny's Newsletter",
-          "count": 3
-        },
-        {
           "name": "Rand Fishkin",
           "firm": "SparkToro",
+          "count": 4
+        },
+        {
+          "name": "Lenny Rachitsky",
+          "firm": "Angel / Lenny's Newsletter",
           "count": 3
         }
       ]
@@ -709,20 +709,20 @@
     },
     "coexistence-empowerment": {
       "label": "Coexistence / Empowerment",
-      "total": 325,
-      "recent7": 58,
+      "total": 327,
+      "recent7": 60,
       "sparkline": [
         48,
         70,
         74,
-        58
+        60
       ],
       "momentum_pct": 22,
       "momentum_basis": "7d",
       "hard_count": 50,
-      "hard_ratio": 0.154,
+      "hard_ratio": 0.153,
       "exit_count": 21,
-      "talk_count": 249,
+      "talk_count": 251,
       "whitespace_score": 5.0,
       "rising": [
         {
@@ -731,13 +731,18 @@
           "delta": 15
         },
         {
+          "term": "sustainable",
+          "count": 25,
+          "delta": 14
+        },
+        {
           "term": "data",
           "count": 23,
           "delta": 14
         },
         {
-          "term": "sustainable",
-          "count": 24,
+          "term": "carbon",
+          "count": 35,
           "delta": 13
         },
         {
@@ -756,17 +761,18 @@
           "delta": 11
         },
         {
-          "term": "carbon",
-          "count": 32,
-          "delta": 10
-        },
-        {
           "term": "signed",
           "count": 12,
           "delta": 10
         }
       ],
-      "movers": []
+      "movers": [
+        {
+          "name": "Bridges Fund Management",
+          "firm": "Bridges Fund Management",
+          "count": 1
+        }
+      ]
     }
   },
   "overall": {
@@ -774,31 +780,31 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 1952,
-        "momentum_pct": 25,
+        "recent7": 1992,
+        "momentum_pct": 26,
         "momentum_basis": "7d",
-        "total": 10086,
+        "total": 10130,
         "sparkline": [
           2227,
-          2391,
-          2239,
-          1952
+          2393,
+          2241,
+          1992
         ],
         "hard_ratio": 0.039,
-        "whitespace_score": 24.0
+        "whitespace_score": 24.1
       },
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 300,
-        "momentum_pct": 24,
+        "recent7": 314,
+        "momentum_pct": 25,
         "momentum_basis": "7d",
-        "total": 1571,
+        "total": 1585,
         "sparkline": [
           341,
           349,
           349,
-          300
+          314
         ],
         "hard_ratio": 0.093,
         "whitespace_score": 9.0
@@ -806,15 +812,15 @@
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 183,
-        "momentum_pct": 22,
+        "recent7": 185,
+        "momentum_pct": 23,
         "momentum_basis": "7d",
-        "total": 1007,
+        "total": 1009,
         "sparkline": [
           219,
           206,
           226,
-          183
+          185
         ],
         "hard_ratio": 0.049,
         "whitespace_score": 19.2
@@ -854,65 +860,65 @@
       {
         "id": "healthtech",
         "label": "Healthtech / Bio",
-        "recent7": 99,
-        "momentum_pct": 22,
+        "recent7": 103,
+        "momentum_pct": 23,
         "momentum_basis": "7d",
-        "total": 552,
+        "total": 556,
         "sparkline": [
           99,
           105,
           130,
-          99
+          103
         ],
         "hard_ratio": 0.056,
-        "whitespace_score": 16.1
+        "whitespace_score": 16.2
       },
       {
         "id": "marketing-ads",
         "label": "Marketing / Ads",
-        "recent7": 81,
+        "recent7": 82,
         "momentum_pct": 22,
         "momentum_basis": "7d",
-        "total": 459,
+        "total": 460,
         "sparkline": [
           90,
           94,
           92,
-          81
+          82
         ],
         "hard_ratio": 0.02,
-        "whitespace_score": 49.0
+        "whitespace_score": 49.1
       },
       {
         "id": "edtech",
         "label": "Edtech",
-        "recent7": 63,
-        "momentum_pct": 17,
+        "recent7": 70,
+        "momentum_pct": 19,
         "momentum_basis": "7d",
-        "total": 432,
+        "total": 439,
         "sparkline": [
           94,
           88,
           85,
-          63
+          70
         ],
         "hard_ratio": 0.023,
-        "whitespace_score": 41.7
+        "whitespace_score": 42.4
       },
       {
         "id": "coexistence-empowerment",
         "label": "Coexistence / Empowerment",
-        "recent7": 58,
+        "recent7": 60,
         "momentum_pct": 22,
         "momentum_basis": "7d",
-        "total": 325,
+        "total": 327,
         "sparkline": [
           48,
           70,
           74,
-          58
+          60
         ],
-        "hard_ratio": 0.154,
+        "hard_ratio": 0.153,
         "whitespace_score": 5.0
       }
     ],
@@ -921,6 +927,11 @@
         "term": "hacker",
         "count": 135,
         "delta": 78
+      },
+      {
+        "term": "tryhackme",
+        "count": 170,
+        "delta": 59
       },
       {
         "term": "holidays",
@@ -933,24 +944,19 @@
         "delta": 58
       },
       {
-        "term": "tryhackme",
-        "count": 167,
-        "delta": 56
-      },
-      {
         "term": "room",
-        "count": 107,
-        "delta": 50
-      },
-      {
-        "term": "management",
-        "count": 153,
-        "delta": 45
+        "count": 109,
+        "delta": 52
       },
       {
         "term": "water",
-        "count": 89,
-        "delta": 45
+        "count": 91,
+        "delta": 47
+      },
+      {
+        "term": "management",
+        "count": 154,
+        "delta": 46
       },
       {
         "term": "opus",
@@ -959,8 +965,8 @@
       },
       {
         "term": "hugging",
-        "count": 132,
-        "delta": 41
+        "count": 133,
+        "delta": 42
       },
       {
         "term": "minnesota",
@@ -969,6 +975,30 @@
       }
     ],
     "highlights": [
+      {
+        "person": "Rand Fishkin",
+        "firm": "SparkToro",
+        "summary": "The BRAND New V3 of SparkToro Is Here",
+        "category": "market_commentary",
+        "url": "https://sparktoro.com/blog/the-brand-new-v3-of-sparktoro-is-here/",
+        "date": "2026-08-05",
+        "vertical": "Marketing / Ads",
+        "vid": "marketing-ads",
+        "days": 0,
+        "hard": 0
+      },
+      {
+        "person": "Bridges Fund Management",
+        "firm": "Bridges Fund Management",
+        "summary": "Bridges partners with Pembury Real Estate for 25-acre Golden Triangle sustainable warehouse development",
+        "category": "market_commentary",
+        "url": "https://www.bridgesfundmanagement.com/2026/08/05/bridges-partners-with-pembury-real-estate-for-25-acre-golden-triangle-sustainable-warehouse-development/",
+        "date": "2026-08-05",
+        "vertical": "Coexistence / Empowerment",
+        "vid": "coexistence-empowerment",
+        "days": 0,
+        "hard": 0
+      },
       {
         "person": "Mario Gabriele",
         "firm": "The Generalist / Generalist Capital",
@@ -1064,32 +1094,8 @@
         "vid": "ai-ml",
         "days": 3,
         "hard": 0
-      },
-      {
-        "person": "Barmak Meftah",
-        "firm": "Ballistic Ventures",
-        "summary": "Punit Minocha, Former Executive Vice President of Business and Corporate Development at Zscaler, Joins Ballistic Ventures as Strategic Advisor",
-        "category": "threat_intelligence",
-        "url": "https://ballisticventures.com/punit-minocha-former-executive-vice-president-of-business-and-corporate-development-at-zscaler-joins-ballistic-ventures-as-strategic-advisor/?utm_source=rss&utm_medium=rss&utm_campaign=punit-minocha-former-executive-vice-president-of-business-and-corporate-development-at-zscaler-joins-ballistic-ventures-as-strategic-advisor",
-        "date": "2026-07-29",
-        "vertical": "Cybersecurity",
-        "vid": "cyber",
-        "days": 7,
-        "hard": 0
-      },
-      {
-        "person": "Menlo Ventures",
-        "firm": "Menlo Ventures",
-        "summary": "Investing in Pangram to Stop AI Slop on the Internet",
-        "category": "market_commentary",
-        "url": "https://menlovc.com/perspective/investing-in-pangram-to-stop-ai-slop-on-the-internet/",
-        "date": "2026-07-29",
-        "vertical": "AI / ML Infra",
-        "vid": "ai-ml",
-        "days": 7,
-        "hard": 0
       }
     ],
-    "total_signals": 16175
+    "total_signals": 16249
   }
 }

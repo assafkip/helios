@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-05T03:58:02Z",
+  "generated": "2026-08-05T06:29:44Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 502,
-    "deal_rows_attributed": 238,
-    "funds_tracked": 128,
-    "fetch_attempts": 43,
-    "fetchable_pct": 2,
+    "deal_rows_seen": 504,
+    "deal_rows_attributed": 240,
+    "funds_tracked": 129,
+    "fetch_attempts": 44,
+    "fetchable_pct": 5,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -4473,6 +4473,41 @@
       ]
     },
     {
+      "fund": "Earlybird",
+      "thesis": "Revealed focus: Fintech / Payments and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-05",
+          "summary": "What 144 new funds reveal about Europe's investment market",
+          "url": "https://sifted.eu/articles/what-144-new-funds-reveal-about-europes-investment-market/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-21",
+          "summary": "Italian startup ORiS raises funding for laser power-beaming technology",
+          "url": "https://spacenews.com/italian-startup-oris-raises-funding-for-laser-power-beaming-technology/"
+        }
+      ]
+    },
+    {
       "fund": "EQT",
       "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 2 attributed deal(s), 1 in the last 30d.",
       "coverage": 2,
@@ -6201,6 +6236,13 @@
         "recent30": 1
       },
       {
+        "fund": "Earlybird",
+        "thesis": "Revealed focus: Fintech / Payments and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "EQT",
         "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 2 attributed deal(s), 1 in the last 30d.",
         "coverage": 2,
@@ -6956,6 +6998,13 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 1
+      },
+      {
+        "fund": "Earlybird",
+        "thesis": "Revealed focus: Fintech / Payments and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
       },
       {
         "fund": "Congruent Ventures",

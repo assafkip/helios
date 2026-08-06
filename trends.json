@@ -1,28 +1,28 @@
 {
-  "generated": "2026-08-06T02:35:57Z",
+  "generated": "2026-08-06T05:45:42Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 10423,
-      "recent7": 1888,
+      "total": 10451,
+      "recent7": 1916,
       "sparkline": [
         2301,
         2373,
         2267,
-        1888
+        1916
       ],
       "momentum_pct": 23,
       "momentum_basis": "7d",
       "hard_count": 404,
       "hard_ratio": 0.039,
       "exit_count": 48,
-      "talk_count": 9865,
-      "whitespace_score": 24.4,
+      "talk_count": 9893,
+      "whitespace_score": 24.5,
       "rising": [
         {
           "term": "hacker",
-          "count": 132,
-          "delta": 79
+          "count": 134,
+          "delta": 81
         },
         {
           "term": "tryhackme",
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1485
+          "count": 1496
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 734
+          "count": 739
         },
         {
           "name": "ProductHunt",
@@ -79,7 +79,7 @@
         {
           "name": "Security Conferences",
           "firm": "conference",
-          "count": 144
+          "count": 148
         },
         {
           "name": "Security Affairs",
@@ -95,20 +95,20 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 1647,
-      "recent7": 304,
+      "total": 1649,
+      "recent7": 306,
       "sparkline": [
         337,
         346,
         361,
-        304
+        306
       ],
       "momentum_pct": 23,
       "momentum_basis": "7d",
       "hard_count": 153,
       "hard_ratio": 0.093,
       "exit_count": 60,
-      "talk_count": 1373,
+      "talk_count": 1375,
       "whitespace_score": 9.0,
       "rising": [
         {
@@ -156,7 +156,7 @@
         {
           "name": "Sifted",
           "firm": "Sifted",
-          "count": 37
+          "count": 39
         },
         {
           "name": "Tearsheet",
@@ -187,20 +187,20 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 1028,
-      "recent7": 171,
+      "total": 1029,
+      "recent7": 172,
       "sparkline": [
         220,
         190,
         191,
-        171
+        172
       ],
       "momentum_pct": 21,
       "momentum_basis": "7d",
       "hard_count": 76,
       "hard_ratio": 0.074,
       "exit_count": 16,
-      "talk_count": 907,
+      "talk_count": 908,
       "whitespace_score": 11.9,
       "rising": [
         {
@@ -256,14 +256,14 @@
           "count": 23
         },
         {
-          "name": "Sarah Tavel",
-          "firm": "Benchmark",
+          "name": "Shawn Wang (swyx) / Alessio Fanelli",
+          "firm": "Latent Space",
           "count": 14
         },
         {
-          "name": "Shawn Wang (swyx) / Alessio Fanelli",
-          "firm": "Latent Space",
-          "count": 13
+          "name": "Sarah Tavel",
+          "firm": "Benchmark",
+          "count": 14
         },
         {
           "name": "Tomasz Tunguz",
@@ -540,21 +540,21 @@
     },
     "marketing-ads": {
       "label": "Marketing / Ads",
-      "total": 472,
-      "recent7": 75,
+      "total": 475,
+      "recent7": 78,
       "sparkline": [
         91,
         96,
         88,
-        75
+        78
       ],
-      "momentum_pct": 19,
+      "momentum_pct": 20,
       "momentum_basis": "7d",
       "hard_count": 10,
       "hard_ratio": 0.021,
       "exit_count": 4,
-      "talk_count": 453,
-      "whitespace_score": 45.3,
+      "talk_count": 456,
+      "whitespace_score": 45.6,
       "rising": [
         {
           "term": "app",
@@ -563,13 +563,18 @@
         },
         {
           "term": "product",
-          "count": 12,
-          "delta": 9
+          "count": 14,
+          "delta": 11
         },
         {
           "term": "brands",
-          "count": 37,
-          "delta": 8
+          "count": 38,
+          "delta": 9
+        },
+        {
+          "term": "chatgpt",
+          "count": 9,
+          "delta": 9
         },
         {
           "term": "revenue",
@@ -590,18 +595,13 @@
           "term": "million",
           "count": 8,
           "delta": 7
-        },
-        {
-          "term": "chatgpt",
-          "count": 7,
-          "delta": 7
         }
       ],
       "movers": [
         {
           "name": "Digiday",
           "firm": "Digiday",
-          "count": 27
+          "count": 30
         },
         {
           "name": "Jason Lemkin",
@@ -780,31 +780,31 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 1888,
+        "recent7": 1916,
         "momentum_pct": 23,
         "momentum_basis": "7d",
-        "total": 10423,
+        "total": 10451,
         "sparkline": [
           2301,
           2373,
           2267,
-          1888
+          1916
         ],
         "hard_ratio": 0.039,
-        "whitespace_score": 24.4
+        "whitespace_score": 24.5
       },
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 304,
+        "recent7": 306,
         "momentum_pct": 23,
         "momentum_basis": "7d",
-        "total": 1647,
+        "total": 1649,
         "sparkline": [
           337,
           346,
           361,
-          304
+          306
         ],
         "hard_ratio": 0.093,
         "whitespace_score": 9.0
@@ -812,15 +812,15 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 171,
+        "recent7": 172,
         "momentum_pct": 21,
         "momentum_basis": "7d",
-        "total": 1028,
+        "total": 1029,
         "sparkline": [
           220,
           190,
           191,
-          171
+          172
         ],
         "hard_ratio": 0.074,
         "whitespace_score": 11.9
@@ -876,18 +876,18 @@
       {
         "id": "marketing-ads",
         "label": "Marketing / Ads",
-        "recent7": 75,
-        "momentum_pct": 19,
+        "recent7": 78,
+        "momentum_pct": 20,
         "momentum_basis": "7d",
-        "total": 472,
+        "total": 475,
         "sparkline": [
           91,
           96,
           88,
-          75
+          78
         ],
         "hard_ratio": 0.021,
-        "whitespace_score": 45.3
+        "whitespace_score": 45.6
       },
       {
         "id": "edtech",
@@ -925,8 +925,8 @@
     "rising": [
       {
         "term": "hacker",
-        "count": 136,
-        "delta": 78
+        "count": 138,
+        "delta": 80
       },
       {
         "term": "tryhackme",
@@ -1096,6 +1096,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 16736
+    "total_signals": 16770
   }
 }

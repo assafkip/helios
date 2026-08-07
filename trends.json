@@ -1,22 +1,22 @@
 {
-  "generated": "2026-08-07T18:51:08Z",
+  "generated": "2026-08-07T19:50:53Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 11026,
-      "recent7": 2157,
+      "total": 11053,
+      "recent7": 2184,
       "sparkline": [
         2360,
         2328,
         2279,
-        2157
+        2184
       ],
       "momentum_pct": 25,
       "momentum_basis": "7d",
       "hard_count": 417,
       "hard_ratio": 0.038,
       "exit_count": 49,
-      "talk_count": 10448,
+      "talk_count": 10475,
       "whitespace_score": 25.1,
       "rising": [
         {
@@ -46,13 +46,13 @@
         },
         {
           "term": "systems",
-          "count": 137,
-          "delta": 45
+          "count": 140,
+          "delta": 48
         },
         {
           "term": "water",
-          "count": 73,
-          "delta": 45
+          "count": 76,
+          "delta": 48
         },
         {
           "term": "openai",
@@ -64,17 +64,17 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1569
+          "count": 1579
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 795
+          "count": 796
         },
         {
           "name": "ProductHunt",
           "firm": "producthunt",
-          "count": 161
+          "count": 162
         },
         {
           "name": "Security Conferences",
@@ -95,20 +95,20 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 1735,
-      "recent7": 347,
+      "total": 1736,
+      "recent7": 348,
       "sparkline": [
         331,
         355,
         349,
-        347
+        348
       ],
       "momentum_pct": 25,
       "momentum_basis": "7d",
       "hard_count": 161,
       "hard_ratio": 0.093,
       "exit_count": 62,
-      "talk_count": 1450,
+      "talk_count": 1451,
       "whitespace_score": 9.0,
       "rising": [
         {
@@ -187,20 +187,20 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 1083,
-      "recent7": 189,
+      "total": 1086,
+      "recent7": 192,
       "sparkline": [
         221,
         195,
         200,
-        189
+        192
       ],
       "momentum_pct": 22,
       "momentum_basis": "7d",
       "hard_count": 80,
       "hard_ratio": 0.074,
       "exit_count": 17,
-      "talk_count": 957,
+      "talk_count": 960,
       "whitespace_score": 12.0,
       "rising": [
         {
@@ -214,6 +214,11 @@
           "delta": 14
         },
         {
+          "term": "safety",
+          "count": 14,
+          "delta": 12
+        },
+        {
           "term": "mcp",
           "count": 13,
           "delta": 12
@@ -221,11 +226,6 @@
         {
           "term": "llm",
           "count": 25,
-          "delta": 11
-        },
-        {
-          "term": "safety",
-          "count": 13,
           "delta": 11
         },
         {
@@ -248,7 +248,7 @@
         {
           "name": "Simon Willison",
           "firm": "simonwillison.net",
-          "count": 45
+          "count": 46
         },
         {
           "name": "Jason Lemkin",
@@ -371,21 +371,21 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 1095,
-      "recent7": 192,
+      "total": 1099,
+      "recent7": 196,
       "sparkline": [
         208,
         213,
         224,
-        192
+        196
       ],
-      "momentum_pct": 21,
+      "momentum_pct": 22,
       "momentum_basis": "7d",
-      "hard_count": 52,
-      "hard_ratio": 0.047,
+      "hard_count": 53,
+      "hard_ratio": 0.048,
       "exit_count": 5,
-      "talk_count": 1024,
-      "whitespace_score": 19.7,
+      "talk_count": 1027,
+      "whitespace_score": 19.4,
       "rising": [
         {
           "term": "texas",
@@ -432,7 +432,7 @@
         {
           "name": "CleanTechnica",
           "firm": "CleanTechnica",
-          "count": 157
+          "count": 160
         },
         {
           "name": "Utility Dive",
@@ -622,26 +622,26 @@
     },
     "space-tech": {
       "label": "Space Tech",
-      "total": 800,
-      "recent7": 117,
+      "total": 802,
+      "recent7": 119,
       "sparkline": [
         147,
         142,
         159,
-        117
+        119
       ],
-      "momentum_pct": 17,
+      "momentum_pct": 18,
       "momentum_basis": "7d",
       "hard_count": 49,
       "hard_ratio": 0.061,
       "exit_count": 11,
-      "talk_count": 717,
-      "whitespace_score": 14.6,
+      "talk_count": 719,
+      "whitespace_score": 14.7,
       "rising": [
         {
           "term": "nasa",
-          "count": 77,
-          "delta": 21
+          "count": 79,
+          "delta": 23
         },
         {
           "term": "moon",
@@ -669,13 +669,13 @@
           "delta": 11
         },
         {
-          "term": "spacecraft",
-          "count": 34,
-          "delta": 9
+          "term": "launched",
+          "count": 18,
+          "delta": 10
         },
         {
-          "term": "solar",
-          "count": 21,
+          "term": "spacecraft",
+          "count": 34,
           "delta": 9
         }
       ],
@@ -780,15 +780,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2157,
+        "recent7": 2184,
         "momentum_pct": 25,
         "momentum_basis": "7d",
-        "total": 11026,
+        "total": 11053,
         "sparkline": [
           2360,
           2328,
           2279,
-          2157
+          2184
         ],
         "hard_ratio": 0.038,
         "whitespace_score": 25.1
@@ -796,15 +796,15 @@
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 347,
+        "recent7": 348,
         "momentum_pct": 25,
         "momentum_basis": "7d",
-        "total": 1735,
+        "total": 1736,
         "sparkline": [
           331,
           355,
           349,
-          347
+          348
         ],
         "hard_ratio": 0.093,
         "whitespace_score": 9.0
@@ -812,31 +812,31 @@
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 192,
-        "momentum_pct": 21,
+        "recent7": 196,
+        "momentum_pct": 22,
         "momentum_basis": "7d",
-        "total": 1095,
+        "total": 1099,
         "sparkline": [
           208,
           213,
           224,
-          192
+          196
         ],
-        "hard_ratio": 0.047,
-        "whitespace_score": 19.7
+        "hard_ratio": 0.048,
+        "whitespace_score": 19.4
       },
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 189,
+        "recent7": 192,
         "momentum_pct": 22,
         "momentum_basis": "7d",
-        "total": 1083,
+        "total": 1086,
         "sparkline": [
           221,
           195,
           200,
-          189
+          192
         ],
         "hard_ratio": 0.074,
         "whitespace_score": 12.0
@@ -844,18 +844,18 @@
       {
         "id": "space-tech",
         "label": "Space Tech",
-        "recent7": 117,
-        "momentum_pct": 17,
+        "recent7": 119,
+        "momentum_pct": 18,
         "momentum_basis": "7d",
-        "total": 800,
+        "total": 802,
         "sparkline": [
           147,
           142,
           159,
-          117
+          119
         ],
         "hard_ratio": 0.061,
-        "whitespace_score": 14.6
+        "whitespace_score": 14.7
       },
       {
         "id": "healthtech",
@@ -944,19 +944,19 @@
         "delta": 59
       },
       {
+        "term": "water",
+        "count": 101,
+        "delta": 57
+      },
+      {
         "term": "tryhackme",
         "count": 167,
         "delta": 55
       },
       {
-        "term": "water",
-        "count": 98,
-        "delta": 54
-      },
-      {
         "term": "systems",
-        "count": 185,
-        "delta": 42
+        "count": 188,
+        "delta": 45
       },
       {
         "term": "hotel",
@@ -965,8 +965,8 @@
       },
       {
         "term": "minnesota",
-        "count": 42,
-        "delta": 38
+        "count": 43,
+        "delta": 39
       },
       {
         "term": "exposed",
@@ -1096,6 +1096,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 17700
+    "total_signals": 17737
   }
 }

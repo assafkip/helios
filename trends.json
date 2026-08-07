@@ -1,22 +1,22 @@
 {
-  "generated": "2026-08-07T20:37:18Z",
+  "generated": "2026-08-07T21:36:08Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 11069,
-      "recent7": 2200,
+      "total": 11086,
+      "recent7": 2217,
       "sparkline": [
         2360,
         2328,
         2279,
-        2200
+        2217
       ],
       "momentum_pct": 26,
       "momentum_basis": "7d",
-      "hard_count": 419,
+      "hard_count": 420,
       "hard_ratio": 0.038,
       "exit_count": 49,
-      "talk_count": 10489,
+      "talk_count": 10505,
       "whitespace_score": 25.0,
       "rising": [
         {
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1583
+          "count": 1589
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 799
+          "count": 801
         },
         {
           "name": "ProductHunt",
@@ -95,20 +95,20 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 1736,
-      "recent7": 348,
+      "total": 1737,
+      "recent7": 349,
       "sparkline": [
         331,
         355,
         349,
-        348
+        349
       ],
-      "momentum_pct": 25,
+      "momentum_pct": 26,
       "momentum_basis": "7d",
       "hard_count": 161,
       "hard_ratio": 0.093,
       "exit_count": 62,
-      "talk_count": 1451,
+      "talk_count": 1452,
       "whitespace_score": 9.0,
       "rising": [
         {
@@ -118,8 +118,8 @@
         },
         {
           "term": "group",
-          "count": 44,
-          "delta": 19
+          "count": 46,
+          "delta": 21
         },
         {
           "term": "occ",
@@ -187,26 +187,26 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 1087,
-      "recent7": 193,
+      "total": 1089,
+      "recent7": 195,
       "sparkline": [
         221,
         195,
         200,
-        193
+        195
       ],
       "momentum_pct": 22,
       "momentum_basis": "7d",
       "hard_count": 80,
-      "hard_ratio": 0.074,
+      "hard_ratio": 0.073,
       "exit_count": 17,
-      "talk_count": 961,
+      "talk_count": 963,
       "whitespace_score": 12.0,
       "rising": [
         {
           "term": "agent",
-          "count": 47,
-          "delta": 15
+          "count": 48,
+          "delta": 16
         },
         {
           "term": "microsoft",
@@ -268,7 +268,7 @@
         {
           "name": "Tomasz Tunguz",
           "firm": "Theory Ventures",
-          "count": 5
+          "count": 6
         },
         {
           "name": "Radical Ventures",
@@ -622,20 +622,20 @@
     },
     "space-tech": {
       "label": "Space Tech",
-      "total": 802,
-      "recent7": 119,
+      "total": 806,
+      "recent7": 123,
       "sparkline": [
         147,
         142,
         159,
-        119
+        123
       ],
       "momentum_pct": 18,
       "momentum_basis": "7d",
       "hard_count": 49,
       "hard_ratio": 0.061,
       "exit_count": 11,
-      "talk_count": 719,
+      "talk_count": 722,
       "whitespace_score": 14.7,
       "rising": [
         {
@@ -645,8 +645,8 @@
         },
         {
           "term": "moon",
-          "count": 48,
-          "delta": 19
+          "count": 50,
+          "delta": 21
         },
         {
           "term": "eclipse",
@@ -674,16 +674,16 @@
           "delta": 10
         },
         {
-          "term": "spacecraft",
-          "count": 34,
-          "delta": 9
+          "term": "test flight",
+          "count": 16,
+          "delta": 10
         }
       ],
       "movers": [
         {
           "name": "SpaceNews",
           "firm": "SpaceNews",
-          "count": 68
+          "count": 69
         },
         {
           "name": "Payload",
@@ -780,15 +780,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2200,
+        "recent7": 2217,
         "momentum_pct": 26,
         "momentum_basis": "7d",
-        "total": 11069,
+        "total": 11086,
         "sparkline": [
           2360,
           2328,
           2279,
-          2200
+          2217
         ],
         "hard_ratio": 0.038,
         "whitespace_score": 25.0
@@ -796,15 +796,15 @@
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 348,
-        "momentum_pct": 25,
+        "recent7": 349,
+        "momentum_pct": 26,
         "momentum_basis": "7d",
-        "total": 1736,
+        "total": 1737,
         "sparkline": [
           331,
           355,
           349,
-          348
+          349
         ],
         "hard_ratio": 0.093,
         "whitespace_score": 9.0
@@ -828,31 +828,31 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 193,
+        "recent7": 195,
         "momentum_pct": 22,
         "momentum_basis": "7d",
-        "total": 1087,
+        "total": 1089,
         "sparkline": [
           221,
           195,
           200,
-          193
+          195
         ],
-        "hard_ratio": 0.074,
+        "hard_ratio": 0.073,
         "whitespace_score": 12.0
       },
       {
         "id": "space-tech",
         "label": "Space Tech",
-        "recent7": 119,
+        "recent7": 123,
         "momentum_pct": 18,
         "momentum_basis": "7d",
-        "total": 802,
+        "total": 806,
         "sparkline": [
           147,
           142,
           159,
-          119
+          123
         ],
         "hard_ratio": 0.061,
         "whitespace_score": 14.7
@@ -940,8 +940,8 @@
       },
       {
         "term": "room",
-        "count": 110,
-        "delta": 59
+        "count": 111,
+        "delta": 60
       },
       {
         "term": "water",
@@ -1000,6 +1000,18 @@
         "hard": 0
       },
       {
+        "person": "Tomasz Tunguz",
+        "firm": "Theory Ventures",
+        "summary": "The Secret Chat Room",
+        "category": "market_commentary",
+        "url": "https://www.tomtunguz.com/the-secret-chat-room/",
+        "date": "2026-08-07",
+        "vertical": "AI / ML Infra",
+        "vid": "ai-ml",
+        "days": 0,
+        "hard": 0
+      },
+      {
         "person": "Distilled",
         "firm": "Distilled (climate tech)",
         "summary": "Scoop: Amazon Is Behind One of the Largest Planned Gas Power Plants in the US",
@@ -1029,18 +1041,6 @@
         "summary": "Our Investment in Discovery Loop",
         "category": "new_thesis",
         "url": "https://radical.vc/our-investment-in-discovery-loop/?utm_source=rss&utm_medium=rss&utm_campaign=our-investment-in-discovery-loop",
-        "date": "2026-08-05",
-        "vertical": "AI / ML Infra",
-        "vid": "ai-ml",
-        "days": 2,
-        "hard": 1
-      },
-      {
-        "person": "Tomasz Tunguz",
-        "firm": "Theory Ventures",
-        "summary": "Spending Like a Hyperscaler",
-        "category": "exit_signal",
-        "url": "https://www.tomtunguz.com/the-newest-hyperscaler/",
         "date": "2026-08-05",
         "vertical": "AI / ML Infra",
         "vid": "ai-ml",
@@ -1096,6 +1096,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 17757
+    "total_signals": 17781
   }
 }

@@ -1,22 +1,22 @@
 {
-  "generated": "2026-08-08T01:17:15Z",
+  "generated": "2026-08-08T03:22:13Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 11132,
-      "recent7": 2026,
+      "total": 11152,
+      "recent7": 2046,
       "sparkline": [
         2390,
         2279,
         2292,
-        2026
+        2046
       ],
       "momentum_pct": 23,
       "momentum_basis": "7d",
       "hard_count": 421,
       "hard_ratio": 0.038,
       "exit_count": 49,
-      "talk_count": 10550,
+      "talk_count": 10570,
       "whitespace_score": 25.1,
       "rising": [
         {
@@ -36,8 +36,8 @@
         },
         {
           "term": "systems",
-          "count": 139,
-          "delta": 52
+          "count": 140,
+          "delta": 53
         },
         {
           "term": "room",
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1501
+          "count": 1510
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 765
+          "count": 766
         },
         {
           "name": "Security Conferences",
@@ -371,21 +371,21 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 1105,
-      "recent7": 189,
+      "total": 1110,
+      "recent7": 194,
       "sparkline": [
         217,
         213,
         219,
-        189
+        194
       ],
       "momentum_pct": 21,
       "momentum_basis": "7d",
       "hard_count": 53,
       "hard_ratio": 0.048,
       "exit_count": 5,
-      "talk_count": 1033,
-      "whitespace_score": 19.5,
+      "talk_count": 1038,
+      "whitespace_score": 19.6,
       "rising": [
         {
           "term": "texas",
@@ -396,6 +396,11 @@
           "term": "byd",
           "count": 41,
           "delta": 19
+        },
+        {
+          "term": "powered",
+          "count": 13,
+          "delta": 12
         },
         {
           "term": "china",
@@ -413,11 +418,6 @@
           "delta": 11
         },
         {
-          "term": "powered",
-          "count": 12,
-          "delta": 11
-        },
-        {
           "term": "climate",
           "count": 46,
           "delta": 10
@@ -432,7 +432,7 @@
         {
           "name": "CleanTechnica",
           "firm": "CleanTechnica",
-          "count": 152
+          "count": 157
         },
         {
           "name": "Utility Dive",
@@ -780,15 +780,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2026,
+        "recent7": 2046,
         "momentum_pct": 23,
         "momentum_basis": "7d",
-        "total": 11132,
+        "total": 11152,
         "sparkline": [
           2390,
           2279,
           2292,
-          2026
+          2046
         ],
         "hard_ratio": 0.038,
         "whitespace_score": 25.1
@@ -812,18 +812,18 @@
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 189,
+        "recent7": 194,
         "momentum_pct": 21,
         "momentum_basis": "7d",
-        "total": 1105,
+        "total": 1110,
         "sparkline": [
           217,
           213,
           219,
-          189
+          194
         ],
         "hard_ratio": 0.048,
-        "whitespace_score": 19.5
+        "whitespace_score": 19.6
       },
       {
         "id": "ai-ml",
@@ -955,8 +955,8 @@
       },
       {
         "term": "systems",
-        "count": 184,
-        "delta": 45
+        "count": 185,
+        "delta": 46
       },
       {
         "term": "hotel",
@@ -1096,6 +1096,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 17842
+    "total_signals": 17867
   }
 }

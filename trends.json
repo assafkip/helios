@@ -1,28 +1,28 @@
 {
-  "generated": "2026-08-08T04:53:03Z",
+  "generated": "2026-08-08T05:40:33Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 11165,
-      "recent7": 2059,
+      "total": 11175,
+      "recent7": 2069,
       "sparkline": [
         2390,
         2279,
         2292,
-        2059
+        2069
       ],
       "momentum_pct": 23,
       "momentum_basis": "7d",
       "hard_count": 422,
       "hard_ratio": 0.038,
       "exit_count": 49,
-      "talk_count": 10582,
+      "talk_count": 10592,
       "whitespace_score": 25.1,
       "rising": [
         {
           "term": "hacker",
-          "count": 134,
-          "delta": 83
+          "count": 136,
+          "delta": 85
         },
         {
           "term": "holidays",
@@ -36,8 +36,8 @@
         },
         {
           "term": "systems",
-          "count": 142,
-          "delta": 55
+          "count": 143,
+          "delta": 56
         },
         {
           "term": "room",
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1519
+          "count": 1524
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 770
+          "count": 772
         },
         {
           "name": "Security Conferences",
@@ -463,21 +463,21 @@
     },
     "edtech": {
       "label": "Edtech",
-      "total": 488,
-      "recent7": 84,
+      "total": 489,
+      "recent7": 85,
       "sparkline": [
         98,
         84,
         86,
-        84
+        85
       ],
       "momentum_pct": 23,
       "momentum_basis": "7d",
-      "hard_count": 11,
-      "hard_ratio": 0.023,
+      "hard_count": 12,
+      "hard_ratio": 0.025,
       "exit_count": 0,
       "talk_count": 472,
-      "whitespace_score": 42.9,
+      "whitespace_score": 39.3,
       "rising": [
         {
           "term": "families",
@@ -505,19 +505,19 @@
           "delta": 8
         },
         {
-          "term": "know",
+          "term": "program",
+          "count": 16,
+          "delta": 7
+        },
+        {
+          "term": "start",
           "count": 10,
           "delta": 7
         },
         {
-          "term": "program",
-          "count": 15,
-          "delta": 6
-        },
-        {
-          "term": "johanna",
-          "count": 12,
-          "delta": 6
+          "term": "know",
+          "count": 10,
+          "delta": 7
         }
       ],
       "movers": [
@@ -780,15 +780,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2059,
+        "recent7": 2069,
         "momentum_pct": 23,
         "momentum_basis": "7d",
-        "total": 11165,
+        "total": 11175,
         "sparkline": [
           2390,
           2279,
           2292,
-          2059
+          2069
         ],
         "hard_ratio": 0.038,
         "whitespace_score": 25.1
@@ -892,18 +892,18 @@
       {
         "id": "edtech",
         "label": "Edtech",
-        "recent7": 84,
+        "recent7": 85,
         "momentum_pct": 23,
         "momentum_basis": "7d",
-        "total": 488,
+        "total": 489,
         "sparkline": [
           98,
           84,
           86,
-          84
+          85
         ],
-        "hard_ratio": 0.023,
-        "whitespace_score": 42.9
+        "hard_ratio": 0.025,
+        "whitespace_score": 39.3
       },
       {
         "id": "coexistence-empowerment",
@@ -925,8 +925,8 @@
     "rising": [
       {
         "term": "hacker",
-        "count": 138,
-        "delta": 82
+        "count": 140,
+        "delta": 84
       },
       {
         "term": "holidays",
@@ -950,8 +950,8 @@
       },
       {
         "term": "systems",
-        "count": 187,
-        "delta": 48
+        "count": 188,
+        "delta": 49
       },
       {
         "term": "tryhackme",
@@ -1096,6 +1096,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 17880
+    "total_signals": 17891
   }
 }

@@ -1,23 +1,23 @@
 {
-  "generated": "2026-08-08T16:28:36Z",
+  "generated": "2026-08-08T17:26:02Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 11343,
-      "recent7": 2236,
+      "total": 11356,
+      "recent7": 2249,
       "sparkline": [
         2390,
         2279,
         2293,
-        2236
+        2249
       ],
       "momentum_pct": 25,
       "momentum_basis": "7d",
       "hard_count": 426,
       "hard_ratio": 0.038,
       "exit_count": 49,
-      "talk_count": 10756,
-      "whitespace_score": 25.2,
+      "talk_count": 10768,
+      "whitespace_score": 25.3,
       "rising": [
         {
           "term": "hacker",
@@ -26,8 +26,8 @@
         },
         {
           "term": "systems",
-          "count": 149,
-          "delta": 62
+          "count": 150,
+          "delta": 63
         },
         {
           "term": "holidays",
@@ -55,21 +55,21 @@
           "delta": 48
         },
         {
-          "term": "hotel",
-          "count": 41,
-          "delta": 39
+          "term": "openai",
+          "count": 163,
+          "delta": 40
         }
       ],
       "movers": [
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1630
+          "count": 1640
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 805
+          "count": 806
         },
         {
           "name": "Security Conferences",
@@ -95,20 +95,20 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 1747,
-      "recent7": 344,
+      "total": 1748,
+      "recent7": 345,
       "sparkline": [
         328,
         357,
         353,
-        344
+        345
       ],
       "momentum_pct": 25,
       "momentum_basis": "7d",
       "hard_count": 162,
       "hard_ratio": 0.093,
       "exit_count": 62,
-      "talk_count": 1460,
+      "talk_count": 1461,
       "whitespace_score": 9.0,
       "rising": [
         {
@@ -142,14 +142,14 @@
           "delta": 18
         },
         {
-          "term": "ibm",
-          "count": 16,
-          "delta": 16
+          "term": "robinhood",
+          "count": 27,
+          "delta": 17
         },
         {
           "term": "chain",
-          "count": 25,
-          "delta": 15
+          "count": 27,
+          "delta": 17
         }
       ],
       "movers": [
@@ -463,26 +463,26 @@
     },
     "edtech": {
       "label": "Edtech",
-      "total": 490,
-      "recent7": 86,
+      "total": 491,
+      "recent7": 87,
       "sparkline": [
         98,
         84,
         86,
-        86
+        87
       ],
       "momentum_pct": 23,
       "momentum_basis": "7d",
       "hard_count": 12,
       "hard_ratio": 0.024,
       "exit_count": 0,
-      "talk_count": 473,
-      "whitespace_score": 39.4,
+      "talk_count": 474,
+      "whitespace_score": 39.5,
       "rising": [
         {
           "term": "families",
-          "count": 12,
-          "delta": 10
+          "count": 13,
+          "delta": 11
         },
         {
           "term": "teacher",
@@ -493,6 +493,16 @@
           "term": "howard",
           "count": 9,
           "delta": 9
+        },
+        {
+          "term": "start",
+          "count": 11,
+          "delta": 8
+        },
+        {
+          "term": "know",
+          "count": 11,
+          "delta": 8
         },
         {
           "term": "skills",
@@ -508,23 +518,13 @@
           "term": "program",
           "count": 16,
           "delta": 7
-        },
-        {
-          "term": "start",
-          "count": 10,
-          "delta": 7
-        },
-        {
-          "term": "know",
-          "count": 10,
-          "delta": 7
         }
       ],
       "movers": [
         {
           "name": "The 74",
           "firm": "The 74 Million",
-          "count": 57
+          "count": 58
         },
         {
           "name": "Class Central",
@@ -540,21 +540,21 @@
     },
     "marketing-ads": {
       "label": "Marketing / Ads",
-      "total": 510,
-      "recent7": 100,
+      "total": 511,
+      "recent7": 101,
       "sparkline": [
         94,
         95,
         86,
-        100
+        101
       ],
-      "momentum_pct": 24,
+      "momentum_pct": 25,
       "momentum_basis": "7d",
       "hard_count": 11,
       "hard_ratio": 0.022,
       "exit_count": 6,
-      "talk_count": 488,
-      "whitespace_score": 44.4,
+      "talk_count": 489,
+      "whitespace_score": 44.5,
       "rising": [
         {
           "term": "app",
@@ -611,7 +611,7 @@
         {
           "name": "Lenny Rachitsky",
           "firm": "Angel / Lenny's Newsletter",
-          "count": 3
+          "count": 4
         },
         {
           "name": "Rand Fishkin",
@@ -780,31 +780,31 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2236,
+        "recent7": 2249,
         "momentum_pct": 25,
         "momentum_basis": "7d",
-        "total": 11343,
+        "total": 11356,
         "sparkline": [
           2390,
           2279,
           2293,
-          2236
+          2249
         ],
         "hard_ratio": 0.038,
-        "whitespace_score": 25.2
+        "whitespace_score": 25.3
       },
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 344,
+        "recent7": 345,
         "momentum_pct": 25,
         "momentum_basis": "7d",
-        "total": 1747,
+        "total": 1748,
         "sparkline": [
           328,
           357,
           353,
-          344
+          345
         ],
         "hard_ratio": 0.093,
         "whitespace_score": 9.0
@@ -876,34 +876,34 @@
       {
         "id": "marketing-ads",
         "label": "Marketing / Ads",
-        "recent7": 100,
-        "momentum_pct": 24,
+        "recent7": 101,
+        "momentum_pct": 25,
         "momentum_basis": "7d",
-        "total": 510,
+        "total": 511,
         "sparkline": [
           94,
           95,
           86,
-          100
+          101
         ],
         "hard_ratio": 0.022,
-        "whitespace_score": 44.4
+        "whitespace_score": 44.5
       },
       {
         "id": "edtech",
         "label": "Edtech",
-        "recent7": 86,
+        "recent7": 87,
         "momentum_pct": 23,
         "momentum_basis": "7d",
-        "total": 490,
+        "total": 491,
         "sparkline": [
           98,
           84,
           86,
-          86
+          87
         ],
         "hard_ratio": 0.024,
-        "whitespace_score": 39.4
+        "whitespace_score": 39.5
       },
       {
         "id": "coexistence-empowerment",
@@ -939,14 +939,14 @@
         "delta": 61
       },
       {
-        "term": "water",
-        "count": 102,
+        "term": "systems",
+        "count": 195,
         "delta": 56
       },
       {
-        "term": "systems",
-        "count": 194,
-        "delta": 55
+        "term": "water",
+        "count": 102,
+        "delta": 56
       },
       {
         "term": "room",
@@ -960,13 +960,13 @@
       },
       {
         "term": "openai",
-        "count": 331,
-        "delta": 42
+        "count": 334,
+        "delta": 45
       },
       {
         "term": "agent",
-        "count": 277,
-        "delta": 41
+        "count": 279,
+        "delta": 43
       },
       {
         "term": "hotel",
@@ -986,6 +986,18 @@
         "vid": "ai-ml",
         "days": 0,
         "hard": 1
+      },
+      {
+        "person": "Lenny Rachitsky",
+        "firm": "Angel / Lenny's Newsletter",
+        "summary": "\ud83e\udde0 Community Wisdom: Crafting outreach that reads as authentic, finding design partners, what counts as a moat when anyone can build, making a product vision stick, and more",
+        "category": "market_commentary",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-crafting-outreach",
+        "date": "2026-08-08",
+        "vertical": "Marketing / Ads",
+        "vid": "marketing-ads",
+        "days": 0,
+        "hard": 0
       },
       {
         "person": "Packy McCormick",
@@ -1082,20 +1094,8 @@
         "vid": "fintech",
         "days": 4,
         "hard": 0
-      },
-      {
-        "person": "Theresia Gouw",
-        "firm": "Acrew Capital",
-        "summary": "Investing in Horizon3: hacking the enterprise before the attackers do",
-        "category": "security_trend_commentary",
-        "url": "https://perspectives.acrewcapital.com/p/investing-in-horizon3-hacking-the",
-        "date": "2026-08-03",
-        "vertical": "Cybersecurity",
-        "vid": "cyber",
-        "days": 5,
-        "hard": 0
       }
     ],
-    "total_signals": 18094
+    "total_signals": 18110
   }
 }

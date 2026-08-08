@@ -1,28 +1,33 @@
 {
-  "generated": "2026-08-08T12:39:50Z",
+  "generated": "2026-08-08T13:42:36Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 11275,
-      "recent7": 2168,
+      "total": 11293,
+      "recent7": 2186,
       "sparkline": [
         2390,
         2279,
         2293,
-        2168
+        2186
       ],
-      "momentum_pct": 24,
+      "momentum_pct": 25,
       "momentum_basis": "7d",
-      "hard_count": 422,
-      "hard_ratio": 0.037,
+      "hard_count": 424,
+      "hard_ratio": 0.038,
       "exit_count": 49,
-      "talk_count": 10692,
+      "talk_count": 10708,
       "whitespace_score": 25.3,
       "rising": [
         {
           "term": "hacker",
           "count": 138,
           "delta": 87
+        },
+        {
+          "term": "systems",
+          "count": 149,
+          "delta": 62
         },
         {
           "term": "holidays",
@@ -33,11 +38,6 @@
           "term": "hacker holidays",
           "count": 63,
           "delta": 61
-        },
-        {
-          "term": "systems",
-          "count": 147,
-          "delta": 60
         },
         {
           "term": "room",
@@ -55,8 +55,8 @@
           "delta": 48
         },
         {
-          "term": "hotel",
-          "count": 40,
+          "term": "black hat",
+          "count": 47,
           "delta": 38
         }
       ],
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1589
+          "count": 1599
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 787
+          "count": 793
         },
         {
           "name": "Security Conferences",
@@ -84,7 +84,7 @@
         {
           "name": "Security Affairs",
           "firm": "blog",
-          "count": 61
+          "count": 62
         },
         {
           "name": "Ping Li",
@@ -371,20 +371,20 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 1115,
-      "recent7": 199,
+      "total": 1118,
+      "recent7": 202,
       "sparkline": [
         217,
         213,
         219,
-        199
+        202
       ],
       "momentum_pct": 22,
       "momentum_basis": "7d",
       "hard_count": 53,
-      "hard_ratio": 0.048,
+      "hard_ratio": 0.047,
       "exit_count": 5,
-      "talk_count": 1043,
+      "talk_count": 1046,
       "whitespace_score": 19.7,
       "rising": [
         {
@@ -780,17 +780,17 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2168,
-        "momentum_pct": 24,
+        "recent7": 2186,
+        "momentum_pct": 25,
         "momentum_basis": "7d",
-        "total": 11275,
+        "total": 11293,
         "sparkline": [
           2390,
           2279,
           2293,
-          2168
+          2186
         ],
-        "hard_ratio": 0.037,
+        "hard_ratio": 0.038,
         "whitespace_score": 25.3
       },
       {
@@ -812,17 +812,17 @@
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 199,
+        "recent7": 202,
         "momentum_pct": 22,
         "momentum_basis": "7d",
-        "total": 1115,
+        "total": 1118,
         "sparkline": [
           217,
           213,
           219,
-          199
+          202
         ],
-        "hard_ratio": 0.048,
+        "hard_ratio": 0.047,
         "whitespace_score": 19.7
       },
       {
@@ -945,8 +945,8 @@
       },
       {
         "term": "systems",
-        "count": 192,
-        "delta": 53
+        "count": 194,
+        "delta": 55
       },
       {
         "term": "room",
@@ -964,14 +964,14 @@
         "delta": 40
       },
       {
-        "term": "hotel",
-        "count": 42,
+        "term": "black hat",
+        "count": 49,
         "delta": 40
       },
       {
-        "term": "black hat",
-        "count": 47,
-        "delta": 38
+        "term": "hotel",
+        "count": 42,
+        "delta": 40
       }
     ],
     "highlights": [
@@ -1096,6 +1096,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 18006
+    "total_signals": 18027
   }
 }

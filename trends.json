@@ -1,22 +1,22 @@
 {
-  "generated": "2026-08-08T20:24:44Z",
+  "generated": "2026-08-08T21:26:49Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 11399,
-      "recent7": 2292,
+      "total": 11410,
+      "recent7": 2303,
       "sparkline": [
         2390,
         2279,
         2293,
-        2292
+        2303
       ],
       "momentum_pct": 26,
       "momentum_basis": "7d",
-      "hard_count": 427,
-      "hard_ratio": 0.037,
+      "hard_count": 428,
+      "hard_ratio": 0.038,
       "exit_count": 50,
-      "talk_count": 10809,
+      "talk_count": 10819,
       "whitespace_score": 25.3,
       "rising": [
         {
@@ -56,20 +56,20 @@
         },
         {
           "term": "openai",
-          "count": 164,
-          "delta": 41
+          "count": 166,
+          "delta": 43
         }
       ],
       "movers": [
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1670
+          "count": 1679
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 812
+          "count": 813
         },
         {
           "name": "Security Conferences",
@@ -187,20 +187,20 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 1105,
-      "recent7": 193,
+      "total": 1106,
+      "recent7": 194,
       "sparkline": [
         225,
         191,
         207,
-        193
+        194
       ],
       "momentum_pct": 21,
       "momentum_basis": "7d",
       "hard_count": 82,
       "hard_ratio": 0.074,
       "exit_count": 18,
-      "talk_count": 975,
+      "talk_count": 976,
       "whitespace_score": 11.9,
       "rising": [
         {
@@ -219,6 +219,11 @@
           "delta": 18
         },
         {
+          "term": "amazon",
+          "count": 15,
+          "delta": 14
+        },
+        {
           "term": "safety",
           "count": 15,
           "delta": 13
@@ -231,11 +236,6 @@
         {
           "term": "generated",
           "count": 19,
-          "delta": 12
-        },
-        {
-          "term": "amazon",
-          "count": 13,
           "delta": 12
         },
         {
@@ -371,26 +371,26 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 1120,
-      "recent7": 204,
+      "total": 1121,
+      "recent7": 205,
       "sparkline": [
         217,
         213,
         219,
-        204
+        205
       ],
       "momentum_pct": 22,
       "momentum_basis": "7d",
       "hard_count": 53,
       "hard_ratio": 0.047,
       "exit_count": 5,
-      "talk_count": 1047,
+      "talk_count": 1048,
       "whitespace_score": 19.8,
       "rising": [
         {
           "term": "texas",
-          "count": 30,
-          "delta": 22
+          "count": 31,
+          "delta": 23
         },
         {
           "term": "byd",
@@ -401,6 +401,11 @@
           "term": "china",
           "count": 39,
           "delta": 14
+        },
+        {
+          "term": "climate",
+          "count": 48,
+          "delta": 12
         },
         {
           "term": "powered",
@@ -416,11 +421,6 @@
           "term": "billion",
           "count": 25,
           "delta": 11
-        },
-        {
-          "term": "climate",
-          "count": 46,
-          "delta": 10
         },
         {
           "term": "data centers",
@@ -622,20 +622,20 @@
     },
     "space-tech": {
       "label": "Space Tech",
-      "total": 813,
-      "recent7": 118,
+      "total": 814,
+      "recent7": 119,
       "sparkline": [
         147,
         143,
         162,
-        118
+        119
       ],
       "momentum_pct": 17,
       "momentum_basis": "7d",
       "hard_count": 49,
       "hard_ratio": 0.06,
       "exit_count": 11,
-      "talk_count": 729,
+      "talk_count": 730,
       "whitespace_score": 14.9,
       "rising": [
         {
@@ -647,6 +647,11 @@
           "term": "nasa",
           "count": 78,
           "delta": 24
+        },
+        {
+          "term": "origin",
+          "count": 17,
+          "delta": 15
         },
         {
           "term": "eclipse",
@@ -664,19 +669,14 @@
           "delta": 14
         },
         {
-          "term": "communications",
-          "count": 20,
-          "delta": 13
-        },
-        {
-          "term": "origin",
-          "count": 15,
-          "delta": 13
-        },
-        {
           "term": "blue",
-          "count": 14,
-          "delta": 12
+          "count": 16,
+          "delta": 14
+        },
+        {
+          "term": "blue origin",
+          "count": 16,
+          "delta": 14
         }
       ],
       "movers": [
@@ -780,17 +780,17 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2292,
+        "recent7": 2303,
         "momentum_pct": 26,
         "momentum_basis": "7d",
-        "total": 11399,
+        "total": 11410,
         "sparkline": [
           2390,
           2279,
           2293,
-          2292
+          2303
         ],
-        "hard_ratio": 0.037,
+        "hard_ratio": 0.038,
         "whitespace_score": 25.3
       },
       {
@@ -812,15 +812,15 @@
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 204,
+        "recent7": 205,
         "momentum_pct": 22,
         "momentum_basis": "7d",
-        "total": 1120,
+        "total": 1121,
         "sparkline": [
           217,
           213,
           219,
-          204
+          205
         ],
         "hard_ratio": 0.047,
         "whitespace_score": 19.8
@@ -828,15 +828,15 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 193,
+        "recent7": 194,
         "momentum_pct": 21,
         "momentum_basis": "7d",
-        "total": 1105,
+        "total": 1106,
         "sparkline": [
           225,
           191,
           207,
-          193
+          194
         ],
         "hard_ratio": 0.074,
         "whitespace_score": 11.9
@@ -860,15 +860,15 @@
       {
         "id": "space-tech",
         "label": "Space Tech",
-        "recent7": 118,
+        "recent7": 119,
         "momentum_pct": 17,
         "momentum_basis": "7d",
-        "total": 813,
+        "total": 814,
         "sparkline": [
           147,
           143,
           162,
-          118
+          119
         ],
         "hard_ratio": 0.06,
         "whitespace_score": 14.9
@@ -954,14 +954,14 @@
         "delta": 52
       },
       {
+        "term": "openai",
+        "count": 338,
+        "delta": 49
+      },
+      {
         "term": "tryhackme",
         "count": 162,
         "delta": 48
-      },
-      {
-        "term": "openai",
-        "count": 336,
-        "delta": 47
       },
       {
         "term": "agent",
@@ -969,8 +969,8 @@
         "delta": 44
       },
       {
-        "term": "hotel",
-        "count": 43,
+        "term": "black hat",
+        "count": 50,
         "delta": 41
       }
     ],
@@ -1096,6 +1096,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 18158
+    "total_signals": 18172
   }
 }

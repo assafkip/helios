@@ -1,28 +1,28 @@
 {
-  "generated": "2026-08-09T20:27:29Z",
+  "generated": "2026-08-09T21:28:35Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 11692,
-      "recent7": 2334,
+      "total": 11704,
+      "recent7": 2346,
       "sparkline": [
         2421,
         2248,
         2317,
-        2334
+        2346
       ],
       "momentum_pct": 26,
       "momentum_basis": "7d",
       "hard_count": 435,
       "hard_ratio": 0.037,
       "exit_count": 50,
-      "talk_count": 11094,
+      "talk_count": 11106,
       "whitespace_score": 25.5,
       "rising": [
         {
           "term": "hacker",
-          "count": 144,
-          "delta": 94
+          "count": 145,
+          "delta": 95
         },
         {
           "term": "systems",
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1724
+          "count": 1732
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 817
+          "count": 819
         },
         {
           "name": "ProductHunt",
@@ -95,20 +95,20 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 1759,
-      "recent7": 340,
+      "total": 1760,
+      "recent7": 341,
       "sparkline": [
         328,
         360,
         352,
-        340
+        341
       ],
       "momentum_pct": 24,
       "momentum_basis": "7d",
       "hard_count": 162,
       "hard_ratio": 0.092,
       "exit_count": 63,
-      "talk_count": 1471,
+      "talk_count": 1472,
       "whitespace_score": 9.1,
       "rising": [
         {
@@ -118,8 +118,8 @@
         },
         {
           "term": "group",
-          "count": 45,
-          "delta": 24
+          "count": 46,
+          "delta": 25
         },
         {
           "term": "ceo",
@@ -187,21 +187,21 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 1119,
-      "recent7": 190,
+      "total": 1120,
+      "recent7": 191,
       "sparkline": [
         219,
         189,
         214,
-        190
+        191
       ],
-      "momentum_pct": 20,
+      "momentum_pct": 21,
       "momentum_basis": "7d",
-      "hard_count": 82,
-      "hard_ratio": 0.073,
+      "hard_count": 83,
+      "hard_ratio": 0.074,
       "exit_count": 19,
       "talk_count": 987,
-      "whitespace_score": 12.0,
+      "whitespace_score": 11.9,
       "rising": [
         {
           "term": "microsoft",
@@ -780,15 +780,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2334,
+        "recent7": 2346,
         "momentum_pct": 26,
         "momentum_basis": "7d",
-        "total": 11692,
+        "total": 11704,
         "sparkline": [
           2421,
           2248,
           2317,
-          2334
+          2346
         ],
         "hard_ratio": 0.037,
         "whitespace_score": 25.5
@@ -796,15 +796,15 @@
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 340,
+        "recent7": 341,
         "momentum_pct": 24,
         "momentum_basis": "7d",
-        "total": 1759,
+        "total": 1760,
         "sparkline": [
           328,
           360,
           352,
-          340
+          341
         ],
         "hard_ratio": 0.092,
         "whitespace_score": 9.1
@@ -828,18 +828,18 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 190,
-        "momentum_pct": 20,
+        "recent7": 191,
+        "momentum_pct": 21,
         "momentum_basis": "7d",
-        "total": 1119,
+        "total": 1120,
         "sparkline": [
           219,
           189,
           214,
-          190
+          191
         ],
-        "hard_ratio": 0.073,
-        "whitespace_score": 12.0
+        "hard_ratio": 0.074,
+        "whitespace_score": 11.9
       },
       {
         "id": "space-tech",
@@ -925,8 +925,8 @@
     "rising": [
       {
         "term": "hacker",
-        "count": 149,
-        "delta": 94
+        "count": 150,
+        "delta": 95
       },
       {
         "term": "systems",
@@ -944,13 +944,13 @@
         "delta": 61
       },
       {
-        "term": "openai",
-        "count": 333,
-        "delta": 59
+        "term": "agent",
+        "count": 290,
+        "delta": 60
       },
       {
-        "term": "agent",
-        "count": 289,
+        "term": "openai",
+        "count": 333,
         "delta": 59
       },
       {
@@ -1096,6 +1096,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 18495
+    "total_signals": 18509
   }
 }

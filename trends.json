@@ -1,22 +1,22 @@
 {
-  "generated": "2026-08-09T09:36:02Z",
+  "generated": "2026-08-09T10:31:00Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 11526,
-      "recent7": 2169,
+      "total": 11540,
+      "recent7": 2183,
       "sparkline": [
         2421,
         2247,
         2317,
-        2169
+        2183
       ],
       "momentum_pct": 24,
       "momentum_basis": "7d",
       "hard_count": 432,
       "hard_ratio": 0.037,
       "exit_count": 50,
-      "talk_count": 10931,
+      "talk_count": 10945,
       "whitespace_score": 25.3,
       "rising": [
         {
@@ -56,15 +56,15 @@
         },
         {
           "term": "black hat",
-          "count": 50,
-          "delta": 40
+          "count": 51,
+          "delta": 41
         }
       ],
       "movers": [
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1623
+          "count": 1634
         },
         {
           "name": "Reddit Cybersecurity",
@@ -74,7 +74,7 @@
         {
           "name": "ProductHunt",
           "firm": "producthunt",
-          "count": 156
+          "count": 158
         },
         {
           "name": "Security Conferences",
@@ -187,21 +187,21 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 1109,
-      "recent7": 180,
+      "total": 1111,
+      "recent7": 182,
       "sparkline": [
         219,
         189,
         214,
-        180
+        182
       ],
-      "momentum_pct": 19,
+      "momentum_pct": 20,
       "momentum_basis": "7d",
       "hard_count": 82,
       "hard_ratio": 0.074,
       "exit_count": 18,
-      "talk_count": 978,
-      "whitespace_score": 11.9,
+      "talk_count": 980,
+      "whitespace_score": 12.0,
       "rising": [
         {
           "term": "microsoft",
@@ -229,19 +229,19 @@
           "delta": 16
         },
         {
-          "term": "safety",
-          "count": 15,
-          "delta": 13
-        },
-        {
           "term": "google",
-          "count": 79,
-          "delta": 12
+          "count": 81,
+          "delta": 14
         },
         {
           "term": "generated",
-          "count": 19,
-          "delta": 12
+          "count": 20,
+          "delta": 13
+        },
+        {
+          "term": "safety",
+          "count": 15,
+          "delta": 13
         }
       ],
       "movers": [
@@ -263,7 +263,7 @@
         {
           "name": "Sarah Tavel",
           "firm": "Benchmark",
-          "count": 11
+          "count": 12
         },
         {
           "name": "Tomasz Tunguz",
@@ -780,15 +780,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2169,
+        "recent7": 2183,
         "momentum_pct": 24,
         "momentum_basis": "7d",
-        "total": 11526,
+        "total": 11540,
         "sparkline": [
           2421,
           2247,
           2317,
-          2169
+          2183
         ],
         "hard_ratio": 0.037,
         "whitespace_score": 25.3
@@ -828,18 +828,18 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 180,
-        "momentum_pct": 19,
+        "recent7": 182,
+        "momentum_pct": 20,
         "momentum_basis": "7d",
-        "total": 1109,
+        "total": 1111,
         "sparkline": [
           219,
           189,
           214,
-          180
+          182
         ],
         "hard_ratio": 0.074,
-        "whitespace_score": 11.9
+        "whitespace_score": 12.0
       },
       {
         "id": "healthtech",
@@ -964,13 +964,13 @@
         "delta": 51
       },
       {
-        "term": "growth",
-        "count": 132,
-        "delta": 42
+        "term": "black hat",
+        "count": 53,
+        "delta": 43
       },
       {
-        "term": "black hat",
-        "count": 52,
+        "term": "growth",
+        "count": 132,
         "delta": 42
       }
     ],
@@ -1096,6 +1096,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 18294
+    "total_signals": 18310
   }
 }

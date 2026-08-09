@@ -1,22 +1,22 @@
 {
-  "generated": "2026-08-09T08:38:02Z",
+  "generated": "2026-08-09T09:36:02Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 11511,
-      "recent7": 2154,
+      "total": 11526,
+      "recent7": 2169,
       "sparkline": [
         2421,
         2247,
         2317,
-        2154
+        2169
       ],
       "momentum_pct": 24,
       "momentum_basis": "7d",
       "hard_count": 432,
-      "hard_ratio": 0.038,
+      "hard_ratio": 0.037,
       "exit_count": 50,
-      "talk_count": 10916,
+      "talk_count": 10931,
       "whitespace_score": 25.3,
       "rising": [
         {
@@ -64,17 +64,17 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1612
+          "count": 1623
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 787
+          "count": 788
         },
         {
           "name": "ProductHunt",
           "firm": "producthunt",
-          "count": 155
+          "count": 156
         },
         {
           "name": "Security Conferences",
@@ -84,7 +84,7 @@
         {
           "name": "Security Affairs",
           "firm": "blog",
-          "count": 60
+          "count": 61
         },
         {
           "name": "Ping Li",
@@ -187,20 +187,20 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 1107,
-      "recent7": 178,
+      "total": 1109,
+      "recent7": 180,
       "sparkline": [
         219,
         189,
         214,
-        178
+        180
       ],
       "momentum_pct": 19,
       "momentum_basis": "7d",
       "hard_count": 82,
       "hard_ratio": 0.074,
       "exit_count": 18,
-      "talk_count": 976,
+      "talk_count": 978,
       "whitespace_score": 11.9,
       "rising": [
         {
@@ -225,8 +225,8 @@
         },
         {
           "term": "amazon",
-          "count": 15,
-          "delta": 14
+          "count": 17,
+          "delta": 16
         },
         {
           "term": "safety",
@@ -234,13 +234,13 @@
           "delta": 13
         },
         {
-          "term": "generated",
-          "count": 19,
+          "term": "google",
+          "count": 79,
           "delta": 12
         },
         {
-          "term": "mcp",
-          "count": 13,
+          "term": "generated",
+          "count": 19,
           "delta": 12
         }
       ],
@@ -780,17 +780,17 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2154,
+        "recent7": 2169,
         "momentum_pct": 24,
         "momentum_basis": "7d",
-        "total": 11511,
+        "total": 11526,
         "sparkline": [
           2421,
           2247,
           2317,
-          2154
+          2169
         ],
-        "hard_ratio": 0.038,
+        "hard_ratio": 0.037,
         "whitespace_score": 25.3
       },
       {
@@ -828,15 +828,15 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 178,
+        "recent7": 180,
         "momentum_pct": 19,
         "momentum_basis": "7d",
-        "total": 1107,
+        "total": 1109,
         "sparkline": [
           219,
           189,
           214,
-          178
+          180
         ],
         "hard_ratio": 0.074,
         "whitespace_score": 11.9
@@ -1096,6 +1096,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 18277
+    "total_signals": 18294
   }
 }

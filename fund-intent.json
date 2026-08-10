@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-10T07:25:00Z",
+  "generated": "2026-08-10T09:16:20Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 557,
-    "deal_rows_attributed": 265,
-    "funds_tracked": 151,
-    "fetch_attempts": 49,
-    "fetchable_pct": 4,
+    "deal_rows_seen": 560,
+    "deal_rows_attributed": 266,
+    "funds_tracked": 152,
+    "fetch_attempts": 50,
+    "fetchable_pct": 6,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -2621,6 +2621,52 @@
       ]
     },
     {
+      "fund": "Lux Capital",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 3,
+      "recent90": 3,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-10",
+          "summary": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise",
+          "url": "https://sifted.eu/articles/cambridge-aerospace-fundraise-valuation/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-05",
+          "summary": "AI makes weather prediction better. Can WindBorne make it lucrative?",
+          "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-05",
+          "summary": "AI makes weather prediction better. Can WindBorne make it lucrative?",
+          "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/"
+        }
+      ]
+    },
+    {
       "fund": "Cyberstarts",
       "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
       "coverage": 3,
@@ -3740,41 +3786,6 @@
     },
     {
       "fund": "TransLink Capital",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 2,
-      "recent90": 2,
-      "prior30": 0,
-      "last_deal_days": 5,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-05",
-          "summary": "AI makes weather prediction better. Can WindBorne make it lucrative?",
-          "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-08-05",
-          "summary": "AI makes weather prediction better. Can WindBorne make it lucrative?",
-          "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/"
-        }
-      ]
-    },
-    {
-      "fund": "Lux Capital",
       "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
       "sectors": [
@@ -5309,6 +5320,36 @@
       ]
     },
     {
+      "fund": "Lakestar",
+      "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Fintech / Payments",
+          "count": 2,
+          "weight": 2.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-10",
+          "summary": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise",
+          "url": "https://sifted.eu/articles/cambridge-aerospace-fundraise-valuation/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-17",
+          "summary": "VC Firm Lakestar Raises $300 Million to Fund European Tech Sovereignty",
+          "url": "https://www.pymnts.com/news/investment-tracker/2026/vc-firm-lakestar-raises-300-million-to-fund-european-tech-sovereignty/"
+        }
+      ]
+    },
+    {
       "fund": "Earlybird",
       "thesis": "Revealed focus: Fintech / Payments and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -6795,6 +6836,13 @@
         "recent30": 3
       },
       {
+        "fund": "Lux Capital",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "FirstMark",
         "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
@@ -6859,13 +6907,6 @@
       },
       {
         "fund": "TransLink Capital",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Lux Capital",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,
@@ -7280,6 +7321,13 @@
         "recent30": 3
       },
       {
+        "fund": "Lux Capital",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "Tencent",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
@@ -7365,13 +7413,6 @@
       },
       {
         "fund": "TransLink Capital",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Lux Capital",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,
@@ -7590,6 +7631,13 @@
         "recent30": 3
       },
       {
+        "fund": "Lakestar",
+        "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 2
+      },
+      {
         "fund": "Hummingbird",
         "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -7749,6 +7797,13 @@
         "coverage": 4,
         "sector_count": 1,
         "recent30": 2
+      },
+      {
+        "fund": "Lux Capital",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
       },
       {
         "fund": "Cyberstarts",

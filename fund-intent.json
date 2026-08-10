@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-10T20:38:16Z",
+  "generated": "2026-08-10T21:38:25Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 571,
-    "deal_rows_attributed": 271,
-    "funds_tracked": 154,
+    "deal_rows_seen": 572,
+    "deal_rows_attributed": 272,
+    "funds_tracked": 155,
     "fetch_attempts": 50,
     "fetchable_pct": 0,
     "update_cadence": "hourly"
@@ -5822,6 +5822,36 @@
       ]
     },
     {
+      "fund": "Amazon",
+      "thesis": "Revealed focus: AI / ML Infra. 2 attributed deal(s), 1 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 2,
+          "weight": 1.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 2,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-10",
+          "summary": "Amazon backs power plant that may become top source of US climate pollution",
+          "url": "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-06-23",
+          "summary": "Odyssey raises $310M Series B for world models",
+          "url": "https://press.airstreet.com/p/odyssey-series-b"
+        }
+      ]
+    },
+    {
       "fund": "Thrive",
       "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -7310,6 +7340,13 @@
         "coverage": 5,
         "sector_count": 2,
         "recent30": 3
+      },
+      {
+        "fund": "Amazon",
+        "thesis": "Revealed focus: AI / ML Infra. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 1
       },
       {
         "fund": "Teleport",

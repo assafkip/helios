@@ -1,28 +1,33 @@
 {
-  "generated": "2026-08-10T01:23:47Z",
+  "generated": "2026-08-10T03:50:55Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 11757,
-      "recent7": 2070,
+      "total": 11785,
+      "recent7": 2098,
       "sparkline": [
         2418,
         2260,
         2303,
-        2070
+        2098
       ],
-      "momentum_pct": 22,
+      "momentum_pct": 23,
       "momentum_basis": "7d",
       "hard_count": 437,
       "hard_ratio": 0.037,
-      "exit_count": 50,
-      "talk_count": 11157,
-      "whitespace_score": 25.5,
+      "exit_count": 52,
+      "talk_count": 11183,
+      "whitespace_score": 25.6,
       "rising": [
         {
           "term": "hacker",
           "count": 142,
           "delta": 91
+        },
+        {
+          "term": "systems",
+          "count": 148,
+          "delta": 60
         },
         {
           "term": "holidays",
@@ -33,11 +38,6 @@
           "term": "hacker holidays",
           "count": 63,
           "delta": 59
-        },
-        {
-          "term": "systems",
-          "count": 144,
-          "delta": 56
         },
         {
           "term": "room",
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1666
+          "count": 1675
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 767
+          "count": 775
         },
         {
           "name": "Security Conferences",
@@ -89,26 +89,26 @@
         {
           "name": "Ping Li",
           "firm": "Accel",
-          "count": 43
+          "count": 44
         }
       ]
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 1770,
-      "recent7": 275,
+      "total": 1775,
+      "recent7": 280,
       "sparkline": [
         338,
         354,
         358,
-        275
+        280
       ],
       "momentum_pct": 19,
       "momentum_basis": "7d",
       "hard_count": 163,
       "hard_ratio": 0.092,
       "exit_count": 64,
-      "talk_count": 1479,
+      "talk_count": 1484,
       "whitespace_score": 9.1,
       "rising": [
         {
@@ -118,13 +118,13 @@
         },
         {
           "term": "group",
-          "count": 43,
-          "delta": 19
+          "count": 45,
+          "delta": 21
         },
         {
           "term": "chain",
-          "count": 28,
-          "delta": 17
+          "count": 29,
+          "delta": 18
         },
         {
           "term": "related",
@@ -187,20 +187,20 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 1125,
-      "recent7": 168,
+      "total": 1126,
+      "recent7": 169,
       "sparkline": [
         218,
         191,
         212,
-        168
+        169
       ],
       "momentum_pct": 18,
       "momentum_basis": "7d",
       "hard_count": 84,
       "hard_ratio": 0.075,
       "exit_count": 19,
-      "talk_count": 991,
+      "talk_count": 992,
       "whitespace_score": 11.8,
       "rising": [
         {
@@ -248,7 +248,7 @@
         {
           "name": "Simon Willison",
           "firm": "simonwillison.net",
-          "count": 50
+          "count": 51
         },
         {
           "name": "Jason Lemkin",
@@ -279,20 +279,20 @@
     },
     "healthtech": {
       "label": "Healthtech / Bio",
-      "total": 622,
-      "recent7": 96,
+      "total": 625,
+      "recent7": 99,
       "sparkline": [
         99,
         131,
         119,
-        96
+        99
       ],
-      "momentum_pct": 19,
+      "momentum_pct": 20,
       "momentum_basis": "7d",
       "hard_count": 32,
       "hard_ratio": 0.051,
-      "exit_count": 17,
-      "talk_count": 565,
+      "exit_count": 19,
+      "talk_count": 566,
       "whitespace_score": 17.7,
       "rising": [
         {
@@ -345,7 +345,7 @@
         {
           "name": "MedCity News",
           "firm": "MedCity News",
-          "count": 54
+          "count": 57
         },
         {
           "name": "The Healthcare Blog",
@@ -780,34 +780,50 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2070,
-        "momentum_pct": 22,
+        "recent7": 2098,
+        "momentum_pct": 23,
         "momentum_basis": "7d",
-        "total": 11757,
+        "total": 11785,
         "sparkline": [
           2418,
           2260,
           2303,
-          2070
+          2098
         ],
         "hard_ratio": 0.037,
-        "whitespace_score": 25.5
+        "whitespace_score": 25.6
       },
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 275,
+        "recent7": 280,
         "momentum_pct": 19,
         "momentum_basis": "7d",
-        "total": 1770,
+        "total": 1775,
         "sparkline": [
           338,
           354,
           358,
-          275
+          280
         ],
         "hard_ratio": 0.092,
         "whitespace_score": 9.1
+      },
+      {
+        "id": "ai-ml",
+        "label": "AI / ML Infra",
+        "recent7": 169,
+        "momentum_pct": 18,
+        "momentum_basis": "7d",
+        "total": 1126,
+        "sparkline": [
+          218,
+          191,
+          212,
+          169
+        ],
+        "hard_ratio": 0.075,
+        "whitespace_score": 11.8
       },
       {
         "id": "climate",
@@ -824,22 +840,6 @@
         ],
         "hard_ratio": 0.047,
         "whitespace_score": 19.9
-      },
-      {
-        "id": "ai-ml",
-        "label": "AI / ML Infra",
-        "recent7": 168,
-        "momentum_pct": 18,
-        "momentum_basis": "7d",
-        "total": 1125,
-        "sparkline": [
-          218,
-          191,
-          212,
-          168
-        ],
-        "hard_ratio": 0.075,
-        "whitespace_score": 11.8
       },
       {
         "id": "space-tech",
@@ -860,15 +860,15 @@
       {
         "id": "healthtech",
         "label": "Healthtech / Bio",
-        "recent7": 96,
-        "momentum_pct": 19,
+        "recent7": 99,
+        "momentum_pct": 20,
         "momentum_basis": "7d",
-        "total": 622,
+        "total": 625,
         "sparkline": [
           99,
           131,
           119,
-          96
+          99
         ],
         "hard_ratio": 0.051,
         "whitespace_score": 17.7
@@ -945,8 +945,8 @@
       },
       {
         "term": "systems",
-        "count": 186,
-        "delta": 47
+        "count": 190,
+        "delta": 51
       },
       {
         "term": "black hat",
@@ -1096,6 +1096,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 18585
+    "total_signals": 18622
   }
 }

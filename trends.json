@@ -1,22 +1,22 @@
 {
-  "generated": "2026-08-11T03:40:42Z",
+  "generated": "2026-08-11T05:05:05Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 12256,
-      "recent7": 2184,
+      "total": 12277,
+      "recent7": 2205,
       "sparkline": [
         2411,
         2263,
         2305,
-        2184
+        2205
       ],
-      "momentum_pct": 22,
+      "momentum_pct": 23,
       "momentum_basis": "7d",
-      "hard_count": 459,
-      "hard_ratio": 0.037,
+      "hard_count": 461,
+      "hard_ratio": 0.038,
       "exit_count": 54,
-      "talk_count": 11625,
+      "talk_count": 11644,
       "whitespace_score": 25.3,
       "rising": [
         {
@@ -45,41 +45,41 @@
           "delta": 43
         },
         {
+          "term": "lead",
+          "count": 141,
+          "delta": 42
+        },
+        {
           "term": "black hat",
           "count": 53,
           "delta": 41
         },
         {
-          "term": "lead",
-          "count": 139,
+          "term": "water",
+          "count": 77,
           "delta": 40
-        },
-        {
-          "term": "action lawsuit",
-          "count": 106,
-          "delta": 39
         }
       ],
       "movers": [
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1740
+          "count": 1750
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 782
+          "count": 786
+        },
+        {
+          "name": "Security Conferences",
+          "firm": "conference",
+          "count": 133
         },
         {
           "name": "ProductHunt",
           "firm": "producthunt",
           "count": 132
-        },
-        {
-          "name": "Security Conferences",
-          "firm": "conference",
-          "count": 131
         },
         {
           "name": "Security Affairs",
@@ -95,21 +95,21 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 1850,
-      "recent7": 291,
+      "total": 1852,
+      "recent7": 293,
       "sparkline": [
         334,
         355,
         355,
-        291
+        293
       ],
       "momentum_pct": 19,
       "momentum_basis": "7d",
       "hard_count": 171,
       "hard_ratio": 0.092,
       "exit_count": 67,
-      "talk_count": 1546,
-      "whitespace_score": 9.0,
+      "talk_count": 1548,
+      "whitespace_score": 9.1,
       "rising": [
         {
           "term": "group",
@@ -156,7 +156,7 @@
         {
           "name": "Sifted",
           "firm": "Sifted",
-          "count": 31
+          "count": 33
         },
         {
           "name": "Tearsheet",
@@ -540,21 +540,21 @@
     },
     "marketing-ads": {
       "label": "Marketing / Ads",
-      "total": 533,
-      "recent7": 78,
+      "total": 538,
+      "recent7": 83,
       "sparkline": [
         95,
         93,
         91,
-        78
+        83
       ],
-      "momentum_pct": 18,
+      "momentum_pct": 19,
       "momentum_basis": "7d",
       "hard_count": 11,
-      "hard_ratio": 0.021,
-      "exit_count": 7,
-      "talk_count": 510,
-      "whitespace_score": 46.4,
+      "hard_ratio": 0.02,
+      "exit_count": 8,
+      "talk_count": 514,
+      "whitespace_score": 46.7,
       "rising": [
         {
           "term": "revenue",
@@ -567,9 +567,19 @@
           "delta": 10
         },
         {
+          "term": "time",
+          "count": 11,
+          "delta": 9
+        },
+        {
           "term": "chatgpt",
           "count": 9,
           "delta": 9
+        },
+        {
+          "term": "ads",
+          "count": 27,
+          "delta": 8
         },
         {
           "term": "app",
@@ -582,17 +592,7 @@
           "delta": 8
         },
         {
-          "term": "time",
-          "count": 9,
-          "delta": 7
-        },
-        {
           "term": "nielsen",
-          "count": 7,
-          "delta": 7
-        },
-        {
-          "term": "doubleverify",
           "count": 7,
           "delta": 7
         }
@@ -601,7 +601,7 @@
         {
           "name": "Digiday",
           "firm": "Digiday",
-          "count": 30
+          "count": 35
         },
         {
           "name": "Jason Lemkin",
@@ -780,34 +780,34 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2184,
-        "momentum_pct": 22,
+        "recent7": 2205,
+        "momentum_pct": 23,
         "momentum_basis": "7d",
-        "total": 12256,
+        "total": 12277,
         "sparkline": [
           2411,
           2263,
           2305,
-          2184
+          2205
         ],
-        "hard_ratio": 0.037,
+        "hard_ratio": 0.038,
         "whitespace_score": 25.3
       },
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 291,
+        "recent7": 293,
         "momentum_pct": 19,
         "momentum_basis": "7d",
-        "total": 1850,
+        "total": 1852,
         "sparkline": [
           334,
           355,
           355,
-          291
+          293
         ],
         "hard_ratio": 0.092,
-        "whitespace_score": 9.0
+        "whitespace_score": 9.1
       },
       {
         "id": "ai-ml",
@@ -876,18 +876,18 @@
       {
         "id": "marketing-ads",
         "label": "Marketing / Ads",
-        "recent7": 78,
-        "momentum_pct": 18,
+        "recent7": 83,
+        "momentum_pct": 19,
         "momentum_basis": "7d",
-        "total": 533,
+        "total": 538,
         "sparkline": [
           95,
           93,
           91,
-          78
+          83
         ],
-        "hard_ratio": 0.021,
-        "whitespace_score": 46.4
+        "hard_ratio": 0.02,
+        "whitespace_score": 46.7
       },
       {
         "id": "edtech",
@@ -944,19 +944,24 @@
         "delta": 43
       },
       {
+        "term": "water",
+        "count": 99,
+        "delta": 41
+      },
+      {
         "term": "systems",
         "count": 189,
         "delta": 40
       },
       {
-        "term": "water",
-        "count": 97,
-        "delta": 39
-      },
-      {
         "term": "room",
         "count": 94,
         "delta": 37
+      },
+      {
+        "term": "lead",
+        "count": 162,
+        "delta": 36
       },
       {
         "term": "action lawsuit",
@@ -967,11 +972,6 @@
         "term": "securities fraud",
         "count": 87,
         "delta": 35
-      },
-      {
-        "term": "lead",
-        "count": 160,
-        "delta": 34
       }
     ],
     "highlights": [
@@ -1096,6 +1096,6 @@
         "hard": 1
       }
     ],
-    "total_signals": 19331
+    "total_signals": 19359
   }
 }

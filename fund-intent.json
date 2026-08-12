@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-12T09:59:29Z",
+  "generated": "2026-08-12T11:03:07Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 598,
-    "deal_rows_attributed": 283,
+    "deal_rows_seen": 601,
+    "deal_rows_attributed": 286,
     "funds_tracked": 158,
-    "fetch_attempts": 57,
-    "fetchable_pct": 7,
+    "fetch_attempts": 55,
+    "fetchable_pct": 4,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -1321,6 +1321,69 @@
       ]
     },
     {
+      "fund": "Menlo Ventures",
+      "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 5 attributed deal(s), 5 in the last 30d.",
+      "coverage": 5,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 5,
+      "recent90": 5,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-12",
+          "summary": "Built to Run: Doubling Down for Lovable\u2019s $400M Series C",
+          "url": "https://menlovc.com/perspective/built-to-run-doubling-down-for-lovables-400m-series-c/"
+        },
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-08-02",
+          "summary": "4 Notable Health Tech Funding Announcements in July",
+          "url": "https://medcitynews.com/2026/08/4-notable-health-tech-funding-announcements-in-july/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-26",
+          "summary": "Ant\u2019s $1.2 Billion A Round Tops This Weeks Fundings and Acquisitions",
+          "url": "https://www.crowdfundinsider.com/2026/07/293681-ants-1-2b-a-round-tops-this-weeks-fundings-and-acquisitions/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-16",
+          "summary": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+          "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-16",
+          "summary": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+          "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/"
+        }
+      ]
+    },
+    {
       "fund": "Lockheed Martin Ventures",
       "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s).",
       "coverage": 5,
@@ -2001,63 +2064,6 @@
           "date": "2026-07-20",
           "summary": "Natural Raises $30 Million to Build Payment Rails for AI Agents",
           "url": "https://www.pymnts.com/news/investment-tracker/2026/natural-raises-30-million-to-build-payment-rails-for-ai-agents/"
-        }
-      ]
-    },
-    {
-      "fund": "Menlo Ventures",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 4 in the last 30d.",
-      "coverage": 4,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Healthtech / Bio",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 4,
-      "recent90": 4,
-      "prior30": 0,
-      "last_deal_days": 10,
-      "deals": [
-        {
-          "sector": "Healthtech / Bio",
-          "date": "2026-08-02",
-          "summary": "4 Notable Health Tech Funding Announcements in July",
-          "url": "https://medcitynews.com/2026/08/4-notable-health-tech-funding-announcements-in-july/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-07-26",
-          "summary": "Ant\u2019s $1.2 Billion A Round Tops This Weeks Fundings and Acquisitions",
-          "url": "https://www.crowdfundinsider.com/2026/07/293681-ants-1-2b-a-round-tops-this-weeks-fundings-and-acquisitions/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-16",
-          "summary": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
-          "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-07-16",
-          "summary": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
-          "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/"
         }
       ]
     },
@@ -7019,6 +7025,13 @@
         "recent30": 5
       },
       {
+        "fund": "Menlo Ventures",
+        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 5
+      },
+      {
         "fund": "Lockheed Martin Ventures",
         "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s).",
         "coverage": 5,
@@ -7049,13 +7062,6 @@
       {
         "fund": "Forerunner",
         "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
-        "coverage": 4,
-        "sector_count": 1,
-        "recent30": 4
-      },
-      {
-        "fund": "Menlo Ventures",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 4 in the last 30d.",
         "coverage": 4,
         "sector_count": 1,
         "recent30": 4
@@ -7483,6 +7489,13 @@
         "recent30": 3
       },
       {
+        "fund": "Menlo Ventures",
+        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 2,
+        "recent30": 5
+      },
+      {
         "fund": "Amazon",
         "thesis": "Revealed focus: AI / ML Infra. 2 attributed deal(s), 1 in the last 30d.",
         "coverage": 2,
@@ -7530,13 +7543,6 @@
         "coverage": 4,
         "sector_count": 1,
         "recent30": 1
-      },
-      {
-        "fund": "Menlo Ventures",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 4 in the last 30d.",
-        "coverage": 4,
-        "sector_count": 1,
-        "recent30": 4
       },
       {
         "fund": "BlackRock",
@@ -8031,6 +8037,13 @@
         "recent30": 2
       },
       {
+        "fund": "Menlo Ventures",
+        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 5
+      },
+      {
         "fund": "Lightspeed Venture Partners",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 3 in the last 30d.",
         "coverage": 4,
@@ -8039,13 +8052,6 @@
       },
       {
         "fund": "NEA",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 4 in the last 30d.",
-        "coverage": 4,
-        "sector_count": 1,
-        "recent30": 4
-      },
-      {
-        "fund": "Menlo Ventures",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 4 in the last 30d.",
         "coverage": 4,
         "sector_count": 1,
@@ -8314,10 +8320,10 @@
       },
       {
         "fund": "Menlo Ventures",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 4 in the last 30d.",
-        "coverage": 4,
+        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
         "sector_count": 1,
-        "recent30": 4
+        "recent30": 5
       },
       {
         "fund": "Thrive Capital",

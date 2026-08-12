@@ -1,48 +1,53 @@
 {
-  "generated": "2026-08-12T18:57:33Z",
+  "generated": "2026-08-12T20:01:00Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 13089,
-      "recent7": 2639,
+      "total": 13110,
+      "recent7": 2660,
       "sparkline": [
         2397,
         2248,
         2297,
-        2639
+        2660
       ],
       "momentum_pct": 26,
       "momentum_basis": "7d",
-      "hard_count": 484,
+      "hard_count": 485,
       "hard_ratio": 0.037,
       "exit_count": 57,
-      "talk_count": 12423,
+      "talk_count": 12443,
       "whitespace_score": 25.7,
       "rising": [
+        {
+          "term": "lawsuit",
+          "count": 196,
+          "delta": 74
+        },
         {
           "term": "hacker",
           "count": 144,
           "delta": 73
         },
         {
-          "term": "lawsuit",
-          "count": 194,
-          "delta": 72
-        },
-        {
           "term": "x2019",
-          "count": 445,
-          "delta": 62
+          "count": 447,
+          "delta": 64
         },
         {
           "term": "securities",
-          "count": 208,
-          "delta": 53
+          "count": 210,
+          "delta": 55
         },
         {
           "term": "lead",
-          "count": 151,
-          "delta": 52
+          "count": 153,
+          "delta": 54
+        },
+        {
+          "term": "securities fraud",
+          "count": 99,
+          "delta": 50
         },
         {
           "term": "systems",
@@ -50,26 +55,21 @@
           "delta": 49
         },
         {
-          "term": "securities fraud",
-          "count": 97,
-          "delta": 48
-        },
-        {
           "term": "class",
-          "count": 218,
-          "delta": 46
+          "count": 219,
+          "delta": 47
         }
       ],
       "movers": [
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1918
+          "count": 1928
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 845
+          "count": 849
         },
         {
           "name": "ProductHunt",
@@ -95,26 +95,26 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 1973,
-      "recent7": 333,
+      "total": 1980,
+      "recent7": 340,
       "sparkline": [
         349,
         349,
         369,
-        333
+        340
       ],
-      "momentum_pct": 20,
+      "momentum_pct": 21,
       "momentum_basis": "7d",
       "hard_count": 184,
       "hard_ratio": 0.093,
-      "exit_count": 70,
-      "talk_count": 1649,
+      "exit_count": 71,
+      "talk_count": 1655,
       "whitespace_score": 9.0,
       "rising": [
         {
           "term": "occ",
-          "count": 41,
-          "delta": 30
+          "count": 42,
+          "delta": 31
         },
         {
           "term": "group",
@@ -132,24 +132,24 @@
           "delta": 18
         },
         {
+          "term": "currency",
+          "count": 25,
+          "delta": 18
+        },
+        {
           "term": "fdic",
           "count": 19,
           "delta": 18
         },
         {
-          "term": "currency",
-          "count": 24,
-          "delta": 17
+          "term": "agents",
+          "count": 45,
+          "delta": 15
         },
         {
           "term": "growth",
           "count": 41,
           "delta": 14
-        },
-        {
-          "term": "agents",
-          "count": 43,
-          "delta": 13
         }
       ],
       "movers": [
@@ -366,21 +366,21 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 1222,
-      "recent7": 191,
+      "total": 1224,
+      "recent7": 193,
       "sparkline": [
         206,
         226,
         207,
-        191
+        193
       ],
       "momentum_pct": 19,
       "momentum_basis": "7d",
       "hard_count": 62,
       "hard_ratio": 0.051,
       "exit_count": 8,
-      "talk_count": 1137,
-      "whitespace_score": 18.3,
+      "talk_count": 1139,
+      "whitespace_score": 18.4,
       "rising": [
         {
           "term": "texas",
@@ -617,13 +617,13 @@
     },
     "space-tech": {
       "label": "Space Tech",
-      "total": 891,
-      "recent7": 125,
+      "total": 892,
+      "recent7": 126,
       "sparkline": [
         143,
         146,
         144,
-        125
+        126
       ],
       "momentum_pct": 16,
       "momentum_basis": "7d",
@@ -775,15 +775,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2639,
+        "recent7": 2660,
         "momentum_pct": 26,
         "momentum_basis": "7d",
-        "total": 13089,
+        "total": 13110,
         "sparkline": [
           2397,
           2248,
           2297,
-          2639
+          2660
         ],
         "hard_ratio": 0.037,
         "whitespace_score": 25.7
@@ -791,15 +791,15 @@
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 333,
-        "momentum_pct": 20,
+        "recent7": 340,
+        "momentum_pct": 21,
         "momentum_basis": "7d",
-        "total": 1973,
+        "total": 1980,
         "sparkline": [
           349,
           349,
           369,
-          333
+          340
         ],
         "hard_ratio": 0.093,
         "whitespace_score": 9.0
@@ -823,31 +823,31 @@
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 191,
+        "recent7": 193,
         "momentum_pct": 19,
         "momentum_basis": "7d",
-        "total": 1222,
+        "total": 1224,
         "sparkline": [
           206,
           226,
           207,
-          191
+          193
         ],
         "hard_ratio": 0.051,
-        "whitespace_score": 18.3
+        "whitespace_score": 18.4
       },
       {
         "id": "space-tech",
         "label": "Space Tech",
-        "recent7": 125,
+        "recent7": 126,
         "momentum_pct": 16,
         "momentum_basis": "7d",
-        "total": 891,
+        "total": 892,
         "sparkline": [
           143,
           146,
           144,
-          125
+          126
         ],
         "hard_ratio": 0.056,
         "whitespace_score": 16.1
@@ -925,8 +925,18 @@
       },
       {
         "term": "x2019",
-        "count": 445,
-        "delta": 62
+        "count": 447,
+        "delta": 64
+      },
+      {
+        "term": "lead",
+        "count": 180,
+        "delta": 54
+      },
+      {
+        "term": "lawsuit",
+        "count": 224,
+        "delta": 53
       },
       {
         "term": "systems",
@@ -934,19 +944,14 @@
         "delta": 52
       },
       {
-        "term": "lead",
-        "count": 178,
-        "delta": 52
-      },
-      {
-        "term": "lawsuit",
-        "count": 222,
-        "delta": 51
-      },
-      {
         "term": "securities fraud",
-        "count": 97,
-        "delta": 48
+        "count": 99,
+        "delta": 50
+      },
+      {
+        "term": "investors",
+        "count": 302,
+        "delta": 45
       },
       {
         "term": "holidays",
@@ -954,19 +959,14 @@
         "delta": 45
       },
       {
-        "term": "hacker holidays",
-        "count": 63,
+        "term": "while",
+        "count": 187,
         "delta": 44
       },
       {
-        "term": "while",
-        "count": 186,
-        "delta": 43
-      },
-      {
-        "term": "black hat",
-        "count": 55,
-        "delta": 43
+        "term": "hacker holidays",
+        "count": 63,
+        "delta": 44
       }
     ],
     "highlights": [
@@ -1091,6 +1091,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 20583
+    "total_signals": 20614
   }
 }

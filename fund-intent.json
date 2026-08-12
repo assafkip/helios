@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-12T16:55:37Z",
+  "generated": "2026-08-12T17:55:50Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 610,
-    "deal_rows_attributed": 291,
+    "deal_rows_seen": 611,
+    "deal_rows_attributed": 292,
     "funds_tracked": 161,
-    "fetch_attempts": 57,
-    "fetchable_pct": 5,
+    "fetch_attempts": 54,
+    "fetchable_pct": 0,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -3630,6 +3630,52 @@
       ]
     },
     {
+      "fund": "D1 Capital Partners",
+      "thesis": "Revealed focus: AI / ML Infra and Coexistence / Empowerment. 3 attributed deal(s), 2 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 2,
+      "recent90": 3,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-12",
+          "summary": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
+          "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-04",
+          "summary": "Home Battery Startup Base Power Raises $1 Billion at $13 Billion Valuation",
+          "url": "https://www.esgtoday.com/home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-06",
+          "summary": "Thrive Holdings Raises $2 Billion to Buy and Rewire Services Firms With AI",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/thrive-holdings-raises-2-billion-to-buy-and-rewire-services-firms-with-ai/"
+        }
+      ]
+    },
+    {
       "fund": "Salesforce Ventures",
       "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 3 attributed deal(s), 3 in the last 30d.",
       "coverage": 3,
@@ -6106,41 +6152,6 @@
       ]
     },
     {
-      "fund": "D1 Capital Partners",
-      "thesis": "Revealed focus: Coexistence / Empowerment and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 1,
-      "recent90": 2,
-      "prior30": 1,
-      "last_deal_days": 8,
-      "deals": [
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-08-04",
-          "summary": "Home Battery Startup Base Power Raises $1 Billion at $13 Billion Valuation",
-          "url": "https://www.esgtoday.com/home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-07-06",
-          "summary": "Thrive Holdings Raises $2 Billion to Buy and Rewire Services Firms With AI",
-          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/thrive-holdings-raises-2-billion-to-buy-and-rewire-services-firms-with-ai/"
-        }
-      ]
-    },
-    {
       "fund": "Amazon",
       "thesis": "Revealed focus: AI / ML Infra. 2 attributed deal(s), 1 in the last 30d.",
       "coverage": 2,
@@ -7883,6 +7894,13 @@
         "recent30": 0
       },
       {
+        "fund": "D1 Capital Partners",
+        "thesis": "Revealed focus: AI / ML Infra and Coexistence / Empowerment. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "Salesforce Ventures",
         "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
@@ -8368,6 +8386,13 @@
         "recent30": 3
       },
       {
+        "fund": "D1 Capital Partners",
+        "thesis": "Revealed focus: AI / ML Infra and Coexistence / Empowerment. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "Avra",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -8464,13 +8489,6 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 2
-      },
-      {
-        "fund": "D1 Capital Partners",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
       }
     ],
     "Healthtech / Bio": [
@@ -9132,6 +9150,13 @@
         "recent30": 3
       },
       {
+        "fund": "D1 Capital Partners",
+        "thesis": "Revealed focus: AI / ML Infra and Coexistence / Empowerment. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "Salesforce Ventures",
         "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
@@ -9183,13 +9208,6 @@
       {
         "fund": "redalpine",
         "thesis": "Revealed focus: Fintech / Payments and Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
-      },
-      {
-        "fund": "D1 Capital Partners",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,
         "recent30": 1

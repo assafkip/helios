@@ -1,28 +1,28 @@
 {
-  "generated": "2026-08-15T10:18:48Z",
+  "generated": "2026-08-15T11:17:05Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 14202,
-      "recent7": 2714,
+      "total": 14219,
+      "recent7": 2731,
       "sparkline": [
         2284,
         2302,
         2363,
-        2714
+        2731
       ],
       "momentum_pct": 24,
       "momentum_basis": "7d",
-      "hard_count": 515,
+      "hard_count": 517,
       "hard_ratio": 0.036,
       "exit_count": 64,
-      "talk_count": 13493,
-      "whitespace_score": 26.2,
+      "talk_count": 13508,
+      "whitespace_score": 26.1,
       "rising": [
         {
           "term": "x2019",
-          "count": 492,
-          "delta": 108
+          "count": 495,
+          "delta": 111
         },
         {
           "term": "lawsuit",
@@ -41,8 +41,8 @@
         },
         {
           "term": "x2026",
-          "count": 785,
-          "delta": 67
+          "count": 789,
+          "delta": 71
         },
         {
           "term": "group",
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 2021
+          "count": 2032
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 853
+          "count": 857
         },
         {
           "name": "ProductHunt",
@@ -187,20 +187,20 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 1300,
-      "recent7": 191,
+      "total": 1301,
+      "recent7": 192,
       "sparkline": [
         191,
         207,
         197,
-        191
+        192
       ],
-      "momentum_pct": 17,
+      "momentum_pct": 18,
       "momentum_basis": "7d",
       "hard_count": 96,
       "hard_ratio": 0.074,
       "exit_count": 23,
-      "talk_count": 1143,
+      "talk_count": 1144,
       "whitespace_score": 11.9,
       "rising": [
         {
@@ -214,13 +214,13 @@
           "delta": 18
         },
         {
-          "term": "text",
-          "count": 26,
-          "delta": 14
+          "term": "amazon",
+          "count": 22,
+          "delta": 16
         },
         {
-          "term": "amazon",
-          "count": 20,
+          "term": "text",
+          "count": 26,
           "delta": 14
         },
         {
@@ -463,21 +463,21 @@
     },
     "edtech": {
       "label": "Edtech",
-      "total": 582,
-      "recent7": 90,
+      "total": 583,
+      "recent7": 91,
       "sparkline": [
         84,
         86,
         88,
-        90
+        91
       ],
       "momentum_pct": 19,
       "momentum_basis": "7d",
       "hard_count": 16,
       "hard_ratio": 0.027,
       "exit_count": 0,
-      "talk_count": 560,
-      "whitespace_score": 35.0,
+      "talk_count": 561,
+      "whitespace_score": 35.1,
       "rising": [
         {
           "term": "student",
@@ -485,14 +485,14 @@
           "delta": 20
         },
         {
+          "term": "college",
+          "count": 31,
+          "delta": 14
+        },
+        {
           "term": "parents",
           "count": 16,
           "delta": 13
-        },
-        {
-          "term": "college",
-          "count": 29,
-          "delta": 12
         },
         {
           "term": "kids",
@@ -524,7 +524,7 @@
         {
           "name": "The 74",
           "firm": "The 74 Million",
-          "count": 56
+          "count": 57
         },
         {
           "name": "Class Central",
@@ -790,18 +790,18 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2714,
+        "recent7": 2731,
         "momentum_pct": 24,
         "momentum_basis": "7d",
-        "total": 14202,
+        "total": 14219,
         "sparkline": [
           2284,
           2302,
           2363,
-          2714
+          2731
         ],
         "hard_ratio": 0.036,
-        "whitespace_score": 26.2
+        "whitespace_score": 26.1
       },
       {
         "id": "fintech",
@@ -822,15 +822,15 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 191,
-        "momentum_pct": 17,
+        "recent7": 192,
+        "momentum_pct": 18,
         "momentum_basis": "7d",
-        "total": 1300,
+        "total": 1301,
         "sparkline": [
           191,
           207,
           197,
-          191
+          192
         ],
         "hard_ratio": 0.074,
         "whitespace_score": 11.9
@@ -884,6 +884,22 @@
         "whitespace_score": 18.2
       },
       {
+        "id": "edtech",
+        "label": "Edtech",
+        "recent7": 91,
+        "momentum_pct": 19,
+        "momentum_basis": "7d",
+        "total": 583,
+        "sparkline": [
+          84,
+          86,
+          88,
+          91
+        ],
+        "hard_ratio": 0.027,
+        "whitespace_score": 35.1
+      },
+      {
         "id": "marketing-ads",
         "label": "Marketing / Ads",
         "recent7": 90,
@@ -898,22 +914,6 @@
         ],
         "hard_ratio": 0.02,
         "whitespace_score": 48.0
-      },
-      {
-        "id": "edtech",
-        "label": "Edtech",
-        "recent7": 90,
-        "momentum_pct": 19,
-        "momentum_basis": "7d",
-        "total": 582,
-        "sparkline": [
-          84,
-          86,
-          88,
-          90
-        ],
-        "hard_ratio": 0.027,
-        "whitespace_score": 35.0
       },
       {
         "id": "coexistence-empowerment",
@@ -935,8 +935,8 @@
     "rising": [
       {
         "term": "x2019",
-        "count": 492,
-        "delta": 108
+        "count": 495,
+        "delta": 111
       },
       {
         "term": "investors",
@@ -960,13 +960,13 @@
       },
       {
         "term": "x2026",
-        "count": 785,
-        "delta": 67
+        "count": 789,
+        "delta": 71
       },
       {
         "term": "against",
-        "count": 214,
-        "delta": 54
+        "count": 215,
+        "delta": 55
       },
       {
         "term": "action lawsuit",
@@ -1106,6 +1106,6 @@
         "hard": 1
       }
     ],
-    "total_signals": 22216
+    "total_signals": 22235
   }
 }

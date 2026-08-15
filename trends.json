@@ -1,28 +1,28 @@
 {
-  "generated": "2026-08-15T15:17:00Z",
+  "generated": "2026-08-15T16:19:42Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 14280,
-      "recent7": 2792,
+      "total": 14289,
+      "recent7": 2801,
       "sparkline": [
         2284,
         2302,
         2363,
-        2792
+        2801
       ],
       "momentum_pct": 25,
       "momentum_basis": "7d",
       "hard_count": 522,
       "hard_ratio": 0.037,
       "exit_count": 64,
-      "talk_count": 13564,
+      "talk_count": 13573,
       "whitespace_score": 26.0,
       "rising": [
         {
           "term": "x2019",
-          "count": 504,
-          "delta": 120
+          "count": 505,
+          "delta": 121
         },
         {
           "term": "lawsuit",
@@ -36,8 +36,8 @@
         },
         {
           "term": "x2026",
-          "count": 799,
-          "delta": 81
+          "count": 801,
+          "delta": 83
         },
         {
           "term": "lead",
@@ -51,8 +51,8 @@
         },
         {
           "term": "black",
-          "count": 85,
-          "delta": 56
+          "count": 86,
+          "delta": 57
         },
         {
           "term": "securities",
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 2068
+          "count": 2072
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 866
+          "count": 868
         },
         {
           "name": "ProductHunt",
@@ -95,20 +95,20 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 2107,
-      "recent7": 353,
+      "total": 2108,
+      "recent7": 354,
       "sparkline": [
         357,
         353,
         351,
-        353
+        354
       ],
-      "momentum_pct": 20,
+      "momentum_pct": 21,
       "momentum_basis": "7d",
       "hard_count": 188,
       "hard_ratio": 0.089,
       "exit_count": 81,
-      "talk_count": 1764,
+      "talk_count": 1765,
       "whitespace_score": 9.4,
       "rising": [
         {
@@ -187,26 +187,26 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 1303,
-      "recent7": 194,
+      "total": 1305,
+      "recent7": 196,
       "sparkline": [
         191,
         207,
         197,
-        194
+        196
       ],
       "momentum_pct": 18,
       "momentum_basis": "7d",
       "hard_count": 96,
       "hard_ratio": 0.074,
       "exit_count": 23,
-      "talk_count": 1146,
-      "whitespace_score": 11.9,
+      "talk_count": 1148,
+      "whitespace_score": 12.0,
       "rising": [
         {
           "term": "billion",
-          "count": 41,
-          "delta": 18
+          "count": 43,
+          "delta": 20
         },
         {
           "term": "muse",
@@ -239,8 +239,8 @@
           "delta": 11
         },
         {
-          "term": "github",
-          "count": 11,
+          "term": "data center",
+          "count": 15,
           "delta": 10
         }
       ],
@@ -263,7 +263,7 @@
         {
           "name": "Shawn Wang (swyx) / Alessio Fanelli",
           "firm": "Latent Space",
-          "count": 12
+          "count": 13
         },
         {
           "name": "Tomasz Tunguz",
@@ -371,21 +371,21 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 1314,
-      "recent7": 193,
+      "total": 1316,
+      "recent7": 195,
       "sparkline": [
         213,
         219,
         205,
-        193
+        195
       ],
       "momentum_pct": 17,
       "momentum_basis": "7d",
       "hard_count": 67,
       "hard_ratio": 0.051,
       "exit_count": 8,
-      "talk_count": 1222,
-      "whitespace_score": 18.2,
+      "talk_count": 1224,
+      "whitespace_score": 18.3,
       "rising": [
         {
           "term": "texas",
@@ -790,15 +790,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2792,
+        "recent7": 2801,
         "momentum_pct": 25,
         "momentum_basis": "7d",
-        "total": 14280,
+        "total": 14289,
         "sparkline": [
           2284,
           2302,
           2363,
-          2792
+          2801
         ],
         "hard_ratio": 0.037,
         "whitespace_score": 26.0
@@ -806,15 +806,15 @@
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 353,
-        "momentum_pct": 20,
+        "recent7": 354,
+        "momentum_pct": 21,
         "momentum_basis": "7d",
-        "total": 2107,
+        "total": 2108,
         "sparkline": [
           357,
           353,
           351,
-          353
+          354
         ],
         "hard_ratio": 0.089,
         "whitespace_score": 9.4
@@ -822,34 +822,34 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 194,
+        "recent7": 196,
         "momentum_pct": 18,
         "momentum_basis": "7d",
-        "total": 1303,
+        "total": 1305,
         "sparkline": [
           191,
           207,
           197,
-          194
+          196
         ],
         "hard_ratio": 0.074,
-        "whitespace_score": 11.9
+        "whitespace_score": 12.0
       },
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 193,
+        "recent7": 195,
         "momentum_pct": 17,
         "momentum_basis": "7d",
-        "total": 1314,
+        "total": 1316,
         "sparkline": [
           213,
           219,
           205,
-          193
+          195
         ],
         "hard_ratio": 0.051,
-        "whitespace_score": 18.2
+        "whitespace_score": 18.3
       },
       {
         "id": "space-tech",
@@ -935,13 +935,13 @@
     "rising": [
       {
         "term": "x2019",
-        "count": 504,
-        "delta": 120
+        "count": 505,
+        "delta": 121
       },
       {
         "term": "investors",
-        "count": 343,
-        "delta": 95
+        "count": 344,
+        "delta": 96
       },
       {
         "term": "lawsuit",
@@ -950,8 +950,8 @@
       },
       {
         "term": "x2026",
-        "count": 799,
-        "delta": 81
+        "count": 801,
+        "delta": 83
       },
       {
         "term": "group",
@@ -1106,6 +1106,6 @@
         "hard": 1
       }
     ],
-    "total_signals": 22310
+    "total_signals": 22324
   }
 }

@@ -1,28 +1,28 @@
 {
-  "generated": "2026-08-15T18:23:22Z",
+  "generated": "2026-08-15T19:19:23Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 14319,
-      "recent7": 2831,
+      "total": 14333,
+      "recent7": 2845,
       "sparkline": [
         2284,
         2302,
         2363,
-        2831
+        2845
       ],
       "momentum_pct": 25,
       "momentum_basis": "7d",
-      "hard_count": 522,
+      "hard_count": 523,
       "hard_ratio": 0.036,
       "exit_count": 64,
-      "talk_count": 13602,
-      "whitespace_score": 26.1,
+      "talk_count": 13615,
+      "whitespace_score": 26.0,
       "rising": [
         {
           "term": "x2019",
-          "count": 508,
-          "delta": 124
+          "count": 512,
+          "delta": 128
         },
         {
           "term": "lawsuit",
@@ -30,14 +30,14 @@
           "delta": 104
         },
         {
+          "term": "x2026",
+          "count": 811,
+          "delta": 93
+        },
+        {
           "term": "investors",
           "count": 294,
           "delta": 91
-        },
-        {
-          "term": "x2026",
-          "count": 807,
-          "delta": 89
         },
         {
           "term": "lead",
@@ -51,8 +51,8 @@
         },
         {
           "term": "black",
-          "count": 87,
-          "delta": 58
+          "count": 88,
+          "delta": 59
         },
         {
           "term": "securities",
@@ -64,7 +64,7 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 2091
+          "count": 2102
         },
         {
           "name": "Reddit Cybersecurity",
@@ -84,7 +84,7 @@
         {
           "name": "Security Affairs",
           "firm": "blog",
-          "count": 61
+          "count": 62
         },
         {
           "name": "Ping Li",
@@ -187,20 +187,20 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 1306,
-      "recent7": 197,
+      "total": 1307,
+      "recent7": 198,
       "sparkline": [
         191,
         207,
         197,
-        197
+        198
       ],
       "momentum_pct": 18,
       "momentum_basis": "7d",
       "hard_count": 96,
-      "hard_ratio": 0.074,
+      "hard_ratio": 0.073,
       "exit_count": 23,
-      "talk_count": 1149,
+      "talk_count": 1150,
       "whitespace_score": 12.0,
       "rising": [
         {
@@ -224,14 +224,14 @@
           "delta": 15
         },
         {
-          "term": "glimmer",
-          "count": 14,
+          "term": "code",
+          "count": 30,
           "delta": 14
         },
         {
-          "term": "code",
-          "count": 29,
-          "delta": 13
+          "term": "glimmer",
+          "count": 14,
+          "delta": 14
         },
         {
           "term": "safety",
@@ -790,18 +790,18 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2831,
+        "recent7": 2845,
         "momentum_pct": 25,
         "momentum_basis": "7d",
-        "total": 14319,
+        "total": 14333,
         "sparkline": [
           2284,
           2302,
           2363,
-          2831
+          2845
         ],
         "hard_ratio": 0.036,
-        "whitespace_score": 26.1
+        "whitespace_score": 26.0
       },
       {
         "id": "fintech",
@@ -822,17 +822,17 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 197,
+        "recent7": 198,
         "momentum_pct": 18,
         "momentum_basis": "7d",
-        "total": 1306,
+        "total": 1307,
         "sparkline": [
           191,
           207,
           197,
-          197
+          198
         ],
-        "hard_ratio": 0.074,
+        "hard_ratio": 0.073,
         "whitespace_score": 12.0
       },
       {
@@ -935,8 +935,8 @@
     "rising": [
       {
         "term": "x2019",
-        "count": 508,
-        "delta": 124
+        "count": 512,
+        "delta": 128
       },
       {
         "term": "investors",
@@ -944,14 +944,14 @@
         "delta": 96
       },
       {
+        "term": "x2026",
+        "count": 811,
+        "delta": 93
+      },
+      {
         "term": "lawsuit",
         "count": 257,
         "delta": 91
-      },
-      {
-        "term": "x2026",
-        "count": 807,
-        "delta": 89
       },
       {
         "term": "group",
@@ -1106,6 +1106,6 @@
         "hard": 1
       }
     ],
-    "total_signals": 22358
+    "total_signals": 22373
   }
 }

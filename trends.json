@@ -1,28 +1,28 @@
 {
-  "generated": "2026-08-16T17:16:45Z",
+  "generated": "2026-08-16T18:23:04Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 14602,
-      "recent7": 2818,
+      "total": 14624,
+      "recent7": 2840,
       "sparkline": [
         2251,
         2324,
         2412,
-        2818
+        2840
       ],
-      "momentum_pct": 24,
+      "momentum_pct": 25,
       "momentum_basis": "7d",
-      "hard_count": 526,
+      "hard_count": 527,
       "hard_ratio": 0.036,
       "exit_count": 64,
-      "talk_count": 13879,
+      "talk_count": 13900,
       "whitespace_score": 26.4,
       "rising": [
         {
           "term": "x2019",
-          "count": 523,
-          "delta": 138
+          "count": 524,
+          "delta": 139
         },
         {
           "term": "lawsuit",
@@ -35,14 +35,14 @@
           "delta": 102
         },
         {
-          "term": "prnewswire",
-          "count": 717,
-          "delta": 84
+          "term": "x2026",
+          "count": 813,
+          "delta": 87
         },
         {
-          "term": "x2026",
-          "count": 808,
-          "delta": 82
+          "term": "prnewswire",
+          "count": 718,
+          "delta": 85
         },
         {
           "term": "lead",
@@ -50,26 +50,26 @@
           "delta": 72
         },
         {
+          "term": "x131",
+          "count": 146,
+          "delta": 72
+        },
+        {
           "term": "black",
           "count": 90,
           "delta": 67
-        },
-        {
-          "term": "action lawsuit",
-          "count": 135,
-          "delta": 64
         }
       ],
       "movers": [
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 2139
+          "count": 2152
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 864
+          "count": 869
         },
         {
           "name": "ProductHunt",
@@ -84,7 +84,7 @@
         {
           "name": "Security Affairs",
           "firm": "blog",
-          "count": 61
+          "count": 64
         },
         {
           "name": "Ping Li",
@@ -95,20 +95,20 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 2114,
-      "recent7": 343,
+      "total": 2122,
+      "recent7": 351,
       "sparkline": [
         360,
         352,
         352,
-        343
+        351
       ],
       "momentum_pct": 20,
       "momentum_basis": "7d",
       "hard_count": 189,
       "hard_ratio": 0.089,
       "exit_count": 81,
-      "talk_count": 1770,
+      "talk_count": 1778,
       "whitespace_score": 9.4,
       "rising": [
         {
@@ -118,8 +118,13 @@
         },
         {
           "term": "bank",
-          "count": 174,
-          "delta": 20
+          "count": 176,
+          "delta": 22
+        },
+        {
+          "term": "fca",
+          "count": 43,
+          "delta": 19
         },
         {
           "term": "fdic",
@@ -145,11 +150,6 @@
           "term": "ventures",
           "count": 17,
           "delta": 15
-        },
-        {
-          "term": "money",
-          "count": 43,
-          "delta": 13
         }
       ],
       "movers": [
@@ -187,20 +187,20 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 1321,
-      "recent7": 191,
+      "total": 1322,
+      "recent7": 192,
       "sparkline": [
         189,
         214,
         201,
-        191
+        192
       ],
       "momentum_pct": 18,
       "momentum_basis": "7d",
       "hard_count": 96,
       "hard_ratio": 0.073,
       "exit_count": 23,
-      "talk_count": 1164,
+      "talk_count": 1165,
       "whitespace_score": 12.1,
       "rising": [
         {
@@ -253,7 +253,7 @@
         {
           "name": "Jason Lemkin",
           "firm": "SaaStr Fund",
-          "count": 21
+          "count": 22
         },
         {
           "name": "Sarah Tavel",
@@ -545,20 +545,20 @@
     },
     "marketing-ads": {
       "label": "Marketing / Ads",
-      "total": 604,
-      "recent7": 87,
+      "total": 605,
+      "recent7": 88,
       "sparkline": [
         97,
         87,
         102,
-        87
+        88
       ],
       "momentum_pct": 18,
       "momentum_basis": "7d",
       "hard_count": 12,
       "hard_ratio": 0.02,
       "exit_count": 8,
-      "talk_count": 578,
+      "talk_count": 579,
       "whitespace_score": 48.2,
       "rising": [
         {
@@ -611,7 +611,7 @@
         {
           "name": "Jason Lemkin",
           "firm": "SaaStr Fund",
-          "count": 14
+          "count": 15
         },
         {
           "name": "Lenny Rachitsky",
@@ -795,15 +795,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2818,
-        "momentum_pct": 24,
+        "recent7": 2840,
+        "momentum_pct": 25,
         "momentum_basis": "7d",
-        "total": 14602,
+        "total": 14624,
         "sparkline": [
           2251,
           2324,
           2412,
-          2818
+          2840
         ],
         "hard_ratio": 0.036,
         "whitespace_score": 26.4
@@ -811,15 +811,15 @@
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 343,
+        "recent7": 351,
         "momentum_pct": 20,
         "momentum_basis": "7d",
-        "total": 2114,
+        "total": 2122,
         "sparkline": [
           360,
           352,
           352,
-          343
+          351
         ],
         "hard_ratio": 0.089,
         "whitespace_score": 9.4
@@ -843,15 +843,15 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 191,
+        "recent7": 192,
         "momentum_pct": 18,
         "momentum_basis": "7d",
-        "total": 1321,
+        "total": 1322,
         "sparkline": [
           189,
           214,
           201,
-          191
+          192
         ],
         "hard_ratio": 0.073,
         "whitespace_score": 12.1
@@ -907,15 +907,15 @@
       {
         "id": "marketing-ads",
         "label": "Marketing / Ads",
-        "recent7": 87,
+        "recent7": 88,
         "momentum_pct": 18,
         "momentum_basis": "7d",
-        "total": 604,
+        "total": 605,
         "sparkline": [
           97,
           87,
           102,
-          87
+          88
         ],
         "hard_ratio": 0.02,
         "whitespace_score": 48.2
@@ -940,8 +940,8 @@
     "rising": [
       {
         "term": "x2019",
-        "count": 523,
-        "delta": 138
+        "count": 524,
+        "delta": 139
       },
       {
         "term": "investors",
@@ -954,14 +954,19 @@
         "delta": 102
       },
       {
-        "term": "prnewswire",
-        "count": 717,
-        "delta": 84
+        "term": "x2026",
+        "count": 813,
+        "delta": 87
       },
       {
-        "term": "x2026",
-        "count": 808,
-        "delta": 82
+        "term": "prnewswire",
+        "count": 718,
+        "delta": 85
+      },
+      {
+        "term": "x131",
+        "count": 146,
+        "delta": 72
       },
       {
         "term": "lead",
@@ -970,13 +975,8 @@
       },
       {
         "term": "group",
-        "count": 266,
-        "delta": 69
-      },
-      {
-        "term": "x131",
-        "count": 137,
-        "delta": 63
+        "count": 267,
+        "delta": 70
       },
       {
         "term": "action lawsuit",
@@ -1111,6 +1111,6 @@
         "hard": 1
       }
     ],
-    "total_signals": 22691
+    "total_signals": 22723
   }
 }

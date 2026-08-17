@@ -1,43 +1,43 @@
 {
-  "generated": "2026-08-17T01:01:37Z",
+  "generated": "2026-08-17T02:56:31Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 14717,
-      "recent7": 2449,
+      "total": 14734,
+      "recent7": 2466,
       "sparkline": [
         2262,
         2311,
         2566,
-        2449
+        2466
       ],
       "momentum_pct": 21,
       "momentum_basis": "7d",
       "hard_count": 530,
       "hard_ratio": 0.036,
       "exit_count": 64,
-      "talk_count": 13988,
+      "talk_count": 14005,
       "whitespace_score": 26.4,
       "rising": [
         {
           "term": "x2019",
-          "count": 517,
-          "delta": 148
+          "count": 519,
+          "delta": 150
         },
         {
           "term": "lawsuit",
-          "count": 231,
-          "delta": 106
+          "count": 232,
+          "delta": 107
         },
         {
           "term": "investors",
-          "count": 293,
-          "delta": 97
+          "count": 294,
+          "delta": 98
         },
         {
           "term": "x2026",
-          "count": 791,
-          "delta": 80
+          "count": 794,
+          "delta": 83
         },
         {
           "term": "x131",
@@ -46,13 +46,13 @@
         },
         {
           "term": "lead",
-          "count": 180,
-          "delta": 72
+          "count": 181,
+          "delta": 73
         },
         {
           "term": "securities",
-          "count": 250,
-          "delta": 67
+          "count": 252,
+          "delta": 69
         },
         {
           "term": "action lawsuit",
@@ -64,7 +64,7 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 2097
+          "count": 2107
         },
         {
           "name": "Reddit Cybersecurity",
@@ -89,32 +89,42 @@
         {
           "name": "Ping Li",
           "firm": "Accel",
-          "count": 49
+          "count": 50
         }
       ]
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 2134,
-      "recent7": 287,
+      "total": 2140,
+      "recent7": 293,
       "sparkline": [
         354,
         358,
         352,
-        287
+        293
       ],
       "momentum_pct": 16,
       "momentum_basis": "7d",
-      "hard_count": 190,
+      "hard_count": 191,
       "hard_ratio": 0.089,
-      "exit_count": 83,
-      "talk_count": 1787,
+      "exit_count": 84,
+      "talk_count": 1790,
       "whitespace_score": 9.4,
       "rising": [
         {
           "term": "ethereum",
-          "count": 26,
-          "delta": 14
+          "count": 27,
+          "delta": 15
+        },
+        {
+          "term": "holdings",
+          "count": 18,
+          "delta": 13
+        },
+        {
+          "term": "management",
+          "count": 32,
+          "delta": 12
         },
         {
           "term": "investors",
@@ -137,19 +147,9 @@
           "delta": 12
         },
         {
-          "term": "holdings",
-          "count": 17,
-          "delta": 12
-        },
-        {
           "term": "fdic",
           "count": 16,
           "delta": 12
-        },
-        {
-          "term": "bunq",
-          "count": 11,
-          "delta": 11
         }
       ],
       "movers": [
@@ -545,21 +545,21 @@
     },
     "marketing-ads": {
       "label": "Marketing / Ads",
-      "total": 605,
-      "recent7": 72,
+      "total": 606,
+      "recent7": 73,
       "sparkline": [
         93,
         88,
         99,
-        72
+        73
       ],
       "momentum_pct": 14,
       "momentum_basis": "7d",
       "hard_count": 12,
       "hard_ratio": 0.02,
       "exit_count": 8,
-      "talk_count": 579,
-      "whitespace_score": 48.2,
+      "talk_count": 580,
+      "whitespace_score": 48.3,
       "rising": [
         {
           "term": "tech",
@@ -622,6 +622,11 @@
           "name": "Rand Fishkin",
           "firm": "SparkToro",
           "count": 2
+        },
+        {
+          "name": "Web Smith",
+          "firm": "2PM",
+          "count": 1
         },
         {
           "name": "Ben Thompson",
@@ -795,15 +800,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2449,
+        "recent7": 2466,
         "momentum_pct": 21,
         "momentum_basis": "7d",
-        "total": 14717,
+        "total": 14734,
         "sparkline": [
           2262,
           2311,
           2566,
-          2449
+          2466
         ],
         "hard_ratio": 0.036,
         "whitespace_score": 26.4
@@ -811,15 +816,15 @@
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 287,
+        "recent7": 293,
         "momentum_pct": 16,
         "momentum_basis": "7d",
-        "total": 2134,
+        "total": 2140,
         "sparkline": [
           354,
           358,
           352,
-          287
+          293
         ],
         "hard_ratio": 0.089,
         "whitespace_score": 9.4
@@ -889,6 +894,22 @@
         "whitespace_score": 17.8
       },
       {
+        "id": "marketing-ads",
+        "label": "Marketing / Ads",
+        "recent7": 73,
+        "momentum_pct": 14,
+        "momentum_basis": "7d",
+        "total": 606,
+        "sparkline": [
+          93,
+          88,
+          99,
+          73
+        ],
+        "hard_ratio": 0.02,
+        "whitespace_score": 48.3
+      },
+      {
         "id": "edtech",
         "label": "Edtech",
         "recent7": 73,
@@ -903,22 +924,6 @@
         ],
         "hard_ratio": 0.027,
         "whitespace_score": 35.3
-      },
-      {
-        "id": "marketing-ads",
-        "label": "Marketing / Ads",
-        "recent7": 72,
-        "momentum_pct": 14,
-        "momentum_basis": "7d",
-        "total": 605,
-        "sparkline": [
-          93,
-          88,
-          99,
-          72
-        ],
-        "hard_ratio": 0.02,
-        "whitespace_score": 48.2
       },
       {
         "id": "coexistence-empowerment",
@@ -940,23 +945,23 @@
     "rising": [
       {
         "term": "x2019",
-        "count": 517,
-        "delta": 148
+        "count": 519,
+        "delta": 150
       },
       {
         "term": "investors",
-        "count": 344,
-        "delta": 101
+        "count": 345,
+        "delta": 102
       },
       {
         "term": "lawsuit",
-        "count": 252,
-        "delta": 92
+        "count": 253,
+        "delta": 93
       },
       {
         "term": "x2026",
-        "count": 791,
-        "delta": 80
+        "count": 794,
+        "delta": 83
       },
       {
         "term": "x131",
@@ -965,13 +970,13 @@
       },
       {
         "term": "securities",
-        "count": 272,
-        "delta": 65
+        "count": 276,
+        "delta": 69
       },
       {
         "term": "lead",
-        "count": 200,
-        "delta": 63
+        "count": 201,
+        "delta": 64
       },
       {
         "term": "action lawsuit",
@@ -979,13 +984,13 @@
         "delta": 58
       },
       {
-        "term": "llp",
-        "count": 120,
-        "delta": 51
+        "term": "securities fraud",
+        "count": 113,
+        "delta": 52
       },
       {
-        "term": "securities fraud",
-        "count": 112,
+        "term": "llp",
+        "count": 120,
         "delta": 51
       }
     ],
@@ -1111,6 +1116,6 @@
         "hard": 1
       }
     ],
-    "total_signals": 22838
+    "total_signals": 22862
   }
 }

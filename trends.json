@@ -1,28 +1,33 @@
 {
-  "generated": "2026-08-18T10:24:29Z",
+  "generated": "2026-08-18T11:21:57Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 15396,
-      "recent7": 2651,
+      "total": 15425,
+      "recent7": 2679,
       "sparkline": [
         2268,
-        2315,
+        2316,
         2654,
-        2651
+        2679
       ],
-      "momentum_pct": 21,
+      "momentum_pct": 22,
       "momentum_basis": "7d",
-      "hard_count": 549,
+      "hard_count": 550,
       "hard_ratio": 0.036,
-      "exit_count": 65,
-      "talk_count": 14642,
+      "exit_count": 66,
+      "talk_count": 14667,
       "whitespace_score": 26.7,
       "rising": [
         {
           "term": "x2019",
-          "count": 560,
-          "delta": 194
+          "count": 562,
+          "delta": 196
+        },
+        {
+          "term": "x2026",
+          "count": 860,
+          "delta": 142
         },
         {
           "term": "lawsuit",
@@ -33,11 +38,6 @@
           "term": "investors",
           "count": 344,
           "delta": 140
-        },
-        {
-          "term": "x2026",
-          "count": 856,
-          "delta": 138
         },
         {
           "term": "securities",
@@ -51,8 +51,8 @@
         },
         {
           "term": "action",
-          "count": 266,
-          "delta": 90
+          "count": 267,
+          "delta": 91
         },
         {
           "term": "action lawsuit",
@@ -64,7 +64,7 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 2251
+          "count": 2262
         },
         {
           "name": "Reddit Cybersecurity",
@@ -74,7 +74,7 @@
         {
           "name": "ProductHunt",
           "firm": "producthunt",
-          "count": 145
+          "count": 146
         },
         {
           "name": "Security Conferences",
@@ -95,20 +95,20 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 2207,
-      "recent7": 287,
+      "total": 2210,
+      "recent7": 290,
       "sparkline": [
         355,
         355,
         361,
-        287
+        290
       ],
       "momentum_pct": 15,
       "momentum_basis": "7d",
       "hard_count": 196,
       "hard_ratio": 0.089,
       "exit_count": 89,
-      "talk_count": 1846,
+      "talk_count": 1849,
       "whitespace_score": 9.4,
       "rising": [
         {
@@ -187,21 +187,21 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 1365,
-      "recent7": 163,
+      "total": 1368,
+      "recent7": 166,
       "sparkline": [
         183,
         214,
         210,
-        163
+        166
       ],
       "momentum_pct": 15,
       "momentum_basis": "7d",
       "hard_count": 103,
       "hard_ratio": 0.075,
       "exit_count": 23,
-      "talk_count": 1198,
-      "whitespace_score": 11.6,
+      "talk_count": 1201,
+      "whitespace_score": 11.7,
       "rising": [
         {
           "term": "amazon",
@@ -279,20 +279,20 @@
     },
     "healthtech": {
       "label": "Healthtech / Bio",
-      "total": 788,
-      "recent7": 100,
+      "total": 789,
+      "recent7": 101,
       "sparkline": [
         132,
         131,
         128,
-        100
+        101
       ],
       "momentum_pct": 16,
       "momentum_basis": "7d",
       "hard_count": 40,
       "hard_ratio": 0.051,
       "exit_count": 20,
-      "talk_count": 719,
+      "talk_count": 720,
       "whitespace_score": 18.0,
       "rising": [
         {
@@ -340,7 +340,7 @@
         {
           "name": "STAT News",
           "firm": "STAT",
-          "count": 98
+          "count": 99
         },
         {
           "name": "MedCity News",
@@ -800,15 +800,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2651,
-        "momentum_pct": 21,
+        "recent7": 2679,
+        "momentum_pct": 22,
         "momentum_basis": "7d",
-        "total": 15396,
+        "total": 15425,
         "sparkline": [
           2268,
-          2315,
+          2316,
           2654,
-          2651
+          2679
         ],
         "hard_ratio": 0.036,
         "whitespace_score": 26.7
@@ -816,15 +816,15 @@
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 287,
+        "recent7": 290,
         "momentum_pct": 15,
         "momentum_basis": "7d",
-        "total": 2207,
+        "total": 2210,
         "sparkline": [
           355,
           355,
           361,
-          287
+          290
         ],
         "hard_ratio": 0.089,
         "whitespace_score": 9.4
@@ -848,18 +848,18 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 163,
+        "recent7": 166,
         "momentum_pct": 15,
         "momentum_basis": "7d",
-        "total": 1365,
+        "total": 1368,
         "sparkline": [
           183,
           214,
           210,
-          163
+          166
         ],
         "hard_ratio": 0.075,
-        "whitespace_score": 11.6
+        "whitespace_score": 11.7
       },
       {
         "id": "space-tech",
@@ -880,15 +880,15 @@
       {
         "id": "healthtech",
         "label": "Healthtech / Bio",
-        "recent7": 100,
+        "recent7": 101,
         "momentum_pct": 16,
         "momentum_basis": "7d",
-        "total": 788,
+        "total": 789,
         "sparkline": [
           132,
           131,
           128,
-          100
+          101
         ],
         "hard_ratio": 0.051,
         "whitespace_score": 18.0
@@ -945,13 +945,13 @@
     "rising": [
       {
         "term": "x2019",
-        "count": 560,
-        "delta": 194
+        "count": 562,
+        "delta": 196
       },
       {
         "term": "x2026",
-        "count": 856,
-        "delta": 138
+        "count": 860,
+        "delta": 142
       },
       {
         "term": "investors",
@@ -965,8 +965,8 @@
       },
       {
         "term": "securities",
-        "count": 326,
-        "delta": 106
+        "count": 327,
+        "delta": 107
       },
       {
         "term": "class",
@@ -980,8 +980,8 @@
       },
       {
         "term": "prnewswire",
-        "count": 757,
-        "delta": 80
+        "count": 763,
+        "delta": 86
       },
       {
         "term": "llp",
@@ -1116,6 +1116,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 23812
+    "total_signals": 23848
   }
 }

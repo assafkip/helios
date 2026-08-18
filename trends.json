@@ -1,22 +1,22 @@
 {
-  "generated": "2026-08-18T03:41:32Z",
+  "generated": "2026-08-18T04:31:58Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 15259,
-      "recent7": 2520,
+      "total": 15269,
+      "recent7": 2530,
       "sparkline": [
         2267,
         2313,
         2652,
-        2520
+        2530
       ],
       "momentum_pct": 20,
       "momentum_basis": "7d",
       "hard_count": 548,
       "hard_ratio": 0.036,
       "exit_count": 65,
-      "talk_count": 14507,
+      "talk_count": 14516,
       "whitespace_score": 26.5,
       "rising": [
         {
@@ -36,8 +36,8 @@
         },
         {
           "term": "x2026",
-          "count": 833,
-          "delta": 115
+          "count": 836,
+          "delta": 118
         },
         {
           "term": "securities",
@@ -56,15 +56,15 @@
         },
         {
           "term": "lead",
-          "count": 191,
-          "delta": 74
+          "count": 192,
+          "delta": 75
         }
       ],
       "movers": [
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 2197
+          "count": 2200
         },
         {
           "name": "Reddit Cybersecurity",
@@ -79,7 +79,7 @@
         {
           "name": "Security Conferences",
           "firm": "conference",
-          "count": 105
+          "count": 107
         },
         {
           "name": "Security Affairs",
@@ -95,20 +95,20 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 2201,
-      "recent7": 281,
+      "total": 2202,
+      "recent7": 282,
       "sparkline": [
         355,
         355,
         361,
-        281
+        282
       ],
       "momentum_pct": 15,
       "momentum_basis": "7d",
       "hard_count": 196,
       "hard_ratio": 0.089,
       "exit_count": 89,
-      "talk_count": 1840,
+      "talk_count": 1841,
       "whitespace_score": 9.4,
       "rising": [
         {
@@ -156,7 +156,7 @@
         {
           "name": "Sifted",
           "firm": "Sifted",
-          "count": 31
+          "count": 32
         },
         {
           "name": "Tearsheet",
@@ -545,22 +545,27 @@
     },
     "marketing-ads": {
       "label": "Marketing / Ads",
-      "total": 628,
-      "recent7": 73,
+      "total": 631,
+      "recent7": 76,
       "sparkline": [
         93,
         91,
         100,
-        73
+        76
       ],
-      "momentum_pct": 13,
+      "momentum_pct": 14,
       "momentum_basis": "7d",
       "hard_count": 12,
       "hard_ratio": 0.019,
       "exit_count": 9,
-      "talk_count": 601,
-      "whitespace_score": 50.1,
+      "talk_count": 604,
+      "whitespace_score": 50.3,
       "rising": [
+        {
+          "term": "nielsen",
+          "count": 9,
+          "delta": 9
+        },
         {
           "term": "commerce",
           "count": 8,
@@ -568,11 +573,6 @@
         },
         {
           "term": "wpp",
-          "count": 8,
-          "delta": 8
-        },
-        {
-          "term": "nielsen",
           "count": 8,
           "delta": 8
         },
@@ -606,7 +606,7 @@
         {
           "name": "Digiday",
           "firm": "Digiday",
-          "count": 38
+          "count": 41
         },
         {
           "name": "Jason Lemkin",
@@ -637,20 +637,20 @@
     },
     "space-tech": {
       "label": "Space Tech",
-      "total": 1001,
-      "recent7": 123,
+      "total": 1002,
+      "recent7": 124,
       "sparkline": [
         144,
         153,
         130,
-        123
+        124
       ],
       "momentum_pct": 14,
       "momentum_basis": "7d",
       "hard_count": 53,
       "hard_ratio": 0.053,
       "exit_count": 12,
-      "talk_count": 910,
+      "talk_count": 911,
       "whitespace_score": 17.2,
       "rising": [
         {
@@ -800,15 +800,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2520,
+        "recent7": 2530,
         "momentum_pct": 20,
         "momentum_basis": "7d",
-        "total": 15259,
+        "total": 15269,
         "sparkline": [
           2267,
           2313,
           2652,
-          2520
+          2530
         ],
         "hard_ratio": 0.036,
         "whitespace_score": 26.5
@@ -816,15 +816,15 @@
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 281,
+        "recent7": 282,
         "momentum_pct": 15,
         "momentum_basis": "7d",
-        "total": 2201,
+        "total": 2202,
         "sparkline": [
           355,
           355,
           361,
-          281
+          282
         ],
         "hard_ratio": 0.089,
         "whitespace_score": 9.4
@@ -864,15 +864,15 @@
       {
         "id": "space-tech",
         "label": "Space Tech",
-        "recent7": 123,
+        "recent7": 124,
         "momentum_pct": 14,
         "momentum_basis": "7d",
-        "total": 1001,
+        "total": 1002,
         "sparkline": [
           144,
           153,
           130,
-          123
+          124
         ],
         "hard_ratio": 0.053,
         "whitespace_score": 17.2
@@ -894,6 +894,22 @@
         "whitespace_score": 17.9
       },
       {
+        "id": "marketing-ads",
+        "label": "Marketing / Ads",
+        "recent7": 76,
+        "momentum_pct": 14,
+        "momentum_basis": "7d",
+        "total": 631,
+        "sparkline": [
+          93,
+          91,
+          100,
+          76
+        ],
+        "hard_ratio": 0.019,
+        "whitespace_score": 50.3
+      },
+      {
         "id": "edtech",
         "label": "Edtech",
         "recent7": 76,
@@ -908,22 +924,6 @@
         ],
         "hard_ratio": 0.026,
         "whitespace_score": 36.4
-      },
-      {
-        "id": "marketing-ads",
-        "label": "Marketing / Ads",
-        "recent7": 73,
-        "momentum_pct": 13,
-        "momentum_basis": "7d",
-        "total": 628,
-        "sparkline": [
-          93,
-          91,
-          100,
-          73
-        ],
-        "hard_ratio": 0.019,
-        "whitespace_score": 50.1
       },
       {
         "id": "coexistence-empowerment",
@@ -955,8 +955,8 @@
       },
       {
         "term": "x2026",
-        "count": 833,
-        "delta": 115
+        "count": 836,
+        "delta": 118
       },
       {
         "term": "lawsuit",
@@ -1116,6 +1116,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 23626
+    "total_signals": 23641
   }
 }

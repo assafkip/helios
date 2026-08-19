@@ -1,33 +1,33 @@
 {
-  "generated": "2026-08-19T08:33:03Z",
+  "generated": "2026-08-19T09:29:48Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 15860,
-      "recent7": 2597,
+      "total": 15889,
+      "recent7": 2626,
       "sparkline": [
         2252,
         2305,
         2797,
-        2597
+        2626
       ],
       "momentum_pct": 20,
       "momentum_basis": "7d",
-      "hard_count": 564,
+      "hard_count": 566,
       "hard_ratio": 0.036,
-      "exit_count": 71,
-      "talk_count": 15080,
+      "exit_count": 72,
+      "talk_count": 15105,
       "whitespace_score": 26.7,
       "rising": [
         {
-          "term": "x2019",
-          "count": 566,
-          "delta": 190
+          "term": "x2026",
+          "count": 901,
+          "delta": 193
         },
         {
-          "term": "x2026",
-          "count": 897,
-          "delta": 189
+          "term": "x2019",
+          "count": 567,
+          "delta": 191
         },
         {
           "term": "investors",
@@ -35,14 +35,14 @@
           "delta": 134
         },
         {
+          "term": "prnewswire",
+          "count": 794,
+          "delta": 122
+        },
+        {
           "term": "securities",
           "count": 301,
           "delta": 119
-        },
-        {
-          "term": "prnewswire",
-          "count": 789,
-          "delta": 117
         },
         {
           "term": "lawsuit",
@@ -64,27 +64,27 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 2340
+          "count": 2351
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 825
+          "count": 828
         },
         {
           "name": "ProductHunt",
           "firm": "producthunt",
-          "count": 146
+          "count": 148
         },
         {
           "name": "Security Conferences",
           "firm": "conference",
-          "count": 102
+          "count": 105
         },
         {
           "name": "Security Affairs",
           "firm": "blog",
-          "count": 62
+          "count": 63
         },
         {
           "name": "Ping Li",
@@ -187,20 +187,20 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 1398,
-      "recent7": 151,
+      "total": 1399,
+      "recent7": 152,
       "sparkline": [
         188,
         212,
         214,
-        151
+        152
       ],
       "momentum_pct": 13,
       "momentum_basis": "7d",
       "hard_count": 105,
       "hard_ratio": 0.075,
       "exit_count": 23,
-      "talk_count": 1228,
+      "talk_count": 1229,
       "whitespace_score": 11.7,
       "rising": [
         {
@@ -263,7 +263,7 @@
         {
           "name": "Shawn Wang (swyx) / Alessio Fanelli",
           "firm": "Latent Space",
-          "count": 12
+          "count": 13
         },
         {
           "name": "Tomasz Tunguz",
@@ -371,20 +371,20 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 1407,
-      "recent7": 175,
+      "total": 1408,
+      "recent7": 176,
       "sparkline": [
         226,
         207,
         201,
-        175
+        176
       ],
       "momentum_pct": 14,
       "momentum_basis": "7d",
       "hard_count": 68,
       "hard_ratio": 0.048,
       "exit_count": 8,
-      "talk_count": 1311,
+      "talk_count": 1312,
       "whitespace_score": 19.3,
       "rising": [
         {
@@ -463,26 +463,26 @@
     },
     "edtech": {
       "label": "Edtech",
-      "total": 633,
-      "recent7": 86,
+      "total": 634,
+      "recent7": 87,
       "sparkline": [
         89,
         84,
         90,
-        86
+        87
       ],
       "momentum_pct": 16,
       "momentum_basis": "7d",
       "hard_count": 16,
       "hard_ratio": 0.025,
       "exit_count": 0,
-      "talk_count": 611,
+      "talk_count": 612,
       "whitespace_score": 38.2,
       "rising": [
         {
           "term": "student",
-          "count": 37,
-          "delta": 17
+          "count": 38,
+          "delta": 18
         },
         {
           "term": "parents",
@@ -534,7 +534,7 @@
         {
           "name": "EdSurge",
           "firm": "EdSurge",
-          "count": 6
+          "count": 7
         },
         {
           "name": "Josh Bersin",
@@ -794,15 +794,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2597,
+        "recent7": 2626,
         "momentum_pct": 20,
         "momentum_basis": "7d",
-        "total": 15860,
+        "total": 15889,
         "sparkline": [
           2252,
           2305,
           2797,
-          2597
+          2626
         ],
         "hard_ratio": 0.036,
         "whitespace_score": 26.7
@@ -826,15 +826,15 @@
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 175,
+        "recent7": 176,
         "momentum_pct": 14,
         "momentum_basis": "7d",
-        "total": 1407,
+        "total": 1408,
         "sparkline": [
           226,
           207,
           201,
-          175
+          176
         ],
         "hard_ratio": 0.048,
         "whitespace_score": 19.3
@@ -842,15 +842,15 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 151,
+        "recent7": 152,
         "momentum_pct": 13,
         "momentum_basis": "7d",
-        "total": 1398,
+        "total": 1399,
         "sparkline": [
           188,
           212,
           214,
-          151
+          152
         ],
         "hard_ratio": 0.075,
         "whitespace_score": 11.7
@@ -906,15 +906,15 @@
       {
         "id": "edtech",
         "label": "Edtech",
-        "recent7": 86,
+        "recent7": 87,
         "momentum_pct": 16,
         "momentum_basis": "7d",
-        "total": 633,
+        "total": 634,
         "sparkline": [
           89,
           84,
           90,
-          86
+          87
         ],
         "hard_ratio": 0.025,
         "whitespace_score": 38.2
@@ -938,14 +938,14 @@
     ],
     "rising": [
       {
-        "term": "x2019",
-        "count": 566,
-        "delta": 190
+        "term": "x2026",
+        "count": 901,
+        "delta": 193
       },
       {
-        "term": "x2026",
-        "count": 897,
-        "delta": 189
+        "term": "x2019",
+        "count": 567,
+        "delta": 191
       },
       {
         "term": "securities",
@@ -959,8 +959,8 @@
       },
       {
         "term": "prnewswire",
-        "count": 789,
-        "delta": 117
+        "count": 794,
+        "delta": 122
       },
       {
         "term": "x131",
@@ -974,18 +974,18 @@
       },
       {
         "term": "x2014",
-        "count": 233,
-        "delta": 84
+        "count": 235,
+        "delta": 86
       },
       {
         "term": "class",
-        "count": 288,
-        "delta": 78
+        "count": 290,
+        "delta": 80
       },
       {
         "term": "law",
-        "count": 369,
-        "delta": 77
+        "count": 370,
+        "delta": 78
       }
     ],
     "highlights": [
@@ -1110,6 +1110,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 24507
+    "total_signals": 24539
   }
 }

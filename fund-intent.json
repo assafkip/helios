@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-19T17:23:25Z",
+  "generated": "2026-08-19T18:29:17Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 689,
-    "deal_rows_attributed": 324,
+    "deal_rows_seen": 691,
+    "deal_rows_attributed": 325,
     "funds_tracked": 198,
-    "fetch_attempts": 66,
-    "fetchable_pct": 0,
+    "fetch_attempts": 68,
+    "fetchable_pct": 3,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -1609,6 +1609,69 @@
       ]
     },
     {
+      "fund": "8VC",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
+      "coverage": 5,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Climate / Energy",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 5,
+      "recent90": 5,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-19",
+          "summary": "/C O R R E C T I O N -- Hopscotch Primary Care/",
+          "url": "https://www.prnewswire.com/news-releases/tech-enabled-rural-health-care-leader-hopscotch-primary-care-announces-53-million-in-latest-funding-round-302854228.html"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-17",
+          "summary": "Terra Industries closes $52M seed round to build defense infrastructure for the Global South",
+          "url": "https://techcrunch.com/2026/08/17/terra-industries-closes-52m-seed-round-to-build-defense-infrastructure-for-the-global-south/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-17",
+          "summary": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
+          "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/"
+        },
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-08-02",
+          "summary": "4 Notable Health Tech Funding Announcements in July",
+          "url": "https://medcitynews.com/2026/08/4-notable-health-tech-funding-announcements-in-july/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-07-21",
+          "summary": "Bucking EV slowdown, Sila raises $300M to expand battery materials factory",
+          "url": "https://techcrunch.com/2026/07/21/bucking-ev-slowdown-sila-raises-300m-to-expand-battery-materials-factory/"
+        }
+      ]
+    },
+    {
       "fund": "Spark Capital",
       "thesis": "Revealed focus: Cybersecurity and Space Tech. 5 attributed deal(s), 4 in the last 30d.",
       "coverage": 5,
@@ -2291,63 +2354,6 @@
           "date": "2026-08-05",
           "summary": "Airtable Just Sold for $2.25B at 2.7x ARR. It Raised $1.4B and Was Once Worth $11.7B. This Was \u2026 Market",
           "url": "https://www.saastr.com/airtable-just-sold-for-2-25b-at-2-7x-arr-it-raised-1-4b-and-was-once-worth-11-7b/"
-        }
-      ]
-    },
-    {
-      "fund": "8VC",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 4 in the last 30d.",
-      "coverage": 4,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Healthtech / Bio",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Climate / Energy",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 4,
-      "recent90": 4,
-      "prior30": 0,
-      "last_deal_days": 2,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-17",
-          "summary": "Terra Industries closes $52M seed round to build defense infrastructure for the Global South",
-          "url": "https://techcrunch.com/2026/08/17/terra-industries-closes-52m-seed-round-to-build-defense-infrastructure-for-the-global-south/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-08-17",
-          "summary": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
-          "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/"
-        },
-        {
-          "sector": "Healthtech / Bio",
-          "date": "2026-08-02",
-          "summary": "4 Notable Health Tech Funding Announcements in July",
-          "url": "https://medcitynews.com/2026/08/4-notable-health-tech-funding-announcements-in-july/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-07-21",
-          "summary": "Bucking EV slowdown, Sila raises $300M to expand battery materials factory",
-          "url": "https://techcrunch.com/2026/07/21/bucking-ev-slowdown-sila-raises-300m-to-expand-battery-materials-factory/"
         }
       ]
     },
@@ -8783,6 +8789,13 @@
         "recent30": 6
       },
       {
+        "fund": "8VC",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 2,
+        "recent30": 5
+      },
+      {
         "fund": "Radical Ventures",
         "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 5 attributed deal(s), 1 in the last 30d.",
         "coverage": 5,
@@ -9012,13 +9025,6 @@
         "coverage": 5,
         "sector_count": 1,
         "recent30": 0
-      },
-      {
-        "fund": "8VC",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 4 in the last 30d.",
-        "coverage": 4,
-        "sector_count": 1,
-        "recent30": 4
       },
       {
         "fund": "Energy Impact Partners",
@@ -10110,6 +10116,13 @@
         "recent30": 5
       },
       {
+        "fund": "8VC",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 5
+      },
+      {
         "fund": "CapitalG",
         "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 5 in the last 30d.",
         "coverage": 5,
@@ -10143,13 +10156,6 @@
         "coverage": 5,
         "sector_count": 1,
         "recent30": 5
-      },
-      {
-        "fund": "8VC",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 4 in the last 30d.",
-        "coverage": 4,
-        "sector_count": 1,
-        "recent30": 4
       },
       {
         "fund": "Ribbit Capital",
@@ -10609,16 +10615,16 @@
         "recent30": 5
       },
       {
+        "fund": "8VC",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 5
+      },
+      {
         "fund": "Eclipse",
         "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 5 attributed deal(s), 4 in the last 30d.",
         "coverage": 5,
-        "sector_count": 1,
-        "recent30": 4
-      },
-      {
-        "fund": "8VC",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 4 in the last 30d.",
-        "coverage": 4,
         "sector_count": 1,
         "recent30": 4
       },
@@ -11096,18 +11102,18 @@
         "recent30": 4
       },
       {
+        "fund": "8VC",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 5
+      },
+      {
         "fund": "Bain Capital Ventures",
         "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 5 attributed deal(s), 3 in the last 30d.",
         "coverage": 5,
         "sector_count": 1,
         "recent30": 3
-      },
-      {
-        "fund": "8VC",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 4 in the last 30d.",
-        "coverage": 4,
-        "sector_count": 1,
-        "recent30": 4
       },
       {
         "fund": "Sixth Street Growth",

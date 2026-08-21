@@ -1,19 +1,19 @@
 {
-  "generated": "2026-08-21T13:42:11Z",
+  "generated": "2026-08-21T14:31:32Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 726,
-    "deal_rows_attributed": 343,
-    "funds_tracked": 209,
-    "fetch_attempts": 72,
-    "fetchable_pct": 3,
+    "deal_rows_seen": 728,
+    "deal_rows_attributed": 345,
+    "funds_tracked": 216,
+    "fetch_attempts": 71,
+    "fetchable_pct": 1,
     "update_cadence": "hourly"
   },
   "funds": [
     {
       "fund": "Nvidia",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 9 in the last 30d.",
-      "coverage": 15,
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 17 attributed deal(s), 11 in the last 30d.",
+      "coverage": 17,
       "sectors": [
         {
           "label": "Cybersecurity",
@@ -27,8 +27,8 @@
         },
         {
           "label": "AI / ML Infra",
-          "count": 3,
-          "weight": 2.0
+          "count": 4,
+          "weight": 3.0
         },
         {
           "label": "Climate / Energy",
@@ -39,13 +39,30 @@
           "label": "Marketing / Ads",
           "count": 1,
           "weight": 1.0
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
         }
       ],
-      "recent30": 9,
-      "recent90": 15,
+      "recent30": 11,
+      "recent90": 17,
       "prior30": 6,
-      "last_deal_days": 2,
+      "last_deal_days": 0,
       "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+        },
         {
           "sector": "Fintech / Payments",
           "date": "2026-08-19",
@@ -1812,6 +1829,70 @@
       ]
     },
     {
+      "fund": "Benchmark",
+      "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 6 attributed deal(s), 4 in the last 30d.",
+      "coverage": 6,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 4,
+          "weight": 3.0
+        },
+        {
+          "label": "Marketing / Ads",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 4,
+      "recent90": 6,
+      "prior30": 2,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-05",
+          "summary": "Airtable Just Sold for $2.25B at 2.7x ARR. It Raised $1.4B and Was Once Worth $11.7B. This Was \u2026 Market",
+          "url": "https://www.saastr.com/airtable-just-sold-for-2-25b-at-2-7x-arr-it-raised-1-4b-and-was-once-worth-11-7b/"
+        },
+        {
+          "sector": "Marketing / Ads",
+          "date": "2026-08-05",
+          "summary": "Airtable Just Sold for $2.25B at 2.7x ARR. It Raised $1.4B and Was Once Worth $11.7B. This Was \u2026 Market",
+          "url": "https://www.saastr.com/airtable-just-sold-for-2-25b-at-2-7x-arr-it-raised-1-4b-and-was-once-worth-11-7b/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-09",
+          "summary": "8.9 Million AI Users",
+          "url": "https://www.tomtunguz.com/ollama-series-b/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-09",
+          "summary": "Popular open source AI developer tool Ollama raises $65M, grows to nearly 9M users",
+          "url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/"
+        }
+      ]
+    },
+    {
       "fund": "8VC",
       "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 4 in the last 30d.",
       "coverage": 5,
@@ -1871,6 +1952,69 @@
           "date": "2026-07-21",
           "summary": "Bucking EV slowdown, Sila raises $300M to expand battery materials factory",
           "url": "https://techcrunch.com/2026/07/21/bucking-ev-slowdown-sila-raises-300m-to-expand-battery-materials-factory/"
+        }
+      ]
+    },
+    {
+      "fund": "EQT",
+      "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 5 attributed deal(s), 4 in the last 30d.",
+      "coverage": 5,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 2,
+          "weight": 1.5
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 4,
+      "recent90": 5,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-14",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Data, Neolab, AI Infrastructure, Defense And AI Coding Lead",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-28",
+          "summary": "AI rollup startup Dwelly raises $170m backed by EQT and General Catalyst",
+          "url": "https://sifted.eu/articles/dwelly-ai-property-rollup-funding-round-elevenlabs-legora/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-06-23",
+          "summary": "Odyssey raises $310M Series B for world models",
+          "url": "https://press.airstreet.com/p/odyssey-series-b"
         }
       ]
     },
@@ -3490,6 +3634,63 @@
       ]
     },
     {
+      "fund": "Cisco",
+      "thesis": "Revealed focus: AI / ML Infra and Climate / Energy. 4 attributed deal(s), 3 in the last 30d.",
+      "coverage": 4,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Climate / Energy",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 3,
+      "recent90": 4,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-05",
+          "summary": "Saudi Aramco backs India\u2019s Mitti Labs to make Asia\u2019s rice farming more water-resilient",
+          "url": "https://techcrunch.com/2026/08/05/saudi-aramco-backs-indias-mitti-labs-to-make-asias-rice-farming-more-water-resilient/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-04",
+          "summary": "What is Mistral AI? Everything to know about the OpenAI competitor",
+          "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
+        }
+      ]
+    },
+    {
       "fund": "Plural",
       "thesis": "Revealed focus: Coexistence / Empowerment and Fintech / Payments. 4 attributed deal(s), 3 in the last 30d.",
       "coverage": 4,
@@ -3595,53 +3796,6 @@
           "date": "2026-06-27",
           "summary": "FTC gives Musk the OK to acquire SpaceX alumni startup Mesh",
           "url": "https://techcrunch.com/2026/06/26/ftc-gives-musk-the-ok-to-acquire-spacex-alumni-startup-mesh/"
-        }
-      ]
-    },
-    {
-      "fund": "Benchmark",
-      "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 4 attributed deal(s), 2 in the last 30d.",
-      "coverage": 4,
-      "sectors": [
-        {
-          "label": "AI / ML Infra",
-          "count": 3,
-          "weight": 2.0
-        },
-        {
-          "label": "Marketing / Ads",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 2,
-      "recent90": 4,
-      "prior30": 2,
-      "last_deal_days": 16,
-      "deals": [
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-08-05",
-          "summary": "Airtable Just Sold for $2.25B at 2.7x ARR. It Raised $1.4B and Was Once Worth $11.7B. This Was \u2026 Market",
-          "url": "https://www.saastr.com/airtable-just-sold-for-2-25b-at-2-7x-arr-it-raised-1-4b-and-was-once-worth-11-7b/"
-        },
-        {
-          "sector": "Marketing / Ads",
-          "date": "2026-08-05",
-          "summary": "Airtable Just Sold for $2.25B at 2.7x ARR. It Raised $1.4B and Was Once Worth $11.7B. This Was \u2026 Market",
-          "url": "https://www.saastr.com/airtable-just-sold-for-2-25b-at-2-7x-arr-it-raised-1-4b-and-was-once-worth-11-7b/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-07-09",
-          "summary": "8.9 Million AI Users",
-          "url": "https://www.tomtunguz.com/ollama-series-b/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-07-09",
-          "summary": "Popular open source AI developer tool Ollama raises $65M, grows to nearly 9M users",
-          "url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/"
         }
       ]
     },
@@ -4083,52 +4237,6 @@
           "date": "2026-08-12",
           "summary": "Form Energy raises $750M to build more 100-hour batteries for the grid",
           "url": "https://techcrunch.com/2026/08/12/form-energy-raises-750m-to-build-more-100-hour-batteries-for-the-grid/"
-        }
-      ]
-    },
-    {
-      "fund": "EQT",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 2 in the last 30d.",
-      "coverage": 3,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 2,
-      "recent90": 3,
-      "prior30": 1,
-      "last_deal_days": 7,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-14",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Data, Neolab, AI Infrastructure, Defense And AI Coding Lead",
-          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-07-28",
-          "summary": "AI rollup startup Dwelly raises $170m backed by EQT and General Catalyst",
-          "url": "https://sifted.eu/articles/dwelly-ai-property-rollup-funding-round-elevenlabs-legora/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-06-23",
-          "summary": "Odyssey raises $310M Series B for world models",
-          "url": "https://press.airstreet.com/p/odyssey-series-b"
         }
       ]
     },
@@ -7661,41 +7769,6 @@
       ]
     },
     {
-      "fund": "Cisco",
-      "thesis": "Revealed focus: Climate / Energy and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Climate / Energy",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 1,
-      "recent90": 2,
-      "prior30": 1,
-      "last_deal_days": 16,
-      "deals": [
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-08-05",
-          "summary": "Saudi Aramco backs India\u2019s Mitti Labs to make Asia\u2019s rice farming more water-resilient",
-          "url": "https://techcrunch.com/2026/08/05/saudi-aramco-backs-indias-mitti-labs-to-make-asias-rice-farming-more-water-resilient/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-04",
-          "summary": "What is Mistral AI? Everything to know about the OpenAI competitor",
-          "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
-        }
-      ]
-    },
-    {
       "fund": "Aramco Ventures",
       "thesis": "Revealed focus: Climate / Energy and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
       "coverage": 2,
@@ -8247,6 +8320,251 @@
           "date": "2026-07-09",
           "summary": "Aria Secures $283 Million to Expand Invoice Financing Offering",
           "url": "https://www.pymnts.com/news/b2b-payments/2026/aria-secures-283-million-to-expand-invoice-financing-offering/"
+        }
+      ]
+    },
+    {
+      "fund": "Manhattan West Ventures",
+      "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+        }
+      ]
+    },
+    {
+      "fund": "Soma",
+      "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+        }
+      ]
+    },
+    {
+      "fund": "NFX",
+      "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+        }
+      ]
+    },
+    {
+      "fund": "776",
+      "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+        }
+      ]
+    },
+    {
+      "fund": "Cedar Capital",
+      "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+        }
+      ]
+    },
+    {
+      "fund": "Goanna Capital",
+      "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+        }
+      ]
+    },
+    {
+      "fund": "Standard Capital",
+      "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
         }
       ]
     },
@@ -9134,10 +9452,10 @@
       },
       {
         "fund": "Nvidia",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 9 in the last 30d.",
-        "coverage": 15,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 17 attributed deal(s), 11 in the last 30d.",
+        "coverage": 17,
         "sector_count": 6,
-        "recent30": 9
+        "recent30": 11
       },
       {
         "fund": "Index Ventures",
@@ -9560,6 +9878,13 @@
         "recent30": 0
       },
       {
+        "fund": "EQT",
+        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 5 attributed deal(s), 4 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 4
+      },
+      {
         "fund": "CapitalG",
         "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 5 in the last 30d.",
         "coverage": 5,
@@ -9637,6 +9962,13 @@
         "recent30": 1
       },
       {
+        "fund": "Cisco",
+        "thesis": "Revealed focus: AI / ML Infra and Climate / Energy. 4 attributed deal(s), 3 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "Eclipse Capital",
         "thesis": "Revealed focus: Space Tech and Cybersecurity. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
@@ -9684,13 +10016,6 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 3
-      },
-      {
-        "fund": "EQT",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 2 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 2
       },
       {
         "fund": "Eurazeo",
@@ -10148,13 +10473,6 @@
         "recent30": 0
       },
       {
-        "fund": "Cisco",
-        "thesis": "Revealed focus: Climate / Energy and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
-      },
-      {
         "fund": "Aramco Ventures",
         "thesis": "Revealed focus: Climate / Energy and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
         "coverage": 2,
@@ -10179,10 +10497,10 @@
     "Fintech / Payments": [
       {
         "fund": "Nvidia",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 9 in the last 30d.",
-        "coverage": 15,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 17 attributed deal(s), 11 in the last 30d.",
+        "coverage": 17,
         "sector_count": 4,
-        "recent30": 9
+        "recent30": 11
       },
       {
         "fund": "Andreessen Horowitz",
@@ -10388,6 +10706,13 @@
         "recent30": 3
       },
       {
+        "fund": "EQT",
+        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 5 attributed deal(s), 4 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 4
+      },
+      {
         "fund": "Lightspeed Venture Partners",
         "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 4 in the last 30d.",
         "coverage": 5,
@@ -10445,13 +10770,6 @@
       },
       {
         "fund": "Blackstone",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 2 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "EQT",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 2 in the last 30d.",
         "coverage": 3,
         "sector_count": 1,
@@ -10600,6 +10918,13 @@
     ],
     "AI / ML Infra": [
       {
+        "fund": "Nvidia",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 17 attributed deal(s), 11 in the last 30d.",
+        "coverage": 17,
+        "sector_count": 4,
+        "recent30": 11
+      },
+      {
         "fund": "Menlo Ventures",
         "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 9 attributed deal(s), 7 in the last 30d.",
         "coverage": 9,
@@ -10607,11 +10932,11 @@
         "recent30": 7
       },
       {
-        "fund": "Nvidia",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 9 in the last 30d.",
-        "coverage": 15,
-        "sector_count": 3,
-        "recent30": 9
+        "fund": "Benchmark",
+        "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 6 attributed deal(s), 4 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 4,
+        "recent30": 4
       },
       {
         "fund": "Insight Partners",
@@ -10619,13 +10944,6 @@
         "coverage": 8,
         "sector_count": 3,
         "recent30": 5
-      },
-      {
-        "fund": "Benchmark",
-        "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 4 attributed deal(s), 2 in the last 30d.",
-        "coverage": 4,
-        "sector_count": 3,
-        "recent30": 2
       },
       {
         "fund": "Khosla Ventures",
@@ -10654,6 +10972,13 @@
         "coverage": 7,
         "sector_count": 2,
         "recent30": 3
+      },
+      {
+        "fund": "EQT",
+        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 5 attributed deal(s), 4 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 2,
+        "recent30": 4
       },
       {
         "fund": "Seligman Ventures",
@@ -10810,15 +11135,15 @@
         "recent30": 0
       },
       {
-        "fund": "GV",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 3 attributed deal(s), 2 in the last 30d.",
-        "coverage": 3,
+        "fund": "Cisco",
+        "thesis": "Revealed focus: AI / ML Infra and Climate / Energy. 4 attributed deal(s), 3 in the last 30d.",
+        "coverage": 4,
         "sector_count": 1,
-        "recent30": 2
+        "recent30": 3
       },
       {
-        "fund": "EQT",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 2 in the last 30d.",
+        "fund": "GV",
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 3 attributed deal(s), 2 in the last 30d.",
         "coverage": 3,
         "sector_count": 1,
         "recent30": 2
@@ -11069,6 +11394,55 @@
         "recent30": 1
       },
       {
+        "fund": "Manhattan West Ventures",
+        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Soma",
+        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "NFX",
+        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "776",
+        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Cedar Capital",
+        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Goanna Capital",
+        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Standard Capital",
+        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "Thrive",
         "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -11184,10 +11558,10 @@
       },
       {
         "fund": "Nvidia",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 9 in the last 30d.",
-        "coverage": 15,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 17 attributed deal(s), 11 in the last 30d.",
+        "coverage": 17,
         "sector_count": 1,
-        "recent30": 9
+        "recent30": 11
       },
       {
         "fund": "Sequoia Capital",
@@ -11262,6 +11636,13 @@
       {
         "fund": "Conviction",
         "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 4 attributed deal(s), 3 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
+        "fund": "Cisco",
+        "thesis": "Revealed focus: AI / ML Infra and Climate / Energy. 4 attributed deal(s), 3 in the last 30d.",
         "coverage": 4,
         "sector_count": 1,
         "recent30": 3
@@ -11498,13 +11879,6 @@
         "recent30": 0
       },
       {
-        "fund": "Cisco",
-        "thesis": "Revealed focus: Climate / Energy and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
-      },
-      {
         "fund": "Aramco Ventures",
         "thesis": "Revealed focus: Climate / Energy and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
         "coverage": 2,
@@ -11543,10 +11917,10 @@
     "Marketing / Ads": [
       {
         "fund": "Nvidia",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 9 in the last 30d.",
-        "coverage": 15,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 17 attributed deal(s), 11 in the last 30d.",
+        "coverage": 17,
         "sector_count": 1,
-        "recent30": 9
+        "recent30": 11
       },
       {
         "fund": "Coatue",
@@ -11561,6 +11935,13 @@
         "coverage": 6,
         "sector_count": 1,
         "recent30": 5
+      },
+      {
+        "fund": "Benchmark",
+        "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 6 attributed deal(s), 4 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 1,
+        "recent30": 4
       },
       {
         "fund": "Greenoaks",
@@ -11582,13 +11963,6 @@
         "coverage": 5,
         "sector_count": 1,
         "recent30": 5
-      },
-      {
-        "fund": "Benchmark",
-        "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 4 attributed deal(s), 2 in the last 30d.",
-        "coverage": 4,
-        "sector_count": 1,
-        "recent30": 2
       },
       {
         "fund": "Thrive",
@@ -11631,6 +12005,316 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 0
+      }
+    ],
+    "Space Tech": [
+      {
+        "fund": "Lockheed Martin Ventures",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s).",
+        "coverage": 5,
+        "sector_count": 4,
+        "recent30": 0
+      },
+      {
+        "fund": "Altimeter",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 3,
+        "recent30": 5
+      },
+      {
+        "fund": "T. Rowe Price Associates",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 3 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 3,
+        "recent30": 3
+      },
+      {
+        "fund": "Congruent Ventures",
+        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 4 attributed deal(s), 3 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 3,
+        "recent30": 3
+      },
+      {
+        "fund": "Interlagos",
+        "thesis": "Revealed focus: Space Tech. 3 attributed deal(s), 1 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 3,
+        "recent30": 1
+      },
+      {
+        "fund": "Starboard Star Venture Capital",
+        "thesis": "Revealed focus: Space Tech. 3 attributed deal(s).",
+        "coverage": 3,
+        "sector_count": 3,
+        "recent30": 0
+      },
+      {
+        "fund": "Green Sands Equity",
+        "thesis": "Revealed focus: Space Tech. 3 attributed deal(s).",
+        "coverage": 3,
+        "sector_count": 3,
+        "recent30": 0
+      },
+      {
+        "fund": "Andreessen Horowitz",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 13 attributed deal(s), 8 in the last 30d.",
+        "coverage": 13,
+        "sector_count": 2,
+        "recent30": 8
+      },
+      {
+        "fund": "Google",
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 10 attributed deal(s), 7 in the last 30d.",
+        "coverage": 10,
+        "sector_count": 2,
+        "recent30": 7
+      },
+      {
+        "fund": "General Catalyst",
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 8 attributed deal(s), 5 in the last 30d.",
+        "coverage": 8,
+        "sector_count": 2,
+        "recent30": 5
+      },
+      {
+        "fund": "Kleiner Perkins",
+        "thesis": "Revealed focus: Cybersecurity and Space Tech. 7 attributed deal(s), 5 in the last 30d.",
+        "coverage": 7,
+        "sector_count": 2,
+        "recent30": 5
+      },
+      {
+        "fund": "Radical Ventures",
+        "thesis": "Revealed focus: Space Tech and AI / ML Infra. 7 attributed deal(s), 3 in the last 30d.",
+        "coverage": 7,
+        "sector_count": 2,
+        "recent30": 3
+      },
+      {
+        "fund": "Spark Capital",
+        "thesis": "Revealed focus: Cybersecurity and Space Tech. 5 attributed deal(s), 4 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 2,
+        "recent30": 4
+      },
+      {
+        "fund": "CapitalG",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 2,
+        "recent30": 5
+      },
+      {
+        "fund": "Lightspeed Venture Partners",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 4 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 2,
+        "recent30": 4
+      },
+      {
+        "fund": "Galvanize",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 2,
+        "recent30": 5
+      },
+      {
+        "fund": "Salesforce Ventures",
+        "thesis": "Revealed focus: Space Tech and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 2,
+        "recent30": 5
+      },
+      {
+        "fund": "Eclipse Capital",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 2,
+        "recent30": 3
+      },
+      {
+        "fund": "Costanoa Ventures",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 2,
+        "recent30": 2
+      },
+      {
+        "fund": "Accel",
+        "thesis": "Revealed focus: Space Tech and Fintech / Payments. 3 attributed deal(s), 1 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 2,
+        "recent30": 1
+      },
+      {
+        "fund": "ICONIQ",
+        "thesis": "Revealed focus: Space Tech and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 2,
+        "recent30": 3
+      },
+      {
+        "fund": "Activate Capital",
+        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 2,
+        "recent30": 3
+      },
+      {
+        "fund": "Sands Capital",
+        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 2,
+        "recent30": 3
+      },
+      {
+        "fund": "I Squared Capital",
+        "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 2
+      },
+      {
+        "fund": "Woven Capital",
+        "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 2
+      },
+      {
+        "fund": "ACME Capital",
+        "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 2
+      },
+      {
+        "fund": "ArcTern Ventures",
+        "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 2
+      },
+      {
+        "fund": "Nvidia",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 17 attributed deal(s), 11 in the last 30d.",
+        "coverage": 17,
+        "sector_count": 1,
+        "recent30": 11
+      },
+      {
+        "fund": "Sequoia Capital",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 13 attributed deal(s), 9 in the last 30d.",
+        "coverage": 13,
+        "sector_count": 1,
+        "recent30": 9
+      },
+      {
+        "fund": "Benchmark",
+        "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 6 attributed deal(s), 4 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 1,
+        "recent30": 4
+      },
+      {
+        "fund": "EQT",
+        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 5 attributed deal(s), 4 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 4
+      },
+      {
+        "fund": "Founders Fund",
+        "thesis": "Revealed focus: Cybersecurity and Space Tech. 4 attributed deal(s).",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 0
+      },
+      {
+        "fund": "Cisco",
+        "thesis": "Revealed focus: AI / ML Infra and Climate / Energy. 4 attributed deal(s), 3 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
+        "fund": "Thrive Capital",
+        "thesis": "Revealed focus: Healthtech / Bio and Coexistence / Empowerment. 4 attributed deal(s), 2 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "First Round Capital",
+        "thesis": "Revealed focus: Healthtech / Bio and Space Tech. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Lightspeed",
+        "thesis": "Revealed focus: Coexistence / Empowerment and Space Tech. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Earlybird",
+        "thesis": "Revealed focus: Fintech / Payments and Space Tech. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
+        "fund": "Manhattan West Ventures",
+        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Soma",
+        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "NFX",
+        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "776",
+        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Cedar Capital",
+        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Goanna Capital",
+        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Standard Capital",
+        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
       }
     ],
     "Healthtech / Bio": [
@@ -12104,239 +12788,6 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 2
-      }
-    ],
-    "Space Tech": [
-      {
-        "fund": "Lockheed Martin Ventures",
-        "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s).",
-        "coverage": 5,
-        "sector_count": 4,
-        "recent30": 0
-      },
-      {
-        "fund": "Altimeter",
-        "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 5 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 3,
-        "recent30": 5
-      },
-      {
-        "fund": "T. Rowe Price Associates",
-        "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 3 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 3,
-        "recent30": 3
-      },
-      {
-        "fund": "Congruent Ventures",
-        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 4 attributed deal(s), 3 in the last 30d.",
-        "coverage": 4,
-        "sector_count": 3,
-        "recent30": 3
-      },
-      {
-        "fund": "Interlagos",
-        "thesis": "Revealed focus: Space Tech. 3 attributed deal(s), 1 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 3,
-        "recent30": 1
-      },
-      {
-        "fund": "Starboard Star Venture Capital",
-        "thesis": "Revealed focus: Space Tech. 3 attributed deal(s).",
-        "coverage": 3,
-        "sector_count": 3,
-        "recent30": 0
-      },
-      {
-        "fund": "Green Sands Equity",
-        "thesis": "Revealed focus: Space Tech. 3 attributed deal(s).",
-        "coverage": 3,
-        "sector_count": 3,
-        "recent30": 0
-      },
-      {
-        "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 13 attributed deal(s), 8 in the last 30d.",
-        "coverage": 13,
-        "sector_count": 2,
-        "recent30": 8
-      },
-      {
-        "fund": "Google",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 10 attributed deal(s), 7 in the last 30d.",
-        "coverage": 10,
-        "sector_count": 2,
-        "recent30": 7
-      },
-      {
-        "fund": "General Catalyst",
-        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 8 attributed deal(s), 5 in the last 30d.",
-        "coverage": 8,
-        "sector_count": 2,
-        "recent30": 5
-      },
-      {
-        "fund": "Kleiner Perkins",
-        "thesis": "Revealed focus: Cybersecurity and Space Tech. 7 attributed deal(s), 5 in the last 30d.",
-        "coverage": 7,
-        "sector_count": 2,
-        "recent30": 5
-      },
-      {
-        "fund": "Radical Ventures",
-        "thesis": "Revealed focus: Space Tech and AI / ML Infra. 7 attributed deal(s), 3 in the last 30d.",
-        "coverage": 7,
-        "sector_count": 2,
-        "recent30": 3
-      },
-      {
-        "fund": "Spark Capital",
-        "thesis": "Revealed focus: Cybersecurity and Space Tech. 5 attributed deal(s), 4 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 2,
-        "recent30": 4
-      },
-      {
-        "fund": "CapitalG",
-        "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 5 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 2,
-        "recent30": 5
-      },
-      {
-        "fund": "Lightspeed Venture Partners",
-        "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 4 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 2,
-        "recent30": 4
-      },
-      {
-        "fund": "Galvanize",
-        "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 5 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 2,
-        "recent30": 5
-      },
-      {
-        "fund": "Salesforce Ventures",
-        "thesis": "Revealed focus: Space Tech and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 2,
-        "recent30": 5
-      },
-      {
-        "fund": "Eclipse Capital",
-        "thesis": "Revealed focus: Space Tech and Cybersecurity. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 2,
-        "recent30": 3
-      },
-      {
-        "fund": "Costanoa Ventures",
-        "thesis": "Revealed focus: Space Tech and Cybersecurity. 3 attributed deal(s), 2 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 2,
-        "recent30": 2
-      },
-      {
-        "fund": "Accel",
-        "thesis": "Revealed focus: Space Tech and Fintech / Payments. 3 attributed deal(s), 1 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 2,
-        "recent30": 1
-      },
-      {
-        "fund": "ICONIQ",
-        "thesis": "Revealed focus: Space Tech and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 2,
-        "recent30": 3
-      },
-      {
-        "fund": "Activate Capital",
-        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 2,
-        "recent30": 3
-      },
-      {
-        "fund": "Sands Capital",
-        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 2,
-        "recent30": 3
-      },
-      {
-        "fund": "I Squared Capital",
-        "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 2,
-        "recent30": 2
-      },
-      {
-        "fund": "Woven Capital",
-        "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 2,
-        "recent30": 2
-      },
-      {
-        "fund": "ACME Capital",
-        "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 2,
-        "recent30": 2
-      },
-      {
-        "fund": "ArcTern Ventures",
-        "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 2,
-        "recent30": 2
-      },
-      {
-        "fund": "Sequoia Capital",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 13 attributed deal(s), 9 in the last 30d.",
-        "coverage": 13,
-        "sector_count": 1,
-        "recent30": 9
-      },
-      {
-        "fund": "Founders Fund",
-        "thesis": "Revealed focus: Cybersecurity and Space Tech. 4 attributed deal(s).",
-        "coverage": 4,
-        "sector_count": 1,
-        "recent30": 0
-      },
-      {
-        "fund": "Thrive Capital",
-        "thesis": "Revealed focus: Healthtech / Bio and Coexistence / Empowerment. 4 attributed deal(s), 2 in the last 30d.",
-        "coverage": 4,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "First Round Capital",
-        "thesis": "Revealed focus: Healthtech / Bio and Space Tech. 3 attributed deal(s), 2 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Lightspeed",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Space Tech. 3 attributed deal(s), 2 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Earlybird",
-        "thesis": "Revealed focus: Fintech / Payments and Space Tech. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
       }
     ]
   }

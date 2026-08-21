@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-21T21:20:37Z",
+  "generated": "2026-08-21T22:20:03Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 735,
-    "deal_rows_attributed": 348,
+    "deal_rows_seen": 736,
+    "deal_rows_attributed": 349,
     "funds_tracked": 219,
-    "fetch_attempts": 71,
-    "fetchable_pct": 0,
+    "fetch_attempts": 72,
+    "fetchable_pct": 1,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -163,13 +163,13 @@
     },
     {
       "fund": "Andreessen Horowitz",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 14 attributed deal(s), 9 in the last 30d.",
-      "coverage": 14,
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 10 in the last 30d.",
+      "coverage": 15,
       "sectors": [
         {
           "label": "Cybersecurity",
-          "count": 5,
-          "weight": 4.0
+          "count": 6,
+          "weight": 5.0
         },
         {
           "label": "Fintech / Payments",
@@ -197,8 +197,8 @@
           "weight": 0.5
         }
       ],
-      "recent30": 9,
-      "recent90": 14,
+      "recent30": 10,
+      "recent90": 15,
       "prior30": 5,
       "last_deal_days": 0,
       "deals": [
@@ -207,6 +207,12 @@
           "date": "2026-08-21",
           "summary": "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech, AI Tools And Infrastructure Lead The Way",
           "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-defense-tech-ai-infrastructure-castelion/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-21",
+          "summary": "How AI accounting startup Rillet raised $100M and became a unicorn in 48-hours",
+          "url": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/"
         },
         {
           "sector": "Fintech / Payments",
@@ -904,6 +910,82 @@
       ]
     },
     {
+      "fund": "Sequoia",
+      "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 8 attributed deal(s), 5 in the last 30d.",
+      "coverage": 8,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 4,
+          "weight": 3.5
+        },
+        {
+          "label": "Climate / Energy",
+          "count": 3,
+          "weight": 2.5
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 5,
+      "recent90": 8,
+      "prior30": 3,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-21",
+          "summary": "How AI accounting startup Rillet raised $100M and became a unicorn in 48-hours",
+          "url": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-04",
+          "summary": "Microreactor startup Valar Atomics raises $1B",
+          "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-03",
+          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
+          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-03",
+          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
+          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-22",
+          "summary": "Glow exits stealth with $180 million to secure the AI-enabled endpoint",
+          "url": "https://www.helpnetsecurity.com/2026/07/22/glow-launches-with-180-million-funding/"
+        },
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-07-20",
+          "summary": "Bunkerhill Lands Series B to Turn Ideas Into Action",
+          "url": "https://digitalhealthwire.com/bunkerhill-raises-series-b-to-turn-ideas-into-action/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-17",
+          "summary": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
+          "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-07-17",
+          "summary": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
+          "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/"
+        }
+      ]
+    },
+    {
       "fund": "Coatue",
       "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 8 attributed deal(s), 7 in the last 30d.",
       "coverage": 8,
@@ -1304,76 +1386,6 @@
           "date": "2026-07-16",
           "summary": "The Billion-Dollar Seed Isn\u2019t The Deal You Think It Is",
           "url": "https://news.crunchbase.com/venture/billion-dollar-seed-ai-biotech-mcdonald-bison/"
-        }
-      ]
-    },
-    {
-      "fund": "Sequoia",
-      "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 7 attributed deal(s), 4 in the last 30d.",
-      "coverage": 7,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 3,
-          "weight": 2.5
-        },
-        {
-          "label": "Climate / Energy",
-          "count": 3,
-          "weight": 2.5
-        },
-        {
-          "label": "Healthtech / Bio",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 4,
-      "recent90": 7,
-      "prior30": 3,
-      "last_deal_days": 17,
-      "deals": [
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-08-04",
-          "summary": "Microreactor startup Valar Atomics raises $1B",
-          "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-03",
-          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
-          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-08-03",
-          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
-          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-22",
-          "summary": "Glow exits stealth with $180 million to secure the AI-enabled endpoint",
-          "url": "https://www.helpnetsecurity.com/2026/07/22/glow-launches-with-180-million-funding/"
-        },
-        {
-          "sector": "Healthtech / Bio",
-          "date": "2026-07-20",
-          "summary": "Bunkerhill Lands Series B to Turn Ideas Into Action",
-          "url": "https://digitalhealthwire.com/bunkerhill-raises-series-b-to-turn-ideas-into-action/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-17",
-          "summary": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
-          "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-07-17",
-          "summary": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
-          "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/"
         }
       ]
     },
@@ -2915,6 +2927,58 @@
           "date": "2026-07-31",
           "summary": "Thermal Battery Provider Antora Raises $550 Million to Power Industry, Data Centers",
           "url": "https://www.esgtoday.com/thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers/?utm_source=rss&utm_medium=rss&utm_campaign=thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers"
+        }
+      ]
+    },
+    {
+      "fund": "ICONIQ",
+      "thesis": "Revealed focus: Space Tech and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
+      "coverage": 4,
+      "sectors": [
+        {
+          "label": "Space Tech",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 4,
+      "recent90": 4,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-21",
+          "summary": "How AI accounting startup Rillet raised $100M and became a unicorn in 48-hours",
+          "url": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-07",
+          "summary": "Live Commerce Platform Whatnot Raises $545 Million to Speed AI Expansion",
+          "url": "https://www.pymnts.com/news/investment-tracker/2026/live-commerce-platform-whatnot-raises-545-million-to-speed-ai-expansion/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-31",
+          "summary": "K2 Space Raises $500M Series D at $6.8B Valuation",
+          "url": "https://payloadspace.com/k2-space-raises-500m-series-d-at-6-8b-valuation/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-30",
+          "summary": "K2 Space raises $500 million for commercial, defense satellite expansion",
+          "url": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/"
         }
       ]
     },
@@ -5133,47 +5197,6 @@
           "date": "2026-07-13",
           "summary": "Accel and Prosus backed QOSMIC raises $3.33 Million to Build Optical Ground Stations for the Orbital Data Economy",
           "url": "https://spacenews.com/accel-and-prosus-backed-qosmic-raises-3-33-million-to-build-optical-ground-stations-for-the-orbital-data-economy/"
-        }
-      ]
-    },
-    {
-      "fund": "ICONIQ",
-      "thesis": "Revealed focus: Space Tech and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
-      "coverage": 3,
-      "sectors": [
-        {
-          "label": "Space Tech",
-          "count": 2,
-          "weight": 2.0
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 3,
-      "recent90": 3,
-      "prior30": 0,
-      "last_deal_days": 14,
-      "deals": [
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-08-07",
-          "summary": "Live Commerce Platform Whatnot Raises $545 Million to Speed AI Expansion",
-          "url": "https://www.pymnts.com/news/investment-tracker/2026/live-commerce-platform-whatnot-raises-545-million-to-speed-ai-expansion/"
-        },
-        {
-          "sector": "Space Tech",
-          "date": "2026-07-31",
-          "summary": "K2 Space Raises $500M Series D at $6.8B Valuation",
-          "url": "https://payloadspace.com/k2-space-raises-500m-series-d-at-6-8b-valuation/"
-        },
-        {
-          "sector": "Space Tech",
-          "date": "2026-07-30",
-          "summary": "K2 Space raises $500 million for commercial, defense satellite expansion",
-          "url": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/"
         }
       ]
     },
@@ -9601,10 +9624,10 @@
       },
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 14 attributed deal(s), 9 in the last 30d.",
-        "coverage": 14,
-        "sector_count": 5,
-        "recent30": 9
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 10 in the last 30d.",
+        "coverage": 15,
+        "sector_count": 6,
+        "recent30": 10
       },
       {
         "fund": "Index Ventures",
@@ -9626,6 +9649,13 @@
         "coverage": 10,
         "sector_count": 4,
         "recent30": 7
+      },
+      {
+        "fund": "Sequoia",
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 8 attributed deal(s), 5 in the last 30d.",
+        "coverage": 8,
+        "sector_count": 4,
+        "recent30": 5
       },
       {
         "fund": "General Catalyst",
@@ -9682,13 +9712,6 @@
         "coverage": 7,
         "sector_count": 3,
         "recent30": 5
-      },
-      {
-        "fund": "Sequoia",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 7 attributed deal(s), 4 in the last 30d.",
-        "coverage": 7,
-        "sector_count": 3,
-        "recent30": 4
       },
       {
         "fund": "BlackRock",
@@ -10095,6 +10118,13 @@
         "coverage": 5,
         "sector_count": 1,
         "recent30": 3
+      },
+      {
+        "fund": "ICONIQ",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 4
       },
       {
         "fund": "Energy Impact Partners",
@@ -10674,10 +10704,10 @@
       },
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 14 attributed deal(s), 9 in the last 30d.",
-        "coverage": 14,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 10 in the last 30d.",
+        "coverage": 15,
         "sector_count": 3,
-        "recent30": 9
+        "recent30": 10
       },
       {
         "fund": "Index Ventures",
@@ -10904,6 +10934,13 @@
         "recent30": 5
       },
       {
+        "fund": "ICONIQ",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 4
+      },
+      {
         "fund": "Intel Capital",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s).",
         "coverage": 4,
@@ -10993,13 +11030,6 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 1
-      },
-      {
-        "fund": "ICONIQ",
-        "thesis": "Revealed focus: Space Tech and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 3
       },
       {
         "fund": "D1 Capital Partners",
@@ -11117,10 +11147,10 @@
       },
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 14 attributed deal(s), 9 in the last 30d.",
-        "coverage": 14,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 10 in the last 30d.",
+        "coverage": 15,
         "sector_count": 2,
-        "recent30": 9
+        "recent30": 10
       },
       {
         "fund": "Khosla Ventures",
@@ -11672,10 +11702,10 @@
       },
       {
         "fund": "Sequoia",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 7 attributed deal(s), 4 in the last 30d.",
-        "coverage": 7,
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 8 attributed deal(s), 5 in the last 30d.",
+        "coverage": 8,
         "sector_count": 3,
-        "recent30": 4
+        "recent30": 5
       },
       {
         "fund": "Valor Equity Partners",
@@ -12229,10 +12259,10 @@
       },
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 14 attributed deal(s), 9 in the last 30d.",
-        "coverage": 14,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 10 in the last 30d.",
+        "coverage": 15,
         "sector_count": 2,
-        "recent30": 9
+        "recent30": 10
       },
       {
         "fund": "Google",
@@ -12298,6 +12328,13 @@
         "recent30": 5
       },
       {
+        "fund": "ICONIQ",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 2,
+        "recent30": 4
+      },
+      {
         "fund": "Eclipse Capital",
         "thesis": "Revealed focus: Space Tech and Cybersecurity. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
@@ -12317,13 +12354,6 @@
         "coverage": 3,
         "sector_count": 2,
         "recent30": 1
-      },
-      {
-        "fund": "ICONIQ",
-        "thesis": "Revealed focus: Space Tech and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 2,
-        "recent30": 3
       },
       {
         "fund": "Activate Capital",
@@ -12504,10 +12534,10 @@
       },
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 14 attributed deal(s), 9 in the last 30d.",
-        "coverage": 14,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 10 in the last 30d.",
+        "coverage": 15,
         "sector_count": 1,
-        "recent30": 9
+        "recent30": 10
       },
       {
         "fund": "Sequoia Capital",
@@ -12538,6 +12568,13 @@
         "recent30": 6
       },
       {
+        "fund": "Sequoia",
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 8 attributed deal(s), 5 in the last 30d.",
+        "coverage": 8,
+        "sector_count": 1,
+        "recent30": 5
+      },
+      {
         "fund": "Insight Partners",
         "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 8 attributed deal(s), 5 in the last 30d.",
         "coverage": 8,
@@ -12557,13 +12594,6 @@
         "coverage": 7,
         "sector_count": 1,
         "recent30": 5
-      },
-      {
-        "fund": "Sequoia",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 7 attributed deal(s), 4 in the last 30d.",
-        "coverage": 7,
-        "sector_count": 1,
-        "recent30": 4
       },
       {
         "fund": "Bain Capital Ventures",
@@ -12737,10 +12767,10 @@
       },
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 14 attributed deal(s), 9 in the last 30d.",
-        "coverage": 14,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 10 in the last 30d.",
+        "coverage": 15,
         "sector_count": 1,
-        "recent30": 9
+        "recent30": 10
       },
       {
         "fund": "Sequoia Capital",

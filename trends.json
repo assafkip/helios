@@ -1,22 +1,22 @@
 {
-  "generated": "2026-08-22T21:18:22Z",
+  "generated": "2026-08-22T22:17:52Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 17551,
-      "recent7": 3098,
+      "total": 17563,
+      "recent7": 3110,
       "sparkline": [
         2307,
         2371,
         2947,
-        3098
+        3110
       ],
       "momentum_pct": 22,
       "momentum_basis": "7d",
       "hard_count": 612,
       "hard_ratio": 0.035,
       "exit_count": 76,
-      "talk_count": 16707,
+      "talk_count": 16719,
       "whitespace_score": 27.3,
       "rising": [
         {
@@ -26,13 +26,13 @@
         },
         {
           "term": "x2026",
-          "count": 1035,
-          "delta": 284
+          "count": 1039,
+          "delta": 288
         },
         {
           "term": "x2019",
-          "count": 611,
-          "delta": 192
+          "count": 612,
+          "delta": 193
         },
         {
           "term": "securities",
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 2640
+          "count": 2650
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 844
+          "count": 846
         },
         {
           "name": "ProductHunt",
@@ -95,20 +95,20 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 2453,
-      "recent7": 342,
+      "total": 2456,
+      "recent7": 345,
       "sparkline": [
         353,
         351,
         357,
-        342
+        345
       ],
-      "momentum_pct": 16,
+      "momentum_pct": 17,
       "momentum_basis": "7d",
       "hard_count": 214,
       "hard_ratio": 0.087,
       "exit_count": 99,
-      "talk_count": 2057,
+      "talk_count": 2060,
       "whitespace_score": 9.6,
       "rising": [
         {
@@ -122,14 +122,14 @@
           "delta": 23
         },
         {
+          "term": "cash",
+          "count": 37,
+          "delta": 22
+        },
+        {
           "term": "securities",
           "count": 40,
           "delta": 21
-        },
-        {
-          "term": "cash",
-          "count": 35,
-          "delta": 20
         },
         {
           "term": "reported",
@@ -187,20 +187,20 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 1503,
-      "recent7": 182,
+      "total": 1504,
+      "recent7": 183,
       "sparkline": [
         208,
         199,
         206,
-        182
+        183
       ],
       "momentum_pct": 15,
       "momentum_basis": "7d",
       "hard_count": 107,
       "hard_ratio": 0.071,
       "exit_count": 30,
-      "talk_count": 1322,
+      "talk_count": 1323,
       "whitespace_score": 12.4,
       "rising": [
         {
@@ -794,15 +794,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 3098,
+        "recent7": 3110,
         "momentum_pct": 22,
         "momentum_basis": "7d",
-        "total": 17551,
+        "total": 17563,
         "sparkline": [
           2307,
           2371,
           2947,
-          3098
+          3110
         ],
         "hard_ratio": 0.035,
         "whitespace_score": 27.3
@@ -810,15 +810,15 @@
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 342,
-        "momentum_pct": 16,
+        "recent7": 345,
+        "momentum_pct": 17,
         "momentum_basis": "7d",
-        "total": 2453,
+        "total": 2456,
         "sparkline": [
           353,
           351,
           357,
-          342
+          345
         ],
         "hard_ratio": 0.087,
         "whitespace_score": 9.6
@@ -842,15 +842,15 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 182,
+        "recent7": 183,
         "momentum_pct": 15,
         "momentum_basis": "7d",
-        "total": 1503,
+        "total": 1504,
         "sparkline": [
           208,
           199,
           206,
-          182
+          183
         ],
         "hard_ratio": 0.071,
         "whitespace_score": 12.4
@@ -944,8 +944,8 @@
       },
       {
         "term": "x2026",
-        "count": 1035,
-        "delta": 284
+        "count": 1039,
+        "delta": 288
       },
       {
         "term": "securities",
@@ -954,8 +954,8 @@
       },
       {
         "term": "x2019",
-        "count": 611,
-        "delta": 192
+        "count": 612,
+        "delta": 193
       },
       {
         "term": "x131",
@@ -1110,6 +1110,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 26877
+    "total_signals": 26893
   }
 }

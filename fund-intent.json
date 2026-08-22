@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-21T23:19:59Z",
+  "generated": "2026-08-22T01:00:35Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 736,
+    "deal_rows_seen": 737,
     "deal_rows_attributed": 349,
     "funds_tracked": 219,
-    "fetch_attempts": 71,
-    "fetchable_pct": 0,
+    "fetch_attempts": 72,
+    "fetchable_pct": 1,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -49,7 +49,7 @@
       "recent30": 12,
       "recent90": 18,
       "prior30": 6,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -163,7 +163,7 @@
     },
     {
       "fund": "Andreessen Horowitz",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 10 in the last 30d.",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 8 in the last 30d.",
       "coverage": 15,
       "sectors": [
         {
@@ -174,17 +174,17 @@
         {
           "label": "Fintech / Payments",
           "count": 3,
-          "weight": 3.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 2,
-          "weight": 1.5
+          "weight": 2.5
         },
         {
           "label": "Space Tech",
           "count": 2,
           "weight": 1.5
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 2,
+          "weight": 1.0
         },
         {
           "label": "Healthtech / Bio",
@@ -197,10 +197,10 @@
           "weight": 0.5
         }
       ],
-      "recent30": 10,
+      "recent30": 8,
       "recent90": 15,
-      "prior30": 5,
-      "last_deal_days": 0,
+      "prior30": 7,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -333,7 +333,7 @@
       "recent30": 9,
       "recent90": 13,
       "prior30": 4,
-      "last_deal_days": 2,
+      "last_deal_days": 3,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -449,7 +449,7 @@
       "recent30": 8,
       "recent90": 13,
       "prior30": 5,
-      "last_deal_days": 4,
+      "last_deal_days": 5,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -555,7 +555,7 @@
       "recent30": 10,
       "recent90": 11,
       "prior30": 1,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -654,7 +654,7 @@
       "recent30": 8,
       "recent90": 10,
       "prior30": 2,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -752,7 +752,7 @@
       "recent30": 7,
       "recent90": 10,
       "prior30": 3,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Space Tech",
@@ -845,7 +845,7 @@
       "recent30": 6,
       "recent90": 10,
       "prior30": 4,
-      "last_deal_days": 11,
+      "last_deal_days": 12,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -911,13 +911,13 @@
     },
     {
       "fund": "Sequoia",
-      "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 8 attributed deal(s), 5 in the last 30d.",
+      "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 8 attributed deal(s), 4 in the last 30d.",
       "coverage": 8,
       "sectors": [
         {
           "label": "Cybersecurity",
           "count": 4,
-          "weight": 3.5
+          "weight": 3.0
         },
         {
           "label": "Climate / Energy",
@@ -930,10 +930,10 @@
           "weight": 0.5
         }
       ],
-      "recent30": 5,
+      "recent30": 4,
       "recent90": 8,
-      "prior30": 3,
-      "last_deal_days": 0,
+      "prior30": 4,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1024,7 +1024,7 @@
       "recent30": 7,
       "recent90": 8,
       "prior30": 1,
-      "last_deal_days": 7,
+      "last_deal_days": 8,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1100,7 +1100,7 @@
       "recent30": 5,
       "recent90": 8,
       "prior30": 3,
-      "last_deal_days": 2,
+      "last_deal_days": 3,
       "deals": [
         {
           "sector": "Space Tech",
@@ -1154,34 +1154,34 @@
     },
     {
       "fund": "Insight Partners",
-      "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 8 attributed deal(s), 5 in the last 30d.",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 8 attributed deal(s), 3 in the last 30d.",
       "coverage": 8,
       "sectors": [
-        {
-          "label": "AI / ML Infra",
-          "count": 3,
-          "weight": 2.5
-        },
         {
           "label": "Cybersecurity",
           "count": 3,
           "weight": 2.0
         },
         {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 1.0
+          "label": "AI / ML Infra",
+          "count": 3,
+          "weight": 2.0
         },
         {
           "label": "Healthtech / Bio",
           "count": 1,
           "weight": 1.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 0.5
         }
       ],
-      "recent30": 5,
+      "recent30": 3,
       "recent90": 8,
-      "prior30": 2,
-      "last_deal_days": 24,
+      "prior30": 4,
+      "last_deal_days": 25,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1262,7 +1262,7 @@
       "recent30": 5,
       "recent90": 8,
       "prior30": 3,
-      "last_deal_days": 19,
+      "last_deal_days": 20,
       "deals": [
         {
           "sector": "Healthtech / Bio",
@@ -1343,7 +1343,7 @@
       "recent30": 5,
       "recent90": 7,
       "prior30": 2,
-      "last_deal_days": 2,
+      "last_deal_days": 3,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -1418,7 +1418,7 @@
       "recent30": 3,
       "recent90": 7,
       "prior30": 4,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Space Tech",
@@ -1493,7 +1493,7 @@
       "recent30": 5,
       "recent90": 6,
       "prior30": 1,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1552,7 +1552,7 @@
       "recent30": 4,
       "recent90": 6,
       "prior30": 2,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1621,7 +1621,7 @@
       "recent30": 3,
       "recent90": 6,
       "prior30": 3,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1680,7 +1680,7 @@
       "recent30": 4,
       "recent90": 6,
       "prior30": 2,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1754,7 +1754,7 @@
       "recent30": 5,
       "recent90": 6,
       "prior30": 1,
-      "last_deal_days": 7,
+      "last_deal_days": 8,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1818,7 +1818,7 @@
       "recent30": 3,
       "recent90": 6,
       "prior30": 3,
-      "last_deal_days": 7,
+      "last_deal_days": 8,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1882,7 +1882,7 @@
       "recent30": 6,
       "recent90": 6,
       "prior30": 0,
-      "last_deal_days": 14,
+      "last_deal_days": 15,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -1946,7 +1946,7 @@
       "recent30": 4,
       "recent90": 6,
       "prior30": 2,
-      "last_deal_days": 2,
+      "last_deal_days": 3,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -2010,7 +2010,7 @@
       "recent30": 4,
       "recent90": 6,
       "prior30": 2,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -2079,7 +2079,7 @@
       "recent30": 4,
       "recent90": 5,
       "prior30": 1,
-      "last_deal_days": 2,
+      "last_deal_days": 3,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -2142,7 +2142,7 @@
       "recent30": 4,
       "recent90": 5,
       "prior30": 1,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -2195,7 +2195,7 @@
       "recent30": 4,
       "recent90": 5,
       "prior30": 1,
-      "last_deal_days": 7,
+      "last_deal_days": 8,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -2258,7 +2258,7 @@
       "recent30": 5,
       "recent90": 5,
       "prior30": 0,
-      "last_deal_days": 9,
+      "last_deal_days": 10,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -2316,7 +2316,7 @@
       "recent30": 4,
       "recent90": 5,
       "prior30": 1,
-      "last_deal_days": 2,
+      "last_deal_days": 3,
       "deals": [
         {
           "sector": "Space Tech",
@@ -2374,7 +2374,7 @@
       "recent30": 5,
       "recent90": 5,
       "prior30": 0,
-      "last_deal_days": 2,
+      "last_deal_days": 3,
       "deals": [
         {
           "sector": "Space Tech",
@@ -2427,7 +2427,7 @@
       "recent30": 5,
       "recent90": 5,
       "prior30": 0,
-      "last_deal_days": 14,
+      "last_deal_days": 15,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -2490,7 +2490,7 @@
       "recent30": 5,
       "recent90": 5,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Space Tech",
@@ -2548,7 +2548,7 @@
       "recent30": 5,
       "recent90": 5,
       "prior30": 0,
-      "last_deal_days": 4,
+      "last_deal_days": 5,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -2606,7 +2606,7 @@
       "recent30": 5,
       "recent90": 5,
       "prior30": 0,
-      "last_deal_days": 16,
+      "last_deal_days": 17,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -2664,7 +2664,7 @@
       "recent30": 2,
       "recent90": 5,
       "prior30": 3,
-      "last_deal_days": 4,
+      "last_deal_days": 5,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -2717,7 +2717,7 @@
       "recent30": 0,
       "recent90": 5,
       "prior30": 5,
-      "last_deal_days": 42,
+      "last_deal_days": 43,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -2775,7 +2775,7 @@
       "recent30": 3,
       "recent90": 5,
       "prior30": 2,
-      "last_deal_days": 2,
+      "last_deal_days": 3,
       "deals": [
         {
           "sector": "Space Tech",
@@ -2833,7 +2833,7 @@
       "recent30": 5,
       "recent90": 5,
       "prior30": 0,
-      "last_deal_days": 8,
+      "last_deal_days": 9,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -2896,7 +2896,7 @@
       "recent30": 5,
       "recent90": 5,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Space Tech",
@@ -2954,7 +2954,7 @@
       "recent30": 4,
       "recent90": 4,
       "prior30": 0,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -3006,7 +3006,7 @@
       "recent30": 2,
       "recent90": 4,
       "prior30": 2,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -3058,7 +3058,7 @@
       "recent30": 2,
       "recent90": 4,
       "prior30": 2,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -3110,7 +3110,7 @@
       "recent30": 2,
       "recent90": 4,
       "prior30": 2,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -3157,7 +3157,7 @@
       "recent30": 3,
       "recent90": 4,
       "prior30": 1,
-      "last_deal_days": 7,
+      "last_deal_days": 8,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -3209,7 +3209,7 @@
       "recent30": 4,
       "recent90": 4,
       "prior30": 0,
-      "last_deal_days": 7,
+      "last_deal_days": 8,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -3256,7 +3256,7 @@
       "recent30": 4,
       "recent90": 4,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -3308,7 +3308,7 @@
       "recent30": 4,
       "recent90": 4,
       "prior30": 0,
-      "last_deal_days": 14,
+      "last_deal_days": 15,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -3360,7 +3360,7 @@
       "recent30": 4,
       "recent90": 4,
       "prior30": 0,
-      "last_deal_days": 14,
+      "last_deal_days": 15,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -3407,7 +3407,7 @@
       "recent30": 3,
       "recent90": 4,
       "prior30": 1,
-      "last_deal_days": 18,
+      "last_deal_days": 19,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -3454,7 +3454,7 @@
       "recent30": 3,
       "recent90": 4,
       "prior30": 1,
-      "last_deal_days": 18,
+      "last_deal_days": 19,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -3501,7 +3501,7 @@
       "recent30": 1,
       "recent90": 4,
       "prior30": 3,
-      "last_deal_days": 21,
+      "last_deal_days": 22,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -3548,7 +3548,7 @@
       "recent30": 1,
       "recent90": 4,
       "prior30": 3,
-      "last_deal_days": 21,
+      "last_deal_days": 22,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -3595,7 +3595,7 @@
       "recent30": 0,
       "recent90": 4,
       "prior30": 4,
-      "last_deal_days": 32,
+      "last_deal_days": 33,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -3647,7 +3647,7 @@
       "recent30": 0,
       "recent90": 4,
       "prior30": 4,
-      "last_deal_days": 42,
+      "last_deal_days": 43,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -3699,7 +3699,7 @@
       "recent30": 0,
       "recent90": 4,
       "prior30": 4,
-      "last_deal_days": 42,
+      "last_deal_days": 43,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -3756,7 +3756,7 @@
       "recent30": 3,
       "recent90": 4,
       "prior30": 1,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -3808,7 +3808,7 @@
       "recent30": 3,
       "recent90": 4,
       "prior30": 1,
-      "last_deal_days": 15,
+      "last_deal_days": 16,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -3865,7 +3865,7 @@
       "recent30": 2,
       "recent90": 4,
       "prior30": 2,
-      "last_deal_days": 17,
+      "last_deal_days": 18,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -3912,7 +3912,7 @@
       "recent30": 3,
       "recent90": 4,
       "prior30": 1,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Space Tech",
@@ -3964,7 +3964,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -4005,7 +4005,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -4041,7 +4041,7 @@
       "recent30": 2,
       "recent90": 3,
       "prior30": 1,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -4082,7 +4082,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Space Tech",
@@ -4123,7 +4123,7 @@
       "recent30": 1,
       "recent90": 3,
       "prior30": 2,
-      "last_deal_days": 4,
+      "last_deal_days": 5,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -4169,7 +4169,7 @@
       "recent30": 2,
       "recent90": 3,
       "prior30": 1,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -4215,7 +4215,7 @@
       "recent30": 2,
       "recent90": 3,
       "prior30": 1,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -4261,7 +4261,7 @@
       "recent30": 2,
       "recent90": 3,
       "prior30": 1,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -4307,7 +4307,7 @@
       "recent30": 2,
       "recent90": 3,
       "prior30": 1,
-      "last_deal_days": 2,
+      "last_deal_days": 3,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -4353,7 +4353,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 7,
+      "last_deal_days": 8,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -4399,7 +4399,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 7,
+      "last_deal_days": 8,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -4435,7 +4435,7 @@
       "recent30": 2,
       "recent90": 3,
       "prior30": 1,
-      "last_deal_days": 10,
+      "last_deal_days": 11,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -4481,7 +4481,7 @@
       "recent30": 2,
       "recent90": 3,
       "prior30": 1,
-      "last_deal_days": 10,
+      "last_deal_days": 11,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -4527,7 +4527,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 11,
+      "last_deal_days": 12,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -4568,7 +4568,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 22,
+      "last_deal_days": 23,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -4604,7 +4604,7 @@
       "recent30": 2,
       "recent90": 3,
       "prior30": 1,
-      "last_deal_days": 22,
+      "last_deal_days": 23,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -4645,7 +4645,7 @@
       "recent30": 1,
       "recent90": 3,
       "prior30": 2,
-      "last_deal_days": 22,
+      "last_deal_days": 23,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -4686,7 +4686,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 2,
+      "last_deal_days": 3,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -4727,7 +4727,7 @@
       "recent30": 2,
       "recent90": 3,
       "prior30": 1,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Space Tech",
@@ -4768,7 +4768,7 @@
       "recent30": 0,
       "recent90": 3,
       "prior30": 3,
-      "last_deal_days": 32,
+      "last_deal_days": 33,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -4814,7 +4814,7 @@
       "recent30": 2,
       "recent90": 3,
       "prior30": 1,
-      "last_deal_days": 22,
+      "last_deal_days": 23,
       "deals": [
         {
           "sector": "Space Tech",
@@ -4850,7 +4850,7 @@
       "recent30": 0,
       "recent90": 3,
       "prior30": 3,
-      "last_deal_days": 37,
+      "last_deal_days": 38,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -4891,7 +4891,7 @@
       "recent30": 0,
       "recent90": 3,
       "prior30": 3,
-      "last_deal_days": 42,
+      "last_deal_days": 43,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -4932,7 +4932,7 @@
       "recent30": 0,
       "recent90": 3,
       "prior30": 3,
-      "last_deal_days": 42,
+      "last_deal_days": 43,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -4978,7 +4978,7 @@
       "recent30": 0,
       "recent90": 3,
       "prior30": 3,
-      "last_deal_days": 44,
+      "last_deal_days": 45,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -5019,7 +5019,7 @@
       "recent30": 0,
       "recent90": 3,
       "prior30": 3,
-      "last_deal_days": 45,
+      "last_deal_days": 46,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -5060,7 +5060,7 @@
       "recent30": 0,
       "recent90": 3,
       "prior30": 3,
-      "last_deal_days": 45,
+      "last_deal_days": 46,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -5101,7 +5101,7 @@
       "recent30": 0,
       "recent90": 3,
       "prior30": 3,
-      "last_deal_days": 45,
+      "last_deal_days": 46,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -5137,7 +5137,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 9,
+      "last_deal_days": 10,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -5178,7 +5178,7 @@
       "recent30": 1,
       "recent90": 3,
       "prior30": 2,
-      "last_deal_days": 9,
+      "last_deal_days": 10,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -5224,7 +5224,7 @@
       "recent30": 2,
       "recent90": 3,
       "prior30": 1,
-      "last_deal_days": 9,
+      "last_deal_days": 10,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -5265,7 +5265,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 17,
+      "last_deal_days": 18,
       "deals": [
         {
           "sector": "Climate / Energy",
@@ -5306,7 +5306,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Space Tech",
@@ -5342,7 +5342,7 @@
       "recent30": 1,
       "recent90": 3,
       "prior30": 2,
-      "last_deal_days": 2,
+      "last_deal_days": 3,
       "deals": [
         {
           "sector": "Space Tech",
@@ -5383,7 +5383,7 @@
       "recent30": 3,
       "recent90": 3,
       "prior30": 0,
-      "last_deal_days": 17,
+      "last_deal_days": 18,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -5424,7 +5424,7 @@
       "recent30": 2,
       "recent90": 3,
       "prior30": 1,
-      "last_deal_days": 17,
+      "last_deal_days": 18,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -5460,7 +5460,7 @@
       "recent30": 0,
       "recent90": 3,
       "prior30": 3,
-      "last_deal_days": 44,
+      "last_deal_days": 45,
       "deals": [
         {
           "sector": "Space Tech",
@@ -5496,7 +5496,7 @@
       "recent30": 0,
       "recent90": 3,
       "prior30": 3,
-      "last_deal_days": 44,
+      "last_deal_days": 45,
       "deals": [
         {
           "sector": "Space Tech",
@@ -5537,7 +5537,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -5567,7 +5567,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -5597,7 +5597,7 @@
       "recent30": 1,
       "recent90": 2,
       "prior30": 1,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -5627,7 +5627,7 @@
       "recent30": 1,
       "recent90": 2,
       "prior30": 1,
-      "last_deal_days": 2,
+      "last_deal_days": 3,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -5657,7 +5657,7 @@
       "recent30": 1,
       "recent90": 2,
       "prior30": 1,
-      "last_deal_days": 2,
+      "last_deal_days": 3,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -5687,7 +5687,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 3,
+      "last_deal_days": 4,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -5717,7 +5717,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 3,
+      "last_deal_days": 4,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -5752,7 +5752,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -5787,7 +5787,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -5822,7 +5822,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -5857,7 +5857,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -5892,7 +5892,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -5927,7 +5927,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -5962,7 +5962,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -5997,7 +5997,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6032,7 +6032,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6067,7 +6067,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6102,7 +6102,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6137,7 +6137,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6172,7 +6172,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6207,7 +6207,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6242,7 +6242,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6277,7 +6277,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6312,7 +6312,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6347,7 +6347,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 6,
+      "last_deal_days": 7,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6377,7 +6377,7 @@
       "recent30": 1,
       "recent90": 2,
       "prior30": 1,
-      "last_deal_days": 7,
+      "last_deal_days": 8,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6412,7 +6412,7 @@
       "recent30": 1,
       "recent90": 2,
       "prior30": 1,
-      "last_deal_days": 7,
+      "last_deal_days": 8,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6447,7 +6447,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 7,
+      "last_deal_days": 8,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6482,7 +6482,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 9,
+      "last_deal_days": 10,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6517,7 +6517,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 9,
+      "last_deal_days": 10,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6552,7 +6552,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 11,
+      "last_deal_days": 12,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6587,7 +6587,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 11,
+      "last_deal_days": 12,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6617,7 +6617,7 @@
       "recent30": 1,
       "recent90": 2,
       "prior30": 1,
-      "last_deal_days": 14,
+      "last_deal_days": 15,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6652,7 +6652,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 14,
+      "last_deal_days": 15,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6687,7 +6687,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 15,
+      "last_deal_days": 16,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6722,7 +6722,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 15,
+      "last_deal_days": 16,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6757,7 +6757,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 16,
+      "last_deal_days": 17,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6787,7 +6787,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 18,
+      "last_deal_days": 19,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6822,7 +6822,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 4,
+      "last_deal_days": 5,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -6857,7 +6857,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 18,
+      "last_deal_days": 19,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6892,7 +6892,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 18,
+      "last_deal_days": 19,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6927,7 +6927,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 18,
+      "last_deal_days": 19,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6962,7 +6962,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 18,
+      "last_deal_days": 19,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -6997,7 +6997,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 18,
+      "last_deal_days": 19,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -7032,7 +7032,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 18,
+      "last_deal_days": 19,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -7067,7 +7067,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 25,
+      "last_deal_days": 26,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -7097,7 +7097,7 @@
       "recent30": 1,
       "recent90": 2,
       "prior30": 1,
-      "last_deal_days": 28,
+      "last_deal_days": 29,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -7132,7 +7132,7 @@
       "recent30": 1,
       "recent90": 2,
       "prior30": 1,
-      "last_deal_days": 28,
+      "last_deal_days": 29,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -7167,7 +7167,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 29,
+      "last_deal_days": 30,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -7202,7 +7202,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 19,
+      "last_deal_days": 20,
       "deals": [
         {
           "sector": "Healthtech / Bio",
@@ -7237,7 +7237,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 31,
+      "last_deal_days": 32,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -7272,7 +7272,7 @@
       "recent30": 1,
       "recent90": 2,
       "prior30": 1,
-      "last_deal_days": 19,
+      "last_deal_days": 20,
       "deals": [
         {
           "sector": "Healthtech / Bio",
@@ -7307,7 +7307,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 36,
+      "last_deal_days": 37,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -7342,7 +7342,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 36,
+      "last_deal_days": 37,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -7377,7 +7377,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 36,
+      "last_deal_days": 37,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -7407,7 +7407,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 37,
+      "last_deal_days": 38,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -7437,7 +7437,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 37,
+      "last_deal_days": 38,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -7467,7 +7467,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 37,
+      "last_deal_days": 38,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -7497,7 +7497,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 37,
+      "last_deal_days": 38,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -7532,7 +7532,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 39,
+      "last_deal_days": 40,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -7567,7 +7567,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 39,
+      "last_deal_days": 40,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -7602,7 +7602,7 @@
       "recent30": 1,
       "recent90": 2,
       "prior30": 1,
-      "last_deal_days": 16,
+      "last_deal_days": 17,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -7637,7 +7637,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 31,
+      "last_deal_days": 32,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -7672,7 +7672,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 44,
+      "last_deal_days": 45,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -7707,7 +7707,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 44,
+      "last_deal_days": 45,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -7742,7 +7742,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 44,
+      "last_deal_days": 45,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -7777,7 +7777,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 44,
+      "last_deal_days": 45,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -7812,7 +7812,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 44,
+      "last_deal_days": 45,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -7847,7 +7847,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 44,
+      "last_deal_days": 45,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -7882,7 +7882,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 44,
+      "last_deal_days": 45,
       "deals": [
         {
           "sector": "Cybersecurity",
@@ -7917,7 +7917,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 36,
+      "last_deal_days": 37,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -7952,7 +7952,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 36,
+      "last_deal_days": 37,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -7987,7 +7987,7 @@
       "recent30": 1,
       "recent90": 2,
       "prior30": 1,
-      "last_deal_days": 16,
+      "last_deal_days": 17,
       "deals": [
         {
           "sector": "Climate / Energy",
@@ -8005,24 +8005,24 @@
     },
     {
       "fund": "Bain Capital",
-      "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s).",
       "coverage": 2,
       "sectors": [
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 1.0
-        },
         {
           "label": "Cybersecurity",
           "count": 1,
           "weight": 0.5
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 0.5
         }
       ],
-      "recent30": 1,
+      "recent30": 0,
       "recent90": 2,
-      "prior30": 1,
-      "last_deal_days": 30,
+      "prior30": 2,
+      "last_deal_days": 31,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -8057,7 +8057,7 @@
       "recent30": 1,
       "recent90": 2,
       "prior30": 1,
-      "last_deal_days": 16,
+      "last_deal_days": 17,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -8087,7 +8087,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 2,
+      "last_deal_days": 3,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -8117,7 +8117,7 @@
       "recent30": 1,
       "recent90": 2,
       "prior30": 1,
-      "last_deal_days": 11,
+      "last_deal_days": 12,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -8152,7 +8152,7 @@
       "recent30": 1,
       "recent90": 2,
       "prior30": 1,
-      "last_deal_days": 16,
+      "last_deal_days": 17,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -8187,7 +8187,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 10,
+      "last_deal_days": 11,
       "deals": [
         {
           "sector": "Healthtech / Bio",
@@ -8222,7 +8222,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 15,
+      "last_deal_days": 16,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -8252,7 +8252,7 @@
       "recent30": 1,
       "recent90": 2,
       "prior30": 1,
-      "last_deal_days": 26,
+      "last_deal_days": 27,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -8287,7 +8287,7 @@
       "recent30": 1,
       "recent90": 2,
       "prior30": 1,
-      "last_deal_days": 28,
+      "last_deal_days": 29,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -8317,7 +8317,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 32,
+      "last_deal_days": 33,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -8347,7 +8347,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 32,
+      "last_deal_days": 33,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -8365,24 +8365,24 @@
     },
     {
       "fund": "Northzone",
-      "thesis": "Revealed focus: AI / ML Infra and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
+      "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 2 attributed deal(s).",
       "coverage": 2,
       "sectors": [
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 1.0
-        },
         {
           "label": "Fintech / Payments",
           "count": 1,
           "weight": 0.5
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 0.5
         }
       ],
-      "recent30": 1,
+      "recent30": 0,
       "recent90": 2,
-      "prior30": 1,
-      "last_deal_days": 30,
+      "prior30": 2,
+      "last_deal_days": 31,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -8412,7 +8412,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 43,
+      "last_deal_days": 44,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -8442,7 +8442,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 43,
+      "last_deal_days": 44,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -8472,7 +8472,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 43,
+      "last_deal_days": 44,
       "deals": [
         {
           "sector": "Fintech / Payments",
@@ -8507,7 +8507,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -8542,7 +8542,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -8577,7 +8577,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -8612,7 +8612,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -8647,7 +8647,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -8682,7 +8682,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -8717,7 +8717,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -8747,7 +8747,7 @@
       "recent30": 1,
       "recent90": 2,
       "prior30": 1,
-      "last_deal_days": 11,
+      "last_deal_days": 12,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -8777,7 +8777,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 11,
+      "last_deal_days": 12,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -8812,7 +8812,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 16,
+      "last_deal_days": 17,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -8847,7 +8847,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 16,
+      "last_deal_days": 17,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -8882,7 +8882,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 16,
+      "last_deal_days": 17,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -8917,7 +8917,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 16,
+      "last_deal_days": 17,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -8952,7 +8952,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 36,
+      "last_deal_days": 37,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -8982,7 +8982,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 36,
+      "last_deal_days": 37,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -9012,7 +9012,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 43,
+      "last_deal_days": 44,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -9047,7 +9047,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 43,
+      "last_deal_days": 44,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -9082,7 +9082,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 44,
+      "last_deal_days": 45,
       "deals": [
         {
           "sector": "AI / ML Infra",
@@ -9117,7 +9117,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 8,
+      "last_deal_days": 9,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -9152,7 +9152,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 8,
+      "last_deal_days": 9,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -9187,7 +9187,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 8,
+      "last_deal_days": 9,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -9222,7 +9222,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 15,
+      "last_deal_days": 16,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -9252,7 +9252,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Space Tech",
@@ -9282,7 +9282,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Space Tech",
@@ -9312,7 +9312,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Space Tech",
@@ -9342,7 +9342,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 2,
       "deals": [
         {
           "sector": "Space Tech",
@@ -9372,7 +9372,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 0,
+      "last_deal_days": 1,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -9402,7 +9402,7 @@
       "recent30": 1,
       "recent90": 2,
       "prior30": 1,
-      "last_deal_days": 14,
+      "last_deal_days": 15,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -9432,7 +9432,7 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 17,
+      "last_deal_days": 18,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -9450,19 +9450,19 @@
     },
     {
       "fund": "Mirova",
-      "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
+      "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s).",
       "coverage": 2,
       "sectors": [
         {
           "label": "Coexistence / Empowerment",
           "count": 2,
-          "weight": 1.5
+          "weight": 1.0
         }
       ],
-      "recent30": 1,
+      "recent30": 0,
       "recent90": 2,
-      "prior30": 1,
-      "last_deal_days": 30,
+      "prior30": 2,
+      "last_deal_days": 31,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -9492,7 +9492,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 38,
+      "last_deal_days": 39,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -9522,7 +9522,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 38,
+      "last_deal_days": 39,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -9552,7 +9552,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 38,
+      "last_deal_days": 39,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -9582,7 +9582,7 @@
       "recent30": 0,
       "recent90": 2,
       "prior30": 2,
-      "last_deal_days": 43,
+      "last_deal_days": 44,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
@@ -9624,10 +9624,10 @@
       },
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 10 in the last 30d.",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 8 in the last 30d.",
         "coverage": 15,
         "sector_count": 6,
-        "recent30": 10
+        "recent30": 8
       },
       {
         "fund": "Index Ventures",
@@ -9652,10 +9652,10 @@
       },
       {
         "fund": "Sequoia",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 8 attributed deal(s), 5 in the last 30d.",
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 8 attributed deal(s), 4 in the last 30d.",
         "coverage": 8,
         "sector_count": 4,
-        "recent30": 5
+        "recent30": 4
       },
       {
         "fund": "General Catalyst",
@@ -9701,10 +9701,10 @@
       },
       {
         "fund": "Insight Partners",
-        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 8 attributed deal(s), 5 in the last 30d.",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 8 attributed deal(s), 3 in the last 30d.",
         "coverage": 8,
         "sector_count": 3,
-        "recent30": 5
+        "recent30": 3
       },
       {
         "fund": "Kleiner Perkins",
@@ -10681,10 +10681,10 @@
       },
       {
         "fund": "Bain Capital",
-        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s).",
         "coverage": 2,
         "sector_count": 1,
-        "recent30": 1
+        "recent30": 0
       },
       {
         "fund": "Dragonfly",
@@ -10704,10 +10704,10 @@
       },
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 10 in the last 30d.",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 8 in the last 30d.",
         "coverage": 15,
         "sector_count": 3,
-        "recent30": 10
+        "recent30": 8
       },
       {
         "fund": "Index Ventures",
@@ -10872,10 +10872,10 @@
       },
       {
         "fund": "Insight Partners",
-        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 8 attributed deal(s), 5 in the last 30d.",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 8 attributed deal(s), 3 in the last 30d.",
         "coverage": 8,
         "sector_count": 1,
-        "recent30": 5
+        "recent30": 3
       },
       {
         "fund": "Battery Ventures",
@@ -11110,10 +11110,10 @@
       },
       {
         "fund": "Northzone",
-        "thesis": "Revealed focus: AI / ML Infra and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
+        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 2 attributed deal(s).",
         "coverage": 2,
         "sector_count": 1,
-        "recent30": 1
+        "recent30": 0
       }
     ],
     "AI / ML Infra": [
@@ -11140,17 +11140,17 @@
       },
       {
         "fund": "Insight Partners",
-        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 8 attributed deal(s), 5 in the last 30d.",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 8 attributed deal(s), 3 in the last 30d.",
         "coverage": 8,
         "sector_count": 3,
-        "recent30": 5
+        "recent30": 3
       },
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 10 in the last 30d.",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 8 in the last 30d.",
         "coverage": 15,
         "sector_count": 2,
-        "recent30": 10
+        "recent30": 8
       },
       {
         "fund": "Khosla Ventures",
@@ -11574,10 +11574,10 @@
       },
       {
         "fund": "Bain Capital",
-        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s).",
         "coverage": 2,
         "sector_count": 1,
-        "recent30": 1
+        "recent30": 0
       },
       {
         "fund": "Nexus Venture Partners",
@@ -11588,10 +11588,10 @@
       },
       {
         "fund": "Northzone",
-        "thesis": "Revealed focus: AI / ML Infra and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
+        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 2 attributed deal(s).",
         "coverage": 2,
         "sector_count": 1,
-        "recent30": 1
+        "recent30": 0
       },
       {
         "fund": "Manhattan West Ventures",
@@ -11702,10 +11702,10 @@
       },
       {
         "fund": "Sequoia",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 8 attributed deal(s), 5 in the last 30d.",
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 8 attributed deal(s), 4 in the last 30d.",
         "coverage": 8,
         "sector_count": 3,
-        "recent30": 5
+        "recent30": 4
       },
       {
         "fund": "Valor Equity Partners",
@@ -12259,10 +12259,10 @@
       },
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 10 in the last 30d.",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 8 in the last 30d.",
         "coverage": 15,
         "sector_count": 2,
-        "recent30": 10
+        "recent30": 8
       },
       {
         "fund": "Google",
@@ -12534,10 +12534,10 @@
       },
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 10 in the last 30d.",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 8 in the last 30d.",
         "coverage": 15,
         "sector_count": 1,
-        "recent30": 10
+        "recent30": 8
       },
       {
         "fund": "Sequoia Capital",
@@ -12569,17 +12569,17 @@
       },
       {
         "fund": "Sequoia",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 8 attributed deal(s), 5 in the last 30d.",
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 8 attributed deal(s), 4 in the last 30d.",
         "coverage": 8,
         "sector_count": 1,
-        "recent30": 5
+        "recent30": 4
       },
       {
         "fund": "Insight Partners",
-        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 8 attributed deal(s), 5 in the last 30d.",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 8 attributed deal(s), 3 in the last 30d.",
         "coverage": 8,
         "sector_count": 1,
-        "recent30": 5
+        "recent30": 3
       },
       {
         "fund": "Battery Ventures",
@@ -12732,10 +12732,10 @@
       },
       {
         "fund": "Mirova",
-        "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
+        "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s).",
         "coverage": 2,
         "sector_count": 2,
-        "recent30": 1
+        "recent30": 0
       },
       {
         "fund": "Axpo",
@@ -12767,10 +12767,10 @@
       },
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 10 in the last 30d.",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 8 in the last 30d.",
         "coverage": 15,
         "sector_count": 1,
-        "recent30": 10
+        "recent30": 8
       },
       {
         "fund": "Sequoia Capital",

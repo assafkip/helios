@@ -1,38 +1,38 @@
 {
-  "generated": "2026-08-22T12:31:27Z",
+  "generated": "2026-08-22T13:29:03Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 17421,
-      "recent7": 2968,
+      "total": 17434,
+      "recent7": 2981,
       "sparkline": [
         2307,
         2371,
         2947,
-        2968
+        2981
       ],
       "momentum_pct": 21,
       "momentum_basis": "7d",
       "hard_count": 612,
       "hard_ratio": 0.035,
       "exit_count": 76,
-      "talk_count": 16578,
+      "talk_count": 16591,
       "whitespace_score": 27.1,
       "rising": [
         {
           "term": "prnewswire",
-          "count": 927,
-          "delta": 277
+          "count": 928,
+          "delta": 278
         },
         {
           "term": "x2026",
-          "count": 994,
-          "delta": 243
+          "count": 999,
+          "delta": 248
         },
         {
           "term": "x2019",
-          "count": 594,
-          "delta": 175
+          "count": 596,
+          "delta": 177
         },
         {
           "term": "securities",
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 2552
+          "count": 2562
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 832
+          "count": 833
         },
         {
           "name": "ProductHunt",
@@ -95,21 +95,21 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 2451,
-      "recent7": 340,
+      "total": 2452,
+      "recent7": 341,
       "sparkline": [
         353,
         351,
         357,
-        340
+        341
       ],
       "momentum_pct": 16,
       "momentum_basis": "7d",
-      "hard_count": 213,
+      "hard_count": 214,
       "hard_ratio": 0.087,
       "exit_count": 99,
       "talk_count": 2056,
-      "whitespace_score": 9.7,
+      "whitespace_score": 9.6,
       "rising": [
         {
           "term": "crypto",
@@ -133,8 +133,8 @@
         },
         {
           "term": "reported",
-          "count": 50,
-          "delta": 18
+          "count": 51,
+          "delta": 19
         },
         {
           "term": "asset",
@@ -637,20 +637,20 @@
     },
     "space-tech": {
       "label": "Space Tech",
-      "total": 1119,
-      "recent7": 158,
+      "total": 1120,
+      "recent7": 159,
       "sparkline": [
         162,
         119,
         147,
-        158
+        159
       ],
       "momentum_pct": 17,
       "momentum_basis": "7d",
       "hard_count": 62,
       "hard_ratio": 0.055,
       "exit_count": 12,
-      "talk_count": 1016,
+      "talk_count": 1017,
       "whitespace_score": 16.4,
       "rising": [
         {
@@ -674,6 +674,11 @@
           "delta": 14
         },
         {
+          "term": "lunar",
+          "count": 45,
+          "delta": 14
+        },
+        {
           "term": "total solar",
           "count": 17,
           "delta": 14
@@ -684,13 +689,8 @@
           "delta": 14
         },
         {
-          "term": "lunar",
-          "count": 44,
-          "delta": 13
-        },
-        {
-          "term": "firefly",
-          "count": 13,
+          "term": "artemis",
+          "count": 14,
           "delta": 13
         }
       ],
@@ -794,15 +794,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2968,
+        "recent7": 2981,
         "momentum_pct": 21,
         "momentum_basis": "7d",
-        "total": 17421,
+        "total": 17434,
         "sparkline": [
           2307,
           2371,
           2947,
-          2968
+          2981
         ],
         "hard_ratio": 0.035,
         "whitespace_score": 27.1
@@ -810,18 +810,18 @@
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 340,
+        "recent7": 341,
         "momentum_pct": 16,
         "momentum_basis": "7d",
-        "total": 2451,
+        "total": 2452,
         "sparkline": [
           353,
           351,
           357,
-          340
+          341
         ],
         "hard_ratio": 0.087,
-        "whitespace_score": 9.7
+        "whitespace_score": 9.6
       },
       {
         "id": "climate",
@@ -858,15 +858,15 @@
       {
         "id": "space-tech",
         "label": "Space Tech",
-        "recent7": 158,
+        "recent7": 159,
         "momentum_pct": 17,
         "momentum_basis": "7d",
-        "total": 1119,
+        "total": 1120,
         "sparkline": [
           162,
           119,
           147,
-          158
+          159
         ],
         "hard_ratio": 0.055,
         "whitespace_score": 16.4
@@ -939,13 +939,13 @@
     "rising": [
       {
         "term": "prnewswire",
-        "count": 927,
-        "delta": 277
+        "count": 928,
+        "delta": 278
       },
       {
         "term": "x2026",
-        "count": 994,
-        "delta": 243
+        "count": 999,
+        "delta": 248
       },
       {
         "term": "securities",
@@ -954,8 +954,8 @@
       },
       {
         "term": "x2019",
-        "count": 594,
-        "delta": 175
+        "count": 596,
+        "delta": 177
       },
       {
         "term": "lawsuit",
@@ -1110,6 +1110,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 26727
+    "total_signals": 26742
   }
 }

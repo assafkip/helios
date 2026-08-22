@@ -1,23 +1,23 @@
 {
-  "generated": "2026-08-22T07:28:45Z",
+  "generated": "2026-08-22T08:24:32Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 17358,
-      "recent7": 2905,
+      "total": 17366,
+      "recent7": 2913,
       "sparkline": [
         2307,
         2371,
         2947,
-        2905
+        2913
       ],
       "momentum_pct": 21,
       "momentum_basis": "7d",
-      "hard_count": 610,
+      "hard_count": 611,
       "hard_ratio": 0.035,
       "exit_count": 76,
-      "talk_count": 16517,
-      "whitespace_score": 27.1,
+      "talk_count": 16524,
+      "whitespace_score": 27.0,
       "rising": [
         {
           "term": "prnewswire",
@@ -26,8 +26,8 @@
         },
         {
           "term": "x2026",
-          "count": 976,
-          "delta": 225
+          "count": 977,
+          "delta": 226
         },
         {
           "term": "securities",
@@ -36,8 +36,8 @@
         },
         {
           "term": "x2019",
-          "count": 585,
-          "delta": 166
+          "count": 587,
+          "delta": 168
         },
         {
           "term": "lawsuit",
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 2507
+          "count": 2512
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 824
+          "count": 826
         },
         {
           "name": "ProductHunt",
@@ -84,7 +84,7 @@
         {
           "name": "Security Affairs",
           "firm": "blog",
-          "count": 63
+          "count": 64
         },
         {
           "name": "Ping Li",
@@ -95,20 +95,20 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 2448,
-      "recent7": 337,
+      "total": 2449,
+      "recent7": 338,
       "sparkline": [
         353,
         351,
         357,
-        337
+        338
       ],
       "momentum_pct": 16,
       "momentum_basis": "7d",
       "hard_count": 213,
       "hard_ratio": 0.087,
       "exit_count": 99,
-      "talk_count": 2053,
+      "talk_count": 2054,
       "whitespace_score": 9.6,
       "rising": [
         {
@@ -187,25 +187,30 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 1489,
-      "recent7": 168,
+      "total": 1493,
+      "recent7": 172,
       "sparkline": [
         208,
         199,
         206,
-        168
+        172
       ],
       "momentum_pct": 14,
       "momentum_basis": "7d",
       "hard_count": 107,
       "hard_ratio": 0.072,
       "exit_count": 30,
-      "talk_count": 1308,
-      "whitespace_score": 12.2,
+      "talk_count": 1312,
+      "whitespace_score": 12.3,
       "rising": [
         {
           "term": "data",
           "count": 58,
+          "delta": 23
+        },
+        {
+          "term": "training",
+          "count": 29,
           "delta": 23
         },
         {
@@ -214,14 +219,9 @@
           "delta": 22
         },
         {
-          "term": "training",
-          "count": 28,
-          "delta": 22
-        },
-        {
           "term": "text",
-          "count": 28,
-          "delta": 17
+          "count": 29,
+          "delta": 18
         },
         {
           "term": "openrouter",
@@ -263,7 +263,7 @@
         {
           "name": "Shawn Wang (swyx) / Alessio Fanelli",
           "firm": "Latent Space",
-          "count": 13
+          "count": 15
         },
         {
           "name": "Tomasz Tunguz",
@@ -794,31 +794,31 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2905,
+        "recent7": 2913,
         "momentum_pct": 21,
         "momentum_basis": "7d",
-        "total": 17358,
+        "total": 17366,
         "sparkline": [
           2307,
           2371,
           2947,
-          2905
+          2913
         ],
         "hard_ratio": 0.035,
-        "whitespace_score": 27.1
+        "whitespace_score": 27.0
       },
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 337,
+        "recent7": 338,
         "momentum_pct": 16,
         "momentum_basis": "7d",
-        "total": 2448,
+        "total": 2449,
         "sparkline": [
           353,
           351,
           357,
-          337
+          338
         ],
         "hard_ratio": 0.087,
         "whitespace_score": 9.6
@@ -842,18 +842,18 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 168,
+        "recent7": 172,
         "momentum_pct": 14,
         "momentum_basis": "7d",
-        "total": 1489,
+        "total": 1493,
         "sparkline": [
           208,
           199,
           206,
-          168
+          172
         ],
         "hard_ratio": 0.072,
-        "whitespace_score": 12.2
+        "whitespace_score": 12.3
       },
       {
         "id": "space-tech",
@@ -944,8 +944,8 @@
       },
       {
         "term": "x2026",
-        "count": 976,
-        "delta": 225
+        "count": 977,
+        "delta": 226
       },
       {
         "term": "securities",
@@ -954,8 +954,8 @@
       },
       {
         "term": "x2019",
-        "count": 585,
-        "delta": 166
+        "count": 587,
+        "delta": 168
       },
       {
         "term": "lawsuit",
@@ -1110,6 +1110,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 26649
+    "total_signals": 26662
   }
 }

@@ -1,33 +1,33 @@
 {
-  "generated": "2026-08-22T02:19:05Z",
+  "generated": "2026-08-22T03:38:24Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 17301,
-      "recent7": 2852,
+      "total": 17313,
+      "recent7": 2864,
       "sparkline": [
         2306,
         2371,
         2944,
-        2852
+        2864
       ],
       "momentum_pct": 20,
       "momentum_basis": "7d",
       "hard_count": 610,
       "hard_ratio": 0.035,
       "exit_count": 76,
-      "talk_count": 16460,
+      "talk_count": 16472,
       "whitespace_score": 27.0,
       "rising": [
         {
           "term": "prnewswire",
-          "count": 921,
-          "delta": 271
+          "count": 925,
+          "delta": 275
         },
         {
           "term": "x2026",
-          "count": 965,
-          "delta": 214
+          "count": 968,
+          "delta": 217
         },
         {
           "term": "securities",
@@ -36,13 +36,13 @@
         },
         {
           "term": "x2019",
-          "count": 582,
-          "delta": 163
+          "count": 583,
+          "delta": 164
         },
         {
           "term": "lawsuit",
-          "count": 301,
-          "delta": 122
+          "count": 304,
+          "delta": 125
         },
         {
           "term": "x131",
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 2472
+          "count": 2477
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 820
+          "count": 822
         },
         {
           "name": "ProductHunt",
@@ -371,21 +371,21 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 1515,
-      "recent7": 196,
+      "total": 1516,
+      "recent7": 197,
       "sparkline": [
         219,
         205,
         198,
-        196
+        197
       ],
       "momentum_pct": 15,
       "momentum_basis": "7d",
       "hard_count": 73,
       "hard_ratio": 0.048,
       "exit_count": 8,
-      "talk_count": 1412,
-      "whitespace_score": 19.3,
+      "talk_count": 1413,
+      "whitespace_score": 19.4,
       "rising": [
         {
           "term": "factory",
@@ -403,6 +403,11 @@
           "delta": 13
         },
         {
+          "term": "genesis",
+          "count": 14,
+          "delta": 12
+        },
+        {
           "term": "batteries",
           "count": 25,
           "delta": 10
@@ -418,11 +423,6 @@
           "delta": 10
         },
         {
-          "term": "genesis",
-          "count": 12,
-          "delta": 10
-        },
-        {
           "term": "kia ev3",
           "count": 12,
           "delta": 10
@@ -432,7 +432,7 @@
         {
           "name": "CleanTechnica",
           "firm": "CleanTechnica",
-          "count": 142
+          "count": 143
         },
         {
           "name": "Utility Dive",
@@ -794,15 +794,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2852,
+        "recent7": 2864,
         "momentum_pct": 20,
         "momentum_basis": "7d",
-        "total": 17301,
+        "total": 17313,
         "sparkline": [
           2306,
           2371,
           2944,
-          2852
+          2864
         ],
         "hard_ratio": 0.035,
         "whitespace_score": 27.0
@@ -826,18 +826,18 @@
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 196,
+        "recent7": 197,
         "momentum_pct": 15,
         "momentum_basis": "7d",
-        "total": 1515,
+        "total": 1516,
         "sparkline": [
           219,
           205,
           198,
-          196
+          197
         ],
         "hard_ratio": 0.048,
-        "whitespace_score": 19.3
+        "whitespace_score": 19.4
       },
       {
         "id": "ai-ml",
@@ -939,13 +939,13 @@
     "rising": [
       {
         "term": "prnewswire",
-        "count": 921,
-        "delta": 271
+        "count": 925,
+        "delta": 275
       },
       {
         "term": "x2026",
-        "count": 965,
-        "delta": 214
+        "count": 968,
+        "delta": 217
       },
       {
         "term": "securities",
@@ -954,8 +954,13 @@
       },
       {
         "term": "x2019",
-        "count": 582,
-        "delta": 163
+        "count": 583,
+        "delta": 164
+      },
+      {
+        "term": "lawsuit",
+        "count": 327,
+        "delta": 119
       },
       {
         "term": "x131",
@@ -963,9 +968,9 @@
         "delta": 119
       },
       {
-        "term": "lawsuit",
-        "count": 324,
-        "delta": 116
+        "term": "lead",
+        "count": 273,
+        "delta": 101
       },
       {
         "term": "securities fraud",
@@ -978,14 +983,9 @@
         "delta": 97
       },
       {
-        "term": "lead",
-        "count": 267,
-        "delta": 95
-      },
-      {
         "term": "class",
-        "count": 321,
-        "delta": 85
+        "count": 324,
+        "delta": 88
       }
     ],
     "highlights": [
@@ -1110,6 +1110,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 26587
+    "total_signals": 26600
   }
 }

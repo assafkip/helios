@@ -1,22 +1,22 @@
 {
-  "generated": "2026-08-23T16:20:07Z",
+  "generated": "2026-08-23T17:17:17Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 17756,
-      "recent7": 2973,
+      "total": 17764,
+      "recent7": 2981,
       "sparkline": [
         2330,
         2421,
         2979,
-        2973
+        2981
       ],
       "momentum_pct": 21,
       "momentum_basis": "7d",
       "hard_count": 621,
       "hard_ratio": 0.035,
       "exit_count": 76,
-      "talk_count": 16903,
+      "talk_count": 16911,
       "whitespace_score": 27.2,
       "rising": [
         {
@@ -26,18 +26,18 @@
         },
         {
           "term": "x2026",
-          "count": 1006,
-          "delta": 247
+          "count": 1009,
+          "delta": 250
+        },
+        {
+          "term": "x2019",
+          "count": 602,
+          "delta": 169
         },
         {
           "term": "securities",
           "count": 365,
           "delta": 169
-        },
-        {
-          "term": "x2019",
-          "count": 599,
-          "delta": 166
         },
         {
           "term": "x131",
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 2595
+          "count": 2600
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 830
+          "count": 832
         },
         {
           "name": "ProductHunt",
@@ -371,20 +371,20 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 1531,
-      "recent7": 204,
+      "total": 1532,
+      "recent7": 205,
       "sparkline": [
         223,
         202,
         198,
-        204
+        205
       ],
       "momentum_pct": 15,
       "momentum_basis": "7d",
       "hard_count": 73,
       "hard_ratio": 0.048,
       "exit_count": 8,
-      "talk_count": 1428,
+      "talk_count": 1429,
       "whitespace_score": 19.6,
       "rising": [
         {
@@ -463,26 +463,31 @@
     },
     "edtech": {
       "label": "Edtech",
-      "total": 680,
-      "recent7": 93,
+      "total": 681,
+      "recent7": 94,
       "sparkline": [
         86,
         88,
         93,
-        93
+        94
       ],
       "momentum_pct": 16,
       "momentum_basis": "7d",
       "hard_count": 19,
       "hard_ratio": 0.028,
       "exit_count": 0,
-      "talk_count": 655,
+      "talk_count": 656,
       "whitespace_score": 34.5,
       "rising": [
         {
           "term": "olivia",
           "count": 13,
           "delta": 13
+        },
+        {
+          "term": "free",
+          "count": 32,
+          "delta": 12
         },
         {
           "term": "sanchez",
@@ -510,11 +515,6 @@
           "delta": 10
         },
         {
-          "term": "free",
-          "count": 30,
-          "delta": 10
-        },
-        {
           "term": "mcmahon",
           "count": 10,
           "delta": 10
@@ -524,7 +524,7 @@
         {
           "name": "The 74",
           "firm": "The 74 Million",
-          "count": 52
+          "count": 53
         },
         {
           "name": "Class Central",
@@ -794,15 +794,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2973,
+        "recent7": 2981,
         "momentum_pct": 21,
         "momentum_basis": "7d",
-        "total": 17756,
+        "total": 17764,
         "sparkline": [
           2330,
           2421,
           2979,
-          2973
+          2981
         ],
         "hard_ratio": 0.035,
         "whitespace_score": 27.2
@@ -826,15 +826,15 @@
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 204,
+        "recent7": 205,
         "momentum_pct": 15,
         "momentum_basis": "7d",
-        "total": 1531,
+        "total": 1532,
         "sparkline": [
           223,
           202,
           198,
-          204
+          205
         ],
         "hard_ratio": 0.048,
         "whitespace_score": 19.6
@@ -906,15 +906,15 @@
       {
         "id": "edtech",
         "label": "Edtech",
-        "recent7": 93,
+        "recent7": 94,
         "momentum_pct": 16,
         "momentum_basis": "7d",
-        "total": 680,
+        "total": 681,
         "sparkline": [
           86,
           88,
           93,
-          93
+          94
         ],
         "hard_ratio": 0.028,
         "whitespace_score": 34.5
@@ -944,8 +944,8 @@
       },
       {
         "term": "x2026",
-        "count": 1006,
-        "delta": 247
+        "count": 1009,
+        "delta": 250
       },
       {
         "term": "securities",
@@ -954,8 +954,8 @@
       },
       {
         "term": "x2019",
-        "count": 599,
-        "delta": 166
+        "count": 602,
+        "delta": 169
       },
       {
         "term": "x131",
@@ -1110,6 +1110,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 27110
+    "total_signals": 27120
   }
 }

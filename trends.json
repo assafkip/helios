@@ -1,33 +1,33 @@
 {
-  "generated": "2026-08-24T06:50:38Z",
+  "generated": "2026-08-24T07:55:16Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 17953,
-      "recent7": 2672,
+      "total": 17985,
+      "recent7": 2704,
       "sparkline": [
         2319,
         2578,
         2988,
-        2672
+        2704
       ],
       "momentum_pct": 18,
       "momentum_basis": "7d",
-      "hard_count": 628,
+      "hard_count": 631,
       "hard_ratio": 0.035,
       "exit_count": 76,
-      "talk_count": 17092,
-      "whitespace_score": 27.2,
+      "talk_count": 17120,
+      "whitespace_score": 27.1,
       "rising": [
         {
           "term": "prnewswire",
-          "count": 870,
-          "delta": 188
+          "count": 874,
+          "delta": 192
         },
         {
           "term": "x2026",
-          "count": 979,
-          "delta": 185
+          "count": 980,
+          "delta": 186
         },
         {
           "term": "securities",
@@ -64,17 +64,17 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 2513
+          "count": 2522
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 787
+          "count": 789
         },
         {
           "name": "ProductHunt",
           "firm": "producthunt",
-          "count": 147
+          "count": 156
         },
         {
           "name": "Security Conferences",
@@ -84,7 +84,7 @@
         {
           "name": "Security Affairs",
           "firm": "blog",
-          "count": 64
+          "count": 66
         },
         {
           "name": "Ping Li",
@@ -463,36 +463,36 @@
     },
     "edtech": {
       "label": "Edtech",
-      "total": 683,
-      "recent7": 78,
+      "total": 692,
+      "recent7": 87,
       "sparkline": [
         89,
         90,
         91,
-        78
+        87
       ],
-      "momentum_pct": 13,
+      "momentum_pct": 14,
       "momentum_basis": "7d",
-      "hard_count": 19,
-      "hard_ratio": 0.028,
+      "hard_count": 20,
+      "hard_ratio": 0.029,
       "exit_count": 0,
-      "talk_count": 658,
-      "whitespace_score": 34.6,
+      "talk_count": 666,
+      "whitespace_score": 33.3,
       "rising": [
         {
           "term": "olivia",
+          "count": 14,
+          "delta": 14
+        },
+        {
+          "term": "sanchez",
           "count": 13,
           "delta": 13
         },
         {
-          "term": "sanchez",
-          "count": 12,
-          "delta": 12
-        },
-        {
           "term": "olivia sanchez",
-          "count": 12,
-          "delta": 12
+          "count": 13,
+          "delta": 13
         },
         {
           "term": "arday",
@@ -500,24 +500,24 @@
           "delta": 11
         },
         {
-          "term": "michigan",
-          "count": 8,
+          "term": "emma",
+          "count": 15,
           "delta": 8
         },
         {
-          "term": "intelligence",
-          "count": 12,
-          "delta": 7
+          "term": "whitford",
+          "count": 15,
+          "delta": 8
         },
         {
-          "term": "artificial",
-          "count": 11,
-          "delta": 7
+          "term": "emma whitford",
+          "count": 15,
+          "delta": 8
         },
         {
-          "term": "sues",
-          "count": 9,
-          "delta": 7
+          "term": "michigan",
+          "count": 8,
+          "delta": 8
         }
       ],
       "movers": [
@@ -637,20 +637,20 @@
     },
     "space-tech": {
       "label": "Space Tech",
-      "total": 1130,
-      "recent7": 132,
+      "total": 1131,
+      "recent7": 133,
       "sparkline": [
         148,
         124,
         157,
-        132
+        133
       ],
       "momentum_pct": 13,
       "momentum_basis": "7d",
       "hard_count": 63,
       "hard_ratio": 0.056,
       "exit_count": 12,
-      "talk_count": 1024,
+      "talk_count": 1025,
       "whitespace_score": 16.3,
       "rising": [
         {
@@ -794,18 +794,18 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2672,
+        "recent7": 2704,
         "momentum_pct": 18,
         "momentum_basis": "7d",
-        "total": 17953,
+        "total": 17985,
         "sparkline": [
           2319,
           2578,
           2988,
-          2672
+          2704
         ],
         "hard_ratio": 0.035,
-        "whitespace_score": 27.2
+        "whitespace_score": 27.1
       },
       {
         "id": "fintech",
@@ -858,15 +858,15 @@
       {
         "id": "space-tech",
         "label": "Space Tech",
-        "recent7": 132,
+        "recent7": 133,
         "momentum_pct": 13,
         "momentum_basis": "7d",
-        "total": 1130,
+        "total": 1131,
         "sparkline": [
           148,
           124,
           157,
-          132
+          133
         ],
         "hard_ratio": 0.056,
         "whitespace_score": 16.3
@@ -888,6 +888,22 @@
         "whitespace_score": 18.6
       },
       {
+        "id": "edtech",
+        "label": "Edtech",
+        "recent7": 87,
+        "momentum_pct": 14,
+        "momentum_basis": "7d",
+        "total": 692,
+        "sparkline": [
+          89,
+          90,
+          91,
+          87
+        ],
+        "hard_ratio": 0.029,
+        "whitespace_score": 33.3
+      },
+      {
         "id": "marketing-ads",
         "label": "Marketing / Ads",
         "recent7": 85,
@@ -902,22 +918,6 @@
         ],
         "hard_ratio": 0.02,
         "whitespace_score": 48.9
-      },
-      {
-        "id": "edtech",
-        "label": "Edtech",
-        "recent7": 78,
-        "momentum_pct": 13,
-        "momentum_basis": "7d",
-        "total": 683,
-        "sparkline": [
-          89,
-          90,
-          91,
-          78
-        ],
-        "hard_ratio": 0.028,
-        "whitespace_score": 34.6
       },
       {
         "id": "coexistence-empowerment",
@@ -939,13 +939,13 @@
     "rising": [
       {
         "term": "prnewswire",
-        "count": 870,
-        "delta": 188
+        "count": 874,
+        "delta": 192
       },
       {
         "term": "x2026",
-        "count": 979,
-        "delta": 185
+        "count": 980,
+        "delta": 186
       },
       {
         "term": "securities",
@@ -1110,6 +1110,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 27356
+    "total_signals": 27398
   }
 }

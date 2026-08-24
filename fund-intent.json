@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-24T13:48:17Z",
+  "generated": "2026-08-24T14:38:18Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 759,
-    "deal_rows_attributed": 358,
-    "funds_tracked": 228,
-    "fetch_attempts": 75,
-    "fetchable_pct": 1,
+    "deal_rows_seen": 762,
+    "deal_rows_attributed": 359,
+    "funds_tracked": 229,
+    "fetch_attempts": 76,
+    "fetchable_pct": 3,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -5781,6 +5781,36 @@
       ]
     },
     {
+      "fund": "Blue Cloud Ventures",
+      "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 2.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-24",
+          "summary": "Why We Invested in Horizon3",
+          "url": "https://medium.com/blue-cloud-ventures/why-we-invested-in-horizon3-527815ce6b08?source=rss------cybersecurity-5"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-03",
+          "summary": "Horizon3.ai hits $2 billion valuation in $250 million funding round",
+          "url": "https://www.helpnetsecurity.com/2026/08/03/horizon3-ai-250-million-funding/"
+        }
+      ]
+    },
+    {
       "fund": "Carlyle",
       "thesis": "Revealed focus: Cybersecurity and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -10338,6 +10368,13 @@
         "coverage": 3,
         "sector_count": 2,
         "recent30": 0
+      },
+      {
+        "fund": "Blue Cloud Ventures",
+        "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 2
       },
       {
         "fund": "Iconiq Capital",

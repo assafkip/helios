@@ -1,48 +1,53 @@
 {
-  "generated": "2026-08-24T21:24:53Z",
+  "generated": "2026-08-24T22:22:08Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 18352,
-      "recent7": 3070,
+      "total": 18368,
+      "recent7": 3086,
       "sparkline": [
         2319,
         2578,
         2989,
-        3070
+        3086
       ],
       "momentum_pct": 21,
       "momentum_basis": "7d",
       "hard_count": 645,
       "hard_ratio": 0.035,
-      "exit_count": 78,
-      "talk_count": 17464,
+      "exit_count": 79,
+      "talk_count": 17479,
       "whitespace_score": 27.1,
       "rising": [
         {
           "term": "prnewswire",
-          "count": 941,
-          "delta": 259
+          "count": 945,
+          "delta": 263
         },
         {
           "term": "x2026",
-          "count": 1040,
-          "delta": 246
+          "count": 1043,
+          "delta": 249
         },
         {
           "term": "securities",
-          "count": 378,
-          "delta": 165
+          "count": 382,
+          "delta": 169
         },
         {
           "term": "x2019",
-          "count": 601,
-          "delta": 142
+          "count": 602,
+          "delta": 143
         },
         {
           "term": "x131",
-          "count": 182,
-          "delta": 123
+          "count": 192,
+          "delta": 133
+        },
+        {
+          "term": "law",
+          "count": 409,
+          "delta": 111
         },
         {
           "term": "lawsuit",
@@ -50,26 +55,21 @@
           "delta": 111
         },
         {
-          "term": "law",
-          "count": 403,
-          "delta": 105
-        },
-        {
           "term": "action",
-          "count": 311,
-          "delta": 102
+          "count": 313,
+          "delta": 104
         }
       ],
       "movers": [
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 2663
+          "count": 2669
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 836
+          "count": 839
         },
         {
           "name": "ProductHunt",
@@ -95,19 +95,19 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 2536,
-      "recent7": 336,
+      "total": 2537,
+      "recent7": 337,
       "sparkline": [
         358,
         352,
         353,
-        336
+        337
       ],
       "momentum_pct": 15,
       "momentum_basis": "7d",
       "hard_count": 223,
       "hard_ratio": 0.088,
-      "exit_count": 101,
+      "exit_count": 102,
       "talk_count": 2126,
       "whitespace_score": 9.5,
       "rising": [
@@ -187,20 +187,20 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 1536,
-      "recent7": 171,
+      "total": 1538,
+      "recent7": 173,
       "sparkline": [
         214,
         206,
         197,
-        171
+        173
       ],
       "momentum_pct": 13,
       "momentum_basis": "7d",
       "hard_count": 108,
       "hard_ratio": 0.07,
       "exit_count": 33,
-      "talk_count": 1350,
+      "talk_count": 1352,
       "whitespace_score": 12.5,
       "rising": [
         {
@@ -253,7 +253,7 @@
         {
           "name": "Jason Lemkin",
           "firm": "SaaStr Fund",
-          "count": 22
+          "count": 23
         },
         {
           "name": "Shawn Wang (swyx) / Alessio Fanelli",
@@ -371,20 +371,20 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 1557,
-      "recent7": 191,
+      "total": 1560,
+      "recent7": 194,
       "sparkline": [
         225,
         200,
         205,
-        191
+        194
       ],
-      "momentum_pct": 14,
+      "momentum_pct": 15,
       "momentum_basis": "7d",
       "hard_count": 76,
       "hard_ratio": 0.049,
       "exit_count": 8,
-      "talk_count": 1450,
+      "talk_count": 1453,
       "whitespace_score": 19.1,
       "rising": [
         {
@@ -545,21 +545,21 @@
     },
     "marketing-ads": {
       "label": "Marketing / Ads",
-      "total": 727,
-      "recent7": 98,
+      "total": 728,
+      "recent7": 99,
       "sparkline": [
         88,
         99,
         96,
-        98
+        99
       ],
       "momentum_pct": 16,
       "momentum_basis": "7d",
       "hard_count": 14,
       "hard_ratio": 0.019,
       "exit_count": 11,
-      "talk_count": 696,
-      "whitespace_score": 49.7,
+      "talk_count": 697,
+      "whitespace_score": 49.8,
       "rising": [
         {
           "term": "data",
@@ -611,7 +611,7 @@
         {
           "name": "Jason Lemkin",
           "firm": "SaaStr Fund",
-          "count": 13
+          "count": 14
         },
         {
           "name": "Lenny Rachitsky",
@@ -794,15 +794,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 3070,
+        "recent7": 3086,
         "momentum_pct": 21,
         "momentum_basis": "7d",
-        "total": 18352,
+        "total": 18368,
         "sparkline": [
           2319,
           2578,
           2989,
-          3070
+          3086
         ],
         "hard_ratio": 0.035,
         "whitespace_score": 27.1
@@ -810,15 +810,15 @@
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 336,
+        "recent7": 337,
         "momentum_pct": 15,
         "momentum_basis": "7d",
-        "total": 2536,
+        "total": 2537,
         "sparkline": [
           358,
           352,
           353,
-          336
+          337
         ],
         "hard_ratio": 0.088,
         "whitespace_score": 9.5
@@ -826,15 +826,15 @@
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 191,
-        "momentum_pct": 14,
+        "recent7": 194,
+        "momentum_pct": 15,
         "momentum_basis": "7d",
-        "total": 1557,
+        "total": 1560,
         "sparkline": [
           225,
           200,
           205,
-          191
+          194
         ],
         "hard_ratio": 0.049,
         "whitespace_score": 19.1
@@ -842,15 +842,15 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 171,
+        "recent7": 173,
         "momentum_pct": 13,
         "momentum_basis": "7d",
-        "total": 1536,
+        "total": 1538,
         "sparkline": [
           214,
           206,
           197,
-          171
+          173
         ],
         "hard_ratio": 0.07,
         "whitespace_score": 12.5
@@ -890,18 +890,18 @@
       {
         "id": "marketing-ads",
         "label": "Marketing / Ads",
-        "recent7": 98,
+        "recent7": 99,
         "momentum_pct": 16,
         "momentum_basis": "7d",
-        "total": 727,
+        "total": 728,
         "sparkline": [
           88,
           99,
           96,
-          98
+          99
         ],
         "hard_ratio": 0.019,
-        "whitespace_score": 49.7
+        "whitespace_score": 49.8
       },
       {
         "id": "edtech",
@@ -939,48 +939,48 @@
     "rising": [
       {
         "term": "prnewswire",
-        "count": 941,
-        "delta": 259
+        "count": 945,
+        "delta": 263
       },
       {
         "term": "x2026",
-        "count": 1040,
-        "delta": 246
+        "count": 1043,
+        "delta": 249
       },
       {
         "term": "securities",
-        "count": 417,
-        "delta": 184
+        "count": 421,
+        "delta": 188
       },
       {
         "term": "x2019",
-        "count": 601,
-        "delta": 142
+        "count": 602,
+        "delta": 143
       },
       {
         "term": "x131",
-        "count": 182,
-        "delta": 123
+        "count": 192,
+        "delta": 133
+      },
+      {
+        "term": "law",
+        "count": 431,
+        "delta": 104
       },
       {
         "term": "investors",
-        "count": 409,
+        "count": 411,
+        "delta": 104
+      },
+      {
+        "term": "action",
+        "count": 338,
         "delta": 102
       },
       {
         "term": "lawsuit",
         "count": 328,
         "delta": 102
-      },
-      {
-        "term": "action",
-        "count": 336,
-        "delta": 100
-      },
-      {
-        "term": "law",
-        "count": 425,
-        "delta": 98
       },
       {
         "term": "lead",
@@ -1110,6 +1110,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 27936
+    "total_signals": 27959
   }
 }

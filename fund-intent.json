@@ -1,19 +1,19 @@
 {
-  "generated": "2026-08-24T08:43:43Z",
+  "generated": "2026-08-24T09:43:03Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 751,
-    "deal_rows_attributed": 353,
+    "deal_rows_seen": 753,
+    "deal_rows_attributed": 354,
     "funds_tracked": 219,
-    "fetch_attempts": 75,
-    "fetchable_pct": 1,
+    "fetch_attempts": 76,
+    "fetchable_pct": 3,
     "update_cadence": "hourly"
   },
   "funds": [
     {
       "fund": "Nvidia",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 18 attributed deal(s), 12 in the last 30d.",
-      "coverage": 18,
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 19 attributed deal(s), 13 in the last 30d.",
+      "coverage": 19,
       "sectors": [
         {
           "label": "Cybersecurity",
@@ -21,12 +21,12 @@
           "weight": 6.0
         },
         {
-          "label": "Fintech / Payments",
-          "count": 4,
-          "weight": 3.0
+          "label": "AI / ML Infra",
+          "count": 5,
+          "weight": 4.0
         },
         {
-          "label": "AI / ML Infra",
+          "label": "Fintech / Payments",
           "count": 4,
           "weight": 3.0
         },
@@ -46,11 +46,17 @@
           "weight": 1.0
         }
       ],
-      "recent30": 12,
-      "recent90": 18,
+      "recent30": 13,
+      "recent90": 19,
       "prior30": 6,
-      "last_deal_days": 3,
+      "last_deal_days": 0,
       "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-24",
+          "summary": "Nvidia in talks to invest in Perplexity at $30 billion-plus valuation",
+          "url": "https://the-decoder.com/nvidia-in-talks-to-invest-in-perplexity-at-30-billion-plus-valuation/"
+        },
         {
           "sector": "Cybersecurity",
           "date": "2026-08-21",
@@ -9620,10 +9626,10 @@
     "Cybersecurity": [
       {
         "fund": "Nvidia",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 18 attributed deal(s), 12 in the last 30d.",
-        "coverage": 18,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 19 attributed deal(s), 13 in the last 30d.",
+        "coverage": 19,
         "sector_count": 7,
-        "recent30": 12
+        "recent30": 13
       },
       {
         "fund": "Sequoia Capital",
@@ -10711,442 +10717,13 @@
         "recent30": 1
       }
     ],
-    "Fintech / Payments": [
-      {
-        "fund": "Nvidia",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 18 attributed deal(s), 12 in the last 30d.",
-        "coverage": 18,
-        "sector_count": 4,
-        "recent30": 12
-      },
-      {
-        "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 7 in the last 30d.",
-        "coverage": 15,
-        "sector_count": 3,
-        "recent30": 7
-      },
-      {
-        "fund": "Index Ventures",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 10 attributed deal(s), 6 in the last 30d.",
-        "coverage": 10,
-        "sector_count": 3,
-        "recent30": 6
-      },
-      {
-        "fund": "Forerunner",
-        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 5 attributed deal(s), 2 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 3,
-        "recent30": 2
-      },
-      {
-        "fund": "CRV",
-        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 3,
-        "recent30": 5
-      },
-      {
-        "fund": "Atomico",
-        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
-        "coverage": 4,
-        "sector_count": 3,
-        "recent30": 4
-      },
-      {
-        "fund": "Paradigm",
-        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 4 attributed deal(s), 1 in the last 30d.",
-        "coverage": 4,
-        "sector_count": 3,
-        "recent30": 1
-      },
-      {
-        "fund": "Amex Ventures",
-        "thesis": "Revealed focus: Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 3,
-        "recent30": 3
-      },
-      {
-        "fund": "Sequoia Capital",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 13 attributed deal(s), 8 in the last 30d.",
-        "coverage": 13,
-        "sector_count": 2,
-        "recent30": 8
-      },
-      {
-        "fund": "Eclipse",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 6 attributed deal(s), 5 in the last 30d.",
-        "coverage": 6,
-        "sector_count": 2,
-        "recent30": 5
-      },
-      {
-        "fund": "Bain Capital Ventures",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 6 attributed deal(s), 4 in the last 30d.",
-        "coverage": 6,
-        "sector_count": 2,
-        "recent30": 4
-      },
-      {
-        "fund": "FirstMark",
-        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 2,
-        "recent30": 1
-      },
-      {
-        "fund": "Tiger Global",
-        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s), 2 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 2,
-        "recent30": 2
-      },
-      {
-        "fund": "Primary",
-        "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 2,
-        "recent30": 2
-      },
-      {
-        "fund": "Lakestar",
-        "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 2,
-        "recent30": 1
-      },
-      {
-        "fund": "Hummingbird",
-        "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 2,
-        "recent30": 1
-      },
-      {
-        "fund": "Elefund",
-        "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s).",
-        "coverage": 2,
-        "sector_count": 2,
-        "recent30": 0
-      },
-      {
-        "fund": "Opera Tech Ventures",
-        "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s).",
-        "coverage": 2,
-        "sector_count": 2,
-        "recent30": 0
-      },
-      {
-        "fund": "115K",
-        "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s).",
-        "coverage": 2,
-        "sector_count": 2,
-        "recent30": 0
-      },
-      {
-        "fund": "13books Capital",
-        "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s).",
-        "coverage": 2,
-        "sector_count": 2,
-        "recent30": 0
-      },
-      {
-        "fund": "Sienna",
-        "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s).",
-        "coverage": 2,
-        "sector_count": 2,
-        "recent30": 0
-      },
-      {
-        "fund": "Khosla Ventures",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 13 attributed deal(s), 8 in the last 30d.",
-        "coverage": 13,
-        "sector_count": 1,
-        "recent30": 8
-      },
-      {
-        "fund": "Menlo Ventures",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 10 attributed deal(s), 8 in the last 30d.",
-        "coverage": 10,
-        "sector_count": 1,
-        "recent30": 8
-      },
-      {
-        "fund": "Google",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 10 attributed deal(s), 6 in the last 30d.",
-        "coverage": 10,
-        "sector_count": 1,
-        "recent30": 6
-      },
-      {
-        "fund": "Coatue",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 8 attributed deal(s), 7 in the last 30d.",
-        "coverage": 8,
-        "sector_count": 1,
-        "recent30": 7
-      },
-      {
-        "fund": "Insight Partners",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 8 attributed deal(s), 2 in the last 30d.",
-        "coverage": 8,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Battery Ventures",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 8 attributed deal(s), 2 in the last 30d.",
-        "coverage": 8,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Kleiner Perkins",
-        "thesis": "Revealed focus: Cybersecurity and Space Tech. 7 attributed deal(s), 5 in the last 30d.",
-        "coverage": 7,
-        "sector_count": 1,
-        "recent30": 5
-      },
-      {
-        "fund": "Radical Ventures",
-        "thesis": "Revealed focus: Space Tech and AI / ML Infra. 7 attributed deal(s), 3 in the last 30d.",
-        "coverage": 7,
-        "sector_count": 1,
-        "recent30": 3
-      },
-      {
-        "fund": "BlackRock",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 6 attributed deal(s), 3 in the last 30d.",
-        "coverage": 6,
-        "sector_count": 1,
-        "recent30": 3
-      },
-      {
-        "fund": "EQT",
-        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 5 attributed deal(s), 4 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 1,
-        "recent30": 4
-      },
-      {
-        "fund": "Lightspeed Venture Partners",
-        "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 4 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 1,
-        "recent30": 4
-      },
-      {
-        "fund": "NightDragon",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s), 5 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 1,
-        "recent30": 5
-      },
-      {
-        "fund": "NEA",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s), 5 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 1,
-        "recent30": 5
-      },
-      {
-        "fund": "ICONIQ",
-        "thesis": "Revealed focus: Space Tech and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
-        "coverage": 4,
-        "sector_count": 1,
-        "recent30": 4
-      },
-      {
-        "fund": "Intel Capital",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s).",
-        "coverage": 4,
-        "sector_count": 1,
-        "recent30": 0
-      },
-      {
-        "fund": "Dell Technologies Capital",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s).",
-        "coverage": 4,
-        "sector_count": 1,
-        "recent30": 0
-      },
-      {
-        "fund": "Plural",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Fintech / Payments. 4 attributed deal(s), 3 in the last 30d.",
-        "coverage": 4,
-        "sector_count": 1,
-        "recent30": 3
-      },
-      {
-        "fund": "Thrive Capital",
-        "thesis": "Revealed focus: Healthtech / Bio and Coexistence / Empowerment. 4 attributed deal(s), 2 in the last 30d.",
-        "coverage": 4,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Disruptive",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 3
-      },
-      {
-        "fund": "Prysm Capital",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 3
-      },
-      {
-        "fund": "Goldman Sachs Alternatives",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 1 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 1
-      },
-      {
-        "fund": "BDC Capital",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 3
-      },
-      {
-        "fund": "Blackstone",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 2 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Eurazeo",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 2 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Lux Capital",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 3
-      },
-      {
-        "fund": "Cyberstarts",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 2 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Nvidia Ventures",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s).",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 0
-      },
-      {
-        "fund": "Accel",
-        "thesis": "Revealed focus: Space Tech and Fintech / Payments. 3 attributed deal(s), 1 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 1
-      },
-      {
-        "fund": "D1 Capital Partners",
-        "thesis": "Revealed focus: AI / ML Infra and Coexistence / Empowerment. 3 attributed deal(s), 2 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Smash Capital",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Avra",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Summit Partners",
-        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
-      },
-      {
-        "fund": "Prime Movers Lab",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s).",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 0
-      },
-      {
-        "fund": "LocalGlobe",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s).",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 0
-      },
-      {
-        "fund": "Dragonfly",
-        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
-      },
-      {
-        "fund": "Earlybird",
-        "thesis": "Revealed focus: Fintech / Payments and Space Tech. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
-      },
-      {
-        "fund": "Pear VC",
-        "thesis": "Revealed focus: Fintech / Payments and Healthtech / Bio. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Nexus Venture Partners",
-        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "redalpine",
-        "thesis": "Revealed focus: Fintech / Payments and Coexistence / Empowerment. 2 attributed deal(s).",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 0
-      },
-      {
-        "fund": "Northzone",
-        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 2 attributed deal(s).",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 0
-      }
-    ],
     "AI / ML Infra": [
       {
         "fund": "Nvidia",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 18 attributed deal(s), 12 in the last 30d.",
-        "coverage": 18,
-        "sector_count": 4,
-        "recent30": 12
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 19 attributed deal(s), 13 in the last 30d.",
+        "coverage": 19,
+        "sector_count": 5,
+        "recent30": 13
       },
       {
         "fund": "Menlo Ventures",
@@ -11716,6 +11293,435 @@
         "recent30": 0
       }
     ],
+    "Fintech / Payments": [
+      {
+        "fund": "Nvidia",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 19 attributed deal(s), 13 in the last 30d.",
+        "coverage": 19,
+        "sector_count": 4,
+        "recent30": 13
+      },
+      {
+        "fund": "Andreessen Horowitz",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 15 attributed deal(s), 7 in the last 30d.",
+        "coverage": 15,
+        "sector_count": 3,
+        "recent30": 7
+      },
+      {
+        "fund": "Index Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 10 attributed deal(s), 6 in the last 30d.",
+        "coverage": 10,
+        "sector_count": 3,
+        "recent30": 6
+      },
+      {
+        "fund": "Forerunner",
+        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 5 attributed deal(s), 2 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 3,
+        "recent30": 2
+      },
+      {
+        "fund": "CRV",
+        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 3,
+        "recent30": 5
+      },
+      {
+        "fund": "Atomico",
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 3,
+        "recent30": 4
+      },
+      {
+        "fund": "Paradigm",
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 4 attributed deal(s), 1 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 3,
+        "recent30": 1
+      },
+      {
+        "fund": "Amex Ventures",
+        "thesis": "Revealed focus: Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 3,
+        "recent30": 3
+      },
+      {
+        "fund": "Sequoia Capital",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 13 attributed deal(s), 8 in the last 30d.",
+        "coverage": 13,
+        "sector_count": 2,
+        "recent30": 8
+      },
+      {
+        "fund": "Eclipse",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 6 attributed deal(s), 5 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 2,
+        "recent30": 5
+      },
+      {
+        "fund": "Bain Capital Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 6 attributed deal(s), 4 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 2,
+        "recent30": 4
+      },
+      {
+        "fund": "FirstMark",
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 2,
+        "recent30": 1
+      },
+      {
+        "fund": "Tiger Global",
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 2,
+        "recent30": 2
+      },
+      {
+        "fund": "Primary",
+        "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 2
+      },
+      {
+        "fund": "Lakestar",
+        "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 1
+      },
+      {
+        "fund": "Hummingbird",
+        "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 1
+      },
+      {
+        "fund": "Elefund",
+        "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s).",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 0
+      },
+      {
+        "fund": "Opera Tech Ventures",
+        "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s).",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 0
+      },
+      {
+        "fund": "115K",
+        "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s).",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 0
+      },
+      {
+        "fund": "13books Capital",
+        "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s).",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 0
+      },
+      {
+        "fund": "Sienna",
+        "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s).",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 0
+      },
+      {
+        "fund": "Khosla Ventures",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 13 attributed deal(s), 8 in the last 30d.",
+        "coverage": 13,
+        "sector_count": 1,
+        "recent30": 8
+      },
+      {
+        "fund": "Menlo Ventures",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 10 attributed deal(s), 8 in the last 30d.",
+        "coverage": 10,
+        "sector_count": 1,
+        "recent30": 8
+      },
+      {
+        "fund": "Google",
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 10 attributed deal(s), 6 in the last 30d.",
+        "coverage": 10,
+        "sector_count": 1,
+        "recent30": 6
+      },
+      {
+        "fund": "Coatue",
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 8 attributed deal(s), 7 in the last 30d.",
+        "coverage": 8,
+        "sector_count": 1,
+        "recent30": 7
+      },
+      {
+        "fund": "Insight Partners",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 8 attributed deal(s), 2 in the last 30d.",
+        "coverage": 8,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Battery Ventures",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 8 attributed deal(s), 2 in the last 30d.",
+        "coverage": 8,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Kleiner Perkins",
+        "thesis": "Revealed focus: Cybersecurity and Space Tech. 7 attributed deal(s), 5 in the last 30d.",
+        "coverage": 7,
+        "sector_count": 1,
+        "recent30": 5
+      },
+      {
+        "fund": "Radical Ventures",
+        "thesis": "Revealed focus: Space Tech and AI / ML Infra. 7 attributed deal(s), 3 in the last 30d.",
+        "coverage": 7,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
+        "fund": "BlackRock",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 6 attributed deal(s), 3 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
+        "fund": "EQT",
+        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 5 attributed deal(s), 4 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 4
+      },
+      {
+        "fund": "Lightspeed Venture Partners",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 4 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 4
+      },
+      {
+        "fund": "NightDragon",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 5
+      },
+      {
+        "fund": "NEA",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 5
+      },
+      {
+        "fund": "ICONIQ",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 4
+      },
+      {
+        "fund": "Intel Capital",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s).",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 0
+      },
+      {
+        "fund": "Dell Technologies Capital",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s).",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 0
+      },
+      {
+        "fund": "Plural",
+        "thesis": "Revealed focus: Coexistence / Empowerment and Fintech / Payments. 4 attributed deal(s), 3 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
+        "fund": "Thrive Capital",
+        "thesis": "Revealed focus: Healthtech / Bio and Coexistence / Empowerment. 4 attributed deal(s), 2 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Disruptive",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
+        "fund": "Prysm Capital",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
+        "fund": "Goldman Sachs Alternatives",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 1 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
+        "fund": "BDC Capital",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
+        "fund": "Blackstone",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Eurazeo",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Lux Capital",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
+        "fund": "Cyberstarts",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Nvidia Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s).",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 0
+      },
+      {
+        "fund": "Accel",
+        "thesis": "Revealed focus: Space Tech and Fintech / Payments. 3 attributed deal(s), 1 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
+        "fund": "D1 Capital Partners",
+        "thesis": "Revealed focus: AI / ML Infra and Coexistence / Empowerment. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Smash Capital",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Avra",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Summit Partners",
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
+        "fund": "Prime Movers Lab",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s).",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 0
+      },
+      {
+        "fund": "LocalGlobe",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s).",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 0
+      },
+      {
+        "fund": "Dragonfly",
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
+        "fund": "Earlybird",
+        "thesis": "Revealed focus: Fintech / Payments and Space Tech. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
+        "fund": "Pear VC",
+        "thesis": "Revealed focus: Fintech / Payments and Healthtech / Bio. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Nexus Venture Partners",
+        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "redalpine",
+        "thesis": "Revealed focus: Fintech / Payments and Coexistence / Empowerment. 2 attributed deal(s).",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 0
+      },
+      {
+        "fund": "Northzone",
+        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 2 attributed deal(s).",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 0
+      }
+    ],
     "Climate / Energy": [
       {
         "fund": "Breakthrough Energy Ventures",
@@ -11782,10 +11788,10 @@
       },
       {
         "fund": "Nvidia",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 18 attributed deal(s), 12 in the last 30d.",
-        "coverage": 18,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 19 attributed deal(s), 13 in the last 30d.",
+        "coverage": 19,
         "sector_count": 1,
-        "recent30": 12
+        "recent30": 13
       },
       {
         "fund": "Sequoia Capital",
@@ -12141,10 +12147,10 @@
     "Marketing / Ads": [
       {
         "fund": "Nvidia",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 18 attributed deal(s), 12 in the last 30d.",
-        "coverage": 18,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 19 attributed deal(s), 13 in the last 30d.",
+        "coverage": 19,
         "sector_count": 1,
-        "recent30": 12
+        "recent30": 13
       },
       {
         "fund": "Coatue",
@@ -12423,10 +12429,10 @@
       },
       {
         "fund": "Nvidia",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 18 attributed deal(s), 12 in the last 30d.",
-        "coverage": 18,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 19 attributed deal(s), 13 in the last 30d.",
+        "coverage": 19,
         "sector_count": 1,
-        "recent30": 12
+        "recent30": 13
       },
       {
         "fund": "Sequoia Capital",

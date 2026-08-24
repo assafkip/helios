@@ -1,33 +1,33 @@
 {
-  "generated": "2026-08-24T02:59:52Z",
+  "generated": "2026-08-24T03:59:31Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 17887,
-      "recent7": 2606,
+      "total": 17897,
+      "recent7": 2616,
       "sparkline": [
         2319,
         2578,
         2988,
-        2606
+        2616
       ],
       "momentum_pct": 18,
       "momentum_basis": "7d",
       "hard_count": 627,
       "hard_ratio": 0.035,
       "exit_count": 76,
-      "talk_count": 17027,
+      "talk_count": 17037,
       "whitespace_score": 27.2,
       "rising": [
         {
           "term": "prnewswire",
-          "count": 857,
-          "delta": 175
+          "count": 859,
+          "delta": 177
         },
         {
           "term": "x2026",
-          "count": 961,
-          "delta": 167
+          "count": 963,
+          "delta": 169
         },
         {
           "term": "securities",
@@ -41,8 +41,8 @@
         },
         {
           "term": "x2019",
-          "count": 563,
-          "delta": 104
+          "count": 564,
+          "delta": 105
         },
         {
           "term": "lawsuit",
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 2476
+          "count": 2483
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 784
+          "count": 785
         },
         {
           "name": "ProductHunt",
@@ -95,13 +95,13 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 2477,
-      "recent7": 277,
+      "total": 2478,
+      "recent7": 278,
       "sparkline": [
         358,
         352,
         353,
-        277
+        278
       ],
       "momentum_pct": 13,
       "momentum_basis": "7d",
@@ -137,6 +137,11 @@
           "delta": 15
         },
         {
+          "term": "firm",
+          "count": 63,
+          "delta": 14
+        },
+        {
           "term": "reported",
           "count": 48,
           "delta": 14
@@ -145,11 +150,6 @@
           "term": "crypto assets",
           "count": 16,
           "delta": 14
-        },
-        {
-          "term": "bitcoin",
-          "count": 67,
-          "delta": 13
         }
       ],
       "movers": [
@@ -794,15 +794,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2606,
+        "recent7": 2616,
         "momentum_pct": 18,
         "momentum_basis": "7d",
-        "total": 17887,
+        "total": 17897,
         "sparkline": [
           2319,
           2578,
           2988,
-          2606
+          2616
         ],
         "hard_ratio": 0.035,
         "whitespace_score": 27.2
@@ -810,15 +810,15 @@
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 277,
+        "recent7": 278,
         "momentum_pct": 13,
         "momentum_basis": "7d",
-        "total": 2477,
+        "total": 2478,
         "sparkline": [
           358,
           352,
           353,
-          277
+          278
         ],
         "hard_ratio": 0.087,
         "whitespace_score": 9.6
@@ -939,13 +939,13 @@
     "rising": [
       {
         "term": "prnewswire",
-        "count": 857,
-        "delta": 175
+        "count": 859,
+        "delta": 177
       },
       {
         "term": "x2026",
-        "count": 961,
-        "delta": 167
+        "count": 963,
+        "delta": 169
       },
       {
         "term": "securities",
@@ -959,8 +959,8 @@
       },
       {
         "term": "x2019",
-        "count": 563,
-        "delta": 104
+        "count": 564,
+        "delta": 105
       },
       {
         "term": "action",
@@ -1110,6 +1110,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 27279
+    "total_signals": 27290
   }
 }

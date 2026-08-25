@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-25T13:46:15Z",
+  "generated": "2026-08-25T14:41:15Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 791,
-    "deal_rows_attributed": 370,
+    "deal_rows_seen": 794,
+    "deal_rows_attributed": 371,
     "funds_tracked": 230,
-    "fetch_attempts": 86,
-    "fetchable_pct": 5,
+    "fetch_attempts": 85,
+    "fetchable_pct": 2,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -1553,6 +1553,75 @@
       ]
     },
     {
+      "fund": "CRV",
+      "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 6 attributed deal(s), 6 in the last 30d.",
+      "coverage": 6,
+      "sectors": [
+        {
+          "label": "Fintech / Payments",
+          "count": 3,
+          "weight": 3.0
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Marketing / Ads",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 6,
+      "recent90": 6,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-25",
+          "summary": "Alice Raises $140M to Expand AI Model Defenses and Enterprise Guardrails",
+          "url": "https://www.securityweek.com/alice-raises-140m-to-expand-ai-model-defenses-and-enterprise-guardrails/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-13",
+          "summary": "CodeRabbit Raises $143 Million at $1.5 Billion Valuation to Govern AI-Generated Code",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/coderabbit-raises-143-million-at-1-5-billion-valuation-to-govern-ai-generated-code/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-05",
+          "summary": "Core banking startup Maximum closes $30 million Seed round",
+          "url": "https://www.finextra.com/newsarticle/48197/core-banking-startup-maximum-closes-30-million-seed-round?utm_medium=rssfinextra&utm_source=finextrafeed"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-05",
+          "summary": "Maximum Emerges From Stealth With $30 Million to Build AI Banking OS",
+          "url": "https://www.pymnts.com/news/investment-tracker/2026/maximum-emerges-from-stealth-with-30-million-to-build-ai-banking-os/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-05",
+          "summary": "Airtable Just Sold for $2.25B at 2.7x ARR. It Raised $1.4B and Was Once Worth $11.7B. This Was \u2026 Market",
+          "url": "https://www.saastr.com/airtable-just-sold-for-2-25b-at-2-7x-arr-it-raised-1-4b-and-was-once-worth-11-7b/"
+        },
+        {
+          "sector": "Marketing / Ads",
+          "date": "2026-08-05",
+          "summary": "Airtable Just Sold for $2.25B at 2.7x ARR. It Raised $1.4B and Was Once Worth $11.7B. This Was \u2026 Market",
+          "url": "https://www.saastr.com/airtable-just-sold-for-2-25b-at-2-7x-arr-it-raised-1-4b-and-was-once-worth-11-7b/"
+        }
+      ]
+    },
+    {
       "fund": "8VC",
       "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 6 attributed deal(s), 5 in the last 30d.",
       "coverage": 6,
@@ -3052,60 +3121,101 @@
       ]
     },
     {
-      "fund": "CRV",
-      "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
-      "coverage": 5,
+      "fund": "Resolute Ventures",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 1 in the last 30d.",
+      "coverage": 4,
       "sectors": [
         {
-          "label": "Fintech / Payments",
+          "label": "Cybersecurity",
           "count": 3,
-          "weight": 3.0
+          "weight": 2.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 4,
+      "prior30": 3,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-25",
+          "summary": "Alice Raises $140M to Expand AI Model Defenses and Enterprise Guardrails",
+          "url": "https://www.securityweek.com/alice-raises-140m-to-expand-ai-model-defenses-and-enterprise-guardrails/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-07",
+          "summary": "Savi\u2019s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
+          "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-07",
+          "summary": "Savi\u2019s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
+          "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-07",
+          "summary": "Savi\u2019s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
+          "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/"
+        }
+      ]
+    },
+    {
+      "fund": "NFX",
+      "thesis": "Revealed focus: Space Tech and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
+      "coverage": 4,
+      "sectors": [
+        {
+          "label": "Space Tech",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
         },
         {
           "label": "AI / ML Infra",
           "count": 1,
           "weight": 1.0
-        },
-        {
-          "label": "Marketing / Ads",
-          "count": 1,
-          "weight": 1.0
         }
       ],
-      "recent30": 5,
-      "recent90": 5,
+      "recent30": 4,
+      "recent90": 4,
       "prior30": 0,
-      "last_deal_days": 12,
+      "last_deal_days": 0,
       "deals": [
         {
-          "sector": "Fintech / Payments",
-          "date": "2026-08-13",
-          "summary": "CodeRabbit Raises $143 Million at $1.5 Billion Valuation to Govern AI-Generated Code",
-          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/coderabbit-raises-143-million-at-1-5-billion-valuation-to-govern-ai-generated-code/"
+          "sector": "Cybersecurity",
+          "date": "2026-08-25",
+          "summary": "Alice Raises $140M to Expand AI Model Defenses and Enterprise Guardrails",
+          "url": "https://www.securityweek.com/alice-raises-140m-to-expand-ai-model-defenses-and-enterprise-guardrails/"
         },
         {
-          "sector": "Fintech / Payments",
-          "date": "2026-08-05",
-          "summary": "Core banking startup Maximum closes $30 million Seed round",
-          "url": "https://www.finextra.com/newsarticle/48197/core-banking-startup-maximum-closes-30-million-seed-round?utm_medium=rssfinextra&utm_source=finextrafeed"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-08-05",
-          "summary": "Maximum Emerges From Stealth With $30 Million to Build AI Banking OS",
-          "url": "https://www.pymnts.com/news/investment-tracker/2026/maximum-emerges-from-stealth-with-30-million-to-build-ai-banking-os/"
+          "sector": "Space Tech",
+          "date": "2026-08-24",
+          "summary": "Starcloud Announces $250M Series A Extension",
+          "url": "https://payloadspace.com/starcloud-announces-250m-series-a-extension/"
         },
         {
           "sector": "AI / ML Infra",
-          "date": "2026-08-05",
-          "summary": "Airtable Just Sold for $2.25B at 2.7x ARR. It Raised $1.4B and Was Once Worth $11.7B. This Was \u2026 Market",
-          "url": "https://www.saastr.com/airtable-just-sold-for-2-25b-at-2-7x-arr-it-raised-1-4b-and-was-once-worth-11-7b/"
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
         },
         {
-          "sector": "Marketing / Ads",
-          "date": "2026-08-05",
-          "summary": "Airtable Just Sold for $2.25B at 2.7x ARR. It Raised $1.4B and Was Once Worth $11.7B. This Was \u2026 Market",
-          "url": "https://www.saastr.com/airtable-just-sold-for-2-25b-at-2-7x-arr-it-raised-1-4b-and-was-once-worth-11-7b/"
+          "sector": "Space Tech",
+          "date": "2026-08-21",
+          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
         }
       ]
     },
@@ -5273,47 +5383,6 @@
       ]
     },
     {
-      "fund": "Resolute Ventures",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s).",
-      "coverage": 3,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 2,
-          "weight": 1.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 0,
-      "recent90": 3,
-      "prior30": 3,
-      "last_deal_days": 49,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-07",
-          "summary": "Savi\u2019s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
-          "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-07",
-          "summary": "Savi\u2019s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
-          "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-07-07",
-          "summary": "Savi\u2019s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
-          "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/"
-        }
-      ]
-    },
-    {
       "fund": "Amex Ventures",
       "thesis": "Revealed focus: Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
       "coverage": 3,
@@ -5392,47 +5461,6 @@
           "date": "2026-07-06",
           "summary": "Thrive Holdings Raises $2 Billion to Buy and Rewire Services Firms With AI",
           "url": "https://www.pymnts.com/news/artificial-intelligence/2026/thrive-holdings-raises-2-billion-to-buy-and-rewire-services-firms-with-ai/"
-        }
-      ]
-    },
-    {
-      "fund": "NFX",
-      "thesis": "Revealed focus: Space Tech and AI / ML Infra. 3 attributed deal(s), 3 in the last 30d.",
-      "coverage": 3,
-      "sectors": [
-        {
-          "label": "Space Tech",
-          "count": 2,
-          "weight": 2.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 3,
-      "recent90": 3,
-      "prior30": 0,
-      "last_deal_days": 1,
-      "deals": [
-        {
-          "sector": "Space Tech",
-          "date": "2026-08-24",
-          "summary": "Starcloud Announces $250M Series A Extension",
-          "url": "https://payloadspace.com/starcloud-announces-250m-series-a-extension/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-08-21",
-          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
-          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
-        },
-        {
-          "sector": "Space Tech",
-          "date": "2026-08-21",
-          "summary": "Starcloud raises $250 million for orbital data centers as launch options dry up",
-          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
         }
       ]
     },
@@ -10239,6 +10267,13 @@
         "recent30": 4
       },
       {
+        "fund": "Resolute Ventures",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 1 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 3,
+        "recent30": 1
+      },
+      {
         "fund": "IDG Capital",
         "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 4 attributed deal(s), 2 in the last 30d.",
         "coverage": 4,
@@ -10449,13 +10484,6 @@
         "recent30": 0
       },
       {
-        "fund": "Resolute Ventures",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s).",
-        "coverage": 3,
-        "sector_count": 2,
-        "recent30": 0
-      },
-      {
         "fund": "Blue Cloud Ventures",
         "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -10561,6 +10589,13 @@
         "recent30": 0
       },
       {
+        "fund": "CRV",
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 6 attributed deal(s), 6 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 1,
+        "recent30": 6
+      },
+      {
         "fund": "Salesforce Ventures",
         "thesis": "Revealed focus: Space Tech and Cybersecurity. 6 attributed deal(s), 6 in the last 30d.",
         "coverage": 6,
@@ -10627,6 +10662,13 @@
         "fund": "Cisco",
         "thesis": "Revealed focus: Space Tech and AI / ML Infra. 5 attributed deal(s), 4 in the last 30d.",
         "coverage": 5,
+        "sector_count": 1,
+        "recent30": 4
+      },
+      {
+        "fund": "NFX",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
+        "coverage": 4,
         "sector_count": 1,
         "recent30": 4
       },
@@ -11228,18 +11270,18 @@
         "recent30": 6
       },
       {
+        "fund": "CRV",
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 6 attributed deal(s), 6 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 3,
+        "recent30": 6
+      },
+      {
         "fund": "Forerunner",
         "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 5 attributed deal(s), 2 in the last 30d.",
         "coverage": 5,
         "sector_count": 3,
         "recent30": 2
-      },
-      {
-        "fund": "CRV",
-        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 3,
-        "recent30": 5
       },
       {
         "fund": "Atomico",
@@ -11755,6 +11797,13 @@
         "recent30": 7
       },
       {
+        "fund": "CRV",
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 6 attributed deal(s), 6 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 1,
+        "recent30": 6
+      },
+      {
         "fund": "8VC",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 6 attributed deal(s), 5 in the last 30d.",
         "coverage": 6,
@@ -11839,11 +11888,18 @@
         "recent30": 4
       },
       {
-        "fund": "CRV",
-        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
-        "coverage": 5,
+        "fund": "Resolute Ventures",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 1 in the last 30d.",
+        "coverage": 4,
         "sector_count": 1,
-        "recent30": 5
+        "recent30": 1
+      },
+      {
+        "fund": "NFX",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 4
       },
       {
         "fund": "Ribbit Capital",
@@ -11944,25 +12000,11 @@
         "recent30": 0
       },
       {
-        "fund": "Resolute Ventures",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s).",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 0
-      },
-      {
         "fund": "D1 Capital Partners",
         "thesis": "Revealed focus: AI / ML Infra and Coexistence / Empowerment. 3 attributed deal(s), 2 in the last 30d.",
         "coverage": 3,
         "sector_count": 1,
         "recent30": 2
-      },
-      {
-        "fund": "NFX",
-        "thesis": "Revealed focus: Space Tech and AI / ML Infra. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 3
       },
       {
         "fund": "Cedar Capital",
@@ -12704,6 +12746,13 @@
         "recent30": 5
       },
       {
+        "fund": "CRV",
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 6 attributed deal(s), 6 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 1,
+        "recent30": 6
+      },
+      {
         "fund": "Salesforce Ventures",
         "thesis": "Revealed focus: Space Tech and Cybersecurity. 6 attributed deal(s), 6 in the last 30d.",
         "coverage": 6,
@@ -12723,13 +12772,6 @@
         "coverage": 5,
         "sector_count": 1,
         "recent30": 4
-      },
-      {
-        "fund": "CRV",
-        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 1,
-        "recent30": 5
       },
       {
         "fund": "Thrive",
@@ -12923,6 +12965,13 @@
         "recent30": 4
       },
       {
+        "fund": "NFX",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 2,
+        "recent30": 4
+      },
+      {
         "fund": "ICONIQ",
         "thesis": "Revealed focus: Space Tech and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
         "coverage": 4,
@@ -12942,13 +12991,6 @@
         "coverage": 3,
         "sector_count": 2,
         "recent30": 2
-      },
-      {
-        "fund": "NFX",
-        "thesis": "Revealed focus: Space Tech and AI / ML Infra. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 2,
-        "recent30": 3
       },
       {
         "fund": "Cedar Capital",

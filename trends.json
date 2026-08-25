@@ -1,33 +1,33 @@
 {
-  "generated": "2026-08-25T05:28:11Z",
+  "generated": "2026-08-25T06:40:25Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 18472,
-      "recent7": 2702,
+      "total": 18490,
+      "recent7": 2720,
       "sparkline": [
         2319,
         2664,
         3008,
-        2702
+        2720
       ],
       "momentum_pct": 18,
       "momentum_basis": "7d",
-      "hard_count": 647,
+      "hard_count": 648,
       "hard_ratio": 0.035,
       "exit_count": 79,
-      "talk_count": 17579,
+      "talk_count": 17595,
       "whitespace_score": 27.2,
       "rising": [
         {
           "term": "prnewswire",
-          "count": 902,
-          "delta": 167
+          "count": 904,
+          "delta": 169
         },
         {
           "term": "x2026",
-          "count": 982,
-          "delta": 153
+          "count": 987,
+          "delta": 158
         },
         {
           "term": "securities",
@@ -55,21 +55,21 @@
           "delta": 84
         },
         {
-          "term": "law",
-          "count": 395,
-          "delta": 81
+          "term": "x2019",
+          "count": 572,
+          "delta": 83
         }
       ],
       "movers": [
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 2539
+          "count": 2550
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 786
+          "count": 788
         },
         {
           "name": "ProductHunt",
@@ -79,7 +79,7 @@
         {
           "name": "Security Conferences",
           "firm": "conference",
-          "count": 91
+          "count": 94
         },
         {
           "name": "Security Affairs",
@@ -95,21 +95,21 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 2551,
-      "recent7": 289,
+      "total": 2552,
+      "recent7": 290,
       "sparkline": [
         355,
         361,
         342,
-        289
+        290
       ],
       "momentum_pct": 13,
       "momentum_basis": "7d",
       "hard_count": 226,
       "hard_ratio": 0.089,
       "exit_count": 104,
-      "talk_count": 2135,
-      "whitespace_score": 9.4,
+      "talk_count": 2136,
+      "whitespace_score": 9.5,
       "rising": [
         {
           "term": "cash",
@@ -137,6 +137,11 @@
           "delta": 14
         },
         {
+          "term": "native",
+          "count": 18,
+          "delta": 13
+        },
+        {
           "term": "meeting",
           "count": 16,
           "delta": 13
@@ -145,18 +150,13 @@
           "term": "anthropic",
           "count": 27,
           "delta": 12
-        },
-        {
-          "term": "rewards",
-          "count": 19,
-          "delta": 12
         }
       ],
       "movers": [
         {
           "name": "Sifted",
           "firm": "Sifted",
-          "count": 34
+          "count": 35
         },
         {
           "name": "Tearsheet",
@@ -794,15 +794,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2702,
+        "recent7": 2720,
         "momentum_pct": 18,
         "momentum_basis": "7d",
-        "total": 18472,
+        "total": 18490,
         "sparkline": [
           2319,
           2664,
           3008,
-          2702
+          2720
         ],
         "hard_ratio": 0.035,
         "whitespace_score": 27.2
@@ -810,18 +810,18 @@
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 289,
+        "recent7": 290,
         "momentum_pct": 13,
         "momentum_basis": "7d",
-        "total": 2551,
+        "total": 2552,
         "sparkline": [
           355,
           361,
           342,
-          289
+          290
         ],
         "hard_ratio": 0.089,
-        "whitespace_score": 9.4
+        "whitespace_score": 9.5
       },
       {
         "id": "climate",
@@ -939,18 +939,18 @@
     "rising": [
       {
         "term": "prnewswire",
-        "count": 902,
-        "delta": 167
+        "count": 904,
+        "delta": 169
+      },
+      {
+        "term": "x2026",
+        "count": 987,
+        "delta": 158
       },
       {
         "term": "securities",
         "count": 408,
         "delta": 155
-      },
-      {
-        "term": "x2026",
-        "count": 982,
-        "delta": 153
       },
       {
         "term": "x131",
@@ -964,8 +964,8 @@
       },
       {
         "term": "x2019",
-        "count": 569,
-        "delta": 80
+        "count": 572,
+        "delta": 83
       },
       {
         "term": "investors",
@@ -1110,6 +1110,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 28103
+    "total_signals": 28122
   }
 }

@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-25T17:28:33Z",
+  "generated": "2026-08-25T18:34:54Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 798,
-    "deal_rows_attributed": 372,
+    "deal_rows_seen": 801,
+    "deal_rows_attributed": 373,
     "funds_tracked": 230,
-    "fetch_attempts": 83,
-    "fetchable_pct": 0,
+    "fetch_attempts": 86,
+    "fetchable_pct": 3,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -4540,6 +4540,52 @@
       ]
     },
     {
+      "fund": "Koch Disruptive Technologies",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Climate / Energy",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 3,
+      "recent90": 3,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-25",
+          "summary": "Gatik Raises $200 Million to Expand Autonomous Trucking Model",
+          "url": "https://www.pymnts.com/news/investment-tracker/2026/gatik-raises-200-million-to-expand-autonomous-trucking-model/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-15",
+          "summary": "Every fusion startup that has raised over $100M",
+          "url": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-15",
+          "summary": "Every fusion startup that has raised over $100M",
+          "url": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/"
+        }
+      ]
+    },
+    {
       "fund": "GV",
       "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 3 attributed deal(s), 2 in the last 30d.",
       "coverage": 3,
@@ -6404,41 +6450,6 @@
     },
     {
       "fund": "Energy Ventures Group",
-      "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 2 attributed deal(s), 2 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Climate / Energy",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 2,
-      "recent90": 2,
-      "prior30": 0,
-      "last_deal_days": 10,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-15",
-          "summary": "Every fusion startup that has raised over $100M",
-          "url": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-08-15",
-          "summary": "Every fusion startup that has raised over $100M",
-          "url": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/"
-        }
-      ]
-    },
-    {
-      "fund": "Koch Disruptive Technologies",
       "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
       "sectors": [
@@ -10754,6 +10765,13 @@
         "recent30": 2
       },
       {
+        "fund": "Koch Disruptive Technologies",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "GV",
         "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 3 attributed deal(s), 2 in the last 30d.",
         "coverage": 3,
@@ -10902,13 +10920,6 @@
       },
       {
         "fund": "Energy Ventures Group",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Koch Disruptive Technologies",
         "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,
@@ -11566,6 +11577,13 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 1
+      },
+      {
+        "fund": "Koch Disruptive Technologies",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
       },
       {
         "fund": "BDC Capital",
@@ -12482,6 +12500,13 @@
         "recent30": 2
       },
       {
+        "fund": "Koch Disruptive Technologies",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "GV",
         "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 3 attributed deal(s), 2 in the last 30d.",
         "coverage": 3,
@@ -12560,13 +12585,6 @@
       },
       {
         "fund": "Energy Ventures Group",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Koch Disruptive Technologies",
         "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,

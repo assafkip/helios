@@ -1,28 +1,33 @@
 {
-  "generated": "2026-08-29T19:08:44Z",
+  "generated": "2026-08-29T22:17:12Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 19803,
-      "recent7": 2170,
+      "total": 19834,
+      "recent7": 2201,
       "sparkline": [
         2377,
         2954,
         3164,
-        2170
+        2201
       ],
       "momentum_pct": 13,
       "momentum_basis": "7d",
-      "hard_count": 697,
+      "hard_count": 699,
       "hard_ratio": 0.035,
       "exit_count": 87,
-      "talk_count": 18846,
+      "talk_count": 18875,
       "whitespace_score": 27.0,
       "rising": [
         {
           "term": "data",
-          "count": 445,
-          "delta": 56
+          "count": 448,
+          "delta": 59
+        },
+        {
+          "term": "securities",
+          "count": 322,
+          "delta": 44
         },
         {
           "term": "x131",
@@ -35,24 +40,19 @@
           "delta": 40
         },
         {
-          "term": "securities",
-          "count": 316,
-          "delta": 38
-        },
-        {
           "term": "group",
           "count": 244,
+          "delta": 36
+        },
+        {
+          "term": "identity",
+          "count": 94,
           "delta": 36
         },
         {
           "term": "shanghai",
           "count": 57,
           "delta": 36
-        },
-        {
-          "term": "identity",
-          "count": 93,
-          "delta": 35
         },
         {
           "term": "und",
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 2281
+          "count": 2291
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 695
+          "count": 703
         },
         {
           "name": "ProductHunt",
@@ -84,7 +84,7 @@
         {
           "name": "Security Affairs",
           "firm": "blog",
-          "count": 67
+          "count": 68
         },
         {
           "name": "Ping Li",
@@ -627,25 +627,30 @@
     },
     "space-tech": {
       "label": "Space Tech",
-      "total": 1233,
-      "recent7": 111,
+      "total": 1234,
+      "recent7": 112,
       "sparkline": [
         119,
         147,
         161,
-        111
+        112
       ],
       "momentum_pct": 10,
       "momentum_basis": "7d",
       "hard_count": 65,
       "hard_ratio": 0.053,
       "exit_count": 13,
-      "talk_count": 1123,
+      "talk_count": 1124,
       "whitespace_score": 17.3,
       "rising": [
         {
           "term": "telescope",
-          "count": 38,
+          "count": 40,
+          "delta": 25
+        },
+        {
+          "term": "roman",
+          "count": 23,
           "delta": 23
         },
         {
@@ -654,19 +659,14 @@
           "delta": 23
         },
         {
-          "term": "roman",
-          "count": 21,
-          "delta": 21
+          "term": "space telescope",
+          "count": 28,
+          "delta": 20
         },
         {
           "term": "partial",
           "count": 19,
           "delta": 19
-        },
-        {
-          "term": "space telescope",
-          "count": 26,
-          "delta": 18
         },
         {
           "term": "partial lunar",
@@ -679,9 +679,9 @@
           "delta": 16
         },
         {
-          "term": "stars",
-          "count": 20,
-          "delta": 14
+          "term": "roman space",
+          "count": 15,
+          "delta": 15
         }
       ],
       "movers": [
@@ -784,15 +784,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 2170,
+        "recent7": 2201,
         "momentum_pct": 13,
         "momentum_basis": "7d",
-        "total": 19803,
+        "total": 19834,
         "sparkline": [
           2377,
           2954,
           3164,
-          2170
+          2201
         ],
         "hard_ratio": 0.035,
         "whitespace_score": 27.0
@@ -848,15 +848,15 @@
       {
         "id": "space-tech",
         "label": "Space Tech",
-        "recent7": 111,
+        "recent7": 112,
         "momentum_pct": 10,
         "momentum_basis": "7d",
-        "total": 1233,
+        "total": 1234,
         "sparkline": [
           119,
           147,
           161,
-          111
+          112
         ],
         "hard_ratio": 0.053,
         "whitespace_score": 17.3
@@ -929,13 +929,13 @@
     "rising": [
       {
         "term": "data",
-        "count": 648,
-        "delta": 56
+        "count": 651,
+        "delta": 59
       },
       {
         "term": "securities",
-        "count": 353,
-        "delta": 52
+        "count": 359,
+        "delta": 58
       },
       {
         "term": "critical",
@@ -969,12 +969,12 @@
       },
       {
         "term": "identity",
-        "count": 103,
-        "delta": 34
+        "count": 104,
+        "delta": 35
       },
       {
-        "term": "und",
-        "count": 44,
+        "term": "account",
+        "count": 124,
         "delta": 32
       }
     ],
@@ -1100,6 +1100,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 30314
+    "total_signals": 30346
   }
 }

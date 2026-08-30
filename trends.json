@@ -1,28 +1,28 @@
 {
-  "generated": "2026-08-30T01:00:12Z",
+  "generated": "2026-08-30T06:27:00Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 19851,
-      "recent7": 1936,
+      "total": 19868,
+      "recent7": 1953,
       "sparkline": [
         2427,
         2984,
         3120,
-        1936
+        1953
       ],
       "momentum_pct": 11,
       "momentum_basis": "7d",
-      "hard_count": 699,
+      "hard_count": 701,
       "hard_ratio": 0.035,
       "exit_count": 87,
-      "talk_count": 18892,
+      "talk_count": 18907,
       "whitespace_score": 27.0,
       "rising": [
         {
           "term": "prnewswire",
-          "count": 813,
-          "delta": 44
+          "count": 818,
+          "delta": 49
         },
         {
           "term": "critical",
@@ -56,15 +56,15 @@
         },
         {
           "term": "global",
-          "count": 224,
-          "delta": 26
+          "count": 225,
+          "delta": 27
         }
       ],
       "movers": [
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 2097
+          "count": 2108
         },
         {
           "name": "Reddit Cybersecurity",
@@ -371,20 +371,20 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 1725,
-      "recent7": 191,
+      "total": 1726,
+      "recent7": 192,
       "sparkline": [
         202,
         198,
         207,
-        191
+        192
       ],
-      "momentum_pct": 12,
+      "momentum_pct": 13,
       "momentum_basis": "7d",
       "hard_count": 82,
       "hard_ratio": 0.048,
       "exit_count": 9,
-      "talk_count": 1607,
+      "talk_count": 1608,
       "whitespace_score": 19.6,
       "rising": [
         {
@@ -408,17 +408,17 @@
           "delta": 15
         },
         {
+          "term": "million",
+          "count": 27,
+          "delta": 15
+        },
+        {
           "term": "genesis",
           "count": 17,
           "delta": 15
         },
         {
           "term": "california",
-          "count": 26,
-          "delta": 14
-        },
-        {
-          "term": "million",
           "count": 26,
           "delta": 14
         },
@@ -432,7 +432,7 @@
         {
           "name": "CleanTechnica",
           "firm": "CleanTechnica",
-          "count": 137
+          "count": 138
         },
         {
           "name": "Utility Dive",
@@ -784,15 +784,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 1936,
+        "recent7": 1953,
         "momentum_pct": 11,
         "momentum_basis": "7d",
-        "total": 19851,
+        "total": 19868,
         "sparkline": [
           2427,
           2984,
           3120,
-          1936
+          1953
         ],
         "hard_ratio": 0.035,
         "whitespace_score": 27.0
@@ -816,15 +816,15 @@
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 191,
-        "momentum_pct": 12,
+        "recent7": 192,
+        "momentum_pct": 13,
         "momentum_basis": "7d",
-        "total": 1725,
+        "total": 1726,
         "sparkline": [
           202,
           198,
           207,
-          191
+          192
         ],
         "hard_ratio": 0.048,
         "whitespace_score": 19.6
@@ -933,6 +933,11 @@
         "delta": 52
       },
       {
+        "term": "prnewswire",
+        "count": 818,
+        "delta": 49
+      },
+      {
         "term": "nvidia",
         "count": 88,
         "delta": 47
@@ -941,11 +946,6 @@
         "term": "shanghai",
         "count": 66,
         "delta": 46
-      },
-      {
-        "term": "prnewswire",
-        "count": 813,
-        "delta": 44
       },
       {
         "term": "face",
@@ -959,8 +959,8 @@
       },
       {
         "term": "global",
-        "count": 287,
-        "delta": 30
+        "count": 288,
+        "delta": 31
       },
       {
         "term": "identity",
@@ -1100,6 +1100,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 30370
+    "total_signals": 30388
   }
 }

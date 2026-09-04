@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-04T10:30:18Z",
+  "generated": "2026-09-04T14:45:38Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 912,
-    "deal_rows_attributed": 426,
-    "funds_tracked": 253,
+    "deal_rows_seen": 914,
+    "deal_rows_attributed": 427,
+    "funds_tracked": 254,
     "fetch_attempts": 100,
     "fetchable_pct": 2,
     "update_cadence": "hourly"
@@ -10778,6 +10778,36 @@
       ]
     },
     {
+      "fund": "Mitsubishi Electric Corporation",
+      "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Space Tech",
+          "count": 2,
+          "weight": 2.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-04",
+          "summary": "Rocket Report: Engines installed for Artemis III; Long March 6C breakup in LEO",
+          "url": "https://arstechnica.com/space/2026/09/rocket-report-china-debuts-yet-another-new-rocket-nasa-considers-bulk-buys/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-01",
+          "summary": "PLD Space Adds \u20ac108 million to Series C Funding Round",
+          "url": "https://europeanspaceflight.com/pld-space-adds-e108-million-to-series-c-funding-round/"
+        }
+      ]
+    },
+    {
       "fund": "JIC Venture Growth Investments",
       "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -14639,6 +14669,13 @@
         "coverage": 3,
         "sector_count": 2,
         "recent30": 0
+      },
+      {
+        "fund": "Mitsubishi Electric Corporation",
+        "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 2
       },
       {
         "fund": "JIC Venture Growth Investments",

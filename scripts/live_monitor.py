@@ -47,8 +47,36 @@ logger = logging.getLogger(__name__)
 # Lookback window - signals older than this are ignored
 # 30 days to support monthly trend analysis; engagement UI highlights recent signals
 LOOKBACK_DAYS = 30
-ARCTIC_BASE = "https://arctic-shift.photon-reddit.com"
-PULLPUSH_BASE = "https://api.pullpush.io"
+def _load_reddit_transport():
+    """Walk up to the vendored `plugins/kipi-core` and import the one Arctic
+    Shift transport. Walked, not a fixed parents[N]: every caller sits at a
+    different depth, and a hardcoded depth is wired on one checkout only."""
+    import sys as _sys
+    from pathlib import Path as _Path
+    here = _Path(__file__).resolve()
+    for parent in here.parents:
+        cand = parent / "plugins" / "kipi-core"
+        if (cand / "reddit_arctic").is_dir():
+            if str(cand) not in _sys.path:
+                _sys.path.insert(0, str(cand))
+            from reddit_arctic import transport
+            return transport
+    raise RuntimeError(
+        "no plugins/kipi-core/reddit_arctic above %s; this instance has not "
+        "taken the skeleton update that ships it" % here)
+
+
+# THE TRANSPORT IS NOT DEFINED HERE ANY MORE (2026-09-04, founder-directed: "this
+# must be the only way we scrape reddit"). This file held one of FOUR independent
+# copies of the same Arctic Shift fetch found in the corpus, and they had drifted
+# on the thing that matters: this copy returned [] when both mirrors refused, so
+# a dead mirror and a quiet subreddit were the same value and nothing downstream
+# could tell them apart (sp-a5461e0a). The shared transport raises instead.
+_ARCTIC = _load_reddit_transport()
+
+ARCTIC_BASE = _ARCTIC.ARCTIC_BASE
+PULLPUSH_BASE = _ARCTIC.PULLPUSH_BASE
+RedditFetchFailed = _ARCTIC.RedditFetchFailed
 HTTP_TIMEOUT = 20
 USER_AGENT = "vc-signals/1.0 (+https://ktlystlabs.com)"
 
@@ -82,6 +110,8 @@ MONITOR_STATE_PATH = VDIR / "monitor_state.json"
 # Outreach tracker - optional per-vertical file for pipeline contact matching.
 # Standalone: lives inside this vertical's data dir; absent by default (enrichment no-ops).
 OUTREACH_TRACKER_PATH = VDIR / "outreach-tracker.json"
+
+
 
 
 def reddit_feed_entries(feed_url: str, fetch_json=None, limit: int = 10) -> List[Dict]:
@@ -123,28 +153,38 @@ def _reddit_subreddit_from_feed(feed_url: str) -> Optional[str]:
 
 
 def _reddit_archive_posts(subreddit: str, after: str, limit: int, fetch_json) -> List[Dict]:
-    try:
-        return _archive_items(fetch_json(_arctic_posts_url(subreddit, after, limit)))
-    except Exception:
-        return _archive_items(fetch_json(_pullpush_posts_url(subreddit, limit)))
+    """Arctic first, PullPush second, RAISE if both refuse.
+
+    The raise is the behaviour change. This returned [] there, which made a dead
+    mirror and a quiet subreddit the same value forever after. `fetch_json` is
+    passed through as the shared transport's `_get` seam, so every existing test
+    double keeps working.
+    """
+    raw, _mirror = _ARCTIC.fetch_posts(subreddit, limit=limit, after=after,
+                                       _get=fetch_json)
+    return raw
 
 
 def _archive_items(payload) -> List[Dict]:
+    """Restored when this file moved onto the shared transport. It accepts a
+    `results` key as well as `data`, which the shared `_items` does not, so it
+    stays local rather than becoming a delegate that quietly drops a shape this
+    collector was already handling."""
     if isinstance(payload, dict):
-        data = payload.get("data", [])
-        return data if isinstance(data, list) else []
-    return payload if isinstance(payload, list) else []
+        for key in ("data", "results"):
+            value = payload.get(key)
+            if isinstance(value, list):
+                return [item for item in value if isinstance(item, dict)]
+        return []
+    return [item for item in payload if isinstance(item, dict)] if isinstance(payload, list) else []
 
 
 def _arctic_posts_url(subreddit: str, after: str, limit: int) -> str:
-    query = urllib.parse.urlencode({"subreddit": subreddit, "after": after, "limit": limit, "sort": "desc"})
-    return f"{ARCTIC_BASE}/api/posts/search?{query}"
+    return _ARCTIC.arctic_url(subreddit, limit, after=after)
 
 
 def _pullpush_posts_url(subreddit: str, limit: int) -> str:
-    query = urllib.parse.urlencode({"subreddit": subreddit, "size": limit, "sort": "desc"})
-    return f"{PULLPUSH_BASE}/reddit/search/submission?{query}"
-
+    return _ARCTIC.pullpush_url(subreddit, limit)
 
 def _fetch_json(url: str):
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})

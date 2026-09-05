@@ -1,22 +1,22 @@
 {
-  "generated": "2026-09-05T02:44:58Z",
+  "generated": "2026-09-05T07:21:43Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 21239,
-      "recent7": 1340,
+      "total": 21275,
+      "recent7": 1374,
       "sparkline": [
         2958,
         3180,
-        2245,
-        1340
+        2246,
+        1374
       ],
       "momentum_pct": 7,
       "momentum_basis": "7d",
-      "hard_count": 758,
+      "hard_count": 759,
       "hard_ratio": 0.036,
       "exit_count": 99,
-      "talk_count": 20202,
+      "talk_count": 20237,
       "whitespace_score": 26.7,
       "rising": [
         {
@@ -25,13 +25,18 @@
           "delta": 42
         },
         {
+          "term": "ifa",
+          "count": 37,
+          "delta": 32
+        },
+        {
           "term": "airports",
           "count": 31,
           "delta": 28
         },
         {
-          "term": "ifa",
-          "count": 32,
+          "term": "berlin",
+          "count": 38,
           "delta": 27
         },
         {
@@ -42,11 +47,6 @@
         {
           "term": "chinese",
           "count": 41,
-          "delta": 24
-        },
-        {
-          "term": "berlin",
-          "count": 35,
           "delta": 24
         },
         {
@@ -64,17 +64,17 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1282
+          "count": 1294
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 558
+          "count": 563
         },
         {
           "name": "ProductHunt",
           "firm": "producthunt",
-          "count": 133
+          "count": 142
         },
         {
           "name": "Security Conferences",
@@ -366,31 +366,31 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 1936,
-      "recent7": 211,
+      "total": 1941,
+      "recent7": 216,
       "sparkline": [
         198,
         208,
         198,
-        211
+        216
       ],
-      "momentum_pct": 12,
+      "momentum_pct": 13,
       "momentum_basis": "7d",
       "hard_count": 90,
       "hard_ratio": 0.046,
       "exit_count": 11,
-      "talk_count": 1807,
+      "talk_count": 1812,
       "whitespace_score": 20.1,
       "rising": [
+        {
+          "term": "clean",
+          "count": 34,
+          "delta": 22
+        },
         {
           "term": "launch",
           "count": 38,
           "delta": 21
-        },
-        {
-          "term": "clean",
-          "count": 32,
-          "delta": 20
         },
         {
           "term": "environmental",
@@ -408,6 +408,11 @@
           "delta": 17
         },
         {
+          "term": "model",
+          "count": 27,
+          "delta": 14
+        },
+        {
           "term": "tesla model",
           "count": 17,
           "delta": 14
@@ -416,18 +421,13 @@
           "term": "cybercab",
           "count": 17,
           "delta": 13
-        },
-        {
-          "term": "nbsp",
-          "count": 20,
-          "delta": 12
         }
       ],
       "movers": [
         {
           "name": "CleanTechnica",
           "firm": "CleanTechnica",
-          "count": 123
+          "count": 128
         },
         {
           "name": "Utility Dive",
@@ -779,15 +779,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 1340,
+        "recent7": 1374,
         "momentum_pct": 7,
         "momentum_basis": "7d",
-        "total": 21239,
+        "total": 21275,
         "sparkline": [
           2958,
           3180,
-          2245,
-          1340
+          2246,
+          1374
         ],
         "hard_ratio": 0.036,
         "whitespace_score": 26.7
@@ -811,15 +811,15 @@
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 211,
-        "momentum_pct": 12,
+        "recent7": 216,
+        "momentum_pct": 13,
         "momentum_basis": "7d",
-        "total": 1936,
+        "total": 1941,
         "sparkline": [
           198,
           208,
           198,
-          211
+          216
         ],
         "hard_ratio": 0.046,
         "whitespace_score": 20.1
@@ -943,6 +943,11 @@
         "delta": 35
       },
       {
+        "term": "ifa",
+        "count": 39,
+        "delta": 34
+      },
+      {
         "term": "space telescope",
         "count": 47,
         "delta": 33
@@ -956,11 +961,6 @@
         "term": "nasa",
         "count": 97,
         "delta": 31
-      },
-      {
-        "term": "ifa",
-        "count": 34,
-        "delta": 29
       },
       {
         "term": "labor",
@@ -1095,6 +1095,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 32934
+    "total_signals": 32975
   }
 }

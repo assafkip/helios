@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-10T10:31:36Z",
+  "generated": "2026-09-10T14:47:16Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 987,
-    "deal_rows_attributed": 463,
+    "deal_rows_seen": 992,
+    "deal_rows_attributed": 467,
     "funds_tracked": 273,
-    "fetch_attempts": 105,
-    "fetchable_pct": 1,
+    "fetch_attempts": 108,
+    "fetchable_pct": 3,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -501,6 +501,123 @@
       ]
     },
     {
+      "fund": "Sequoia",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 14 attributed deal(s), 7 in the last 30d.",
+      "coverage": 14,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 7,
+          "weight": 5.5
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 3,
+          "weight": 3.0
+        },
+        {
+          "label": "Climate / Energy",
+          "count": 3,
+          "weight": 1.5
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 7,
+      "recent90": 14,
+      "prior30": 7,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-10",
+          "summary": "Defense tech Mach Industries doubles valuation to $3.7B in 3 months",
+          "url": "https://techcrunch.com/2026/09/10/defense-tech-mach-industries-doubles-valuation-to-3-7b-in-3-months/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-09",
+          "summary": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
+          "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-09",
+          "summary": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
+          "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-09",
+          "summary": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
+          "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-02",
+          "summary": "The Rise of NeoLabs",
+          "url": "https://radical.vc/articles/the-rise-of-the-neolab/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-01",
+          "summary": "AIR raises $50M to help companies vet the skills and add-ons AI agents use",
+          "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-21",
+          "summary": "How AI accounting startup Rillet raised $100M and became a unicorn in 48-hours",
+          "url": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-04",
+          "summary": "Microreactor startup Valar Atomics raises $1B",
+          "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-03",
+          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
+          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-03",
+          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
+          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-22",
+          "summary": "Glow exits stealth with $180 million to secure the AI-enabled endpoint",
+          "url": "https://www.helpnetsecurity.com/2026/07/22/glow-launches-with-180-million-funding/"
+        },
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-07-20",
+          "summary": "Bunkerhill Lands Series B to Turn Ideas Into Action",
+          "url": "https://digitalhealthwire.com/bunkerhill-raises-series-b-to-turn-ideas-into-action/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-17",
+          "summary": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
+          "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-07-17",
+          "summary": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
+          "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/"
+        }
+      ]
+    },
+    {
       "fund": "Sequoia Capital",
       "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 14 attributed deal(s), 6 in the last 30d.",
       "coverage": 14,
@@ -624,117 +741,6 @@
           "date": "2026-07-15",
           "summary": "A SpaceX vet raised $65M to pull wire harnesses out of the Cold War era",
           "url": "https://techcrunch.com/2026/07/15/a-spacex-vet-raised-65m-to-pull-wire-harnesses-out-of-the-cold-war-era/"
-        }
-      ]
-    },
-    {
-      "fund": "Sequoia",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 13 attributed deal(s), 6 in the last 30d.",
-      "coverage": 13,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 6,
-          "weight": 4.5
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 3,
-          "weight": 3.0
-        },
-        {
-          "label": "Climate / Energy",
-          "count": 3,
-          "weight": 1.5
-        },
-        {
-          "label": "Healthtech / Bio",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 6,
-      "recent90": 13,
-      "prior30": 7,
-      "last_deal_days": 1,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-09",
-          "summary": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
-          "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-09",
-          "summary": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
-          "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-09",
-          "summary": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
-          "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-02",
-          "summary": "The Rise of NeoLabs",
-          "url": "https://radical.vc/articles/the-rise-of-the-neolab/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-01",
-          "summary": "AIR raises $50M to help companies vet the skills and add-ons AI agents use",
-          "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-21",
-          "summary": "How AI accounting startup Rillet raised $100M and became a unicorn in 48-hours",
-          "url": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-08-04",
-          "summary": "Microreactor startup Valar Atomics raises $1B",
-          "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-03",
-          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
-          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-08-03",
-          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
-          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-22",
-          "summary": "Glow exits stealth with $180 million to secure the AI-enabled endpoint",
-          "url": "https://www.helpnetsecurity.com/2026/07/22/glow-launches-with-180-million-funding/"
-        },
-        {
-          "sector": "Healthtech / Bio",
-          "date": "2026-07-20",
-          "summary": "Bunkerhill Lands Series B to Turn Ideas Into Action",
-          "url": "https://digitalhealthwire.com/bunkerhill-raises-series-b-to-turn-ideas-into-action/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-17",
-          "summary": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
-          "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-07-17",
-          "summary": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
-          "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/"
         }
       ]
     },
@@ -3726,6 +3732,64 @@
       ]
     },
     {
+      "fund": "Ribbit Capital",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 1 in the last 30d.",
+      "coverage": 5,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 3,
+          "weight": 2.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 0.5
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 5,
+      "prior30": 4,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-10",
+          "summary": "Defense tech Mach Industries doubles valuation to $3.7B in 3 months",
+          "url": "https://techcrunch.com/2026/09/10/defense-tech-mach-industries-doubles-valuation-to-3-7b-in-3-months/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-07",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Big Week For Big Checks",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-billion-dollar-raises-manufacturing-energy-ai/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-31",
+          "summary": "Thermal Battery Provider Antora Raises $550 Million to Power Industry, Data Centers",
+          "url": "https://www.esgtoday.com/thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers/?utm_source=rss&utm_medium=rss&utm_campaign=thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-27",
+          "summary": "Enigma raises $70M to make controlling a robot as easy as adjusting the volume",
+          "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-27",
+          "summary": "Enigma raises $70M to make controlling a robot as easy as adjusting the volume",
+          "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/"
+        }
+      ]
+    },
+    {
       "fund": "Goldman Sachs Alternatives",
       "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s), 3 in the last 30d.",
       "coverage": 5,
@@ -5131,58 +5195,6 @@
           "date": "2026-07-10",
           "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
           "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
-        }
-      ]
-    },
-    {
-      "fund": "Ribbit Capital",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s).",
-      "coverage": 4,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 2,
-          "weight": 1.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 0.5
-        },
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 0,
-      "recent90": 4,
-      "prior30": 4,
-      "last_deal_days": 34,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-07",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Big Week For Big Checks",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-billion-dollar-raises-manufacturing-energy-ai/"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-07-31",
-          "summary": "Thermal Battery Provider Antora Raises $550 Million to Power Industry, Data Centers",
-          "url": "https://www.esgtoday.com/thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers/?utm_source=rss&utm_medium=rss&utm_campaign=thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-27",
-          "summary": "Enigma raises $70M to make controlling a robot as easy as adjusting the volume",
-          "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-07-27",
-          "summary": "Enigma raises $70M to make controlling a robot as easy as adjusting the volume",
-          "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/"
         }
       ]
     },
@@ -6769,6 +6781,52 @@
           "date": "2026-07-07",
           "summary": "Savi\u2019s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
           "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/"
+        }
+      ]
+    },
+    {
+      "fund": "LocalGlobe",
+      "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 0.5
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 3,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-10",
+          "summary": "Maven Robotics wants to steal your robot deployment deal",
+          "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-16",
+          "summary": "Munich robotics startup Microagi raises $55m, Germany\u2019s largest ever seed round",
+          "url": "https://sifted.eu/articles/munich-robotics-startup-microagi-raises-55m-germanys-largest-ever-seed-round/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-04",
+          "summary": "What is Mistral AI? Everything to know about the OpenAI competitor",
+          "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
         }
       ]
     },
@@ -10291,41 +10349,6 @@
       ]
     },
     {
-      "fund": "LocalGlobe",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s).",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 0.5
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 0,
-      "recent90": 2,
-      "prior30": 1,
-      "last_deal_days": 56,
-      "deals": [
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-07-16",
-          "summary": "Munich robotics startup Microagi raises $55m, Germany\u2019s largest ever seed round",
-          "url": "https://sifted.eu/articles/munich-robotics-startup-microagi-raises-55m-germanys-largest-ever-seed-round/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-04",
-          "summary": "What is Mistral AI? Everything to know about the OpenAI competitor",
-          "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
-        }
-      ]
-    },
-    {
       "fund": "Dragonfly",
       "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s).",
       "coverage": 2,
@@ -12929,6 +12952,13 @@
         "recent30": 0
       },
       {
+        "fund": "LocalGlobe",
+        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
         "fund": "Bain Capital",
         "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
         "coverage": 3,
@@ -12986,13 +13016,6 @@
       },
       {
         "fund": "Prime Movers Lab",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s).",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 0
-      },
-      {
-        "fund": "LocalGlobe",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s).",
         "coverage": 2,
         "sector_count": 1,
@@ -13107,10 +13130,10 @@
       },
       {
         "fund": "Sequoia",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 13 attributed deal(s), 6 in the last 30d.",
-        "coverage": 13,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 14 attributed deal(s), 7 in the last 30d.",
+        "coverage": 14,
         "sector_count": 3,
-        "recent30": 6
+        "recent30": 7
       },
       {
         "fund": "Insight Partners",
@@ -13309,6 +13332,13 @@
         "recent30": 3
       },
       {
+        "fund": "Ribbit Capital",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 1 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
         "fund": "CapitalG",
         "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 2 in the last 30d.",
         "coverage": 5,
@@ -13370,13 +13400,6 @@
         "coverage": 4,
         "sector_count": 1,
         "recent30": 4
-      },
-      {
-        "fund": "Ribbit Capital",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s).",
-        "coverage": 4,
-        "sector_count": 1,
-        "recent30": 0
       },
       {
         "fund": "Lux Capital",
@@ -13482,6 +13505,13 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 0
+      },
+      {
+        "fund": "LocalGlobe",
+        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 1
       },
       {
         "fund": "Bain Capital",
@@ -13808,6 +13838,13 @@
         "recent30": 15
       },
       {
+        "fund": "Sequoia",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 14 attributed deal(s), 7 in the last 30d.",
+        "coverage": 14,
+        "sector_count": 7,
+        "recent30": 7
+      },
+      {
         "fund": "Sequoia Capital",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 14 attributed deal(s), 6 in the last 30d.",
         "coverage": 14,
@@ -13827,13 +13864,6 @@
         "coverage": 13,
         "sector_count": 7,
         "recent30": 2
-      },
-      {
-        "fund": "Sequoia",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 13 attributed deal(s), 6 in the last 30d.",
-        "coverage": 13,
-        "sector_count": 6,
-        "recent30": 6
       },
       {
         "fund": "Spark Capital",
@@ -13981,6 +14011,13 @@
         "coverage": 6,
         "sector_count": 3,
         "recent30": 2
+      },
+      {
+        "fund": "Ribbit Capital",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 1 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 3,
+        "recent30": 1
       },
       {
         "fund": "Goldman Sachs Alternatives",
@@ -14163,13 +14200,6 @@
         "coverage": 4,
         "sector_count": 2,
         "recent30": 2
-      },
-      {
-        "fund": "Ribbit Capital",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s).",
-        "coverage": 4,
-        "sector_count": 2,
-        "recent30": 0
       },
       {
         "fund": "G2 Venture Partners",
@@ -14604,6 +14634,13 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 0
+      },
+      {
+        "fund": "LocalGlobe",
+        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 1
       },
       {
         "fund": "Aramco Ventures",
@@ -15089,13 +15126,6 @@
         "recent30": 0
       },
       {
-        "fund": "LocalGlobe",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s).",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 0
-      },
-      {
         "fund": "Dragonfly",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s).",
         "coverage": 2,
@@ -15113,10 +15143,10 @@
       },
       {
         "fund": "Sequoia",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 13 attributed deal(s), 6 in the last 30d.",
-        "coverage": 13,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 14 attributed deal(s), 7 in the last 30d.",
+        "coverage": 14,
         "sector_count": 3,
-        "recent30": 6
+        "recent30": 7
       },
       {
         "fund": "Breakthrough Energy Ventures",
@@ -16182,16 +16212,16 @@
         "recent30": 10
       },
       {
+        "fund": "Sequoia",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 14 attributed deal(s), 7 in the last 30d.",
+        "coverage": 14,
+        "sector_count": 1,
+        "recent30": 7
+      },
+      {
         "fund": "Sequoia Capital",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 14 attributed deal(s), 6 in the last 30d.",
         "coverage": 14,
-        "sector_count": 1,
-        "recent30": 6
-      },
-      {
-        "fund": "Sequoia",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 13 attributed deal(s), 6 in the last 30d.",
-        "coverage": 13,
         "sector_count": 1,
         "recent30": 6
       },
@@ -16604,6 +16634,13 @@
         "recent30": 3
       },
       {
+        "fund": "Ribbit Capital",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 1 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
         "fund": "CapitalG",
         "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 2 in the last 30d.",
         "coverage": 5,
@@ -16637,13 +16674,6 @@
         "coverage": 4,
         "sector_count": 1,
         "recent30": 2
-      },
-      {
-        "fund": "Ribbit Capital",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s).",
-        "coverage": 4,
-        "sector_count": 1,
-        "recent30": 0
       },
       {
         "fund": "Addition",

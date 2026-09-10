@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-10T14:47:16Z",
+  "generated": "2026-09-10T18:02:49Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 992,
-    "deal_rows_attributed": 467,
-    "funds_tracked": 273,
-    "fetch_attempts": 108,
-    "fetchable_pct": 3,
+    "deal_rows_seen": 997,
+    "deal_rows_attributed": 468,
+    "funds_tracked": 276,
+    "fetch_attempts": 109,
+    "fetchable_pct": 1,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -4375,6 +4375,58 @@
       ]
     },
     {
+      "fund": "LocalGlobe",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 2 in the last 30d.",
+      "coverage": 4,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 1.5
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 2,
+      "recent90": 4,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-10",
+          "summary": "Maven Robotics wants to steal your robot deployment deal",
+          "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-10",
+          "summary": "Maven Robotics wants to steal your robot deployment deal",
+          "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-16",
+          "summary": "Munich robotics startup Microagi raises $55m, Germany\u2019s largest ever seed round",
+          "url": "https://sifted.eu/articles/munich-robotics-startup-microagi-raises-55m-germanys-largest-ever-seed-round/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-04",
+          "summary": "What is Mistral AI? Everything to know about the OpenAI competitor",
+          "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
+        }
+      ]
+    },
+    {
       "fund": "TCV",
       "thesis": "Revealed focus: Cybersecurity. 4 attributed deal(s), 1 in the last 30d.",
       "coverage": 4,
@@ -6785,52 +6837,6 @@
       ]
     },
     {
-      "fund": "LocalGlobe",
-      "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
-      "coverage": 3,
-      "sectors": [
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 0.5
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 1,
-      "recent90": 3,
-      "prior30": 1,
-      "last_deal_days": 0,
-      "deals": [
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-10",
-          "summary": "Maven Robotics wants to steal your robot deployment deal",
-          "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-07-16",
-          "summary": "Munich robotics startup Microagi raises $55m, Germany\u2019s largest ever seed round",
-          "url": "https://sifted.eu/articles/munich-robotics-startup-microagi-raises-55m-germanys-largest-ever-seed-round/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-04",
-          "summary": "What is Mistral AI? Everything to know about the OpenAI competitor",
-          "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
-        }
-      ]
-    },
-    {
       "fund": "Aramco Ventures",
       "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
       "coverage": 3,
@@ -7550,6 +7556,111 @@
           "date": "2026-08-26",
           "summary": "Centurion Raises $200 Million With Sustainability Notes",
           "url": "https://esgnews.com/centurion-raises-200-million-with-sustainability-notes/?utm_source=rss&utm_medium=rss&utm_campaign=centurion-raises-200-million-with-sustainability-notes"
+        }
+      ]
+    },
+    {
+      "fund": "RoboStrategy",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-10",
+          "summary": "Maven Robotics wants to steal your robot deployment deal",
+          "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-10",
+          "summary": "Maven Robotics wants to steal your robot deployment deal",
+          "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
+        }
+      ]
+    },
+    {
+      "fund": "Vine Ventures",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-10",
+          "summary": "Maven Robotics wants to steal your robot deployment deal",
+          "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-10",
+          "summary": "Maven Robotics wants to steal your robot deployment deal",
+          "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
+        }
+      ]
+    },
+    {
+      "fund": "XTX Markets Ventures",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-10",
+          "summary": "Maven Robotics wants to steal your robot deployment deal",
+          "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-10",
+          "summary": "Maven Robotics wants to steal your robot deployment deal",
+          "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
         }
       ]
     },
@@ -12854,6 +12965,13 @@
         "recent30": 1
       },
       {
+        "fund": "LocalGlobe",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 2 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "Cyberstarts",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 1 in the last 30d.",
         "coverage": 4,
@@ -12950,13 +13068,6 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 0
-      },
-      {
-        "fund": "LocalGlobe",
-        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 1
       },
       {
         "fund": "Bain Capital",
@@ -13374,6 +13485,13 @@
         "recent30": 3
       },
       {
+        "fund": "LocalGlobe",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 2 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "Qatar Investment Authority",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 1 in the last 30d.",
         "coverage": 4,
@@ -13507,13 +13625,6 @@
         "recent30": 0
       },
       {
-        "fund": "LocalGlobe",
-        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 1
-      },
-      {
         "fund": "Bain Capital",
         "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
         "coverage": 3,
@@ -13554,6 +13665,27 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 3
+      },
+      {
+        "fund": "RoboStrategy",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Vine Ventures",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "XTX Markets Ventures",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
       },
       {
         "fund": "Mubadala Capital",
@@ -14160,6 +14292,13 @@
         "recent30": 3
       },
       {
+        "fund": "LocalGlobe",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 2 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 2,
+        "recent30": 2
+      },
+      {
         "fund": "CVS Health Ventures",
         "thesis": "Revealed focus: Healthtech / Bio and Cybersecurity. 4 attributed deal(s), 3 in the last 30d.",
         "coverage": 4,
@@ -14636,13 +14775,6 @@
         "recent30": 0
       },
       {
-        "fund": "LocalGlobe",
-        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 1
-      },
-      {
         "fund": "Aramco Ventures",
         "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
         "coverage": 3,
@@ -14655,6 +14787,27 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 1
+      },
+      {
+        "fund": "RoboStrategy",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Vine Ventures",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "XTX Markets Ventures",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
       },
       {
         "fund": "Silverton Partners",

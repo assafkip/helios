@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-15T00:14:01Z",
+  "generated": "2026-09-15T05:45:53Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 1045,
-    "deal_rows_attributed": 487,
-    "funds_tracked": 285,
-    "fetch_attempts": 114,
+    "deal_rows_seen": 1050,
+    "deal_rows_attributed": 488,
+    "funds_tracked": 286,
+    "fetch_attempts": 116,
     "fetchable_pct": 3,
     "update_cadence": "hourly"
   },
@@ -10903,6 +10903,36 @@
       ]
     },
     {
+      "fund": "BlackFin Capital Partners",
+      "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Fintech / Payments",
+          "count": 2,
+          "weight": 2.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-15",
+          "summary": "Brussels Fintech Chift Closes \u20ac10.5M Round to Develop Financial Connectivity Layer for AI Applications",
+          "url": "https://www.crowdfundinsider.com/2026/09/310124-brussels-fintech-chift-closes-e10-5m-round-to-develop-financial-connectivity-layer-for-ai-applications/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-14",
+          "summary": "Chift raises \u20ac10.5m to build financial connectivity layer for the AI era",
+          "url": "https://www.finextra.com/newsarticle/48390/chift-raises-105m-to-build-financial-connectivity-layer-for-the-ai-era?utm_medium=rssfinextra&utm_source=finextrafeed"
+        }
+      ]
+    },
+    {
       "fund": "NewView Capital",
       "thesis": "Revealed focus: Fintech / Payments and Healthtech / Bio. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -13235,6 +13265,13 @@
         "coverage": 3,
         "sector_count": 2,
         "recent30": 0
+      },
+      {
+        "fund": "BlackFin Capital Partners",
+        "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 2
       },
       {
         "fund": "Scale Venture Partners",

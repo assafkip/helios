@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-16T17:56:37Z",
+  "generated": "2026-09-16T20:51:00Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 1096,
-    "deal_rows_attributed": 518,
+    "deal_rows_seen": 1099,
+    "deal_rows_attributed": 519,
     "funds_tracked": 300,
-    "fetch_attempts": 124,
-    "fetchable_pct": 8,
+    "fetch_attempts": 117,
+    "fetchable_pct": 3,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -2604,6 +2604,88 @@
       ]
     },
     {
+      "fund": "Ribbit Capital",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 9 attributed deal(s), 5 in the last 30d.",
+      "coverage": 9,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 5,
+          "weight": 4.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 3,
+          "weight": 2.5
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 5,
+      "recent90": 9,
+      "prior30": 4,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-16",
+          "summary": "Underwriting Superintelligence: Backing Agents you can Sue \u2014 Rune Kvist, AIUC",
+          "url": "https://www.latent.space/p/aiuc"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-15",
+          "summary": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
+          "url": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-15",
+          "summary": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
+          "url": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-11",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-10",
+          "summary": "Defense tech Mach Industries doubles valuation to $3.7B in 3 months",
+          "url": "https://techcrunch.com/2026/09/10/defense-tech-mach-industries-doubles-valuation-to-3-7b-in-3-months/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-07",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Big Week For Big Checks",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-billion-dollar-raises-manufacturing-energy-ai/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-31",
+          "summary": "Thermal Battery Provider Antora Raises $550 Million to Power Industry, Data Centers",
+          "url": "https://www.esgtoday.com/thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers/?utm_source=rss&utm_medium=rss&utm_campaign=thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-27",
+          "summary": "Enigma raises $70M to make controlling a robot as easy as adjusting the volume",
+          "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-27",
+          "summary": "Enigma raises $70M to make controlling a robot as easy as adjusting the volume",
+          "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/"
+        }
+      ]
+    },
+    {
       "fund": "Kleiner Perkins",
       "thesis": "Revealed focus: Cybersecurity and Space Tech. 9 attributed deal(s), 4 in the last 30d.",
       "coverage": 9,
@@ -2880,82 +2962,6 @@
           "date": "2026-06-27",
           "summary": "FTC gives Musk the OK to acquire SpaceX alumni startup Mesh",
           "url": "https://techcrunch.com/2026/06/26/ftc-gives-musk-the-ok-to-acquire-spacex-alumni-startup-mesh/"
-        }
-      ]
-    },
-    {
-      "fund": "Ribbit Capital",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 8 attributed deal(s), 4 in the last 30d.",
-      "coverage": 8,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 5,
-          "weight": 4.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 2,
-          "weight": 1.5
-        },
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 4,
-      "recent90": 8,
-      "prior30": 4,
-      "last_deal_days": 1,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-15",
-          "summary": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
-          "url": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-15",
-          "summary": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
-          "url": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-11",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-10",
-          "summary": "Defense tech Mach Industries doubles valuation to $3.7B in 3 months",
-          "url": "https://techcrunch.com/2026/09/10/defense-tech-mach-industries-doubles-valuation-to-3-7b-in-3-months/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-07",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Big Week For Big Checks",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-billion-dollar-raises-manufacturing-energy-ai/"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-07-31",
-          "summary": "Thermal Battery Provider Antora Raises $550 Million to Power Industry, Data Centers",
-          "url": "https://www.esgtoday.com/thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers/?utm_source=rss&utm_medium=rss&utm_campaign=thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-27",
-          "summary": "Enigma raises $70M to make controlling a robot as easy as adjusting the volume",
-          "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-07-27",
-          "summary": "Enigma raises $70M to make controlling a robot as easy as adjusting the volume",
-          "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/"
         }
       ]
     },
@@ -14563,6 +14569,13 @@
         "recent30": 2
       },
       {
+        "fund": "Ribbit Capital",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 9 attributed deal(s), 5 in the last 30d.",
+        "coverage": 9,
+        "sector_count": 3,
+        "recent30": 5
+      },
+      {
         "fund": "EQT",
         "thesis": "Revealed focus: Space Tech and AI / ML Infra. 8 attributed deal(s), 5 in the last 30d.",
         "coverage": 8,
@@ -14615,13 +14628,6 @@
         "fund": "BlackRock",
         "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 10 attributed deal(s), 4 in the last 30d.",
         "coverage": 10,
-        "sector_count": 2,
-        "recent30": 4
-      },
-      {
-        "fund": "Ribbit Capital",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 8 attributed deal(s), 4 in the last 30d.",
-        "coverage": 8,
         "sector_count": 2,
         "recent30": 4
       },
@@ -15406,10 +15412,10 @@
       },
       {
         "fund": "Ribbit Capital",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 8 attributed deal(s), 4 in the last 30d.",
-        "coverage": 8,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 9 attributed deal(s), 5 in the last 30d.",
+        "coverage": 9,
         "sector_count": 5,
-        "recent30": 4
+        "recent30": 5
       },
       {
         "fund": "Kleiner Perkins",
@@ -18271,14 +18277,14 @@
         "recent30": 2
       },
       {
-        "fund": "Thrive Capital",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 8 attributed deal(s), 4 in the last 30d.",
-        "coverage": 8,
+        "fund": "Ribbit Capital",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 9 attributed deal(s), 5 in the last 30d.",
+        "coverage": 9,
         "sector_count": 1,
-        "recent30": 4
+        "recent30": 5
       },
       {
-        "fund": "Ribbit Capital",
+        "fund": "Thrive Capital",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 8 attributed deal(s), 4 in the last 30d.",
         "coverage": 8,
         "sector_count": 1,

@@ -1,9 +1,9 @@
 {
-  "generated": "2026-09-16T01:02:39Z",
+  "generated": "2026-09-16T07:09:38Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 1079,
-    "deal_rows_attributed": 508,
+    "deal_rows_seen": 1080,
+    "deal_rows_attributed": 509,
     "funds_tracked": 294,
     "fetch_attempts": 113,
     "fetchable_pct": 0,
@@ -6905,6 +6905,52 @@
       ]
     },
     {
+      "fund": "Expedition Growth Capital",
+      "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 0.5
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 3,
+      "prior30": 2,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-16",
+          "summary": "ETFBook raises $13m for US and Apac expansion",
+          "url": "https://www.finextra.com/newsarticle/48410/etfbook-raises-13m-for-us-and-apac-expansion?utm_medium=rssfinextra&utm_source=finextrafeed"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-06",
+          "summary": "Omilia raises $67M to scale its customer support platform",
+          "url": "https://techcrunch.com/2026/08/06/omilia-raises-67m-to-scale-its-customer-support-platform/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-06",
+          "summary": "Omilia raises $67M to scale its customer support platform",
+          "url": "https://techcrunch.com/2026/08/06/omilia-raises-67m-to-scale-its-customer-support-platform/"
+        }
+      ]
+    },
+    {
       "fund": "SignalFire",
       "thesis": "Revealed focus: AI / ML Infra and Healthtech / Bio. 3 attributed deal(s), 2 in the last 30d.",
       "coverage": 3,
@@ -7464,6 +7510,42 @@
           "date": "2026-07-02",
           "summary": "The Week\u2019s 10 Biggest Funding Rounds: AI, Energy And Biotech Lead The Way",
           "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-biotech-joulent/"
+        }
+      ]
+    },
+    {
+      "fund": "BlackFin Capital Partners",
+      "thesis": "Revealed focus: Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Fintech / Payments",
+          "count": 3,
+          "weight": 3.0
+        }
+      ],
+      "recent30": 3,
+      "recent90": 3,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-16",
+          "summary": "ETFBook raises $13m for US and Apac expansion",
+          "url": "https://www.finextra.com/newsarticle/48410/etfbook-raises-13m-for-us-and-apac-expansion?utm_medium=rssfinextra&utm_source=finextrafeed"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-15",
+          "summary": "Brussels Fintech Chift Closes \u20ac10.5M Round to Develop Financial Connectivity Layer for AI Applications",
+          "url": "https://www.crowdfundinsider.com/2026/09/310124-brussels-fintech-chift-closes-e10-5m-round-to-develop-financial-connectivity-layer-for-ai-applications/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-14",
+          "summary": "Chift raises \u20ac10.5m to build financial connectivity layer for the AI era",
+          "url": "https://www.finextra.com/newsarticle/48390/chift-raises-105m-to-build-financial-connectivity-layer-for-the-ai-era?utm_medium=rssfinextra&utm_source=finextrafeed"
         }
       ]
     },
@@ -9925,41 +10007,6 @@
       ]
     },
     {
-      "fund": "Expedition Growth Capital",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s).",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 0.5
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 0,
-      "recent90": 2,
-      "prior30": 2,
-      "last_deal_days": 41,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-06",
-          "summary": "Omilia raises $67M to scale its customer support platform",
-          "url": "https://techcrunch.com/2026/08/06/omilia-raises-67m-to-scale-its-customer-support-platform/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-08-06",
-          "summary": "Omilia raises $67M to scale its customer support platform",
-          "url": "https://techcrunch.com/2026/08/06/omilia-raises-67m-to-scale-its-customer-support-platform/"
-        }
-      ]
-    },
-    {
       "fund": "Grafton Capital",
       "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s).",
       "coverage": 2,
@@ -11186,36 +11233,6 @@
           "date": "2026-07-02",
           "summary": "The Week\u2019s 10 Biggest Funding Rounds: AI, Energy And Biotech Lead The Way",
           "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-biotech-joulent/"
-        }
-      ]
-    },
-    {
-      "fund": "BlackFin Capital Partners",
-      "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Fintech / Payments",
-          "count": 2,
-          "weight": 2.0
-        }
-      ],
-      "recent30": 2,
-      "recent90": 2,
-      "prior30": 0,
-      "last_deal_days": 1,
-      "deals": [
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-09-15",
-          "summary": "Brussels Fintech Chift Closes \u20ac10.5M Round to Develop Financial Connectivity Layer for AI Applications",
-          "url": "https://www.crowdfundinsider.com/2026/09/310124-brussels-fintech-chift-closes-e10-5m-round-to-develop-financial-connectivity-layer-for-ai-applications/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-09-14",
-          "summary": "Chift raises \u20ac10.5m to build financial connectivity layer for the AI era",
-          "url": "https://www.finextra.com/newsarticle/48390/chift-raises-105m-to-build-financial-connectivity-layer-for-the-ai-era?utm_medium=rssfinextra&utm_source=finextrafeed"
         }
       ]
     },
@@ -13606,6 +13623,13 @@
         "recent30": 0
       },
       {
+        "fund": "BlackFin Capital Partners",
+        "thesis": "Revealed focus: Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 3,
+        "recent30": 3
+      },
+      {
         "fund": "Amex Ventures",
         "thesis": "Revealed focus: Fintech / Payments. 3 attributed deal(s).",
         "coverage": 3,
@@ -13681,13 +13705,6 @@
         "coverage": 3,
         "sector_count": 2,
         "recent30": 0
-      },
-      {
-        "fund": "BlackFin Capital Partners",
-        "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 2,
-        "recent30": 2
       },
       {
         "fund": "Scale Venture Partners",
@@ -14003,6 +14020,13 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 0
+      },
+      {
+        "fund": "Expedition Growth Capital",
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 1
       },
       {
         "fund": "Nvidia Ventures",
@@ -14595,6 +14619,13 @@
         "recent30": 0
       },
       {
+        "fund": "Expedition Growth Capital",
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
         "fund": "SignalFire",
         "thesis": "Revealed focus: AI / ML Infra and Healthtech / Bio. 3 attributed deal(s), 2 in the last 30d.",
         "coverage": 3,
@@ -14743,13 +14774,6 @@
       },
       {
         "fund": "Lightspeed India Partners",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s).",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 0
-      },
-      {
-        "fund": "Expedition Growth Capital",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s).",
         "coverage": 2,
         "sector_count": 1,
@@ -15780,6 +15804,13 @@
         "recent30": 0
       },
       {
+        "fund": "Expedition Growth Capital",
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
         "fund": "SignalFire",
         "thesis": "Revealed focus: AI / ML Infra and Healthtech / Bio. 3 attributed deal(s), 2 in the last 30d.",
         "coverage": 3,
@@ -16146,13 +16177,6 @@
       {
         "fund": "Avra",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s).",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 0
-      },
-      {
-        "fund": "Expedition Growth Capital",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s).",
         "coverage": 2,
         "sector_count": 1,
         "recent30": 0

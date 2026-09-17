@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-17T18:47:03Z",
+  "generated": "2026-09-17T21:54:46Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 1118,
-    "deal_rows_attributed": 530,
+    "deal_rows_seen": 1120,
+    "deal_rows_attributed": 531,
     "funds_tracked": 306,
-    "fetch_attempts": 116,
-    "fetchable_pct": 1,
+    "fetch_attempts": 117,
+    "fetchable_pct": 2,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -531,6 +531,157 @@
       ]
     },
     {
+      "fund": "Khosla Ventures",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 18 attributed deal(s), 5 in the last 30d.",
+      "coverage": 18,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 8,
+          "weight": 4.5
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 3,
+          "weight": 2.0
+        },
+        {
+          "label": "Climate / Energy",
+          "count": 3,
+          "weight": 2.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 2,
+          "weight": 1.5
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 5,
+      "recent90": 18,
+      "prior30": 9,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-09-17",
+          "summary": "Mazama Energy raises $135M for superhot geothermal at Oregon volcano",
+          "url": "https://www.canarymedia.com/articles/geothermal/mazama-energy-raises-135m-oregon-geothermal"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-16",
+          "summary": "Planted Raises $31.8 Million to Build Solar Projects with Robots",
+          "url": "https://www.esgtoday.com/planted-raises-31-8-million-to-build-solar-plants-with-robots/?utm_source=rss&utm_medium=rss&utm_campaign=planted-raises-31-8-million-to-build-solar-plants-with-robots"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-15",
+          "summary": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round",
+          "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-15",
+          "summary": "Split Pay Raises $125 Million to Bring BNPL to Big Expenses",
+          "url": "https://www.pymnts.com/bnpl/2026/split-pay-raises-125-million-dollars-bring-bnpl-big-expenses/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-15",
+          "summary": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round",
+          "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-17",
+          "summary": "Sound-powered fire protection startup gets $15M to snuff out fires before they turn catastrophic",
+          "url": "https://techcrunch.com/2026/08/17/sound-powered-fire-protection-startup-gets-15m-to-snuff-out-fires-before-they-turn-catastrophic/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-17",
+          "summary": "Sound-powered fire protection startup gets $15M to snuff out fires before they turn catastrophic",
+          "url": "https://techcrunch.com/2026/08/17/sound-powered-fire-protection-startup-gets-15m-to-snuff-out-fires-before-they-turn-catastrophic/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-07",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Big Week For Big Checks",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-billion-dollar-raises-manufacturing-energy-ai/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-05",
+          "summary": "AI makes weather prediction better. Can WindBorne make it lucrative?",
+          "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-05",
+          "summary": "AI makes weather prediction better. Can WindBorne make it lucrative?",
+          "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-30",
+          "summary": "Fusion power darling Commonwealth Fusion Systems raises another $1B",
+          "url": "https://techcrunch.com/2026/07/30/fusion-power-darling-commonwealth-fusion-systems-raises-another-1b/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-30",
+          "summary": "Dili raises $21.7M to bring AI compliance to the infrastructure boom",
+          "url": "https://techcrunch.com/2026/07/30/dili-raises-15-million-to-bring-ai-compliance-to-the-infrastructure-boom/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-07-30",
+          "summary": "Fusion power darling Commonwealth Fusion Systems raises another $1B",
+          "url": "https://techcrunch.com/2026/07/30/fusion-power-darling-commonwealth-fusion-systems-raises-another-1b/"
+        },
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-07-20",
+          "summary": "Bunkerhill Lands Series B to Turn Ideas Into Action",
+          "url": "https://digitalhealthwire.com/bunkerhill-raises-series-b-to-turn-ideas-into-action/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-17",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: No Summer Doldrums As Dollars Still Flow To AI",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-15",
+          "summary": "Robotics startup Monumental raises $32m backed by Khosla Ventures",
+          "url": "https://sifted.eu/articles/monumental-robots-fundraise-raises-32m-backed-by-khosla-ventures/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-10",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-07",
+          "summary": "AI law startup Norm raises $120M, hits unicorn valuation",
+          "url": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/"
+        }
+      ]
+    },
+    {
       "fund": "Sequoia Capital",
       "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 17 attributed deal(s), 6 in the last 30d.",
       "coverage": 17,
@@ -677,151 +828,6 @@
           "date": "2026-07-15",
           "summary": "A SpaceX vet raised $65M to pull wire harnesses out of the Cold War era",
           "url": "https://techcrunch.com/2026/07/15/a-spacex-vet-raised-65m-to-pull-wire-harnesses-out-of-the-cold-war-era/"
-        }
-      ]
-    },
-    {
-      "fund": "Khosla Ventures",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 17 attributed deal(s), 4 in the last 30d.",
-      "coverage": 17,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 8,
-          "weight": 4.5
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 3,
-          "weight": 2.0
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 2,
-          "weight": 1.5
-        },
-        {
-          "label": "Climate / Energy",
-          "count": 2,
-          "weight": 1.0
-        },
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Healthtech / Bio",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 4,
-      "recent90": 17,
-      "prior30": 9,
-      "last_deal_days": 1,
-      "deals": [
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-16",
-          "summary": "Planted Raises $31.8 Million to Build Solar Projects with Robots",
-          "url": "https://www.esgtoday.com/planted-raises-31-8-million-to-build-solar-plants-with-robots/?utm_source=rss&utm_medium=rss&utm_campaign=planted-raises-31-8-million-to-build-solar-plants-with-robots"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-15",
-          "summary": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round",
-          "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-09-15",
-          "summary": "Split Pay Raises $125 Million to Bring BNPL to Big Expenses",
-          "url": "https://www.pymnts.com/bnpl/2026/split-pay-raises-125-million-dollars-bring-bnpl-big-expenses/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-15",
-          "summary": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round",
-          "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-17",
-          "summary": "Sound-powered fire protection startup gets $15M to snuff out fires before they turn catastrophic",
-          "url": "https://techcrunch.com/2026/08/17/sound-powered-fire-protection-startup-gets-15m-to-snuff-out-fires-before-they-turn-catastrophic/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-08-17",
-          "summary": "Sound-powered fire protection startup gets $15M to snuff out fires before they turn catastrophic",
-          "url": "https://techcrunch.com/2026/08/17/sound-powered-fire-protection-startup-gets-15m-to-snuff-out-fires-before-they-turn-catastrophic/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-07",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Big Week For Big Checks",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-billion-dollar-raises-manufacturing-energy-ai/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-05",
-          "summary": "AI makes weather prediction better. Can WindBorne make it lucrative?",
-          "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-08-05",
-          "summary": "AI makes weather prediction better. Can WindBorne make it lucrative?",
-          "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-30",
-          "summary": "Fusion power darling Commonwealth Fusion Systems raises another $1B",
-          "url": "https://techcrunch.com/2026/07/30/fusion-power-darling-commonwealth-fusion-systems-raises-another-1b/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-07-30",
-          "summary": "Dili raises $21.7M to bring AI compliance to the infrastructure boom",
-          "url": "https://techcrunch.com/2026/07/30/dili-raises-15-million-to-bring-ai-compliance-to-the-infrastructure-boom/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-07-30",
-          "summary": "Fusion power darling Commonwealth Fusion Systems raises another $1B",
-          "url": "https://techcrunch.com/2026/07/30/fusion-power-darling-commonwealth-fusion-systems-raises-another-1b/"
-        },
-        {
-          "sector": "Healthtech / Bio",
-          "date": "2026-07-20",
-          "summary": "Bunkerhill Lands Series B to Turn Ideas Into Action",
-          "url": "https://digitalhealthwire.com/bunkerhill-raises-series-b-to-turn-ideas-into-action/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-17",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: No Summer Doldrums As Dollars Still Flow To AI",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-07-15",
-          "summary": "Robotics startup Monumental raises $32m backed by Khosla Ventures",
-          "url": "https://sifted.eu/articles/monumental-robots-fundraise-raises-32m-backed-by-khosla-ventures/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-10",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
-          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-07",
-          "summary": "AI law startup Norm raises $120M, hits unicorn valuation",
-          "url": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/"
         }
       ]
     },
@@ -14247,10 +14253,10 @@
       },
       {
         "fund": "Khosla Ventures",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 17 attributed deal(s), 4 in the last 30d.",
-        "coverage": 17,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 18 attributed deal(s), 5 in the last 30d.",
+        "coverage": 18,
         "sector_count": 2,
-        "recent30": 4
+        "recent30": 5
       },
       {
         "fund": "BlackRock",
@@ -14886,10 +14892,10 @@
       },
       {
         "fund": "Khosla Ventures",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 17 attributed deal(s), 4 in the last 30d.",
-        "coverage": 17,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 18 attributed deal(s), 5 in the last 30d.",
+        "coverage": 18,
         "sector_count": 3,
-        "recent30": 4
+        "recent30": 5
       },
       {
         "fund": "Insight Partners",
@@ -15651,10 +15657,10 @@
       },
       {
         "fund": "Khosla Ventures",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 17 attributed deal(s), 4 in the last 30d.",
-        "coverage": 17,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 18 attributed deal(s), 5 in the last 30d.",
+        "coverage": 18,
         "sector_count": 8,
-        "recent30": 4
+        "recent30": 5
       },
       {
         "fund": "Sequoia",
@@ -17066,6 +17072,13 @@
         "recent30": 10
       },
       {
+        "fund": "Khosla Ventures",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 18 attributed deal(s), 5 in the last 30d.",
+        "coverage": 18,
+        "sector_count": 3,
+        "recent30": 5
+      },
+      {
         "fund": "Sequoia",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 16 attributed deal(s), 9 in the last 30d.",
         "coverage": 16,
@@ -17092,13 +17105,6 @@
         "coverage": 25,
         "sector_count": 2,
         "recent30": 12
-      },
-      {
-        "fund": "Khosla Ventures",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 17 attributed deal(s), 4 in the last 30d.",
-        "coverage": 17,
-        "sector_count": 2,
-        "recent30": 4
       },
       {
         "fund": "Bessemer Venture Partners",
@@ -18220,18 +18226,18 @@
         "recent30": 12
       },
       {
+        "fund": "Khosla Ventures",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 18 attributed deal(s), 5 in the last 30d.",
+        "coverage": 18,
+        "sector_count": 1,
+        "recent30": 5
+      },
+      {
         "fund": "Sequoia Capital",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 17 attributed deal(s), 6 in the last 30d.",
         "coverage": 17,
         "sector_count": 1,
         "recent30": 6
-      },
-      {
-        "fund": "Khosla Ventures",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 17 attributed deal(s), 4 in the last 30d.",
-        "coverage": 17,
-        "sector_count": 1,
-        "recent30": 4
       },
       {
         "fund": "Sequoia",
@@ -18642,18 +18648,18 @@
         "recent30": 12
       },
       {
+        "fund": "Khosla Ventures",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 18 attributed deal(s), 5 in the last 30d.",
+        "coverage": 18,
+        "sector_count": 1,
+        "recent30": 5
+      },
+      {
         "fund": "Sequoia Capital",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 17 attributed deal(s), 6 in the last 30d.",
         "coverage": 17,
         "sector_count": 1,
         "recent30": 6
-      },
-      {
-        "fund": "Khosla Ventures",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 17 attributed deal(s), 4 in the last 30d.",
-        "coverage": 17,
-        "sector_count": 1,
-        "recent30": 4
       },
       {
         "fund": "General Catalyst",

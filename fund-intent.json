@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-17T03:12:37Z",
+  "generated": "2026-09-17T09:09:51Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 1105,
-    "deal_rows_attributed": 520,
-    "funds_tracked": 302,
-    "fetch_attempts": 118,
+    "deal_rows_seen": 1109,
+    "deal_rows_attributed": 523,
+    "funds_tracked": 303,
+    "fetch_attempts": 117,
     "fetchable_pct": 3,
     "update_cadence": "hourly"
   },
@@ -386,8 +386,8 @@
     },
     {
       "fund": "Google",
-      "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 17 attributed deal(s), 9 in the last 30d.",
-      "coverage": 17,
+      "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 18 attributed deal(s), 10 in the last 30d.",
+      "coverage": 18,
       "sectors": [
         {
           "label": "Coexistence / Empowerment",
@@ -401,8 +401,8 @@
         },
         {
           "label": "Climate / Energy",
-          "count": 3,
-          "weight": 2.0
+          "count": 4,
+          "weight": 3.0
         },
         {
           "label": "Space Tech",
@@ -415,11 +415,17 @@
           "weight": 0.5
         }
       ],
-      "recent30": 9,
-      "recent90": 17,
+      "recent30": 10,
+      "recent90": 18,
       "prior30": 5,
-      "last_deal_days": 1,
+      "last_deal_days": 0,
       "deals": [
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-09-17",
+          "summary": "Google backs Swedish green-steel project to tackle rising emissions",
+          "url": "https://www.canarymedia.com/articles/green-steel/google-backs-stegra-swedish-green-steel-project"
+        },
         {
           "sector": "Coexistence / Empowerment",
           "date": "2026-09-16",
@@ -7152,6 +7158,52 @@
       ]
     },
     {
+      "fund": "Riot Ventures",
+      "thesis": "Revealed focus: Space Tech and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 0.5
+        },
+        {
+          "label": "Climate / Energy",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 3,
+      "prior30": 2,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-17",
+          "summary": "EnduroSat Raise Pushes European NewSpace Funding Above \u20ac1 Billion for September",
+          "url": "https://europeanspaceflight.com/endurosat-raise-pushes-european-newspace-funding-above-e1-billion-for-september/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-03",
+          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
+          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-03",
+          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
+          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
+        }
+      ]
+    },
+    {
       "fund": "FirstMark",
       "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s).",
       "coverage": 3,
@@ -10508,41 +10560,6 @@
       ]
     },
     {
-      "fund": "Riot Ventures",
-      "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 2 attributed deal(s).",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 0.5
-        },
-        {
-          "label": "Climate / Energy",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 0,
-      "recent90": 2,
-      "prior30": 2,
-      "last_deal_days": 45,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-03",
-          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
-          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-08-03",
-          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
-          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
-        }
-      ]
-    },
-    {
       "fund": "Snowpoint Ventures",
       "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 2 attributed deal(s).",
       "coverage": 2,
@@ -13008,6 +13025,41 @@
       ]
     },
     {
+      "fund": "European Innovation Council",
+      "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-17",
+          "summary": "EnduroSat Raise Pushes European NewSpace Funding Above \u20ac1 Billion for September",
+          "url": "https://europeanspaceflight.com/endurosat-raise-pushes-european-newspace-funding-above-e1-billion-for-september/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-16",
+          "summary": "Lululemon Backs Textile Recycling Tech Startup Syntetica",
+          "url": "https://www.esgtoday.com/lululemon-backs-textile-recycling-tech-startup-syntetica/?utm_source=rss&utm_medium=rss&utm_campaign=lululemon-backs-textile-recycling-tech-startup-syntetica"
+        }
+      ]
+    },
+    {
       "fund": "Lightrock",
       "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -14183,10 +14235,10 @@
       },
       {
         "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 17 attributed deal(s), 9 in the last 30d.",
-        "coverage": 17,
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 18 attributed deal(s), 10 in the last 30d.",
+        "coverage": 18,
         "sector_count": 1,
-        "recent30": 9
+        "recent30": 10
       },
       {
         "fund": "General Catalyst",
@@ -15468,10 +15520,10 @@
       },
       {
         "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 17 attributed deal(s), 9 in the last 30d.",
-        "coverage": 17,
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 18 attributed deal(s), 10 in the last 30d.",
+        "coverage": 18,
         "sector_count": 5,
-        "recent30": 9
+        "recent30": 10
       },
       {
         "fund": "Menlo Ventures",
@@ -16216,6 +16268,13 @@
         "recent30": 2
       },
       {
+        "fund": "Riot Ventures",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
         "fund": "FirstMark",
         "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s).",
         "coverage": 3,
@@ -16636,13 +16695,6 @@
         "recent30": 0
       },
       {
-        "fund": "Riot Ventures",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 2 attributed deal(s).",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 0
-      },
-      {
         "fund": "Snowpoint Ventures",
         "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 2 attributed deal(s).",
         "coverage": 2,
@@ -16807,10 +16859,10 @@
     "Climate / Energy": [
       {
         "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 17 attributed deal(s), 9 in the last 30d.",
-        "coverage": 17,
-        "sector_count": 3,
-        "recent30": 9
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 18 attributed deal(s), 10 in the last 30d.",
+        "coverage": 18,
+        "sector_count": 4,
+        "recent30": 10
       },
       {
         "fund": "Sequoia",
@@ -17044,6 +17096,13 @@
         "recent30": 0
       },
       {
+        "fund": "Riot Ventures",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
         "fund": "OpenAI",
         "thesis": "Revealed focus: Climate / Energy and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
         "coverage": 3,
@@ -17213,13 +17272,6 @@
       },
       {
         "fund": "HOF Capital",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 2 attributed deal(s).",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 0
-      },
-      {
-        "fund": "Riot Ventures",
         "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 2 attributed deal(s).",
         "coverage": 2,
         "sector_count": 1,
@@ -17525,10 +17577,10 @@
       },
       {
         "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 17 attributed deal(s), 9 in the last 30d.",
-        "coverage": 17,
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 18 attributed deal(s), 10 in the last 30d.",
+        "coverage": 18,
         "sector_count": 2,
-        "recent30": 9
+        "recent30": 10
       },
       {
         "fund": "General Catalyst",
@@ -17832,6 +17884,13 @@
         "recent30": 2
       },
       {
+        "fund": "Riot Ventures",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
         "fund": "First Round Capital",
         "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 3 attributed deal(s).",
         "coverage": 3,
@@ -17886,6 +17945,13 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 2
+      },
+      {
+        "fund": "European Innovation Council",
+        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 1
       },
       {
         "fund": "Balderton",
@@ -18124,10 +18190,10 @@
     "Coexistence / Empowerment": [
       {
         "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 17 attributed deal(s), 9 in the last 30d.",
-        "coverage": 17,
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 18 attributed deal(s), 10 in the last 30d.",
+        "coverage": 18,
         "sector_count": 6,
-        "recent30": 9
+        "recent30": 10
       },
       {
         "fund": "Breakthrough Energy Ventures",
@@ -18597,6 +18663,13 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 0
+      },
+      {
+        "fund": "European Innovation Council",
+        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 1
       },
       {
         "fund": "Balderton",

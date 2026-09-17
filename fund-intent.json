@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-17T09:09:51Z",
+  "generated": "2026-09-17T14:39:08Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 1109,
-    "deal_rows_attributed": 523,
-    "funds_tracked": 303,
-    "fetch_attempts": 117,
-    "fetchable_pct": 3,
+    "deal_rows_seen": 1116,
+    "deal_rows_attributed": 530,
+    "funds_tracked": 306,
+    "fetch_attempts": 119,
+    "fetchable_pct": 4,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -1444,6 +1444,116 @@
       ]
     },
     {
+      "fund": "Valor Equity Partners",
+      "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 12 attributed deal(s), 6 in the last 30d.",
+      "coverage": 12,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 6,
+          "weight": 5.0
+        },
+        {
+          "label": "Climate / Energy",
+          "count": 3,
+          "weight": 1.5
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 6,
+      "recent90": 12,
+      "prior30": 6,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-17",
+          "summary": "Impulse Space Raises $308M Series D Extension",
+          "url": "https://payloadspace.com/impulse-space-raises-308m-series-d-extension/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-16",
+          "summary": "How\u00a0Fortell\u00a0is using AI (and $163M) to crack a hearing aid monopoly",
+          "url": "https://techcrunch.com/video/how-fortell-is-using-ai-and-163m-to-crack-a-hearing-aid-monopoly/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-16",
+          "summary": "Why Thrive, Founders Fund, and Antonio Gracias are betting on hearing aids",
+          "url": "https://techcrunch.com/podcast/why-thrive-founders-fund-and-antonio-gracias-are-betting-on-hearing-aids/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-11",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-04",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Crusoe And Fluidstack Lead Multibillion-Dollar AI Infrastructure Haul",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-crusoe-fluidstack-multibillion-dollar-ai-infrastructure/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-04",
+          "summary": "Crusoe reportedly raises $3B at a  $30B valuation",
+          "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-07",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Big Week For Big Checks",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-billion-dollar-raises-manufacturing-energy-ai/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-04",
+          "summary": "Base Power raises $1B to get big batteries into more homes",
+          "url": "https://www.canarymedia.com/articles/batteries/base-power-raises-1b-to-get-big-batteries-into-more-homes"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-04",
+          "summary": "Home Battery Startup Base Power Raises $1 Billion at $13 Billion Valuation",
+          "url": "https://www.esgtoday.com/home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-03",
+          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
+          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-03",
+          "summary": "Base Power raises $1B to roll out its giant new home battery",
+          "url": "https://electrek.co/2026/08/03/base-power-raises-1b-to-roll-out-its-giant-new-home-battery/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-03",
+          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
+          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
+        }
+      ]
+    },
+    {
       "fund": "Spark Capital",
       "thesis": "Revealed focus: Cybersecurity and Space Tech. 12 attributed deal(s), 7 in the last 30d.",
       "coverage": 12,
@@ -1649,105 +1759,6 @@
       ]
     },
     {
-      "fund": "Valor Equity Partners",
-      "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 11 attributed deal(s), 5 in the last 30d.",
-      "coverage": 11,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 6,
-          "weight": 5.0
-        },
-        {
-          "label": "Climate / Energy",
-          "count": 3,
-          "weight": 1.5
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 5,
-      "recent90": 11,
-      "prior30": 6,
-      "last_deal_days": 1,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-16",
-          "summary": "How\u00a0Fortell\u00a0is using AI (and $163M) to crack a hearing aid monopoly",
-          "url": "https://techcrunch.com/video/how-fortell-is-using-ai-and-163m-to-crack-a-hearing-aid-monopoly/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-16",
-          "summary": "Why Thrive, Founders Fund, and Antonio Gracias are betting on hearing aids",
-          "url": "https://techcrunch.com/podcast/why-thrive-founders-fund-and-antonio-gracias-are-betting-on-hearing-aids/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-11",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-04",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Crusoe And Fluidstack Lead Multibillion-Dollar AI Infrastructure Haul",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-crusoe-fluidstack-multibillion-dollar-ai-infrastructure/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-04",
-          "summary": "Crusoe reportedly raises $3B at a  $30B valuation",
-          "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-07",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Big Week For Big Checks",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-billion-dollar-raises-manufacturing-energy-ai/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-08-04",
-          "summary": "Base Power raises $1B to get big batteries into more homes",
-          "url": "https://www.canarymedia.com/articles/batteries/base-power-raises-1b-to-get-big-batteries-into-more-homes"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-08-04",
-          "summary": "Home Battery Startup Base Power Raises $1 Billion at $13 Billion Valuation",
-          "url": "https://www.esgtoday.com/home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-03",
-          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
-          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-08-03",
-          "summary": "Base Power raises $1B to roll out its giant new home battery",
-          "url": "https://electrek.co/2026/08/03/base-power-raises-1b-to-roll-out-its-giant-new-home-battery/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-08-03",
-          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
-          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
-        }
-      ]
-    },
-    {
       "fund": "Bessemer Venture Partners",
       "thesis": "Revealed focus: Cybersecurity and Space Tech. 11 attributed deal(s), 5 in the last 30d.",
       "coverage": 11,
@@ -1843,6 +1854,99 @@
           "date": "2026-07-20",
           "summary": "Neo Emerges From Stealth With $100M to Control and Secure Enterprise AI Software",
           "url": "https://www.securityweek.com/neo-emerges-from-stealth-with-100m-to-control-and-secure-enterprise-ai-software/"
+        }
+      ]
+    },
+    {
+      "fund": "Founders Fund",
+      "thesis": "Revealed focus: Cybersecurity and Space Tech. 10 attributed deal(s), 6 in the last 30d.",
+      "coverage": 10,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 6,
+          "weight": 4.5
+        },
+        {
+          "label": "Space Tech",
+          "count": 2,
+          "weight": 1.5
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 6,
+      "recent90": 10,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-17",
+          "summary": "EnduroSat Raises $205M, Notches Vantor Sat Win",
+          "url": "https://payloadspace.com/endurosat-raises-205m-notches-vantor-sat-win/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-16",
+          "summary": "How\u00a0Fortell\u00a0is using AI (and $163M) to crack a hearing aid monopoly",
+          "url": "https://techcrunch.com/video/how-fortell-is-using-ai-and-163m-to-crack-a-hearing-aid-monopoly/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-16",
+          "summary": "Why Thrive, Founders Fund, and Antonio Gracias are betting on hearing aids",
+          "url": "https://techcrunch.com/podcast/why-thrive-founders-fund-and-antonio-gracias-are-betting-on-hearing-aids/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-11",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-08",
+          "summary": "Cognition Secures $48 Billion Valuation as Demand for AI Coding Surges",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/cognition-secures-48-billion-valuation-as-demand-for-ai-coding-surges/"
+        },
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-08-31",
+          "summary": "4 Notable Health Tech Funding Announcements in August",
+          "url": "https://medcitynews.com/2026/08/4-notable-health-tech-funding-announcements-in-august/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-20",
+          "summary": "Mexico Extends Its Venture Lead Over Brazil As More Global VCs Enter Latin America",
+          "url": "https://news.crunchbase.com/venture/mexico-leads-latin-america-funding-q2-2026/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-17",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: No Summer Doldrums As Dollars Still Flow To AI",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-15",
+          "summary": "A SpaceX vet raised $65M to pull wire harnesses out of the Cold War era",
+          "url": "https://techcrunch.com/2026/07/15/a-spacex-vet-raised-65m-to-pull-wire-harnesses-out-of-the-cold-war-era/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-07",
+          "summary": "Bitmine Immersion Technologies (BMNR) kondigt aan dat het bezit aan ETH 5,74 miljoen tokens heeft bereikt en dat het totale bezit aan cryptovaluta en geldmiddelen 11,1 miljard dollar bedraagt",
+          "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-kondigt-aan-dat-het-bezit-aan-eth-5-74-miljoen-tokens-heeft-bereikt-en-dat-het-totale-bezit-aan-cryptovaluta-en-geldmiddelen-11-1-miljard-dollar-bedraagt-302819108.html"
         }
       ]
     },
@@ -2519,93 +2623,6 @@
           "date": "2026-06-16",
           "summary": "The next generation of analytics: Why we invested in Golden Analytics",
           "url": "https://www.insightpartners.com/ideas/why-we-invested-in-golden-analytics/"
-        }
-      ]
-    },
-    {
-      "fund": "Founders Fund",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 9 attributed deal(s), 5 in the last 30d.",
-      "coverage": 9,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 6,
-          "weight": 4.5
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Healthtech / Bio",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Space Tech",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 5,
-      "recent90": 9,
-      "prior30": 1,
-      "last_deal_days": 1,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-16",
-          "summary": "How\u00a0Fortell\u00a0is using AI (and $163M) to crack a hearing aid monopoly",
-          "url": "https://techcrunch.com/video/how-fortell-is-using-ai-and-163m-to-crack-a-hearing-aid-monopoly/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-16",
-          "summary": "Why Thrive, Founders Fund, and Antonio Gracias are betting on hearing aids",
-          "url": "https://techcrunch.com/podcast/why-thrive-founders-fund-and-antonio-gracias-are-betting-on-hearing-aids/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-11",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-09-08",
-          "summary": "Cognition Secures $48 Billion Valuation as Demand for AI Coding Surges",
-          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/cognition-secures-48-billion-valuation-as-demand-for-ai-coding-surges/"
-        },
-        {
-          "sector": "Healthtech / Bio",
-          "date": "2026-08-31",
-          "summary": "4 Notable Health Tech Funding Announcements in August",
-          "url": "https://medcitynews.com/2026/08/4-notable-health-tech-funding-announcements-in-august/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-20",
-          "summary": "Mexico Extends Its Venture Lead Over Brazil As More Global VCs Enter Latin America",
-          "url": "https://news.crunchbase.com/venture/mexico-leads-latin-america-funding-q2-2026/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-17",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: No Summer Doldrums As Dollars Still Flow To AI",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
-        },
-        {
-          "sector": "Space Tech",
-          "date": "2026-07-15",
-          "summary": "A SpaceX vet raised $65M to pull wire harnesses out of the Cold War era",
-          "url": "https://techcrunch.com/2026/07/15/a-spacex-vet-raised-65m-to-pull-wire-harnesses-out-of-the-cold-war-era/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-07",
-          "summary": "Bitmine Immersion Technologies (BMNR) kondigt aan dat het bezit aan ETH 5,74 miljoen tokens heeft bereikt en dat het totale bezit aan cryptovaluta en geldmiddelen 11,1 miljard dollar bedraagt",
-          "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-kondigt-aan-dat-het-bezit-aan-eth-5-74-miljoen-tokens-heeft-bereikt-en-dat-het-totale-bezit-aan-cryptovaluta-en-geldmiddelen-11-1-miljard-dollar-bedraagt-302819108.html"
         }
       ]
     },
@@ -4217,6 +4234,129 @@
       ]
     },
     {
+      "fund": "Lux Capital",
+      "thesis": "Revealed focus: Space Tech and Fintech / Payments. 6 attributed deal(s), 3 in the last 30d.",
+      "coverage": 6,
+      "sectors": [
+        {
+          "label": "Space Tech",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 2,
+          "weight": 1.5
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 0.5
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 3,
+      "recent90": 6,
+      "prior30": 3,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-17",
+          "summary": "Impulse Space Raises $308M Series D Extension",
+          "url": "https://payloadspace.com/impulse-space-raises-308m-series-d-extension/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-17",
+          "summary": "EnduroSat Raises $205M, Notches Vantor Sat Win",
+          "url": "https://payloadspace.com/endurosat-raises-205m-notches-vantor-sat-win/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-27",
+          "summary": "Multiplier Secures Funding to Build AI Agents for Asset Managers",
+          "url": "https://www.crowdfundinsider.com/2026/08/302189-multiplier-secures-funding-to-build-ai-agents-for-asset-managers/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-10",
+          "summary": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise",
+          "url": "https://sifted.eu/articles/cambridge-aerospace-fundraise-valuation/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-05",
+          "summary": "AI makes weather prediction better. Can WindBorne make it lucrative?",
+          "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-05",
+          "summary": "AI makes weather prediction better. Can WindBorne make it lucrative?",
+          "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/"
+        }
+      ]
+    },
+    {
+      "fund": "ICE",
+      "thesis": "Revealed focus: Coexistence / Empowerment. 6 attributed deal(s), 6 in the last 30d.",
+      "coverage": 6,
+      "sectors": [
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 6,
+          "weight": 6.0
+        }
+      ],
+      "recent30": 6,
+      "recent90": 6,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-17",
+          "summary": "EU Backs More Free CO2 Permits for Heavy Industry",
+          "url": "https://esgnews.com/eu-backs-more-free-co2-permits-for-heavy-industry/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-more-free-co2-permits-for-heavy-industry"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-17",
+          "summary": "World Bank Backs $2.86B Brazil Industry Decarbonization",
+          "url": "https://esgnews.com/world-bank-backs-2-86b-brazil-industry-decarbonization/?utm_source=rss&utm_medium=rss&utm_campaign=world-bank-backs-2-86b-brazil-industry-decarbonization"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-16",
+          "summary": "EU Parliament Backs Expanded CBAM and Decarbonisation Fund",
+          "url": "https://esgnews.com/eu-parliament-backs-wider-cbam-and-industry-fund/?utm_source=rss&utm_medium=rss&utm_campaign=eu-parliament-backs-wider-cbam-and-industry-fund"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-16",
+          "summary": "BII Backs BlueOrchard Climate Fund\u2019s $250M First Close",
+          "url": "https://esgnews.com/bii-backs-blueorchard-climate-funds-250m-first-close/?utm_source=rss&utm_medium=rss&utm_campaign=bii-backs-blueorchard-climate-funds-250m-first-close"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-15",
+          "summary": "Isometric Raises $50 Million Series A With ICE Backing",
+          "url": "https://esgnews.com/isometric-raises-50-million-series-a-with-ice-backing/?utm_source=rss&utm_medium=rss&utm_campaign=isometric-raises-50-million-series-a-with-ice-backing"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-15",
+          "summary": "EIB Invests $46 Million in Modular Nuclear",
+          "url": "https://esgnews.com/eib-invests-46-million-in-modular-nuclear/?utm_source=rss&utm_medium=rss&utm_campaign=eib-invests-46-million-in-modular-nuclear"
+        }
+      ]
+    },
+    {
       "fund": "Qatar Investment Authority",
       "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 2 in the last 30d.",
       "coverage": 5,
@@ -4492,6 +4632,64 @@
       ]
     },
     {
+      "fund": "Riot Ventures",
+      "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 3 in the last 30d.",
+      "coverage": 5,
+      "sectors": [
+        {
+          "label": "Space Tech",
+          "count": 3,
+          "weight": 3.0
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 0.5
+        },
+        {
+          "label": "Climate / Energy",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 3,
+      "recent90": 5,
+      "prior30": 2,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-17",
+          "summary": "EnduroSat Raise Pushes European NewSpace Funding Above \u20ac1 Billion for September",
+          "url": "https://europeanspaceflight.com/endurosat-raise-pushes-european-newspace-funding-above-e1-billion-for-september/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-17",
+          "summary": "Impulse Space Raises $308M Series D Extension",
+          "url": "https://payloadspace.com/impulse-space-raises-308m-series-d-extension/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-17",
+          "summary": "EnduroSat Raises $205M, Notches Vantor Sat Win",
+          "url": "https://payloadspace.com/endurosat-raises-205m-notches-vantor-sat-win/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-03",
+          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
+          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-03",
+          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
+          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
+        }
+      ]
+    },
+    {
       "fund": "Forerunner",
       "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 5 attributed deal(s).",
       "coverage": 5,
@@ -4730,6 +4928,54 @@
           "date": "2026-07-07",
           "summary": "Google Backs Proxima\u2019s Record $468 Million Raise in Race to First Fusion Power Plant",
           "url": "https://www.esgtoday.com/google-backs-proximas-record-468-million-raise-in-race-to-first-fusion-power-plant/?utm_source=rss&utm_medium=rss&utm_campaign=google-backs-proximas-record-468-million-raise-in-race-to-first-fusion-power-plant"
+        }
+      ]
+    },
+    {
+      "fund": "EIB",
+      "thesis": "Revealed focus: Coexistence / Empowerment. 5 attributed deal(s), 4 in the last 30d.",
+      "coverage": 5,
+      "sectors": [
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 5,
+          "weight": 4.5
+        }
+      ],
+      "recent30": 4,
+      "recent90": 5,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-17",
+          "summary": "World Bank Backs $2.86B Brazil Industry Decarbonization",
+          "url": "https://esgnews.com/world-bank-backs-2-86b-brazil-industry-decarbonization/?utm_source=rss&utm_medium=rss&utm_campaign=world-bank-backs-2-86b-brazil-industry-decarbonization"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-16",
+          "summary": "EU Parliament Backs Expanded CBAM and Decarbonisation Fund",
+          "url": "https://esgnews.com/eu-parliament-backs-wider-cbam-and-industry-fund/?utm_source=rss&utm_medium=rss&utm_campaign=eu-parliament-backs-wider-cbam-and-industry-fund"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-16",
+          "summary": "BII Backs BlueOrchard Climate Fund\u2019s $250M First Close",
+          "url": "https://esgnews.com/bii-backs-blueorchard-climate-funds-250m-first-close/?utm_source=rss&utm_medium=rss&utm_campaign=bii-backs-blueorchard-climate-funds-250m-first-close"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-15",
+          "summary": "EIB Invests $46 Million in Modular Nuclear",
+          "url": "https://esgnews.com/eib-invests-46-million-in-modular-nuclear/?utm_source=rss&utm_medium=rss&utm_campaign=eib-invests-46-million-in-modular-nuclear"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-21",
+          "summary": "EIB Backs TenneT Germany\u2019s $4.1B Green Bond",
+          "url": "https://esgnews.com/eib-backs-tennet-germanys-4-1b-green-bond/?utm_source=rss&utm_medium=rss&utm_campaign=eib-backs-tennet-germanys-4-1b-green-bond"
         }
       ]
     },
@@ -5719,58 +5965,6 @@
       ]
     },
     {
-      "fund": "Lux Capital",
-      "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 4 attributed deal(s), 1 in the last 30d.",
-      "coverage": 4,
-      "sectors": [
-        {
-          "label": "Fintech / Payments",
-          "count": 2,
-          "weight": 1.5
-        },
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 0.5
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 1,
-      "recent90": 4,
-      "prior30": 3,
-      "last_deal_days": 21,
-      "deals": [
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-08-27",
-          "summary": "Multiplier Secures Funding to Build AI Agents for Asset Managers",
-          "url": "https://www.crowdfundinsider.com/2026/08/302189-multiplier-secures-funding-to-build-ai-agents-for-asset-managers/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-08-10",
-          "summary": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise",
-          "url": "https://sifted.eu/articles/cambridge-aerospace-fundraise-valuation/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-05",
-          "summary": "AI makes weather prediction better. Can WindBorne make it lucrative?",
-          "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-08-05",
-          "summary": "AI makes weather prediction better. Can WindBorne make it lucrative?",
-          "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/"
-        }
-      ]
-    },
-    {
       "fund": "Conviction",
       "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 4 attributed deal(s).",
       "coverage": 4,
@@ -6214,7 +6408,7 @@
       ]
     },
     {
-      "fund": "ICE",
+      "fund": "BII",
       "thesis": "Revealed focus: Coexistence / Empowerment. 4 attributed deal(s), 4 in the last 30d.",
       "coverage": 4,
       "sectors": [
@@ -6227,8 +6421,20 @@
       "recent30": 4,
       "recent90": 4,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 0,
       "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-17",
+          "summary": "EU Backs More Free CO2 Permits for Heavy Industry",
+          "url": "https://esgnews.com/eu-backs-more-free-co2-permits-for-heavy-industry/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-more-free-co2-permits-for-heavy-industry"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-17",
+          "summary": "World Bank Backs $2.86B Brazil Industry Decarbonization",
+          "url": "https://esgnews.com/world-bank-backs-2-86b-brazil-industry-decarbonization/?utm_source=rss&utm_medium=rss&utm_campaign=world-bank-backs-2-86b-brazil-industry-decarbonization"
+        },
         {
           "sector": "Coexistence / Empowerment",
           "date": "2026-09-16",
@@ -6240,60 +6446,48 @@
           "date": "2026-09-16",
           "summary": "BII Backs BlueOrchard Climate Fund\u2019s $250M First Close",
           "url": "https://esgnews.com/bii-backs-blueorchard-climate-funds-250m-first-close/?utm_source=rss&utm_medium=rss&utm_campaign=bii-backs-blueorchard-climate-funds-250m-first-close"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-15",
-          "summary": "Isometric Raises $50 Million Series A With ICE Backing",
-          "url": "https://esgnews.com/isometric-raises-50-million-series-a-with-ice-backing/?utm_source=rss&utm_medium=rss&utm_campaign=isometric-raises-50-million-series-a-with-ice-backing"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-15",
-          "summary": "EIB Invests $46 Million in Modular Nuclear",
-          "url": "https://esgnews.com/eib-invests-46-million-in-modular-nuclear/?utm_source=rss&utm_medium=rss&utm_campaign=eib-invests-46-million-in-modular-nuclear"
         }
       ]
     },
     {
-      "fund": "EIB",
-      "thesis": "Revealed focus: Coexistence / Empowerment. 4 attributed deal(s), 3 in the last 30d.",
+      "fund": "MassMutual Ventures",
+      "thesis": "Revealed focus: Coexistence / Empowerment. 4 attributed deal(s), 4 in the last 30d.",
       "coverage": 4,
       "sectors": [
         {
           "label": "Coexistence / Empowerment",
           "count": 4,
-          "weight": 3.5
+          "weight": 4.0
         }
       ],
-      "recent30": 3,
+      "recent30": 4,
       "recent90": 4,
-      "prior30": 1,
-      "last_deal_days": 1,
+      "prior30": 0,
+      "last_deal_days": 0,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
-          "date": "2026-09-16",
-          "summary": "EU Parliament Backs Expanded CBAM and Decarbonisation Fund",
-          "url": "https://esgnews.com/eu-parliament-backs-wider-cbam-and-industry-fund/?utm_source=rss&utm_medium=rss&utm_campaign=eu-parliament-backs-wider-cbam-and-industry-fund"
+          "date": "2026-09-17",
+          "summary": "EU Backs More Free CO2 Permits for Heavy Industry",
+          "url": "https://esgnews.com/eu-backs-more-free-co2-permits-for-heavy-industry/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-more-free-co2-permits-for-heavy-industry"
         },
         {
           "sector": "Coexistence / Empowerment",
-          "date": "2026-09-16",
-          "summary": "BII Backs BlueOrchard Climate Fund\u2019s $250M First Close",
-          "url": "https://esgnews.com/bii-backs-blueorchard-climate-funds-250m-first-close/?utm_source=rss&utm_medium=rss&utm_campaign=bii-backs-blueorchard-climate-funds-250m-first-close"
+          "date": "2026-09-08",
+          "summary": "EU Backs Greenland Strategy With $232 Million",
+          "url": "https://esgnews.com/eu-backs-greenland-strategy-with-232-million/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-greenland-strategy-with-232-million"
         },
         {
           "sector": "Coexistence / Empowerment",
-          "date": "2026-09-15",
-          "summary": "EIB Invests $46 Million in Modular Nuclear",
-          "url": "https://esgnews.com/eib-invests-46-million-in-modular-nuclear/?utm_source=rss&utm_medium=rss&utm_campaign=eib-invests-46-million-in-modular-nuclear"
+          "date": "2026-09-02",
+          "summary": "European Banks Underuse Green Bonds for Transition",
+          "url": "https://esgnews.com/european-banks-underuse-green-bonds-for-transition/?utm_source=rss&utm_medium=rss&utm_campaign=european-banks-underuse-green-bonds-for-transition"
         },
         {
           "sector": "Coexistence / Empowerment",
-          "date": "2026-07-21",
-          "summary": "EIB Backs TenneT Germany\u2019s $4.1B Green Bond",
-          "url": "https://esgnews.com/eib-backs-tennet-germanys-4-1b-green-bond/?utm_source=rss&utm_medium=rss&utm_campaign=eib-backs-tennet-germanys-4-1b-green-bond"
+          "date": "2026-08-26",
+          "summary": "Centurion Raises $200 Million With Sustainability Notes",
+          "url": "https://esgnews.com/centurion-raises-200-million-with-sustainability-notes/?utm_source=rss&utm_medium=rss&utm_campaign=centurion-raises-200-million-with-sustainability-notes"
         }
       ]
     },
@@ -6463,6 +6657,52 @@
           "date": "2026-08-02",
           "summary": "4 Notable Health Tech Funding Announcements in July",
           "url": "https://medcitynews.com/2026/08/4-notable-health-tech-funding-announcements-in-july/"
+        }
+      ]
+    },
+    {
+      "fund": "Google Ventures",
+      "thesis": "Revealed focus: Cybersecurity and Space Tech. 3 attributed deal(s), 2 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 2,
+      "recent90": 3,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-17",
+          "summary": "EnduroSat Raises $205M, Notches Vantor Sat Win",
+          "url": "https://payloadspace.com/endurosat-raises-205m-notches-vantor-sat-win/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-11",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-10",
+          "summary": "UK Artificial Intelligence Funding Rockets Higher",
+          "url": "https://www.crowdfundinsider.com/2026/08/296194-uk-artificial-intelligence-funding-rockets-higher/"
         }
       ]
     },
@@ -7154,52 +7394,6 @@
           "date": "2026-08-03",
           "summary": "Horizon3.ai hits $2 billion valuation in $250 million funding round",
           "url": "https://www.helpnetsecurity.com/2026/08/03/horizon3-ai-250-million-funding/"
-        }
-      ]
-    },
-    {
-      "fund": "Riot Ventures",
-      "thesis": "Revealed focus: Space Tech and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
-      "coverage": 3,
-      "sectors": [
-        {
-          "label": "Space Tech",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 0.5
-        },
-        {
-          "label": "Climate / Energy",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 1,
-      "recent90": 3,
-      "prior30": 2,
-      "last_deal_days": 0,
-      "deals": [
-        {
-          "sector": "Space Tech",
-          "date": "2026-09-17",
-          "summary": "EnduroSat Raise Pushes European NewSpace Funding Above \u20ac1 Billion for September",
-          "url": "https://europeanspaceflight.com/endurosat-raise-pushes-european-newspace-funding-above-e1-billion-for-september/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-03",
-          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
-          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-08-03",
-          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
-          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
         }
       ]
     },
@@ -8208,6 +8402,47 @@
       ]
     },
     {
+      "fund": "European Innovation Council",
+      "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 3 attributed deal(s), 2 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Space Tech",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 2,
+      "recent90": 3,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-17",
+          "summary": "EnduroSat Raise Pushes European NewSpace Funding Above \u20ac1 Billion for September",
+          "url": "https://europeanspaceflight.com/endurosat-raise-pushes-european-newspace-funding-above-e1-billion-for-september/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-17",
+          "summary": "EnduroSat Raises $205M, Notches Vantor Sat Win",
+          "url": "https://payloadspace.com/endurosat-raises-205m-notches-vantor-sat-win/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-16",
+          "summary": "Lululemon Backs Textile Recycling Tech Startup Syntetica",
+          "url": "https://www.esgtoday.com/lululemon-backs-textile-recycling-tech-startup-syntetica/?utm_source=rss&utm_medium=rss&utm_campaign=lululemon-backs-textile-recycling-tech-startup-syntetica"
+        }
+      ]
+    },
+    {
       "fund": "Woven Capital",
       "thesis": "Revealed focus: Space Tech. 3 attributed deal(s), 3 in the last 30d.",
       "coverage": 3,
@@ -8434,42 +8669,6 @@
       ]
     },
     {
-      "fund": "MassMutual Ventures",
-      "thesis": "Revealed focus: Coexistence / Empowerment. 3 attributed deal(s), 3 in the last 30d.",
-      "coverage": 3,
-      "sectors": [
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 3,
-          "weight": 3.0
-        }
-      ],
-      "recent30": 3,
-      "recent90": 3,
-      "prior30": 0,
-      "last_deal_days": 9,
-      "deals": [
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-08",
-          "summary": "EU Backs Greenland Strategy With $232 Million",
-          "url": "https://esgnews.com/eu-backs-greenland-strategy-with-232-million/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-greenland-strategy-with-232-million"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-02",
-          "summary": "European Banks Underuse Green Bonds for Transition",
-          "url": "https://esgnews.com/european-banks-underuse-green-bonds-for-transition/?utm_source=rss&utm_medium=rss&utm_campaign=european-banks-underuse-green-bonds-for-transition"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-08-26",
-          "summary": "Centurion Raises $200 Million With Sustainability Notes",
-          "url": "https://esgnews.com/centurion-raises-200-million-with-sustainability-notes/?utm_source=rss&utm_medium=rss&utm_campaign=centurion-raises-200-million-with-sustainability-notes"
-        }
-      ]
-    },
-    {
       "fund": "Mubadala",
       "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -8536,41 +8735,6 @@
           "date": "2026-08-19",
           "summary": "AI Startup Etched Takes Just One Month to Double in Valuation",
           "url": "https://www.crowdfundinsider.com/2026/08/299030-ai-startup-etched-takes-just-one-month-to-double-in-valuation/"
-        }
-      ]
-    },
-    {
-      "fund": "Google Ventures",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 1,
-      "recent90": 2,
-      "prior30": 1,
-      "last_deal_days": 6,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-11",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-08-10",
-          "summary": "UK Artificial Intelligence Funding Rockets Higher",
-          "url": "https://www.crowdfundinsider.com/2026/08/296194-uk-artificial-intelligence-funding-rockets-higher/"
         }
       ]
     },
@@ -10275,6 +10439,41 @@
           "date": "2026-09-08",
           "summary": "Stoke Space Raises $1B Initial Series E Round",
           "url": "https://payloadspace.com/stoke-space-raises-1b-initial-series-e-round/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-07",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Big Week For Big Checks",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-billion-dollar-raises-manufacturing-energy-ai/"
+        }
+      ]
+    },
+    {
+      "fund": "137 Ventures",
+      "thesis": "Revealed focus: Space Tech and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 2,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-17",
+          "summary": "Impulse Space Raises $308M Series D Extension",
+          "url": "https://payloadspace.com/impulse-space-raises-308m-series-d-extension/"
         },
         {
           "sector": "Cybersecurity",
@@ -13025,41 +13224,6 @@
       ]
     },
     {
-      "fund": "European Innovation Council",
-      "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Space Tech",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 1,
-      "recent90": 2,
-      "prior30": 0,
-      "last_deal_days": 0,
-      "deals": [
-        {
-          "sector": "Space Tech",
-          "date": "2026-09-17",
-          "summary": "EnduroSat Raise Pushes European NewSpace Funding Above \u20ac1 Billion for September",
-          "url": "https://europeanspaceflight.com/endurosat-raise-pushes-european-newspace-funding-above-e1-billion-for-september/"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-07-16",
-          "summary": "Lululemon Backs Textile Recycling Tech Startup Syntetica",
-          "url": "https://www.esgtoday.com/lululemon-backs-textile-recycling-tech-startup-syntetica/?utm_source=rss&utm_medium=rss&utm_campaign=lululemon-backs-textile-recycling-tech-startup-syntetica"
-        }
-      ]
-    },
-    {
       "fund": "Lightrock",
       "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -13575,7 +13739,7 @@
       ]
     },
     {
-      "fund": "BII",
+      "fund": "BlueOrchard Climate Fund",
       "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
       "sectors": [
@@ -13588,19 +13752,49 @@
       "recent30": 2,
       "recent90": 2,
       "prior30": 0,
-      "last_deal_days": 1,
+      "last_deal_days": 0,
       "deals": [
         {
           "sector": "Coexistence / Empowerment",
-          "date": "2026-09-16",
-          "summary": "EU Parliament Backs Expanded CBAM and Decarbonisation Fund",
-          "url": "https://esgnews.com/eu-parliament-backs-wider-cbam-and-industry-fund/?utm_source=rss&utm_medium=rss&utm_campaign=eu-parliament-backs-wider-cbam-and-industry-fund"
+          "date": "2026-09-17",
+          "summary": "EU Backs More Free CO2 Permits for Heavy Industry",
+          "url": "https://esgnews.com/eu-backs-more-free-co2-permits-for-heavy-industry/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-more-free-co2-permits-for-heavy-industry"
         },
         {
           "sector": "Coexistence / Empowerment",
-          "date": "2026-09-16",
-          "summary": "BII Backs BlueOrchard Climate Fund\u2019s $250M First Close",
-          "url": "https://esgnews.com/bii-backs-blueorchard-climate-funds-250m-first-close/?utm_source=rss&utm_medium=rss&utm_campaign=bii-backs-blueorchard-climate-funds-250m-first-close"
+          "date": "2026-09-17",
+          "summary": "World Bank Backs $2.86B Brazil Industry Decarbonization",
+          "url": "https://esgnews.com/world-bank-backs-2-86b-brazil-industry-decarbonization/?utm_source=rss&utm_medium=rss&utm_campaign=world-bank-backs-2-86b-brazil-industry-decarbonization"
+        }
+      ]
+    },
+    {
+      "fund": "Nuveen Fund IV",
+      "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 2,
+          "weight": 2.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-17",
+          "summary": "EU Backs More Free CO2 Permits for Heavy Industry",
+          "url": "https://esgnews.com/eu-backs-more-free-co2-permits-for-heavy-industry/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-more-free-co2-permits-for-heavy-industry"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-02",
+          "summary": "European Banks Underuse Green Bonds for Transition",
+          "url": "https://esgnews.com/european-banks-underuse-green-bonds-for-transition/?utm_source=rss&utm_medium=rss&utm_campaign=european-banks-underuse-green-bonds-for-transition"
         }
       ]
     },
@@ -14087,6 +14281,13 @@
         "recent30": 1
       },
       {
+        "fund": "Lux Capital",
+        "thesis": "Revealed focus: Space Tech and Fintech / Payments. 6 attributed deal(s), 3 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 2,
+        "recent30": 3
+      },
+      {
         "fund": "Goldman Sachs Alternatives",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s), 2 in the last 30d.",
         "coverage": 5,
@@ -14099,13 +14300,6 @@
         "coverage": 4,
         "sector_count": 2,
         "recent30": 2
-      },
-      {
-        "fund": "Lux Capital",
-        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 4 attributed deal(s), 1 in the last 30d.",
-        "coverage": 4,
-        "sector_count": 2,
-        "recent30": 1
       },
       {
         "fund": "Tether",
@@ -14262,6 +14456,13 @@
         "recent30": 4
       },
       {
+        "fund": "Founders Fund",
+        "thesis": "Revealed focus: Cybersecurity and Space Tech. 10 attributed deal(s), 6 in the last 30d.",
+        "coverage": 10,
+        "sector_count": 1,
+        "recent30": 6
+      },
+      {
         "fund": "Lightspeed Venture Partners",
         "thesis": "Revealed focus: Cybersecurity and Space Tech. 10 attributed deal(s), 6 in the last 30d.",
         "coverage": 10,
@@ -14274,13 +14475,6 @@
         "coverage": 10,
         "sector_count": 1,
         "recent30": 6
-      },
-      {
-        "fund": "Founders Fund",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 9 attributed deal(s), 5 in the last 30d.",
-        "coverage": 9,
-        "sector_count": 1,
-        "recent30": 5
       },
       {
         "fund": "Kleiner Perkins",
@@ -14409,6 +14603,13 @@
         "recent30": 2
       },
       {
+        "fund": "Google Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Space Tech. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "Disruptive",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 1 in the last 30d.",
         "coverage": 3,
@@ -14512,13 +14713,6 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 2
-      },
-      {
-        "fund": "Google Ventures",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
       },
       {
         "fund": "FTV Capital",
@@ -14859,18 +15053,18 @@
         "recent30": 6
       },
       {
+        "fund": "Valor Equity Partners",
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 12 attributed deal(s), 6 in the last 30d.",
+        "coverage": 12,
+        "sector_count": 1,
+        "recent30": 6
+      },
+      {
         "fund": "Spark Capital",
         "thesis": "Revealed focus: Cybersecurity and Space Tech. 12 attributed deal(s), 7 in the last 30d.",
         "coverage": 12,
         "sector_count": 1,
         "recent30": 7
-      },
-      {
-        "fund": "Valor Equity Partners",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 11 attributed deal(s), 5 in the last 30d.",
-        "coverage": 11,
-        "sector_count": 1,
-        "recent30": 5
       },
       {
         "fund": "Lightspeed Venture Partners",
@@ -14936,6 +15130,13 @@
         "recent30": 3
       },
       {
+        "fund": "Lux Capital",
+        "thesis": "Revealed focus: Space Tech and Fintech / Payments. 6 attributed deal(s), 3 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "Qatar Investment Authority",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 2 in the last 30d.",
         "coverage": 5,
@@ -14990,13 +15191,6 @@
         "coverage": 4,
         "sector_count": 1,
         "recent30": 4
-      },
-      {
-        "fund": "Lux Capital",
-        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 4 attributed deal(s), 1 in the last 30d.",
-        "coverage": 4,
-        "sector_count": 1,
-        "recent30": 1
       },
       {
         "fund": "Vista Equity Partners",
@@ -15499,10 +15693,17 @@
       },
       {
         "fund": "Valor Equity Partners",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 11 attributed deal(s), 5 in the last 30d.",
-        "coverage": 11,
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 12 attributed deal(s), 6 in the last 30d.",
+        "coverage": 12,
         "sector_count": 6,
-        "recent30": 5
+        "recent30": 6
+      },
+      {
+        "fund": "Founders Fund",
+        "thesis": "Revealed focus: Cybersecurity and Space Tech. 10 attributed deal(s), 6 in the last 30d.",
+        "coverage": 10,
+        "sector_count": 6,
+        "recent30": 6
       },
       {
         "fund": "Lightspeed Venture Partners",
@@ -15510,13 +15711,6 @@
         "coverage": 10,
         "sector_count": 6,
         "recent30": 6
-      },
-      {
-        "fund": "Founders Fund",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 9 attributed deal(s), 5 in the last 30d.",
-        "coverage": 9,
-        "sector_count": 6,
-        "recent30": 5
       },
       {
         "fund": "Google",
@@ -16093,11 +16287,25 @@
         "recent30": 3
       },
       {
+        "fund": "Lux Capital",
+        "thesis": "Revealed focus: Space Tech and Fintech / Payments. 6 attributed deal(s), 3 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "Altimeter",
         "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 1 in the last 30d.",
         "coverage": 5,
         "sector_count": 1,
         "recent30": 1
+      },
+      {
+        "fund": "Riot Ventures",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 3 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 3
       },
       {
         "fund": "Forerunner",
@@ -16156,13 +16364,6 @@
         "recent30": 0
       },
       {
-        "fund": "Lux Capital",
-        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 4 attributed deal(s), 1 in the last 30d.",
-        "coverage": 4,
-        "sector_count": 1,
-        "recent30": 1
-      },
-      {
         "fund": "Paradigm",
         "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 4 attributed deal(s).",
         "coverage": 4,
@@ -16186,6 +16387,13 @@
       {
         "fund": "Avenir",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Google Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Space Tech. 3 attributed deal(s), 2 in the last 30d.",
         "coverage": 3,
         "sector_count": 1,
         "recent30": 2
@@ -16268,13 +16476,6 @@
         "recent30": 2
       },
       {
-        "fund": "Riot Ventures",
-        "thesis": "Revealed focus: Space Tech and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 1
-      },
-      {
         "fund": "FirstMark",
         "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s).",
         "coverage": 3,
@@ -16343,13 +16544,6 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 2
-      },
-      {
-        "fund": "Google Ventures",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
       },
       {
         "fund": "Venrock",
@@ -16646,6 +16840,13 @@
         "recent30": 1
       },
       {
+        "fund": "137 Ventures",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
         "fund": "Avra",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s).",
         "coverage": 2,
@@ -16872,18 +17073,18 @@
         "recent30": 9
       },
       {
+        "fund": "Valor Equity Partners",
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 12 attributed deal(s), 6 in the last 30d.",
+        "coverage": 12,
+        "sector_count": 3,
+        "recent30": 6
+      },
+      {
         "fund": "Breakthrough Energy Ventures",
         "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 12 attributed deal(s), 1 in the last 30d.",
         "coverage": 12,
         "sector_count": 3,
         "recent30": 1
-      },
-      {
-        "fund": "Valor Equity Partners",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 11 attributed deal(s), 5 in the last 30d.",
-        "coverage": 11,
-        "sector_count": 3,
-        "recent30": 5
       },
       {
         "fund": "Nvidia",
@@ -17005,6 +17206,13 @@
         "recent30": 1
       },
       {
+        "fund": "Riot Ventures",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 3 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "Cisco",
         "thesis": "Revealed focus: Space Tech and AI / ML Infra. 5 attributed deal(s), 3 in the last 30d.",
         "coverage": 5,
@@ -17094,13 +17302,6 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 0
-      },
-      {
-        "fund": "Riot Ventures",
-        "thesis": "Revealed focus: Space Tech and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 1
       },
       {
         "fund": "OpenAI",
@@ -17527,6 +17728,13 @@
         "recent30": 1
       },
       {
+        "fund": "Riot Ventures",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 3 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 3,
+        "recent30": 3
+      },
+      {
         "fund": "T. Rowe Price Associates",
         "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 1 in the last 30d.",
         "coverage": 5,
@@ -17590,6 +17798,13 @@
         "recent30": 8
       },
       {
+        "fund": "Founders Fund",
+        "thesis": "Revealed focus: Cybersecurity and Space Tech. 10 attributed deal(s), 6 in the last 30d.",
+        "coverage": 10,
+        "sector_count": 2,
+        "recent30": 6
+      },
+      {
         "fund": "Lightspeed Venture Partners",
         "thesis": "Revealed focus: Cybersecurity and Space Tech. 10 attributed deal(s), 6 in the last 30d.",
         "coverage": 10,
@@ -17634,6 +17849,13 @@
       {
         "fund": "Galvanize",
         "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 6 attributed deal(s), 3 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 2,
+        "recent30": 3
+      },
+      {
+        "fund": "Lux Capital",
+        "thesis": "Revealed focus: Space Tech and Fintech / Payments. 6 attributed deal(s), 3 in the last 30d.",
         "coverage": 6,
         "sector_count": 2,
         "recent30": 3
@@ -17693,6 +17915,13 @@
         "coverage": 3,
         "sector_count": 2,
         "recent30": 3
+      },
+      {
+        "fund": "European Innovation Council",
+        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 2,
+        "recent30": 2
       },
       {
         "fund": "Activate Capital",
@@ -17835,11 +18064,11 @@
         "recent30": 6
       },
       {
-        "fund": "Founders Fund",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 9 attributed deal(s), 5 in the last 30d.",
-        "coverage": 9,
+        "fund": "Valor Equity Partners",
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 12 attributed deal(s), 6 in the last 30d.",
+        "coverage": 12,
         "sector_count": 1,
-        "recent30": 5
+        "recent30": 6
       },
       {
         "fund": "Thrive Capital",
@@ -17884,11 +18113,11 @@
         "recent30": 2
       },
       {
-        "fund": "Riot Ventures",
-        "thesis": "Revealed focus: Space Tech and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
+        "fund": "Google Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Space Tech. 3 attributed deal(s), 2 in the last 30d.",
         "coverage": 3,
         "sector_count": 1,
-        "recent30": 1
+        "recent30": 2
       },
       {
         "fund": "First Round Capital",
@@ -17906,6 +18135,13 @@
       },
       {
         "fund": "Washington Harbour Partners",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
+        "fund": "137 Ventures",
         "thesis": "Revealed focus: Space Tech and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,
@@ -17945,13 +18181,6 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 2
-      },
-      {
-        "fund": "European Innovation Council",
-        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
       },
       {
         "fund": "Balderton",
@@ -18026,6 +18255,13 @@
         "recent30": 5
       },
       {
+        "fund": "Founders Fund",
+        "thesis": "Revealed focus: Cybersecurity and Space Tech. 10 attributed deal(s), 6 in the last 30d.",
+        "coverage": 10,
+        "sector_count": 1,
+        "recent30": 6
+      },
+      {
         "fund": "8VC",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 10 attributed deal(s), 6 in the last 30d.",
         "coverage": 10,
@@ -18038,13 +18274,6 @@
         "coverage": 10,
         "sector_count": 1,
         "recent30": 2
-      },
-      {
-        "fund": "Founders Fund",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 9 attributed deal(s), 5 in the last 30d.",
-        "coverage": 9,
-        "sector_count": 1,
-        "recent30": 5
       },
       {
         "fund": "Kleiner Perkins",
@@ -18204,17 +18433,31 @@
       },
       {
         "fund": "ICE",
+        "thesis": "Revealed focus: Coexistence / Empowerment. 6 attributed deal(s), 6 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 6,
+        "recent30": 6
+      },
+      {
+        "fund": "EIB",
+        "thesis": "Revealed focus: Coexistence / Empowerment. 5 attributed deal(s), 4 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 5,
+        "recent30": 4
+      },
+      {
+        "fund": "BII",
         "thesis": "Revealed focus: Coexistence / Empowerment. 4 attributed deal(s), 4 in the last 30d.",
         "coverage": 4,
         "sector_count": 4,
         "recent30": 4
       },
       {
-        "fund": "EIB",
-        "thesis": "Revealed focus: Coexistence / Empowerment. 4 attributed deal(s), 3 in the last 30d.",
+        "fund": "MassMutual Ventures",
+        "thesis": "Revealed focus: Coexistence / Empowerment. 4 attributed deal(s), 4 in the last 30d.",
         "coverage": 4,
         "sector_count": 4,
-        "recent30": 3
+        "recent30": 4
       },
       {
         "fund": "Energy Impact Partners",
@@ -18222,13 +18465,6 @@
         "coverage": 6,
         "sector_count": 3,
         "recent30": 2
-      },
-      {
-        "fund": "MassMutual Ventures",
-        "thesis": "Revealed focus: Coexistence / Empowerment. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 3,
-        "recent30": 3
       },
       {
         "fund": "Salesforce Ventures",
@@ -18308,7 +18544,14 @@
         "recent30": 1
       },
       {
-        "fund": "BII",
+        "fund": "BlueOrchard Climate Fund",
+        "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 2
+      },
+      {
+        "fund": "Nuveen Fund IV",
         "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 2,
@@ -18428,10 +18671,10 @@
       },
       {
         "fund": "Valor Equity Partners",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 11 attributed deal(s), 5 in the last 30d.",
-        "coverage": 11,
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 12 attributed deal(s), 6 in the last 30d.",
+        "coverage": 12,
         "sector_count": 1,
-        "recent30": 5
+        "recent30": 6
       },
       {
         "fund": "Insight Partners",
@@ -18574,6 +18817,13 @@
         "recent30": 0
       },
       {
+        "fund": "European Innovation Council",
+        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "Activate Capital",
         "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 3 attributed deal(s), 2 in the last 30d.",
         "coverage": 3,
@@ -18663,13 +18913,6 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 0
-      },
-      {
-        "fund": "European Innovation Council",
-        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
       },
       {
         "fund": "Balderton",

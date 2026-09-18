@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-18T13:21:36Z",
+  "generated": "2026-09-18T17:27:40Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 1132,
-    "deal_rows_attributed": 538,
+    "deal_rows_seen": 1137,
+    "deal_rows_attributed": 539,
     "funds_tracked": 314,
-    "fetch_attempts": 123,
-    "fetchable_pct": 4,
+    "fetch_attempts": 122,
+    "fetchable_pct": 3,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -561,13 +561,13 @@
     },
     {
       "fund": "Google",
-      "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 18 attributed deal(s), 10 in the last 30d.",
-      "coverage": 18,
+      "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 19 attributed deal(s), 11 in the last 30d.",
+      "coverage": 19,
       "sectors": [
         {
           "label": "Coexistence / Empowerment",
-          "count": 6,
-          "weight": 5.5
+          "count": 7,
+          "weight": 6.5
         },
         {
           "label": "Cybersecurity",
@@ -590,11 +590,17 @@
           "weight": 0.5
         }
       ],
-      "recent30": 10,
-      "recent90": 18,
+      "recent30": 11,
+      "recent90": 19,
       "prior30": 5,
-      "last_deal_days": 1,
+      "last_deal_days": 0,
       "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-18",
+          "summary": "Oracle Backs 1.7 GW of Texas Wind for AI Growth",
+          "url": "https://esgnews.com/oracle-backs-1-7-gw-of-texas-wind-for-ai-growth/?utm_source=rss&utm_medium=rss&utm_campaign=oracle-backs-1-7-gw-of-texas-wind-for-ai-growth"
+        },
         {
           "sector": "Climate / Energy",
           "date": "2026-09-17",
@@ -2004,6 +2010,110 @@
       ]
     },
     {
+      "fund": "BlackRock",
+      "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 11 attributed deal(s), 5 in the last 30d.",
+      "coverage": 11,
+      "sectors": [
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 3,
+          "weight": 3.0
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 3,
+          "weight": 1.5
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 2,
+          "weight": 1.5
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 2,
+          "weight": 1.5
+        },
+        {
+          "label": "Climate / Energy",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 5,
+      "recent90": 11,
+      "prior30": 3,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-18",
+          "summary": "Oracle Backs 1.7 GW of Texas Wind for AI Growth",
+          "url": "https://esgnews.com/oracle-backs-1-7-gw-of-texas-wind-for-ai-growth/?utm_source=rss&utm_medium=rss&utm_campaign=oracle-backs-1-7-gw-of-texas-wind-for-ai-growth"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-08",
+          "summary": "Mistral AI raises 3 billion euros in Europe's largest-ever tech funding round despite lagging behind rivals",
+          "url": "https://the-decoder.com/mistral-ai-raises-3-billion-euros-in-europes-largest-ever-tech-funding-round-despite-lagging-behind-rivals/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-08",
+          "summary": "EU Backs Greenland Strategy With $232 Million",
+          "url": "https://esgnews.com/eu-backs-greenland-strategy-with-232-million/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-greenland-strategy-with-232-million"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-02",
+          "summary": "European Banks Underuse Green Bonds for Transition",
+          "url": "https://esgnews.com/european-banks-underuse-green-bonds-for-transition/?utm_source=rss&utm_medium=rss&utm_campaign=european-banks-underuse-green-bonds-for-transition"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-31",
+          "summary": "Bolt Seeks Up to $27 Million as CEO Works to Revive Payments Startup",
+          "url": "https://www.pymnts.com/news/investment-tracker/2026/bolt-seeks-up-to-27-million-as-ceo-works-to-revive-payments-startup/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-15",
+          "summary": "Every fusion startup that has raised over $100M",
+          "url": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-15",
+          "summary": "Every fusion startup that has raised over $100M",
+          "url": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-06",
+          "summary": "Circle Reveals Institutional Validators for Arc Blockchain Ahead of September Mainnet Debut",
+          "url": "https://www.crowdfundinsider.com/2026/08/295270-circle-reveals-institutional-validators-for-arc-blockchain-ahead-of-september-mainnet-debut/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-10",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-08",
+          "summary": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
+          "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-08",
+          "summary": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
+          "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/"
+        }
+      ]
+    },
+    {
       "fund": "Lightspeed Venture Partners",
       "thesis": "Revealed focus: Cybersecurity and Space Tech. 10 attributed deal(s), 6 in the last 30d.",
       "coverage": 10,
@@ -2480,104 +2590,6 @@
           "date": "2026-07-09",
           "summary": "Popular open source AI developer tool Ollama raises $65M, grows to nearly 9M users",
           "url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/"
-        }
-      ]
-    },
-    {
-      "fund": "BlackRock",
-      "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 10 attributed deal(s), 4 in the last 30d.",
-      "coverage": 10,
-      "sectors": [
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 2,
-          "weight": 2.0
-        },
-        {
-          "label": "Cybersecurity",
-          "count": 3,
-          "weight": 1.5
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 2,
-          "weight": 1.5
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 2,
-          "weight": 1.5
-        },
-        {
-          "label": "Climate / Energy",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 4,
-      "recent90": 10,
-      "prior30": 3,
-      "last_deal_days": 10,
-      "deals": [
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-08",
-          "summary": "Mistral AI raises 3 billion euros in Europe's largest-ever tech funding round despite lagging behind rivals",
-          "url": "https://the-decoder.com/mistral-ai-raises-3-billion-euros-in-europes-largest-ever-tech-funding-round-despite-lagging-behind-rivals/"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-08",
-          "summary": "EU Backs Greenland Strategy With $232 Million",
-          "url": "https://esgnews.com/eu-backs-greenland-strategy-with-232-million/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-greenland-strategy-with-232-million"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-02",
-          "summary": "European Banks Underuse Green Bonds for Transition",
-          "url": "https://esgnews.com/european-banks-underuse-green-bonds-for-transition/?utm_source=rss&utm_medium=rss&utm_campaign=european-banks-underuse-green-bonds-for-transition"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-08-31",
-          "summary": "Bolt Seeks Up to $27 Million as CEO Works to Revive Payments Startup",
-          "url": "https://www.pymnts.com/news/investment-tracker/2026/bolt-seeks-up-to-27-million-as-ceo-works-to-revive-payments-startup/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-15",
-          "summary": "Every fusion startup that has raised over $100M",
-          "url": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-08-15",
-          "summary": "Every fusion startup that has raised over $100M",
-          "url": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-08-06",
-          "summary": "Circle Reveals Institutional Validators for Arc Blockchain Ahead of September Mainnet Debut",
-          "url": "https://www.crowdfundinsider.com/2026/08/295270-circle-reveals-institutional-validators-for-arc-blockchain-ahead-of-september-mainnet-debut/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-10",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
-          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-08",
-          "summary": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
-          "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-07-08",
-          "summary": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
-          "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/"
         }
       ]
     },
@@ -3204,6 +3216,72 @@
       ]
     },
     {
+      "fund": "ICE",
+      "thesis": "Revealed focus: Coexistence / Empowerment. 8 attributed deal(s), 8 in the last 30d.",
+      "coverage": 8,
+      "sectors": [
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 8,
+          "weight": 8.0
+        }
+      ],
+      "recent30": 8,
+      "recent90": 8,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-18",
+          "summary": "Google Backs Near-Zero Emissions Steel Plant",
+          "url": "https://esgnews.com/google-backs-near-zero-emissions-steel-plant/?utm_source=rss&utm_medium=rss&utm_campaign=google-backs-near-zero-emissions-steel-plant"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-18",
+          "summary": "Oracle Backs 1.7 GW of Texas Wind for AI Growth",
+          "url": "https://esgnews.com/oracle-backs-1-7-gw-of-texas-wind-for-ai-growth/?utm_source=rss&utm_medium=rss&utm_campaign=oracle-backs-1-7-gw-of-texas-wind-for-ai-growth"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-17",
+          "summary": "EU Backs More Free CO2 Permits for Heavy Industry",
+          "url": "https://esgnews.com/eu-backs-more-free-co2-permits-for-heavy-industry/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-more-free-co2-permits-for-heavy-industry"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-17",
+          "summary": "World Bank Backs $2.86B Brazil Industry Decarbonization",
+          "url": "https://esgnews.com/world-bank-backs-2-86b-brazil-industry-decarbonization/?utm_source=rss&utm_medium=rss&utm_campaign=world-bank-backs-2-86b-brazil-industry-decarbonization"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-16",
+          "summary": "EU Parliament Backs Expanded CBAM and Decarbonisation Fund",
+          "url": "https://esgnews.com/eu-parliament-backs-wider-cbam-and-industry-fund/?utm_source=rss&utm_medium=rss&utm_campaign=eu-parliament-backs-wider-cbam-and-industry-fund"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-16",
+          "summary": "BII Backs BlueOrchard Climate Fund\u2019s $250M First Close",
+          "url": "https://esgnews.com/bii-backs-blueorchard-climate-funds-250m-first-close/?utm_source=rss&utm_medium=rss&utm_campaign=bii-backs-blueorchard-climate-funds-250m-first-close"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-15",
+          "summary": "Isometric Raises $50 Million Series A With ICE Backing",
+          "url": "https://esgnews.com/isometric-raises-50-million-series-a-with-ice-backing/?utm_source=rss&utm_medium=rss&utm_campaign=isometric-raises-50-million-series-a-with-ice-backing"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-15",
+          "summary": "EIB Invests $46 Million in Modular Nuclear",
+          "url": "https://esgnews.com/eib-invests-46-million-in-modular-nuclear/?utm_source=rss&utm_medium=rss&utm_campaign=eib-invests-46-million-in-modular-nuclear"
+        }
+      ]
+    },
+    {
       "fund": "CapitalG",
       "thesis": "Revealed focus: Cybersecurity and Space Tech. 7 attributed deal(s), 2 in the last 30d.",
       "coverage": 7,
@@ -3480,66 +3558,6 @@
           "date": "2026-07-08",
           "summary": "Venus Aerospace raises $90M Series B to build a new kind of rocket engine",
           "url": "https://techcrunch.com/2026/07/08/venus-aerospace-raises-90m-series-b-to-build-a-new-kind-of-rocket-engine/"
-        }
-      ]
-    },
-    {
-      "fund": "ICE",
-      "thesis": "Revealed focus: Coexistence / Empowerment. 7 attributed deal(s), 7 in the last 30d.",
-      "coverage": 7,
-      "sectors": [
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 7,
-          "weight": 7.0
-        }
-      ],
-      "recent30": 7,
-      "recent90": 7,
-      "prior30": 0,
-      "last_deal_days": 0,
-      "deals": [
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-18",
-          "summary": "Google Backs Near-Zero Emissions Steel Plant",
-          "url": "https://esgnews.com/google-backs-near-zero-emissions-steel-plant/?utm_source=rss&utm_medium=rss&utm_campaign=google-backs-near-zero-emissions-steel-plant"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-17",
-          "summary": "EU Backs More Free CO2 Permits for Heavy Industry",
-          "url": "https://esgnews.com/eu-backs-more-free-co2-permits-for-heavy-industry/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-more-free-co2-permits-for-heavy-industry"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-17",
-          "summary": "World Bank Backs $2.86B Brazil Industry Decarbonization",
-          "url": "https://esgnews.com/world-bank-backs-2-86b-brazil-industry-decarbonization/?utm_source=rss&utm_medium=rss&utm_campaign=world-bank-backs-2-86b-brazil-industry-decarbonization"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-16",
-          "summary": "EU Parliament Backs Expanded CBAM and Decarbonisation Fund",
-          "url": "https://esgnews.com/eu-parliament-backs-wider-cbam-and-industry-fund/?utm_source=rss&utm_medium=rss&utm_campaign=eu-parliament-backs-wider-cbam-and-industry-fund"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-16",
-          "summary": "BII Backs BlueOrchard Climate Fund\u2019s $250M First Close",
-          "url": "https://esgnews.com/bii-backs-blueorchard-climate-funds-250m-first-close/?utm_source=rss&utm_medium=rss&utm_campaign=bii-backs-blueorchard-climate-funds-250m-first-close"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-15",
-          "summary": "Isometric Raises $50 Million Series A With ICE Backing",
-          "url": "https://esgnews.com/isometric-raises-50-million-series-a-with-ice-backing/?utm_source=rss&utm_medium=rss&utm_campaign=isometric-raises-50-million-series-a-with-ice-backing"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-15",
-          "summary": "EIB Invests $46 Million in Modular Nuclear",
-          "url": "https://esgnews.com/eib-invests-46-million-in-modular-nuclear/?utm_source=rss&utm_medium=rss&utm_campaign=eib-invests-46-million-in-modular-nuclear"
         }
       ]
     },
@@ -4475,6 +4493,60 @@
       ]
     },
     {
+      "fund": "BII",
+      "thesis": "Revealed focus: Coexistence / Empowerment. 6 attributed deal(s), 6 in the last 30d.",
+      "coverage": 6,
+      "sectors": [
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 6,
+          "weight": 6.0
+        }
+      ],
+      "recent30": 6,
+      "recent90": 6,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-18",
+          "summary": "Google Backs Near-Zero Emissions Steel Plant",
+          "url": "https://esgnews.com/google-backs-near-zero-emissions-steel-plant/?utm_source=rss&utm_medium=rss&utm_campaign=google-backs-near-zero-emissions-steel-plant"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-18",
+          "summary": "Oracle Backs 1.7 GW of Texas Wind for AI Growth",
+          "url": "https://esgnews.com/oracle-backs-1-7-gw-of-texas-wind-for-ai-growth/?utm_source=rss&utm_medium=rss&utm_campaign=oracle-backs-1-7-gw-of-texas-wind-for-ai-growth"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-17",
+          "summary": "EU Backs More Free CO2 Permits for Heavy Industry",
+          "url": "https://esgnews.com/eu-backs-more-free-co2-permits-for-heavy-industry/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-more-free-co2-permits-for-heavy-industry"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-17",
+          "summary": "World Bank Backs $2.86B Brazil Industry Decarbonization",
+          "url": "https://esgnews.com/world-bank-backs-2-86b-brazil-industry-decarbonization/?utm_source=rss&utm_medium=rss&utm_campaign=world-bank-backs-2-86b-brazil-industry-decarbonization"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-16",
+          "summary": "EU Parliament Backs Expanded CBAM and Decarbonisation Fund",
+          "url": "https://esgnews.com/eu-parliament-backs-wider-cbam-and-industry-fund/?utm_source=rss&utm_medium=rss&utm_campaign=eu-parliament-backs-wider-cbam-and-industry-fund"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-16",
+          "summary": "BII Backs BlueOrchard Climate Fund\u2019s $250M First Close",
+          "url": "https://esgnews.com/bii-backs-blueorchard-climate-funds-250m-first-close/?utm_source=rss&utm_medium=rss&utm_campaign=bii-backs-blueorchard-climate-funds-250m-first-close"
+        }
+      ]
+    },
+    {
       "fund": "Goldman Sachs Alternatives",
       "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s), 2 in the last 30d.",
       "coverage": 5,
@@ -4997,7 +5069,7 @@
       ]
     },
     {
-      "fund": "BII",
+      "fund": "MassMutual Ventures",
       "thesis": "Revealed focus: Coexistence / Empowerment. 5 attributed deal(s), 5 in the last 30d.",
       "coverage": 5,
       "sectors": [
@@ -5015,8 +5087,8 @@
         {
           "sector": "Coexistence / Empowerment",
           "date": "2026-09-18",
-          "summary": "Google Backs Near-Zero Emissions Steel Plant",
-          "url": "https://esgnews.com/google-backs-near-zero-emissions-steel-plant/?utm_source=rss&utm_medium=rss&utm_campaign=google-backs-near-zero-emissions-steel-plant"
+          "summary": "Oracle Backs 1.7 GW of Texas Wind for AI Growth",
+          "url": "https://esgnews.com/oracle-backs-1-7-gw-of-texas-wind-for-ai-growth/?utm_source=rss&utm_medium=rss&utm_campaign=oracle-backs-1-7-gw-of-texas-wind-for-ai-growth"
         },
         {
           "sector": "Coexistence / Empowerment",
@@ -5026,21 +5098,21 @@
         },
         {
           "sector": "Coexistence / Empowerment",
-          "date": "2026-09-17",
-          "summary": "World Bank Backs $2.86B Brazil Industry Decarbonization",
-          "url": "https://esgnews.com/world-bank-backs-2-86b-brazil-industry-decarbonization/?utm_source=rss&utm_medium=rss&utm_campaign=world-bank-backs-2-86b-brazil-industry-decarbonization"
+          "date": "2026-09-08",
+          "summary": "EU Backs Greenland Strategy With $232 Million",
+          "url": "https://esgnews.com/eu-backs-greenland-strategy-with-232-million/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-greenland-strategy-with-232-million"
         },
         {
           "sector": "Coexistence / Empowerment",
-          "date": "2026-09-16",
-          "summary": "EU Parliament Backs Expanded CBAM and Decarbonisation Fund",
-          "url": "https://esgnews.com/eu-parliament-backs-wider-cbam-and-industry-fund/?utm_source=rss&utm_medium=rss&utm_campaign=eu-parliament-backs-wider-cbam-and-industry-fund"
+          "date": "2026-09-02",
+          "summary": "European Banks Underuse Green Bonds for Transition",
+          "url": "https://esgnews.com/european-banks-underuse-green-bonds-for-transition/?utm_source=rss&utm_medium=rss&utm_campaign=european-banks-underuse-green-bonds-for-transition"
         },
         {
           "sector": "Coexistence / Empowerment",
-          "date": "2026-09-16",
-          "summary": "BII Backs BlueOrchard Climate Fund\u2019s $250M First Close",
-          "url": "https://esgnews.com/bii-backs-blueorchard-climate-funds-250m-first-close/?utm_source=rss&utm_medium=rss&utm_campaign=bii-backs-blueorchard-climate-funds-250m-first-close"
+          "date": "2026-08-26",
+          "summary": "Centurion Raises $200 Million With Sustainability Notes",
+          "url": "https://esgnews.com/centurion-raises-200-million-with-sustainability-notes/?utm_source=rss&utm_medium=rss&utm_campaign=centurion-raises-200-million-with-sustainability-notes"
         }
       ]
     },
@@ -6725,48 +6797,6 @@
           "date": "2026-07-10",
           "summary": "Adaptive Insurance Raises $5M For Climate Risk Cover",
           "url": "https://seraphim.vc/news/adaptive-insurance-5m-climate-risk-cover/"
-        }
-      ]
-    },
-    {
-      "fund": "MassMutual Ventures",
-      "thesis": "Revealed focus: Coexistence / Empowerment. 4 attributed deal(s), 4 in the last 30d.",
-      "coverage": 4,
-      "sectors": [
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 4,
-          "weight": 4.0
-        }
-      ],
-      "recent30": 4,
-      "recent90": 4,
-      "prior30": 0,
-      "last_deal_days": 1,
-      "deals": [
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-17",
-          "summary": "EU Backs More Free CO2 Permits for Heavy Industry",
-          "url": "https://esgnews.com/eu-backs-more-free-co2-permits-for-heavy-industry/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-more-free-co2-permits-for-heavy-industry"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-08",
-          "summary": "EU Backs Greenland Strategy With $232 Million",
-          "url": "https://esgnews.com/eu-backs-greenland-strategy-with-232-million/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-greenland-strategy-with-232-million"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-02",
-          "summary": "European Banks Underuse Green Bonds for Transition",
-          "url": "https://esgnews.com/european-banks-underuse-green-bonds-for-transition/?utm_source=rss&utm_medium=rss&utm_campaign=european-banks-underuse-green-bonds-for-transition"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-08-26",
-          "summary": "Centurion Raises $200 Million With Sustainability Notes",
-          "url": "https://esgnews.com/centurion-raises-200-million-with-sustainability-notes/?utm_source=rss&utm_medium=rss&utm_campaign=centurion-raises-200-million-with-sustainability-notes"
         }
       ]
     },
@@ -9123,6 +9153,78 @@
           "date": "2026-07-08",
           "summary": "Venus Aerospace raises $90M Series B to build a new kind of rocket engine",
           "url": "https://techcrunch.com/2026/07/08/venus-aerospace-raises-90m-series-b-to-build-a-new-kind-of-rocket-engine/"
+        }
+      ]
+    },
+    {
+      "fund": "Brookfield",
+      "thesis": "Revealed focus: Coexistence / Empowerment. 3 attributed deal(s), 3 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 3,
+          "weight": 3.0
+        }
+      ],
+      "recent30": 3,
+      "recent90": 3,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-18",
+          "summary": "Google Backs Near-Zero Emissions Steel Plant",
+          "url": "https://esgnews.com/google-backs-near-zero-emissions-steel-plant/?utm_source=rss&utm_medium=rss&utm_campaign=google-backs-near-zero-emissions-steel-plant"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-18",
+          "summary": "Oracle Backs 1.7 GW of Texas Wind for AI Growth",
+          "url": "https://esgnews.com/oracle-backs-1-7-gw-of-texas-wind-for-ai-growth/?utm_source=rss&utm_medium=rss&utm_campaign=oracle-backs-1-7-gw-of-texas-wind-for-ai-growth"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-17",
+          "summary": "EU Backs More Free CO2 Permits for Heavy Industry",
+          "url": "https://esgnews.com/eu-backs-more-free-co2-permits-for-heavy-industry/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-more-free-co2-permits-for-heavy-industry"
+        }
+      ]
+    },
+    {
+      "fund": "Nuveen",
+      "thesis": "Revealed focus: Coexistence / Empowerment. 3 attributed deal(s), 2 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 3,
+          "weight": 2.5
+        }
+      ],
+      "recent30": 2,
+      "recent90": 3,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-18",
+          "summary": "Oracle Backs 1.7 GW of Texas Wind for AI Growth",
+          "url": "https://esgnews.com/oracle-backs-1-7-gw-of-texas-wind-for-ai-growth/?utm_source=rss&utm_medium=rss&utm_campaign=oracle-backs-1-7-gw-of-texas-wind-for-ai-growth"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-08",
+          "summary": "EU Backs Greenland Strategy With $232 Million",
+          "url": "https://esgnews.com/eu-backs-greenland-strategy-with-232-million/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-greenland-strategy-with-232-million"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-15",
+          "summary": "CalSTRS Invests $2 Billion to Anchor Nuveen Sustainable Infrastructure Fund",
+          "url": "https://www.esgtoday.com/calstrs-invests-2-billion-to-anchor-nuveen-sustainable-infrastructure-fund/?utm_source=rss&utm_medium=rss&utm_campaign=calstrs-invests-2-billion-to-anchor-nuveen-sustainable-infrastructure-fund"
         }
       ]
     },
@@ -14162,36 +14264,6 @@
       ]
     },
     {
-      "fund": "Brookfield",
-      "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 2,
-          "weight": 2.0
-        }
-      ],
-      "recent30": 2,
-      "recent90": 2,
-      "prior30": 0,
-      "last_deal_days": 0,
-      "deals": [
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-18",
-          "summary": "Google Backs Near-Zero Emissions Steel Plant",
-          "url": "https://esgnews.com/google-backs-near-zero-emissions-steel-plant/?utm_source=rss&utm_medium=rss&utm_campaign=google-backs-near-zero-emissions-steel-plant"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-17",
-          "summary": "EU Backs More Free CO2 Permits for Heavy Industry",
-          "url": "https://esgnews.com/eu-backs-more-free-co2-permits-for-heavy-industry/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-more-free-co2-permits-for-heavy-industry"
-        }
-      ]
-    },
-    {
       "fund": "BlueOrchard Climate Fund",
       "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -14248,36 +14320,6 @@
           "date": "2026-09-02",
           "summary": "European Banks Underuse Green Bonds for Transition",
           "url": "https://esgnews.com/european-banks-underuse-green-bonds-for-transition/?utm_source=rss&utm_medium=rss&utm_campaign=european-banks-underuse-green-bonds-for-transition"
-        }
-      ]
-    },
-    {
-      "fund": "Nuveen",
-      "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 2,
-          "weight": 1.5
-        }
-      ],
-      "recent30": 1,
-      "recent90": 2,
-      "prior30": 0,
-      "last_deal_days": 10,
-      "deals": [
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-08",
-          "summary": "EU Backs Greenland Strategy With $232 Million",
-          "url": "https://esgnews.com/eu-backs-greenland-strategy-with-232-million/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-greenland-strategy-with-232-million"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-07-15",
-          "summary": "CalSTRS Invests $2 Billion to Anchor Nuveen Sustainable Infrastructure Fund",
-          "url": "https://www.esgtoday.com/calstrs-invests-2-billion-to-anchor-nuveen-sustainable-infrastructure-fund/?utm_source=rss&utm_medium=rss&utm_campaign=calstrs-invests-2-billion-to-anchor-nuveen-sustainable-infrastructure-fund"
         }
       ]
     },
@@ -14713,6 +14755,13 @@
         "recent30": 7
       },
       {
+        "fund": "BlackRock",
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 11 attributed deal(s), 5 in the last 30d.",
+        "coverage": 11,
+        "sector_count": 2,
+        "recent30": 5
+      },
+      {
         "fund": "Accel",
         "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 10 attributed deal(s), 7 in the last 30d.",
         "coverage": 10,
@@ -14732,13 +14781,6 @@
         "coverage": 10,
         "sector_count": 2,
         "recent30": 6
-      },
-      {
-        "fund": "BlackRock",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 10 attributed deal(s), 4 in the last 30d.",
-        "coverage": 10,
-        "sector_count": 2,
-        "recent30": 4
       },
       {
         "fund": "Battery Ventures",
@@ -15507,10 +15549,10 @@
       },
       {
         "fund": "BlackRock",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 10 attributed deal(s), 4 in the last 30d.",
-        "coverage": 10,
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 11 attributed deal(s), 5 in the last 30d.",
+        "coverage": 11,
         "sector_count": 2,
-        "recent30": 4
+        "recent30": 5
       },
       {
         "fund": "Insight Partners",
@@ -15682,10 +15724,10 @@
       },
       {
         "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 18 attributed deal(s), 10 in the last 30d.",
-        "coverage": 18,
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 19 attributed deal(s), 11 in the last 30d.",
+        "coverage": 19,
         "sector_count": 1,
-        "recent30": 10
+        "recent30": 11
       },
       {
         "fund": "General Catalyst",
@@ -16174,10 +16216,10 @@
       },
       {
         "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 18 attributed deal(s), 10 in the last 30d.",
-        "coverage": 18,
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 19 attributed deal(s), 11 in the last 30d.",
+        "coverage": 19,
         "sector_count": 5,
-        "recent30": 10
+        "recent30": 11
       },
       {
         "fund": "Menlo Ventures",
@@ -16279,10 +16321,10 @@
       },
       {
         "fund": "BlackRock",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 10 attributed deal(s), 4 in the last 30d.",
-        "coverage": 10,
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 11 attributed deal(s), 5 in the last 30d.",
+        "coverage": 11,
         "sector_count": 3,
-        "recent30": 4
+        "recent30": 5
       },
       {
         "fund": "Insight Partners",
@@ -17576,10 +17618,10 @@
       },
       {
         "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 18 attributed deal(s), 10 in the last 30d.",
-        "coverage": 18,
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 19 attributed deal(s), 11 in the last 30d.",
+        "coverage": 19,
         "sector_count": 4,
-        "recent30": 10
+        "recent30": 11
       },
       {
         "fund": "Sequoia",
@@ -17680,18 +17722,18 @@
         "recent30": 7
       },
       {
+        "fund": "BlackRock",
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 11 attributed deal(s), 5 in the last 30d.",
+        "coverage": 11,
+        "sector_count": 1,
+        "recent30": 5
+      },
+      {
         "fund": "8VC",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 10 attributed deal(s), 6 in the last 30d.",
         "coverage": 10,
         "sector_count": 1,
         "recent30": 6
-      },
-      {
-        "fund": "BlackRock",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 10 attributed deal(s), 4 in the last 30d.",
-        "coverage": 10,
-        "sector_count": 1,
-        "recent30": 4
       },
       {
         "fund": "Coatue",
@@ -18222,10 +18264,10 @@
       },
       {
         "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 18 attributed deal(s), 10 in the last 30d.",
-        "coverage": 18,
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 19 attributed deal(s), 11 in the last 30d.",
+        "coverage": 19,
         "sector_count": 2,
-        "recent30": 10
+        "recent30": 11
       },
       {
         "fund": "General Catalyst",
@@ -18977,17 +19019,17 @@
     "Coexistence / Empowerment": [
       {
         "fund": "ICE",
-        "thesis": "Revealed focus: Coexistence / Empowerment. 7 attributed deal(s), 7 in the last 30d.",
-        "coverage": 7,
-        "sector_count": 7,
-        "recent30": 7
+        "thesis": "Revealed focus: Coexistence / Empowerment. 8 attributed deal(s), 8 in the last 30d.",
+        "coverage": 8,
+        "sector_count": 8,
+        "recent30": 8
       },
       {
         "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 18 attributed deal(s), 10 in the last 30d.",
-        "coverage": 18,
-        "sector_count": 6,
-        "recent30": 10
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 19 attributed deal(s), 11 in the last 30d.",
+        "coverage": 19,
+        "sector_count": 7,
+        "recent30": 11
       },
       {
         "fund": "Breakthrough Energy Ventures",
@@ -18998,6 +19040,13 @@
       },
       {
         "fund": "BII",
+        "thesis": "Revealed focus: Coexistence / Empowerment. 6 attributed deal(s), 6 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 6,
+        "recent30": 6
+      },
+      {
+        "fund": "MassMutual Ventures",
         "thesis": "Revealed focus: Coexistence / Empowerment. 5 attributed deal(s), 5 in the last 30d.",
         "coverage": 5,
         "sector_count": 5,
@@ -19011,16 +19060,30 @@
         "recent30": 4
       },
       {
-        "fund": "MassMutual Ventures",
-        "thesis": "Revealed focus: Coexistence / Empowerment. 4 attributed deal(s), 4 in the last 30d.",
-        "coverage": 4,
-        "sector_count": 4,
-        "recent30": 4
+        "fund": "BlackRock",
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 11 attributed deal(s), 5 in the last 30d.",
+        "coverage": 11,
+        "sector_count": 3,
+        "recent30": 5
       },
       {
         "fund": "Energy Impact Partners",
         "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 6 attributed deal(s), 2 in the last 30d.",
         "coverage": 6,
+        "sector_count": 3,
+        "recent30": 2
+      },
+      {
+        "fund": "Brookfield",
+        "thesis": "Revealed focus: Coexistence / Empowerment. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 3,
+        "recent30": 3
+      },
+      {
+        "fund": "Nuveen",
+        "thesis": "Revealed focus: Coexistence / Empowerment. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
         "sector_count": 3,
         "recent30": 2
       },
@@ -19037,13 +19100,6 @@
         "coverage": 10,
         "sector_count": 2,
         "recent30": 7
-      },
-      {
-        "fund": "BlackRock",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 10 attributed deal(s), 4 in the last 30d.",
-        "coverage": 10,
-        "sector_count": 2,
-        "recent30": 4
       },
       {
         "fund": "Coatue",
@@ -19109,13 +19165,6 @@
         "recent30": 1
       },
       {
-        "fund": "Brookfield",
-        "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 2,
-        "recent30": 2
-      },
-      {
         "fund": "BlueOrchard Climate Fund",
         "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -19128,13 +19177,6 @@
         "coverage": 2,
         "sector_count": 2,
         "recent30": 2
-      },
-      {
-        "fund": "Nuveen",
-        "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 2,
-        "recent30": 1
       },
       {
         "fund": "Mars Impact Fund",

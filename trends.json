@@ -1,22 +1,22 @@
 {
-  "generated": "2026-09-19T06:59:12Z",
+  "generated": "2026-09-19T11:52:00Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 24617,
-      "recent7": 1458,
+      "total": 24653,
+      "recent7": 1494,
       "sparkline": [
         2254,
         1553,
         1687,
-        1458
+        1494
       ],
       "momentum_pct": 7,
       "momentum_basis": "7d",
       "hard_count": 865,
       "hard_ratio": 0.035,
       "exit_count": 113,
-      "talk_count": 23432,
+      "talk_count": 23467,
       "whitespace_score": 27.1,
       "rising": [
         {
@@ -26,8 +26,8 @@
         },
         {
           "term": "anthropic",
-          "count": 82,
-          "delta": 38
+          "count": 83,
+          "delta": 39
         },
         {
           "term": "microsoft",
@@ -38,6 +38,11 @@
           "term": "cisco",
           "count": 58,
           "delta": 33
+        },
+        {
+          "term": "nbsp",
+          "count": 30,
+          "delta": 29
         },
         {
           "term": "x631",
@@ -53,28 +58,23 @@
           "term": "shanghai electric",
           "count": 29,
           "delta": 27
-        },
-        {
-          "term": "nbsp",
-          "count": 27,
-          "delta": 26
         }
       ],
       "movers": [
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 990
+          "count": 1000
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 522
+          "count": 527
         },
         {
           "name": "ProductHunt",
           "firm": "producthunt",
-          "count": 176
+          "count": 184
         },
         {
           "name": "Security Conferences",
@@ -187,20 +187,20 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 2287,
-      "recent7": 199,
+      "total": 2291,
+      "recent7": 203,
       "sparkline": [
         188,
         192,
         197,
-        199
+        203
       ],
       "momentum_pct": 10,
       "momentum_basis": "7d",
       "hard_count": 164,
       "hard_ratio": 0.072,
       "exit_count": 53,
-      "talk_count": 2015,
+      "talk_count": 2019,
       "whitespace_score": 12.3,
       "rising": [
         {
@@ -371,21 +371,21 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 2354,
-      "recent7": 201,
+      "total": 2358,
+      "recent7": 205,
       "sparkline": [
         198,
         225,
         203,
-        201
+        205
       ],
-      "momentum_pct": 9,
+      "momentum_pct": 10,
       "momentum_basis": "7d",
-      "hard_count": 117,
+      "hard_count": 118,
       "hard_ratio": 0.05,
       "exit_count": 11,
-      "talk_count": 2196,
-      "whitespace_score": 18.8,
+      "talk_count": 2199,
+      "whitespace_score": 18.6,
       "rising": [
         {
           "term": "electric",
@@ -463,20 +463,20 @@
     },
     "edtech": {
       "label": "Edtech",
-      "total": 1042,
-      "recent7": 94,
+      "total": 1043,
+      "recent7": 95,
       "sparkline": [
         87,
         95,
         86,
-        94
+        95
       ],
       "momentum_pct": 10,
       "momentum_basis": "7d",
       "hard_count": 28,
       "hard_ratio": 0.027,
       "exit_count": 1,
-      "talk_count": 1005,
+      "talk_count": 1006,
       "whitespace_score": 35.9,
       "rising": [
         {
@@ -515,7 +515,7 @@
           "delta": 8
         },
         {
-          "term": "gen",
+          "term": "child",
           "count": 9,
           "delta": 8
         }
@@ -524,7 +524,7 @@
         {
           "name": "The 74",
           "firm": "The 74 Million",
-          "count": 53
+          "count": 54
         },
         {
           "name": "Class Central",
@@ -622,20 +622,20 @@
     },
     "space-tech": {
       "label": "Space Tech",
-      "total": 1573,
-      "recent7": 100,
+      "total": 1574,
+      "recent7": 101,
       "sparkline": [
         114,
         118,
         119,
-        100
+        101
       ],
       "momentum_pct": 7,
       "momentum_basis": "7d",
       "hard_count": 96,
       "hard_ratio": 0.061,
       "exit_count": 14,
-      "talk_count": 1427,
+      "talk_count": 1428,
       "whitespace_score": 14.9,
       "rising": [
         {
@@ -698,7 +698,7 @@
         {
           "name": "Ars Technica Space",
           "firm": "Ars Technica",
-          "count": 8
+          "count": 9
         },
         {
           "name": "Seraphim Space",
@@ -780,15 +780,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 1458,
+        "recent7": 1494,
         "momentum_pct": 7,
         "momentum_basis": "7d",
-        "total": 24617,
+        "total": 24653,
         "sparkline": [
           2254,
           1553,
           1687,
-          1458
+          1494
         ],
         "hard_ratio": 0.035,
         "whitespace_score": 27.1
@@ -812,31 +812,31 @@
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 201,
-        "momentum_pct": 9,
+        "recent7": 205,
+        "momentum_pct": 10,
         "momentum_basis": "7d",
-        "total": 2354,
+        "total": 2358,
         "sparkline": [
           198,
           225,
           203,
-          201
+          205
         ],
         "hard_ratio": 0.05,
-        "whitespace_score": 18.8
+        "whitespace_score": 18.6
       },
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 199,
+        "recent7": 203,
         "momentum_pct": 10,
         "momentum_basis": "7d",
-        "total": 2287,
+        "total": 2291,
         "sparkline": [
           188,
           192,
           197,
-          199
+          203
         ],
         "hard_ratio": 0.072,
         "whitespace_score": 12.3
@@ -876,15 +876,15 @@
       {
         "id": "space-tech",
         "label": "Space Tech",
-        "recent7": 100,
+        "recent7": 101,
         "momentum_pct": 7,
         "momentum_basis": "7d",
-        "total": 1573,
+        "total": 1574,
         "sparkline": [
           114,
           118,
           119,
-          100
+          101
         ],
         "hard_ratio": 0.061,
         "whitespace_score": 14.9
@@ -892,15 +892,15 @@
       {
         "id": "edtech",
         "label": "Edtech",
-        "recent7": 94,
+        "recent7": 95,
         "momentum_pct": 10,
         "momentum_basis": "7d",
-        "total": 1042,
+        "total": 1043,
         "sparkline": [
           87,
           95,
           86,
-          94
+          95
         ],
         "hard_ratio": 0.027,
         "whitespace_score": 35.9
@@ -925,8 +925,8 @@
     "rising": [
       {
         "term": "anthropic",
-        "count": 202,
-        "delta": 67
+        "count": 203,
+        "delta": 68
       },
       {
         "term": "x647",
@@ -1096,6 +1096,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 38807
+    "total_signals": 38853
   }
 }

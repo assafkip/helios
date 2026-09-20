@@ -1,22 +1,22 @@
 {
-  "generated": "2026-09-20T17:16:25Z",
+  "generated": "2026-09-20T20:15:37Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 24874,
-      "recent7": 1547,
+      "total": 24901,
+      "recent7": 1574,
       "sparkline": [
         2100,
         1615,
         1664,
-        1547
+        1574
       ],
       "momentum_pct": 7,
       "momentum_basis": "7d",
-      "hard_count": 870,
+      "hard_count": 871,
       "hard_ratio": 0.035,
       "exit_count": 113,
-      "talk_count": 23682,
+      "talk_count": 23708,
       "whitespace_score": 27.2,
       "rising": [
         {
@@ -64,12 +64,12 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 1000
+          "count": 1014
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 543
+          "count": 550
         },
         {
           "name": "ProductHunt",
@@ -95,20 +95,20 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 3812,
-      "recent7": 339,
+      "total": 3821,
+      "recent7": 348,
       "sparkline": [
         346,
         317,
         339,
-        339
+        348
       ],
       "momentum_pct": 10,
       "momentum_basis": "7d",
-      "hard_count": 347,
+      "hard_count": 349,
       "hard_ratio": 0.091,
       "exit_count": 160,
-      "talk_count": 3204,
+      "talk_count": 3211,
       "whitespace_score": 9.2,
       "rising": [
         {
@@ -118,13 +118,18 @@
         },
         {
           "term": "clarity",
-          "count": 39,
-          "delta": 31
+          "count": 44,
+          "delta": 36
         },
         {
           "term": "clarity act",
-          "count": 37,
-          "delta": 30
+          "count": 42,
+          "delta": 35
+        },
+        {
+          "term": "digital",
+          "count": 127,
+          "delta": 27
         },
         {
           "term": "visa",
@@ -132,24 +137,19 @@
           "delta": 25
         },
         {
-          "term": "digital",
-          "count": 123,
+          "term": "million",
+          "count": 110,
           "delta": 23
         },
         {
-          "term": "million",
-          "count": 109,
+          "term": "round",
+          "count": 43,
           "delta": 22
         },
         {
-          "term": "round",
-          "count": 42,
+          "term": "series",
+          "count": 36,
           "delta": 21
-        },
-        {
-          "term": "startup",
-          "count": 47,
-          "delta": 20
         }
       ],
       "movers": [
@@ -187,20 +187,20 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 2320,
-      "recent7": 221,
+      "total": 2323,
+      "recent7": 224,
       "sparkline": [
         184,
         198,
         193,
-        221
+        224
       ],
       "momentum_pct": 11,
       "momentum_basis": "7d",
       "hard_count": 165,
       "hard_ratio": 0.071,
       "exit_count": 55,
-      "talk_count": 2045,
+      "talk_count": 2048,
       "whitespace_score": 12.4,
       "rising": [
         {
@@ -371,20 +371,20 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 2375,
-      "recent7": 211,
+      "total": 2377,
+      "recent7": 213,
       "sparkline": [
         207,
         219,
         204,
-        211
+        213
       ],
       "momentum_pct": 10,
       "momentum_basis": "7d",
       "hard_count": 119,
       "hard_ratio": 0.05,
       "exit_count": 11,
-      "talk_count": 2214,
+      "talk_count": 2216,
       "whitespace_score": 18.6,
       "rising": [
         {
@@ -394,8 +394,8 @@
         },
         {
           "term": "plant",
-          "count": 33,
-          "delta": 24
+          "count": 34,
+          "delta": 25
         },
         {
           "term": "energy",
@@ -432,7 +432,7 @@
         {
           "name": "CleanTechnica",
           "firm": "CleanTechnica",
-          "count": 126
+          "count": 127
         },
         {
           "name": "Utility Dive",
@@ -780,15 +780,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 1547,
+        "recent7": 1574,
         "momentum_pct": 7,
         "momentum_basis": "7d",
-        "total": 24874,
+        "total": 24901,
         "sparkline": [
           2100,
           1615,
           1664,
-          1547
+          1574
         ],
         "hard_ratio": 0.035,
         "whitespace_score": 27.2
@@ -796,15 +796,15 @@
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 339,
+        "recent7": 348,
         "momentum_pct": 10,
         "momentum_basis": "7d",
-        "total": 3812,
+        "total": 3821,
         "sparkline": [
           346,
           317,
           339,
-          339
+          348
         ],
         "hard_ratio": 0.091,
         "whitespace_score": 9.2
@@ -812,15 +812,15 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 221,
+        "recent7": 224,
         "momentum_pct": 11,
         "momentum_basis": "7d",
-        "total": 2320,
+        "total": 2323,
         "sparkline": [
           184,
           198,
           193,
-          221
+          224
         ],
         "hard_ratio": 0.071,
         "whitespace_score": 12.4
@@ -828,15 +828,15 @@
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 211,
+        "recent7": 213,
         "momentum_pct": 10,
         "momentum_basis": "7d",
-        "total": 2375,
+        "total": 2377,
         "sparkline": [
           207,
           219,
           204,
-          211
+          213
         ],
         "hard_ratio": 0.05,
         "whitespace_score": 18.6
@@ -965,8 +965,8 @@
       },
       {
         "term": "series",
-        "count": 151,
-        "delta": 37
+        "count": 153,
+        "delta": 39
       },
       {
         "term": "techcrunch",
@@ -1096,6 +1096,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 39144
+    "total_signals": 39185
   }
 }

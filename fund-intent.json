@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-21T11:53:23Z",
+  "generated": "2026-09-21T17:48:14Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 1164,
-    "deal_rows_attributed": 554,
+    "deal_rows_seen": 1172,
+    "deal_rows_attributed": 559,
     "funds_tracked": 328,
-    "fetch_attempts": 123,
-    "fetchable_pct": 2,
+    "fetch_attempts": 129,
+    "fetchable_pct": 5,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -561,13 +561,13 @@
     },
     {
       "fund": "Google",
-      "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 19 attributed deal(s), 9 in the last 30d.",
-      "coverage": 19,
+      "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 20 attributed deal(s), 10 in the last 30d.",
+      "coverage": 20,
       "sectors": [
         {
           "label": "Coexistence / Empowerment",
-          "count": 7,
-          "weight": 6.5
+          "count": 8,
+          "weight": 7.5
         },
         {
           "label": "Cybersecurity",
@@ -590,11 +590,17 @@
           "weight": 0.5
         }
       ],
-      "recent30": 9,
-      "recent90": 19,
+      "recent30": 10,
+      "recent90": 20,
       "prior30": 7,
-      "last_deal_days": 3,
+      "last_deal_days": 0,
       "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-21",
+          "summary": "Google Backs Stegra Green Steel Through EAC Deal",
+          "url": "https://esgnews.com/google-backs-stegra-green-steel-through-eac-deal/?utm_source=rss&utm_medium=rss&utm_campaign=google-backs-stegra-green-steel-through-eac-deal"
+        },
         {
           "sector": "Coexistence / Empowerment",
           "date": "2026-09-18",
@@ -7024,6 +7030,48 @@
       ]
     },
     {
+      "fund": "Brookfield",
+      "thesis": "Revealed focus: Coexistence / Empowerment. 4 attributed deal(s), 4 in the last 30d.",
+      "coverage": 4,
+      "sectors": [
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 4,
+          "weight": 4.0
+        }
+      ],
+      "recent30": 4,
+      "recent90": 4,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-21",
+          "summary": "Standard Chartered Backs Thailand\u2019s $795M Biodiversity SLB",
+          "url": "https://esgnews.com/standard-chartered-backs-thailands-795m-biodiversity-slb/?utm_source=rss&utm_medium=rss&utm_campaign=standard-chartered-backs-thailands-795m-biodiversity-slb"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-18",
+          "summary": "Google Backs Near-Zero Emissions Steel Plant",
+          "url": "https://esgnews.com/google-backs-near-zero-emissions-steel-plant/?utm_source=rss&utm_medium=rss&utm_campaign=google-backs-near-zero-emissions-steel-plant"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-18",
+          "summary": "Oracle Backs 1.7 GW of Texas Wind for AI Growth",
+          "url": "https://esgnews.com/oracle-backs-1-7-gw-of-texas-wind-for-ai-growth/?utm_source=rss&utm_medium=rss&utm_campaign=oracle-backs-1-7-gw-of-texas-wind-for-ai-growth"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-17",
+          "summary": "EU Backs More Free CO2 Permits for Heavy Industry",
+          "url": "https://esgnews.com/eu-backs-more-free-co2-permits-for-heavy-industry/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-more-free-co2-permits-for-heavy-industry"
+        }
+      ]
+    },
+    {
       "fund": "SiteGround Capital",
       "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 3 attributed deal(s), 3 in the last 30d.",
       "coverage": 3,
@@ -7240,6 +7288,47 @@
           "date": "2026-07-07",
           "summary": "Tether Invests $20 Million in Brazil\u2019s Mercado Bitcoin",
           "url": "https://www.pymnts.com/news/investment-tracker/2026/tether-invests-20-million-in-brazils-mercado-bitcoin/"
+        }
+      ]
+    },
+    {
+      "fund": "Mubadala",
+      "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s), 3 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Fintech / Payments",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 3,
+      "recent90": 3,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-21",
+          "summary": "Paymob Secures $35 Million to Expand Payment Coverage Across MENA",
+          "url": "https://www.pymnts.com/news/investment-tracker/fintech-investments/2026/paymob-secures-35-million-dollars-expand-payment-coverage-across-mena/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-17",
+          "summary": "Saudi Fintech Firm Tabby Reports $233M Funding Round at $6.5B Valuation as It Moves Beyond BNPL",
+          "url": "https://www.crowdfundinsider.com/2026/09/310324-saudi-fintech-firm-tabby-reports-233m-funding-round-at-6-5b-valuation-as-it-moves-beyond-bnpl/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-15",
+          "summary": "Sector Snapshot: AI Takes A Growing Share Of Sales And Marketing Startup Funding",
+          "url": "https://news.crunchbase.com/sales-marketing/ai-growing-share-ecommerce-saas-crm-startup-funding/"
         }
       ]
     },
@@ -9493,42 +9582,6 @@
       ]
     },
     {
-      "fund": "Brookfield",
-      "thesis": "Revealed focus: Coexistence / Empowerment. 3 attributed deal(s), 3 in the last 30d.",
-      "coverage": 3,
-      "sectors": [
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 3,
-          "weight": 3.0
-        }
-      ],
-      "recent30": 3,
-      "recent90": 3,
-      "prior30": 0,
-      "last_deal_days": 3,
-      "deals": [
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-18",
-          "summary": "Google Backs Near-Zero Emissions Steel Plant",
-          "url": "https://esgnews.com/google-backs-near-zero-emissions-steel-plant/?utm_source=rss&utm_medium=rss&utm_campaign=google-backs-near-zero-emissions-steel-plant"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-18",
-          "summary": "Oracle Backs 1.7 GW of Texas Wind for AI Growth",
-          "url": "https://esgnews.com/oracle-backs-1-7-gw-of-texas-wind-for-ai-growth/?utm_source=rss&utm_medium=rss&utm_campaign=oracle-backs-1-7-gw-of-texas-wind-for-ai-growth"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-17",
-          "summary": "EU Backs More Free CO2 Permits for Heavy Industry",
-          "url": "https://esgnews.com/eu-backs-more-free-co2-permits-for-heavy-industry/?utm_source=rss&utm_medium=rss&utm_campaign=eu-backs-more-free-co2-permits-for-heavy-industry"
-        }
-      ]
-    },
-    {
       "fund": "Nuveen",
       "thesis": "Revealed focus: Coexistence / Empowerment. 3 attributed deal(s), 2 in the last 30d.",
       "coverage": 3,
@@ -9696,41 +9749,6 @@
           "date": "2026-09-17",
           "summary": "Comp AI sets eyes on a continuously agentic future for security and compliance",
           "url": "https://techcrunch.com/2026/09/17/comp-ai-sets-eyes-on-a-continiously-agentic-future-for-security-and-complaince/"
-        }
-      ]
-    },
-    {
-      "fund": "Mubadala",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 2,
-      "recent90": 2,
-      "prior30": 0,
-      "last_deal_days": 4,
-      "deals": [
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-09-17",
-          "summary": "Saudi Fintech Firm Tabby Reports $233M Funding Round at $6.5B Valuation as It Moves Beyond BNPL",
-          "url": "https://www.crowdfundinsider.com/2026/09/310324-saudi-fintech-firm-tabby-reports-233m-funding-round-at-6-5b-valuation-as-it-moves-beyond-bnpl/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-15",
-          "summary": "Sector Snapshot: AI Takes A Growing Share Of Sales And Marketing Startup Funding",
-          "url": "https://news.crunchbase.com/sales-marketing/ai-growing-share-ecommerce-saas-crm-startup-funding/"
         }
       ]
     },
@@ -16223,6 +16241,13 @@
         "recent30": 2
       },
       {
+        "fund": "Mubadala",
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 2,
+        "recent30": 3
+      },
+      {
         "fund": "FirstMark",
         "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s).",
         "coverage": 3,
@@ -16371,10 +16396,10 @@
       },
       {
         "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 19 attributed deal(s), 9 in the last 30d.",
-        "coverage": 19,
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 20 attributed deal(s), 10 in the last 30d.",
+        "coverage": 20,
         "sector_count": 1,
-        "recent30": 9
+        "recent30": 10
       },
       {
         "fund": "General Catalyst",
@@ -16678,13 +16703,6 @@
         "recent30": 2
       },
       {
-        "fund": "Mubadala",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
         "fund": "Diffusion",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
         "coverage": 2,
@@ -16905,10 +16923,10 @@
       },
       {
         "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 19 attributed deal(s), 9 in the last 30d.",
-        "coverage": 19,
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 20 attributed deal(s), 10 in the last 30d.",
+        "coverage": 20,
         "sector_count": 5,
-        "recent30": 9
+        "recent30": 10
       },
       {
         "fund": "Menlo Ventures",
@@ -17660,6 +17678,13 @@
         "recent30": 2
       },
       {
+        "fund": "Mubadala",
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "South Park Commons",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s), 2 in the last 30d.",
         "coverage": 3,
@@ -17829,13 +17854,6 @@
       },
       {
         "fund": "Grand Ventures",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Mubadala",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,
@@ -18363,10 +18381,10 @@
       },
       {
         "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 19 attributed deal(s), 9 in the last 30d.",
-        "coverage": 19,
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 20 attributed deal(s), 10 in the last 30d.",
+        "coverage": 20,
         "sector_count": 4,
-        "recent30": 9
+        "recent30": 10
       },
       {
         "fund": "Sequoia",
@@ -19130,10 +19148,10 @@
       },
       {
         "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 19 attributed deal(s), 9 in the last 30d.",
-        "coverage": 19,
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 20 attributed deal(s), 10 in the last 30d.",
+        "coverage": 20,
         "sector_count": 2,
-        "recent30": 9
+        "recent30": 10
       },
       {
         "fund": "General Catalyst",
@@ -19770,18 +19788,18 @@
     ],
     "Coexistence / Empowerment": [
       {
+        "fund": "Google",
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 20 attributed deal(s), 10 in the last 30d.",
+        "coverage": 20,
+        "sector_count": 8,
+        "recent30": 10
+      },
+      {
         "fund": "ICE",
         "thesis": "Revealed focus: Coexistence / Empowerment. 8 attributed deal(s), 8 in the last 30d.",
         "coverage": 8,
         "sector_count": 8,
         "recent30": 8
-      },
-      {
-        "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 19 attributed deal(s), 9 in the last 30d.",
-        "coverage": 19,
-        "sector_count": 7,
-        "recent30": 9
       },
       {
         "fund": "Breakthrough Energy Ventures",
@@ -19812,6 +19830,13 @@
         "recent30": 4
       },
       {
+        "fund": "Brookfield",
+        "thesis": "Revealed focus: Coexistence / Empowerment. 4 attributed deal(s), 4 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 4,
+        "recent30": 4
+      },
+      {
         "fund": "BlackRock",
         "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 11 attributed deal(s), 5 in the last 30d.",
         "coverage": 11,
@@ -19824,13 +19849,6 @@
         "coverage": 6,
         "sector_count": 3,
         "recent30": 2
-      },
-      {
-        "fund": "Brookfield",
-        "thesis": "Revealed focus: Coexistence / Empowerment. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 3,
-        "recent30": 3
       },
       {
         "fund": "Nuveen",

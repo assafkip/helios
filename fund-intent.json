@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-21T05:51:40Z",
+  "generated": "2026-09-21T11:53:23Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 1159,
-    "deal_rows_attributed": 552,
+    "deal_rows_seen": 1164,
+    "deal_rows_attributed": 554,
     "funds_tracked": 328,
-    "fetch_attempts": 122,
+    "fetch_attempts": 123,
     "fetchable_pct": 2,
     "update_cadence": "hourly"
   },
@@ -1819,6 +1819,116 @@
       ]
     },
     {
+      "fund": "Insight Partners",
+      "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 12 attributed deal(s), 4 in the last 30d.",
+      "coverage": 12,
+      "sectors": [
+        {
+          "label": "Fintech / Payments",
+          "count": 4,
+          "weight": 3.5
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 3,
+          "weight": 1.5
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 3,
+          "weight": 1.25
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 4,
+      "recent90": 11,
+      "prior30": 3,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-21",
+          "summary": "Grab\u2019s $1.49B Purchase Tops Last Week\u2019s Fintech Raises and Acquisitions",
+          "url": "https://www.crowdfundinsider.com/2026/09/311173-grabs-1-49b-purchase-tops-last-weeks-fintech-raises-and-acquisitions/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-21",
+          "summary": "Kastle Raises $24 Million to Help Lenders Adopt Agentic AI",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/kastle-raises-24-million-to-help-lenders-adopt-agentic-ai/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-14",
+          "summary": "Inspiren Raises $70 Million to Expand AI-Powered Senior Living Platform",
+          "url": "https://www.crowdfundinsider.com/2026/09/309964-inspiren-raises-70-million-to-expand-ai-powered-senior-living-platform/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-02",
+          "summary": "Gridsight Raises $26 Million to Help Utilities Unlock Grid Capacity with AI",
+          "url": "https://www.esgtoday.com/gridsight-raises-26-million-to-help-utilities-unlock-grid-capacity-with-ai/?utm_source=rss&utm_medium=rss&utm_campaign=gridsight-raises-26-million-to-help-utilities-unlock-grid-capacity-with-ai"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-28",
+          "summary": "Bot-detection startup Spur nabs $200M from Insight",
+          "url": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-28",
+          "summary": "Bot-detection startup Spur nabs $200M from Insight",
+          "url": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/"
+        },
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-07-23",
+          "summary": "Assured Health Secures $19M to Get Providers In-Network Faster with Agentic AI",
+          "url": "https://medcitynews.com/2026/07/assured-health-healthcare-credentialing/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-22",
+          "summary": "Passionfroot Raises $15 Million to Connect B2B Tech Companies With Vetted Creators",
+          "url": "https://www.pymnts.com/news/b2b-payments/2026/passionfroot-raises-15-million-dollars-connect-b2b-tech-companies-with-vetted-creators/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-22",
+          "summary": "Passionfroot raises $15M to expand its B2B creator marketplace to the US",
+          "url": "https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-10",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-02",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: AI, Energy And Biotech Lead The Way",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-biotech-joulent/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-06-16",
+          "summary": "The next generation of analytics: Why we invested in Golden Analytics",
+          "url": "https://www.insightpartners.com/ideas/why-we-invested-in-golden-analytics/"
+        }
+      ]
+    },
+    {
       "fund": "Founders Fund",
       "thesis": "Revealed focus: Cybersecurity and Space Tech. 11 attributed deal(s), 7 in the last 30d.",
       "coverage": 11,
@@ -2122,110 +2232,6 @@
           "date": "2026-07-08",
           "summary": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
           "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/"
-        }
-      ]
-    },
-    {
-      "fund": "Insight Partners",
-      "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 11 attributed deal(s), 3 in the last 30d.",
-      "coverage": 11,
-      "sectors": [
-        {
-          "label": "Fintech / Payments",
-          "count": 3,
-          "weight": 2.5
-        },
-        {
-          "label": "Cybersecurity",
-          "count": 3,
-          "weight": 1.5
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 3,
-          "weight": 1.25
-        },
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Healthtech / Bio",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 3,
-      "recent90": 10,
-      "prior30": 3,
-      "last_deal_days": 0,
-      "deals": [
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-09-21",
-          "summary": "Grab\u2019s $1.49B Purchase Tops Last Week\u2019s Fintech Raises and Acquisitions",
-          "url": "https://www.crowdfundinsider.com/2026/09/311173-grabs-1-49b-purchase-tops-last-weeks-fintech-raises-and-acquisitions/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-09-14",
-          "summary": "Inspiren Raises $70 Million to Expand AI-Powered Senior Living Platform",
-          "url": "https://www.crowdfundinsider.com/2026/09/309964-inspiren-raises-70-million-to-expand-ai-powered-senior-living-platform/"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-02",
-          "summary": "Gridsight Raises $26 Million to Help Utilities Unlock Grid Capacity with AI",
-          "url": "https://www.esgtoday.com/gridsight-raises-26-million-to-help-utilities-unlock-grid-capacity-with-ai/?utm_source=rss&utm_medium=rss&utm_campaign=gridsight-raises-26-million-to-help-utilities-unlock-grid-capacity-with-ai"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-28",
-          "summary": "Bot-detection startup Spur nabs $200M from Insight",
-          "url": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-07-28",
-          "summary": "Bot-detection startup Spur nabs $200M from Insight",
-          "url": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/"
-        },
-        {
-          "sector": "Healthtech / Bio",
-          "date": "2026-07-23",
-          "summary": "Assured Health Secures $19M to Get Providers In-Network Faster with Agentic AI",
-          "url": "https://medcitynews.com/2026/07/assured-health-healthcare-credentialing/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-07-22",
-          "summary": "Passionfroot Raises $15 Million to Connect B2B Tech Companies With Vetted Creators",
-          "url": "https://www.pymnts.com/news/b2b-payments/2026/passionfroot-raises-15-million-dollars-connect-b2b-tech-companies-with-vetted-creators/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-07-22",
-          "summary": "Passionfroot raises $15M to expand its B2B creator marketplace to the US",
-          "url": "https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-10",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
-          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-02",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: AI, Energy And Biotech Lead The Way",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-biotech-joulent/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-06-16",
-          "summary": "The next generation of analytics: Why we invested in Golden Analytics",
-          "url": "https://www.insightpartners.com/ideas/why-we-invested-in-golden-analytics/"
         }
       ]
     },
@@ -15292,10 +15298,10 @@
       },
       {
         "fund": "Insight Partners",
-        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 11 attributed deal(s), 3 in the last 30d.",
-        "coverage": 11,
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 12 attributed deal(s), 4 in the last 30d.",
+        "coverage": 12,
         "sector_count": 3,
-        "recent30": 3
+        "recent30": 4
       },
       {
         "fund": "Ribbit Capital",
@@ -16077,18 +16083,18 @@
         "recent30": 5
       },
       {
+        "fund": "Insight Partners",
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 12 attributed deal(s), 4 in the last 30d.",
+        "coverage": 12,
+        "sector_count": 4,
+        "recent30": 4
+      },
+      {
         "fund": "Sequoia Capital",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 18 attributed deal(s), 5 in the last 30d.",
         "coverage": 18,
         "sector_count": 3,
         "recent30": 5
-      },
-      {
-        "fund": "Insight Partners",
-        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 11 attributed deal(s), 3 in the last 30d.",
-        "coverage": 11,
-        "sector_count": 3,
-        "recent30": 3
       },
       {
         "fund": "Accel",
@@ -17017,18 +17023,18 @@
         "recent30": 1
       },
       {
+        "fund": "Insight Partners",
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 12 attributed deal(s), 4 in the last 30d.",
+        "coverage": 12,
+        "sector_count": 3,
+        "recent30": 4
+      },
+      {
         "fund": "BlackRock",
         "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 11 attributed deal(s), 5 in the last 30d.",
         "coverage": 11,
         "sector_count": 3,
         "recent30": 5
-      },
-      {
-        "fund": "Insight Partners",
-        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 11 attributed deal(s), 3 in the last 30d.",
-        "coverage": 11,
-        "sector_count": 3,
-        "recent30": 3
       },
       {
         "fund": "Coatue",
@@ -19587,6 +19593,13 @@
         "recent30": 3
       },
       {
+        "fund": "Insight Partners",
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 12 attributed deal(s), 4 in the last 30d.",
+        "coverage": 12,
+        "sector_count": 1,
+        "recent30": 4
+      },
+      {
         "fund": "Founders Fund",
         "thesis": "Revealed focus: Cybersecurity and Space Tech. 11 attributed deal(s), 7 in the last 30d.",
         "coverage": 11,
@@ -19599,13 +19612,6 @@
         "coverage": 11,
         "sector_count": 1,
         "recent30": 5
-      },
-      {
-        "fund": "Insight Partners",
-        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 11 attributed deal(s), 3 in the last 30d.",
-        "coverage": 11,
-        "sector_count": 1,
-        "recent30": 3
       },
       {
         "fund": "Kleiner Perkins",
@@ -20031,10 +20037,10 @@
       },
       {
         "fund": "Insight Partners",
-        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 11 attributed deal(s), 3 in the last 30d.",
-        "coverage": 11,
+        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 12 attributed deal(s), 4 in the last 30d.",
+        "coverage": 12,
         "sector_count": 1,
-        "recent30": 3
+        "recent30": 4
       },
       {
         "fund": "Ribbit Capital",

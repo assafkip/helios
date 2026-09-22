@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-22T10:54:08Z",
+  "generated": "2026-09-22T15:24:32Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 1180,
-    "deal_rows_attributed": 562,
-    "funds_tracked": 328,
-    "fetch_attempts": 126,
-    "fetchable_pct": 2,
+    "deal_rows_seen": 1189,
+    "deal_rows_attributed": 570,
+    "funds_tracked": 331,
+    "fetch_attempts": 131,
+    "fetchable_pct": 5,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -3324,6 +3324,71 @@
       ]
     },
     {
+      "fund": "Goldman Sachs Alternatives",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 7 attributed deal(s), 4 in the last 30d.",
+      "coverage": 7,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 5,
+          "weight": 4.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 2,
+          "weight": 1.5
+        }
+      ],
+      "recent30": 4,
+      "recent90": 7,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-22",
+          "summary": "Cyera Raises $400 Million at $12+ Billion Valuation",
+          "url": "https://www.securityweek.com/cyera-raises-400-million-at-12-billion-valuation/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-18",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Large Rounds For AI Infrastructure, Space Tech And Investment Management Lead",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-space-fintech-temporal/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-27",
+          "summary": "Socure Secures $156M at $5.2B Valuation, Acquires AI Fraud Investigation Startup Fravity",
+          "url": "https://news.crunchbase.com/venture/socure-raises-acquires-agentic-ai-startup-fravity/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-27",
+          "summary": "Socure hits $5.2bn valuation on investment; buys AI fraud platform Fravity",
+          "url": "https://www.finextra.com/newsarticle/48311/socure-hits-52bn-valuation-on-investment-buys-ai-fraud-platform-fravity?utm_medium=rssfinextra&utm_source=finextrafeed"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-17",
+          "summary": "Higgsfield raises $400M Series B, quadrupling its valuation in 8 months to $5.4B",
+          "url": "https://techcrunch.com/2026/08/17/higgsfield-raises-400m-series-b-quadrupling-its-valuation-in-8-months-to-5-4b/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-17",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: No Summer Doldrums As Dollars Still Flow To AI",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-06-30",
+          "summary": "SpaceX\u2019s $60B Cursor deal and 3 coding AI startups worth watching",
+          "url": "https://www.cbinsights.com/research/weekly-tech-recap-june-22/"
+        }
+      ]
+    },
+    {
       "fund": "CapitalG",
       "thesis": "Revealed focus: Cybersecurity and Space Tech. 7 attributed deal(s), 2 in the last 30d.",
       "coverage": 7,
@@ -3670,65 +3735,6 @@
           "date": "2026-07-08",
           "summary": "Venus Aerospace raises $90M Series B to build a new kind of rocket engine",
           "url": "https://techcrunch.com/2026/07/08/venus-aerospace-raises-90m-series-b-to-build-a-new-kind-of-rocket-engine/"
-        }
-      ]
-    },
-    {
-      "fund": "Goldman Sachs Alternatives",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 6 attributed deal(s), 3 in the last 30d.",
-      "coverage": 6,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 4,
-          "weight": 3.0
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 2,
-          "weight": 1.5
-        }
-      ],
-      "recent30": 3,
-      "recent90": 6,
-      "prior30": 1,
-      "last_deal_days": 4,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-18",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Large Rounds For AI Infrastructure, Space Tech And Investment Management Lead",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-space-fintech-temporal/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-27",
-          "summary": "Socure Secures $156M at $5.2B Valuation, Acquires AI Fraud Investigation Startup Fravity",
-          "url": "https://news.crunchbase.com/venture/socure-raises-acquires-agentic-ai-startup-fravity/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-08-27",
-          "summary": "Socure hits $5.2bn valuation on investment; buys AI fraud platform Fravity",
-          "url": "https://www.finextra.com/newsarticle/48311/socure-hits-52bn-valuation-on-investment-buys-ai-fraud-platform-fravity?utm_medium=rssfinextra&utm_source=finextrafeed"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-17",
-          "summary": "Higgsfield raises $400M Series B, quadrupling its valuation in 8 months to $5.4B",
-          "url": "https://techcrunch.com/2026/08/17/higgsfield-raises-400m-series-b-quadrupling-its-valuation-in-8-months-to-5-4b/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-17",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: No Summer Doldrums As Dollars Still Flow To AI",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-06-30",
-          "summary": "SpaceX\u2019s $60B Cursor deal and 3 coding AI startups worth watching",
-          "url": "https://www.cbinsights.com/research/weekly-tech-recap-june-22/"
         }
       ]
     },
@@ -9630,6 +9636,76 @@
       ]
     },
     {
+      "fund": "Xora",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-22",
+          "summary": "Singapore\u2019s Nexstrom wants to bring 2D semiconductors to chip fabs",
+          "url": "https://techcrunch.com/2026/09/22/singapores-nexstrom-wants-to-bring-2d-semiconductors-to-chip-fabs/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-19",
+          "summary": "Temasek-Backed Xora Leads $53m Funding for Enterprise AI Firm Hang Ten Systems",
+          "url": "https://www.crowdfundinsider.com/2026/09/311359-temasek-backed-xora-leads-53m-funding-for-enterprise-ai-firm-hang-ten-systems/"
+        }
+      ]
+    },
+    {
+      "fund": "Emergence Capital",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-22",
+          "summary": "Cloud startup Verda raises $189m in funding round led by Emergence Capital",
+          "url": "https://sifted.eu/articles/verda-datacrunch-funding-round-emergence-ventures/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-18",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Large Rounds For AI Infrastructure, Space Tech And Investment Management Lead",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-space-fintech-temporal/"
+        }
+      ]
+    },
+    {
       "fund": "BAI Capital",
       "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
       "coverage": 2,
@@ -14370,6 +14446,41 @@
       ]
     },
     {
+      "fund": "Airtree",
+      "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-22",
+          "summary": "HEO Raises $25M Series B to Fuel GEO Expansion",
+          "url": "https://payloadspace.com/heo-raises-25m-series-b-to-fuel-geo-expansion/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-02",
+          "summary": "Gridsight Raises $26 Million to Help Utilities Unlock Grid Capacity with AI",
+          "url": "https://www.esgtoday.com/gridsight-raises-26-million-to-help-utilities-unlock-grid-capacity-with-ai/?utm_source=rss&utm_medium=rss&utm_campaign=gridsight-raises-26-million-to-help-utilities-unlock-grid-capacity-with-ai"
+        }
+      ]
+    },
+    {
       "fund": "Lightrock",
       "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -16219,10 +16330,10 @@
       },
       {
         "fund": "Goldman Sachs Alternatives",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 6 attributed deal(s), 3 in the last 30d.",
-        "coverage": 6,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 7 attributed deal(s), 4 in the last 30d.",
+        "coverage": 7,
         "sector_count": 2,
-        "recent30": 3
+        "recent30": 4
       },
       {
         "fund": "Eclipse",
@@ -16701,6 +16812,20 @@
         "recent30": 0
       },
       {
+        "fund": "Xora",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Emergence Capital",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "Roo Capital",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -16976,6 +17101,13 @@
         "recent30": 5
       },
       {
+        "fund": "Goldman Sachs Alternatives",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 7 attributed deal(s), 4 in the last 30d.",
+        "coverage": 7,
+        "sector_count": 5,
+        "recent30": 4
+      },
+      {
         "fund": "Battery Ventures",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 8 attributed deal(s).",
         "coverage": 8,
@@ -16988,13 +17120,6 @@
         "coverage": 7,
         "sector_count": 4,
         "recent30": 2
-      },
-      {
-        "fund": "Goldman Sachs Alternatives",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 6 attributed deal(s), 3 in the last 30d.",
-        "coverage": 6,
-        "sector_count": 4,
-        "recent30": 3
       },
       {
         "fund": "NEA",
@@ -17849,6 +17974,20 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 0
+      },
+      {
+        "fund": "Xora",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Emergence Capital",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
       },
       {
         "fund": "Silversmith Capital Partners",
@@ -19558,6 +19697,13 @@
         "recent30": 0
       },
       {
+        "fund": "Airtree",
+        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "Balderton",
         "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
         "coverage": 2,
@@ -20351,6 +20497,13 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 0
+      },
+      {
+        "fund": "Airtree",
+        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
       },
       {
         "fund": "Balderton",

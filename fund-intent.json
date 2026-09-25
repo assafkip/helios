@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-25T03:14:27Z",
+  "generated": "2026-09-25T09:21:02Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 1232,
-    "deal_rows_attributed": 593,
-    "funds_tracked": 339,
-    "fetch_attempts": 130,
-    "fetchable_pct": 0,
+    "deal_rows_seen": 1235,
+    "deal_rows_attributed": 594,
+    "funds_tracked": 340,
+    "fetch_attempts": 133,
+    "fetchable_pct": 2,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -10198,6 +10198,41 @@
       ]
     },
     {
+      "fund": "Meta",
+      "thesis": "Revealed focus: Cybersecurity and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-25",
+          "summary": "Meta Backs Plastic Recycling Technology Startup MacroCycle",
+          "url": "https://www.esgtoday.com/meta-backs-plastic-recycling-technology-startup-macrocycle/?utm_source=rss&utm_medium=rss&utm_campaign=meta-backs-plastic-recycling-technology-startup-macrocycle"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-15",
+          "summary": "Sector Snapshot: AI Takes A Growing Share Of Sales And Marketing Startup Funding",
+          "url": "https://news.crunchbase.com/sales-marketing/ai-growing-share-ecommerce-saas-crm-startup-funding/"
+        }
+      ]
+    },
+    {
       "fund": "Diffusion",
       "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
       "coverage": 2,
@@ -18564,6 +18599,13 @@
         "recent30": 2
       },
       {
+        "fund": "Meta",
+        "thesis": "Revealed focus: Cybersecurity and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "Diffusion",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
         "coverage": 2,
@@ -21015,6 +21057,13 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 0
+      },
+      {
+        "fund": "Meta",
+        "thesis": "Revealed focus: Cybersecurity and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
       },
       {
         "fund": "Silverton Partners",

@@ -1,28 +1,33 @@
 {
-  "generated": "2026-09-26T18:16:40Z",
+  "generated": "2026-09-26T21:47:36Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 26368,
-      "recent7": 1553,
+      "total": 26399,
+      "recent7": 1584,
       "sparkline": [
         1562,
         1699,
         1634,
-        1553
+        1584
       ],
       "momentum_pct": 7,
       "momentum_basis": "7d",
-      "hard_count": 924,
+      "hard_count": 927,
       "hard_ratio": 0.035,
       "exit_count": 116,
-      "talk_count": 25110,
-      "whitespace_score": 27.2,
+      "talk_count": 25138,
+      "whitespace_score": 27.1,
       "rising": [
         {
           "term": "shanghai",
           "count": 69,
           "delta": 56
+        },
+        {
+          "term": "law",
+          "count": 157,
+          "delta": 46
         },
         {
           "term": "disrupt",
@@ -40,36 +45,31 @@
           "delta": 41
         },
         {
+          "term": "data",
+          "count": 298,
+          "delta": 40
+        },
+        {
           "term": "techcrunch disrupt",
           "count": 44,
           "delta": 40
         },
         {
-          "term": "data",
-          "count": 296,
-          "delta": 38
-        },
-        {
-          "term": "law",
-          "count": 148,
-          "delta": 37
-        },
-        {
           "term": "investors",
-          "count": 168,
-          "delta": 35
+          "count": 171,
+          "delta": 38
         }
       ],
       "movers": [
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 951
+          "count": 964
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 512
+          "count": 524
         },
         {
           "name": "ProductHunt",
@@ -95,20 +95,20 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 4152,
-      "recent7": 338,
+      "total": 4154,
+      "recent7": 340,
       "sparkline": [
         319,
         338,
         358,
-        338
+        340
       ],
       "momentum_pct": 9,
       "momentum_basis": "7d",
-      "hard_count": 379,
+      "hard_count": 380,
       "hard_ratio": 0.091,
       "exit_count": 172,
-      "talk_count": 3498,
+      "talk_count": 3499,
       "whitespace_score": 9.2,
       "rising": [
         {
@@ -187,20 +187,20 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 2549,
-      "recent7": 241,
+      "total": 2551,
+      "recent7": 243,
       "sparkline": [
         192,
         197,
         220,
-        241
+        243
       ],
-      "momentum_pct": 10,
+      "momentum_pct": 11,
       "momentum_basis": "7d",
       "hard_count": 173,
       "hard_ratio": 0.068,
       "exit_count": 61,
-      "talk_count": 2258,
+      "talk_count": 2260,
       "whitespace_score": 13.1,
       "rising": [
         {
@@ -371,31 +371,31 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 2591,
-      "recent7": 225,
+      "total": 2594,
+      "recent7": 228,
       "sparkline": [
         225,
         203,
         213,
-        225
+        228
       ],
       "momentum_pct": 10,
       "momentum_basis": "7d",
       "hard_count": 127,
       "hard_ratio": 0.049,
       "exit_count": 12,
-      "talk_count": 2419,
-      "whitespace_score": 19.0,
+      "talk_count": 2422,
+      "whitespace_score": 19.1,
       "rising": [
+        {
+          "term": "charging",
+          "count": 35,
+          "delta": 20
+        },
         {
           "term": "techcrunch",
           "count": 20,
           "delta": 18
-        },
-        {
-          "term": "charging",
-          "count": 32,
-          "delta": 17
         },
         {
           "term": "techcrunch disrupt",
@@ -785,31 +785,31 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 1553,
+        "recent7": 1584,
         "momentum_pct": 7,
         "momentum_basis": "7d",
-        "total": 26368,
+        "total": 26399,
         "sparkline": [
           1562,
           1699,
           1634,
-          1553
+          1584
         ],
         "hard_ratio": 0.035,
-        "whitespace_score": 27.2
+        "whitespace_score": 27.1
       },
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 338,
+        "recent7": 340,
         "momentum_pct": 9,
         "momentum_basis": "7d",
-        "total": 4152,
+        "total": 4154,
         "sparkline": [
           319,
           338,
           358,
-          338
+          340
         ],
         "hard_ratio": 0.091,
         "whitespace_score": 9.2
@@ -817,15 +817,15 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 241,
-        "momentum_pct": 10,
+        "recent7": 243,
+        "momentum_pct": 11,
         "momentum_basis": "7d",
-        "total": 2549,
+        "total": 2551,
         "sparkline": [
           192,
           197,
           220,
-          241
+          243
         ],
         "hard_ratio": 0.068,
         "whitespace_score": 13.1
@@ -833,18 +833,18 @@
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 225,
+        "recent7": 228,
         "momentum_pct": 10,
         "momentum_basis": "7d",
-        "total": 2591,
+        "total": 2594,
         "sparkline": [
           225,
           203,
           213,
-          225
+          228
         ],
         "hard_ratio": 0.049,
-        "whitespace_score": 19.0
+        "whitespace_score": 19.1
       },
       {
         "id": "healthtech",
@@ -949,6 +949,11 @@
         "delta": 90
       },
       {
+        "term": "investors",
+        "count": 243,
+        "delta": 63
+      },
+      {
         "term": "startup",
         "count": 184,
         "delta": 63
@@ -959,9 +964,9 @@
         "delta": 61
       },
       {
-        "term": "investors",
-        "count": 240,
-        "delta": 60
+        "term": "data",
+        "count": 498,
+        "delta": 57
       },
       {
         "term": "shanghai",
@@ -972,11 +977,6 @@
         "term": "save",
         "count": 82,
         "delta": 56
-      },
-      {
-        "term": "data",
-        "count": 496,
-        "delta": 55
       }
     ],
     "highlights": [
@@ -1101,6 +1101,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 41867
+    "total_signals": 41905
   }
 }

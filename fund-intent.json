@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-28T10:29:54Z",
+  "generated": "2026-09-28T18:24:31Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 1251,
-    "deal_rows_attributed": 597,
-    "funds_tracked": 345,
-    "fetch_attempts": 135,
-    "fetchable_pct": 1,
+    "deal_rows_seen": 1259,
+    "deal_rows_attributed": 604,
+    "funds_tracked": 349,
+    "fetch_attempts": 139,
+    "fetchable_pct": 4,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -1022,8 +1022,8 @@
     },
     {
       "fund": "General Catalyst",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 16 attributed deal(s), 5 in the last 30d.",
-      "coverage": 16,
+      "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 17 attributed deal(s), 6 in the last 30d.",
+      "coverage": 17,
       "sectors": [
         {
           "label": "Cybersecurity",
@@ -1031,14 +1031,14 @@
           "weight": 4.0
         },
         {
+          "label": "Healthtech / Bio",
+          "count": 4,
+          "weight": 2.5
+        },
+        {
           "label": "Fintech / Payments",
           "count": 2,
           "weight": 2.0
-        },
-        {
-          "label": "Healthtech / Bio",
-          "count": 3,
-          "weight": 1.5
         },
         {
           "label": "AI / ML Infra",
@@ -1056,11 +1056,17 @@
           "weight": 0.5
         }
       ],
-      "recent30": 5,
-      "recent90": 16,
+      "recent30": 6,
+      "recent90": 17,
       "prior30": 8,
-      "last_deal_days": 6,
+      "last_deal_days": 0,
       "deals": [
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-09-28",
+          "summary": "Heidi Closes Series C and Sets Sights on Clinical Work",
+          "url": "https://digitalhealthwire.com/heidi-closes-series-c-and-sets-sights-on-clinical-work/"
+        },
         {
           "sector": "Fintech / Payments",
           "date": "2026-09-22",
@@ -5411,6 +5417,69 @@
       ]
     },
     {
+      "fund": "SignalFire",
+      "thesis": "Revealed focus: AI / ML Infra and Fintech / Payments. 5 attributed deal(s), 4 in the last 30d.",
+      "coverage": 5,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 4,
+      "recent90": 5,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-28",
+          "summary": "Insurtech Outmarket raises $34.5M just months after prior round",
+          "url": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-28",
+          "summary": "Insurtech Outmarket raises $34.5M just months after prior round",
+          "url": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-31",
+          "summary": "Harvard Law dropout raises $6M for Blue Voice to build a \u2018Harvey for police officers\u2019",
+          "url": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/"
+        },
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-08-31",
+          "summary": "4 Notable Health Tech Funding Announcements in August",
+          "url": "https://medcitynews.com/2026/08/4-notable-health-tech-funding-announcements-in-august/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-03",
+          "summary": "Horizon3.ai hits $2 billion valuation in $250 million funding round",
+          "url": "https://www.helpnetsecurity.com/2026/08/03/horizon3-ai-250-million-funding/"
+        }
+      ]
+    },
+    {
       "fund": "Riot Ventures",
       "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 3 in the last 30d.",
       "coverage": 5,
@@ -7835,6 +7904,47 @@
       ]
     },
     {
+      "fund": "Meta",
+      "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 3 attributed deal(s), 3 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 3,
+      "recent90": 3,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-28",
+          "summary": "Meta Backs MacroCycle rPET Plant With Multiyear Procurement Deal",
+          "url": "https://esgnews.com/meta-backs-macrocycle-rpet-plant-with-multiyear-procurement-deal/?utm_source=rss&utm_medium=rss&utm_campaign=meta-backs-macrocycle-rpet-plant-with-multiyear-procurement-deal"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-25",
+          "summary": "Meta Backs Plastic Recycling Technology Startup MacroCycle",
+          "url": "https://www.esgtoday.com/meta-backs-plastic-recycling-technology-startup-macrocycle/?utm_source=rss&utm_medium=rss&utm_campaign=meta-backs-plastic-recycling-technology-startup-macrocycle"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-15",
+          "summary": "Sector Snapshot: AI Takes A Growing Share Of Sales And Marketing Startup Funding",
+          "url": "https://news.crunchbase.com/sales-marketing/ai-growing-share-ecommerce-saas-crm-startup-funding/"
+        }
+      ]
+    },
+    {
       "fund": "Tether",
       "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s), 2 in the last 30d.",
       "coverage": 3,
@@ -8690,52 +8800,6 @@
       ]
     },
     {
-      "fund": "SignalFire",
-      "thesis": "Revealed focus: AI / ML Infra and Healthtech / Bio. 3 attributed deal(s), 2 in the last 30d.",
-      "coverage": 3,
-      "sectors": [
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Healthtech / Bio",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 2,
-      "recent90": 3,
-      "prior30": 1,
-      "last_deal_days": 28,
-      "deals": [
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-08-31",
-          "summary": "Harvard Law dropout raises $6M for Blue Voice to build a \u2018Harvey for police officers\u2019",
-          "url": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/"
-        },
-        {
-          "sector": "Healthtech / Bio",
-          "date": "2026-08-31",
-          "summary": "4 Notable Health Tech Funding Announcements in August",
-          "url": "https://medcitynews.com/2026/08/4-notable-health-tech-funding-announcements-in-august/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-03",
-          "summary": "Horizon3.ai hits $2 billion valuation in $250 million funding round",
-          "url": "https://www.helpnetsecurity.com/2026/08/03/horizon3-ai-250-million-funding/"
-        }
-      ]
-    },
-    {
       "fund": "FirstMark",
       "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s).",
       "coverage": 3,
@@ -9253,6 +9317,47 @@
       ]
     },
     {
+      "fund": "Blackbird",
+      "thesis": "Revealed focus: Fintech / Payments and Healthtech / Bio. 3 attributed deal(s), 2 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Fintech / Payments",
+          "count": 2,
+          "weight": 1.5
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 3,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-09-28",
+          "summary": "Heidi Closes Series C and Sets Sights on Clinical Work",
+          "url": "https://digitalhealthwire.com/heidi-closes-series-c-and-sets-sights-on-clinical-work/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-22",
+          "summary": "Heidi Lands $340 Million to Push Healthcare AI Beyond Notetaking to Action",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/heidi-lands-340-million-dollars-push-healthcare-ai-beyond-notetaking-action/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-16",
+          "summary": "New Zealand AI Startup Sterling Raises NZ$3.8m in Blackbird-Led Round",
+          "url": "https://www.crowdfundinsider.com/2026/08/297583-new-zealand-ai-startup-sterling-raises-nz3-8m-in-blackbird-led-round/"
+        }
+      ]
+    },
+    {
       "fund": "Haun Ventures",
       "thesis": "Revealed focus: Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
       "coverage": 3,
@@ -9516,6 +9621,47 @@
           "date": "2026-07-26",
           "summary": "Ant\u2019s $1.2 Billion A Round Tops This Weeks Fundings and Acquisitions",
           "url": "https://www.crowdfundinsider.com/2026/07/293681-ants-1-2b-a-round-tops-this-weeks-fundings-and-acquisitions/"
+        }
+      ]
+    },
+    {
+      "fund": "Lakestar",
+      "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 3 attributed deal(s), 1 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Fintech / Payments",
+          "count": 2,
+          "weight": 1.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 1,
+      "recent90": 3,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-28",
+          "summary": "Modulate raises $25M for its voice models and analysis suite",
+          "url": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-10",
+          "summary": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise",
+          "url": "https://sifted.eu/articles/cambridge-aerospace-fundraise-valuation/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-17",
+          "summary": "VC Firm Lakestar Raises $300 Million to Fund European Tech Sovereignty",
+          "url": "https://www.pymnts.com/news/investment-tracker/2026/vc-firm-lakestar-raises-300-million-to-fund-european-tech-sovereignty/"
         }
       ]
     },
@@ -10465,41 +10611,6 @@
           "date": "2026-09-17",
           "summary": "Comp AI sets eyes on a continuously agentic future for security and compliance",
           "url": "https://techcrunch.com/2026/09/17/comp-ai-sets-eyes-on-a-continiously-agentic-future-for-security-and-complaince/"
-        }
-      ]
-    },
-    {
-      "fund": "Meta",
-      "thesis": "Revealed focus: Cybersecurity and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 2,
-      "recent90": 2,
-      "prior30": 0,
-      "last_deal_days": 3,
-      "deals": [
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-25",
-          "summary": "Meta Backs Plastic Recycling Technology Startup MacroCycle",
-          "url": "https://www.esgtoday.com/meta-backs-plastic-recycling-technology-startup-macrocycle/?utm_source=rss&utm_medium=rss&utm_campaign=meta-backs-plastic-recycling-technology-startup-macrocycle"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-15",
-          "summary": "Sector Snapshot: AI Takes A Growing Share Of Sales And Marketing Startup Funding",
-          "url": "https://news.crunchbase.com/sales-marketing/ai-growing-share-ecommerce-saas-crm-startup-funding/"
         }
       ]
     },
@@ -13444,32 +13555,107 @@
       ]
     },
     {
-      "fund": "Blackbird",
-      "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
+      "fund": "Fika Ventures",
+      "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
       "sectors": [
         {
           "label": "Fintech / Payments",
-          "count": 2,
-          "weight": 1.5
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
         }
       ],
-      "recent30": 1,
+      "recent30": 2,
       "recent90": 2,
-      "prior30": 1,
-      "last_deal_days": 6,
+      "prior30": 0,
+      "last_deal_days": 0,
       "deals": [
         {
           "sector": "Fintech / Payments",
-          "date": "2026-09-22",
-          "summary": "Heidi Lands $340 Million to Push Healthcare AI Beyond Notetaking to Action",
-          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/heidi-lands-340-million-dollars-push-healthcare-ai-beyond-notetaking-action/"
+          "date": "2026-09-28",
+          "summary": "Insurtech Outmarket raises $34.5M just months after prior round",
+          "url": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/"
         },
         {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-28",
+          "summary": "Insurtech Outmarket raises $34.5M just months after prior round",
+          "url": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/"
+        }
+      ]
+    },
+    {
+      "fund": "Permanent Capital Ventures",
+      "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
           "sector": "Fintech / Payments",
-          "date": "2026-08-16",
-          "summary": "New Zealand AI Startup Sterling Raises NZ$3.8m in Blackbird-Led Round",
-          "url": "https://www.crowdfundinsider.com/2026/08/297583-new-zealand-ai-startup-sterling-raises-nz3-8m-in-blackbird-led-round/"
+          "date": "2026-09-28",
+          "summary": "Insurtech Outmarket raises $34.5M just months after prior round",
+          "url": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-28",
+          "summary": "Insurtech Outmarket raises $34.5M just months after prior round",
+          "url": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/"
+        }
+      ]
+    },
+    {
+      "fund": "TTV Capital",
+      "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-28",
+          "summary": "Insurtech Outmarket raises $34.5M just months after prior round",
+          "url": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-28",
+          "summary": "Insurtech Outmarket raises $34.5M just months after prior round",
+          "url": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/"
         }
       ]
     },
@@ -13934,36 +14120,6 @@
       ]
     },
     {
-      "fund": "Lakestar",
-      "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s).",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Fintech / Payments",
-          "count": 2,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 0,
-      "recent90": 2,
-      "prior30": 1,
-      "last_deal_days": 49,
-      "deals": [
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-08-10",
-          "summary": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise",
-          "url": "https://sifted.eu/articles/cambridge-aerospace-fundraise-valuation/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-07-17",
-          "summary": "VC Firm Lakestar Raises $300 Million to Fund European Tech Sovereignty",
-          "url": "https://www.pymnts.com/news/investment-tracker/2026/vc-firm-lakestar-raises-300-million-to-fund-european-tech-sovereignty/"
-        }
-      ]
-    },
-    {
       "fund": "Octopus Ventures",
       "thesis": "Revealed focus: Coexistence / Empowerment and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
       "coverage": 2,
@@ -14420,6 +14576,41 @@
           "date": "2026-07-09",
           "summary": "Aria Secures $283 Million to Expand Invoice Financing Offering",
           "url": "https://www.pymnts.com/news/b2b-payments/2026/aria-secures-283-million-to-expand-invoice-financing-offering/"
+        }
+      ]
+    },
+    {
+      "fund": "Future Ventures",
+      "thesis": "Revealed focus: AI / ML Infra and Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-28",
+          "summary": "Modulate raises $25M for its voice models and analysis suite",
+          "url": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-13",
+          "summary": "Hephae Raises $17.8 Million for Technology Enabling Access to Deeper, Hotter Geothermal Energy",
+          "url": "https://www.esgtoday.com/hephae-raises-17-8-million-for-technology-enabling-access-to-deeper-hotter-geothermal-energy/?utm_source=rss&utm_medium=rss&utm_campaign=hephae-raises-17-8-million-for-technology-enabling-access-to-deeper-hotter-geothermal-energy"
         }
       ]
     },
@@ -16179,10 +16370,10 @@
       },
       {
         "fund": "General Catalyst",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 16 attributed deal(s), 5 in the last 30d.",
-        "coverage": 16,
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 17 attributed deal(s), 6 in the last 30d.",
+        "coverage": 17,
         "sector_count": 2,
-        "recent30": 5
+        "recent30": 6
       },
       {
         "fund": "Valor Equity Partners",
@@ -16258,6 +16449,13 @@
         "fund": "Scaleup Europe Fund",
         "thesis": "Revealed focus: Space Tech and AI / ML Infra. 6 attributed deal(s), 4 in the last 30d.",
         "coverage": 6,
+        "sector_count": 2,
+        "recent30": 4
+      },
+      {
+        "fund": "SignalFire",
+        "thesis": "Revealed focus: AI / ML Infra and Fintech / Payments. 5 attributed deal(s), 4 in the last 30d.",
+        "coverage": 5,
         "sector_count": 2,
         "recent30": 4
       },
@@ -16570,13 +16768,6 @@
         "recent30": 1
       },
       {
-        "fund": "SignalFire",
-        "thesis": "Revealed focus: AI / ML Infra and Healthtech / Bio. 3 attributed deal(s), 2 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
         "fund": "Kindred Ventures",
         "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
         "coverage": 3,
@@ -16620,6 +16811,13 @@
       },
       {
         "fund": "Thrive",
+        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 3 attributed deal(s), 1 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
+        "fund": "Lakestar",
         "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 3 attributed deal(s), 1 in the last 30d.",
         "coverage": 3,
         "sector_count": 1,
@@ -16829,6 +17027,27 @@
         "recent30": 0
       },
       {
+        "fund": "Fika Ventures",
+        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Permanent Capital Ventures",
+        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "TTV Capital",
+        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "Nexus Venture Partners",
         "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 2 attributed deal(s).",
         "coverage": 2,
@@ -16841,6 +17060,13 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 0
+      },
+      {
+        "fund": "Future Ventures",
+        "thesis": "Revealed focus: AI / ML Infra and Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 1
       },
       {
         "fund": "Baobab Ventures",
@@ -17056,10 +17282,10 @@
       },
       {
         "fund": "General Catalyst",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 16 attributed deal(s), 5 in the last 30d.",
-        "coverage": 16,
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 17 attributed deal(s), 6 in the last 30d.",
+        "coverage": 17,
         "sector_count": 2,
-        "recent30": 5
+        "recent30": 6
       },
       {
         "fund": "Kleiner Perkins",
@@ -17126,8 +17352,15 @@
       },
       {
         "fund": "Blackbird",
-        "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
+        "thesis": "Revealed focus: Fintech / Payments and Healthtech / Bio. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 2,
+        "recent30": 2
+      },
+      {
+        "fund": "Lakestar",
+        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 3 attributed deal(s), 1 in the last 30d.",
+        "coverage": 3,
         "sector_count": 2,
         "recent30": 1
       },
@@ -17217,13 +17450,6 @@
       },
       {
         "fund": "Primary",
-        "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s).",
-        "coverage": 2,
-        "sector_count": 2,
-        "recent30": 0
-      },
-      {
-        "fund": "Lakestar",
         "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s).",
         "coverage": 2,
         "sector_count": 2,
@@ -17375,6 +17601,13 @@
         "coverage": 5,
         "sector_count": 1,
         "recent30": 0
+      },
+      {
+        "fund": "SignalFire",
+        "thesis": "Revealed focus: AI / ML Infra and Fintech / Payments. 5 attributed deal(s), 4 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 4
       },
       {
         "fund": "Aramco Ventures",
@@ -17664,6 +17897,27 @@
         "recent30": 0
       },
       {
+        "fund": "Fika Ventures",
+        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Permanent Capital Ventures",
+        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "TTV Capital",
+        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "NewView Capital",
         "thesis": "Revealed focus: Fintech / Payments and Healthtech / Bio. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -17793,10 +18047,10 @@
       },
       {
         "fund": "General Catalyst",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 16 attributed deal(s), 5 in the last 30d.",
-        "coverage": 16,
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 17 attributed deal(s), 6 in the last 30d.",
+        "coverage": 17,
         "sector_count": 6,
-        "recent30": 5
+        "recent30": 6
       },
       {
         "fund": "Insight Partners",
@@ -18513,6 +18767,13 @@
         "recent30": 0
       },
       {
+        "fund": "SignalFire",
+        "thesis": "Revealed focus: AI / ML Infra and Fintech / Payments. 5 attributed deal(s), 4 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 4
+      },
+      {
         "fund": "Riot Ventures",
         "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 3 in the last 30d.",
         "coverage": 5,
@@ -18632,6 +18893,13 @@
         "recent30": 3
       },
       {
+        "fund": "Meta",
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "Tether",
         "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 3 attributed deal(s), 2 in the last 30d.",
         "coverage": 3,
@@ -18728,13 +18996,6 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 1
-      },
-      {
-        "fund": "SignalFire",
-        "thesis": "Revealed focus: AI / ML Infra and Healthtech / Bio. 3 attributed deal(s), 2 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 2
       },
       {
         "fund": "FirstMark",
@@ -18844,13 +19105,6 @@
       {
         "fund": "Grand Ventures",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Meta",
-        "thesis": "Revealed focus: Cybersecurity and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,
         "recent30": 2
@@ -20144,10 +20398,10 @@
       },
       {
         "fund": "General Catalyst",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 16 attributed deal(s), 5 in the last 30d.",
-        "coverage": 16,
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 17 attributed deal(s), 6 in the last 30d.",
+        "coverage": 17,
         "sector_count": 2,
-        "recent30": 5
+        "recent30": 6
       },
       {
         "fund": "Accel",
@@ -20573,10 +20827,10 @@
     "Healthtech / Bio": [
       {
         "fund": "General Catalyst",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 16 attributed deal(s), 5 in the last 30d.",
-        "coverage": 16,
-        "sector_count": 3,
-        "recent30": 5
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 17 attributed deal(s), 6 in the last 30d.",
+        "coverage": 17,
+        "sector_count": 4,
+        "recent30": 6
       },
       {
         "fund": "Index Ventures",
@@ -20691,6 +20945,13 @@
         "recent30": 1
       },
       {
+        "fund": "SignalFire",
+        "thesis": "Revealed focus: AI / ML Infra and Fintech / Payments. 5 attributed deal(s), 4 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 4
+      },
+      {
         "fund": "Sixth Street Growth",
         "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 4 attributed deal(s).",
         "coverage": 4,
@@ -20719,13 +20980,6 @@
         "recent30": 2
       },
       {
-        "fund": "SignalFire",
-        "thesis": "Revealed focus: AI / ML Infra and Healthtech / Bio. 3 attributed deal(s), 2 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
         "fund": "Kindred Ventures",
         "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
         "coverage": 3,
@@ -20745,6 +20999,13 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 0
+      },
+      {
+        "fund": "Blackbird",
+        "thesis": "Revealed focus: Fintech / Payments and Healthtech / Bio. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 2
       },
       {
         "fund": "Upfront Ventures",
@@ -20994,6 +21255,13 @@
         "recent30": 1
       },
       {
+        "fund": "Meta",
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 2,
+        "recent30": 3
+      },
+      {
         "fund": "Trust Ventures",
         "thesis": "Revealed focus: Coexistence / Empowerment and Fintech / Payments. 3 attributed deal(s), 1 in the last 30d.",
         "coverage": 3,
@@ -21086,10 +21354,10 @@
       },
       {
         "fund": "General Catalyst",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 16 attributed deal(s), 5 in the last 30d.",
-        "coverage": 16,
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 17 attributed deal(s), 6 in the last 30d.",
+        "coverage": 17,
         "sector_count": 1,
-        "recent30": 5
+        "recent30": 6
       },
       {
         "fund": "Insight Partners",
@@ -21316,13 +21584,6 @@
         "recent30": 0
       },
       {
-        "fund": "Meta",
-        "thesis": "Revealed focus: Cybersecurity and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
         "fund": "Silverton Partners",
         "thesis": "Revealed focus: Cybersecurity and Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -21356,6 +21617,13 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 0
+      },
+      {
+        "fund": "Future Ventures",
+        "thesis": "Revealed focus: AI / ML Infra and Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 1
       },
       {
         "fund": "DST Global Partners",

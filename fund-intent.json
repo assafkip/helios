@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-29T16:47:22Z",
+  "generated": "2026-09-29T21:15:51Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 1270,
-    "deal_rows_attributed": 610,
+    "deal_rows_seen": 1273,
+    "deal_rows_attributed": 611,
     "funds_tracked": 356,
-    "fetch_attempts": 140,
-    "fetchable_pct": 4,
+    "fetch_attempts": 138,
+    "fetchable_pct": 1,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -6051,6 +6051,58 @@
       ]
     },
     {
+      "fund": "Blackstone",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 1 in the last 30d.",
+      "coverage": 4,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 1.5
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 0.5
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 4,
+      "prior30": 2,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-29",
+          "summary": "Oura Hits Pause On IPO While Anthropic\u2019s Prospectus Reveals The Cost Of Its AI Ambitions",
+          "url": "https://news.crunchbase.com/public/oura-pauses-ipo-anthropics-ai-openai/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-19",
+          "summary": "AI Startup Etched Takes Just One Month to Double in Valuation",
+          "url": "https://www.crowdfundinsider.com/2026/08/299030-ai-startup-etched-takes-just-one-month-to-double-in-valuation/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-14",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Data, Neolab, AI Infrastructure, Defense And AI Coding Lead",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-16",
+          "summary": "Blackstone-Led Group Invests $5.34B in Williams Power Projects",
+          "url": "https://esgnews.com/blackstone-led-group-invests-5-34b-in-williams-power-projects/?utm_source=rss&utm_medium=rss&utm_campaign=blackstone-led-group-invests-5-34b-in-williams-power-projects"
+        }
+      ]
+    },
+    {
       "fund": "Greylock",
       "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 4 in the last 30d.",
       "coverage": 4,
@@ -8536,52 +8588,6 @@
           "date": "2026-08-15",
           "summary": "Every fusion startup that has raised over $100M",
           "url": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/"
-        }
-      ]
-    },
-    {
-      "fund": "Blackstone",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s).",
-      "coverage": 3,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 0.5
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 0.5
-        },
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 0,
-      "recent90": 3,
-      "prior30": 2,
-      "last_deal_days": 41,
-      "deals": [
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-08-19",
-          "summary": "AI Startup Etched Takes Just One Month to Double in Valuation",
-          "url": "https://www.crowdfundinsider.com/2026/08/299030-ai-startup-etched-takes-just-one-month-to-double-in-valuation/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-14",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Data, Neolab, AI Infrastructure, Defense And AI Coding Lead",
-          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy/"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-07-16",
-          "summary": "Blackstone-Led Group Invests $5.34B in Williams Power Projects",
-          "url": "https://esgnews.com/blackstone-led-group-invests-5-34b-in-williams-power-projects/?utm_source=rss&utm_medium=rss&utm_campaign=blackstone-led-group-invests-5-34b-in-williams-power-projects"
         }
       ]
     },
@@ -17876,6 +17882,13 @@
         "recent30": 1
       },
       {
+        "fund": "Blackstone",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 1 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
         "fund": "LocalGlobe",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 2 in the last 30d.",
         "coverage": 4,
@@ -17968,13 +17981,6 @@
       },
       {
         "fund": "BDC Capital",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s).",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 0
-      },
-      {
-        "fund": "Blackstone",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s).",
         "coverage": 3,
         "sector_count": 1,
@@ -18676,6 +18682,13 @@
         "recent30": 2
       },
       {
+        "fund": "Blackstone",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 1 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 2,
+        "recent30": 1
+      },
+      {
         "fund": "Mubadala Capital",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 4 in the last 30d.",
         "coverage": 4,
@@ -19209,13 +19222,6 @@
       },
       {
         "fund": "BDC Capital",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s).",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 0
-      },
-      {
-        "fund": "Blackstone",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s).",
         "coverage": 3,
         "sector_count": 1,
@@ -21752,6 +21758,13 @@
         "recent30": 0
       },
       {
+        "fund": "Blackstone",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 1 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
         "fund": "ConocoPhillips",
         "thesis": "Revealed focus: Climate / Energy and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
         "coverage": 4,
@@ -21820,13 +21833,6 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 1
-      },
-      {
-        "fund": "Blackstone",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s).",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 0
       },
       {
         "fund": "Blindspot Ventures",

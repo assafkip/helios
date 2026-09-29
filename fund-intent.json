@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-29T10:35:26Z",
+  "generated": "2026-09-29T16:47:22Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 1263,
-    "deal_rows_attributed": 605,
-    "funds_tracked": 349,
-    "fetch_attempts": 136,
-    "fetchable_pct": 1,
+    "deal_rows_seen": 1270,
+    "deal_rows_attributed": 610,
+    "funds_tracked": 356,
+    "fetch_attempts": 140,
+    "fetchable_pct": 4,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -3634,6 +3634,76 @@
       ]
     },
     {
+      "fund": "Energy Impact Partners",
+      "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 7 attributed deal(s), 1 in the last 30d.",
+      "coverage": 7,
+      "sectors": [
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 4,
+          "weight": 2.5
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 1.0
+        },
+        {
+          "label": "Climate / Energy",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 7,
+      "prior30": 6,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-29",
+          "summary": "Reverion Raises $175 Million to Scale Production of Carbon Negative-Capable Power Plants",
+          "url": "https://www.esgtoday.com/reverion-raises-175-million-to-scale-production-of-carbon-negative-capable-power-plants/?utm_source=rss&utm_medium=rss&utm_campaign=reverion-raises-175-million-to-scale-production-of-carbon-negative-capable-power-plants"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-27",
+          "summary": "This former PG&E engineer is building a \u2018Google Maps for the underground\u2019",
+          "url": "https://techcrunch.com/2026/08/27/this-former-pge-engineer-is-building-a-google-maps-for-the-underground/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-26",
+          "summary": "Data Center Power Solutions Startup Emerald AI Raises $150 Million at Unicorn Valuation",
+          "url": "https://www.esgtoday.com/data-center-power-solutions-startup-emerald-ai-raises-150-million-at-unicorn-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=data-center-power-solutions-startup-emerald-ai-raises-150-million-at-unicorn-valuation"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-14",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Data, Neolab, AI Infrastructure, Defense And AI Coding Lead",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-13",
+          "summary": "Form Energy Raises $750 Million for Multi-Day Energy Storage Solution",
+          "url": "https://www.esgtoday.com/form-energy-raises-750-million-for-multi-day-energy-storage-solution/?utm_source=rss&utm_medium=rss&utm_campaign=form-energy-raises-750-million-for-multi-day-energy-storage-solution"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-12",
+          "summary": "Form Energy raises $750M to build more 100-hour batteries for the grid",
+          "url": "https://techcrunch.com/2026/08/12/form-energy-raises-750m-to-build-more-100-hour-batteries-for-the-grid/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-04",
+          "summary": "Home Battery Startup Base Power Raises $1 Billion at $13 Billion Valuation",
+          "url": "https://www.esgtoday.com/home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation"
+        }
+      ]
+    },
+    {
       "fund": "Atomico",
       "thesis": "Revealed focus: Space Tech and Fintech / Payments. 7 attributed deal(s), 3 in the last 30d.",
       "coverage": 7,
@@ -4161,70 +4231,6 @@
           "date": "2026-07-08",
           "summary": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
           "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/"
-        }
-      ]
-    },
-    {
-      "fund": "Energy Impact Partners",
-      "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 6 attributed deal(s).",
-      "coverage": 6,
-      "sectors": [
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 3,
-          "weight": 1.5
-        },
-        {
-          "label": "Cybersecurity",
-          "count": 2,
-          "weight": 1.0
-        },
-        {
-          "label": "Climate / Energy",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 0,
-      "recent90": 6,
-      "prior30": 6,
-      "last_deal_days": 33,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-27",
-          "summary": "This former PG&E engineer is building a \u2018Google Maps for the underground\u2019",
-          "url": "https://techcrunch.com/2026/08/27/this-former-pge-engineer-is-building-a-google-maps-for-the-underground/"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-08-26",
-          "summary": "Data Center Power Solutions Startup Emerald AI Raises $150 Million at Unicorn Valuation",
-          "url": "https://www.esgtoday.com/data-center-power-solutions-startup-emerald-ai-raises-150-million-at-unicorn-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=data-center-power-solutions-startup-emerald-ai-raises-150-million-at-unicorn-valuation"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-14",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Data, Neolab, AI Infrastructure, Defense And AI Coding Lead",
-          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy/"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-08-13",
-          "summary": "Form Energy Raises $750 Million for Multi-Day Energy Storage Solution",
-          "url": "https://www.esgtoday.com/form-energy-raises-750-million-for-multi-day-energy-storage-solution/?utm_source=rss&utm_medium=rss&utm_campaign=form-energy-raises-750-million-for-multi-day-energy-storage-solution"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-08-12",
-          "summary": "Form Energy raises $750M to build more 100-hour batteries for the grid",
-          "url": "https://techcrunch.com/2026/08/12/form-energy-raises-750m-to-build-more-100-hour-batteries-for-the-grid/"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-08-04",
-          "summary": "Home Battery Startup Base Power Raises $1 Billion at $13 Billion Valuation",
-          "url": "https://www.esgtoday.com/home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation"
         }
       ]
     },
@@ -10215,6 +10221,76 @@
       ]
     },
     {
+      "fund": "Forestay",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-29",
+          "summary": "Reco raises $55M as AI agent security startups crowd the market",
+          "url": "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-29",
+          "summary": "Reco raises $55M as AI agent security startups crowd the market",
+          "url": "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/"
+        }
+      ]
+    },
+    {
+      "fund": "Quadrille Capital",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-29",
+          "summary": "Reco raises $55M as AI agent security startups crowd the market",
+          "url": "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-29",
+          "summary": "Reco raises $55M as AI agent security startups crowd the market",
+          "url": "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/"
+        }
+      ]
+    },
+    {
       "fund": "Foundation Capital",
       "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
       "coverage": 2,
@@ -14955,6 +15031,41 @@
       ]
     },
     {
+      "fund": "Allianz",
+      "thesis": "Revealed focus: Coexistence / Empowerment and AI / ML Infra. 2 attributed deal(s), 1 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-29",
+          "summary": "Reverion Raises $175 Million to Scale Production of Carbon Negative-Capable Power Plants",
+          "url": "https://www.esgtoday.com/reverion-raises-175-million-to-scale-production-of-carbon-negative-capable-power-plants/?utm_source=rss&utm_medium=rss&utm_campaign=reverion-raises-175-million-to-scale-production-of-carbon-negative-capable-power-plants"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-30",
+          "summary": "Dili raises $21.7M to bring AI compliance to the infrastructure boom",
+          "url": "https://techcrunch.com/2026/07/30/dili-raises-15-million-to-bring-ai-compliance-to-the-infrastructure-boom/"
+        }
+      ]
+    },
+    {
       "fund": "Carta",
       "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 2 attributed deal(s).",
       "coverage": 2,
@@ -15915,6 +16026,126 @@
       ]
     },
     {
+      "fund": "UVC Partners",
+      "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 2,
+          "weight": 1.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-29",
+          "summary": "Reverion Raises $175 Million to Scale Production of Carbon Negative-Capable Power Plants",
+          "url": "https://www.esgtoday.com/reverion-raises-175-million-to-scale-production-of-carbon-negative-capable-power-plants/?utm_source=rss&utm_medium=rss&utm_campaign=reverion-raises-175-million-to-scale-production-of-carbon-negative-capable-power-plants"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-07",
+          "summary": "Google Backs Proxima\u2019s Record $468 Million Raise in Race to First Fusion Power Plant",
+          "url": "https://www.esgtoday.com/google-backs-proximas-record-468-million-raise-in-race-to-first-fusion-power-plant/?utm_source=rss&utm_medium=rss&utm_campaign=google-backs-proximas-record-468-million-raise-in-race-to-first-fusion-power-plant"
+        }
+      ]
+    },
+    {
+      "fund": "European Innovation Council Fund",
+      "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 2,
+          "weight": 1.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-29",
+          "summary": "Reverion Raises $175 Million to Scale Production of Carbon Negative-Capable Power Plants",
+          "url": "https://www.esgtoday.com/reverion-raises-175-million-to-scale-production-of-carbon-negative-capable-power-plants/?utm_source=rss&utm_medium=rss&utm_campaign=reverion-raises-175-million-to-scale-production-of-carbon-negative-capable-power-plants"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-21",
+          "summary": "Hyperion Robotics Raises $7.4 Million to Enable Faster, Lower Carbon Infrastructure Production",
+          "url": "https://www.esgtoday.com/hyperion-robotics-raises-7-4-million-to-enable-faster-lower-carbon-infrastructure-production/?utm_source=rss&utm_medium=rss&utm_campaign=hyperion-robotics-raises-7-4-million-to-enable-faster-lower-carbon-infrastructure-production"
+        }
+      ]
+    },
+    {
+      "fund": "alfa8",
+      "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 2,
+          "weight": 1.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-29",
+          "summary": "Reverion Raises $175 Million to Scale Production of Carbon Negative-Capable Power Plants",
+          "url": "https://www.esgtoday.com/reverion-raises-175-million-to-scale-production-of-carbon-negative-capable-power-plants/?utm_source=rss&utm_medium=rss&utm_campaign=reverion-raises-175-million-to-scale-production-of-carbon-negative-capable-power-plants"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-13",
+          "summary": "Hephae Raises $17.8 Million for Technology Enabling Access to Deeper, Hotter Geothermal Energy",
+          "url": "https://www.esgtoday.com/hephae-raises-17-8-million-for-technology-enabling-access-to-deeper-hotter-geothermal-energy/?utm_source=rss&utm_medium=rss&utm_campaign=hephae-raises-17-8-million-for-technology-enabling-access-to-deeper-hotter-geothermal-energy"
+        }
+      ]
+    },
+    {
+      "fund": "KfW Capital",
+      "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 2,
+          "weight": 1.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-29",
+          "summary": "Reverion Raises $175 Million to Scale Production of Carbon Negative-Capable Power Plants",
+          "url": "https://www.esgtoday.com/reverion-raises-175-million-to-scale-production-of-carbon-negative-capable-power-plants/?utm_source=rss&utm_medium=rss&utm_campaign=reverion-raises-175-million-to-scale-production-of-carbon-negative-capable-power-plants"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-07",
+          "summary": "Google Backs Proxima\u2019s Record $468 Million Raise in Race to First Fusion Power Plant",
+          "url": "https://www.esgtoday.com/google-backs-proximas-record-468-million-raise-in-race-to-first-fusion-power-plant/?utm_source=rss&utm_medium=rss&utm_campaign=google-backs-proximas-record-468-million-raise-in-race-to-first-fusion-power-plant"
+        }
+      ]
+    },
+    {
       "fund": "BlueOrchard Climate Fund",
       "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -16852,6 +17083,20 @@
         "recent30": 0
       },
       {
+        "fund": "Forestay",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Quadrille Capital",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "Creaegis",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -17123,6 +17368,13 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 0
+      },
+      {
+        "fund": "Allianz",
+        "thesis": "Revealed focus: Coexistence / Empowerment and AI / ML Infra. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 1
       },
       {
         "fund": "Carta",
@@ -18347,6 +18599,13 @@
         "recent30": 4
       },
       {
+        "fund": "Energy Impact Partners",
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 7 attributed deal(s), 1 in the last 30d.",
+        "coverage": 7,
+        "sector_count": 2,
+        "recent30": 1
+      },
+      {
         "fund": "S32",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 6 attributed deal(s), 3 in the last 30d.",
         "coverage": 6,
@@ -18359,13 +18618,6 @@
         "coverage": 6,
         "sector_count": 2,
         "recent30": 2
-      },
-      {
-        "fund": "Energy Impact Partners",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 6 attributed deal(s).",
-        "coverage": 6,
-        "sector_count": 2,
-        "recent30": 0
       },
       {
         "fund": "Eclipse",
@@ -19052,6 +19304,20 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 0
+      },
+      {
+        "fund": "Forestay",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
+        "fund": "Quadrille Capital",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
       },
       {
         "fund": "Smith Point Capital",
@@ -19750,10 +20016,10 @@
       },
       {
         "fund": "Energy Impact Partners",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 6 attributed deal(s).",
-        "coverage": 6,
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 7 attributed deal(s), 1 in the last 30d.",
+        "coverage": 7,
         "sector_count": 1,
-        "recent30": 0
+        "recent30": 1
       },
       {
         "fund": "Eclipse",
@@ -21136,6 +21402,13 @@
         "recent30": 4
       },
       {
+        "fund": "Energy Impact Partners",
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 7 attributed deal(s), 1 in the last 30d.",
+        "coverage": 7,
+        "sector_count": 4,
+        "recent30": 1
+      },
+      {
         "fund": "Brookfield",
         "thesis": "Revealed focus: Coexistence / Empowerment. 4 attributed deal(s), 4 in the last 30d.",
         "coverage": 4,
@@ -21148,13 +21421,6 @@
         "coverage": 11,
         "sector_count": 3,
         "recent30": 5
-      },
-      {
-        "fund": "Energy Impact Partners",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 6 attributed deal(s).",
-        "coverage": 6,
-        "sector_count": 3,
-        "recent30": 0
       },
       {
         "fund": "Nuveen",
@@ -21265,6 +21531,34 @@
         "fund": "Trust Ventures",
         "thesis": "Revealed focus: Coexistence / Empowerment and Fintech / Payments. 3 attributed deal(s), 1 in the last 30d.",
         "coverage": 3,
+        "sector_count": 2,
+        "recent30": 1
+      },
+      {
+        "fund": "UVC Partners",
+        "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 1
+      },
+      {
+        "fund": "European Innovation Council Fund",
+        "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 1
+      },
+      {
+        "fund": "alfa8",
+        "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 1
+      },
+      {
+        "fund": "KfW Capital",
+        "thesis": "Revealed focus: Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
         "sector_count": 2,
         "recent30": 1
       },
@@ -21621,6 +21915,13 @@
       {
         "fund": "Future Ventures",
         "thesis": "Revealed focus: AI / ML Infra and Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
+        "fund": "Allianz",
+        "thesis": "Revealed focus: Coexistence / Empowerment and AI / ML Infra. 2 attributed deal(s), 1 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,
         "recent30": 1

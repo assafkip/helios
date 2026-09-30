@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-30T19:47:51Z",
+  "generated": "2026-09-30T23:25:27Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 1293,
-    "deal_rows_attributed": 620,
-    "funds_tracked": 363,
-    "fetch_attempts": 138,
-    "fetchable_pct": 0,
+    "deal_rows_seen": 1298,
+    "deal_rows_attributed": 623,
+    "funds_tracked": 364,
+    "fetch_attempts": 142,
+    "fetchable_pct": 2,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -10385,6 +10385,36 @@
       ]
     },
     {
+      "fund": "Preface Ventures",
+      "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 2.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-30",
+          "summary": "Is Neko Health\u2019s body scan worth it?\u00a0Spotify billionaire\u2019s\u00a0startup\u00a0has\u00a0come to America",
+          "url": "https://techcrunch.com/video/is-neko-healths-body-scan-worth-it-spotify-billionaires-startup-has-come-to-america/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-30",
+          "summary": "A Neko Health investor on the $700M bet to scan your whole body",
+          "url": "https://techcrunch.com/podcast/the-investor-behind-neko-healths-700m-bet-on-scanning-your-whole-body/"
+        }
+      ]
+    },
+    {
       "fund": "B Capital",
       "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -19167,6 +19197,13 @@
         "coverage": 3,
         "sector_count": 2,
         "recent30": 0
+      },
+      {
+        "fund": "Preface Ventures",
+        "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 2
       },
       {
         "fund": "Foundation Capital",

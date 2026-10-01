@@ -1,12 +1,12 @@
 {
-  "generated": "2026-10-01T10:42:18Z",
+  "generated": "2026-10-01T17:15:34Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 1303,
-    "deal_rows_attributed": 624,
-    "funds_tracked": 364,
-    "fetch_attempts": 143,
-    "fetchable_pct": 1,
+    "deal_rows_seen": 1320,
+    "deal_rows_attributed": 637,
+    "funds_tracked": 376,
+    "fetch_attempts": 156,
+    "fetchable_pct": 8,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -223,13 +223,13 @@
     },
     {
       "fund": "Andreessen Horowitz",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 24 attributed deal(s), 8 in the last 30d.",
-      "coverage": 24,
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 26 attributed deal(s), 10 in the last 30d.",
+      "coverage": 26,
       "sectors": [
         {
           "label": "Cybersecurity",
-          "count": 10,
-          "weight": 7.0
+          "count": 12,
+          "weight": 9.0
         },
         {
           "label": "Fintech / Payments",
@@ -257,11 +257,23 @@
           "weight": 0.5
         }
       ],
-      "recent30": 8,
-      "recent90": 24,
+      "recent30": 10,
+      "recent90": 26,
       "prior30": 8,
-      "last_deal_days": 9,
+      "last_deal_days": 0,
       "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-01",
+          "summary": "Kevin Mandia\u2019s Armadin Raises $255 Million at $2.5 Billion Valuation",
+          "url": "https://www.securityweek.com/kevin-mandias-armadin-raises-255-million-at-2-5-billion-valuation/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-01",
+          "summary": "Armadin raises $255.5 million to expand AI offensive security platform",
+          "url": "https://www.helpnetsecurity.com/2026/10/01/armadin-raises-255-5-million-funding/"
+        },
         {
           "sector": "Fintech / Payments",
           "date": "2026-09-22",
@@ -579,13 +591,13 @@
     },
     {
       "fund": "Google",
-      "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 20 attributed deal(s), 10 in the last 30d.",
-      "coverage": 20,
+      "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 21 attributed deal(s), 11 in the last 30d.",
+      "coverage": 21,
       "sectors": [
         {
           "label": "Coexistence / Empowerment",
-          "count": 8,
-          "weight": 7.5
+          "count": 9,
+          "weight": 8.5
         },
         {
           "label": "Cybersecurity",
@@ -608,11 +620,17 @@
           "weight": 0.5
         }
       ],
-      "recent30": 10,
-      "recent90": 20,
+      "recent30": 11,
+      "recent90": 21,
       "prior30": 4,
-      "last_deal_days": 10,
+      "last_deal_days": 0,
       "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-10-01",
+          "summary": "Google Invests $1.2 Million in Chile Water Resilience Project",
+          "url": "https://esgnews.com/google-invests-1-2-million-in-chile-water-resilience-project/?utm_source=rss&utm_medium=rss&utm_campaign=google-invests-1-2-million-in-chile-water-resilience-project"
+        },
         {
           "sector": "Coexistence / Empowerment",
           "date": "2026-09-21",
@@ -732,6 +750,157 @@
           "date": "2026-07-07",
           "summary": "Google Backs Proxima\u2019s Record $468 Million Raise in Race to First Fusion Power Plant",
           "url": "https://www.esgtoday.com/google-backs-proximas-record-468-million-raise-in-race-to-first-fusion-power-plant/?utm_source=rss&utm_medium=rss&utm_campaign=google-backs-proximas-record-468-million-raise-in-race-to-first-fusion-power-plant"
+        }
+      ]
+    },
+    {
+      "fund": "General Catalyst",
+      "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 18 attributed deal(s), 7 in the last 30d.",
+      "coverage": 18,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 7,
+          "weight": 5.0
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 4,
+          "weight": 2.5
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 2,
+          "weight": 1.5
+        },
+        {
+          "label": "Space Tech",
+          "count": 2,
+          "weight": 1.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 7,
+      "recent90": 18,
+      "prior30": 6,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-01",
+          "summary": "Introducing Parallax: The AI Energy Company",
+          "url": "https://greylock.com/blog/introducing-parallax-the-ai-energy-company/"
+        },
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-09-28",
+          "summary": "Heidi Closes Series C and Sets Sights on Clinical Work",
+          "url": "https://digitalhealthwire.com/heidi-closes-series-c-and-sets-sights-on-clinical-work/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-22",
+          "summary": "Heidi Lands $340 Million to Push Healthcare AI Beyond Notetaking to Action",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/heidi-lands-340-million-dollars-push-healthcare-ai-beyond-notetaking-action/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-15",
+          "summary": "Sector Snapshot: AI Takes A Growing Share Of Sales And Marketing Startup Funding",
+          "url": "https://news.crunchbase.com/sales-marketing/ai-growing-share-ecommerce-saas-crm-startup-funding/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-11",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-08",
+          "summary": "Cognition Secures $48 Billion Valuation as Demand for AI Coding Surges",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/cognition-secures-48-billion-valuation-as-demand-for-ai-coding-surges/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-08",
+          "summary": "Mistral AI raises 3 billion euros in Europe's largest-ever tech funding round despite lagging behind rivals",
+          "url": "https://the-decoder.com/mistral-ai-raises-3-billion-euros-in-europes-largest-ever-tech-funding-round-despite-lagging-behind-rivals/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-26",
+          "summary": "Arga Labs is building a better way to train enterprise AI agents",
+          "url": "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-26",
+          "summary": "Data Center Power Solutions Startup Emerald AI Raises $150 Million at Unicorn Valuation",
+          "url": "https://www.esgtoday.com/data-center-power-solutions-startup-emerald-ai-raises-150-million-at-unicorn-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=data-center-power-solutions-startup-emerald-ai-raises-150-million-at-unicorn-valuation"
+        },
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-08-23",
+          "summary": "Cityblock to Acquire Homeward Health, Secures $116M Series E",
+          "url": "https://medcitynews.com/2026/08/cityblock-to-acquire-homeward-health-secures-116m-series-e/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-08-19",
+          "summary": "Hypersonic missile startup Castelion raises $1 billion",
+          "url": "https://spacenews.com/hypersonic-missile-startup-castelion-raises-1-billion/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-14",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Data, Neolab, AI Infrastructure, Defense And AI Coding Lead",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy/"
+        },
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-08-02",
+          "summary": "4 Notable Health Tech Funding Announcements in July",
+          "url": "https://medcitynews.com/2026/08/4-notable-health-tech-funding-announcements-in-july/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-31",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Safe Superintelligence And Commonwealth Fusion Lead With Billion-Dollar Deals",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-safe-superintelligence-commonwealth-fusion/"
+        },
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-07-31",
+          "summary": "Why General Catalyst Is Betting $450M on Function Health\u2019s Preventive Care Push",
+          "url": "https://medcitynews.com/2026/07/general-catalyst-function-health-funding/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-15",
+          "summary": "A SpaceX vet raised $65M to pull wire harnesses out of the Cold War era",
+          "url": "https://techcrunch.com/2026/07/15/a-spacex-vet-raised-65m-to-pull-wire-harnesses-out-of-the-cold-war-era/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-10",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-04",
+          "summary": "What is Mistral AI? Everything to know about the OpenAI competitor",
+          "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
         }
       ]
     },
@@ -1027,151 +1196,6 @@
       ]
     },
     {
-      "fund": "General Catalyst",
-      "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 17 attributed deal(s), 6 in the last 30d.",
-      "coverage": 17,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 6,
-          "weight": 4.0
-        },
-        {
-          "label": "Healthtech / Bio",
-          "count": 4,
-          "weight": 2.5
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 2,
-          "weight": 2.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 2,
-          "weight": 1.5
-        },
-        {
-          "label": "Space Tech",
-          "count": 2,
-          "weight": 1.0
-        },
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 6,
-      "recent90": 17,
-      "prior30": 6,
-      "last_deal_days": 3,
-      "deals": [
-        {
-          "sector": "Healthtech / Bio",
-          "date": "2026-09-28",
-          "summary": "Heidi Closes Series C and Sets Sights on Clinical Work",
-          "url": "https://digitalhealthwire.com/heidi-closes-series-c-and-sets-sights-on-clinical-work/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-09-22",
-          "summary": "Heidi Lands $340 Million to Push Healthcare AI Beyond Notetaking to Action",
-          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/heidi-lands-340-million-dollars-push-healthcare-ai-beyond-notetaking-action/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-15",
-          "summary": "Sector Snapshot: AI Takes A Growing Share Of Sales And Marketing Startup Funding",
-          "url": "https://news.crunchbase.com/sales-marketing/ai-growing-share-ecommerce-saas-crm-startup-funding/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-11",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-09-08",
-          "summary": "Cognition Secures $48 Billion Valuation as Demand for AI Coding Surges",
-          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/cognition-secures-48-billion-valuation-as-demand-for-ai-coding-surges/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-08",
-          "summary": "Mistral AI raises 3 billion euros in Europe's largest-ever tech funding round despite lagging behind rivals",
-          "url": "https://the-decoder.com/mistral-ai-raises-3-billion-euros-in-europes-largest-ever-tech-funding-round-despite-lagging-behind-rivals/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-08-26",
-          "summary": "Arga Labs is building a better way to train enterprise AI agents",
-          "url": "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-08-26",
-          "summary": "Data Center Power Solutions Startup Emerald AI Raises $150 Million at Unicorn Valuation",
-          "url": "https://www.esgtoday.com/data-center-power-solutions-startup-emerald-ai-raises-150-million-at-unicorn-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=data-center-power-solutions-startup-emerald-ai-raises-150-million-at-unicorn-valuation"
-        },
-        {
-          "sector": "Healthtech / Bio",
-          "date": "2026-08-23",
-          "summary": "Cityblock to Acquire Homeward Health, Secures $116M Series E",
-          "url": "https://medcitynews.com/2026/08/cityblock-to-acquire-homeward-health-secures-116m-series-e/"
-        },
-        {
-          "sector": "Space Tech",
-          "date": "2026-08-19",
-          "summary": "Hypersonic missile startup Castelion raises $1 billion",
-          "url": "https://spacenews.com/hypersonic-missile-startup-castelion-raises-1-billion/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-14",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Data, Neolab, AI Infrastructure, Defense And AI Coding Lead",
-          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy/"
-        },
-        {
-          "sector": "Healthtech / Bio",
-          "date": "2026-08-02",
-          "summary": "4 Notable Health Tech Funding Announcements in July",
-          "url": "https://medcitynews.com/2026/08/4-notable-health-tech-funding-announcements-in-july/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-31",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Safe Superintelligence And Commonwealth Fusion Lead With Billion-Dollar Deals",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-safe-superintelligence-commonwealth-fusion/"
-        },
-        {
-          "sector": "Healthtech / Bio",
-          "date": "2026-07-31",
-          "summary": "Why General Catalyst Is Betting $450M on Function Health\u2019s Preventive Care Push",
-          "url": "https://medcitynews.com/2026/07/general-catalyst-function-health-funding/"
-        },
-        {
-          "sector": "Space Tech",
-          "date": "2026-07-15",
-          "summary": "A SpaceX vet raised $65M to pull wire harnesses out of the Cold War era",
-          "url": "https://techcrunch.com/2026/07/15/a-spacex-vet-raised-65m-to-pull-wire-harnesses-out-of-the-cold-war-era/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-10",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
-          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-04",
-          "summary": "What is Mistral AI? Everything to know about the OpenAI competitor",
-          "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
-        }
-      ]
-    },
-    {
       "fund": "Sequoia",
       "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 16 attributed deal(s), 8 in the last 30d.",
       "coverage": 16,
@@ -1435,6 +1459,134 @@
       ]
     },
     {
+      "fund": "Accel",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 15 attributed deal(s), 8 in the last 30d.",
+      "coverage": 15,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 5,
+          "weight": 4.5
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 4,
+          "weight": 3.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 3,
+          "weight": 2.5
+        },
+        {
+          "label": "Space Tech",
+          "count": 2,
+          "weight": 1.0
+        },
+        {
+          "label": "Marketing / Ads",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 8,
+      "recent90": 15,
+      "prior30": 5,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-01",
+          "summary": "Kevin Mandia\u2019s Armadin Raises $255 Million at $2.5 Billion Valuation",
+          "url": "https://www.securityweek.com/kevin-mandias-armadin-raises-255-million-at-2-5-billion-valuation/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-24",
+          "summary": "Ando wants to take on Slack with a team messaging app that lets humans and agents work together",
+          "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-24",
+          "summary": "Ando wants to take on Slack with a team messaging app that lets humans and agents work together",
+          "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-23",
+          "summary": "Ema raises $77M as AI starts eating into enterprise software and services",
+          "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-23",
+          "summary": "Ema raises $77M as AI starts eating into enterprise software and services",
+          "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-11",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-08",
+          "summary": "Cognition Secures $48 Billion Valuation as Demand for AI Coding Surges",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/cognition-secures-48-billion-valuation-as-demand-for-ai-coding-surges/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-03",
+          "summary": "Thinking Machines Lab Seeks $1 Billion at $40 Billion Valuation",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/thinking-machines-lab-seeks-40-billion-dollar-valuation/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-28",
+          "summary": "50% of the Work Created in Linear Is Now Created by Agents. A Year Ago It Was 3%.",
+          "url": "https://www.saastr.com/50-of-the-work-created-in-linear-is-now-created-by-agents-a-year-ago-it-was-3/"
+        },
+        {
+          "sector": "Marketing / Ads",
+          "date": "2026-08-28",
+          "summary": "50% of the Work Created in Linear Is Now Created by Agents. A Year Ago It Was 3%.",
+          "url": "https://www.saastr.com/50-of-the-work-created-in-linear-is-now-created-by-agents-a-year-ago-it-was-3/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-25",
+          "summary": "Accel-backed Keenable is indexing the web for AI agents",
+          "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-25",
+          "summary": "Accel-backed Keenable is indexing the web for AI agents",
+          "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-12",
+          "summary": "Accel raises $800m for ninth early-stage Europe fund",
+          "url": "https://sifted.eu/articles/accel-fundraise-800m-ninth-early-stage-europe-fund/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-18",
+          "summary": "Space Force triples launch contract ceiling amid rising demand",
+          "url": "https://spacenews.com/space-force-triples-launch-contract-ceiling-amid-rising-demand/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-13",
+          "summary": "Accel and Prosus backed QOSMIC raises $3.33 Million to Build Optical Ground Stations for the Orbital Data Economy",
+          "url": "https://spacenews.com/accel-and-prosus-backed-qosmic-raises-3-33-million-to-build-optical-ground-stations-for-the-orbital-data-economy/"
+        }
+      ]
+    },
+    {
       "fund": "Radical Ventures",
       "thesis": "Revealed focus: AI / ML Infra and Space Tech. 15 attributed deal(s), 7 in the last 30d.",
       "coverage": 15,
@@ -1563,124 +1715,119 @@
       ]
     },
     {
-      "fund": "Accel",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 14 attributed deal(s), 7 in the last 30d.",
+      "fund": "Menlo Ventures",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 14 attributed deal(s), 4 in the last 30d.",
       "coverage": 14,
       "sectors": [
         {
           "label": "Cybersecurity",
-          "count": 4,
-          "weight": 3.5
+          "count": 6,
+          "weight": 4.0
         },
         {
           "label": "AI / ML Infra",
-          "count": 4,
-          "weight": 3.0
+          "count": 6,
+          "weight": 4.0
         },
         {
           "label": "Fintech / Payments",
-          "count": 3,
-          "weight": 2.5
+          "count": 1,
+          "weight": 0.5
         },
         {
-          "label": "Space Tech",
-          "count": 2,
-          "weight": 1.0
-        },
-        {
-          "label": "Marketing / Ads",
+          "label": "Healthtech / Bio",
           "count": 1,
           "weight": 0.5
         }
       ],
-      "recent30": 7,
+      "recent30": 4,
       "recent90": 14,
-      "prior30": 5,
-      "last_deal_days": 7,
+      "prior30": 7,
+      "last_deal_days": 0,
       "deals": [
         {
           "sector": "Cybersecurity",
-          "date": "2026-09-24",
-          "summary": "Ando wants to take on Slack with a team messaging app that lets humans and agents work together",
-          "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/"
+          "date": "2026-10-01",
+          "summary": "Kevin Mandia\u2019s Armadin Raises $255 Million at $2.5 Billion Valuation",
+          "url": "https://www.securityweek.com/kevin-mandias-armadin-raises-255-million-at-2-5-billion-valuation/"
         },
         {
           "sector": "AI / ML Infra",
-          "date": "2026-09-24",
-          "summary": "Ando wants to take on Slack with a team messaging app that lets humans and agents work together",
-          "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-23",
-          "summary": "Ema raises $77M as AI starts eating into enterprise software and services",
-          "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-23",
-          "summary": "Ema raises $77M as AI starts eating into enterprise software and services",
-          "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/"
-        },
-        {
-          "sector": "Cybersecurity",
           "date": "2026-09-11",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-09-08",
-          "summary": "Cognition Secures $48 Billion Valuation as Demand for AI Coding Surges",
-          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/cognition-secures-48-billion-valuation-as-demand-for-ai-coding-surges/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-09-03",
-          "summary": "Thinking Machines Lab Seeks $1 Billion at $40 Billion Valuation",
-          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/thinking-machines-lab-seeks-40-billion-dollar-valuation/"
+          "summary": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+          "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/"
         },
         {
           "sector": "AI / ML Infra",
-          "date": "2026-08-28",
-          "summary": "50% of the Work Created in Linear Is Now Created by Agents. A Year Ago It Was 3%.",
-          "url": "https://www.saastr.com/50-of-the-work-created-in-linear-is-now-created-by-agents-a-year-ago-it-was-3/"
-        },
-        {
-          "sector": "Marketing / Ads",
-          "date": "2026-08-28",
-          "summary": "50% of the Work Created in Linear Is Now Created by Agents. A Year Ago It Was 3%.",
-          "url": "https://www.saastr.com/50-of-the-work-created-in-linear-is-now-created-by-agents-a-year-ago-it-was-3/"
+          "date": "2026-09-10",
+          "summary": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
+          "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/"
         },
         {
           "sector": "Cybersecurity",
-          "date": "2026-08-25",
-          "summary": "Accel-backed Keenable is indexing the web for AI agents",
-          "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/"
+          "date": "2026-09-04",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Crusoe And Fluidstack Lead Multibillion-Dollar AI Infrastructure Haul",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-crusoe-fluidstack-multibillion-dollar-ai-infrastructure/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-21",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech, AI Tools And Infrastructure Lead The Way",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-defense-tech-ai-infrastructure-castelion/"
         },
         {
           "sector": "AI / ML Infra",
-          "date": "2026-08-25",
-          "summary": "Accel-backed Keenable is indexing the web for AI agents",
-          "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/"
+          "date": "2026-08-17",
+          "summary": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
+          "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-14",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Data, Neolab, AI Infrastructure, Defense And AI Coding Lead",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-12",
+          "summary": "Lovable confirms new $13.3B valuation, raises another $400M",
+          "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-12",
+          "summary": "Built to Run: Doubling Down for Lovable\u2019s $400M Series C",
+          "url": "https://menlovc.com/perspective/built-to-run-doubling-down-for-lovables-400m-series-c/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-12",
+          "summary": "Lovable confirms new $13.3B valuation, raises another $400M",
+          "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/"
+        },
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-08-02",
+          "summary": "4 Notable Health Tech Funding Announcements in July",
+          "url": "https://medcitynews.com/2026/08/4-notable-health-tech-funding-announcements-in-july/"
         },
         {
           "sector": "Fintech / Payments",
-          "date": "2026-08-12",
-          "summary": "Accel raises $800m for ninth early-stage Europe fund",
-          "url": "https://sifted.eu/articles/accel-fundraise-800m-ninth-early-stage-europe-fund/"
+          "date": "2026-07-26",
+          "summary": "Ant\u2019s $1.2 Billion A Round Tops This Weeks Fundings and Acquisitions",
+          "url": "https://www.crowdfundinsider.com/2026/07/293681-ants-1-2b-a-round-tops-this-weeks-fundings-and-acquisitions/"
         },
         {
-          "sector": "Space Tech",
-          "date": "2026-07-18",
-          "summary": "Space Force triples launch contract ceiling amid rising demand",
-          "url": "https://spacenews.com/space-force-triples-launch-contract-ceiling-amid-rising-demand/"
+          "sector": "Cybersecurity",
+          "date": "2026-07-16",
+          "summary": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+          "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/"
         },
         {
-          "sector": "Space Tech",
-          "date": "2026-07-13",
-          "summary": "Accel and Prosus backed QOSMIC raises $3.33 Million to Build Optical Ground Stations for the Orbital Data Economy",
-          "url": "https://spacenews.com/accel-and-prosus-backed-qosmic-raises-3-33-million-to-build-optical-ground-stations-for-the-orbital-data-economy/"
+          "sector": "AI / ML Infra",
+          "date": "2026-07-16",
+          "summary": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+          "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/"
         }
       ]
     },
@@ -1918,24 +2065,29 @@
       ]
     },
     {
-      "fund": "Menlo Ventures",
-      "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 13 attributed deal(s), 3 in the last 30d.",
-      "coverage": 13,
+      "fund": "Founders Fund",
+      "thesis": "Revealed focus: Cybersecurity and Space Tech. 12 attributed deal(s), 7 in the last 30d.",
+      "coverage": 12,
       "sectors": [
         {
-          "label": "AI / ML Infra",
-          "count": 6,
-          "weight": 4.0
+          "label": "Cybersecurity",
+          "count": 7,
+          "weight": 5.5
         },
         {
-          "label": "Cybersecurity",
-          "count": 5,
-          "weight": 3.0
+          "label": "Space Tech",
+          "count": 2,
+          "weight": 1.5
         },
         {
           "label": "Fintech / Payments",
           "count": 1,
-          "weight": 0.5
+          "weight": 1.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
         },
         {
           "label": "Healthtech / Bio",
@@ -1943,64 +2095,162 @@
           "weight": 0.5
         }
       ],
-      "recent30": 3,
-      "recent90": 13,
-      "prior30": 7,
-      "last_deal_days": 20,
+      "recent30": 7,
+      "recent90": 12,
+      "prior30": 1,
+      "last_deal_days": 0,
       "deals": [
         {
+          "sector": "Cybersecurity",
+          "date": "2026-10-01",
+          "summary": "Introducing Parallax: The AI Energy Company",
+          "url": "https://greylock.com/blog/introducing-parallax-the-ai-energy-company/"
+        },
+        {
           "sector": "AI / ML Infra",
+          "date": "2026-09-17",
+          "summary": "Crusoe raises $3.9B to build massive data centers and small modular \u201cAI factories\u201d",
+          "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-17",
+          "summary": "EnduroSat Raises $205M, Notches Vantor Sat Win",
+          "url": "https://payloadspace.com/endurosat-raises-205m-notches-vantor-sat-win/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-16",
+          "summary": "How\u00a0Fortell\u00a0is using AI (and $163M) to crack a hearing aid monopoly",
+          "url": "https://techcrunch.com/video/how-fortell-is-using-ai-and-163m-to-crack-a-hearing-aid-monopoly/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-16",
+          "summary": "Why Thrive, Founders Fund, and Antonio Gracias are betting on hearing aids",
+          "url": "https://techcrunch.com/podcast/why-thrive-founders-fund-and-antonio-gracias-are-betting-on-hearing-aids/"
+        },
+        {
+          "sector": "Cybersecurity",
           "date": "2026-09-11",
-          "summary": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
-          "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/"
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
         },
         {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-10",
-          "summary": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
-          "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/"
+          "sector": "Fintech / Payments",
+          "date": "2026-09-08",
+          "summary": "Cognition Secures $48 Billion Valuation as Demand for AI Coding Surges",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/cognition-secures-48-billion-valuation-as-demand-for-ai-coding-surges/"
         },
         {
-          "sector": "Cybersecurity",
-          "date": "2026-09-04",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Crusoe And Fluidstack Lead Multibillion-Dollar AI Infrastructure Haul",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-crusoe-fluidstack-multibillion-dollar-ai-infrastructure/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-21",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech, AI Tools And Infrastructure Lead The Way",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-defense-tech-ai-infrastructure-castelion/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-08-17",
-          "summary": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
-          "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/"
+          "sector": "Healthtech / Bio",
+          "date": "2026-08-31",
+          "summary": "4 Notable Health Tech Funding Announcements in August",
+          "url": "https://medcitynews.com/2026/08/4-notable-health-tech-funding-announcements-in-august/"
         },
         {
           "sector": "Cybersecurity",
-          "date": "2026-08-14",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Data, Neolab, AI Infrastructure, Defense And AI Coding Lead",
-          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy/"
+          "date": "2026-07-20",
+          "summary": "Mexico Extends Its Venture Lead Over Brazil As More Global VCs Enter Latin America",
+          "url": "https://news.crunchbase.com/venture/mexico-leads-latin-america-funding-q2-2026/"
         },
         {
           "sector": "Cybersecurity",
-          "date": "2026-08-12",
-          "summary": "Lovable confirms new $13.3B valuation, raises another $400M",
-          "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/"
+          "date": "2026-07-17",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: No Summer Doldrums As Dollars Still Flow To AI",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-15",
+          "summary": "A SpaceX vet raised $65M to pull wire harnesses out of the Cold War era",
+          "url": "https://techcrunch.com/2026/07/15/a-spacex-vet-raised-65m-to-pull-wire-harnesses-out-of-the-cold-war-era/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-07",
+          "summary": "Bitmine Immersion Technologies (BMNR) kondigt aan dat het bezit aan ETH 5,74 miljoen tokens heeft bereikt en dat het totale bezit aan cryptovaluta en geldmiddelen 11,1 miljard dollar bedraagt",
+          "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-kondigt-aan-dat-het-bezit-aan-eth-5-74-miljoen-tokens-heeft-bereikt-en-dat-het-totale-bezit-aan-cryptovaluta-en-geldmiddelen-11-1-miljard-dollar-bedraagt-302819108.html"
+        }
+      ]
+    },
+    {
+      "fund": "Kleiner Perkins",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 12 attributed deal(s), 5 in the last 30d.",
+      "coverage": 12,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 6,
+          "weight": 4.5
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 2,
+          "weight": 1.5
+        },
+        {
+          "label": "Space Tech",
+          "count": 2,
+          "weight": 1.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 5,
+      "recent90": 12,
+      "prior30": 3,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-01",
+          "summary": "Kevin Mandia\u2019s Armadin Raises $255 Million at $2.5 Billion Valuation",
+          "url": "https://www.securityweek.com/kevin-mandias-armadin-raises-255-million-at-2-5-billion-valuation/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-22",
+          "summary": "Anthropic Alumni Startup Sees Valuation Jump Fivefold",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-alumni-startup-sees-valuation-jump-fivefold/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-18",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Large Rounds For AI Infrastructure, Space Tech And Investment Management Lead",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-space-fintech-temporal/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-15",
+          "summary": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round",
+          "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/"
         },
         {
           "sector": "AI / ML Infra",
-          "date": "2026-08-12",
-          "summary": "Built to Run: Doubling Down for Lovable\u2019s $400M Series C",
-          "url": "https://menlovc.com/perspective/built-to-run-doubling-down-for-lovables-400m-series-c/"
+          "date": "2026-09-15",
+          "summary": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round",
+          "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/"
         },
         {
-          "sector": "AI / ML Infra",
-          "date": "2026-08-12",
-          "summary": "Lovable confirms new $13.3B valuation, raises another $400M",
-          "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/"
+          "sector": "Fintech / Payments",
+          "date": "2026-08-19",
+          "summary": "AI Startup Etched Takes Just One Month to Double in Valuation",
+          "url": "https://www.crowdfundinsider.com/2026/08/299030-ai-startup-etched-takes-just-one-month-to-double-in-valuation/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-18",
+          "summary": "VCs Pour Billions Into Physical AI As The Next Wave Of AI Investing Takes Shape",
+          "url": "https://news.crunchbase.com/venture/physical-ai-funding-startups-robotics-aerospace-h1-2026/"
         },
         {
           "sector": "Healthtech / Bio",
@@ -2009,22 +2259,28 @@
           "url": "https://medcitynews.com/2026/08/4-notable-health-tech-funding-announcements-in-july/"
         },
         {
-          "sector": "Fintech / Payments",
-          "date": "2026-07-26",
-          "summary": "Ant\u2019s $1.2 Billion A Round Tops This Weeks Fundings and Acquisitions",
-          "url": "https://www.crowdfundinsider.com/2026/07/293681-ants-1-2b-a-round-tops-this-weeks-fundings-and-acquisitions/"
+          "sector": "Space Tech",
+          "date": "2026-07-31",
+          "summary": "K2 Space Raises $500M Series D at $6.8B Valuation",
+          "url": "https://payloadspace.com/k2-space-raises-500m-series-d-at-6-8b-valuation/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-30",
+          "summary": "K2 Space raises $500 million for commercial, defense satellite expansion",
+          "url": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-17",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: No Summer Doldrums As Dollars Still Flow To AI",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
         },
         {
           "sector": "Cybersecurity",
           "date": "2026-07-16",
-          "summary": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
-          "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-07-16",
-          "summary": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
-          "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/"
+          "summary": "The Billion-Dollar Seed Isn\u2019t The Deal You Think It Is",
+          "url": "https://news.crunchbase.com/venture/billion-dollar-seed-ai-biotech-mcdonald-bison/"
         }
       ]
     },
@@ -2239,27 +2495,22 @@
       ]
     },
     {
-      "fund": "Kleiner Perkins",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 11 attributed deal(s), 4 in the last 30d.",
+      "fund": "8VC",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 11 attributed deal(s), 4 in the last 30d.",
       "coverage": 11,
       "sectors": [
         {
           "label": "Cybersecurity",
-          "count": 5,
-          "weight": 3.5
+          "count": 6,
+          "weight": 4.0
         },
         {
-          "label": "Fintech / Payments",
+          "label": "AI / ML Infra",
           "count": 2,
           "weight": 1.5
         },
         {
-          "label": "Space Tech",
-          "count": 2,
-          "weight": 1.0
-        },
-        {
-          "label": "AI / ML Infra",
+          "label": "Fintech / Payments",
           "count": 1,
           "weight": 1.0
         },
@@ -2267,48 +2518,71 @@
           "label": "Healthtech / Bio",
           "count": 1,
           "weight": 0.5
+        },
+        {
+          "label": "Climate / Energy",
+          "count": 1,
+          "weight": 0.5
         }
       ],
       "recent30": 4,
       "recent90": 11,
-      "prior30": 3,
-      "last_deal_days": 9,
+      "prior30": 6,
+      "last_deal_days": 0,
       "deals": [
         {
+          "sector": "Cybersecurity",
+          "date": "2026-10-01",
+          "summary": "Kevin Mandia\u2019s Armadin Raises $255 Million at $2.5 Billion Valuation",
+          "url": "https://www.securityweek.com/kevin-mandias-armadin-raises-255-million-at-2-5-billion-valuation/"
+        },
+        {
           "sector": "Fintech / Payments",
-          "date": "2026-09-22",
-          "summary": "Anthropic Alumni Startup Sees Valuation Jump Fivefold",
-          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-alumni-startup-sees-valuation-jump-fivefold/"
+          "date": "2026-09-14",
+          "summary": "Luminary Raises $22 Million to Expand AI Platform for Wealth Transfer",
+          "url": "https://www.crowdfundinsider.com/2026/09/309965-luminary-raises-22-million-to-expand-ai-platform-for-wealth-transfer/"
         },
         {
           "sector": "Cybersecurity",
-          "date": "2026-09-18",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Large Rounds For AI Infrastructure, Space Tech And Investment Management Lead",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-space-fintech-temporal/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-15",
-          "summary": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round",
-          "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/"
+          "date": "2026-09-04",
+          "summary": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+          "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/"
         },
         {
           "sector": "AI / ML Infra",
-          "date": "2026-09-15",
-          "summary": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round",
-          "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-08-19",
-          "summary": "AI Startup Etched Takes Just One Month to Double in Valuation",
-          "url": "https://www.crowdfundinsider.com/2026/08/299030-ai-startup-etched-takes-just-one-month-to-double-in-valuation/"
+          "date": "2026-09-04",
+          "summary": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+          "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/"
         },
         {
           "sector": "Cybersecurity",
-          "date": "2026-08-18",
-          "summary": "VCs Pour Billions Into Physical AI As The Next Wave Of AI Investing Takes Shape",
-          "url": "https://news.crunchbase.com/venture/physical-ai-funding-startups-robotics-aerospace-h1-2026/"
+          "date": "2026-08-28",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: AI Tools And Assistants Lead Sparser Lineup Of Megadeals",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-tools-assistants-instinct/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-24",
+          "summary": "AI-Driven Portfolio Management Platform Standard Metrics Raises $20M to Supercharge Private Markets Innovation",
+          "url": "https://www.prnewswire.com/news-releases/ai-driven-portfolio-management-platform-standard-metrics-raises-20m-to-supercharge-private-markets-innovation-302856929.html"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-19",
+          "summary": "/C O R R E C T I O N -- Hopscotch Primary Care/",
+          "url": "https://www.prnewswire.com/news-releases/tech-enabled-rural-health-care-leader-hopscotch-primary-care-announces-53-million-in-latest-funding-round-302854228.html"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-17",
+          "summary": "Terra Industries closes $52M seed round to build defense infrastructure for the Global South",
+          "url": "https://techcrunch.com/2026/08/17/terra-industries-closes-52m-seed-round-to-build-defense-infrastructure-for-the-global-south/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-17",
+          "summary": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
+          "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/"
         },
         {
           "sector": "Healthtech / Bio",
@@ -2317,132 +2591,10 @@
           "url": "https://medcitynews.com/2026/08/4-notable-health-tech-funding-announcements-in-july/"
         },
         {
-          "sector": "Space Tech",
-          "date": "2026-07-31",
-          "summary": "K2 Space Raises $500M Series D at $6.8B Valuation",
-          "url": "https://payloadspace.com/k2-space-raises-500m-series-d-at-6-8b-valuation/"
-        },
-        {
-          "sector": "Space Tech",
-          "date": "2026-07-30",
-          "summary": "K2 Space raises $500 million for commercial, defense satellite expansion",
-          "url": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-17",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: No Summer Doldrums As Dollars Still Flow To AI",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-16",
-          "summary": "The Billion-Dollar Seed Isn\u2019t The Deal You Think It Is",
-          "url": "https://news.crunchbase.com/venture/billion-dollar-seed-ai-biotech-mcdonald-bison/"
-        }
-      ]
-    },
-    {
-      "fund": "Founders Fund",
-      "thesis": "Revealed focus: Cybersecurity and Space Tech. 11 attributed deal(s), 6 in the last 30d.",
-      "coverage": 11,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 6,
-          "weight": 4.5
-        },
-        {
-          "label": "Space Tech",
-          "count": 2,
-          "weight": 1.5
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Healthtech / Bio",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 6,
-      "recent90": 11,
-      "prior30": 1,
-      "last_deal_days": 14,
-      "deals": [
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-17",
-          "summary": "Crusoe raises $3.9B to build massive data centers and small modular \u201cAI factories\u201d",
-          "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/"
-        },
-        {
-          "sector": "Space Tech",
-          "date": "2026-09-17",
-          "summary": "EnduroSat Raises $205M, Notches Vantor Sat Win",
-          "url": "https://payloadspace.com/endurosat-raises-205m-notches-vantor-sat-win/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-16",
-          "summary": "How\u00a0Fortell\u00a0is using AI (and $163M) to crack a hearing aid monopoly",
-          "url": "https://techcrunch.com/video/how-fortell-is-using-ai-and-163m-to-crack-a-hearing-aid-monopoly/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-16",
-          "summary": "Why Thrive, Founders Fund, and Antonio Gracias are betting on hearing aids",
-          "url": "https://techcrunch.com/podcast/why-thrive-founders-fund-and-antonio-gracias-are-betting-on-hearing-aids/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-11",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-09-08",
-          "summary": "Cognition Secures $48 Billion Valuation as Demand for AI Coding Surges",
-          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/cognition-secures-48-billion-valuation-as-demand-for-ai-coding-surges/"
-        },
-        {
-          "sector": "Healthtech / Bio",
-          "date": "2026-08-31",
-          "summary": "4 Notable Health Tech Funding Announcements in August",
-          "url": "https://medcitynews.com/2026/08/4-notable-health-tech-funding-announcements-in-august/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-20",
-          "summary": "Mexico Extends Its Venture Lead Over Brazil As More Global VCs Enter Latin America",
-          "url": "https://news.crunchbase.com/venture/mexico-leads-latin-america-funding-q2-2026/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-17",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: No Summer Doldrums As Dollars Still Flow To AI",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
-        },
-        {
-          "sector": "Space Tech",
-          "date": "2026-07-15",
-          "summary": "A SpaceX vet raised $65M to pull wire harnesses out of the Cold War era",
-          "url": "https://techcrunch.com/2026/07/15/a-spacex-vet-raised-65m-to-pull-wire-harnesses-out-of-the-cold-war-era/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-07",
-          "summary": "Bitmine Immersion Technologies (BMNR) kondigt aan dat het bezit aan ETH 5,74 miljoen tokens heeft bereikt en dat het totale bezit aan cryptovaluta en geldmiddelen 11,1 miljard dollar bedraagt",
-          "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-kondigt-aan-dat-het-bezit-aan-eth-5-74-miljoen-tokens-heeft-bereikt-en-dat-het-totale-bezit-aan-cryptovaluta-en-geldmiddelen-11-1-miljard-dollar-bedraagt-302819108.html"
+          "sector": "Climate / Energy",
+          "date": "2026-07-21",
+          "summary": "Bucking EV slowdown, Sila raises $300M to expand battery materials factory",
+          "url": "https://techcrunch.com/2026/07/21/bucking-ev-slowdown-sila-raises-300m-to-expand-battery-materials-factory/"
         }
       ]
     },
@@ -2737,104 +2889,6 @@
       ]
     },
     {
-      "fund": "8VC",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 10 attributed deal(s), 3 in the last 30d.",
-      "coverage": 10,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 5,
-          "weight": 3.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 2,
-          "weight": 1.5
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Healthtech / Bio",
-          "count": 1,
-          "weight": 0.5
-        },
-        {
-          "label": "Climate / Energy",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 3,
-      "recent90": 10,
-      "prior30": 6,
-      "last_deal_days": 17,
-      "deals": [
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-09-14",
-          "summary": "Luminary Raises $22 Million to Expand AI Platform for Wealth Transfer",
-          "url": "https://www.crowdfundinsider.com/2026/09/309965-luminary-raises-22-million-to-expand-ai-platform-for-wealth-transfer/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-04",
-          "summary": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
-          "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-04",
-          "summary": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
-          "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-28",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: AI Tools And Assistants Lead Sparser Lineup Of Megadeals",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-tools-assistants-instinct/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-24",
-          "summary": "AI-Driven Portfolio Management Platform Standard Metrics Raises $20M to Supercharge Private Markets Innovation",
-          "url": "https://www.prnewswire.com/news-releases/ai-driven-portfolio-management-platform-standard-metrics-raises-20m-to-supercharge-private-markets-innovation-302856929.html"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-19",
-          "summary": "/C O R R E C T I O N -- Hopscotch Primary Care/",
-          "url": "https://www.prnewswire.com/news-releases/tech-enabled-rural-health-care-leader-hopscotch-primary-care-announces-53-million-in-latest-funding-round-302854228.html"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-17",
-          "summary": "Terra Industries closes $52M seed round to build defense infrastructure for the Global South",
-          "url": "https://techcrunch.com/2026/08/17/terra-industries-closes-52m-seed-round-to-build-defense-infrastructure-for-the-global-south/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-08-17",
-          "summary": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
-          "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/"
-        },
-        {
-          "sector": "Healthtech / Bio",
-          "date": "2026-08-02",
-          "summary": "4 Notable Health Tech Funding Announcements in July",
-          "url": "https://medcitynews.com/2026/08/4-notable-health-tech-funding-announcements-in-july/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-07-21",
-          "summary": "Bucking EV slowdown, Sila raises $300M to expand battery materials factory",
-          "url": "https://techcrunch.com/2026/07/21/bucking-ev-slowdown-sila-raises-300m-to-expand-battery-materials-factory/"
-        }
-      ]
-    },
-    {
       "fund": "Benchmark",
       "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 10 attributed deal(s).",
       "coverage": 10,
@@ -3097,6 +3151,82 @@
           "date": "2026-08-04",
           "summary": "Home Battery Startup Base Power Raises $1 Billion at $13 Billion Valuation",
           "url": "https://www.esgtoday.com/home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-10",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
+        }
+      ]
+    },
+    {
+      "fund": "Bain Capital Ventures",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 8 attributed deal(s), 2 in the last 30d.",
+      "coverage": 8,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 4,
+          "weight": 2.5
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 3,
+          "weight": 2.0
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 2,
+      "recent90": 8,
+      "prior30": 3,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-01",
+          "summary": "Kevin Mandia\u2019s Armadin Raises $255 Million at $2.5 Billion Valuation",
+          "url": "https://www.securityweek.com/kevin-mandias-armadin-raises-255-million-at-2-5-billion-valuation/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-21",
+          "summary": "Corridor Raises $25 Million to Help Small Businesses Find Health Coverage",
+          "url": "https://www.pymnts.com/smbs/2026/corridor-raises-25-million-dollars-help-small-businesses-find-health-coverage/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-19",
+          "summary": "AI Startup Etched Takes Just One Month to Double in Valuation",
+          "url": "https://www.crowdfundinsider.com/2026/08/299030-ai-startup-etched-takes-just-one-month-to-double-in-valuation/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-07",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Big Week For Big Checks",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-billion-dollar-raises-manufacturing-energy-ai/"
+        },
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-08-02",
+          "summary": "4 Notable Health Tech Funding Announcements in July",
+          "url": "https://medcitynews.com/2026/08/4-notable-health-tech-funding-announcements-in-july/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-30",
+          "summary": "Synthetic-user startup Simile raises $200M at $2B valuation 5 months after $100M Series A",
+          "url": "https://techcrunch.com/2026/07/30/synthetic-user-startup-simile-raises-200m-at-2b-valuation-5-months-after-100m-series-a/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-17",
+          "summary": "Feathery, an AI Platform Aiming to Transform Data Management in Finance, Raises $30 Million",
+          "url": "https://www.crowdfundinsider.com/2026/07/292192-feathery-an-ai-platform-aiming-to-transform-data-management-in-finance-raises-30-million/"
         },
         {
           "sector": "Cybersecurity",
@@ -3422,6 +3552,81 @@
           "date": "2026-06-23",
           "summary": "Odyssey raises $310M Series B for world models",
           "url": "https://press.airstreet.com/p/odyssey-series-b"
+        }
+      ]
+    },
+    {
+      "fund": "Eclipse",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 7 attributed deal(s), 1 in the last 30d.",
+      "coverage": 7,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 3,
+          "weight": 2.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 2,
+          "weight": 1.0
+        },
+        {
+          "label": "Climate / Energy",
+          "count": 1,
+          "weight": 0.5
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 7,
+      "prior30": 2,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-01",
+          "summary": "Introducing Parallax: The AI Energy Company",
+          "url": "https://greylock.com/blog/introducing-parallax-the-ai-energy-company/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-21",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech, AI Tools And Infrastructure Lead The Way",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-defense-tech-ai-infrastructure-castelion/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-10",
+          "summary": "UK Artificial Intelligence Funding Rockets Higher",
+          "url": "https://www.crowdfundinsider.com/2026/08/296194-uk-artificial-intelligence-funding-rockets-higher/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-31",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Safe Superintelligence And Commonwealth Fusion Lead With Billion-Dollar Deals",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-safe-superintelligence-commonwealth-fusion/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-31",
+          "summary": "Thermal Battery Provider Antora Raises $550 Million to Power Industry, Data Centers",
+          "url": "https://www.esgtoday.com/thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers/?utm_source=rss&utm_medium=rss&utm_campaign=thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-07-30",
+          "summary": "Antora snags $550M for heat batteries to run data centers and factories",
+          "url": "https://www.canarymedia.com/articles/climatetech-finance/antora-550m-heat-batteries"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-13",
+          "summary": "Auger Raises $50 Million to Build Autonomous Supply Chain Operating System",
+          "url": "https://www.pymnts.com/news/investment-tracker/2026/auger-raises-50-million-to-build-autonomous-supply-chain-operating-system/"
         }
       ]
     },
@@ -3782,76 +3987,6 @@
           "date": "2026-08-10",
           "summary": "UK Artificial Intelligence Funding Rockets Higher",
           "url": "https://www.crowdfundinsider.com/2026/08/296194-uk-artificial-intelligence-funding-rockets-higher/"
-        }
-      ]
-    },
-    {
-      "fund": "Bain Capital Ventures",
-      "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 7 attributed deal(s), 1 in the last 30d.",
-      "coverage": 7,
-      "sectors": [
-        {
-          "label": "Fintech / Payments",
-          "count": 3,
-          "weight": 2.0
-        },
-        {
-          "label": "Cybersecurity",
-          "count": 3,
-          "weight": 1.5
-        },
-        {
-          "label": "Healthtech / Bio",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 1,
-      "recent90": 7,
-      "prior30": 3,
-      "last_deal_days": 10,
-      "deals": [
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-09-21",
-          "summary": "Corridor Raises $25 Million to Help Small Businesses Find Health Coverage",
-          "url": "https://www.pymnts.com/smbs/2026/corridor-raises-25-million-dollars-help-small-businesses-find-health-coverage/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-08-19",
-          "summary": "AI Startup Etched Takes Just One Month to Double in Valuation",
-          "url": "https://www.crowdfundinsider.com/2026/08/299030-ai-startup-etched-takes-just-one-month-to-double-in-valuation/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-07",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Big Week For Big Checks",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-billion-dollar-raises-manufacturing-energy-ai/"
-        },
-        {
-          "sector": "Healthtech / Bio",
-          "date": "2026-08-02",
-          "summary": "4 Notable Health Tech Funding Announcements in July",
-          "url": "https://medcitynews.com/2026/08/4-notable-health-tech-funding-announcements-in-july/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-30",
-          "summary": "Synthetic-user startup Simile raises $200M at $2B valuation 5 months after $100M Series A",
-          "url": "https://techcrunch.com/2026/07/30/synthetic-user-startup-simile-raises-200m-at-2b-valuation-5-months-after-100m-series-a/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-07-17",
-          "summary": "Feathery, an AI Platform Aiming to Transform Data Management in Finance, Raises $30 Million",
-          "url": "https://www.crowdfundinsider.com/2026/07/292192-feathery-an-ai-platform-aiming-to-transform-data-management-in-finance-raises-30-million/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-10",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
-          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
         }
       ]
     },
@@ -4312,75 +4447,6 @@
           "date": "2026-08-05",
           "summary": "Airtable Just Sold for $2.25B at 2.7x ARR. It Raised $1.4B and Was Once Worth $11.7B. This Was \u2026 Market",
           "url": "https://www.saastr.com/airtable-just-sold-for-2-25b-at-2-7x-arr-it-raised-1-4b-and-was-once-worth-11-7b/"
-        }
-      ]
-    },
-    {
-      "fund": "Eclipse",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 6 attributed deal(s).",
-      "coverage": 6,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 2,
-          "weight": 1.0
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 2,
-          "weight": 1.0
-        },
-        {
-          "label": "Climate / Energy",
-          "count": 1,
-          "weight": 0.5
-        },
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 0,
-      "recent90": 6,
-      "prior30": 2,
-      "last_deal_days": 41,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-21",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Defense Tech, AI Tools And Infrastructure Lead The Way",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-defense-tech-ai-infrastructure-castelion/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-08-10",
-          "summary": "UK Artificial Intelligence Funding Rockets Higher",
-          "url": "https://www.crowdfundinsider.com/2026/08/296194-uk-artificial-intelligence-funding-rockets-higher/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-31",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Safe Superintelligence And Commonwealth Fusion Lead With Billion-Dollar Deals",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-safe-superintelligence-commonwealth-fusion/"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-07-31",
-          "summary": "Thermal Battery Provider Antora Raises $550 Million to Power Industry, Data Centers",
-          "url": "https://www.esgtoday.com/thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers/?utm_source=rss&utm_medium=rss&utm_campaign=thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-07-30",
-          "summary": "Antora snags $550M for heat batteries to run data centers and factories",
-          "url": "https://www.canarymedia.com/articles/climatetech-finance/antora-550m-heat-batteries"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-07-13",
-          "summary": "Auger Raises $50 Million to Build Autonomous Supply Chain Operating System",
-          "url": "https://www.pymnts.com/news/investment-tracker/2026/auger-raises-50-million-to-build-autonomous-supply-chain-operating-system/"
         }
       ]
     },
@@ -4927,6 +4993,60 @@
       ]
     },
     {
+      "fund": "EIB",
+      "thesis": "Revealed focus: Coexistence / Empowerment. 6 attributed deal(s), 5 in the last 30d.",
+      "coverage": 6,
+      "sectors": [
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 6,
+          "weight": 5.5
+        }
+      ],
+      "recent30": 5,
+      "recent90": 6,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-10-01",
+          "summary": "EIB Backs Romania\u2019s 1.3 GW Dama Solar With $113 Million Financing",
+          "url": "https://esgnews.com/eib-backs-romanias-1-3-gw-dama-solar-with-113-million-financing/?utm_source=rss&utm_medium=rss&utm_campaign=eib-backs-romanias-1-3-gw-dama-solar-with-113-million-financing"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-17",
+          "summary": "World Bank Backs $2.86B Brazil Industry Decarbonization",
+          "url": "https://esgnews.com/world-bank-backs-2-86b-brazil-industry-decarbonization/?utm_source=rss&utm_medium=rss&utm_campaign=world-bank-backs-2-86b-brazil-industry-decarbonization"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-16",
+          "summary": "EU Parliament Backs Expanded CBAM and Decarbonisation Fund",
+          "url": "https://esgnews.com/eu-parliament-backs-wider-cbam-and-industry-fund/?utm_source=rss&utm_medium=rss&utm_campaign=eu-parliament-backs-wider-cbam-and-industry-fund"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-16",
+          "summary": "BII Backs BlueOrchard Climate Fund\u2019s $250M First Close",
+          "url": "https://esgnews.com/bii-backs-blueorchard-climate-funds-250m-first-close/?utm_source=rss&utm_medium=rss&utm_campaign=bii-backs-blueorchard-climate-funds-250m-first-close"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-15",
+          "summary": "EIB Invests $46 Million in Modular Nuclear",
+          "url": "https://esgnews.com/eib-invests-46-million-in-modular-nuclear/?utm_source=rss&utm_medium=rss&utm_campaign=eib-invests-46-million-in-modular-nuclear"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-21",
+          "summary": "EIB Backs TenneT Germany\u2019s $4.1B Green Bond",
+          "url": "https://esgnews.com/eib-backs-tennet-germanys-4-1b-green-bond/?utm_source=rss&utm_medium=rss&utm_campaign=eib-backs-tennet-germanys-4-1b-green-bond"
+        }
+      ]
+    },
+    {
       "fund": "MassMutual Ventures",
       "thesis": "Revealed focus: Coexistence / Empowerment. 6 attributed deal(s), 5 in the last 30d.",
       "coverage": 6,
@@ -5031,6 +5151,123 @@
           "date": "2026-09-16",
           "summary": "BII Backs BlueOrchard Climate Fund\u2019s $250M First Close",
           "url": "https://esgnews.com/bii-backs-blueorchard-climate-funds-250m-first-close/?utm_source=rss&utm_medium=rss&utm_campaign=bii-backs-blueorchard-climate-funds-250m-first-close"
+        }
+      ]
+    },
+    {
+      "fund": "GV",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 6 attributed deal(s), 3 in the last 30d.",
+      "coverage": 6,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 3,
+          "weight": 2.5
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 2,
+          "weight": 1.25
+        },
+        {
+          "label": "Climate / Energy",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 3,
+      "recent90": 5,
+      "prior30": 2,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-01",
+          "summary": "Kevin Mandia\u2019s Armadin Raises $255 Million at $2.5 Billion Valuation",
+          "url": "https://www.securityweek.com/kevin-mandias-armadin-raises-255-million-at-2-5-billion-valuation/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-22",
+          "summary": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+          "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-22",
+          "summary": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+          "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-15",
+          "summary": "Every fusion startup that has raised over $100M",
+          "url": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-15",
+          "summary": "Every fusion startup that has raised over $100M",
+          "url": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-06-23",
+          "summary": "Odyssey raises $310M Series B for world models",
+          "url": "https://press.airstreet.com/p/odyssey-series-b"
+        }
+      ]
+    },
+    {
+      "fund": "Greylock",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
+      "coverage": 5,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 4,
+          "weight": 4.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 5,
+      "recent90": 5,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-01",
+          "summary": "Introducing Parallax: The AI Energy Company",
+          "url": "https://greylock.com/blog/introducing-parallax-the-ai-energy-company/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-22",
+          "summary": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+          "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-22",
+          "summary": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+          "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-08",
+          "summary": "Introducing Antioch: The Simulation Platform for Physical AI",
+          "url": "https://greylock.com/blog/introducing-antioch-the-simulation-platform-for-physical-ai/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-04",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Crusoe And Fluidstack Lead Multibillion-Dollar AI Infrastructure Haul",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-crusoe-fluidstack-multibillion-dollar-ai-infrastructure/"
         }
       ]
     },
@@ -5316,6 +5553,59 @@
           "date": "2026-07-08",
           "summary": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
           "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/"
+        }
+      ]
+    },
+    {
+      "fund": "Gaingels",
+      "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 4 in the last 30d.",
+      "coverage": 5,
+      "sectors": [
+        {
+          "label": "Space Tech",
+          "count": 4,
+          "weight": 4.0
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 4,
+      "recent90": 5,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Space Tech",
+          "date": "2026-10-01",
+          "summary": "Satlyt Raises $8M Seed to Expand Its Virtual ODC Network",
+          "url": "https://payloadspace.com/satlyt-raises-8m-seed-to-expand-its-virtual-odc-network/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-10-01",
+          "summary": "Foundational Raises \u00a38.2M for Satellite Laser Ranging",
+          "url": "https://payloadspace.com/foundational-raises-8-2m-for-satellite-laser-ranging/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-10-01",
+          "summary": "Space Insurer Charter Space Raises $5M Seed Round",
+          "url": "https://payloadspace.com/in-orbit-insurer-charter-space-raises-5m-seed-round/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-30",
+          "summary": "Charter Space raises $5M to bring insurance to the stars",
+          "url": "https://techcrunch.com/2026/09/30/charter-space-raises-5m-to-bring-insurance-to-the-stars/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-24",
+          "summary": "AI-Driven Portfolio Management Platform Standard Metrics Raises $20M to Supercharge Private Markets Innovation",
+          "url": "https://www.prnewswire.com/news-releases/ai-driven-portfolio-management-platform-standard-metrics-raises-20m-to-supercharge-private-markets-innovation-302856929.html"
         }
       ]
     },
@@ -5958,112 +6248,6 @@
       ]
     },
     {
-      "fund": "EIB",
-      "thesis": "Revealed focus: Coexistence / Empowerment. 5 attributed deal(s), 4 in the last 30d.",
-      "coverage": 5,
-      "sectors": [
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 5,
-          "weight": 4.5
-        }
-      ],
-      "recent30": 4,
-      "recent90": 5,
-      "prior30": 0,
-      "last_deal_days": 14,
-      "deals": [
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-17",
-          "summary": "World Bank Backs $2.86B Brazil Industry Decarbonization",
-          "url": "https://esgnews.com/world-bank-backs-2-86b-brazil-industry-decarbonization/?utm_source=rss&utm_medium=rss&utm_campaign=world-bank-backs-2-86b-brazil-industry-decarbonization"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-16",
-          "summary": "EU Parliament Backs Expanded CBAM and Decarbonisation Fund",
-          "url": "https://esgnews.com/eu-parliament-backs-wider-cbam-and-industry-fund/?utm_source=rss&utm_medium=rss&utm_campaign=eu-parliament-backs-wider-cbam-and-industry-fund"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-16",
-          "summary": "BII Backs BlueOrchard Climate Fund\u2019s $250M First Close",
-          "url": "https://esgnews.com/bii-backs-blueorchard-climate-funds-250m-first-close/?utm_source=rss&utm_medium=rss&utm_campaign=bii-backs-blueorchard-climate-funds-250m-first-close"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-15",
-          "summary": "EIB Invests $46 Million in Modular Nuclear",
-          "url": "https://esgnews.com/eib-invests-46-million-in-modular-nuclear/?utm_source=rss&utm_medium=rss&utm_campaign=eib-invests-46-million-in-modular-nuclear"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-07-21",
-          "summary": "EIB Backs TenneT Germany\u2019s $4.1B Green Bond",
-          "url": "https://esgnews.com/eib-backs-tennet-germanys-4-1b-green-bond/?utm_source=rss&utm_medium=rss&utm_campaign=eib-backs-tennet-germanys-4-1b-green-bond"
-        }
-      ]
-    },
-    {
-      "fund": "GV",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 2 in the last 30d.",
-      "coverage": 5,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 2,
-          "weight": 1.5
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 2,
-          "weight": 1.25
-        },
-        {
-          "label": "Climate / Energy",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 2,
-      "recent90": 4,
-      "prior30": 2,
-      "last_deal_days": 9,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-22",
-          "summary": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
-          "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-22",
-          "summary": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
-          "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-15",
-          "summary": "Every fusion startup that has raised over $100M",
-          "url": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-08-15",
-          "summary": "Every fusion startup that has raised over $100M",
-          "url": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-06-23",
-          "summary": "Odyssey raises $310M Series B for world models",
-          "url": "https://press.airstreet.com/p/odyssey-series-b"
-        }
-      ]
-    },
-    {
       "fund": "Aramco Ventures",
       "thesis": "Revealed focus: Coexistence / Empowerment and Fintech / Payments. 5 attributed deal(s), 2 in the last 30d.",
       "coverage": 5,
@@ -6175,53 +6359,6 @@
           "date": "2026-07-16",
           "summary": "Blackstone-Led Group Invests $5.34B in Williams Power Projects",
           "url": "https://esgnews.com/blackstone-led-group-invests-5-34b-in-williams-power-projects/?utm_source=rss&utm_medium=rss&utm_campaign=blackstone-led-group-invests-5-34b-in-williams-power-projects"
-        }
-      ]
-    },
-    {
-      "fund": "Greylock",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 4 in the last 30d.",
-      "coverage": 4,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 3,
-          "weight": 3.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 4,
-      "recent90": 4,
-      "prior30": 0,
-      "last_deal_days": 9,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-22",
-          "summary": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
-          "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-22",
-          "summary": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
-          "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-08",
-          "summary": "Introducing Antioch: The Simulation Platform for Physical AI",
-          "url": "https://greylock.com/blog/introducing-antioch-the-simulation-platform-for-physical-ai/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-04",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Crusoe And Fluidstack Lead Multibillion-Dollar AI Infrastructure Haul",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-crusoe-fluidstack-multibillion-dollar-ai-infrastructure/"
         }
       ]
     },
@@ -7456,6 +7593,53 @@
       ]
     },
     {
+      "fund": "QED",
+      "thesis": "Revealed focus: Space Tech and Fintech / Payments. 4 attributed deal(s), 3 in the last 30d.",
+      "coverage": 4,
+      "sectors": [
+        {
+          "label": "Space Tech",
+          "count": 3,
+          "weight": 3.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 3,
+      "recent90": 4,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Space Tech",
+          "date": "2026-10-01",
+          "summary": "Foundational Raises \u00a38.2M for Satellite Laser Ranging",
+          "url": "https://payloadspace.com/foundational-raises-8-2m-for-satellite-laser-ranging/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-10-01",
+          "summary": "Space Insurer Charter Space Raises $5M Seed Round",
+          "url": "https://payloadspace.com/in-orbit-insurer-charter-space-raises-5m-seed-round/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-30",
+          "summary": "Charter Space raises $5M to bring insurance to the stars",
+          "url": "https://techcrunch.com/2026/09/30/charter-space-raises-5m-to-bring-insurance-to-the-stars/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-26",
+          "summary": "Ant\u2019s $1.2 Billion A Round Tops This Weeks Fundings and Acquisitions",
+          "url": "https://www.crowdfundinsider.com/2026/07/293681-ants-1-2b-a-round-tops-this-weeks-fundings-and-acquisitions/"
+        }
+      ]
+    },
+    {
       "fund": "a16z",
       "thesis": "Revealed focus: AI / ML Infra and Healthtech / Bio. 4 attributed deal(s), 3 in the last 30d.",
       "coverage": 4,
@@ -7640,6 +7824,88 @@
           "date": "2026-06-23",
           "summary": "Odyssey raises $310M Series B for world models",
           "url": "https://press.airstreet.com/p/odyssey-series-b"
+        }
+      ]
+    },
+    {
+      "fund": "Lux",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s), 3 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 3,
+      "recent90": 3,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-01",
+          "summary": "Introducing Parallax: The AI Energy Company",
+          "url": "https://greylock.com/blog/introducing-parallax-the-ai-energy-company/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-04",
+          "summary": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+          "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-04",
+          "summary": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+          "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/"
+        }
+      ]
+    },
+    {
+      "fund": "Diffusion",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 2 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 2,
+      "recent90": 3,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-01",
+          "summary": "Introducing Parallax: The AI Energy Company",
+          "url": "https://greylock.com/blog/introducing-parallax-the-ai-energy-company/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-11",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-19",
+          "summary": "AI Startup Etched Takes Just One Month to Double in Valuation",
+          "url": "https://www.crowdfundinsider.com/2026/08/299030-ai-startup-etched-takes-just-one-month-to-double-in-valuation/"
         }
       ]
     },
@@ -10036,6 +10302,78 @@
       ]
     },
     {
+      "fund": "Crystal Venture Partners",
+      "thesis": "Revealed focus: Space Tech. 3 attributed deal(s), 3 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Space Tech",
+          "count": 3,
+          "weight": 3.0
+        }
+      ],
+      "recent30": 3,
+      "recent90": 3,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Space Tech",
+          "date": "2026-10-01",
+          "summary": "Foundational Raises \u00a38.2M for Satellite Laser Ranging",
+          "url": "https://payloadspace.com/foundational-raises-8-2m-for-satellite-laser-ranging/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-10-01",
+          "summary": "Space Insurer Charter Space Raises $5M Seed Round",
+          "url": "https://payloadspace.com/in-orbit-insurer-charter-space-raises-5m-seed-round/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-30",
+          "summary": "Charter Space raises $5M to bring insurance to the stars",
+          "url": "https://techcrunch.com/2026/09/30/charter-space-raises-5m-to-bring-insurance-to-the-stars/"
+        }
+      ]
+    },
+    {
+      "fund": "Blank Ventures",
+      "thesis": "Revealed focus: Space Tech. 3 attributed deal(s), 3 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Space Tech",
+          "count": 3,
+          "weight": 3.0
+        }
+      ],
+      "recent30": 3,
+      "recent90": 3,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Space Tech",
+          "date": "2026-10-01",
+          "summary": "Foundational Raises \u00a38.2M for Satellite Laser Ranging",
+          "url": "https://payloadspace.com/foundational-raises-8-2m-for-satellite-laser-ranging/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-10-01",
+          "summary": "Space Insurer Charter Space Raises $5M Seed Round",
+          "url": "https://payloadspace.com/in-orbit-insurer-charter-space-raises-5m-seed-round/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-30",
+          "summary": "Charter Space raises $5M to bring insurance to the stars",
+          "url": "https://techcrunch.com/2026/09/30/charter-space-raises-5m-to-bring-insurance-to-the-stars/"
+        }
+      ]
+    },
+    {
       "fund": "European Innovation Council",
       "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 3 attributed deal(s), 2 in the last 30d.",
       "coverage": 3,
@@ -10381,6 +10719,136 @@
           "date": "2026-07-02",
           "summary": "The Week\u2019s 10 Biggest Funding Rounds: AI, Energy And Biotech Lead The Way",
           "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-biotech-joulent/"
+        }
+      ]
+    },
+    {
+      "fund": "Citi Ventures",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 2,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-01",
+          "summary": "Exclusive: Homeward Raises $120M To Help Homeowners Buy And Sell More Quickly As Housing Market Stalls",
+          "url": "https://news.crunchbase.com/real-estate-property-tech/startup-homeward-raises-120m-buy-sell-homes-ai-financing/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-05",
+          "summary": "Quantifind Raises $200 Million to Find the Fraudster in the Financial Chain",
+          "url": "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/quantifind-raises-200-million-to-find-the-fraudster-in-the-financial-chain/"
+        }
+      ]
+    },
+    {
+      "fund": "Norwest",
+      "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 1.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 2,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-01",
+          "summary": "Exclusive: Homeward Raises $120M To Help Homeowners Buy And Sell More Quickly As Housing Market Stalls",
+          "url": "https://news.crunchbase.com/real-estate-property-tech/startup-homeward-raises-120m-buy-sell-homes-ai-financing/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-25",
+          "summary": "Alice Raises $140M to Expand AI Model Defenses and Enterprise Guardrails",
+          "url": "https://www.securityweek.com/alice-raises-140m-to-expand-ai-model-defenses-and-enterprise-guardrails/"
+        }
+      ]
+    },
+    {
+      "fund": "Redpoint",
+      "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 1.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-01",
+          "summary": "Kevin Mandia\u2019s Armadin Raises $255 Million at $2.5 Billion Valuation",
+          "url": "https://www.securityweek.com/kevin-mandias-armadin-raises-255-million-at-2-5-billion-valuation/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-24",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Physical AI Startup Atoms Leads In Varied Week For Large Deals",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms/"
+        }
+      ]
+    },
+    {
+      "fund": "In-Q-Tel",
+      "thesis": "Revealed focus: Cybersecurity and Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 2,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-01",
+          "summary": "Kevin Mandia\u2019s Armadin Raises $255 Million at $2.5 Billion Valuation",
+          "url": "https://www.securityweek.com/kevin-mandias-armadin-raises-255-million-at-2-5-billion-valuation/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-26",
+          "summary": "Data Center Power Solutions Startup Emerald AI Raises $150 Million at Unicorn Valuation",
+          "url": "https://www.esgtoday.com/data-center-power-solutions-startup-emerald-ai-raises-150-million-at-unicorn-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=data-center-power-solutions-startup-emerald-ai-raises-150-million-at-unicorn-valuation"
         }
       ]
     },
@@ -10920,41 +11388,6 @@
       ]
     },
     {
-      "fund": "Diffusion",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 1,
-      "recent90": 2,
-      "prior30": 1,
-      "last_deal_days": 20,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-11",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-08-19",
-          "summary": "AI Startup Etched Takes Just One Month to Double in Valuation",
-          "url": "https://www.crowdfundinsider.com/2026/08/299030-ai-startup-etched-takes-just-one-month-to-double-in-valuation/"
-        }
-      ]
-    },
-    {
       "fund": "Janus Henderson Investors",
       "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
       "coverage": 2,
@@ -11265,41 +11698,6 @@
       ]
     },
     {
-      "fund": "Lux",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 2,
-      "recent90": 2,
-      "prior30": 0,
-      "last_deal_days": 27,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-04",
-          "summary": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
-          "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-04",
-          "summary": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
-          "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/"
-        }
-      ]
-    },
-    {
       "fund": "lomarlabs",
       "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -11601,41 +11999,6 @@
           "date": "2026-08-03",
           "summary": "Horizon3.ai hits $2 billion valuation in $250 million funding round",
           "url": "https://www.helpnetsecurity.com/2026/08/03/horizon3-ai-250-million-funding/"
-        }
-      ]
-    },
-    {
-      "fund": "Gaingels",
-      "thesis": "Revealed focus: Space Tech and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Space Tech",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 1,
-      "recent90": 2,
-      "prior30": 1,
-      "last_deal_days": 1,
-      "deals": [
-        {
-          "sector": "Space Tech",
-          "date": "2026-09-30",
-          "summary": "Charter Space raises $5M to bring insurance to the stars",
-          "url": "https://techcrunch.com/2026/09/30/charter-space-raises-5m-to-bring-insurance-to-the-stars/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-24",
-          "summary": "AI-Driven Portfolio Management Platform Standard Metrics Raises $20M to Supercharge Private Markets Innovation",
-          "url": "https://www.prnewswire.com/news-releases/ai-driven-portfolio-management-platform-standard-metrics-raises-20m-to-supercharge-private-markets-innovation-302856929.html"
         }
       ]
     },
@@ -14470,41 +14833,6 @@
       ]
     },
     {
-      "fund": "QED",
-      "thesis": "Revealed focus: Space Tech and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Space Tech",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 1,
-      "recent90": 2,
-      "prior30": 0,
-      "last_deal_days": 1,
-      "deals": [
-        {
-          "sector": "Space Tech",
-          "date": "2026-09-30",
-          "summary": "Charter Space raises $5M to bring insurance to the stars",
-          "url": "https://techcrunch.com/2026/09/30/charter-space-raises-5m-to-bring-insurance-to-the-stars/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-07-26",
-          "summary": "Ant\u2019s $1.2 Billion A Round Tops This Weeks Fundings and Acquisitions",
-          "url": "https://www.crowdfundinsider.com/2026/07/293681-ants-1-2b-a-round-tops-this-weeks-fundings-and-acquisitions/"
-        }
-      ]
-    },
-    {
       "fund": "Hummingbird",
       "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s).",
       "coverage": 2,
@@ -14821,6 +15149,41 @@
           "date": "2026-07-09",
           "summary": "Aria Secures $283 Million to Expand Invoice Financing Offering",
           "url": "https://www.pymnts.com/news/b2b-payments/2026/aria-secures-283-million-to-expand-invoice-financing-offering/"
+        }
+      ]
+    },
+    {
+      "fund": "Non Sibi Ventures",
+      "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-10-01",
+          "summary": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
+          "url": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-10-01",
+          "summary": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
+          "url": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/"
         }
       ]
     },
@@ -15641,6 +16004,126 @@
           "date": "2026-08-04",
           "summary": "Europe is betting big on a battery that runs for four days",
           "url": "https://electrek.co/2026/08/04/europe-is-betting-big-on-a-battery-that-runs-for-four-days/"
+        }
+      ]
+    },
+    {
+      "fund": "Inflection",
+      "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Space Tech",
+          "count": 2,
+          "weight": 2.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Space Tech",
+          "date": "2026-10-01",
+          "summary": "Satlyt Raises $8M Seed to Expand Its Virtual ODC Network",
+          "url": "https://payloadspace.com/satlyt-raises-8m-seed-to-expand-its-virtual-odc-network/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-10-01",
+          "summary": "Foundational Raises \u00a38.2M for Satellite Laser Ranging",
+          "url": "https://payloadspace.com/foundational-raises-8-2m-for-satellite-laser-ranging/"
+        }
+      ]
+    },
+    {
+      "fund": "Adjacent",
+      "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Space Tech",
+          "count": 2,
+          "weight": 2.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Space Tech",
+          "date": "2026-10-01",
+          "summary": "Satlyt Raises $8M Seed to Expand Its Virtual ODC Network",
+          "url": "https://payloadspace.com/satlyt-raises-8m-seed-to-expand-its-virtual-odc-network/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-10-01",
+          "summary": "Foundational Raises \u00a38.2M for Satellite Laser Ranging",
+          "url": "https://payloadspace.com/foundational-raises-8-2m-for-satellite-laser-ranging/"
+        }
+      ]
+    },
+    {
+      "fund": "Type One Ventures",
+      "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Space Tech",
+          "count": 2,
+          "weight": 2.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Space Tech",
+          "date": "2026-10-01",
+          "summary": "Satlyt Raises $8M Seed to Expand Its Virtual ODC Network",
+          "url": "https://payloadspace.com/satlyt-raises-8m-seed-to-expand-its-virtual-odc-network/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-10-01",
+          "summary": "Foundational Raises \u00a38.2M for Satellite Laser Ranging",
+          "url": "https://payloadspace.com/foundational-raises-8-2m-for-satellite-laser-ranging/"
+        }
+      ]
+    },
+    {
+      "fund": "Initialized Capital",
+      "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Space Tech",
+          "count": 2,
+          "weight": 2.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Space Tech",
+          "date": "2026-10-01",
+          "summary": "Space Insurer Charter Space Raises $5M Seed Round",
+          "url": "https://payloadspace.com/in-orbit-insurer-charter-space-raises-5m-seed-round/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-30",
+          "summary": "Exclusive: Hop Aero Raises $11M for Suborbital Point-to-Point Delivery",
+          "url": "https://payloadspace.com/exclusive-hop-aero-raises-11m-for-suborbital-point-to-point-delivery/"
         }
       ]
     },
@@ -16710,6 +17193,36 @@
       ]
     },
     {
+      "fund": "Ballistic Ventures",
+      "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 1.25
+        }
+      ],
+      "recent30": 1,
+      "recent90": 1,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-01",
+          "summary": "Kevin Mandia\u2019s Armadin Raises $255 Million at $2.5 Billion Valuation",
+          "url": "https://www.securityweek.com/kevin-mandias-armadin-raises-255-million-at-2-5-billion-valuation/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-06-16",
+          "summary": "Why we invested in Magnitude AI",
+          "url": "https://ballisticventures.com/why-we-invested-in-magnitude-ai/?utm_source=rss&utm_medium=rss&utm_campaign=why-we-invested-in-magnitude-ai"
+        }
+      ]
+    },
+    {
       "fund": "Dragonfly",
       "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 2 attributed deal(s).",
       "coverage": 2,
@@ -16858,10 +17371,10 @@
       },
       {
         "fund": "Menlo Ventures",
-        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 13 attributed deal(s), 3 in the last 30d.",
-        "coverage": 13,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 14 attributed deal(s), 4 in the last 30d.",
+        "coverage": 14,
         "sector_count": 6,
-        "recent30": 3
+        "recent30": 4
       },
       {
         "fund": "Benchmark",
@@ -16886,17 +17399,17 @@
       },
       {
         "fund": "Accel",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 14 attributed deal(s), 7 in the last 30d.",
-        "coverage": 14,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 15 attributed deal(s), 8 in the last 30d.",
+        "coverage": 15,
         "sector_count": 4,
-        "recent30": 7
+        "recent30": 8
       },
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 24 attributed deal(s), 8 in the last 30d.",
-        "coverage": 24,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 26 attributed deal(s), 10 in the last 30d.",
+        "coverage": 26,
         "sector_count": 3,
-        "recent30": 8
+        "recent30": 10
       },
       {
         "fund": "Khosla Ventures",
@@ -16935,10 +17448,10 @@
       },
       {
         "fund": "General Catalyst",
-        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 17 attributed deal(s), 6 in the last 30d.",
-        "coverage": 17,
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 18 attributed deal(s), 7 in the last 30d.",
+        "coverage": 18,
         "sector_count": 2,
-        "recent30": 6
+        "recent30": 7
       },
       {
         "fund": "Valor Equity Partners",
@@ -16955,18 +17468,18 @@
         "recent30": 5
       },
       {
+        "fund": "8VC",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 11 attributed deal(s), 4 in the last 30d.",
+        "coverage": 11,
+        "sector_count": 2,
+        "recent30": 4
+      },
+      {
         "fund": "Salesforce Ventures",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 10 attributed deal(s), 1 in the last 30d.",
         "coverage": 10,
         "sector_count": 2,
         "recent30": 1
-      },
-      {
-        "fund": "8VC",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 10 attributed deal(s), 3 in the last 30d.",
-        "coverage": 10,
-        "sector_count": 2,
-        "recent30": 3
       },
       {
         "fund": "Battery Ventures",
@@ -17018,15 +17531,15 @@
         "recent30": 4
       },
       {
-        "fund": "SignalFire",
-        "thesis": "Revealed focus: AI / ML Infra and Fintech / Payments. 5 attributed deal(s), 2 in the last 30d.",
-        "coverage": 5,
+        "fund": "GV",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 6 attributed deal(s), 3 in the last 30d.",
+        "coverage": 6,
         "sector_count": 2,
-        "recent30": 2
+        "recent30": 3
       },
       {
-        "fund": "GV",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 2 in the last 30d.",
+        "fund": "SignalFire",
+        "thesis": "Revealed focus: AI / ML Infra and Fintech / Payments. 5 attributed deal(s), 2 in the last 30d.",
         "coverage": 5,
         "sector_count": 2,
         "recent30": 2
@@ -17109,18 +17622,18 @@
         "recent30": 6
       },
       {
-        "fund": "Kleiner Perkins",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 11 attributed deal(s), 4 in the last 30d.",
-        "coverage": 11,
+        "fund": "Founders Fund",
+        "thesis": "Revealed focus: Cybersecurity and Space Tech. 12 attributed deal(s), 7 in the last 30d.",
+        "coverage": 12,
         "sector_count": 1,
-        "recent30": 4
+        "recent30": 7
       },
       {
-        "fund": "Founders Fund",
-        "thesis": "Revealed focus: Cybersecurity and Space Tech. 11 attributed deal(s), 6 in the last 30d.",
-        "coverage": 11,
+        "fund": "Kleiner Perkins",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 12 attributed deal(s), 5 in the last 30d.",
+        "coverage": 12,
         "sector_count": 1,
-        "recent30": 6
+        "recent30": 5
       },
       {
         "fund": "Lightspeed Venture Partners",
@@ -17193,6 +17706,13 @@
         "recent30": 2
       },
       {
+        "fund": "Greylock",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 5
+      },
+      {
         "fund": "DCVC",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 2 in the last 30d.",
         "coverage": 5,
@@ -17226,13 +17746,6 @@
         "coverage": 5,
         "sector_count": 1,
         "recent30": 0
-      },
-      {
-        "fund": "Greylock",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 4 in the last 30d.",
-        "coverage": 4,
-        "sector_count": 1,
-        "recent30": 4
       },
       {
         "fund": "LocalGlobe",
@@ -17275,6 +17788,13 @@
         "coverage": 4,
         "sector_count": 1,
         "recent30": 0
+      },
+      {
+        "fund": "Lux",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
       },
       {
         "fund": "Section 32",
@@ -17466,13 +17986,6 @@
         "recent30": 2
       },
       {
-        "fund": "Lux",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
         "fund": "Conviction Partners",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s).",
         "coverage": 2,
@@ -17641,6 +18154,13 @@
         "recent30": 0
       },
       {
+        "fund": "Non Sibi Ventures",
+        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "Future Ventures",
         "thesis": "Revealed focus: AI / ML Infra and Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
         "coverage": 2,
@@ -17756,10 +18276,10 @@
       },
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 24 attributed deal(s), 8 in the last 30d.",
-        "coverage": 24,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 26 attributed deal(s), 10 in the last 30d.",
+        "coverage": 26,
         "sector_count": 7,
-        "recent30": 8
+        "recent30": 10
       },
       {
         "fund": "BlackFin Capital Partners",
@@ -17791,10 +18311,17 @@
       },
       {
         "fund": "Accel",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 14 attributed deal(s), 7 in the last 30d.",
-        "coverage": 14,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 15 attributed deal(s), 8 in the last 30d.",
+        "coverage": 15,
         "sector_count": 3,
-        "recent30": 7
+        "recent30": 8
+      },
+      {
+        "fund": "Bain Capital Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 8 attributed deal(s), 2 in the last 30d.",
+        "coverage": 8,
+        "sector_count": 3,
+        "recent30": 2
       },
       {
         "fund": "Atomico",
@@ -17802,13 +18329,6 @@
         "coverage": 7,
         "sector_count": 3,
         "recent30": 3
-      },
-      {
-        "fund": "Bain Capital Ventures",
-        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 7 attributed deal(s), 1 in the last 30d.",
-        "coverage": 7,
-        "sector_count": 3,
-        "recent30": 1
       },
       {
         "fund": "CRV",
@@ -17882,10 +18402,17 @@
       },
       {
         "fund": "General Catalyst",
-        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 17 attributed deal(s), 6 in the last 30d.",
-        "coverage": 17,
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 18 attributed deal(s), 7 in the last 30d.",
+        "coverage": 18,
         "sector_count": 2,
-        "recent30": 6
+        "recent30": 7
+      },
+      {
+        "fund": "Kleiner Perkins",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 12 attributed deal(s), 5 in the last 30d.",
+        "coverage": 12,
+        "sector_count": 2,
+        "recent30": 5
       },
       {
         "fund": "BlackRock",
@@ -17895,11 +18422,11 @@
         "recent30": 5
       },
       {
-        "fund": "Kleiner Perkins",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 11 attributed deal(s), 4 in the last 30d.",
-        "coverage": 11,
+        "fund": "Eclipse",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 7 attributed deal(s), 1 in the last 30d.",
+        "coverage": 7,
         "sector_count": 2,
-        "recent30": 4
+        "recent30": 1
       },
       {
         "fund": "Goldman Sachs Alternatives",
@@ -17907,13 +18434,6 @@
         "coverage": 7,
         "sector_count": 2,
         "recent30": 2
-      },
-      {
-        "fund": "Eclipse",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 6 attributed deal(s).",
-        "coverage": 6,
-        "sector_count": 2,
-        "recent30": 0
       },
       {
         "fund": "Lux Capital",
@@ -18092,10 +18612,10 @@
       },
       {
         "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 20 attributed deal(s), 10 in the last 30d.",
-        "coverage": 20,
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 21 attributed deal(s), 11 in the last 30d.",
+        "coverage": 21,
         "sector_count": 1,
-        "recent30": 10
+        "recent30": 11
       },
       {
         "fund": "Radical Ventures",
@@ -18106,17 +18626,24 @@
       },
       {
         "fund": "Menlo Ventures",
-        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 13 attributed deal(s), 3 in the last 30d.",
-        "coverage": 13,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 14 attributed deal(s), 4 in the last 30d.",
+        "coverage": 14,
         "sector_count": 1,
-        "recent30": 3
+        "recent30": 4
       },
       {
         "fund": "Founders Fund",
-        "thesis": "Revealed focus: Cybersecurity and Space Tech. 11 attributed deal(s), 6 in the last 30d.",
+        "thesis": "Revealed focus: Cybersecurity and Space Tech. 12 attributed deal(s), 7 in the last 30d.",
+        "coverage": 12,
+        "sector_count": 1,
+        "recent30": 7
+      },
+      {
+        "fund": "8VC",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 11 attributed deal(s), 4 in the last 30d.",
         "coverage": 11,
         "sector_count": 1,
-        "recent30": 6
+        "recent30": 4
       },
       {
         "fund": "Lightspeed Venture Partners",
@@ -18124,13 +18651,6 @@
         "coverage": 10,
         "sector_count": 1,
         "recent30": 4
-      },
-      {
-        "fund": "8VC",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 10 attributed deal(s), 3 in the last 30d.",
-        "coverage": 10,
-        "sector_count": 1,
-        "recent30": 3
       },
       {
         "fund": "Coatue",
@@ -18280,6 +18800,20 @@
         "recent30": 0
       },
       {
+        "fund": "QED",
+        "thesis": "Revealed focus: Space Tech and Fintech / Payments. 4 attributed deal(s), 3 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
+        "fund": "Diffusion",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "Goldman Sachs Growth Equity",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 2 in the last 30d.",
         "coverage": 3,
@@ -18399,6 +18933,13 @@
         "recent30": 0
       },
       {
+        "fund": "Citi Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
         "fund": "Xora",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -18425,13 +18966,6 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 2
-      },
-      {
-        "fund": "Diffusion",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
       },
       {
         "fund": "FTV Capital",
@@ -18560,13 +19094,6 @@
         "recent30": 0
       },
       {
-        "fund": "QED",
-        "thesis": "Revealed focus: Space Tech and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
-      },
-      {
         "fund": "Soma Capital",
         "thesis": "Revealed focus: Fintech / Payments and Space Tech. 2 attributed deal(s).",
         "coverage": 2,
@@ -18605,10 +19132,10 @@
     "Cybersecurity": [
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 24 attributed deal(s), 8 in the last 30d.",
-        "coverage": 24,
-        "sector_count": 10,
-        "recent30": 8
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 26 attributed deal(s), 10 in the last 30d.",
+        "coverage": 26,
+        "sector_count": 12,
+        "recent30": 10
       },
       {
         "fund": "Sequoia Capital",
@@ -18646,6 +19173,13 @@
         "recent30": 7
       },
       {
+        "fund": "General Catalyst",
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 18 attributed deal(s), 7 in the last 30d.",
+        "coverage": 18,
+        "sector_count": 7,
+        "recent30": 7
+      },
+      {
         "fund": "Valor Equity Partners",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 14 attributed deal(s), 8 in the last 30d.",
         "coverage": 14,
@@ -18660,11 +19194,11 @@
         "recent30": 6
       },
       {
-        "fund": "General Catalyst",
-        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 17 attributed deal(s), 6 in the last 30d.",
-        "coverage": 17,
-        "sector_count": 6,
-        "recent30": 6
+        "fund": "Founders Fund",
+        "thesis": "Revealed focus: Cybersecurity and Space Tech. 12 attributed deal(s), 7 in the last 30d.",
+        "coverage": 12,
+        "sector_count": 7,
+        "recent30": 7
       },
       {
         "fund": "Insight Partners",
@@ -18674,11 +19208,25 @@
         "recent30": 8
       },
       {
-        "fund": "Founders Fund",
-        "thesis": "Revealed focus: Cybersecurity and Space Tech. 11 attributed deal(s), 6 in the last 30d.",
+        "fund": "Menlo Ventures",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 14 attributed deal(s), 4 in the last 30d.",
+        "coverage": 14,
+        "sector_count": 6,
+        "recent30": 4
+      },
+      {
+        "fund": "Kleiner Perkins",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 12 attributed deal(s), 5 in the last 30d.",
+        "coverage": 12,
+        "sector_count": 6,
+        "recent30": 5
+      },
+      {
+        "fund": "8VC",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 11 attributed deal(s), 4 in the last 30d.",
         "coverage": 11,
         "sector_count": 6,
-        "recent30": 6
+        "recent30": 4
       },
       {
         "fund": "Lightspeed Venture Partners",
@@ -18689,24 +19237,17 @@
       },
       {
         "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 20 attributed deal(s), 10 in the last 30d.",
-        "coverage": 20,
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 21 attributed deal(s), 11 in the last 30d.",
+        "coverage": 21,
         "sector_count": 5,
-        "recent30": 10
+        "recent30": 11
       },
       {
-        "fund": "Menlo Ventures",
-        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 13 attributed deal(s), 3 in the last 30d.",
-        "coverage": 13,
+        "fund": "Accel",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 15 attributed deal(s), 8 in the last 30d.",
+        "coverage": 15,
         "sector_count": 5,
-        "recent30": 3
-      },
-      {
-        "fund": "Kleiner Perkins",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 11 attributed deal(s), 4 in the last 30d.",
-        "coverage": 11,
-        "sector_count": 5,
-        "recent30": 4
+        "recent30": 8
       },
       {
         "fund": "Bessemer Venture Partners",
@@ -18714,13 +19255,6 @@
         "coverage": 11,
         "sector_count": 5,
         "recent30": 4
-      },
-      {
-        "fund": "8VC",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 10 attributed deal(s), 3 in the last 30d.",
-        "coverage": 10,
-        "sector_count": 5,
-        "recent30": 3
       },
       {
         "fund": "Ribbit Capital",
@@ -18737,11 +19271,11 @@
         "recent30": 2
       },
       {
-        "fund": "Accel",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 14 attributed deal(s), 7 in the last 30d.",
-        "coverage": 14,
+        "fund": "Bain Capital Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 8 attributed deal(s), 2 in the last 30d.",
+        "coverage": 8,
         "sector_count": 4,
-        "recent30": 7
+        "recent30": 2
       },
       {
         "fund": "Battery Ventures",
@@ -18777,6 +19311,13 @@
         "coverage": 6,
         "sector_count": 4,
         "recent30": 0
+      },
+      {
+        "fund": "Greylock",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 5 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 4,
+        "recent30": 5
       },
       {
         "fund": "Vista Equity Partners",
@@ -18835,6 +19376,13 @@
         "recent30": 4
       },
       {
+        "fund": "Eclipse",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 7 attributed deal(s), 1 in the last 30d.",
+        "coverage": 7,
+        "sector_count": 3,
+        "recent30": 1
+      },
+      {
         "fund": "CapitalG",
         "thesis": "Revealed focus: Cybersecurity and Space Tech. 7 attributed deal(s), 2 in the last 30d.",
         "coverage": 7,
@@ -18842,11 +19390,11 @@
         "recent30": 2
       },
       {
-        "fund": "Bain Capital Ventures",
-        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 7 attributed deal(s), 1 in the last 30d.",
-        "coverage": 7,
+        "fund": "GV",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 6 attributed deal(s), 3 in the last 30d.",
+        "coverage": 6,
         "sector_count": 3,
-        "recent30": 1
+        "recent30": 3
       },
       {
         "fund": "Tiger Global",
@@ -18854,13 +19402,6 @@
         "coverage": 5,
         "sector_count": 3,
         "recent30": 2
-      },
-      {
-        "fund": "Greylock",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 4 attributed deal(s), 4 in the last 30d.",
-        "coverage": 4,
-        "sector_count": 3,
-        "recent30": 4
       },
       {
         "fund": "Cyberstarts",
@@ -18982,13 +19523,6 @@
         "recent30": 2
       },
       {
-        "fund": "Eclipse",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 6 attributed deal(s).",
-        "coverage": 6,
-        "sector_count": 2,
-        "recent30": 0
-      },
-      {
         "fund": "T. Rowe Price",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 6 attributed deal(s).",
         "coverage": 6,
@@ -19036,13 +19570,6 @@
         "coverage": 5,
         "sector_count": 2,
         "recent30": 1
-      },
-      {
-        "fund": "GV",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 2 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 2,
-        "recent30": 2
       },
       {
         "fund": "Blackstone",
@@ -19129,6 +19656,20 @@
         "recent30": 0
       },
       {
+        "fund": "Lux",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 2,
+        "recent30": 3
+      },
+      {
+        "fund": "Diffusion",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 2,
+        "recent30": 2
+      },
+      {
         "fund": "Goldman Sachs Growth Equity",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 2 in the last 30d.",
         "coverage": 3,
@@ -19197,6 +19738,20 @@
         "coverage": 3,
         "sector_count": 2,
         "recent30": 0
+      },
+      {
+        "fund": "Norwest",
+        "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 1
+      },
+      {
+        "fund": "Redpoint",
+        "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 1
       },
       {
         "fund": "Preface Ventures",
@@ -19325,6 +19880,13 @@
         "recent30": 0
       },
       {
+        "fund": "Ballistic Ventures",
+        "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 1
+      },
+      {
         "fund": "EQT",
         "thesis": "Revealed focus: Space Tech and AI / ML Infra. 8 attributed deal(s), 2 in the last 30d.",
         "coverage": 8,
@@ -19386,6 +19948,13 @@
         "coverage": 6,
         "sector_count": 1,
         "recent30": 2
+      },
+      {
+        "fund": "Gaingels",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 4 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 4
       },
       {
         "fund": "Altimeter",
@@ -19682,6 +20251,20 @@
         "recent30": 0
       },
       {
+        "fund": "Citi Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
+        "fund": "In-Q-Tel",
+        "thesis": "Revealed focus: Cybersecurity and Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
         "fund": "B Capital",
         "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -19759,13 +20342,6 @@
         "recent30": 2
       },
       {
-        "fund": "Diffusion",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
-      },
-      {
         "fund": "Venrock",
         "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 2 attributed deal(s), 1 in the last 30d.",
         "coverage": 2,
@@ -19822,13 +20398,6 @@
         "recent30": 2
       },
       {
-        "fund": "Lux",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
         "fund": "lomarlabs",
         "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -19876,13 +20445,6 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 0
-      },
-      {
-        "fund": "Gaingels",
-        "thesis": "Revealed focus: Space Tech and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
       },
       {
         "fund": "Carlyle",
@@ -20273,10 +20835,10 @@
       },
       {
         "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 20 attributed deal(s), 10 in the last 30d.",
-        "coverage": 20,
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 21 attributed deal(s), 11 in the last 30d.",
+        "coverage": 21,
         "sector_count": 4,
-        "recent30": 10
+        "recent30": 11
       },
       {
         "fund": "Sequoia",
@@ -20385,10 +20947,10 @@
       },
       {
         "fund": "8VC",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 10 attributed deal(s), 3 in the last 30d.",
-        "coverage": 10,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 11 attributed deal(s), 4 in the last 30d.",
+        "coverage": 11,
         "sector_count": 1,
-        "recent30": 3
+        "recent30": 4
       },
       {
         "fund": "Coatue",
@@ -20398,18 +20960,18 @@
         "recent30": 0
       },
       {
-        "fund": "Energy Impact Partners",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 7 attributed deal(s), 1 in the last 30d.",
+        "fund": "Eclipse",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 7 attributed deal(s), 1 in the last 30d.",
         "coverage": 7,
         "sector_count": 1,
         "recent30": 1
       },
       {
-        "fund": "Eclipse",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 6 attributed deal(s).",
-        "coverage": 6,
+        "fund": "Energy Impact Partners",
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 7 attributed deal(s), 1 in the last 30d.",
+        "coverage": 7,
         "sector_count": 1,
-        "recent30": 0
+        "recent30": 1
       },
       {
         "fund": "Cherry Ventures",
@@ -20431,6 +20993,13 @@
         "coverage": 6,
         "sector_count": 1,
         "recent30": 0
+      },
+      {
+        "fund": "GV",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 6 attributed deal(s), 3 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 1,
+        "recent30": 3
       },
       {
         "fund": "RWE",
@@ -20459,13 +21028,6 @@
         "coverage": 5,
         "sector_count": 1,
         "recent30": 1
-      },
-      {
-        "fund": "GV",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 5 attributed deal(s), 2 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 1,
-        "recent30": 2
       },
       {
         "fund": "Aramco Ventures",
@@ -20821,10 +21383,10 @@
       },
       {
         "fund": "Accel",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 14 attributed deal(s), 7 in the last 30d.",
-        "coverage": 14,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 15 attributed deal(s), 8 in the last 30d.",
+        "coverage": 15,
         "sector_count": 1,
-        "recent30": 7
+        "recent30": 8
       },
       {
         "fund": "Benchmark",
@@ -20941,6 +21503,13 @@
         "recent30": 7
       },
       {
+        "fund": "Gaingels",
+        "thesis": "Revealed focus: Space Tech and Cybersecurity. 5 attributed deal(s), 4 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 4,
+        "recent30": 4
+      },
+      {
         "fund": "Spark Capital",
         "thesis": "Revealed focus: Cybersecurity and Space Tech. 13 attributed deal(s), 6 in the last 30d.",
         "coverage": 13,
@@ -21004,11 +21573,32 @@
         "recent30": 0
       },
       {
+        "fund": "QED",
+        "thesis": "Revealed focus: Space Tech and Fintech / Payments. 4 attributed deal(s), 3 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 3,
+        "recent30": 3
+      },
+      {
         "fund": "Congruent Ventures",
         "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 4 attributed deal(s).",
         "coverage": 4,
         "sector_count": 3,
         "recent30": 0
+      },
+      {
+        "fund": "Crystal Venture Partners",
+        "thesis": "Revealed focus: Space Tech. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 3,
+        "recent30": 3
+      },
+      {
+        "fund": "Blank Ventures",
+        "thesis": "Revealed focus: Space Tech. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 3,
+        "recent30": 3
       },
       {
         "fund": "Woven Capital",
@@ -21040,45 +21630,45 @@
       },
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 24 attributed deal(s), 8 in the last 30d.",
-        "coverage": 24,
-        "sector_count": 2,
-        "recent30": 8
-      },
-      {
-        "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 20 attributed deal(s), 10 in the last 30d.",
-        "coverage": 20,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 26 attributed deal(s), 10 in the last 30d.",
+        "coverage": 26,
         "sector_count": 2,
         "recent30": 10
       },
       {
-        "fund": "General Catalyst",
-        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 17 attributed deal(s), 6 in the last 30d.",
-        "coverage": 17,
+        "fund": "Google",
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 21 attributed deal(s), 11 in the last 30d.",
+        "coverage": 21,
         "sector_count": 2,
-        "recent30": 6
+        "recent30": 11
+      },
+      {
+        "fund": "General Catalyst",
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 18 attributed deal(s), 7 in the last 30d.",
+        "coverage": 18,
+        "sector_count": 2,
+        "recent30": 7
       },
       {
         "fund": "Accel",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 14 attributed deal(s), 7 in the last 30d.",
-        "coverage": 14,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 15 attributed deal(s), 8 in the last 30d.",
+        "coverage": 15,
+        "sector_count": 2,
+        "recent30": 8
+      },
+      {
+        "fund": "Founders Fund",
+        "thesis": "Revealed focus: Cybersecurity and Space Tech. 12 attributed deal(s), 7 in the last 30d.",
+        "coverage": 12,
         "sector_count": 2,
         "recent30": 7
       },
       {
         "fund": "Kleiner Perkins",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 11 attributed deal(s), 4 in the last 30d.",
-        "coverage": 11,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 12 attributed deal(s), 5 in the last 30d.",
+        "coverage": 12,
         "sector_count": 2,
-        "recent30": 4
-      },
-      {
-        "fund": "Founders Fund",
-        "thesis": "Revealed focus: Cybersecurity and Space Tech. 11 attributed deal(s), 6 in the last 30d.",
-        "coverage": 11,
-        "sector_count": 2,
-        "recent30": 6
+        "recent30": 5
       },
       {
         "fund": "Lightspeed Venture Partners",
@@ -21198,6 +21788,34 @@
         "coverage": 3,
         "sector_count": 2,
         "recent30": 0
+      },
+      {
+        "fund": "Inflection",
+        "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 2
+      },
+      {
+        "fund": "Adjacent",
+        "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 2
+      },
+      {
+        "fund": "Type One Ventures",
+        "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 2
+      },
+      {
+        "fund": "Initialized Capital",
+        "thesis": "Revealed focus: Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 2
       },
       {
         "fund": "Seraphim",
@@ -21410,13 +22028,6 @@
         "recent30": 2
       },
       {
-        "fund": "Gaingels",
-        "thesis": "Revealed focus: Space Tech and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
-      },
-      {
         "fund": "Carlyle",
         "thesis": "Revealed focus: Cybersecurity and Space Tech. 2 attributed deal(s).",
         "coverage": 2,
@@ -21445,18 +22056,18 @@
         "recent30": 0
       },
       {
-        "fund": "QED",
-        "thesis": "Revealed focus: Space Tech and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
-      },
-      {
         "fund": "Soma Capital",
         "thesis": "Revealed focus: Fintech / Payments and Space Tech. 2 attributed deal(s).",
         "coverage": 2,
         "sector_count": 1,
         "recent30": 0
+      },
+      {
+        "fund": "Non Sibi Ventures",
+        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
       },
       {
         "fund": "Manhattan West Ventures",
@@ -21518,10 +22129,10 @@
     "Healthtech / Bio": [
       {
         "fund": "General Catalyst",
-        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 17 attributed deal(s), 6 in the last 30d.",
-        "coverage": 17,
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 18 attributed deal(s), 7 in the last 30d.",
+        "coverage": 18,
         "sector_count": 4,
-        "recent30": 6
+        "recent30": 7
       },
       {
         "fund": "Index Ventures",
@@ -21546,10 +22157,10 @@
       },
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 24 attributed deal(s), 8 in the last 30d.",
-        "coverage": 24,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 26 attributed deal(s), 10 in the last 30d.",
+        "coverage": 26,
         "sector_count": 1,
-        "recent30": 8
+        "recent30": 10
       },
       {
         "fund": "Khosla Ventures",
@@ -21581,24 +22192,31 @@
       },
       {
         "fund": "Menlo Ventures",
-        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 13 attributed deal(s), 3 in the last 30d.",
-        "coverage": 13,
-        "sector_count": 1,
-        "recent30": 3
-      },
-      {
-        "fund": "Kleiner Perkins",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 11 attributed deal(s), 4 in the last 30d.",
-        "coverage": 11,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 14 attributed deal(s), 4 in the last 30d.",
+        "coverage": 14,
         "sector_count": 1,
         "recent30": 4
       },
       {
         "fund": "Founders Fund",
-        "thesis": "Revealed focus: Cybersecurity and Space Tech. 11 attributed deal(s), 6 in the last 30d.",
+        "thesis": "Revealed focus: Cybersecurity and Space Tech. 12 attributed deal(s), 7 in the last 30d.",
+        "coverage": 12,
+        "sector_count": 1,
+        "recent30": 7
+      },
+      {
+        "fund": "Kleiner Perkins",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 12 attributed deal(s), 5 in the last 30d.",
+        "coverage": 12,
+        "sector_count": 1,
+        "recent30": 5
+      },
+      {
+        "fund": "8VC",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 11 attributed deal(s), 4 in the last 30d.",
         "coverage": 11,
         "sector_count": 1,
-        "recent30": 6
+        "recent30": 4
       },
       {
         "fund": "Bessemer Venture Partners",
@@ -21608,11 +22226,11 @@
         "recent30": 4
       },
       {
-        "fund": "8VC",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 10 attributed deal(s), 3 in the last 30d.",
-        "coverage": 10,
+        "fund": "Bain Capital Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 8 attributed deal(s), 2 in the last 30d.",
+        "coverage": 8,
         "sector_count": 1,
-        "recent30": 3
+        "recent30": 2
       },
       {
         "fund": "Battery Ventures",
@@ -21627,13 +22245,6 @@
         "coverage": 8,
         "sector_count": 1,
         "recent30": 4
-      },
-      {
-        "fund": "Bain Capital Ventures",
-        "thesis": "Revealed focus: Fintech / Payments and Cybersecurity. 7 attributed deal(s), 1 in the last 30d.",
-        "coverage": 7,
-        "sector_count": 1,
-        "recent30": 1
       },
       {
         "fund": "SignalFire",
@@ -21793,10 +22404,10 @@
     "Coexistence / Empowerment": [
       {
         "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 20 attributed deal(s), 10 in the last 30d.",
-        "coverage": 20,
-        "sector_count": 8,
-        "recent30": 10
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 21 attributed deal(s), 11 in the last 30d.",
+        "coverage": 21,
+        "sector_count": 9,
+        "recent30": 11
       },
       {
         "fund": "ICE",
@@ -21813,6 +22424,13 @@
         "recent30": 1
       },
       {
+        "fund": "EIB",
+        "thesis": "Revealed focus: Coexistence / Empowerment. 6 attributed deal(s), 5 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 6,
+        "recent30": 5
+      },
+      {
         "fund": "MassMutual Ventures",
         "thesis": "Revealed focus: Coexistence / Empowerment. 6 attributed deal(s), 5 in the last 30d.",
         "coverage": 6,
@@ -21825,13 +22443,6 @@
         "coverage": 6,
         "sector_count": 6,
         "recent30": 6
-      },
-      {
-        "fund": "EIB",
-        "thesis": "Revealed focus: Coexistence / Empowerment. 5 attributed deal(s), 4 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 5,
-        "recent30": 4
       },
       {
         "fund": "BlackRock",
@@ -22073,10 +22684,17 @@
       },
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 24 attributed deal(s), 8 in the last 30d.",
-        "coverage": 24,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 26 attributed deal(s), 10 in the last 30d.",
+        "coverage": 26,
         "sector_count": 1,
-        "recent30": 8
+        "recent30": 10
+      },
+      {
+        "fund": "General Catalyst",
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 18 attributed deal(s), 7 in the last 30d.",
+        "coverage": 18,
+        "sector_count": 1,
+        "recent30": 7
       },
       {
         "fund": "Sequoia Capital",
@@ -22084,13 +22702,6 @@
         "coverage": 18,
         "sector_count": 1,
         "recent30": 5
-      },
-      {
-        "fund": "General Catalyst",
-        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 17 attributed deal(s), 6 in the last 30d.",
-        "coverage": 17,
-        "sector_count": 1,
-        "recent30": 6
       },
       {
         "fund": "Insight Partners",
@@ -22128,6 +22739,13 @@
         "recent30": 4
       },
       {
+        "fund": "Eclipse",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 7 attributed deal(s), 1 in the last 30d.",
+        "coverage": 7,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
         "fund": "CapitalG",
         "thesis": "Revealed focus: Cybersecurity and Space Tech. 7 attributed deal(s), 2 in the last 30d.",
         "coverage": 7,
@@ -22140,13 +22758,6 @@
         "coverage": 6,
         "sector_count": 1,
         "recent30": 2
-      },
-      {
-        "fund": "Eclipse",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 6 attributed deal(s).",
-        "coverage": 6,
-        "sector_count": 1,
-        "recent30": 0
       },
       {
         "fund": "Temasek",
@@ -22322,6 +22933,13 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 0
+      },
+      {
+        "fund": "In-Q-Tel",
+        "thesis": "Revealed focus: Cybersecurity and Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 1
       },
       {
         "fund": "Silverton Partners",

@@ -1,12 +1,12 @@
 {
-  "generated": "2026-10-01T17:15:34Z",
+  "generated": "2026-10-01T22:18:12Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 1320,
-    "deal_rows_attributed": 637,
+    "deal_rows_seen": 1325,
+    "deal_rows_attributed": 640,
     "funds_tracked": 376,
-    "fetch_attempts": 156,
-    "fetchable_pct": 8,
+    "fetch_attempts": 148,
+    "fetchable_pct": 3,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -223,8 +223,8 @@
     },
     {
       "fund": "Andreessen Horowitz",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 26 attributed deal(s), 10 in the last 30d.",
-      "coverage": 26,
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 27 attributed deal(s), 11 in the last 30d.",
+      "coverage": 27,
       "sectors": [
         {
           "label": "Cybersecurity",
@@ -233,8 +233,8 @@
         },
         {
           "label": "Fintech / Payments",
-          "count": 7,
-          "weight": 5.0
+          "count": 8,
+          "weight": 6.0
         },
         {
           "label": "AI / ML Infra",
@@ -257,8 +257,8 @@
           "weight": 0.5
         }
       ],
-      "recent30": 10,
-      "recent90": 26,
+      "recent30": 11,
+      "recent90": 27,
       "prior30": 8,
       "last_deal_days": 0,
       "deals": [
@@ -273,6 +273,12 @@
           "date": "2026-10-01",
           "summary": "Armadin raises $255.5 million to expand AI offensive security platform",
           "url": "https://www.helpnetsecurity.com/2026/10/01/armadin-raises-255-5-million-funding/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-10-01",
+          "summary": "Armadin Raises $255 Million to Scale Agentic Cybersecurity Platform",
+          "url": "https://www.pymnts.com/news/investment-tracker/2026/armadin-raises-255-million-to-scale-agentic-cybersecurity-platform/"
         },
         {
           "sector": "Fintech / Payments",
@@ -1196,6 +1202,140 @@
       ]
     },
     {
+      "fund": "Accel",
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 16 attributed deal(s), 9 in the last 30d.",
+      "coverage": 16,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 5,
+          "weight": 4.5
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 4,
+          "weight": 3.5
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 4,
+          "weight": 3.0
+        },
+        {
+          "label": "Space Tech",
+          "count": 2,
+          "weight": 1.0
+        },
+        {
+          "label": "Marketing / Ads",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 9,
+      "recent90": 16,
+      "prior30": 5,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-01",
+          "summary": "Kevin Mandia\u2019s Armadin Raises $255 Million at $2.5 Billion Valuation",
+          "url": "https://www.securityweek.com/kevin-mandias-armadin-raises-255-million-at-2-5-billion-valuation/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-10-01",
+          "summary": "Armadin Raises $255 Million to Scale Agentic Cybersecurity Platform",
+          "url": "https://www.pymnts.com/news/investment-tracker/2026/armadin-raises-255-million-to-scale-agentic-cybersecurity-platform/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-24",
+          "summary": "Ando wants to take on Slack with a team messaging app that lets humans and agents work together",
+          "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-24",
+          "summary": "Ando wants to take on Slack with a team messaging app that lets humans and agents work together",
+          "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-23",
+          "summary": "Ema raises $77M as AI starts eating into enterprise software and services",
+          "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-23",
+          "summary": "Ema raises $77M as AI starts eating into enterprise software and services",
+          "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-11",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-08",
+          "summary": "Cognition Secures $48 Billion Valuation as Demand for AI Coding Surges",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/cognition-secures-48-billion-valuation-as-demand-for-ai-coding-surges/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-03",
+          "summary": "Thinking Machines Lab Seeks $1 Billion at $40 Billion Valuation",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/thinking-machines-lab-seeks-40-billion-dollar-valuation/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-28",
+          "summary": "50% of the Work Created in Linear Is Now Created by Agents. A Year Ago It Was 3%.",
+          "url": "https://www.saastr.com/50-of-the-work-created-in-linear-is-now-created-by-agents-a-year-ago-it-was-3/"
+        },
+        {
+          "sector": "Marketing / Ads",
+          "date": "2026-08-28",
+          "summary": "50% of the Work Created in Linear Is Now Created by Agents. A Year Ago It Was 3%.",
+          "url": "https://www.saastr.com/50-of-the-work-created-in-linear-is-now-created-by-agents-a-year-ago-it-was-3/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-25",
+          "summary": "Accel-backed Keenable is indexing the web for AI agents",
+          "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-25",
+          "summary": "Accel-backed Keenable is indexing the web for AI agents",
+          "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-12",
+          "summary": "Accel raises $800m for ninth early-stage Europe fund",
+          "url": "https://sifted.eu/articles/accel-fundraise-800m-ninth-early-stage-europe-fund/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-18",
+          "summary": "Space Force triples launch contract ceiling amid rising demand",
+          "url": "https://spacenews.com/space-force-triples-launch-contract-ceiling-amid-rising-demand/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-13",
+          "summary": "Accel and Prosus backed QOSMIC raises $3.33 Million to Build Optical Ground Stations for the Orbital Data Economy",
+          "url": "https://spacenews.com/accel-and-prosus-backed-qosmic-raises-3-33-million-to-build-optical-ground-stations-for-the-orbital-data-economy/"
+        }
+      ]
+    },
+    {
       "fund": "Sequoia",
       "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 16 attributed deal(s), 8 in the last 30d.",
       "coverage": 16,
@@ -1455,134 +1595,6 @@
           "date": "2026-06-16",
           "summary": "The next generation of analytics: Why we invested in Golden Analytics",
           "url": "https://www.insightpartners.com/ideas/why-we-invested-in-golden-analytics/"
-        }
-      ]
-    },
-    {
-      "fund": "Accel",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 15 attributed deal(s), 8 in the last 30d.",
-      "coverage": 15,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 5,
-          "weight": 4.5
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 4,
-          "weight": 3.0
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 3,
-          "weight": 2.5
-        },
-        {
-          "label": "Space Tech",
-          "count": 2,
-          "weight": 1.0
-        },
-        {
-          "label": "Marketing / Ads",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 8,
-      "recent90": 15,
-      "prior30": 5,
-      "last_deal_days": 0,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-10-01",
-          "summary": "Kevin Mandia\u2019s Armadin Raises $255 Million at $2.5 Billion Valuation",
-          "url": "https://www.securityweek.com/kevin-mandias-armadin-raises-255-million-at-2-5-billion-valuation/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-24",
-          "summary": "Ando wants to take on Slack with a team messaging app that lets humans and agents work together",
-          "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-24",
-          "summary": "Ando wants to take on Slack with a team messaging app that lets humans and agents work together",
-          "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-23",
-          "summary": "Ema raises $77M as AI starts eating into enterprise software and services",
-          "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-23",
-          "summary": "Ema raises $77M as AI starts eating into enterprise software and services",
-          "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-11",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: The Boring Co., Cognition And Motive Lead A Massive Week",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-09-08",
-          "summary": "Cognition Secures $48 Billion Valuation as Demand for AI Coding Surges",
-          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/cognition-secures-48-billion-valuation-as-demand-for-ai-coding-surges/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-09-03",
-          "summary": "Thinking Machines Lab Seeks $1 Billion at $40 Billion Valuation",
-          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/thinking-machines-lab-seeks-40-billion-dollar-valuation/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-08-28",
-          "summary": "50% of the Work Created in Linear Is Now Created by Agents. A Year Ago It Was 3%.",
-          "url": "https://www.saastr.com/50-of-the-work-created-in-linear-is-now-created-by-agents-a-year-ago-it-was-3/"
-        },
-        {
-          "sector": "Marketing / Ads",
-          "date": "2026-08-28",
-          "summary": "50% of the Work Created in Linear Is Now Created by Agents. A Year Ago It Was 3%.",
-          "url": "https://www.saastr.com/50-of-the-work-created-in-linear-is-now-created-by-agents-a-year-ago-it-was-3/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-25",
-          "summary": "Accel-backed Keenable is indexing the web for AI agents",
-          "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-08-25",
-          "summary": "Accel-backed Keenable is indexing the web for AI agents",
-          "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-08-12",
-          "summary": "Accel raises $800m for ninth early-stage Europe fund",
-          "url": "https://sifted.eu/articles/accel-fundraise-800m-ninth-early-stage-europe-fund/"
-        },
-        {
-          "sector": "Space Tech",
-          "date": "2026-07-18",
-          "summary": "Space Force triples launch contract ceiling amid rising demand",
-          "url": "https://spacenews.com/space-force-triples-launch-contract-ceiling-amid-rising-demand/"
-        },
-        {
-          "sector": "Space Tech",
-          "date": "2026-07-13",
-          "summary": "Accel and Prosus backed QOSMIC raises $3.33 Million to Build Optical Ground Stations for the Orbital Data Economy",
-          "url": "https://spacenews.com/accel-and-prosus-backed-qosmic-raises-3-33-million-to-build-optical-ground-stations-for-the-orbital-data-economy/"
         }
       ]
     },
@@ -17384,6 +17396,13 @@
         "recent30": 0
       },
       {
+        "fund": "Accel",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 16 attributed deal(s), 9 in the last 30d.",
+        "coverage": 16,
+        "sector_count": 4,
+        "recent30": 9
+      },
+      {
         "fund": "Sequoia",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 16 attributed deal(s), 8 in the last 30d.",
         "coverage": 16,
@@ -17398,18 +17417,11 @@
         "recent30": 8
       },
       {
-        "fund": "Accel",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 15 attributed deal(s), 8 in the last 30d.",
-        "coverage": 15,
-        "sector_count": 4,
-        "recent30": 8
-      },
-      {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 26 attributed deal(s), 10 in the last 30d.",
-        "coverage": 26,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 27 attributed deal(s), 11 in the last 30d.",
+        "coverage": 27,
         "sector_count": 3,
-        "recent30": 10
+        "recent30": 11
       },
       {
         "fund": "Khosla Ventures",
@@ -18276,10 +18288,10 @@
       },
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 26 attributed deal(s), 10 in the last 30d.",
-        "coverage": 26,
-        "sector_count": 7,
-        "recent30": 10
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 27 attributed deal(s), 11 in the last 30d.",
+        "coverage": 27,
+        "sector_count": 8,
+        "recent30": 11
       },
       {
         "fund": "BlackFin Capital Partners",
@@ -18296,6 +18308,13 @@
         "recent30": 4
       },
       {
+        "fund": "Accel",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 16 attributed deal(s), 9 in the last 30d.",
+        "coverage": 16,
+        "sector_count": 4,
+        "recent30": 9
+      },
+      {
         "fund": "Insight Partners",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 16 attributed deal(s), 8 in the last 30d.",
         "coverage": 16,
@@ -18308,13 +18327,6 @@
         "coverage": 18,
         "sector_count": 3,
         "recent30": 5
-      },
-      {
-        "fund": "Accel",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 15 attributed deal(s), 8 in the last 30d.",
-        "coverage": 15,
-        "sector_count": 3,
-        "recent30": 8
       },
       {
         "fund": "Bain Capital Ventures",
@@ -19132,10 +19144,10 @@
     "Cybersecurity": [
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 26 attributed deal(s), 10 in the last 30d.",
-        "coverage": 26,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 27 attributed deal(s), 11 in the last 30d.",
+        "coverage": 27,
         "sector_count": 12,
-        "recent30": 10
+        "recent30": 11
       },
       {
         "fund": "Sequoia Capital",
@@ -19244,10 +19256,10 @@
       },
       {
         "fund": "Accel",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 15 attributed deal(s), 8 in the last 30d.",
-        "coverage": 15,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 16 attributed deal(s), 9 in the last 30d.",
+        "coverage": 16,
         "sector_count": 5,
-        "recent30": 8
+        "recent30": 9
       },
       {
         "fund": "Bessemer Venture Partners",
@@ -21383,10 +21395,10 @@
       },
       {
         "fund": "Accel",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 15 attributed deal(s), 8 in the last 30d.",
-        "coverage": 15,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 16 attributed deal(s), 9 in the last 30d.",
+        "coverage": 16,
         "sector_count": 1,
-        "recent30": 8
+        "recent30": 9
       },
       {
         "fund": "Benchmark",
@@ -21630,10 +21642,10 @@
       },
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 26 attributed deal(s), 10 in the last 30d.",
-        "coverage": 26,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 27 attributed deal(s), 11 in the last 30d.",
+        "coverage": 27,
         "sector_count": 2,
-        "recent30": 10
+        "recent30": 11
       },
       {
         "fund": "Google",
@@ -21651,10 +21663,10 @@
       },
       {
         "fund": "Accel",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 15 attributed deal(s), 8 in the last 30d.",
-        "coverage": 15,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 16 attributed deal(s), 9 in the last 30d.",
+        "coverage": 16,
         "sector_count": 2,
-        "recent30": 8
+        "recent30": 9
       },
       {
         "fund": "Founders Fund",
@@ -22157,10 +22169,10 @@
       },
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 26 attributed deal(s), 10 in the last 30d.",
-        "coverage": 26,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 27 attributed deal(s), 11 in the last 30d.",
+        "coverage": 27,
         "sector_count": 1,
-        "recent30": 10
+        "recent30": 11
       },
       {
         "fund": "Khosla Ventures",
@@ -22684,10 +22696,10 @@
       },
       {
         "fund": "Andreessen Horowitz",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 26 attributed deal(s), 10 in the last 30d.",
-        "coverage": 26,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 27 attributed deal(s), 11 in the last 30d.",
+        "coverage": 27,
         "sector_count": 1,
-        "recent30": 10
+        "recent30": 11
       },
       {
         "fund": "General Catalyst",

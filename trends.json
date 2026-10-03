@@ -1,80 +1,80 @@
 {
-  "generated": "2026-10-03T15:40:16Z",
+  "generated": "2026-10-03T18:58:23Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 27821,
-      "recent7": 1346,
+      "total": 27849,
+      "recent7": 1373,
       "sparkline": [
         1702,
         1650,
-        1640,
-        1346
+        1641,
+        1373
       ],
       "momentum_pct": 5,
       "momentum_basis": "7d",
-      "hard_count": 989,
+      "hard_count": 990,
       "hard_ratio": 0.036,
       "exit_count": 121,
-      "talk_count": 26485,
+      "talk_count": 26512,
       "whitespace_score": 26.8,
       "rising": [
         {
           "term": "shinyhunters",
-          "count": 60,
-          "delta": 59
+          "count": 61,
+          "delta": 60
         },
         {
           "term": "netscaler",
-          "count": 48,
-          "delta": 44
+          "count": 51,
+          "delta": 47
         },
         {
           "term": "firm",
-          "count": 145,
-          "delta": 42
+          "count": 148,
+          "delta": 45
         },
         {
           "term": "class action",
-          "count": 138,
-          "delta": 39
+          "count": 143,
+          "delta": 44
         },
         {
           "term": "fbi",
-          "count": 54,
-          "delta": 37
+          "count": 55,
+          "delta": 38
         },
         {
           "term": "law",
-          "count": 148,
+          "count": 149,
+          "delta": 37
+        },
+        {
+          "term": "data",
+          "count": 310,
           "delta": 36
         },
         {
           "term": "securities",
-          "count": 137,
-          "delta": 34
-        },
-        {
-          "term": "law firm",
-          "count": 107,
-          "delta": 34
+          "count": 139,
+          "delta": 36
         }
       ],
       "movers": [
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 863
+          "count": 874
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 480
+          "count": 487
         },
         {
           "name": "ProductHunt",
           "firm": "producthunt",
-          "count": 198
+          "count": 200
         },
         {
           "name": "Security Conferences",
@@ -95,20 +95,20 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 4513,
-      "recent7": 359,
+      "total": 4515,
+      "recent7": 361,
       "sparkline": [
         338,
         358,
         340,
-        359
+        361
       ],
       "momentum_pct": 9,
       "momentum_basis": "7d",
       "hard_count": 408,
       "hard_ratio": 0.09,
       "exit_count": 195,
-      "talk_count": 3800,
+      "talk_count": 3802,
       "whitespace_score": 9.3,
       "rising": [
         {
@@ -138,8 +138,8 @@
         },
         {
           "term": "artificial intelligence",
-          "count": 85,
-          "delta": 19
+          "count": 86,
+          "delta": 20
         },
         {
           "term": "without",
@@ -187,20 +187,20 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 2801,
-      "recent7": 248,
+      "total": 2804,
+      "recent7": 251,
       "sparkline": [
         197,
         220,
         245,
-        248
+        251
       ],
       "momentum_pct": 10,
       "momentum_basis": "7d",
       "hard_count": 184,
       "hard_ratio": 0.066,
       "exit_count": 70,
-      "talk_count": 2482,
+      "talk_count": 2485,
       "whitespace_score": 13.5,
       "rising": [
         {
@@ -366,20 +366,20 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 2817,
-      "recent7": 222,
+      "total": 2820,
+      "recent7": 225,
       "sparkline": [
         203,
         213,
         229,
-        222
+        225
       ],
       "momentum_pct": 9,
       "momentum_basis": "7d",
       "hard_count": 135,
       "hard_ratio": 0.048,
       "exit_count": 12,
-      "talk_count": 2634,
+      "talk_count": 2637,
       "whitespace_score": 19.5,
       "rising": [
         {
@@ -427,7 +427,7 @@
         {
           "name": "CleanTechnica",
           "firm": "CleanTechnica",
-          "count": 134
+          "count": 137
         },
         {
           "name": "Utility Dive",
@@ -458,31 +458,31 @@
     },
     "edtech": {
       "label": "Edtech",
-      "total": 1208,
-      "recent7": 82,
+      "total": 1209,
+      "recent7": 83,
       "sparkline": [
         86,
         96,
         82,
-        82
+        83
       ],
       "momentum_pct": 7,
       "momentum_basis": "7d",
       "hard_count": 32,
       "hard_ratio": 0.026,
       "exit_count": 1,
-      "talk_count": 1166,
-      "whitespace_score": 36.4,
+      "talk_count": 1167,
+      "whitespace_score": 36.5,
       "rising": [
         {
           "term": "state",
-          "count": 29,
-          "delta": 19
+          "count": 30,
+          "delta": 20
         },
         {
           "term": "school",
-          "count": 81,
-          "delta": 15
+          "count": 82,
+          "delta": 16
         },
         {
           "term": "investigation",
@@ -519,7 +519,7 @@
         {
           "name": "The 74",
           "firm": "The 74 Million",
-          "count": 59
+          "count": 60
         },
         {
           "name": "Class Central",
@@ -780,15 +780,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 1346,
+        "recent7": 1373,
         "momentum_pct": 5,
         "momentum_basis": "7d",
-        "total": 27821,
+        "total": 27849,
         "sparkline": [
           1702,
           1650,
-          1640,
-          1346
+          1641,
+          1373
         ],
         "hard_ratio": 0.036,
         "whitespace_score": 26.8
@@ -796,15 +796,15 @@
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 359,
+        "recent7": 361,
         "momentum_pct": 9,
         "momentum_basis": "7d",
-        "total": 4513,
+        "total": 4515,
         "sparkline": [
           338,
           358,
           340,
-          359
+          361
         ],
         "hard_ratio": 0.09,
         "whitespace_score": 9.3
@@ -812,15 +812,15 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 248,
+        "recent7": 251,
         "momentum_pct": 10,
         "momentum_basis": "7d",
-        "total": 2801,
+        "total": 2804,
         "sparkline": [
           197,
           220,
           245,
-          248
+          251
         ],
         "hard_ratio": 0.066,
         "whitespace_score": 13.5
@@ -828,15 +828,15 @@
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 222,
+        "recent7": 225,
         "momentum_pct": 9,
         "momentum_basis": "7d",
-        "total": 2817,
+        "total": 2820,
         "sparkline": [
           203,
           213,
           229,
-          222
+          225
         ],
         "hard_ratio": 0.048,
         "whitespace_score": 19.5
@@ -892,18 +892,18 @@
       {
         "id": "edtech",
         "label": "Edtech",
-        "recent7": 82,
+        "recent7": 83,
         "momentum_pct": 7,
         "momentum_basis": "7d",
-        "total": 1208,
+        "total": 1209,
         "sparkline": [
           86,
           96,
           82,
-          82
+          83
         ],
         "hard_ratio": 0.026,
-        "whitespace_score": 36.4
+        "whitespace_score": 36.5
       },
       {
         "id": "coexistence-empowerment",
@@ -945,33 +945,33 @@
       },
       {
         "term": "agent",
-        "count": 297,
-        "delta": 64
+        "count": 298,
+        "delta": 65
       },
       {
         "term": "shinyhunters",
-        "count": 60,
-        "delta": 59
+        "count": 61,
+        "delta": 60
       },
       {
         "term": "firm",
-        "count": 205,
-        "delta": 44
+        "count": 208,
+        "delta": 47
       },
       {
         "term": "netscaler",
-        "count": 48,
-        "delta": 44
+        "count": 51,
+        "delta": 47
       },
       {
         "term": "securities",
-        "count": 168,
-        "delta": 42
+        "count": 170,
+        "delta": 44
       },
       {
-        "term": "save",
-        "count": 77,
-        "delta": 41
+        "term": "class action",
+        "count": 146,
+        "delta": 42
       }
     ],
     "highlights": [
@@ -1096,6 +1096,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 44630
+    "total_signals": 44667
   }
 }

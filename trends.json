@@ -1,22 +1,22 @@
 {
-  "generated": "2026-10-03T11:27:26Z",
+  "generated": "2026-10-03T15:40:16Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 27779,
-      "recent7": 1304,
+      "total": 27821,
+      "recent7": 1346,
       "sparkline": [
         1702,
         1650,
         1640,
-        1304
+        1346
       ],
       "momentum_pct": 5,
       "momentum_basis": "7d",
-      "hard_count": 988,
+      "hard_count": 989,
       "hard_ratio": 0.036,
       "exit_count": 121,
-      "talk_count": 26444,
+      "talk_count": 26485,
       "whitespace_score": 26.8,
       "rising": [
         {
@@ -31,8 +31,13 @@
         },
         {
           "term": "firm",
-          "count": 143,
-          "delta": 40
+          "count": 145,
+          "delta": 42
+        },
+        {
+          "term": "class action",
+          "count": 138,
+          "delta": 39
         },
         {
           "term": "fbi",
@@ -40,41 +45,36 @@
           "delta": 37
         },
         {
-          "term": "class action",
-          "count": 134,
-          "delta": 35
+          "term": "law",
+          "count": 148,
+          "delta": 36
         },
         {
-          "term": "techcrunch",
-          "count": 52,
+          "term": "securities",
+          "count": 137,
           "delta": 34
         },
         {
-          "term": "law",
-          "count": 145,
-          "delta": 33
-        },
-        {
           "term": "law firm",
-          "count": 105,
-          "delta": 32
+          "count": 107,
+          "delta": 34
         }
       ],
       "movers": [
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 850
+          "count": 863
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 475
+          "count": 480
         },
         {
           "name": "ProductHunt",
           "firm": "producthunt",
-          "count": 193
+          "count": 198
         },
         {
           "name": "Security Conferences",
@@ -84,7 +84,7 @@
         {
           "name": "Security Affairs",
           "firm": "blog",
-          "count": 62
+          "count": 64
         },
         {
           "name": "Malwarebytes Labs",
@@ -95,20 +95,20 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 4508,
-      "recent7": 354,
+      "total": 4513,
+      "recent7": 359,
       "sparkline": [
         338,
         358,
         340,
-        354
+        359
       ],
       "momentum_pct": 9,
       "momentum_basis": "7d",
       "hard_count": 408,
-      "hard_ratio": 0.091,
+      "hard_ratio": 0.09,
       "exit_count": 195,
-      "talk_count": 3795,
+      "talk_count": 3800,
       "whitespace_score": 9.3,
       "rising": [
         {
@@ -123,8 +123,8 @@
         },
         {
           "term": "system",
-          "count": 33,
-          "delta": 24
+          "count": 34,
+          "delta": 25
         },
         {
           "term": "border",
@@ -147,8 +147,8 @@
           "delta": 19
         },
         {
-          "term": "open",
-          "count": 29,
+          "term": "across",
+          "count": 45,
           "delta": 18
         }
       ],
@@ -177,41 +177,46 @@
           "name": "Andreessen Horowitz (a16z / Future)",
           "firm": "Andreessen Horowitz",
           "count": 2
+        },
+        {
+          "name": "Marc Rubinstein",
+          "firm": "Net Interest",
+          "count": 1
         }
       ]
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 2794,
-      "recent7": 241,
+      "total": 2801,
+      "recent7": 248,
       "sparkline": [
         197,
         220,
         245,
-        241
+        248
       ],
       "momentum_pct": 10,
       "momentum_basis": "7d",
       "hard_count": 184,
       "hard_ratio": 0.066,
       "exit_count": 70,
-      "talk_count": 2475,
+      "talk_count": 2482,
       "whitespace_score": 13.5,
       "rising": [
         {
           "term": "meta",
-          "count": 98,
-          "delta": 64
+          "count": 100,
+          "delta": 66
         },
         {
           "term": "muse",
-          "count": 77,
-          "delta": 59
+          "count": 80,
+          "delta": 62
         },
         {
           "term": "agent",
-          "count": 71,
-          "delta": 34
+          "count": 74,
+          "delta": 37
         },
         {
           "term": "techcrunch",
@@ -224,13 +229,13 @@
           "delta": 22
         },
         {
-          "term": "world",
-          "count": 35,
-          "delta": 19
+          "term": "platform",
+          "count": 27,
+          "delta": 20
         },
         {
-          "term": "platform",
-          "count": 26,
+          "term": "world",
+          "count": 35,
           "delta": 19
         },
         {
@@ -248,7 +253,7 @@
         {
           "name": "Jason Lemkin",
           "firm": "SaaStr Fund",
-          "count": 18
+          "count": 20
         },
         {
           "name": "Shawn Wang (swyx) / Alessio Fanelli",
@@ -361,25 +366,30 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 2812,
-      "recent7": 217,
+      "total": 2817,
+      "recent7": 222,
       "sparkline": [
         203,
         213,
         229,
-        217
+        222
       ],
-      "momentum_pct": 8,
+      "momentum_pct": 9,
       "momentum_basis": "7d",
       "hard_count": 135,
       "hard_ratio": 0.048,
       "exit_count": 12,
-      "talk_count": 2629,
+      "talk_count": 2634,
       "whitespace_score": 19.5,
       "rising": [
         {
           "term": "trucks",
-          "count": 26,
+          "count": 27,
+          "delta": 19
+        },
+        {
+          "term": "battery",
+          "count": 64,
           "delta": 18
         },
         {
@@ -393,9 +403,9 @@
           "delta": 16
         },
         {
-          "term": "battery",
-          "count": 61,
-          "delta": 15
+          "term": "save",
+          "count": 19,
+          "delta": 14
         },
         {
           "term": "disrupt",
@@ -405,11 +415,6 @@
         {
           "term": "techcrunch",
           "count": 19,
-          "delta": 13
-        },
-        {
-          "term": "save",
-          "count": 18,
           "delta": 13
         },
         {
@@ -530,21 +535,21 @@
     },
     "marketing-ads": {
       "label": "Marketing / Ads",
-      "total": 1295,
-      "recent7": 99,
+      "total": 1298,
+      "recent7": 102,
       "sparkline": [
         83,
         107,
         114,
-        99
+        102
       ],
-      "momentum_pct": 8,
+      "momentum_pct": 9,
       "momentum_basis": "7d",
       "hard_count": 33,
       "hard_ratio": 0.025,
       "exit_count": 17,
-      "talk_count": 1232,
-      "whitespace_score": 37.3,
+      "talk_count": 1235,
+      "whitespace_score": 37.4,
       "rising": [
         {
           "term": "partnership",
@@ -596,7 +601,7 @@
         {
           "name": "Jason Lemkin",
           "firm": "SaaStr Fund",
-          "count": 10
+          "count": 13
         },
         {
           "name": "Lenny Rachitsky",
@@ -775,15 +780,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 1304,
+        "recent7": 1346,
         "momentum_pct": 5,
         "momentum_basis": "7d",
-        "total": 27779,
+        "total": 27821,
         "sparkline": [
           1702,
           1650,
           1640,
-          1304
+          1346
         ],
         "hard_ratio": 0.036,
         "whitespace_score": 26.8
@@ -791,31 +796,31 @@
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 354,
+        "recent7": 359,
         "momentum_pct": 9,
         "momentum_basis": "7d",
-        "total": 4508,
+        "total": 4513,
         "sparkline": [
           338,
           358,
           340,
-          354
+          359
         ],
-        "hard_ratio": 0.091,
+        "hard_ratio": 0.09,
         "whitespace_score": 9.3
       },
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 241,
+        "recent7": 248,
         "momentum_pct": 10,
         "momentum_basis": "7d",
-        "total": 2794,
+        "total": 2801,
         "sparkline": [
           197,
           220,
           245,
-          241
+          248
         ],
         "hard_ratio": 0.066,
         "whitespace_score": 13.5
@@ -823,15 +828,15 @@
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 217,
-        "momentum_pct": 8,
+        "recent7": 222,
+        "momentum_pct": 9,
         "momentum_basis": "7d",
-        "total": 2812,
+        "total": 2817,
         "sparkline": [
           203,
           213,
           229,
-          217
+          222
         ],
         "hard_ratio": 0.048,
         "whitespace_score": 19.5
@@ -855,18 +860,18 @@
       {
         "id": "marketing-ads",
         "label": "Marketing / Ads",
-        "recent7": 99,
-        "momentum_pct": 8,
+        "recent7": 102,
+        "momentum_pct": 9,
         "momentum_basis": "7d",
-        "total": 1295,
+        "total": 1298,
         "sparkline": [
           83,
           107,
           114,
-          99
+          102
         ],
         "hard_ratio": 0.025,
-        "whitespace_score": 37.3
+        "whitespace_score": 37.4
       },
       {
         "id": "space-tech",
@@ -920,13 +925,13 @@
     "rising": [
       {
         "term": "meta",
-        "count": 178,
-        "delta": 98
+        "count": 181,
+        "delta": 101
       },
       {
         "term": "muse",
-        "count": 115,
-        "delta": 82
+        "count": 120,
+        "delta": 87
       },
       {
         "term": "techcrunch",
@@ -939,14 +944,19 @@
         "delta": 69
       },
       {
+        "term": "agent",
+        "count": 297,
+        "delta": 64
+      },
+      {
         "term": "shinyhunters",
         "count": 60,
         "delta": 59
       },
       {
-        "term": "agent",
-        "count": 287,
-        "delta": 54
+        "term": "firm",
+        "count": 205,
+        "delta": 44
       },
       {
         "term": "netscaler",
@@ -954,18 +964,13 @@
         "delta": 44
       },
       {
-        "term": "firm",
-        "count": 203,
+        "term": "securities",
+        "count": 168,
         "delta": 42
       },
       {
-        "term": "francisco",
-        "count": 50,
-        "delta": 41
-      },
-      {
-        "term": "san francisco",
-        "count": 50,
+        "term": "save",
+        "count": 77,
         "delta": 41
       }
     ],
@@ -1091,6 +1096,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 44568
+    "total_signals": 44630
   }
 }

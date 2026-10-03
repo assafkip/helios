@@ -1,22 +1,22 @@
 {
-  "generated": "2026-10-03T00:07:44Z",
+  "generated": "2026-10-03T05:59:49Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 27719,
-      "recent7": 1249,
+      "total": 27749,
+      "recent7": 1279,
       "sparkline": [
         1702,
         1649,
         1636,
-        1249
+        1279
       ],
       "momentum_pct": 5,
       "momentum_basis": "7d",
-      "hard_count": 986,
+      "hard_count": 987,
       "hard_ratio": 0.036,
       "exit_count": 121,
-      "talk_count": 26386,
+      "talk_count": 26415,
       "whitespace_score": 26.8,
       "rising": [
         {
@@ -40,6 +40,11 @@
           "delta": 37
         },
         {
+          "term": "class action",
+          "count": 134,
+          "delta": 35
+        },
+        {
           "term": "techcrunch",
           "count": 52,
           "delta": 34
@@ -53,28 +58,23 @@
           "term": "law firm",
           "count": 105,
           "delta": 32
-        },
-        {
-          "term": "securities",
-          "count": 131,
-          "delta": 28
         }
       ],
       "movers": [
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 830
+          "count": 840
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 462
+          "count": 468
         },
         {
           "name": "ProductHunt",
           "firm": "producthunt",
-          "count": 180
+          "count": 185
         },
         {
           "name": "Security Conferences",
@@ -274,20 +274,20 @@
     },
     "healthtech": {
       "label": "Healthtech / Bio",
-      "total": 1546,
-      "recent7": 124,
+      "total": 1547,
+      "recent7": 125,
       "sparkline": [
         108,
         121,
         118,
-        124
+        125
       ],
       "momentum_pct": 9,
       "momentum_basis": "7d",
       "hard_count": 82,
       "hard_ratio": 0.053,
       "exit_count": 40,
-      "talk_count": 1411,
+      "talk_count": 1412,
       "whitespace_score": 17.2,
       "rising": [
         {
@@ -296,14 +296,14 @@
           "delta": 18
         },
         {
+          "term": "care",
+          "count": 47,
+          "delta": 17
+        },
+        {
           "term": "clinical",
           "count": 21,
           "delta": 16
-        },
-        {
-          "term": "care",
-          "count": 45,
-          "delta": 15
         },
         {
           "term": "overton",
@@ -350,7 +350,7 @@
         {
           "name": "Digital Health Wire",
           "firm": "Digital Health Wire",
-          "count": 3
+          "count": 4
         },
         {
           "name": "Blake Madden",
@@ -361,20 +361,20 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 2804,
-      "recent7": 209,
+      "total": 2808,
+      "recent7": 213,
       "sparkline": [
         203,
         213,
         229,
-        209
+        213
       ],
       "momentum_pct": 8,
       "momentum_basis": "7d",
       "hard_count": 135,
       "hard_ratio": 0.048,
       "exit_count": 12,
-      "talk_count": 2621,
+      "talk_count": 2625,
       "whitespace_score": 19.4,
       "rising": [
         {
@@ -422,7 +422,7 @@
         {
           "name": "CleanTechnica",
           "firm": "CleanTechnica",
-          "count": 129
+          "count": 133
         },
         {
           "name": "Utility Dive",
@@ -453,20 +453,20 @@
     },
     "edtech": {
       "label": "Edtech",
-      "total": 1206,
-      "recent7": 80,
+      "total": 1207,
+      "recent7": 81,
       "sparkline": [
         86,
         96,
         82,
-        80
+        81
       ],
       "momentum_pct": 7,
       "momentum_basis": "7d",
       "hard_count": 32,
       "hard_ratio": 0.027,
       "exit_count": 1,
-      "talk_count": 1164,
+      "talk_count": 1165,
       "whitespace_score": 36.4,
       "rising": [
         {
@@ -505,8 +505,8 @@
           "delta": 9
         },
         {
-          "term": "abuse",
-          "count": 9,
+          "term": "cornell",
+          "count": 11,
           "delta": 9
         }
       ],
@@ -775,15 +775,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 1249,
+        "recent7": 1279,
         "momentum_pct": 5,
         "momentum_basis": "7d",
-        "total": 27719,
+        "total": 27749,
         "sparkline": [
           1702,
           1649,
           1636,
-          1249
+          1279
         ],
         "hard_ratio": 0.036,
         "whitespace_score": 26.8
@@ -823,15 +823,15 @@
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 209,
+        "recent7": 213,
         "momentum_pct": 8,
         "momentum_basis": "7d",
-        "total": 2804,
+        "total": 2808,
         "sparkline": [
           203,
           213,
           229,
-          209
+          213
         ],
         "hard_ratio": 0.048,
         "whitespace_score": 19.4
@@ -839,15 +839,15 @@
       {
         "id": "healthtech",
         "label": "Healthtech / Bio",
-        "recent7": 124,
+        "recent7": 125,
         "momentum_pct": 9,
         "momentum_basis": "7d",
-        "total": 1546,
+        "total": 1547,
         "sparkline": [
           108,
           121,
           118,
-          124
+          125
         ],
         "hard_ratio": 0.053,
         "whitespace_score": 17.2
@@ -887,15 +887,15 @@
       {
         "id": "edtech",
         "label": "Edtech",
-        "recent7": 80,
+        "recent7": 81,
         "momentum_pct": 7,
         "momentum_basis": "7d",
-        "total": 1206,
+        "total": 1207,
         "sparkline": [
           86,
           96,
           82,
-          80
+          81
         ],
         "hard_ratio": 0.027,
         "whitespace_score": 36.4
@@ -930,8 +930,8 @@
       },
       {
         "term": "muse",
-        "count": 113,
-        "delta": 80
+        "count": 114,
+        "delta": 81
       },
       {
         "term": "techcrunch disrupt",
@@ -945,8 +945,8 @@
       },
       {
         "term": "agent",
-        "count": 281,
-        "delta": 48
+        "count": 282,
+        "delta": 49
       },
       {
         "term": "netscaler",
@@ -1091,6 +1091,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 44488
+    "total_signals": 44524
   }
 }

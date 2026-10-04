@@ -1,38 +1,43 @@
 {
-  "generated": "2026-10-04T02:21:28Z",
+  "generated": "2026-10-04T09:17:51Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 27893,
-      "recent7": 1281,
+      "total": 27937,
+      "recent7": 1323,
       "sparkline": [
         1676,
-        1684,
-        1581,
-        1281
+        1685,
+        1582,
+        1323
       ],
       "momentum_pct": 5,
       "momentum_basis": "7d",
-      "hard_count": 991,
+      "hard_count": 994,
       "hard_ratio": 0.036,
       "exit_count": 121,
-      "talk_count": 26555,
+      "talk_count": 26596,
       "whitespace_score": 26.8,
       "rising": [
         {
           "term": "shinyhunters",
-          "count": 61,
-          "delta": 60
+          "count": 63,
+          "delta": 62
         },
         {
           "term": "netscaler",
-          "count": 51,
-          "delta": 47
+          "count": 52,
+          "delta": 48
         },
         {
           "term": "fbi",
-          "count": 55,
-          "delta": 38
+          "count": 56,
+          "delta": 39
+        },
+        {
+          "term": "data",
+          "count": 301,
+          "delta": 35
         },
         {
           "term": "techcrunch",
@@ -40,14 +45,9 @@
           "delta": 35
         },
         {
-          "term": "data",
-          "count": 300,
-          "delta": 34
-        },
-        {
           "term": "australian",
-          "count": 29,
-          "delta": 29
+          "count": 30,
+          "delta": 30
         },
         {
           "term": "disrupt",
@@ -64,27 +64,27 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 816
+          "count": 832
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 455
+          "count": 464
         },
         {
           "name": "ProductHunt",
           "firm": "producthunt",
-          "count": 188
+          "count": 196
         },
         {
           "name": "Security Conferences",
           "firm": "conference",
-          "count": 140
+          "count": 141
         },
         {
           "name": "Security Affairs",
           "firm": "blog",
-          "count": 60
+          "count": 62
         },
         {
           "name": "Malwarebytes Labs",
@@ -187,20 +187,20 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 2808,
-      "recent7": 238,
+      "total": 2810,
+      "recent7": 240,
       "sparkline": [
         193,
         229,
         242,
-        238
+        240
       ],
       "momentum_pct": 9,
       "momentum_basis": "7d",
       "hard_count": 184,
-      "hard_ratio": 0.066,
+      "hard_ratio": 0.065,
       "exit_count": 70,
-      "talk_count": 2489,
+      "talk_count": 2491,
       "whitespace_score": 13.5,
       "rising": [
         {
@@ -263,7 +263,7 @@
         {
           "name": "Sarah Tavel",
           "firm": "Benchmark",
-          "count": 16
+          "count": 17
         },
         {
           "name": "Tomasz Tunguz",
@@ -366,20 +366,20 @@
     },
     "climate": {
       "label": "Climate / Energy",
-      "total": 2824,
-      "recent7": 216,
+      "total": 2825,
+      "recent7": 217,
       "sparkline": [
         204,
         215,
         229,
-        216
+        217
       ],
       "momentum_pct": 8,
       "momentum_basis": "7d",
       "hard_count": 135,
       "hard_ratio": 0.048,
       "exit_count": 12,
-      "talk_count": 2640,
+      "talk_count": 2641,
       "whitespace_score": 19.6,
       "rising": [
         {
@@ -408,6 +408,11 @@
           "delta": 14
         },
         {
+          "term": "future",
+          "count": 20,
+          "delta": 13
+        },
+        {
           "term": "techcrunch",
           "count": 19,
           "delta": 13
@@ -416,11 +421,6 @@
           "term": "techcrunch disrupt",
           "count": 18,
           "delta": 13
-        },
-        {
-          "term": "future",
-          "count": 19,
-          "delta": 12
         }
       ],
       "movers": [
@@ -709,26 +709,26 @@
     },
     "coexistence-empowerment": {
       "label": "Coexistence / Empowerment",
-      "total": 903,
-      "recent7": 76,
+      "total": 904,
+      "recent7": 77,
       "sparkline": [
         72,
         77,
         76,
-        76
+        77
       ],
       "momentum_pct": 9,
       "momentum_basis": "7d",
       "hard_count": 149,
       "hard_ratio": 0.165,
       "exit_count": 48,
-      "talk_count": 698,
+      "talk_count": 699,
       "whitespace_score": 4.7,
       "rising": [
         {
           "term": "sustainability",
-          "count": 41,
-          "delta": 23
+          "count": 42,
+          "delta": 24
         },
         {
           "term": "capital",
@@ -780,15 +780,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 1281,
+        "recent7": 1323,
         "momentum_pct": 5,
         "momentum_basis": "7d",
-        "total": 27893,
+        "total": 27937,
         "sparkline": [
           1676,
-          1684,
-          1581,
-          1281
+          1685,
+          1582,
+          1323
         ],
         "hard_ratio": 0.036,
         "whitespace_score": 26.8
@@ -812,31 +812,31 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 238,
+        "recent7": 240,
         "momentum_pct": 9,
         "momentum_basis": "7d",
-        "total": 2808,
+        "total": 2810,
         "sparkline": [
           193,
           229,
           242,
-          238
+          240
         ],
-        "hard_ratio": 0.066,
+        "hard_ratio": 0.065,
         "whitespace_score": 13.5
       },
       {
         "id": "climate",
         "label": "Climate / Energy",
-        "recent7": 216,
+        "recent7": 217,
         "momentum_pct": 8,
         "momentum_basis": "7d",
-        "total": 2824,
+        "total": 2825,
         "sparkline": [
           204,
           215,
           229,
-          216
+          217
         ],
         "hard_ratio": 0.048,
         "whitespace_score": 19.6
@@ -908,15 +908,15 @@
       {
         "id": "coexistence-empowerment",
         "label": "Coexistence / Empowerment",
-        "recent7": 76,
+        "recent7": 77,
         "momentum_pct": 9,
         "momentum_basis": "7d",
-        "total": 903,
+        "total": 904,
         "sparkline": [
           72,
           77,
           76,
-          76
+          77
         ],
         "hard_ratio": 0.165,
         "whitespace_score": 4.7
@@ -939,34 +939,34 @@
         "delta": 77
       },
       {
-        "term": "agent",
-        "count": 292,
-        "delta": 65
-      },
-      {
         "term": "techcrunch disrupt",
         "count": 118,
         "delta": 65
       },
       {
+        "term": "agent",
+        "count": 292,
+        "delta": 64
+      },
+      {
         "term": "shinyhunters",
-        "count": 61,
-        "delta": 60
+        "count": 63,
+        "delta": 62
       },
       {
         "term": "netscaler",
-        "count": 51,
-        "delta": 47
+        "count": 52,
+        "delta": 48
       },
       {
         "term": "australian",
-        "count": 43,
-        "delta": 42
+        "count": 44,
+        "delta": 43
       },
       {
         "term": "openai",
-        "count": 333,
-        "delta": 40
+        "count": 334,
+        "delta": 41
       },
       {
         "term": "francisco",
@@ -1096,6 +1096,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 44721
+    "total_signals": 44769
   }
 }

@@ -1,12 +1,12 @@
 {
-  "generated": "2026-10-06T11:45:03Z",
+  "generated": "2026-10-06T17:52:04Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 1361,
-    "deal_rows_attributed": 656,
-    "funds_tracked": 386,
-    "fetch_attempts": 149,
-    "fetchable_pct": 1,
+    "deal_rows_seen": 1372,
+    "deal_rows_attributed": 662,
+    "funds_tracked": 389,
+    "fetch_attempts": 154,
+    "fetchable_pct": 4,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -1273,8 +1273,8 @@
     },
     {
       "fund": "Index Ventures",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 17 attributed deal(s), 4 in the last 30d.",
-      "coverage": 17,
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 18 attributed deal(s), 5 in the last 30d.",
+      "coverage": 18,
       "sectors": [
         {
           "label": "Cybersecurity",
@@ -1283,8 +1283,8 @@
         },
         {
           "label": "Fintech / Payments",
-          "count": 4,
-          "weight": 2.5
+          "count": 5,
+          "weight": 3.5
         },
         {
           "label": "AI / ML Infra",
@@ -1297,11 +1297,17 @@
           "weight": 1.5
         }
       ],
-      "recent30": 4,
-      "recent90": 16,
+      "recent30": 5,
+      "recent90": 17,
       "prior30": 4,
-      "last_deal_days": 12,
+      "last_deal_days": 0,
       "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-10-06",
+          "summary": "Spiko raises $90m in Series B backed by Index Ventures and Speedinvest",
+          "url": "https://sifted.eu/articles/spiko-series-b-fundraise-index-speedinvest/"
+        },
         {
           "sector": "Cybersecurity",
           "date": "2026-09-24",
@@ -1800,6 +1806,124 @@
           "date": "2026-06-16",
           "summary": "The next generation of analytics: Why we invested in Golden Analytics",
           "url": "https://www.insightpartners.com/ideas/why-we-invested-in-golden-analytics/"
+        }
+      ]
+    },
+    {
+      "fund": "Breakthrough Energy Ventures",
+      "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 15 attributed deal(s), 4 in the last 30d.",
+      "coverage": 15,
+      "sectors": [
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 7,
+          "weight": 4.5
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 4,
+          "weight": 2.5
+        },
+        {
+          "label": "Climate / Energy",
+          "count": 4,
+          "weight": 2.5
+        }
+      ],
+      "recent30": 4,
+      "recent90": 15,
+      "prior30": 5,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-06",
+          "summary": "Type One Energy raised $200M to build a fusion power plant by 2034",
+          "url": "https://techcrunch.com/2026/10/06/type-one-energy-raised-200m-to-build-a-fusion-power-plant-by-2034/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-10-06",
+          "summary": "Type One Energy raised $200M to build a fusion power plant by 2034",
+          "url": "https://techcrunch.com/2026/10/06/type-one-energy-raised-200m-to-build-a-fusion-power-plant-by-2034/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-10-06",
+          "summary": "Type One Raises $200 Million to in race Build First-Ever Commercial Fusion Power Plant",
+          "url": "https://www.esgtoday.com/type-one-raises-200-million-to-build-first-ever-commercial-fusion-energy-plant/?utm_source=rss&utm_medium=rss&utm_campaign=type-one-raises-200-million-to-build-first-ever-commercial-fusion-energy-plant"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-16",
+          "summary": "Planted Raises $31.8 Million to Build Solar Projects with Robots",
+          "url": "https://www.esgtoday.com/planted-raises-31-8-million-to-build-solar-plants-with-robots/?utm_source=rss&utm_medium=rss&utm_campaign=planted-raises-31-8-million-to-build-solar-plants-with-robots"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-15",
+          "summary": "Every fusion startup that has raised over $100M",
+          "url": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-15",
+          "summary": "Every fusion startup that has raised over $100M",
+          "url": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-14",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Data, Neolab, AI Infrastructure, Defense And AI Coding Lead",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-13",
+          "summary": "Form Energy Raises $750 Million for Multi-Day Energy Storage Solution",
+          "url": "https://www.esgtoday.com/form-energy-raises-750-million-for-multi-day-energy-storage-solution/?utm_source=rss&utm_medium=rss&utm_campaign=form-energy-raises-750-million-for-multi-day-energy-storage-solution"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-12",
+          "summary": "Form Energy raises $750M to build more 100-hour batteries for the grid",
+          "url": "https://techcrunch.com/2026/08/12/form-energy-raises-750m-to-build-more-100-hour-batteries-for-the-grid/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-31",
+          "summary": "Bill Gates\u2019 Breakthrough Energy Leads $43M Lydian Raise for SAF",
+          "url": "https://esgnews.com/bill-gates-breakthrough-energy-leads-43m-lydian-raise-for-saf/?utm_source=rss&utm_medium=rss&utm_campaign=bill-gates-breakthrough-energy-leads-43m-lydian-raise-for-saf"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-31",
+          "summary": "Thermal Battery Provider Antora Raises $550 Million to Power Industry, Data Centers",
+          "url": "https://www.esgtoday.com/thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers/?utm_source=rss&utm_medium=rss&utm_campaign=thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-31",
+          "summary": "Bill Gates\u2019 Breakthrough Energy Backs Low-Cost Synthetic Jet Fuel Platform Lydian",
+          "url": "https://www.esgtoday.com/bill-gates-breakthrough-energy-backs-low-cost-synthetic-jet-fuel-platform-lydian/?utm_source=rss&utm_medium=rss&utm_campaign=bill-gates-breakthrough-energy-backs-low-cost-synthetic-jet-fuel-platform-lydian"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-30",
+          "summary": "Fusion power darling Commonwealth Fusion Systems raises another $1B",
+          "url": "https://techcrunch.com/2026/07/30/fusion-power-darling-commonwealth-fusion-systems-raises-another-1b/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-07-30",
+          "summary": "Fusion power darling Commonwealth Fusion Systems raises another $1B",
+          "url": "https://techcrunch.com/2026/07/30/fusion-power-darling-commonwealth-fusion-systems-raises-another-1b/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-16",
+          "summary": "Rize Raises $31 Million to Tackle Climate Impact of Rice Farming",
+          "url": "https://www.esgtoday.com/rize-raises-31-million-to-tackle-the-climate-impact-of-rice-farming/?utm_source=rss&utm_medium=rss&utm_campaign=rize-raises-31-million-to-tackle-the-climate-impact-of-rice-farming"
         }
       ]
     },
@@ -2377,106 +2501,6 @@
           "date": "2026-07-16",
           "summary": "The Billion-Dollar Seed Isn\u2019t The Deal You Think It Is",
           "url": "https://news.crunchbase.com/venture/billion-dollar-seed-ai-biotech-mcdonald-bison/"
-        }
-      ]
-    },
-    {
-      "fund": "Breakthrough Energy Ventures",
-      "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 12 attributed deal(s), 1 in the last 30d.",
-      "coverage": 12,
-      "sectors": [
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 6,
-          "weight": 3.5
-        },
-        {
-          "label": "Cybersecurity",
-          "count": 3,
-          "weight": 1.5
-        },
-        {
-          "label": "Climate / Energy",
-          "count": 3,
-          "weight": 1.5
-        }
-      ],
-      "recent30": 1,
-      "recent90": 12,
-      "prior30": 5,
-      "last_deal_days": 20,
-      "deals": [
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-16",
-          "summary": "Planted Raises $31.8 Million to Build Solar Projects with Robots",
-          "url": "https://www.esgtoday.com/planted-raises-31-8-million-to-build-solar-plants-with-robots/?utm_source=rss&utm_medium=rss&utm_campaign=planted-raises-31-8-million-to-build-solar-plants-with-robots"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-15",
-          "summary": "Every fusion startup that has raised over $100M",
-          "url": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-08-15",
-          "summary": "Every fusion startup that has raised over $100M",
-          "url": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-14",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Data, Neolab, AI Infrastructure, Defense And AI Coding Lead",
-          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy/"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-08-13",
-          "summary": "Form Energy Raises $750 Million for Multi-Day Energy Storage Solution",
-          "url": "https://www.esgtoday.com/form-energy-raises-750-million-for-multi-day-energy-storage-solution/?utm_source=rss&utm_medium=rss&utm_campaign=form-energy-raises-750-million-for-multi-day-energy-storage-solution"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-08-12",
-          "summary": "Form Energy raises $750M to build more 100-hour batteries for the grid",
-          "url": "https://techcrunch.com/2026/08/12/form-energy-raises-750m-to-build-more-100-hour-batteries-for-the-grid/"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-07-31",
-          "summary": "Bill Gates\u2019 Breakthrough Energy Leads $43M Lydian Raise for SAF",
-          "url": "https://esgnews.com/bill-gates-breakthrough-energy-leads-43m-lydian-raise-for-saf/?utm_source=rss&utm_medium=rss&utm_campaign=bill-gates-breakthrough-energy-leads-43m-lydian-raise-for-saf"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-07-31",
-          "summary": "Thermal Battery Provider Antora Raises $550 Million to Power Industry, Data Centers",
-          "url": "https://www.esgtoday.com/thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers/?utm_source=rss&utm_medium=rss&utm_campaign=thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-07-31",
-          "summary": "Bill Gates\u2019 Breakthrough Energy Backs Low-Cost Synthetic Jet Fuel Platform Lydian",
-          "url": "https://www.esgtoday.com/bill-gates-breakthrough-energy-backs-low-cost-synthetic-jet-fuel-platform-lydian/?utm_source=rss&utm_medium=rss&utm_campaign=bill-gates-breakthrough-energy-backs-low-cost-synthetic-jet-fuel-platform-lydian"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-30",
-          "summary": "Fusion power darling Commonwealth Fusion Systems raises another $1B",
-          "url": "https://techcrunch.com/2026/07/30/fusion-power-darling-commonwealth-fusion-systems-raises-another-1b/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-07-30",
-          "summary": "Fusion power darling Commonwealth Fusion Systems raises another $1B",
-          "url": "https://techcrunch.com/2026/07/30/fusion-power-darling-commonwealth-fusion-systems-raises-another-1b/"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-07-16",
-          "summary": "Rize Raises $31 Million to Tackle Climate Impact of Rice Farming",
-          "url": "https://www.esgtoday.com/rize-raises-31-million-to-tackle-the-climate-impact-of-rice-farming/?utm_source=rss&utm_medium=rss&utm_campaign=rize-raises-31-million-to-tackle-the-climate-impact-of-rice-farming"
         }
       ]
     },
@@ -4334,6 +4358,134 @@
           "date": "2026-07-07",
           "summary": "Google Backs Proxima\u2019s Record $468 Million Raise in Race to First Fusion Power Plant",
           "url": "https://www.esgtoday.com/google-backs-proximas-record-468-million-raise-in-race-to-first-fusion-power-plant/?utm_source=rss&utm_medium=rss&utm_campaign=google-backs-proximas-record-468-million-raise-in-race-to-first-fusion-power-plant"
+        }
+      ]
+    },
+    {
+      "fund": "Lowercarbon Capital",
+      "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 6 attributed deal(s), 4 in the last 30d.",
+      "coverage": 6,
+      "sectors": [
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 3,
+          "weight": 2.0
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "Climate / Energy",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 4,
+      "recent90": 6,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-06",
+          "summary": "Type One Energy raised $200M to build a fusion power plant by 2034",
+          "url": "https://techcrunch.com/2026/10/06/type-one-energy-raised-200m-to-build-a-fusion-power-plant-by-2034/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-10-06",
+          "summary": "Type One Energy raised $200M to build a fusion power plant by 2034",
+          "url": "https://techcrunch.com/2026/10/06/type-one-energy-raised-200m-to-build-a-fusion-power-plant-by-2034/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-10-06",
+          "summary": "Type One Raises $200 Million to in race Build First-Ever Commercial Fusion Power Plant",
+          "url": "https://www.esgtoday.com/type-one-raises-200-million-to-build-first-ever-commercial-fusion-energy-plant/?utm_source=rss&utm_medium=rss&utm_campaign=type-one-raises-200-million-to-build-first-ever-commercial-fusion-energy-plant"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-25",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Cybersecurity, AI And Health Take The Lead",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-ai-health-island-cyera/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-26",
+          "summary": "Data Center Power Solutions Startup Emerald AI Raises $150 Million at Unicorn Valuation",
+          "url": "https://www.esgtoday.com/data-center-power-solutions-startup-emerald-ai-raises-150-million-at-unicorn-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=data-center-power-solutions-startup-emerald-ai-raises-150-million-at-unicorn-valuation"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-31",
+          "summary": "Thermal Battery Provider Antora Raises $550 Million to Power Industry, Data Centers",
+          "url": "https://www.esgtoday.com/thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers/?utm_source=rss&utm_medium=rss&utm_campaign=thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers"
+        }
+      ]
+    },
+    {
+      "fund": "SiteGround Capital",
+      "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 6 attributed deal(s), 6 in the last 30d.",
+      "coverage": 6,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "Climate / Energy",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 2,
+          "weight": 2.0
+        }
+      ],
+      "recent30": 6,
+      "recent90": 6,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-06",
+          "summary": "Type One Energy raised $200M to build a fusion power plant by 2034",
+          "url": "https://techcrunch.com/2026/10/06/type-one-energy-raised-200m-to-build-a-fusion-power-plant-by-2034/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-10-06",
+          "summary": "Type One Energy raised $200M to build a fusion power plant by 2034",
+          "url": "https://techcrunch.com/2026/10/06/type-one-energy-raised-200m-to-build-a-fusion-power-plant-by-2034/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-10-06",
+          "summary": "Type One Raises $200 Million to in race Build First-Ever Commercial Fusion Power Plant",
+          "url": "https://www.esgtoday.com/type-one-raises-200-million-to-build-first-ever-commercial-fusion-energy-plant/?utm_source=rss&utm_medium=rss&utm_campaign=type-one-raises-200-million-to-build-first-ever-commercial-fusion-energy-plant"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-18",
+          "summary": "Khosla-backed Mazama Energy just raised $135M to drill deeper into superhot-rock geothermal",
+          "url": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-09-18",
+          "summary": "Khosla-backed Mazama Energy just raised $135M to drill deeper into super-hot-rock geothermal",
+          "url": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-09-18",
+          "summary": "\u201cSuperhot\u201d Geothermal Startup Mazama Raises $135 Million",
+          "url": "https://www.esgtoday.com/superhot-geothermal-startup-mazama-raises-135-million/?utm_source=rss&utm_medium=rss&utm_campaign=superhot-geothermal-startup-mazama-raises-135-million"
         }
       ]
     },
@@ -6570,6 +6722,58 @@
       ]
     },
     {
+      "fund": "First Round Capital",
+      "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 4 attributed deal(s), 1 in the last 30d.",
+      "coverage": 4,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 1.5
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 1,
+          "weight": 0.5
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 4,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-06",
+          "summary": "Flai\u2019s AI dealership software is booking 50,000 appointments per month",
+          "url": "https://techcrunch.com/2026/10/06/flais-ai-dealership-software-is-booking-50000-appointments-per-month/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-30",
+          "summary": "K2 Space raises $500 million for commercial, defense satellite expansion",
+          "url": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/"
+        },
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-07-23",
+          "summary": "Assured Health Secures $19M to Get Providers In-Network Faster with Agentic AI",
+          "url": "https://medcitynews.com/2026/07/assured-health-healthcare-credentialing/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-16",
+          "summary": "The Billion-Dollar Seed Isn\u2019t The Deal You Think It Is",
+          "url": "https://news.crunchbase.com/venture/billion-dollar-seed-ai-biotech-mcdonald-bison/"
+        }
+      ]
+    },
+    {
       "fund": "Blackstone",
       "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 1 in the last 30d.",
       "coverage": 4,
@@ -7988,6 +8192,98 @@
       ]
     },
     {
+      "fund": "Clutterbuck Capital",
+      "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 3 attributed deal(s), 3 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Climate / Energy",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 3,
+      "recent90": 3,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-06",
+          "summary": "Type One Energy raised $200M to build a fusion power plant by 2034",
+          "url": "https://techcrunch.com/2026/10/06/type-one-energy-raised-200m-to-build-a-fusion-power-plant-by-2034/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-10-06",
+          "summary": "Type One Energy raised $200M to build a fusion power plant by 2034",
+          "url": "https://techcrunch.com/2026/10/06/type-one-energy-raised-200m-to-build-a-fusion-power-plant-by-2034/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-10-06",
+          "summary": "Type One Raises $200 Million to in race Build First-Ever Commercial Fusion Power Plant",
+          "url": "https://www.esgtoday.com/type-one-raises-200-million-to-build-first-ever-commercial-fusion-energy-plant/?utm_source=rss&utm_medium=rss&utm_campaign=type-one-raises-200-million-to-build-first-ever-commercial-fusion-energy-plant"
+        }
+      ]
+    },
+    {
+      "fund": "Siemens Energy Ventures",
+      "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 3 attributed deal(s), 3 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Climate / Energy",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 3,
+      "recent90": 3,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-06",
+          "summary": "Type One Energy raised $200M to build a fusion power plant by 2034",
+          "url": "https://techcrunch.com/2026/10/06/type-one-energy-raised-200m-to-build-a-fusion-power-plant-by-2034/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-10-06",
+          "summary": "Type One Energy raised $200M to build a fusion power plant by 2034",
+          "url": "https://techcrunch.com/2026/10/06/type-one-energy-raised-200m-to-build-a-fusion-power-plant-by-2034/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-10-06",
+          "summary": "Type One Raises $200 Million to in race Build First-Ever Commercial Fusion Power Plant",
+          "url": "https://www.esgtoday.com/type-one-raises-200-million-to-build-first-ever-commercial-fusion-energy-plant/?utm_source=rss&utm_medium=rss&utm_campaign=type-one-raises-200-million-to-build-first-ever-commercial-fusion-energy-plant"
+        }
+      ]
+    },
+    {
       "fund": "GIC",
       "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
       "coverage": 3,
@@ -8198,47 +8494,6 @@
       ]
     },
     {
-      "fund": "Lowercarbon Capital",
-      "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
-      "coverage": 3,
-      "sectors": [
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 2,
-          "weight": 1.0
-        },
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 1,
-      "recent90": 3,
-      "prior30": 1,
-      "last_deal_days": 11,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-25",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Cybersecurity, AI And Health Take The Lead",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-ai-health-island-cyera/"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-08-26",
-          "summary": "Data Center Power Solutions Startup Emerald AI Raises $150 Million at Unicorn Valuation",
-          "url": "https://www.esgtoday.com/data-center-power-solutions-startup-emerald-ai-raises-150-million-at-unicorn-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=data-center-power-solutions-startup-emerald-ai-raises-150-million-at-unicorn-valuation"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-07-31",
-          "summary": "Thermal Battery Provider Antora Raises $550 Million to Power Industry, Data Centers",
-          "url": "https://www.esgtoday.com/thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers/?utm_source=rss&utm_medium=rss&utm_campaign=thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers"
-        }
-      ]
-    },
-    {
       "fund": "Dream Ventures",
       "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 3 attributed deal(s), 1 in the last 30d.",
       "coverage": 3,
@@ -8368,52 +8623,6 @@
           "date": "2026-07-18",
           "summary": "Space Force triples launch contract ceiling amid rising demand",
           "url": "https://spacenews.com/space-force-triples-launch-contract-ceiling-amid-rising-demand/"
-        }
-      ]
-    },
-    {
-      "fund": "SiteGround Capital",
-      "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 3 attributed deal(s), 3 in the last 30d.",
-      "coverage": 3,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Climate / Energy",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 3,
-      "recent90": 3,
-      "prior30": 0,
-      "last_deal_days": 18,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-18",
-          "summary": "Khosla-backed Mazama Energy just raised $135M to drill deeper into superhot-rock geothermal",
-          "url": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-09-18",
-          "summary": "Khosla-backed Mazama Energy just raised $135M to drill deeper into super-hot-rock geothermal",
-          "url": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-09-18",
-          "summary": "\u201cSuperhot\u201d Geothermal Startup Mazama Raises $135 Million",
-          "url": "https://www.esgtoday.com/superhot-geothermal-startup-mazama-raises-135-million/?utm_source=rss&utm_medium=rss&utm_campaign=superhot-geothermal-startup-mazama-raises-135-million"
         }
       ]
     },
@@ -9627,52 +9836,6 @@
           "date": "2026-07-21",
           "summary": "Empirical Security Raises $25 Million in Series A Funding",
           "url": "https://www.securityweek.com/empirical-security-raises-25-million-in-series-a-funding/"
-        }
-      ]
-    },
-    {
-      "fund": "First Round Capital",
-      "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 3 attributed deal(s).",
-      "coverage": 3,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 0.5
-        },
-        {
-          "label": "Healthtech / Bio",
-          "count": 1,
-          "weight": 0.5
-        },
-        {
-          "label": "Space Tech",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 0,
-      "recent90": 3,
-      "prior30": 0,
-      "last_deal_days": 68,
-      "deals": [
-        {
-          "sector": "Space Tech",
-          "date": "2026-07-30",
-          "summary": "K2 Space raises $500 million for commercial, defense satellite expansion",
-          "url": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/"
-        },
-        {
-          "sector": "Healthtech / Bio",
-          "date": "2026-07-23",
-          "summary": "Assured Health Secures $19M to Get Providers In-Network Faster with Agentic AI",
-          "url": "https://medcitynews.com/2026/07/assured-health-healthcare-credentialing/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-16",
-          "summary": "The Billion-Dollar Seed Isn\u2019t The Deal You Think It Is",
-          "url": "https://news.crunchbase.com/venture/billion-dollar-seed-ai-biotech-mcdonald-bison/"
         }
       ]
     },
@@ -11212,6 +11375,36 @@
           "date": "2026-07-07",
           "summary": "Savi\u2019s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
           "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/"
+        }
+      ]
+    },
+    {
+      "fund": "Toyota",
+      "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 1.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-06",
+          "summary": "Flai\u2019s AI dealership software is booking 50,000 appointments per month",
+          "url": "https://techcrunch.com/2026/10/06/flais-ai-dealership-software-is-booking-50000-appointments-per-month/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-17",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: No Summer Doldrums As Dollars Still Flow To AI",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/"
         }
       ]
     },
@@ -17933,10 +18126,10 @@
       },
       {
         "fund": "Index Ventures",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 17 attributed deal(s), 4 in the last 30d.",
-        "coverage": 17,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 18 attributed deal(s), 5 in the last 30d.",
+        "coverage": 18,
         "sector_count": 8,
-        "recent30": 4
+        "recent30": 5
       },
       {
         "fund": "Sequoia",
@@ -18044,6 +18237,13 @@
         "recent30": 2
       },
       {
+        "fund": "Breakthrough Energy Ventures",
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 15 attributed deal(s), 4 in the last 30d.",
+        "coverage": 15,
+        "sector_count": 4,
+        "recent30": 4
+      },
+      {
         "fund": "Coatue",
         "thesis": "Revealed focus: Cybersecurity and Coexistence / Empowerment. 10 attributed deal(s), 1 in the last 30d.",
         "coverage": 10,
@@ -18126,13 +18326,6 @@
         "coverage": 4,
         "sector_count": 4,
         "recent30": 0
-      },
-      {
-        "fund": "Breakthrough Energy Ventures",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 12 attributed deal(s), 1 in the last 30d.",
-        "coverage": 12,
-        "sector_count": 3,
-        "recent30": 1
       },
       {
         "fund": "BlackRock",
@@ -18282,6 +18475,20 @@
         "recent30": 3
       },
       {
+        "fund": "Lowercarbon Capital",
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 6 attributed deal(s), 4 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 2,
+        "recent30": 4
+      },
+      {
+        "fund": "SiteGround Capital",
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 6 attributed deal(s), 6 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 2,
+        "recent30": 6
+      },
+      {
         "fund": "S32",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 6 attributed deal(s), 3 in the last 30d.",
         "coverage": 6,
@@ -18357,6 +18564,13 @@
         "coverage": 5,
         "sector_count": 2,
         "recent30": 0
+      },
+      {
+        "fund": "First Round Capital",
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 4 attributed deal(s), 1 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 2,
+        "recent30": 1
       },
       {
         "fund": "Blackstone",
@@ -18518,6 +18732,13 @@
         "coverage": 3,
         "sector_count": 2,
         "recent30": 0
+      },
+      {
+        "fund": "Toyota",
+        "thesis": "Revealed focus: Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 1
       },
       {
         "fund": "Norwest",
@@ -18828,18 +19049,25 @@
         "recent30": 0
       },
       {
-        "fund": "GIC",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "fund": "Clutterbuck Capital",
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
         "sector_count": 1,
         "recent30": 3
       },
       {
-        "fund": "Lowercarbon Capital",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
+        "fund": "Siemens Energy Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
         "sector_count": 1,
-        "recent30": 1
+        "recent30": 3
+      },
+      {
+        "fund": "GIC",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
       },
       {
         "fund": "Section 32",
@@ -18854,13 +19082,6 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 2
-      },
-      {
-        "fund": "SiteGround Capital",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 3
       },
       {
         "fund": "H. Barton Asset Management",
@@ -19019,13 +19240,6 @@
       {
         "fund": "Costanoa Ventures",
         "thesis": "Revealed focus: Space Tech and Cybersecurity. 3 attributed deal(s).",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 0
-      },
-      {
-        "fund": "First Round Capital",
-        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 3 attributed deal(s).",
         "coverage": 3,
         "sector_count": 1,
         "recent30": 0
@@ -19635,6 +19849,13 @@
         "recent30": 5
       },
       {
+        "fund": "Index Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 18 attributed deal(s), 5 in the last 30d.",
+        "coverage": 18,
+        "sector_count": 5,
+        "recent30": 5
+      },
+      {
         "fund": "BlackFin Capital Partners",
         "thesis": "Revealed focus: Fintech / Payments. 5 attributed deal(s), 5 in the last 30d.",
         "coverage": 5,
@@ -19654,13 +19875,6 @@
         "coverage": 18,
         "sector_count": 4,
         "recent30": 10
-      },
-      {
-        "fund": "Index Ventures",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 17 attributed deal(s), 4 in the last 30d.",
-        "coverage": 17,
-        "sector_count": 4,
-        "recent30": 4
       },
       {
         "fund": "Insight Partners",
@@ -20576,10 +20790,10 @@
       },
       {
         "fund": "Index Ventures",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 17 attributed deal(s), 4 in the last 30d.",
-        "coverage": 17,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 18 attributed deal(s), 5 in the last 30d.",
+        "coverage": 18,
         "sector_count": 3,
-        "recent30": 4
+        "recent30": 5
       },
       {
         "fund": "Ribbit Capital",
@@ -21460,10 +21674,10 @@
       },
       {
         "fund": "Index Ventures",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 17 attributed deal(s), 4 in the last 30d.",
-        "coverage": 17,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 18 attributed deal(s), 5 in the last 30d.",
+        "coverage": 18,
         "sector_count": 2,
-        "recent30": 4
+        "recent30": 5
       },
       {
         "fund": "Bessemer Venture Partners",
@@ -21620,6 +21834,13 @@
         "recent30": 2
       },
       {
+        "fund": "First Round Capital",
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 4 attributed deal(s), 1 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
         "fund": "Sixth Street Growth",
         "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 4 attributed deal(s).",
         "coverage": 4,
@@ -21670,13 +21891,6 @@
       },
       {
         "fund": "OpenAI",
-        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 3 attributed deal(s).",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 0
-      },
-      {
-        "fund": "First Round Capital",
         "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 3 attributed deal(s).",
         "coverage": 3,
         "sector_count": 1,
@@ -22273,6 +22487,13 @@
         "recent30": 1
       },
       {
+        "fund": "First Round Capital",
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 4 attributed deal(s), 1 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
         "fund": "Point72 Ventures",
         "thesis": "Revealed focus: Cybersecurity and Space Tech. 4 attributed deal(s), 2 in the last 30d.",
         "coverage": 4,
@@ -22299,13 +22520,6 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 2
-      },
-      {
-        "fund": "First Round Capital",
-        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 3 attributed deal(s).",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 0
       },
       {
         "fund": "Smith Point Capital",
@@ -22430,10 +22644,10 @@
       },
       {
         "fund": "Breakthrough Energy Ventures",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 12 attributed deal(s), 1 in the last 30d.",
-        "coverage": 12,
-        "sector_count": 6,
-        "recent30": 1
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 15 attributed deal(s), 4 in the last 30d.",
+        "coverage": 15,
+        "sector_count": 7,
+        "recent30": 4
       },
       {
         "fund": "EIB",
@@ -22478,6 +22692,13 @@
         "recent30": 4
       },
       {
+        "fund": "Lowercarbon Capital",
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 6 attributed deal(s), 4 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 3,
+        "recent30": 4
+      },
+      {
         "fund": "Meta",
         "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 4 attributed deal(s), 4 in the last 30d.",
         "coverage": 4,
@@ -22518,6 +22739,13 @@
         "coverage": 7,
         "sector_count": 2,
         "recent30": 3
+      },
+      {
+        "fund": "SiteGround Capital",
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 6 attributed deal(s), 6 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 2,
+        "recent30": 6
       },
       {
         "fund": "Galvanize",
@@ -22572,13 +22800,6 @@
         "fund": "Gigascale Capital",
         "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 4 attributed deal(s), 1 in the last 30d.",
         "coverage": 4,
-        "sector_count": 2,
-        "recent30": 1
-      },
-      {
-        "fund": "Lowercarbon Capital",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 3 attributed deal(s), 1 in the last 30d.",
-        "coverage": 3,
         "sector_count": 2,
         "recent30": 1
       },
@@ -22870,7 +23091,14 @@
         "recent30": 0
       },
       {
-        "fund": "SiteGround Capital",
+        "fund": "Clutterbuck Capital",
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
+        "fund": "Siemens Energy Ventures",
         "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 3 attributed deal(s), 3 in the last 30d.",
         "coverage": 3,
         "sector_count": 1,
@@ -23096,6 +23324,13 @@
         "recent30": 10
       },
       {
+        "fund": "Breakthrough Energy Ventures",
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 15 attributed deal(s), 4 in the last 30d.",
+        "coverage": 15,
+        "sector_count": 4,
+        "recent30": 4
+      },
+      {
         "fund": "Sequoia",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 16 attributed deal(s), 6 in the last 30d.",
         "coverage": 16,
@@ -23108,13 +23343,6 @@
         "coverage": 15,
         "sector_count": 3,
         "recent30": 7
-      },
-      {
-        "fund": "Breakthrough Energy Ventures",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 12 attributed deal(s), 1 in the last 30d.",
-        "coverage": 12,
-        "sector_count": 3,
-        "recent30": 1
       },
       {
         "fund": "Nvidia",
@@ -23136,6 +23364,13 @@
         "coverage": 13,
         "sector_count": 2,
         "recent30": 4
+      },
+      {
+        "fund": "SiteGround Capital",
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 6 attributed deal(s), 6 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 2,
+        "recent30": 6
       },
       {
         "fund": "Addition",
@@ -23227,6 +23462,13 @@
         "coverage": 7,
         "sector_count": 1,
         "recent30": 1
+      },
+      {
+        "fund": "Lowercarbon Capital",
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 6 attributed deal(s), 4 in the last 30d.",
+        "coverage": 6,
+        "sector_count": 1,
+        "recent30": 4
       },
       {
         "fund": "Temasek",
@@ -23348,18 +23590,25 @@
         "recent30": 0
       },
       {
+        "fund": "Clutterbuck Capital",
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
+        "fund": "Siemens Energy Ventures",
+        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "Dream Ventures",
         "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 3 attributed deal(s), 1 in the last 30d.",
         "coverage": 3,
         "sector_count": 1,
         "recent30": 1
-      },
-      {
-        "fund": "SiteGround Capital",
-        "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 3 attributed deal(s), 3 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 3
       },
       {
         "fund": "H. Barton Asset Management",

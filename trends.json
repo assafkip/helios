@@ -1,22 +1,22 @@
 {
-  "generated": "2026-10-10T19:14:59Z",
+  "generated": "2026-10-10T23:11:11Z",
   "verticals": {
     "cyber": {
       "label": "Cybersecurity",
-      "total": 29161,
-      "recent7": 1208,
+      "total": 29204,
+      "recent7": 1250,
       "sparkline": [
         1655,
-        1651,
+        1652,
         1460,
-        1208
+        1250
       ],
       "momentum_pct": 5,
       "momentum_basis": "7d",
       "hard_count": 1029,
       "hard_ratio": 0.035,
       "exit_count": 127,
-      "talk_count": 27770,
+      "talk_count": 27812,
       "whitespace_score": 27.0,
       "rising": [
         {
@@ -31,8 +31,8 @@
         },
         {
           "term": "apple",
-          "count": 67,
-          "delta": 37
+          "count": 69,
+          "delta": 39
         },
         {
           "term": "open",
@@ -45,14 +45,14 @@
           "delta": 31
         },
         {
-          "term": "shinyhunters",
-          "count": 59,
-          "delta": 28
+          "term": "fbi",
+          "count": 74,
+          "delta": 29
         },
         {
-          "term": "fbi",
-          "count": 71,
-          "delta": 26
+          "term": "shinyhunters",
+          "count": 60,
+          "delta": 29
         },
         {
           "term": "founder",
@@ -64,17 +64,17 @@
         {
           "name": "Medium - Security",
           "firm": "medium",
-          "count": 765
+          "count": 776
         },
         {
           "name": "Reddit Cybersecurity",
           "firm": "community",
-          "count": 344
+          "count": 356
         },
         {
           "name": "ProductHunt",
           "firm": "producthunt",
-          "count": 237
+          "count": 243
         },
         {
           "name": "Security Conferences",
@@ -84,7 +84,7 @@
         {
           "name": "Security Affairs",
           "firm": "blog",
-          "count": 62
+          "count": 63
         },
         {
           "name": "Malwarebytes Labs",
@@ -95,20 +95,20 @@
     },
     "fintech": {
       "label": "Fintech / Payments",
-      "total": 4843,
-      "recent7": 326,
+      "total": 4845,
+      "recent7": 328,
       "sparkline": [
         358,
         340,
         363,
-        326
+        328
       ],
       "momentum_pct": 7,
       "momentum_basis": "7d",
-      "hard_count": 448,
+      "hard_count": 449,
       "hard_ratio": 0.093,
       "exit_count": 203,
-      "talk_count": 4078,
+      "talk_count": 4079,
       "whitespace_score": 9.1,
       "rising": [
         {
@@ -187,21 +187,21 @@
     },
     "ai-ml": {
       "label": "AI / ML Infra",
-      "total": 3044,
-      "recent7": 235,
+      "total": 3047,
+      "recent7": 238,
       "sparkline": [
         220,
         245,
         256,
-        235
+        238
       ],
-      "momentum_pct": 8,
+      "momentum_pct": 9,
       "momentum_basis": "7d",
       "hard_count": 202,
       "hard_ratio": 0.066,
       "exit_count": 75,
-      "talk_count": 2695,
-      "whitespace_score": 13.3,
+      "talk_count": 2698,
+      "whitespace_score": 13.4,
       "rising": [
         {
           "term": "openai",
@@ -279,20 +279,20 @@
     },
     "healthtech": {
       "label": "Healthtech / Bio",
-      "total": 1675,
-      "recent7": 126,
+      "total": 1676,
+      "recent7": 127,
       "sparkline": [
         121,
         119,
         126,
-        126
+        127
       ],
       "momentum_pct": 8,
       "momentum_basis": "7d",
       "hard_count": 93,
-      "hard_ratio": 0.056,
+      "hard_ratio": 0.055,
       "exit_count": 43,
-      "talk_count": 1525,
+      "talk_count": 1526,
       "whitespace_score": 16.4,
       "rising": [
         {
@@ -340,7 +340,7 @@
         {
           "name": "STAT News",
           "firm": "STAT",
-          "count": 106
+          "count": 107
         },
         {
           "name": "MedCity News",
@@ -780,15 +780,15 @@
       {
         "id": "cyber",
         "label": "Cybersecurity",
-        "recent7": 1208,
+        "recent7": 1250,
         "momentum_pct": 5,
         "momentum_basis": "7d",
-        "total": 29161,
+        "total": 29204,
         "sparkline": [
           1655,
-          1651,
+          1652,
           1460,
-          1208
+          1250
         ],
         "hard_ratio": 0.035,
         "whitespace_score": 27.0
@@ -796,15 +796,15 @@
       {
         "id": "fintech",
         "label": "Fintech / Payments",
-        "recent7": 326,
+        "recent7": 328,
         "momentum_pct": 7,
         "momentum_basis": "7d",
-        "total": 4843,
+        "total": 4845,
         "sparkline": [
           358,
           340,
           363,
-          326
+          328
         ],
         "hard_ratio": 0.093,
         "whitespace_score": 9.1
@@ -812,18 +812,18 @@
       {
         "id": "ai-ml",
         "label": "AI / ML Infra",
-        "recent7": 235,
-        "momentum_pct": 8,
+        "recent7": 238,
+        "momentum_pct": 9,
         "momentum_basis": "7d",
-        "total": 3044,
+        "total": 3047,
         "sparkline": [
           220,
           245,
           256,
-          235
+          238
         ],
         "hard_ratio": 0.066,
-        "whitespace_score": 13.3
+        "whitespace_score": 13.4
       },
       {
         "id": "climate",
@@ -860,17 +860,17 @@
       {
         "id": "healthtech",
         "label": "Healthtech / Bio",
-        "recent7": 126,
+        "recent7": 127,
         "momentum_pct": 8,
         "momentum_basis": "7d",
-        "total": 1675,
+        "total": 1676,
         "sparkline": [
           121,
           119,
           126,
-          126
+          127
         ],
-        "hard_ratio": 0.056,
+        "hard_ratio": 0.055,
         "whitespace_score": 16.4
       },
       {
@@ -940,8 +940,8 @@
       },
       {
         "term": "agents",
-        "count": 384,
-        "delta": 40
+        "count": 387,
+        "delta": 43
       },
       {
         "term": "openai",
@@ -949,19 +949,19 @@
         "delta": 40
       },
       {
+        "term": "apple",
+        "count": 111,
+        "delta": 32
+      },
+      {
         "term": "citrix netscaler",
         "count": 31,
         "delta": 31
       },
       {
-        "term": "apple",
-        "count": 107,
-        "delta": 28
-      },
-      {
         "term": "shinyhunters",
-        "count": 59,
-        "delta": 28
+        "count": 60,
+        "delta": 29
       },
       {
         "term": "atlassian",
@@ -1096,6 +1096,6 @@
         "hard": 0
       }
     ],
-    "total_signals": 47168
+    "total_signals": 47217
   }
 }

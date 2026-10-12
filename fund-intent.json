@@ -1,12 +1,12 @@
 {
-  "generated": "2026-10-12T06:55:26Z",
+  "generated": "2026-10-12T16:27:53Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 1458,
-    "deal_rows_attributed": 703,
-    "funds_tracked": 416,
-    "fetch_attempts": 160,
-    "fetchable_pct": 2,
+    "deal_rows_seen": 1466,
+    "deal_rows_attributed": 708,
+    "funds_tracked": 417,
+    "fetch_attempts": 163,
+    "fetchable_pct": 4,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -11001,6 +11001,52 @@
       ]
     },
     {
+      "fund": "SOSV",
+      "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 3 attributed deal(s), 2 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Climate / Energy",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 2,
+      "recent90": 3,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-10-12",
+          "summary": "Blaze Raises $6.5 Million to Enable Ships to Run on Clean Fuel",
+          "url": "https://www.esgtoday.com/blaze-raises-6-5-million-to-enable-ships-to-run-on-clean-fuel/?utm_source=rss&utm_medium=rss&utm_campaign=blaze-raises-6-5-million-to-enable-ships-to-run-on-clean-fuel"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-30",
+          "summary": "Zenithon Raises $10M For AI Engineering Models",
+          "url": "https://seraphim.vc/news/zenithon-raises-10m-ai-world-models-engineering-physics/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-21",
+          "summary": "Princeton Critical Minerals Raises $16M to Scale Lithium Production Technologies",
+          "url": "https://cleantechnica.com/2026/08/20/princeton-critical-minerals-raises-16m-to-scale-lithium-production-technologies/"
+        }
+      ]
+    },
+    {
       "fund": "NGP",
       "thesis": "Revealed focus: Coexistence / Empowerment and Climate / Energy. 3 attributed deal(s), 1 in the last 30d.",
       "coverage": 3,
@@ -16949,41 +16995,6 @@
       ]
     },
     {
-      "fund": "SOSV",
-      "thesis": "Revealed focus: Space Tech and Climate / Energy. 2 attributed deal(s), 1 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Space Tech",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Climate / Energy",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 1,
-      "recent90": 2,
-      "prior30": 1,
-      "last_deal_days": 12,
-      "deals": [
-        {
-          "sector": "Space Tech",
-          "date": "2026-09-30",
-          "summary": "Zenithon Raises $10M For AI Engineering Models",
-          "url": "https://seraphim.vc/news/zenithon-raises-10m-ai-world-models-engineering-physics/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-08-21",
-          "summary": "Princeton Critical Minerals Raises $16M to Scale Lithium Production Technologies",
-          "url": "https://cleantechnica.com/2026/08/20/princeton-critical-minerals-raises-16m-to-scale-lithium-production-technologies/"
-        }
-      ]
-    },
-    {
       "fund": "Engine Ventures",
       "thesis": "Revealed focus: Climate / Energy and Coexistence / Empowerment. 2 attributed deal(s).",
       "coverage": 2,
@@ -18420,6 +18431,41 @@
           "date": "2026-07-08",
           "summary": "Exclusive: EdVisorly Raises $13.3M Series A To Fix The Messy College Transfer Process With AI",
           "url": "https://news.crunchbase.com/venture/edtech-university-ai-platform-funding-edvisorly/"
+        }
+      ]
+    },
+    {
+      "fund": "Safar Partners",
+      "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 0.25
+        }
+      ],
+      "recent30": 1,
+      "recent90": 1,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-10-12",
+          "summary": "Blaze Raises $6.5 Million to Enable Ships to Run on Clean Fuel",
+          "url": "https://www.esgtoday.com/blaze-raises-6-5-million-to-enable-ships-to-run-on-clean-fuel/?utm_source=rss&utm_medium=rss&utm_campaign=blaze-raises-6-5-million-to-enable-ships-to-run-on-clean-fuel"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-10",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
         }
       ]
     },
@@ -21168,6 +21214,13 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 0
+      },
+      {
+        "fund": "Safar Partners",
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 1
       },
       {
         "fund": "Prime Movers Lab",
@@ -24097,6 +24150,13 @@
         "recent30": 1
       },
       {
+        "fund": "SOSV",
+        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "South Park Commons",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s), 2 in the last 30d.",
         "coverage": 3,
@@ -24179,13 +24239,6 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 0
-      },
-      {
-        "fund": "SOSV",
-        "thesis": "Revealed focus: Space Tech and Climate / Energy. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
       },
       {
         "fund": "Earthshot Ventures",
@@ -24750,6 +24803,13 @@
         "recent30": 0
       },
       {
+        "fund": "SOSV",
+        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "Ribbit",
         "thesis": "Revealed focus: Climate / Energy and Coexistence / Empowerment. 3 attributed deal(s).",
         "coverage": 3,
@@ -24892,6 +24952,13 @@
       {
         "fund": "Airtree",
         "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 1
+      },
+      {
+        "fund": "Safar Partners",
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,
         "recent30": 1
@@ -25291,6 +25358,13 @@
         "recent30": 0
       },
       {
+        "fund": "SOSV",
+        "thesis": "Revealed focus: Space Tech and Coexistence / Empowerment. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "NGP",
         "thesis": "Revealed focus: Coexistence / Empowerment and Climate / Energy. 3 attributed deal(s), 1 in the last 30d.",
         "coverage": 3,
@@ -25499,13 +25573,6 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 0
-      },
-      {
-        "fund": "SOSV",
-        "thesis": "Revealed focus: Space Tech and Climate / Energy. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
       },
       {
         "fund": "Engine Ventures",

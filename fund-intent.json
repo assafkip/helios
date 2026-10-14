@@ -1,9 +1,9 @@
 {
-  "generated": "2026-10-14T20:25:37Z",
+  "generated": "2026-10-14T23:38:54Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 1498,
-    "deal_rows_attributed": 723,
+    "deal_rows_seen": 1500,
+    "deal_rows_attributed": 725,
     "funds_tracked": 428,
     "fetch_attempts": 165,
     "fetchable_pct": 1,
@@ -487,8 +487,8 @@
     },
     {
       "fund": "Sequoia Capital",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 24 attributed deal(s), 8 in the last 30d.",
-      "coverage": 24,
+      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 25 attributed deal(s), 9 in the last 30d.",
+      "coverage": 25,
       "sectors": [
         {
           "label": "Cybersecurity",
@@ -507,8 +507,8 @@
         },
         {
           "label": "Healthtech / Bio",
-          "count": 1,
-          "weight": 0.5
+          "count": 2,
+          "weight": 1.5
         },
         {
           "label": "Climate / Energy",
@@ -526,11 +526,17 @@
           "weight": 0.25
         }
       ],
-      "recent30": 8,
-      "recent90": 23,
+      "recent30": 9,
+      "recent90": 24,
       "prior30": 5,
-      "last_deal_days": 4,
+      "last_deal_days": 0,
       "deals": [
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-10-14",
+          "summary": "Healthleap Raises $38M to Expand AI Screening for Overlooked Conditions in Hospitalized Patients",
+          "url": "https://medcitynews.com/2026/10/healthleap-raises-38m-to-expand-ai-screening-for-overlooked-conditions-in-hospitalized-patients/"
+        },
         {
           "sector": "Fintech / Payments",
           "date": "2026-10-10",
@@ -4106,6 +4112,81 @@
       ]
     },
     {
+      "fund": "First Round Capital",
+      "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 7 attributed deal(s), 4 in the last 30d.",
+      "coverage": 7,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 3,
+          "weight": 2.5
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 2,
+          "weight": 1.5
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 4,
+      "recent90": 7,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-10-14",
+          "summary": "Healthleap Raises $38M to Expand AI Screening for Overlooked Conditions in Hospitalized Patients",
+          "url": "https://medcitynews.com/2026/10/healthleap-raises-38m-to-expand-ai-screening-for-overlooked-conditions-in-hospitalized-patients/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-07",
+          "summary": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look",
+          "url": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-10-07",
+          "summary": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look",
+          "url": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-06",
+          "summary": "Flai\u2019s AI dealership software is booking 50,000 appointments per month",
+          "url": "https://techcrunch.com/2026/10/06/flais-ai-dealership-software-is-booking-50000-appointments-per-month/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-30",
+          "summary": "K2 Space raises $500 million for commercial, defense satellite expansion",
+          "url": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/"
+        },
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-07-23",
+          "summary": "Assured Health Secures $19M to Get Providers In-Network Faster with Agentic AI",
+          "url": "https://medcitynews.com/2026/07/assured-health-healthcare-credentialing/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-16",
+          "summary": "The Billion-Dollar Seed Isn\u2019t The Deal You Think It Is",
+          "url": "https://news.crunchbase.com/venture/billion-dollar-seed-ai-biotech-mcdonald-bison/"
+        }
+      ]
+    },
+    {
       "fund": "Riot Ventures",
       "thesis": "Revealed focus: Space Tech and Cybersecurity. 7 attributed deal(s), 5 in the last 30d.",
       "coverage": 7,
@@ -4737,75 +4818,6 @@
           "date": "2026-07-08",
           "summary": "Venus Aerospace raises $90M Series B to build a new kind of rocket engine",
           "url": "https://techcrunch.com/2026/07/08/venus-aerospace-raises-90m-series-b-to-build-a-new-kind-of-rocket-engine/"
-        }
-      ]
-    },
-    {
-      "fund": "First Round Capital",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 6 attributed deal(s), 3 in the last 30d.",
-      "coverage": 6,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 3,
-          "weight": 2.5
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Healthtech / Bio",
-          "count": 1,
-          "weight": 0.5
-        },
-        {
-          "label": "Space Tech",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 3,
-      "recent90": 6,
-      "prior30": 0,
-      "last_deal_days": 7,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-10-07",
-          "summary": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look",
-          "url": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-10-07",
-          "summary": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look",
-          "url": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-10-06",
-          "summary": "Flai\u2019s AI dealership software is booking 50,000 appointments per month",
-          "url": "https://techcrunch.com/2026/10/06/flais-ai-dealership-software-is-booking-50000-appointments-per-month/"
-        },
-        {
-          "sector": "Space Tech",
-          "date": "2026-07-30",
-          "summary": "K2 Space raises $500 million for commercial, defense satellite expansion",
-          "url": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/"
-        },
-        {
-          "sector": "Healthtech / Bio",
-          "date": "2026-07-23",
-          "summary": "Assured Health Secures $19M to Get Providers In-Network Faster with Agentic AI",
-          "url": "https://medcitynews.com/2026/07/assured-health-healthcare-credentialing/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-16",
-          "summary": "The Billion-Dollar Seed Isn\u2019t The Deal You Think It Is",
-          "url": "https://news.crunchbase.com/venture/billion-dollar-seed-ai-biotech-mcdonald-bison/"
         }
       ]
     },
@@ -8959,6 +8971,52 @@
       ]
     },
     {
+      "fund": "Hummingbird Ventures",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s), 3 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 3,
+      "recent90": 3,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-10-14",
+          "summary": "Healthleap Raises $38M to Expand AI Screening for Overlooked Conditions in Hospitalized Patients",
+          "url": "https://medcitynews.com/2026/10/healthleap-raises-38m-to-expand-ai-screening-for-overlooked-conditions-in-hospitalized-patients/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-07",
+          "summary": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look",
+          "url": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-10-07",
+          "summary": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look",
+          "url": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/"
+        }
+      ]
+    },
+    {
       "fund": "AVP",
       "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 3 attributed deal(s), 2 in the last 30d.",
       "coverage": 3,
@@ -12650,41 +12708,6 @@
           "date": "2026-10-06",
           "summary": "Flai\u2019s AI dealership software is booking 50,000 appointments per month",
           "url": "https://techcrunch.com/2026/10/06/flais-ai-dealership-software-is-booking-50000-appointments-per-month/"
-        }
-      ]
-    },
-    {
-      "fund": "Hummingbird Ventures",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 1.0
-        }
-      ],
-      "recent30": 2,
-      "recent90": 2,
-      "prior30": 0,
-      "last_deal_days": 7,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-10-07",
-          "summary": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look",
-          "url": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-10-07",
-          "summary": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look",
-          "url": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/"
         }
       ]
     },
@@ -19855,10 +19878,10 @@
       },
       {
         "fund": "Sequoia Capital",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 24 attributed deal(s), 8 in the last 30d.",
-        "coverage": 24,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 25 attributed deal(s), 9 in the last 30d.",
+        "coverage": 25,
         "sector_count": 13,
-        "recent30": 8
+        "recent30": 9
       },
       {
         "fund": "Khosla Ventures",
@@ -20127,18 +20150,18 @@
         "recent30": 2
       },
       {
+        "fund": "First Round Capital",
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 7 attributed deal(s), 4 in the last 30d.",
+        "coverage": 7,
+        "sector_count": 3,
+        "recent30": 4
+      },
+      {
         "fund": "CapitalG",
         "thesis": "Revealed focus: Cybersecurity and Space Tech. 7 attributed deal(s), 1 in the last 30d.",
         "coverage": 7,
         "sector_count": 3,
         "recent30": 1
-      },
-      {
-        "fund": "First Round Capital",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 6 attributed deal(s), 3 in the last 30d.",
-        "coverage": 6,
-        "sector_count": 3,
-        "recent30": 3
       },
       {
         "fund": "GV",
@@ -20897,6 +20920,13 @@
         "recent30": 0
       },
       {
+        "fund": "Hummingbird Ventures",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "Union Square Ventures",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s), 2 in the last 30d.",
         "coverage": 3,
@@ -21192,13 +21222,6 @@
       },
       {
         "fund": "Meta Boyu Capital",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Hummingbird Ventures",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,
@@ -21796,10 +21819,10 @@
       },
       {
         "fund": "Sequoia Capital",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 24 attributed deal(s), 8 in the last 30d.",
-        "coverage": 24,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 25 attributed deal(s), 9 in the last 30d.",
+        "coverage": 25,
         "sector_count": 5,
-        "recent30": 8
+        "recent30": 9
       },
       {
         "fund": "Index Ventures",
@@ -22791,6 +22814,13 @@
         "recent30": 11
       },
       {
+        "fund": "Sequoia Capital",
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 25 attributed deal(s), 9 in the last 30d.",
+        "coverage": 25,
+        "sector_count": 2,
+        "recent30": 9
+      },
+      {
         "fund": "Khosla Ventures",
         "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 23 attributed deal(s), 10 in the last 30d.",
         "coverage": 23,
@@ -22824,6 +22854,13 @@
         "coverage": 9,
         "sector_count": 2,
         "recent30": 3
+      },
+      {
+        "fund": "First Round Capital",
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 7 attributed deal(s), 4 in the last 30d.",
+        "coverage": 7,
+        "sector_count": 2,
+        "recent30": 4
       },
       {
         "fund": "a16z",
@@ -22896,13 +22933,6 @@
         "recent30": 2
       },
       {
-        "fund": "Sequoia Capital",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 24 attributed deal(s), 8 in the last 30d.",
-        "coverage": 24,
-        "sector_count": 1,
-        "recent30": 8
-      },
-      {
         "fund": "Accel",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 19 attributed deal(s), 9 in the last 30d.",
         "coverage": 19,
@@ -22959,13 +22989,6 @@
         "recent30": 0
       },
       {
-        "fund": "First Round Capital",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 6 attributed deal(s), 3 in the last 30d.",
-        "coverage": 6,
-        "sector_count": 1,
-        "recent30": 3
-      },
-      {
         "fund": "SignalFire",
         "thesis": "Revealed focus: AI / ML Infra and Fintech / Payments. 5 attributed deal(s), 2 in the last 30d.",
         "coverage": 5,
@@ -22992,6 +23015,13 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 1
+      },
+      {
+        "fund": "Hummingbird Ventures",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
       },
       {
         "fund": "Redpoint",
@@ -23221,10 +23251,10 @@
       },
       {
         "fund": "Sequoia Capital",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 24 attributed deal(s), 8 in the last 30d.",
-        "coverage": 24,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 25 attributed deal(s), 9 in the last 30d.",
+        "coverage": 25,
         "sector_count": 2,
-        "recent30": 8
+        "recent30": 9
       },
       {
         "fund": "General Catalyst",
@@ -23458,6 +23488,13 @@
         "recent30": 3
       },
       {
+        "fund": "First Round Capital",
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 7 attributed deal(s), 4 in the last 30d.",
+        "coverage": 7,
+        "sector_count": 1,
+        "recent30": 4
+      },
+      {
         "fund": "CapitalG",
         "thesis": "Revealed focus: Cybersecurity and Space Tech. 7 attributed deal(s), 1 in the last 30d.",
         "coverage": 7,
@@ -23475,13 +23512,6 @@
         "fund": "IDG Capital",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 7 attributed deal(s), 3 in the last 30d.",
         "coverage": 7,
-        "sector_count": 1,
-        "recent30": 3
-      },
-      {
-        "fund": "First Round Capital",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 6 attributed deal(s), 3 in the last 30d.",
-        "coverage": 6,
         "sector_count": 1,
         "recent30": 3
       },
@@ -23610,6 +23640,13 @@
         "coverage": 4,
         "sector_count": 1,
         "recent30": 0
+      },
+      {
+        "fund": "Hummingbird Ventures",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 3 attributed deal(s), 3 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 3
       },
       {
         "fund": "Union Square Ventures",
@@ -23781,13 +23818,6 @@
       },
       {
         "fund": "Meta Boyu Capital",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 2
-      },
-      {
-        "fund": "Hummingbird Ventures",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
         "sector_count": 1,
@@ -24273,10 +24303,10 @@
       },
       {
         "fund": "Sequoia Capital",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 24 attributed deal(s), 8 in the last 30d.",
-        "coverage": 24,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 25 attributed deal(s), 9 in the last 30d.",
+        "coverage": 25,
         "sector_count": 1,
-        "recent30": 8
+        "recent30": 9
       },
       {
         "fund": "Accel",
@@ -25255,10 +25285,10 @@
       },
       {
         "fund": "Sequoia Capital",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 24 attributed deal(s), 8 in the last 30d.",
-        "coverage": 24,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 25 attributed deal(s), 9 in the last 30d.",
+        "coverage": 25,
         "sector_count": 1,
-        "recent30": 8
+        "recent30": 9
       },
       {
         "fund": "Valor Equity Partners",
@@ -25283,10 +25313,10 @@
       },
       {
         "fund": "First Round Capital",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 6 attributed deal(s), 3 in the last 30d.",
-        "coverage": 6,
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 7 attributed deal(s), 4 in the last 30d.",
+        "coverage": 7,
         "sector_count": 1,
-        "recent30": 3
+        "recent30": 4
       },
       {
         "fund": "Cherry Ventures",
@@ -25782,10 +25812,10 @@
       },
       {
         "fund": "Sequoia Capital",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 24 attributed deal(s), 8 in the last 30d.",
-        "coverage": 24,
+        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 25 attributed deal(s), 9 in the last 30d.",
+        "coverage": 25,
         "sector_count": 1,
-        "recent30": 8
+        "recent30": 9
       },
       {
         "fund": "General Catalyst",

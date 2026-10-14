@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-14T11:06:21Z",
+  "generated": "2026-10-14T16:26:23Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 1488,
-    "deal_rows_attributed": 719,
-    "funds_tracked": 427,
-    "fetch_attempts": 163,
+    "deal_rows_seen": 1495,
+    "deal_rows_attributed": 723,
+    "funds_tracked": 428,
+    "fetch_attempts": 166,
     "fetchable_pct": 2,
     "update_cadence": "hourly"
   },
@@ -1495,6 +1495,146 @@
       ]
     },
     {
+      "fund": "Radical Ventures",
+      "thesis": "Revealed focus: AI / ML Infra and Space Tech. 17 attributed deal(s), 4 in the last 30d.",
+      "coverage": 17,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 9,
+          "weight": 6.25
+        },
+        {
+          "label": "Space Tech",
+          "count": 4,
+          "weight": 2.0
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 0.5
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 0.5
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 0.25
+        }
+      ],
+      "recent30": 4,
+      "recent90": 13,
+      "prior30": 9,
+      "last_deal_days": 1,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-10-13",
+          "summary": "How Agentic Activity Changes the Risk Equation",
+          "url": "https://radical.vc/articles/how-agentic-activity-changes-the-risk-equation/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-10-05",
+          "summary": "AMD Acquires World Labs",
+          "url": "https://radical.vc/articles/amd-acquires-world-labs/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-17",
+          "summary": "Crusoe raises $3.9B to build massive data centers and small modular \u201cAI factories\u201d",
+          "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-14",
+          "summary": "What AI Has to Understand Before It Can Beat the Market",
+          "url": "https://radical.vc/articles/what-ai-has-to-understand-before-it-can-beat-the-market/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-08",
+          "summary": "A World Model for Spatial Intelligence",
+          "url": "https://radical.vc/articles/a-world-model-for-spatial-intelligence/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-08",
+          "summary": "Pixxel Raises $100M Series C to Fund Next-Gen Sats",
+          "url": "https://payloadspace.com/pixxel-raises-100m-series-c-to-fund-next-gen-sats/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-09-08",
+          "summary": "Schiess Becomes CSO Amid Space Workforce Shortages",
+          "url": "https://payloadspace.com/schiess-becomes-cso-amid-space-workforce-shortages/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-02",
+          "summary": "The Rise of NeoLabs",
+          "url": "https://radical.vc/articles/the-rise-of-the-neolab/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-01",
+          "summary": "Generalist AI Ushers In The \u201cGPT-3 Moment for Robotics\u201d",
+          "url": "https://radical.vc/articles/generalist-ai-ushers-in-the-gpt-3-moment-for-robotics/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-26",
+          "summary": "Data Center Power Solutions Startup Emerald AI Raises $150 Million at Unicorn Valuation",
+          "url": "https://www.esgtoday.com/data-center-power-solutions-startup-emerald-ai-raises-150-million-at-unicorn-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=data-center-power-solutions-startup-emerald-ai-raises-150-million-at-unicorn-valuation"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-08-20",
+          "summary": "Muon Space raises $250 million to ramp up satellite production",
+          "url": "https://spacenews.com/muon-space-raises-250-million-to-ramp-up-satellite-production/"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-08-20",
+          "summary": "Muon Space Raises $250M Series C",
+          "url": "https://payloadspace.com/muon-space-raises-250m-series-c/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-08-17",
+          "summary": "Teaching AI to Ask the Right Questions",
+          "url": "https://radical.vc/articles/teaching-ai-to-ask-the-right-questions/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-10",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
+          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-08",
+          "summary": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents",
+          "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-08",
+          "summary": "Prime Intellect Raises $130 Million to Help Companies Train AI Agents",
+          "url": "https://www.pymnts.com/news/investment-tracker/2026/prime-intellect-raises-130-million-to-help-companies-train-ai-agents/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-08",
+          "summary": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents",
+          "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/"
+        }
+      ]
+    },
+    {
       "fund": "Breakthrough Energy Ventures",
       "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 16 attributed deal(s), 5 in the last 30d.",
       "coverage": 16,
@@ -2007,140 +2147,6 @@
           "date": "2026-06-16",
           "summary": "The next generation of analytics: Why we invested in Golden Analytics",
           "url": "https://www.insightpartners.com/ideas/why-we-invested-in-golden-analytics/"
-        }
-      ]
-    },
-    {
-      "fund": "Radical Ventures",
-      "thesis": "Revealed focus: AI / ML Infra and Space Tech. 16 attributed deal(s), 3 in the last 30d.",
-      "coverage": 16,
-      "sectors": [
-        {
-          "label": "AI / ML Infra",
-          "count": 8,
-          "weight": 5.25
-        },
-        {
-          "label": "Space Tech",
-          "count": 4,
-          "weight": 2.0
-        },
-        {
-          "label": "Cybersecurity",
-          "count": 2,
-          "weight": 0.5
-        },
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 1,
-          "weight": 0.5
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 0.25
-        }
-      ],
-      "recent30": 3,
-      "recent90": 12,
-      "prior30": 9,
-      "last_deal_days": 9,
-      "deals": [
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-10-05",
-          "summary": "AMD Acquires World Labs",
-          "url": "https://radical.vc/articles/amd-acquires-world-labs/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-17",
-          "summary": "Crusoe raises $3.9B to build massive data centers and small modular \u201cAI factories\u201d",
-          "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-14",
-          "summary": "What AI Has to Understand Before It Can Beat the Market",
-          "url": "https://radical.vc/articles/what-ai-has-to-understand-before-it-can-beat-the-market/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-08",
-          "summary": "A World Model for Spatial Intelligence",
-          "url": "https://radical.vc/articles/a-world-model-for-spatial-intelligence/"
-        },
-        {
-          "sector": "Space Tech",
-          "date": "2026-09-08",
-          "summary": "Pixxel Raises $100M Series C to Fund Next-Gen Sats",
-          "url": "https://payloadspace.com/pixxel-raises-100m-series-c-to-fund-next-gen-sats/"
-        },
-        {
-          "sector": "Space Tech",
-          "date": "2026-09-08",
-          "summary": "Schiess Becomes CSO Amid Space Workforce Shortages",
-          "url": "https://payloadspace.com/schiess-becomes-cso-amid-space-workforce-shortages/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-02",
-          "summary": "The Rise of NeoLabs",
-          "url": "https://radical.vc/articles/the-rise-of-the-neolab/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-01",
-          "summary": "Generalist AI Ushers In The \u201cGPT-3 Moment for Robotics\u201d",
-          "url": "https://radical.vc/articles/generalist-ai-ushers-in-the-gpt-3-moment-for-robotics/"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-08-26",
-          "summary": "Data Center Power Solutions Startup Emerald AI Raises $150 Million at Unicorn Valuation",
-          "url": "https://www.esgtoday.com/data-center-power-solutions-startup-emerald-ai-raises-150-million-at-unicorn-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=data-center-power-solutions-startup-emerald-ai-raises-150-million-at-unicorn-valuation"
-        },
-        {
-          "sector": "Space Tech",
-          "date": "2026-08-20",
-          "summary": "Muon Space raises $250 million to ramp up satellite production",
-          "url": "https://spacenews.com/muon-space-raises-250-million-to-ramp-up-satellite-production/"
-        },
-        {
-          "sector": "Space Tech",
-          "date": "2026-08-20",
-          "summary": "Muon Space Raises $250M Series C",
-          "url": "https://payloadspace.com/muon-space-raises-250m-series-c/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-08-17",
-          "summary": "Teaching AI to Ask the Right Questions",
-          "url": "https://radical.vc/articles/teaching-ai-to-ask-the-right-questions/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-10",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
-          "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-08",
-          "summary": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents",
-          "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-07-08",
-          "summary": "Prime Intellect Raises $130 Million to Help Companies Train AI Agents",
-          "url": "https://www.pymnts.com/news/investment-tracker/2026/prime-intellect-raises-130-million-to-help-companies-train-ai-agents/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-07-08",
-          "summary": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents",
-          "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/"
         }
       ]
     },
@@ -3341,6 +3347,99 @@
       ]
     },
     {
+      "fund": "Lightspeed",
+      "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 10 attributed deal(s), 6 in the last 30d.",
+      "coverage": 10,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 4,
+          "weight": 3.5
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 3,
+          "weight": 3.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 2,
+          "weight": 0.75
+        },
+        {
+          "label": "Space Tech",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 6,
+      "recent90": 9,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-10-14",
+          "summary": "Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace",
+          "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-10-08",
+          "summary": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
+          "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-10-08",
+          "summary": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
+          "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-22",
+          "summary": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+          "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-22",
+          "summary": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+          "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-18",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Large Rounds For AI Infrastructure, Space Tech And Investment Management Lead",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-space-fintech-temporal/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-02",
+          "summary": "The Rise of NeoLabs",
+          "url": "https://radical.vc/articles/the-rise-of-the-neolab/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-04",
+          "summary": "Home Battery Startup Base Power Raises $1 Billion at $13 Billion Valuation",
+          "url": "https://www.esgtoday.com/home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation"
+        },
+        {
+          "sector": "Space Tech",
+          "date": "2026-07-30",
+          "summary": "K2 Space raises $500 million for commercial, defense satellite expansion",
+          "url": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-07-07",
+          "summary": "Google Backs Proxima\u2019s Record $468 Million Raise in Race to First Fusion Power Plant",
+          "url": "https://www.esgtoday.com/google-backs-proximas-record-468-million-raise-in-race-to-first-fusion-power-plant/?utm_source=rss&utm_medium=rss&utm_campaign=google-backs-proximas-record-468-million-raise-in-race-to-first-fusion-power-plant"
+        }
+      ]
+    },
+    {
       "fund": "Coatue",
       "thesis": "Revealed focus: Cybersecurity and Coexistence / Empowerment. 10 attributed deal(s), 1 in the last 30d.",
       "coverage": 10,
@@ -3440,93 +3539,6 @@
           "date": "2026-07-10",
           "summary": "The Week\u2019s 10 Biggest Funding Rounds: A Pair Of Billion-Dollar Deals For Cyber And AI Infrastructure Lead",
           "url": "https://news.crunchbase.com/ai/biggest-funding-rounds-billion-dollar-cyber-ai-keyfactor-sambanova/"
-        }
-      ]
-    },
-    {
-      "fund": "Lightspeed",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 9 attributed deal(s), 5 in the last 30d.",
-      "coverage": 9,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 3,
-          "weight": 3.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 3,
-          "weight": 2.5
-        },
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 2,
-          "weight": 0.75
-        },
-        {
-          "label": "Space Tech",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 5,
-      "recent90": 8,
-      "prior30": 1,
-      "last_deal_days": 6,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-10-08",
-          "summary": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
-          "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-10-08",
-          "summary": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
-          "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-22",
-          "summary": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
-          "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-22",
-          "summary": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
-          "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-18",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Large Rounds For AI Infrastructure, Space Tech And Investment Management Lead",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-space-fintech-temporal/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-02",
-          "summary": "The Rise of NeoLabs",
-          "url": "https://radical.vc/articles/the-rise-of-the-neolab/"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-08-04",
-          "summary": "Home Battery Startup Base Power Raises $1 Billion at $13 Billion Valuation",
-          "url": "https://www.esgtoday.com/home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation"
-        },
-        {
-          "sector": "Space Tech",
-          "date": "2026-07-30",
-          "summary": "K2 Space raises $500 million for commercial, defense satellite expansion",
-          "url": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-07-07",
-          "summary": "Google Backs Proxima\u2019s Record $468 Million Raise in Race to First Fusion Power Plant",
-          "url": "https://www.esgtoday.com/google-backs-proximas-record-468-million-raise-in-race-to-first-fusion-power-plant/?utm_source=rss&utm_medium=rss&utm_campaign=google-backs-proximas-record-468-million-raise-in-race-to-first-fusion-power-plant"
         }
       ]
     },
@@ -16582,6 +16594,36 @@
       ]
     },
     {
+      "fund": "3one4 Capital",
+      "thesis": "Revealed focus: AI / ML Infra. 2 attributed deal(s), 1 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 2,
+          "weight": 1.5
+        }
+      ],
+      "recent30": 1,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-10-14",
+          "summary": "Scimplify raises $25M to challenge China\u2019s grip on critical materials with AI",
+          "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-07-31",
+          "summary": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
+          "url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/"
+        }
+      ]
+    },
+    {
       "fund": "Pomerium",
       "thesis": "Revealed focus: AI / ML Infra. 2 attributed deal(s), 2 in the last 30d.",
       "coverage": 2,
@@ -20065,10 +20107,10 @@
       },
       {
         "fund": "Lightspeed",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 9 attributed deal(s), 5 in the last 30d.",
-        "coverage": 9,
+        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 10 attributed deal(s), 6 in the last 30d.",
+        "coverage": 10,
         "sector_count": 3,
-        "recent30": 5
+        "recent30": 6
       },
       {
         "fund": "Thrive Capital",
@@ -20170,10 +20212,10 @@
       },
       {
         "fund": "Radical Ventures",
-        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 16 attributed deal(s), 3 in the last 30d.",
-        "coverage": 16,
+        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 17 attributed deal(s), 4 in the last 30d.",
+        "coverage": 17,
         "sector_count": 2,
-        "recent30": 3
+        "recent30": 4
       },
       {
         "fund": "Salesforce Ventures",
@@ -22138,15 +22180,15 @@
         "recent30": 6
       },
       {
-        "fund": "Menlo Ventures",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 16 attributed deal(s), 3 in the last 30d.",
-        "coverage": 16,
+        "fund": "Radical Ventures",
+        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 17 attributed deal(s), 4 in the last 30d.",
+        "coverage": 17,
         "sector_count": 1,
-        "recent30": 3
+        "recent30": 4
       },
       {
-        "fund": "Radical Ventures",
-        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 16 attributed deal(s), 3 in the last 30d.",
+        "fund": "Menlo Ventures",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 16 attributed deal(s), 3 in the last 30d.",
         "coverage": 16,
         "sector_count": 1,
         "recent30": 3
@@ -23088,10 +23130,10 @@
       },
       {
         "fund": "Radical Ventures",
-        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 16 attributed deal(s), 3 in the last 30d.",
-        "coverage": 16,
-        "sector_count": 8,
-        "recent30": 3
+        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 17 attributed deal(s), 4 in the last 30d.",
+        "coverage": 17,
+        "sector_count": 9,
+        "recent30": 4
       },
       {
         "fund": "Menlo Ventures",
@@ -23129,6 +23171,13 @@
         "recent30": 7
       },
       {
+        "fund": "Lightspeed",
+        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 10 attributed deal(s), 6 in the last 30d.",
+        "coverage": 10,
+        "sector_count": 4,
+        "recent30": 6
+      },
+      {
         "fund": "Andreessen Horowitz",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 33 attributed deal(s), 11 in the last 30d.",
         "coverage": 33,
@@ -23155,13 +23204,6 @@
         "coverage": 10,
         "sector_count": 3,
         "recent30": 4
-      },
-      {
-        "fund": "Lightspeed",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 9 attributed deal(s), 5 in the last 30d.",
-        "coverage": 9,
-        "sector_count": 3,
-        "recent30": 5
       },
       {
         "fund": "EQT",
@@ -23323,6 +23365,13 @@
         "coverage": 3,
         "sector_count": 2,
         "recent30": 0
+      },
+      {
+        "fund": "3one4 Capital",
+        "thesis": "Revealed focus: AI / ML Infra. 2 attributed deal(s), 1 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 2,
+        "recent30": 1
       },
       {
         "fund": "Pomerium",
@@ -24751,10 +24800,10 @@
       },
       {
         "fund": "Radical Ventures",
-        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 16 attributed deal(s), 3 in the last 30d.",
-        "coverage": 16,
+        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 17 attributed deal(s), 4 in the last 30d.",
+        "coverage": 17,
         "sector_count": 4,
-        "recent30": 3
+        "recent30": 4
       },
       {
         "fund": "Gaingels",
@@ -25220,10 +25269,10 @@
       },
       {
         "fund": "Lightspeed",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 9 attributed deal(s), 5 in the last 30d.",
-        "coverage": 9,
+        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 10 attributed deal(s), 6 in the last 30d.",
+        "coverage": 10,
         "sector_count": 1,
-        "recent30": 5
+        "recent30": 6
       },
       {
         "fund": "Thrive Capital",
@@ -25501,18 +25550,18 @@
         "recent30": 0
       },
       {
+        "fund": "Lightspeed",
+        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 10 attributed deal(s), 6 in the last 30d.",
+        "coverage": 10,
+        "sector_count": 2,
+        "recent30": 6
+      },
+      {
         "fund": "Coatue",
         "thesis": "Revealed focus: Cybersecurity and Coexistence / Empowerment. 10 attributed deal(s), 1 in the last 30d.",
         "coverage": 10,
         "sector_count": 2,
         "recent30": 1
-      },
-      {
-        "fund": "Lightspeed",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 9 attributed deal(s), 5 in the last 30d.",
-        "coverage": 9,
-        "sector_count": 2,
-        "recent30": 5
       },
       {
         "fund": "SiteGround Capital",
@@ -25746,18 +25795,18 @@
         "recent30": 6
       },
       {
+        "fund": "Radical Ventures",
+        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 17 attributed deal(s), 4 in the last 30d.",
+        "coverage": 17,
+        "sector_count": 1,
+        "recent30": 4
+      },
+      {
         "fund": "Insight Partners",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 16 attributed deal(s), 7 in the last 30d.",
         "coverage": 16,
         "sector_count": 1,
         "recent30": 7
-      },
-      {
-        "fund": "Radical Ventures",
-        "thesis": "Revealed focus: AI / ML Infra and Space Tech. 16 attributed deal(s), 3 in the last 30d.",
-        "coverage": 16,
-        "sector_count": 1,
-        "recent30": 3
       },
       {
         "fund": "Valor Equity Partners",

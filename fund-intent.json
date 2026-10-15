@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-15T17:59:31Z",
+  "generated": "2026-10-15T21:11:25Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 1509,
-    "deal_rows_attributed": 730,
+    "deal_rows_seen": 1513,
+    "deal_rows_attributed": 731,
     "funds_tracked": 429,
-    "fetch_attempts": 167,
+    "fetch_attempts": 168,
     "fetchable_pct": 2,
     "update_cadence": "hourly"
   },
@@ -10715,6 +10715,52 @@
       ]
     },
     {
+      "fund": "Anthropic",
+      "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 3 attributed deal(s), 2 in the last 30d.",
+      "coverage": 3,
+      "sectors": [
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Cybersecurity",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 2,
+      "recent90": 3,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-10-15",
+          "summary": "FIS and Anthropic Debut Money Laundering Investigation Agent",
+          "url": "https://www.pymnts.com/legal/aml/2026/fis-anthropic-debut-money-laundering-investigation-agent/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-10-11",
+          "summary": "AI agent teams waste massive tokens for barely measurable quality gains, research finds",
+          "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-23",
+          "summary": "Beyond the Vulnerability Apocalypse: Scaling Your Basics and Vulnerability Management",
+          "url": "https://medium.com/anton-on-security/beyond-the-vulnerability-apocalypse-scaling-your-basics-and-vulnerability-management-e9a62d1f4c00?source=rss----8e8c3ed26c4c---4"
+        }
+      ]
+    },
+    {
       "fund": "OpenAI",
       "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 3 attributed deal(s).",
       "coverage": 3,
@@ -15406,41 +15452,6 @@
           "date": "2026-07-23",
           "summary": "Abstract Raises $25 Million to Expand Composable Security Operations Platform",
           "url": "https://www.securityweek.com/abstract-raises-25-million-to-expand-composable-security-operations-platform/"
-        }
-      ]
-    },
-    {
-      "fund": "Anthropic",
-      "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Cybersecurity",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 1,
-      "recent90": 2,
-      "prior30": 0,
-      "last_deal_days": 4,
-      "deals": [
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-10-11",
-          "summary": "AI agent teams waste massive tokens for barely measurable quality gains, research finds",
-          "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-23",
-          "summary": "Beyond the Vulnerability Apocalypse: Scaling Your Basics and Vulnerability Management",
-          "url": "https://medium.com/anton-on-security/beyond-the-vulnerability-apocalypse-scaling-your-basics-and-vulnerability-management-e9a62d1f4c00?source=rss----8e8c3ed26c4c---4"
         }
       ]
     },
@@ -21254,6 +21265,13 @@
         "recent30": 0
       },
       {
+        "fund": "Anthropic",
+        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "OpenAI",
         "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 3 attributed deal(s).",
         "coverage": 3,
@@ -21798,13 +21816,6 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 0
-      },
-      {
-        "fund": "Anthropic",
-        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
       },
       {
         "fund": "Slauson",
@@ -22668,6 +22679,13 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 1
+      },
+      {
+        "fund": "Anthropic",
+        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 2
       },
       {
         "fund": "Trust Ventures",
@@ -23871,6 +23889,13 @@
         "recent30": 0
       },
       {
+        "fund": "Anthropic",
+        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 3 attributed deal(s), 2 in the last 30d.",
+        "coverage": 3,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "Lakestar",
         "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 3 attributed deal(s), 1 in the last 30d.",
         "coverage": 3,
@@ -24072,13 +24097,6 @@
         "coverage": 2,
         "sector_count": 1,
         "recent30": 0
-      },
-      {
-        "fund": "Anthropic",
-        "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
       },
       {
         "fund": "TLV Partners",

@@ -1,12 +1,12 @@
 {
-  "generated": "2026-10-15T13:54:47Z",
+  "generated": "2026-10-15T17:59:31Z",
   "min_recurrence": 2,
   "coverage": {
-    "deal_rows_seen": 1504,
-    "deal_rows_attributed": 727,
-    "funds_tracked": 428,
-    "fetch_attempts": 163,
-    "fetchable_pct": 0,
+    "deal_rows_seen": 1509,
+    "deal_rows_attributed": 730,
+    "funds_tracked": 429,
+    "fetch_attempts": 167,
+    "fetchable_pct": 2,
     "update_cadence": "hourly"
   },
   "funds": [
@@ -866,13 +866,13 @@
     },
     {
       "fund": "Google",
-      "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 21 attributed deal(s), 6 in the last 30d.",
-      "coverage": 21,
+      "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 22 attributed deal(s), 7 in the last 30d.",
+      "coverage": 22,
       "sectors": [
         {
           "label": "Coexistence / Empowerment",
-          "count": 9,
-          "weight": 6.25
+          "count": 10,
+          "weight": 7.25
         },
         {
           "label": "Cybersecurity",
@@ -895,11 +895,17 @@
           "weight": 0.25
         }
       ],
-      "recent30": 6,
-      "recent90": 18,
+      "recent30": 7,
+      "recent90": 19,
       "prior30": 7,
-      "last_deal_days": 14,
+      "last_deal_days": 0,
       "deals": [
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-10-15",
+          "summary": "Google Backs 44.01\u2019s $11.7 Million Carbon Removal Deal with Frontier",
+          "url": "https://esgnews.com/google-backs-44-01s-11-7-million-carbon-removal-deal-with-frontier/?utm_source=rss&utm_medium=rss&utm_campaign=google-backs-44-01s-11-7-million-carbon-removal-deal-with-frontier"
+        },
         {
           "sector": "Coexistence / Empowerment",
           "date": "2026-10-01",
@@ -1507,6 +1513,152 @@
       ]
     },
     {
+      "fund": "Sequoia",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 18 attributed deal(s), 4 in the last 30d.",
+      "coverage": 18,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 8,
+          "weight": 4.5
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 5,
+          "weight": 3.5
+        },
+        {
+          "label": "Climate / Energy",
+          "count": 3,
+          "weight": 1.5
+        },
+        {
+          "label": "Marketing / Ads",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 4,
+      "recent90": 18,
+      "prior30": 7,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-10-15",
+          "summary": "Meta Ships Muse Wonder, Jev Raises $870M 24 Days After Launch, and Anthropic Cuts Haiku 90%: The Top Takeaways From This Week\u2019s 20VC x SaaStr",
+          "url": "https://www.saastr.com/meta-ships-muse-wonder-jev-raises-870m-24-days-after-launch-and-anthropic-cuts-haiku-90-the-top-takeaways-from-this-weeks-20vc-x-saastr/"
+        },
+        {
+          "sector": "Marketing / Ads",
+          "date": "2026-10-15",
+          "summary": "Meta Ships Muse Wonder, Jev Raises $870M 24 Days After Launch, and Anthropic Cuts Haiku 90%: The Top Takeaways From This Week\u2019s 20VC x SaaStr",
+          "url": "https://www.saastr.com/meta-ships-muse-wonder-jev-raises-870m-24-days-after-launch-and-anthropic-cuts-haiku-90-the-top-takeaways-from-this-weeks-20vc-x-saastr/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-15",
+          "summary": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round",
+          "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-15",
+          "summary": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round",
+          "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-10",
+          "summary": "Defense tech Mach Industries doubles valuation to $3.7B in 3 months",
+          "url": "https://techcrunch.com/2026/09/10/defense-tech-mach-industries-doubles-valuation-to-3-7b-in-3-months/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-09",
+          "summary": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
+          "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-09",
+          "summary": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
+          "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-09",
+          "summary": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
+          "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-02",
+          "summary": "The Rise of NeoLabs",
+          "url": "https://radical.vc/articles/the-rise-of-the-neolab/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-01",
+          "summary": "AIR raises $50M to help companies vet the skills and add-ons AI agents use",
+          "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-21",
+          "summary": "How AI accounting startup Rillet raised $100M and became a unicorn in 48-hours",
+          "url": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-04",
+          "summary": "Microreactor startup Valar Atomics raises $1B",
+          "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-03",
+          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
+          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-08-03",
+          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
+          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-22",
+          "summary": "Glow exits stealth with $180 million to secure the AI-enabled endpoint",
+          "url": "https://www.helpnetsecurity.com/2026/07/22/glow-launches-with-180-million-funding/"
+        },
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-07-20",
+          "summary": "Bunkerhill Lands Series B to Turn Ideas Into Action",
+          "url": "https://digitalhealthwire.com/bunkerhill-raises-series-b-to-turn-ideas-into-action/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-07-17",
+          "summary": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
+          "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/"
+        },
+        {
+          "sector": "Climate / Energy",
+          "date": "2026-07-17",
+          "summary": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
+          "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/"
+        }
+      ]
+    },
+    {
       "fund": "Radical Ventures",
       "thesis": "Revealed focus: AI / ML Infra and Space Tech. 17 attributed deal(s), 3 in the last 30d.",
       "coverage": 17,
@@ -1643,135 +1795,6 @@
           "date": "2026-07-08",
           "summary": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents",
           "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/"
-        }
-      ]
-    },
-    {
-      "fund": "Sequoia",
-      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 16 attributed deal(s), 2 in the last 30d.",
-      "coverage": 16,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 8,
-          "weight": 4.5
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 4,
-          "weight": 2.5
-        },
-        {
-          "label": "Climate / Energy",
-          "count": 3,
-          "weight": 1.5
-        },
-        {
-          "label": "Healthtech / Bio",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 2,
-      "recent90": 16,
-      "prior30": 7,
-      "last_deal_days": 30,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-15",
-          "summary": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round",
-          "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-15",
-          "summary": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round",
-          "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-10",
-          "summary": "Defense tech Mach Industries doubles valuation to $3.7B in 3 months",
-          "url": "https://techcrunch.com/2026/09/10/defense-tech-mach-industries-doubles-valuation-to-3-7b-in-3-months/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-09",
-          "summary": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
-          "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-09",
-          "summary": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
-          "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-09",
-          "summary": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
-          "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-02",
-          "summary": "The Rise of NeoLabs",
-          "url": "https://radical.vc/articles/the-rise-of-the-neolab/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-01",
-          "summary": "AIR raises $50M to help companies vet the skills and add-ons AI agents use",
-          "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-21",
-          "summary": "How AI accounting startup Rillet raised $100M and became a unicorn in 48-hours",
-          "url": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-08-04",
-          "summary": "Microreactor startup Valar Atomics raises $1B",
-          "url": "https://www.canarymedia.com/articles/nuclear/microreactor-startup-valar-atomics-raises-1b"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-03",
-          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
-          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-08-03",
-          "summary": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
-          "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-22",
-          "summary": "Glow exits stealth with $180 million to secure the AI-enabled endpoint",
-          "url": "https://www.helpnetsecurity.com/2026/07/22/glow-launches-with-180-million-funding/"
-        },
-        {
-          "sector": "Healthtech / Bio",
-          "date": "2026-07-20",
-          "summary": "Bunkerhill Lands Series B to Turn Ideas Into Action",
-          "url": "https://digitalhealthwire.com/bunkerhill-raises-series-b-to-turn-ideas-into-action/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-07-17",
-          "summary": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
-          "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/"
-        },
-        {
-          "sector": "Climate / Energy",
-          "date": "2026-07-17",
-          "summary": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
-          "url": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/"
         }
       ]
     },
@@ -4113,6 +4136,86 @@
       ]
     },
     {
+      "fund": "DCVC",
+      "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 7 attributed deal(s), 3 in the last 30d.",
+      "coverage": 7,
+      "sectors": [
+        {
+          "label": "Cybersecurity",
+          "count": 2,
+          "weight": 1.5
+        },
+        {
+          "label": "AI / ML Infra",
+          "count": 2,
+          "weight": 1.5
+        },
+        {
+          "label": "Marketing / Ads",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 0.5
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 3,
+      "recent90": 7,
+      "prior30": 3,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-10-15",
+          "summary": "Meta Ships Muse Wonder, Jev Raises $870M 24 Days After Launch, and Anthropic Cuts Haiku 90%: The Top Takeaways From This Week\u2019s 20VC x SaaStr",
+          "url": "https://www.saastr.com/meta-ships-muse-wonder-jev-raises-870m-24-days-after-launch-and-anthropic-cuts-haiku-90-the-top-takeaways-from-this-weeks-20vc-x-saastr/"
+        },
+        {
+          "sector": "Marketing / Ads",
+          "date": "2026-10-15",
+          "summary": "Meta Ships Muse Wonder, Jev Raises $870M 24 Days After Launch, and Anthropic Cuts Haiku 90%: The Top Takeaways From This Week\u2019s 20VC x SaaStr",
+          "url": "https://www.saastr.com/meta-ships-muse-wonder-jev-raises-870m-24-days-after-launch-and-anthropic-cuts-haiku-90-the-top-takeaways-from-this-weeks-20vc-x-saastr/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-09-25",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Cybersecurity, AI And Health Take The Lead",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-ai-health-island-cyera/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-01",
+          "summary": "Generalist AI Ushers In The \u201cGPT-3 Moment for Robotics\u201d",
+          "url": "https://radical.vc/articles/generalist-ai-ushers-in-the-gpt-3-moment-for-robotics/"
+        },
+        {
+          "sector": "Cybersecurity",
+          "date": "2026-08-28",
+          "summary": "The Week\u2019s 10 Biggest Funding Rounds: AI Tools And Assistants Lead Sparser Lineup Of Megadeals",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-tools-assistants-instinct/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-26",
+          "summary": "Data Center Power Solutions Startup Emerald AI Raises $150 Million at Unicorn Valuation",
+          "url": "https://www.esgtoday.com/data-center-power-solutions-startup-emerald-ai-raises-150-million-at-unicorn-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=data-center-power-solutions-startup-emerald-ai-raises-150-million-at-unicorn-valuation"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-07-20",
+          "summary": "Natural raises $30M to reinvent payments for AI agents \u2014 and take on Stripe",
+          "url": "https://techcrunch.com/2026/07/20/natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe/"
+        }
+      ]
+    },
+    {
       "fund": "CapitalG",
       "thesis": "Revealed focus: Cybersecurity and Space Tech. 7 attributed deal(s), 1 in the last 30d.",
       "coverage": 7,
@@ -4469,6 +4572,81 @@
           "date": "2026-08-10",
           "summary": "UK Artificial Intelligence Funding Rockets Higher",
           "url": "https://www.crowdfundinsider.com/2026/08/296194-uk-artificial-intelligence-funding-rockets-higher/"
+        }
+      ]
+    },
+    {
+      "fund": "a16z",
+      "thesis": "Revealed focus: AI / ML Infra and Healthtech / Bio. 7 attributed deal(s), 4 in the last 30d.",
+      "coverage": 7,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 3,
+          "weight": 2.0
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 2,
+          "weight": 2.0
+        },
+        {
+          "label": "Marketing / Ads",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Coexistence / Empowerment",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 4,
+      "recent90": 7,
+      "prior30": 2,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-10-15",
+          "summary": "Meta Ships Muse Wonder, Jev Raises $870M 24 Days After Launch, and Anthropic Cuts Haiku 90%: The Top Takeaways From This Week\u2019s 20VC x SaaStr",
+          "url": "https://www.saastr.com/meta-ships-muse-wonder-jev-raises-870m-24-days-after-launch-and-anthropic-cuts-haiku-90-the-top-takeaways-from-this-weeks-20vc-x-saastr/"
+        },
+        {
+          "sector": "Marketing / Ads",
+          "date": "2026-10-15",
+          "summary": "Meta Ships Muse Wonder, Jev Raises $870M 24 Days After Launch, and Anthropic Cuts Haiku 90%: The Top Takeaways From This Week\u2019s 20VC x SaaStr",
+          "url": "https://www.saastr.com/meta-ships-muse-wonder-jev-raises-870m-24-days-after-launch-and-anthropic-cuts-haiku-90-the-top-takeaways-from-this-weeks-20vc-x-saastr/"
+        },
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-10-08",
+          "summary": "General Medicine Lands $120M to Build the Store",
+          "url": "https://digitalhealthwire.com/general-medicine-lands-120m-to-build-the-store/"
+        },
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-09-24",
+          "summary": "OpenEvidence\u2019s Quiet Raise and Loud Pivot",
+          "url": "https://digitalhealthwire.com/openevidences-quiet-raise-and-loud-pivot/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-08",
+          "summary": "Mistral AI raises 3 billion euros in Europe's largest-ever tech funding round despite lagging behind rivals",
+          "url": "https://the-decoder.com/mistral-ai-raises-3-billion-euros-in-europes-largest-ever-tech-funding-round-despite-lagging-behind-rivals/"
+        },
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-09-02",
+          "summary": "The Rise of NeoLabs",
+          "url": "https://radical.vc/articles/the-rise-of-the-neolab/"
+        },
+        {
+          "sector": "Coexistence / Empowerment",
+          "date": "2026-08-04",
+          "summary": "Home Battery Startup Base Power Raises $1 Billion at $13 Billion Valuation",
+          "url": "https://www.esgtoday.com/home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation"
         }
       ]
     },
@@ -6229,69 +6407,6 @@
       ]
     },
     {
-      "fund": "DCVC",
-      "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s), 1 in the last 30d.",
-      "coverage": 5,
-      "sectors": [
-        {
-          "label": "Cybersecurity",
-          "count": 2,
-          "weight": 1.5
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 0.5
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 0.5
-        },
-        {
-          "label": "Coexistence / Empowerment",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 1,
-      "recent90": 5,
-      "prior30": 3,
-      "last_deal_days": 20,
-      "deals": [
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-09-25",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: Cybersecurity, AI And Health Take The Lead",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-ai-health-island-cyera/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-01",
-          "summary": "Generalist AI Ushers In The \u201cGPT-3 Moment for Robotics\u201d",
-          "url": "https://radical.vc/articles/generalist-ai-ushers-in-the-gpt-3-moment-for-robotics/"
-        },
-        {
-          "sector": "Cybersecurity",
-          "date": "2026-08-28",
-          "summary": "The Week\u2019s 10 Biggest Funding Rounds: AI Tools And Assistants Lead Sparser Lineup Of Megadeals",
-          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-tools-assistants-instinct/"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-08-26",
-          "summary": "Data Center Power Solutions Startup Emerald AI Raises $150 Million at Unicorn Valuation",
-          "url": "https://www.esgtoday.com/data-center-power-solutions-startup-emerald-ai-raises-150-million-at-unicorn-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=data-center-power-solutions-startup-emerald-ai-raises-150-million-at-unicorn-valuation"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-07-20",
-          "summary": "Natural raises $30M to reinvent payments for AI agents \u2014 and take on Stripe",
-          "url": "https://techcrunch.com/2026/07/20/natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe/"
-        }
-      ]
-    },
-    {
       "fund": "Centaurus Capital",
       "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 5 attributed deal(s), 5 in the last 30d.",
       "coverage": 5,
@@ -6905,60 +7020,60 @@
       ]
     },
     {
-      "fund": "a16z",
-      "thesis": "Revealed focus: Healthtech / Bio and AI / ML Infra. 5 attributed deal(s), 2 in the last 30d.",
+      "fund": "Thrive",
+      "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 5 attributed deal(s), 3 in the last 30d.",
       "coverage": 5,
       "sectors": [
         {
-          "label": "Healthtech / Bio",
-          "count": 2,
-          "weight": 2.0
-        },
-        {
           "label": "AI / ML Infra",
           "count": 2,
-          "weight": 1.0
+          "weight": 1.5
         },
         {
-          "label": "Coexistence / Empowerment",
+          "label": "Marketing / Ads",
+          "count": 2,
+          "weight": 1.5
+        },
+        {
+          "label": "Fintech / Payments",
           "count": 1,
-          "weight": 0.5
+          "weight": 1.0
         }
       ],
-      "recent30": 2,
+      "recent30": 3,
       "recent90": 5,
-      "prior30": 2,
-      "last_deal_days": 7,
+      "prior30": 0,
+      "last_deal_days": 0,
       "deals": [
         {
-          "sector": "Healthtech / Bio",
-          "date": "2026-10-08",
-          "summary": "General Medicine Lands $120M to Build the Store",
-          "url": "https://digitalhealthwire.com/general-medicine-lands-120m-to-build-the-store/"
+          "sector": "AI / ML Infra",
+          "date": "2026-10-15",
+          "summary": "Meta Ships Muse Wonder, Jev Raises $870M 24 Days After Launch, and Anthropic Cuts Haiku 90%: The Top Takeaways From This Week\u2019s 20VC x SaaStr",
+          "url": "https://www.saastr.com/meta-ships-muse-wonder-jev-raises-870m-24-days-after-launch-and-anthropic-cuts-haiku-90-the-top-takeaways-from-this-weeks-20vc-x-saastr/"
         },
         {
-          "sector": "Healthtech / Bio",
-          "date": "2026-09-24",
-          "summary": "OpenEvidence\u2019s Quiet Raise and Loud Pivot",
-          "url": "https://digitalhealthwire.com/openevidences-quiet-raise-and-loud-pivot/"
+          "sector": "Marketing / Ads",
+          "date": "2026-10-15",
+          "summary": "Meta Ships Muse Wonder, Jev Raises $870M 24 Days After Launch, and Anthropic Cuts Haiku 90%: The Top Takeaways From This Week\u2019s 20VC x SaaStr",
+          "url": "https://www.saastr.com/meta-ships-muse-wonder-jev-raises-870m-24-days-after-launch-and-anthropic-cuts-haiku-90-the-top-takeaways-from-this-weeks-20vc-x-saastr/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-09-15",
+          "summary": "Split Pay Raises $125 Million to Bring BNPL to Big Expenses",
+          "url": "https://www.pymnts.com/bnpl/2026/split-pay-raises-125-million-dollars-bring-bnpl-big-expenses/"
         },
         {
           "sector": "AI / ML Infra",
-          "date": "2026-09-08",
-          "summary": "Mistral AI raises 3 billion euros in Europe's largest-ever tech funding round despite lagging behind rivals",
-          "url": "https://the-decoder.com/mistral-ai-raises-3-billion-euros-in-europes-largest-ever-tech-funding-round-despite-lagging-behind-rivals/"
+          "date": "2026-08-05",
+          "summary": "Airtable Just Sold for $2.25B at 2.7x ARR. It Raised $1.4B and Was Once Worth $11.7B. This Was \u2026 Market",
+          "url": "https://www.saastr.com/airtable-just-sold-for-2-25b-at-2-7x-arr-it-raised-1-4b-and-was-once-worth-11-7b/"
         },
         {
-          "sector": "AI / ML Infra",
-          "date": "2026-09-02",
-          "summary": "The Rise of NeoLabs",
-          "url": "https://radical.vc/articles/the-rise-of-the-neolab/"
-        },
-        {
-          "sector": "Coexistence / Empowerment",
-          "date": "2026-08-04",
-          "summary": "Home Battery Startup Base Power Raises $1 Billion at $13 Billion Valuation",
-          "url": "https://www.esgtoday.com/home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation/?utm_source=rss&utm_medium=rss&utm_campaign=home-battery-startup-base-power-raises-1-billion-at-13-billion-valuation"
+          "sector": "Marketing / Ads",
+          "date": "2026-08-05",
+          "summary": "Airtable Just Sold for $2.25B at 2.7x ARR. It Raised $1.4B and Was Once Worth $11.7B. This Was \u2026 Market",
+          "url": "https://www.saastr.com/airtable-just-sold-for-2-25b-at-2-7x-arr-it-raised-1-4b-and-was-once-worth-11-7b/"
         }
       ]
     },
@@ -8020,6 +8135,63 @@
           "date": "2026-08-12",
           "summary": "Form Energy raises $750M to build more 100-hour batteries for the grid",
           "url": "https://techcrunch.com/2026/08/12/form-energy-raises-750m-to-build-more-100-hour-batteries-for-the-grid/"
+        }
+      ]
+    },
+    {
+      "fund": "Neo",
+      "thesis": "Revealed focus: AI / ML Infra and Healthtech / Bio. 4 attributed deal(s), 3 in the last 30d.",
+      "coverage": 4,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Healthtech / Bio",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Marketing / Ads",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Fintech / Payments",
+          "count": 1,
+          "weight": 0.5
+        }
+      ],
+      "recent30": 3,
+      "recent90": 4,
+      "prior30": 1,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-10-15",
+          "summary": "Meta Ships Muse Wonder, Jev Raises $870M 24 Days After Launch, and Anthropic Cuts Haiku 90%: The Top Takeaways From This Week\u2019s 20VC x SaaStr",
+          "url": "https://www.saastr.com/meta-ships-muse-wonder-jev-raises-870m-24-days-after-launch-and-anthropic-cuts-haiku-90-the-top-takeaways-from-this-weeks-20vc-x-saastr/"
+        },
+        {
+          "sector": "Marketing / Ads",
+          "date": "2026-10-15",
+          "summary": "Meta Ships Muse Wonder, Jev Raises $870M 24 Days After Launch, and Anthropic Cuts Haiku 90%: The Top Takeaways From This Week\u2019s 20VC x SaaStr",
+          "url": "https://www.saastr.com/meta-ships-muse-wonder-jev-raises-870m-24-days-after-launch-and-anthropic-cuts-haiku-90-the-top-takeaways-from-this-weeks-20vc-x-saastr/"
+        },
+        {
+          "sector": "Healthtech / Bio",
+          "date": "2026-09-30",
+          "summary": "4 Notable Health Tech Funding Announcements in September",
+          "url": "https://medcitynews.com/2026/09/4-notable-health-tech-funding-announcements-in-september/"
+        },
+        {
+          "sector": "Fintech / Payments",
+          "date": "2026-08-19",
+          "summary": "AI Startup Etched Takes Just One Month to Double in Valuation",
+          "url": "https://www.crowdfundinsider.com/2026/08/299030-ai-startup-etched-takes-just-one-month-to-double-in-valuation/"
         }
       ]
     },
@@ -10888,52 +11060,6 @@
           "date": "2026-09-16",
           "summary": "London based Stablecoin Firm Velocity Draws Visa, Circle and Ripple in $10M Series A Extension",
           "url": "https://www.crowdfundinsider.com/2026/09/310579-london-based-stablecoin-firm-velocity-draws-visa-circle-and-ripple-in-10m-series-a-extension/"
-        }
-      ]
-    },
-    {
-      "fund": "Thrive",
-      "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 3 attributed deal(s), 1 in the last 30d.",
-      "coverage": 3,
-      "sectors": [
-        {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "AI / ML Infra",
-          "count": 1,
-          "weight": 0.5
-        },
-        {
-          "label": "Marketing / Ads",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 1,
-      "recent90": 3,
-      "prior30": 0,
-      "last_deal_days": 30,
-      "deals": [
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-09-15",
-          "summary": "Split Pay Raises $125 Million to Bring BNPL to Big Expenses",
-          "url": "https://www.pymnts.com/bnpl/2026/split-pay-raises-125-million-dollars-bring-bnpl-big-expenses/"
-        },
-        {
-          "sector": "AI / ML Infra",
-          "date": "2026-08-05",
-          "summary": "Airtable Just Sold for $2.25B at 2.7x ARR. It Raised $1.4B and Was Once Worth $11.7B. This Was \u2026 Market",
-          "url": "https://www.saastr.com/airtable-just-sold-for-2-25b-at-2-7x-arr-it-raised-1-4b-and-was-once-worth-11-7b/"
-        },
-        {
-          "sector": "Marketing / Ads",
-          "date": "2026-08-05",
-          "summary": "Airtable Just Sold for $2.25B at 2.7x ARR. It Raised $1.4B and Was Once Worth $11.7B. This Was \u2026 Market",
-          "url": "https://www.saastr.com/airtable-just-sold-for-2-25b-at-2-7x-arr-it-raised-1-4b-and-was-once-worth-11-7b/"
         }
       ]
     },
@@ -16124,41 +16250,6 @@
       ]
     },
     {
-      "fund": "Neo",
-      "thesis": "Revealed focus: Healthtech / Bio and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
-      "coverage": 2,
-      "sectors": [
-        {
-          "label": "Healthtech / Bio",
-          "count": 1,
-          "weight": 1.0
-        },
-        {
-          "label": "Fintech / Payments",
-          "count": 1,
-          "weight": 0.5
-        }
-      ],
-      "recent30": 1,
-      "recent90": 2,
-      "prior30": 1,
-      "last_deal_days": 15,
-      "deals": [
-        {
-          "sector": "Healthtech / Bio",
-          "date": "2026-09-30",
-          "summary": "4 Notable Health Tech Funding Announcements in September",
-          "url": "https://medcitynews.com/2026/09/4-notable-health-tech-funding-announcements-in-september/"
-        },
-        {
-          "sector": "Fintech / Payments",
-          "date": "2026-08-19",
-          "summary": "AI Startup Etched Takes Just One Month to Double in Valuation",
-          "url": "https://www.crowdfundinsider.com/2026/08/299030-ai-startup-etched-takes-just-one-month-to-double-in-valuation/"
-        }
-      ]
-    },
-    {
       "fund": "Primary",
       "thesis": "Revealed focus: Fintech / Payments. 2 attributed deal(s).",
       "coverage": 2,
@@ -16385,6 +16476,41 @@
           "date": "2026-07-20",
           "summary": "Alpaca\u2019s $135M Round Leads Busy Week of Fintech Funding, Acquisitions",
           "url": "https://www.crowdfundinsider.com/2026/07/292341-alpacas-135m-round-leads-busy-week-of-fintech-funding-acquisitions/"
+        }
+      ]
+    },
+    {
+      "fund": "Day One Ventures",
+      "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 2 attributed deal(s), 2 in the last 30d.",
+      "coverage": 2,
+      "sectors": [
+        {
+          "label": "AI / ML Infra",
+          "count": 1,
+          "weight": 1.0
+        },
+        {
+          "label": "Marketing / Ads",
+          "count": 1,
+          "weight": 1.0
+        }
+      ],
+      "recent30": 2,
+      "recent90": 2,
+      "prior30": 0,
+      "last_deal_days": 0,
+      "deals": [
+        {
+          "sector": "AI / ML Infra",
+          "date": "2026-10-15",
+          "summary": "Meta Ships Muse Wonder, Jev Raises $870M 24 Days After Launch, and Anthropic Cuts Haiku 90%: The Top Takeaways From This Week\u2019s 20VC x SaaStr",
+          "url": "https://www.saastr.com/meta-ships-muse-wonder-jev-raises-870m-24-days-after-launch-and-anthropic-cuts-haiku-90-the-top-takeaways-from-this-weeks-20vc-x-saastr/"
+        },
+        {
+          "sector": "Marketing / Ads",
+          "date": "2026-10-15",
+          "summary": "Meta Ships Muse Wonder, Jev Raises $870M 24 Days After Launch, and Anthropic Cuts Haiku 90%: The Top Takeaways From This Week\u2019s 20VC x SaaStr",
+          "url": "https://www.saastr.com/meta-ships-muse-wonder-jev-raises-870m-24-days-after-launch-and-anthropic-cuts-haiku-90-the-top-takeaways-from-this-weeks-20vc-x-saastr/"
         }
       ]
     },
@@ -19925,10 +20051,10 @@
       },
       {
         "fund": "Sequoia",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 16 attributed deal(s), 2 in the last 30d.",
-        "coverage": 16,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 18 attributed deal(s), 4 in the last 30d.",
+        "coverage": 18,
         "sector_count": 8,
-        "recent30": 2
+        "recent30": 4
       },
       {
         "fund": "Valor Equity Partners",
@@ -20002,10 +20128,10 @@
       },
       {
         "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 21 attributed deal(s), 6 in the last 30d.",
-        "coverage": 21,
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 22 attributed deal(s), 7 in the last 30d.",
+        "coverage": 22,
         "sector_count": 5,
-        "recent30": 6
+        "recent30": 7
       },
       {
         "fund": "Breakthrough Energy Ventures",
@@ -20267,6 +20393,13 @@
         "recent30": 5
       },
       {
+        "fund": "DCVC",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 7 attributed deal(s), 3 in the last 30d.",
+        "coverage": 7,
+        "sector_count": 2,
+        "recent30": 3
+      },
+      {
         "fund": "Energy Impact Partners",
         "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 7 attributed deal(s), 1 in the last 30d.",
         "coverage": 7,
@@ -20335,13 +20468,6 @@
         "coverage": 6,
         "sector_count": 2,
         "recent30": 0
-      },
-      {
-        "fund": "DCVC",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s), 1 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 2,
-        "recent30": 1
       },
       {
         "fund": "Centaurus Capital",
@@ -22209,10 +22335,10 @@
       },
       {
         "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 21 attributed deal(s), 6 in the last 30d.",
-        "coverage": 21,
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 22 attributed deal(s), 7 in the last 30d.",
+        "coverage": 22,
         "sector_count": 1,
-        "recent30": 6
+        "recent30": 7
       },
       {
         "fund": "Radical Ventures",
@@ -22278,6 +22404,13 @@
         "recent30": 0
       },
       {
+        "fund": "DCVC",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 7 attributed deal(s), 3 in the last 30d.",
+        "coverage": 7,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "IDG Capital",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 7 attributed deal(s), 3 in the last 30d.",
         "coverage": 7,
@@ -22320,13 +22453,6 @@
         "recent30": 2
       },
       {
-        "fund": "DCVC",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s), 1 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 1,
-        "recent30": 1
-      },
-      {
         "fund": "NightDragon",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s).",
         "coverage": 5,
@@ -22339,6 +22465,13 @@
         "coverage": 5,
         "sector_count": 1,
         "recent30": 2
+      },
+      {
+        "fund": "Thrive",
+        "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 5 attributed deal(s), 3 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 1,
+        "recent30": 3
       },
       {
         "fund": "Aramco Ventures",
@@ -22388,6 +22521,13 @@
         "coverage": 4,
         "sector_count": 1,
         "recent30": 0
+      },
+      {
+        "fund": "Neo",
+        "thesis": "Revealed focus: AI / ML Infra and Healthtech / Bio. 4 attributed deal(s), 3 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 3
       },
       {
         "fund": "QED",
@@ -22532,13 +22672,6 @@
       {
         "fund": "Trust Ventures",
         "thesis": "Revealed focus: Coexistence / Empowerment and Fintech / Payments. 3 attributed deal(s), 1 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 1
-      },
-      {
-        "fund": "Thrive",
-        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 3 attributed deal(s), 1 in the last 30d.",
         "coverage": 3,
         "sector_count": 1,
         "recent30": 1
@@ -22719,13 +22852,6 @@
         "recent30": 0
       },
       {
-        "fund": "Neo",
-        "thesis": "Revealed focus: Healthtech / Bio and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
-      },
-      {
         "fund": "Octopus Ventures",
         "thesis": "Revealed focus: Coexistence / Empowerment and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
         "coverage": 2,
@@ -22868,18 +22994,18 @@
         "recent30": 3
       },
       {
-        "fund": "First Round Capital",
-        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 7 attributed deal(s), 4 in the last 30d.",
+        "fund": "a16z",
+        "thesis": "Revealed focus: AI / ML Infra and Healthtech / Bio. 7 attributed deal(s), 4 in the last 30d.",
         "coverage": 7,
         "sector_count": 2,
         "recent30": 4
       },
       {
-        "fund": "a16z",
-        "thesis": "Revealed focus: Healthtech / Bio and AI / ML Infra. 5 attributed deal(s), 2 in the last 30d.",
-        "coverage": 5,
+        "fund": "First Round Capital",
+        "thesis": "Revealed focus: Cybersecurity and Healthtech / Bio. 7 attributed deal(s), 4 in the last 30d.",
+        "coverage": 7,
         "sector_count": 2,
-        "recent30": 2
+        "recent30": 4
       },
       {
         "fund": "Pear VC",
@@ -22953,10 +23079,10 @@
       },
       {
         "fund": "Sequoia",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 16 attributed deal(s), 2 in the last 30d.",
-        "coverage": 16,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 18 attributed deal(s), 4 in the last 30d.",
+        "coverage": 18,
         "sector_count": 1,
-        "recent30": 2
+        "recent30": 4
       },
       {
         "fund": "Menlo Ventures",
@@ -23010,6 +23136,13 @@
       {
         "fund": "Norwest",
         "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 4 attributed deal(s), 3 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
+        "fund": "Neo",
+        "thesis": "Revealed focus: AI / ML Infra and Healthtech / Bio. 4 attributed deal(s), 3 in the last 30d.",
         "coverage": 4,
         "sector_count": 1,
         "recent30": 3
@@ -23141,13 +23274,6 @@
         "recent30": 0
       },
       {
-        "fund": "Neo",
-        "thesis": "Revealed focus: Healthtech / Bio and Fintech / Payments. 2 attributed deal(s), 1 in the last 30d.",
-        "coverage": 2,
-        "sector_count": 1,
-        "recent30": 1
-      },
-      {
         "fund": "RA Capital",
         "thesis": "Revealed focus: Coexistence / Empowerment and Healthtech / Bio. 2 attributed deal(s), 1 in the last 30d.",
         "coverage": 2,
@@ -23185,6 +23311,13 @@
         "recent30": 3
       },
       {
+        "fund": "Sequoia",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 18 attributed deal(s), 4 in the last 30d.",
+        "coverage": 18,
+        "sector_count": 5,
+        "recent30": 4
+      },
+      {
         "fund": "Benchmark",
         "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 11 attributed deal(s), 1 in the last 30d.",
         "coverage": 11,
@@ -23197,13 +23330,6 @@
         "coverage": 20,
         "sector_count": 4,
         "recent30": 10
-      },
-      {
-        "fund": "Sequoia",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 16 attributed deal(s), 2 in the last 30d.",
-        "coverage": 16,
-        "sector_count": 4,
-        "recent30": 2
       },
       {
         "fund": "Insight Partners",
@@ -23253,6 +23379,13 @@
         "coverage": 8,
         "sector_count": 3,
         "recent30": 0
+      },
+      {
+        "fund": "a16z",
+        "thesis": "Revealed focus: AI / ML Infra and Healthtech / Bio. 7 attributed deal(s), 4 in the last 30d.",
+        "coverage": 7,
+        "sector_count": 3,
+        "recent30": 4
       },
       {
         "fund": "Theory Ventures",
@@ -23311,6 +23444,13 @@
         "recent30": 0
       },
       {
+        "fund": "DCVC",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 7 attributed deal(s), 3 in the last 30d.",
+        "coverage": 7,
+        "sector_count": 2,
+        "recent30": 3
+      },
+      {
         "fund": "Greenoaks",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 7 attributed deal(s).",
         "coverage": 7,
@@ -23367,11 +23507,11 @@
         "recent30": 2
       },
       {
-        "fund": "a16z",
-        "thesis": "Revealed focus: Healthtech / Bio and AI / ML Infra. 5 attributed deal(s), 2 in the last 30d.",
+        "fund": "Thrive",
+        "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 5 attributed deal(s), 3 in the last 30d.",
         "coverage": 5,
         "sector_count": 2,
-        "recent30": 2
+        "recent30": 3
       },
       {
         "fund": "Vine Ventures",
@@ -23570,13 +23710,6 @@
         "recent30": 3
       },
       {
-        "fund": "DCVC",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s), 1 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 1,
-        "recent30": 1
-      },
-      {
         "fund": "Meta",
         "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 5 attributed deal(s), 5 in the last 30d.",
         "coverage": 5,
@@ -23617,6 +23750,13 @@
         "coverage": 4,
         "sector_count": 1,
         "recent30": 0
+      },
+      {
+        "fund": "Neo",
+        "thesis": "Revealed focus: AI / ML Infra and Healthtech / Bio. 4 attributed deal(s), 3 in the last 30d.",
+        "coverage": 4,
+        "sector_count": 1,
+        "recent30": 3
       },
       {
         "fund": "Eurazeo",
@@ -23729,13 +23869,6 @@
         "coverage": 3,
         "sector_count": 1,
         "recent30": 0
-      },
-      {
-        "fund": "Thrive",
-        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 3 attributed deal(s), 1 in the last 30d.",
-        "coverage": 3,
-        "sector_count": 1,
-        "recent30": 1
       },
       {
         "fund": "Lakestar",
@@ -23990,6 +24123,13 @@
         "recent30": 0
       },
       {
+        "fund": "Day One Ventures",
+        "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
+      },
+      {
         "fund": "Non Sibi Ventures",
         "thesis": "Revealed focus: AI / ML Infra and Space Tech. 2 attributed deal(s), 2 in the last 30d.",
         "coverage": 2,
@@ -24189,10 +24329,10 @@
       },
       {
         "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 21 attributed deal(s), 6 in the last 30d.",
-        "coverage": 21,
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 22 attributed deal(s), 7 in the last 30d.",
+        "coverage": 22,
         "sector_count": 4,
-        "recent30": 6
+        "recent30": 7
       },
       {
         "fund": "Breakthrough Energy Ventures",
@@ -24203,10 +24343,10 @@
       },
       {
         "fund": "Sequoia",
-        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 16 attributed deal(s), 2 in the last 30d.",
-        "coverage": 16,
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 18 attributed deal(s), 4 in the last 30d.",
+        "coverage": 18,
         "sector_count": 3,
-        "recent30": 2
+        "recent30": 4
       },
       {
         "fund": "Valor Equity Partners",
@@ -24982,10 +25122,10 @@
       },
       {
         "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 21 attributed deal(s), 6 in the last 30d.",
-        "coverage": 21,
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 22 attributed deal(s), 7 in the last 30d.",
+        "coverage": 22,
         "sector_count": 2,
-        "recent30": 6
+        "recent30": 7
       },
       {
         "fund": "Accel",
@@ -25488,10 +25628,10 @@
     "Coexistence / Empowerment": [
       {
         "fund": "Google",
-        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 21 attributed deal(s), 6 in the last 30d.",
-        "coverage": 21,
-        "sector_count": 9,
-        "recent30": 6
+        "thesis": "Revealed focus: Coexistence / Empowerment and Cybersecurity. 22 attributed deal(s), 7 in the last 30d.",
+        "coverage": 22,
+        "sector_count": 10,
+        "recent30": 7
       },
       {
         "fund": "ICE",
@@ -25879,11 +26019,25 @@
         "recent30": 2
       },
       {
+        "fund": "DCVC",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 7 attributed deal(s), 3 in the last 30d.",
+        "coverage": 7,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "CapitalG",
         "thesis": "Revealed focus: Cybersecurity and Space Tech. 7 attributed deal(s), 1 in the last 30d.",
         "coverage": 7,
         "sector_count": 1,
         "recent30": 1
+      },
+      {
+        "fund": "a16z",
+        "thesis": "Revealed focus: AI / ML Infra and Healthtech / Bio. 7 attributed deal(s), 4 in the last 30d.",
+        "coverage": 7,
+        "sector_count": 1,
+        "recent30": 4
       },
       {
         "fund": "Temasek",
@@ -25914,13 +26068,6 @@
         "recent30": 0
       },
       {
-        "fund": "DCVC",
-        "thesis": "Revealed focus: Cybersecurity and Fintech / Payments. 5 attributed deal(s), 1 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 1,
-        "recent30": 1
-      },
-      {
         "fund": "Centaurus Capital",
         "thesis": "Revealed focus: Cybersecurity and Climate / Energy. 5 attributed deal(s), 5 in the last 30d.",
         "coverage": 5,
@@ -25940,13 +26087,6 @@
         "coverage": 5,
         "sector_count": 1,
         "recent30": 0
-      },
-      {
-        "fund": "a16z",
-        "thesis": "Revealed focus: Healthtech / Bio and AI / ML Infra. 5 attributed deal(s), 2 in the last 30d.",
-        "coverage": 5,
-        "sector_count": 1,
-        "recent30": 2
       },
       {
         "fund": "Clutterbuck Capital",
@@ -26252,6 +26392,13 @@
         "recent30": 0
       },
       {
+        "fund": "Thrive",
+        "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 5 attributed deal(s), 3 in the last 30d.",
+        "coverage": 5,
+        "sector_count": 2,
+        "recent30": 3
+      },
+      {
         "fund": "Nvidia",
         "thesis": "Revealed focus: AI / ML Infra and Cybersecurity. 31 attributed deal(s), 6 in the last 30d.",
         "coverage": 31,
@@ -26264,6 +26411,13 @@
         "coverage": 20,
         "sector_count": 1,
         "recent30": 10
+      },
+      {
+        "fund": "Sequoia",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 18 attributed deal(s), 4 in the last 30d.",
+        "coverage": 18,
+        "sector_count": 1,
+        "recent30": 4
       },
       {
         "fund": "Benchmark",
@@ -26280,6 +26434,13 @@
         "recent30": 1
       },
       {
+        "fund": "DCVC",
+        "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 7 attributed deal(s), 3 in the last 30d.",
+        "coverage": 7,
+        "sector_count": 1,
+        "recent30": 3
+      },
+      {
         "fund": "Greenoaks",
         "thesis": "Revealed focus: Cybersecurity and AI / ML Infra. 7 attributed deal(s).",
         "coverage": 7,
@@ -26292,6 +26453,13 @@
         "coverage": 7,
         "sector_count": 1,
         "recent30": 1
+      },
+      {
+        "fund": "a16z",
+        "thesis": "Revealed focus: AI / ML Infra and Healthtech / Bio. 7 attributed deal(s), 4 in the last 30d.",
+        "coverage": 7,
+        "sector_count": 1,
+        "recent30": 4
       },
       {
         "fund": "S32",
@@ -26308,11 +26476,18 @@
         "recent30": 0
       },
       {
-        "fund": "Thrive",
-        "thesis": "Revealed focus: Fintech / Payments and AI / ML Infra. 3 attributed deal(s), 1 in the last 30d.",
-        "coverage": 3,
+        "fund": "Neo",
+        "thesis": "Revealed focus: AI / ML Infra and Healthtech / Bio. 4 attributed deal(s), 3 in the last 30d.",
+        "coverage": 4,
         "sector_count": 1,
-        "recent30": 1
+        "recent30": 3
+      },
+      {
+        "fund": "Day One Ventures",
+        "thesis": "Revealed focus: AI / ML Infra and Marketing / Ads. 2 attributed deal(s), 2 in the last 30d.",
+        "coverage": 2,
+        "sector_count": 1,
+        "recent30": 2
       },
       {
         "fund": "Baobab Ventures",
